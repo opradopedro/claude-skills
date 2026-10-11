@@ -18,7 +18,7 @@ Para a página de GTA 6, leia também a skill `pagina-gta6-conteudo` (linha edit
 ### 1. Achar o post gringo
 Escolha a rota pelo que a sessão tem:
 - **Com navegador (Claude no PC, navegador do app ou Claude in Chrome, logado no Instagram da página):** abrir instagram.com, ver os perfis gringos de referência e as buscas #gta6, e escolher o post com mais engajamento (views, curtidas, comentários) dos últimos 1 a 3 dias. Copiar o link. Assistir no próprio navegador e tirar prints dos quadros que importam. Só usar site de download de vídeo do Instagram se não der para ver o post e extrair as imagens de outro jeito.
-- **Sem navegador (sessão na nuvem, tarefa agendada):** o Instagram e o TikTok ficam bloqueados para download. Usar `vidiq_instagram_tiktok_outlier_search` (5 créditos) com público "Culture/Region: United States/American; Global: false; Demographics: gamers 16-30, fans of the niche;", posts dos últimos 3 dias, 50 mil views ou mais, 10 resultados por plataforma. Ele devolve legenda, gancho, formato e views. As imagens saem do nosso banco de imagens oficiais (`assets/`). `vidiq_watch_shortform_content` (10 créditos) descreve o vídeo cena por cena quando o texto do post não basta.
+- **Sem navegador (sessão na nuvem, tarefa agendada):** o Instagram e o TikTok ficam bloqueados para download. Usar `vidiq_instagram_tiktok_outlier_search` (5 créditos) com público "Culture/Region: United States/American; Global: false; Demographics: gamers 16-30, fans of the niche;", posts dos últimos 3 dias, 50 mil views ou mais, 10 resultados por plataforma. Ele devolve legenda, gancho, formato e views. As imagens saem do nosso banco de imagens oficiais (`assets/`). Fazer no máximo uma busca dessas por dia e salvar o resultado (`pesquisa/AAAA-MM-DD.json` no branch) para os outros slots; sem crédito, achar o assunto do momento por WebSearch (Reddit r/GTA6, sites gringos de games das últimas 48 h). `vidiq_watch_shortform_content` (10 créditos) descreve o vídeo cena por cena quando o texto do post não basta.
 
 ### 2. Filtrar
 - Só entra post do nicho com o fato checado na imprensa (WebSearch). Se a gringa espalhou algo falso ou já desmentido, o post vira "é mentira", que prende ainda mais.
@@ -45,7 +45,7 @@ Nada de texto acima de y=170 (cabeçalho do Instagram), abaixo de y=1690 (nome e
 - Atualizar `agenda.json` (status "postado", link, `fonte_gringa`) com commit no branch e avisar o Pedro com o link.
 
 ## Quando não houver post gringo inédito
-Em ordem: notícia de última hora autoral no estilo Flow Games (fatos das últimas 48 h); conteúdo atemporal que ainda não saiu (guia, comparação, golpe, curiosidade); lembrete que viraliza (contagem regressiva para o lançamento, "salva pra não esquecer"). Nunca repetir um vídeo já postado.
+Em ordem: notícia de última hora autoral no estilo Flow Games (fatos das últimas 48 h); conteúdo atemporal que ainda não saiu (guia, comparação, golpe, curiosidade); lembrete que viraliza (contagem regressiva para o lançamento, "salva pra não esquecer"). Nunca repetir um vídeo já postado. Se a agenda acabar, a tarefa cria sozinha os itens do dia seguindo a mistura abaixo.
 
 ## Mistura do dia (3 slots)
 - 12h: radar da gringa (post viral traduzido).
