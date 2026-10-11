@@ -17,8 +17,9 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageEnhance
 W, H, FPS = 1080, 1920, 30
 PANEL_Y, PANEL_H = 420, 1010
 # area segura do Reels: topo (cabecalho do IG) ate ~170, rodape (nome/legenda) a partir de ~1690,
-# coluna de icones a direita (x > ~930) a partir de y ~1090. Textos ficam centrados em CX.
-CX, SAFE_W = 470, 840
+# coluna de icones a direita (x > ~930) a partir de y ~1090. Textos centrados na tela (CX=540),
+# com largura maxima SAFE_W para nao encostar nos icones.
+CX, SAFE_W, HEAD_W = 540, 740, 880
 CAP_Y = PANEL_Y + PANEL_H - 340
 ORANGE, PINK = (255, 150, 0), (255, 46, 136)
 
@@ -61,7 +62,7 @@ def prep_scene(path, cx):
 
 
 def fit_font(draw, text, font_path, max_w, size):
-    while size > 40:
+    while size > 18:
         f = ImageFont.truetype(font_path, size)
         if draw.textlength(text, font=f) <= max_w:
             return f
@@ -95,20 +96,20 @@ def main(cfg_path):
     # camada fixa (topo e rodape)
     top = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(top)
-    lines, hf = wrap(d, cfg["headline"], font, SAFE_W, 92)
-    y = 190 if len(lines) > 1 else 260
+    lines, hf = wrap(d, cfg["headline"], font, HEAD_W, 72)
+    y = 200 if len(lines) > 1 else 250
     for ln in lines:
         tw = d.textlength(ln, font=hf)
-        d.text((CX - tw / 2, y), ln, font=hf, fill="white", stroke_width=6, stroke_fill="black")
-        y += hf.size + 6
+        d.text((CX - tw / 2, y), ln, font=hf, fill="white", stroke_width=5, stroke_fill="black")
+        y += hf.size + 8
     src = cfg.get("source", "")
-    sf = fit_font(d, src, font, SAFE_W, 34)
+    sf = fit_font(d, src, font, SAFE_W, 28)
     d.text((CX - d.textlength(src, font=sf) / 2, PANEL_Y + PANEL_H + 30), src, font=sf, fill=(220, 220, 220))
-    hfnt = ImageFont.truetype(font, 52)
-    hw = 110 + d.textlength(cfg.get("handle", ""), font=hfnt)
+    hfnt = ImageFont.truetype(font, 42)
+    hw = 86 + d.textlength(cfg.get("handle", ""), font=hfnt)
     lx = int(CX - hw / 2)
-    top.paste(logo.resize((90, 90)), (lx, 1540), mask.resize((90, 90)))
-    d.text((lx + 110, 1555), cfg.get("handle", ""), font=hfnt, fill="white")
+    top.paste(logo.resize((70, 70)), (lx, 1545), mask.resize((70, 70)))
+    d.text((lx + 86, 1552), cfg.get("handle", ""), font=hfnt, fill="white")
     d.rectangle((0, PANEL_Y - 8, W, PANEL_Y - 2), fill=PINK)
     d.rectangle((0, PANEL_Y + PANEL_H + 2, W, PANEL_Y + PANEL_H + 8), fill=ORANGE)
 
@@ -159,12 +160,12 @@ def main(cfg_path):
             if key not in cap_cache:
                 layer = Image.new("RGBA", (W, 380), (0, 0, 0, 0))
                 dl = ImageDraw.Draw(layer)
-                cl, cf = wrap(dl, cap["text"], font, SAFE_W, 130 if cap.get("hl") else 104)
+                cl, cf = wrap(dl, cap["text"], font, SAFE_W, 100 if cap.get("hl") else 84)
                 yy = 10
                 for ln in cl:
                     tw = dl.textlength(ln, font=cf)
                     dl.text((CX - tw / 2, yy), ln, font=cf, fill=ORANGE if cap.get("hl") else "white",
-                            stroke_width=9, stroke_fill="black")
+                            stroke_width=7, stroke_fill="black")
                     yy += cf.size + 4
                 cap_cache[key] = layer
             layer = cap_cache[key]

@@ -21,7 +21,7 @@ Lido pela tarefa agendada "Radar GTA: publicação diária", que roda 3 vezes po
 6. Depois de publicar: marcar "postado" com o link em agenda.json (commit neste branch) e avisar o Pedro com o link.
 
 ## Layout (área segura do Reels)
-Nada de texto acima de y=170 (cabeçalho do Instagram), abaixo de y=1690 (nome e legenda) nem à direita de x=930 a partir de y=1090 (ícones). O make_reel.py já respeita isso.
+Nada de texto acima de y=170 (cabeçalho do Instagram), abaixo de y=1690 (nome e legenda) nem à direita de x=930 a partir de y=1090 (ícones). O make_reel.py já respeita isso: todos os textos centralizados em x=540, com largura máxima de 740 px na legenda e fontes menores (título 72, legenda 84 e destaque 100, fontes 28, @ 42).
 
 ## Linha editorial
 - Notícia de última hora, post gringo traduzido ou conteúdo atemporal. Nada de notícia velha contada como novidade.
