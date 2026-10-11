@@ -40,7 +40,8 @@ Gancho na primeira linha (é o que a tarefa usa para não repetir), 2 a 3 linhas
 ## Pauta semanal (quando o Pedro pedir)
 Tabela com dia, hora (12h, 18h, 21h), fonte de pauta (gringa, autoral ou atemporal), tema, gancho, inspiração gringa (perfil e views) e fonte. Os itens vão para `agenda.json` com status "pendente" (vídeo pronto) ou "produzir" (a tarefa agendada faz).
 
-## Memes e achados Shopee
+## Memes, carrosséis e achados Shopee
+- Carrossel: texto slide a slide (máx. 8 slides, até 25 palavras por slide), capa com promessa clara.
 - Memes gringos traduzidos (texto + imagem, áudio em alta escolhido no app) para quando o Pedro postar à mão.
 - Achados: produtos de GTA que viralizaram na gringa (ex.: abajur de dinheiro que levita, projetor temático) e 3 temáticos por semana para os stories, com texto. O Pedro cola o link de afiliado.
 
