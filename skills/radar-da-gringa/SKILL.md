@@ -30,7 +30,7 @@ Escolha a rota pelo que a sessão tem:
 - Roteiro de 550 a 650 caracteres (35 a 40 s), gancho nos 2 primeiros segundos, pergunta no fim para puxar comentário.
 - Imagens: as do post gringo (prints) quando vieram pelo navegador; senão, as oficiais de `assets/`. Variar as imagens e o enquadramento (`cx`) entre um vídeo e outro para a página não parecer repetida.
 - Narração: vidIQ, voz Liam (TX3LPaxmHKxFdv7VOQHJ), cerca de 14 créditos. Conferir `vidiq_balance` antes.
-- Montagem com os scripts do branch `pipeline/` (as mesmas cópias ficam em `skills/radar-da-gringa/scripts/` no branch main):
+- Montagem com os scripts da pasta `pipeline/` do branch `radar-gta6-midia` (as mesmas cópias ficam em `skills/radar-da-gringa/scripts/` no branch main):
   1. `spec.json` com `audio`, `out`, `headline`, `source`, `images` ([arquivo, cx]), `text` (o roteiro exato narrado) e `merge` (trecho falado por extenso para o que aparece na tela, por exemplo `{"quatorze ponto dez": "14.10"}`).
   2. `python3 auto_config.py spec.json` gera o `config.json`. O `align2.py` cronometra a legenda pelas pausas reais da fala, sem Whisper (que fica bloqueado na nuvem).
   3. `python3 make_reel.py config.json` monta o 1080x1920. Rode uma montagem por vez por pasta e espere o processo terminar antes de copiar o arquivo.
