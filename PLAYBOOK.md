@@ -14,9 +14,9 @@ Lido pela tarefa agendada "Radar GTA: publicação diária", que roda 3 vezes po
    - Tema "Radar da gringa": vidiq_instagram_tiktok_outlier_search (público EUA, últimos 3 dias, 50 mil views ou mais). Escolher o post de GTA 6 com mais views que ainda não foi usado (conferir `fonte_gringa` em agenda.json). Checar o fato na imprensa (WebSearch). Traduzir e adaptar o texto.
    - Tema "Autoral": notícia de GTA 6 das últimas 48 h, no estilo Flow Games.
    - Sem notícia nova nem post gringo inédito: Reel atemporal ou lembrete (contagem regressiva para 19/11, edições, golpes, curiosidades) que não repita tema já postado.
-   - Roteiro de 550 a 650 caracteres, narração no vidIQ (voz TX3LPaxmHKxFdv7VOQHJ, cerca de 14 créditos), montagem com `pipeline/auto_config.py` (com `text` e `merge` no spec, sem Whisper) e `pipeline/make_reel.py` (layout já dentro da área segura do Reels), imagens de `assets/`, variando as imagens e o `cx` entre vídeos.
+   - Roteiro de 550 a 650 caracteres. Narração: se a variável GOOGLE_TTS_API_KEY existir, `python3 pipeline/tts_google.py roteiro.txt voz.mp3` (grátis); senão, vidIQ (voz TX3LPaxmHKxFdv7VOQHJ, cerca de 14 créditos). Depois, montagem com `pipeline/auto_config.py` (com `text` e `merge` no spec, sem Whisper) e `pipeline/make_reel.py` (layout já dentro da área segura do Reels), imagens de `assets/`, variando as imagens e o `cx` entre vídeos.
    - Subir o mp4 neste branch, publicar e registrar em agenda.json (`arquivo`, `legenda`, `fonte_gringa` quando houver).
-   - **Sem crédito para narração (vidiq_balance abaixo de 14):** não publicar e avisar o Pedro uma vez por dia.
+   - **Sem Google TTS e sem crédito no vidIQ (vidiq_balance abaixo de 14):** não publicar e avisar o Pedro uma vez por dia.
 5. Sem item para o slot de agora: não publicar nada.
 6. Depois de publicar: marcar "postado" com o link em agenda.json (commit neste branch) e avisar o Pedro com o link.
 
