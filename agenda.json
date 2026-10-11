@@ -1,17 +1,156 @@
 {
- "conta": {"username": "radar.gta6br", "platformAccountId": "39284372604541437"},
- "horario": "18h (America/Sao_Paulo)",
+ "conta": {
+  "username": "radar.gta6br",
+  "platformAccountId": "39284372604541437"
+ },
+ "horario": "12h, 18h e 21h (America/Sao_Paulo), 3 Reels por dia",
  "posts": [
-  {"data": "2026-10-11", "arquivo": "radar_v2_noticias.mp4", "status": "postado", "link": "https://www.instagram.com/reel/DeWv5ONFR3W/"},
-  {"data": "2026-10-12", "arquivo": "radar_v3_ultimate.mp4", "status": "pendente",
-   "legenda": "Ultimate ou Padrão? A diferença é de R$ 100 💸\n\nPadrão (R$ 449,90): o jogo + pacote Vintage Vice City na pré-venda\nUltimate (R$ 549,90): tudo isso + Grotti Cheetah, revólver Hawk & Little Morgan, roupas, tatuagens e lojas extras\n\nQual você vai pegar? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity #ps5 #xboxseriesx"},
-  {"data": "2026-10-13", "arquivo": "radar_v4_midia_fisica.mp4", "status": "pendente",
-   "legenda": "A caixa de GTA 6 não vem com disco 📦\n\nNo lançamento vem só um código pra baixar. Segundo o suporte da Rockstar, o disco chega nos meses seguintes.\n\nDisco ou digital? Comenta 👇\nSalva e manda pro amigo que ia comprar a caixa.\n\n#gta6 #gtavi #gta6brasil #rockstargames #ps5 #xboxseriesx #midiafisica"},
-  {"data": "2026-10-14", "arquivo": "radar_v5_mecanicas.mp4", "status": "pendente",
-   "legenda": "GTA 6 tá com cara de San Andreas 💪\n\nComer, treinar e dormir mudam o corpo do Jason e da Lucia. E ainda tem caiaque, zoológico, sinuca, mini-golfe, luta livre e corrida de rua.\n\nQual você faz primeiro? Comenta 👇\n\n#gta6 #gtavi #gtasanandreas #gta6brasil #rockstargames #vicecity"},
-  {"data": "2026-10-15", "arquivo": null, "status": "produzir", "tema": "Última hora: notícias de GTA 6 de 10/10 a 15/10"},
-  {"data": "2026-10-16", "arquivo": "radar_v6_golpe_pc.mp4", "status": "pendente",
-   "legenda": "⚠️ GTA 6 pra PC é GOLPE\n\nNão existe versão oficial pra computador. Os instaladores que estão circulando vêm com vírus. Até agora: só PS5 e Xbox Series.\n\nManda pro amigo que baixa tudo 👇\n\n#gta6 #gtavi #gta6pc #golpe #gta6brasil #rockstargames"},
-  {"data": "2026-10-17", "arquivo": null, "status": "produzir", "tema": "Última hora: resumo da semana + contagem regressiva (33 dias)"}
+  {
+   "data": "2026-10-11",
+   "arquivo": "radar_v2_noticias.mp4",
+   "status": "postado",
+   "link": "https://www.instagram.com/reel/DeWv5ONFR3W/",
+   "hora": "10:22"
+  },
+  {
+   "data": "2026-10-11",
+   "hora": "18:00",
+   "arquivo": "radar_v7_ps5_desbloqueado.mp4",
+   "status": "pendente",
+   "legenda": "Se o seu PS5 é desbloqueado, GTA 6 vai te dar dor de cabeça 😬\n\nO jogo vai exigir o sistema 14.10 do PS5, e o desbloqueio só funciona até a 13.60. Atualizou pra jogar, perdeu o desbloqueio.\n\nTem PS5 desbloqueado aí? Comenta o que você vai fazer 👇\nSegue o @radar.gta6br pra não perder nada até 19/11.\n\n#gta6 #gtavi #gta6brasil #ps5 #playstation #rockstargames #noticiasgames"
+  },
+  {
+   "data": "2026-10-11",
+   "hora": "21:00",
+   "arquivo": "radar_v8_pc_nuvem_mentira.mp4",
+   "status": "pendente",
+   "legenda": "\"Dá pra jogar GTA 6 no PC pela nuvem no lançamento\" ❌ MENTIRA\n\nO próprio Xbox desmentiu: GTA 6 não sai por streaming exclusivo nem como jeito de jogar no PC. Em 19/11 é só PS5 e Xbox Series.\n\nManda pro amigo que caiu nessa 👇\n\n#gta6 #gtavi #gta6brasil #xbox #pcgamer #rockstargames #noticiasgames"
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "12:00",
+   "arquivo": "radar_v3_ultimate.mp4",
+   "status": "pendente",
+   "legenda": "Ultimate ou Padrão? A diferença é de R$ 100 💸\n\nPadrão (R$ 449,90): o jogo + pacote Vintage Vice City na pré-venda\nUltimate (R$ 549,90): tudo isso + Grotti Cheetah, revólver Hawk & Little Morgan, roupas, tatuagens e lojas extras\n\nQual você vai pegar? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity #ps5 #xboxseriesx"
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "18:00",
+   "arquivo": "radar_v9_teoria_jason.mp4",
+   "status": "pendente",
+   "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6"
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "21:00",
+   "arquivo": "radar_v4_midia_fisica.mp4",
+   "status": "pendente",
+   "legenda": "A caixa de GTA 6 não vem com disco 📦\n\nNo lançamento vem só um código pra baixar. Segundo o suporte da Rockstar, o disco chega nos meses seguintes.\n\nDisco ou digital? Comenta 👇\nSalva e manda pro amigo que ia comprar a caixa.\n\n#gta6 #gtavi #gta6brasil #rockstargames #ps5 #xboxseriesx #midiafisica"
+  },
+  {
+   "data": "2026-10-13",
+   "hora": "12:00",
+   "arquivo": "radar_v6_golpe_pc.mp4",
+   "status": "pendente",
+   "legenda": "⚠️ GTA 6 pra PC é GOLPE\n\nNão existe versão oficial pra computador. Os instaladores que estão circulando vêm com vírus. Até agora: só PS5 e Xbox Series.\n\nManda pro amigo que baixa tudo 👇\n\n#gta6 #gtavi #gta6pc #golpe #gta6brasil #rockstargames"
+  },
+  {
+   "data": "2026-10-13",
+   "hora": "18:00",
+   "arquivo": "radar_v5_mecanicas.mp4",
+   "status": "pendente",
+   "legenda": "GTA 6 tá com cara de San Andreas 💪\n\nComer, treinar e dormir mudam o corpo do Jason e da Lucia. E ainda tem caiaque, zoológico, sinuca, mini-golfe, luta livre e corrida de rua.\n\nQual você faz primeiro? Comenta 👇\n\n#gta6 #gtavi #gtasanandreas #gta6brasil #rockstargames #vicecity"
+  },
+  {
+   "data": "2026-10-13",
+   "hora": "21:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa: o post de GTA 6 que mais bombou nos EUA nos últimos 3 dias, traduzido"
+  },
+  {
+   "data": "2026-10-14",
+   "hora": "12:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa (post gringo que mais bombou, traduzido)"
+  },
+  {
+   "data": "2026-10-14",
+   "hora": "18:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Autoral estilo Flow Games: notícia de última hora"
+  },
+  {
+   "data": "2026-10-14",
+   "hora": "21:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)"
+  },
+  {
+   "data": "2026-10-15",
+   "hora": "12:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa (post gringo que mais bombou, traduzido)"
+  },
+  {
+   "data": "2026-10-15",
+   "hora": "18:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Autoral estilo Flow Games: notícia de última hora"
+  },
+  {
+   "data": "2026-10-15",
+   "hora": "21:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)"
+  },
+  {
+   "data": "2026-10-16",
+   "hora": "12:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa (post gringo que mais bombou, traduzido)"
+  },
+  {
+   "data": "2026-10-16",
+   "hora": "18:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Autoral estilo Flow Games: notícia de última hora"
+  },
+  {
+   "data": "2026-10-16",
+   "hora": "21:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)"
+  },
+  {
+   "data": "2026-10-17",
+   "hora": "12:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa (post gringo que mais bombou, traduzido)"
+  },
+  {
+   "data": "2026-10-17",
+   "hora": "18:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Autoral estilo Flow Games: notícia de última hora"
+  },
+  {
+   "data": "2026-10-17",
+   "hora": "21:00",
+   "arquivo": null,
+   "status": "produzir",
+   "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)"
+  }
  ]
 }

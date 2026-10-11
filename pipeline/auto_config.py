@@ -23,10 +23,53 @@ def words_of(audio):
     return [(x.word.strip(), x.start, x.end) for s in segs for x in s.words]
 
 
+def align(audio, text, merge):
+    """Sem Whisper: distribui as palavras do roteiro no tempo de fala (silencios removidos)."""
+    out = subprocess.run(["ffmpeg", "-i", audio, "-af", "silencedetect=n=-35dB:d=0.12", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    total = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                           "-of", "csv=p=0", audio]).strip())
+    ss = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", out)]
+    se = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", out)]
+    sil = list(zip(ss, se + [total] * (len(ss) - len(se))))
+    speech, t = [], 0.0
+    for a, b in sil:
+        if a > t:
+            speech.append((t, a))
+        t = b
+    if t < total:
+        speech.append((t, total))
+    speech = [(max(a - 0.03, 0), b) for a, b in speech if b - a > 0.05]
+    stot = sum(b - a for a, b in speech)
+
+    def at(x):  # x em segundos de fala -> tempo real
+        for a, b in speech:
+            if x <= b - a:
+                return a + x
+            x -= b - a
+        return speech[-1][1]
+    for k, v in merge.items():
+        text = text.replace(k, v.replace(" ", "\u00a0"))
+    toks = text.split()
+    disp = [w.replace("\u00a0", " ") for w in toks]
+    inv = {v: k for k, v in merge.items()}
+    wt = [len(re.sub(r"[^\w]", "", inv.get(d, d))) + 1 for d in disp]
+    tot, acc, res = sum(wt), 0, []
+    for d, w in zip(disp, wt):
+        s = at(stot * acc / tot); acc += w; e = at(stot * acc / tot)
+        res.append((d, s, e))
+    return res
+
+
 def main(path):
     spec = json.load(open(path, encoding="utf-8"))
     base = os.path.dirname(os.path.abspath(path))
-    words = words_of(os.path.join(base, spec["audio"]))
+    if "text" in spec:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from align2 import align as align2
+        words = align2(os.path.join(base, spec["audio"]), spec["text"], spec.get("merge", {}))
+    else:
+        words = words_of(os.path.join(base, spec["audio"]))
     rep = spec.get("replace", {"VI": "6", "VI.": "6.", "VI,": "6,", "VI?": "6?"})
     words = [(rep.get(w, w), s, e) for w, s, e in words]
     # junta "R" "$" "449" etc.
@@ -47,7 +90,7 @@ def main(path):
     caps = []
     for i, c in enumerate(chunks):
         txt = " ".join(w for w, _, _ in c).upper().strip(" ,.")
-        txt = re.sub(r"[.,]$", "", txt)
+        txt = re.sub(r"[.,:;]+$", "", txt).replace(":", "")
         start = c[0][1]
         end = chunks[i + 1][0][1] if i + 1 < len(chunks) else c[-1][2] + 3
         hl = bool(re.search(r"\d|R\$|\?", txt)) or any(k.upper() in txt for k in spec.get("hl_words", []))
