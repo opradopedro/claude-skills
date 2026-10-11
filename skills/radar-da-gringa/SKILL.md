@@ -29,7 +29,7 @@ Escolha a rota pelo que a sessão tem:
 - Traduzir o texto e adaptar o gancho para o português do Brasil, linguagem gamer, sem travessão. Pode mudar uma coisa ou outra (gancho, pergunta final, piada brasileira).
 - Roteiro de 550 a 650 caracteres (35 a 40 s), gancho nos 2 primeiros segundos, pergunta no fim para puxar comentário.
 - Imagens: as do post gringo (prints) quando vieram pelo navegador; senão, as oficiais de `assets/`. Variar as imagens e o enquadramento (`cx`) entre um vídeo e outro para a página não parecer repetida.
-- Narração: vidIQ, voz Liam (TX3LPaxmHKxFdv7VOQHJ), cerca de 14 créditos. Conferir `vidiq_balance` antes.
+- Narração: se a variável de ambiente GOOGLE_TTS_API_KEY existir, `python3 tts_google.py roteiro.txt voz.mp3` (Google Cloud TTS, voz pt-BR, grátis até a cota mensal). Sem a chave, vidIQ com a voz Liam (TX3LPaxmHKxFdv7VOQHJ), cerca de 14 créditos; conferir `vidiq_balance` antes. Nunca pedir a chave no chat nem gravar no repositório.
 - Montagem com os scripts da pasta `pipeline/` do branch `radar-gta6-midia` (as mesmas cópias ficam em `skills/radar-da-gringa/scripts/` no branch main):
   1. `spec.json` com `audio`, `out`, `headline`, `source`, `images` ([arquivo, cx]), `text` (o roteiro exato narrado) e `merge` (trecho falado por extenso para o que aparece na tela, por exemplo `{"quatorze ponto dez": "14.10"}`).
   2. `python3 auto_config.py spec.json` gera o `config.json`. O `align2.py` cronometra a legenda pelas pausas reais da fala, sem Whisper (que fica bloqueado na nuvem).
@@ -37,7 +37,7 @@ Escolha a rota pelo que a sessão tem:
   4. Conferir 2 ou 3 quadros (ffmpeg) antes de publicar.
 
 ### 4. Área segura do Reels (o layout já respeita)
-Nada de texto acima de y=170 (cabeçalho do Instagram), abaixo de y=1690 (nome e legenda do post) ou à direita de x=930 a partir de y=1090 (ícones de curtir, comentar, compartilhar). Título, legenda queimada, fontes e @ ficam centrados em x=470. Ao mudar o layout, conferir com um print de Reel publicado.
+Nada de texto acima de y=170 (cabeçalho do Instagram), abaixo de y=1690 (nome e legenda do post) ou à direita de x=930 a partir de y=1090 (ícones de curtir, comentar, compartilhar). Todos os textos ficam centralizados na tela (x=540), com a legenda queimada em no máximo 740 px de largura e fontes menores (título 72, legenda 84 e destaque 100, fontes 28, @ 42) para não brigar com o texto do Instagram. Ao mudar o layout, conferir com um print de Reel publicado.
 
 ### 5. Publicar
 - `vidiq_video_upload` com a URL raw do mp4 no branch, depois `vidiq_instagram_publish_reel` (Reel normal) até PUBLISHED.

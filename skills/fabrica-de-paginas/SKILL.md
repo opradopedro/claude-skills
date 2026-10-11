@@ -42,7 +42,7 @@ Não contar notícia velha como novidade. Fato antigo só entra dentro de um con
 
 ## Modo 3: máquina de vídeos
 - Montagem local com os scripts da skill `radar-da-gringa` (`make_reel.py`, `auto_config.py`, `align2.py`): Reel 1080x1920, imagens trocando a cada 2 a 3 s, legenda sincronizada pelas pausas da fala, título, fontes e @ da página.
-- **Área segura do Reels:** nada de texto acima de y=170, abaixo de y=1690 ou à direita de x=930 a partir de y=1090, porque a interface do Instagram cobre essas partes. Trocar cores, logo e fonte por página, sem mexer nessas margens.
+- **Área segura do Reels:** nada de texto acima de y=170, abaixo de y=1690 ou à direita de x=930 a partir de y=1090, porque a interface do Instagram cobre essas partes. Textos centralizados em x=540, com fontes contidas (título 72, legenda 84 a 100). Trocar cores, logo e fonte por página, sem mexer nessas margens.
 - Banco de imagens oficiais ou próprias em alta resolução, variando imagem e enquadramento entre vídeos.
 
 ## Modo 4: automação de publicação
@@ -58,4 +58,4 @@ Modelo usado no @radar.gta6br, replicável por página:
 3. Ajustar a mistura dos 3 slots e a pauta seguinte.
 
 ## Custos de referência (vidIQ)
-Narração 14 créditos por 1.000 caracteres; pesquisa de outliers 5; ver um Reel cena por cena 10; montagem local grátis; upload, publicação e métricas grátis; plano grátis = 150 créditos por mês. Com 3 Reels narrados por dia o plano grátis não fecha o mês: usar plano pago ou outra voz (Google Cloud TTS com chave de API).
+Narração 14 créditos por 1.000 caracteres; pesquisa de outliers 5; ver um Reel cena por cena 10; montagem local grátis; upload, publicação e métricas grátis; plano grátis = 150 créditos por mês. Com 3 Reels narrados por dia o plano grátis não fecha o mês: usar plano pago ou o Google Cloud TTS (`tts_google.py` da skill `radar-da-gringa`, com a chave na variável de ambiente GOOGLE_TTS_API_KEY).
