@@ -1,0 +1,344 @@
+{
+ "audio": "voz.mp3",
+ "out": "/home/claude/radar-midia/radar_v4_midia_fisica_v2.mp4",
+ "headline": "MÍDIA FÍSICA: CUIDADO",
+ "source": "Fontes: Rolling Stone Brasil e Vice | Imagens: Rockstar Games",
+ "logo": "/home/claude/radar-midia/assets/logo.png",
+ "handle": "@radar.gta6br",
+ "font": "/home/claude/radar-midia/assets/fonts/Anton.ttf",
+ "scenes": [
+  {
+   "img": "/home/claude/radar-midia/assets/box.jpg",
+   "start": 0.0,
+   "end": 2.72,
+   "cx": 0.5,
+   "shake": true
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/cover.jpg",
+   "start": 2.72,
+   "end": 5.4,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/postcard.jpg",
+   "start": 5.4,
+   "end": 8.3,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/vc11.jpg",
+   "start": 8.3,
+   "end": 11.24,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/jason.jpg",
+   "start": 11.24,
+   "end": 13.72,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/lucia.jpg",
+   "start": 13.72,
+   "end": 16.26,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/album.jpg",
+   "start": 16.26,
+   "end": 19.54,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/hero.jpg",
+   "start": 19.54,
+   "end": 22.32,
+   "cx": 0.4
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/box.jpg",
+   "start": 22.32,
+   "end": 25.74,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/cover.jpg",
+   "start": 25.74,
+   "end": 28.6,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/postcard.jpg",
+   "start": 28.6,
+   "end": 31.72,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/vc11.jpg",
+   "start": 31.72,
+   "end": 34.6,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/jason.jpg",
+   "start": 34.6,
+   "end": 37.0,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/lucia.jpg",
+   "start": 37.0,
+   "end": 51.64,
+   "cx": 0.5
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.26,
+   "text": "VAI COMPRAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 1.26,
+   "end": 2.72,
+   "text": "EM MÍDIA FÍSICA?",
+   "hl": true
+  },
+  {
+   "start": 2.72,
+   "end": 3.78,
+   "text": "CUIDADO!",
+   "hl": false
+  },
+  {
+   "start": 3.78,
+   "end": 4.44,
+   "text": "A CAIXA QUE",
+   "hl": false
+  },
+  {
+   "start": 4.44,
+   "end": 5.4,
+   "text": "CHEGA NO LANÇAMENTO",
+   "hl": false
+  },
+  {
+   "start": 5.4,
+   "end": 6.96,
+   "text": "NÃO TEM DISCO",
+   "hl": false
+  },
+  {
+   "start": 6.96,
+   "end": 7.5,
+   "text": "TEM SÓ UM",
+   "hl": false
+  },
+  {
+   "start": 7.5,
+   "end": 8.3,
+   "text": "CÓDIGO PRA BAIXAR",
+   "hl": false
+  },
+  {
+   "start": 8.3,
+   "end": 8.82,
+   "text": "O JOGO NA",
+   "hl": false
+  },
+  {
+   "start": 8.82,
+   "end": 9.58,
+   "text": "LOJA DO PLAYSTATION",
+   "hl": false
+  },
+  {
+   "start": 9.58,
+   "end": 11.24,
+   "text": "OU DO XBOX",
+   "hl": false
+  },
+  {
+   "start": 11.24,
+   "end": 12.04,
+   "text": "SEGUNDO O SUPORTE",
+   "hl": false
+  },
+  {
+   "start": 12.04,
+   "end": 13.2,
+   "text": "DA ROCKSTAR",
+   "hl": false
+  },
+  {
+   "start": 13.2,
+   "end": 13.72,
+   "text": "O DISCO DE",
+   "hl": false
+  },
+  {
+   "start": 13.72,
+   "end": 14.48,
+   "text": "VERDADE SÓ VAI",
+   "hl": false
+  },
+  {
+   "start": 14.48,
+   "end": 15.16,
+   "text": "SER VENDIDO NOS",
+   "hl": false
+  },
+  {
+   "start": 15.16,
+   "end": 16.26,
+   "text": "MESES DEPOIS DO",
+   "hl": false
+  },
+  {
+   "start": 16.26,
+   "end": 17.3,
+   "text": "LANÇAMENTO",
+   "hl": false
+  },
+  {
+   "start": 17.3,
+   "end": 17.86,
+   "text": "TEM QUEM FALE",
+   "hl": false
+  },
+  {
+   "start": 17.86,
+   "end": 18.58,
+   "text": "EM POUCAS SEMANAS",
+   "hl": false
+  },
+  {
+   "start": 18.58,
+   "end": 19.54,
+   "text": "E TEM QUEM",
+   "hl": false
+  },
+  {
+   "start": 19.54,
+   "end": 20.68,
+   "text": "FALE EM COMEÇO",
+   "hl": false
+  },
+  {
+   "start": 20.68,
+   "end": 22.32,
+   "text": "DE 2027",
+   "hl": true
+  },
+  {
+   "start": 22.32,
+   "end": 23.16,
+   "text": "ENTÃO",
+   "hl": false
+  },
+  {
+   "start": 23.16,
+   "end": 23.84,
+   "text": "SE VOCÊ QUER",
+   "hl": false
+  },
+  {
+   "start": 23.84,
+   "end": 24.44,
+   "text": "O DISCO PRA",
+   "hl": false
+  },
+  {
+   "start": 24.44,
+   "end": 25.74,
+   "text": "COLECIONAR OU REVENDER",
+   "hl": false
+  },
+  {
+   "start": 25.74,
+   "end": 26.7,
+   "text": "DEPOIS",
+   "hl": false
+  },
+  {
+   "start": 26.7,
+   "end": 28.12,
+   "text": "TALVEZ VALE ESPERAR",
+   "hl": false
+  },
+  {
+   "start": 28.12,
+   "end": 28.6,
+   "text": "SE SÓ QUER",
+   "hl": false
+  },
+  {
+   "start": 28.6,
+   "end": 29.14,
+   "text": "JOGAR NO DIA",
+   "hl": false
+  },
+  {
+   "start": 29.14,
+   "end": 29.82,
+   "text": "19",
+   "hl": true
+  },
+  {
+   "start": 29.82,
+   "end": 30.76,
+   "text": "TANTO FAZ",
+   "hl": false
+  },
+  {
+   "start": 30.76,
+   "end": 31.72,
+   "text": "COM CAIXA OU",
+   "hl": false
+  },
+  {
+   "start": 31.72,
+   "end": 32.64,
+   "text": "DIGITAL",
+   "hl": false
+  },
+  {
+   "start": 32.64,
+   "end": 33.22,
+   "text": "VOCÊ VAI BAIXAR",
+   "hl": false
+  },
+  {
+   "start": 33.22,
+   "end": 34.6,
+   "text": "DO MESMO JEITO",
+   "hl": false
+  },
+  {
+   "start": 34.6,
+   "end": 35.68,
+   "text": "VOCÊ PREFERE DISCO",
+   "hl": false
+  },
+  {
+   "start": 35.68,
+   "end": 37.0,
+   "text": "OU DIGITAL?",
+   "hl": true
+  },
+  {
+   "start": 37.0,
+   "end": 38.08,
+   "text": "COMENTA AÍ E",
+   "hl": false
+  },
+  {
+   "start": 38.08,
+   "end": 41.64,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}

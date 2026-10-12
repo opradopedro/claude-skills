@@ -1,0 +1,42 @@
+{
+ "audio": "voz.mp3",
+ "out": "/home/claude/radar-midia/radar_v6_golpe_pc_v2.mp4",
+ "headline": "GTA 6 NO PC É GOLPE",
+ "source": "Fontes: Tecnoblog e GamesRadar | Imagens: Rockstar Games",
+ "images": [
+  [
+   "/home/claude/radar-midia/assets/cover.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/revolvers.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/jason_clip.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/hero.jpg",
+   0.4
+  ],
+  [
+   "/home/claude/radar-midia/assets/box.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/vc11.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/lucia_clip.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/stanier.jpg",
+   0.5
+  ]
+ ],
+ "logo": "/home/claude/radar-midia/assets/logo.png",
+ "font": "/home/claude/radar-midia/assets/fonts/Anton.ttf"
+}

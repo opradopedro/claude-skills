@@ -1,0 +1,42 @@
+{
+ "audio": "voz.mp3",
+ "out": "/home/claude/radar-midia/radar_v4_midia_fisica_v2.mp4",
+ "headline": "MÍDIA FÍSICA: CUIDADO",
+ "source": "Fontes: Rolling Stone Brasil e Vice | Imagens: Rockstar Games",
+ "images": [
+  [
+   "/home/claude/radar-midia/assets/box.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/cover.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/postcard.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/vc11.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/jason.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/lucia.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/album.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/hero.jpg",
+   0.4
+  ]
+ ],
+ "logo": "/home/claude/radar-midia/assets/logo.png",
+ "font": "/home/claude/radar-midia/assets/fonts/Anton.ttf"
+}

@@ -1,0 +1,344 @@
+{
+ "audio": "voz.mp3",
+ "out": "/home/claude/radar-midia/radar_v3_ultimate_v2.mp4",
+ "headline": "ULTIMATE OU PADRÃO?",
+ "source": "Fontes: PC Gamer e Tecnoblog | Imagens: Rockstar Games",
+ "logo": "/home/claude/radar-midia/assets/logo.png",
+ "handle": "@radar.gta6br",
+ "font": "/home/claude/radar-midia/assets/fonts/Anton.ttf",
+ "scenes": [
+  {
+   "img": "/home/claude/radar-midia/assets/cover.jpg",
+   "start": 0.0,
+   "end": 2.58,
+   "cx": 0.5,
+   "shake": true
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/vintage.jpg",
+   "start": 2.58,
+   "end": 5.38,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/stanier.jpg",
+   "start": 5.38,
+   "end": 8.78,
+   "cx": 0.45
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/cheetah.jpg",
+   "start": 8.78,
+   "end": 11.64,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/revolvers.jpg",
+   "start": 11.64,
+   "end": 14.72,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/looks.jpg",
+   "start": 14.72,
+   "end": 18.02,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/ult02.jpg",
+   "start": 18.02,
+   "end": 21.04,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/album.jpg",
+   "start": 21.04,
+   "end": 23.98,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/postcard.jpg",
+   "start": 23.98,
+   "end": 26.7,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/hero.jpg",
+   "start": 26.7,
+   "end": 30.68,
+   "cx": 0.4
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/cover.jpg",
+   "start": 30.68,
+   "end": 33.94,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/vintage.jpg",
+   "start": 33.94,
+   "end": 36.36,
+   "cx": 0.5
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/stanier.jpg",
+   "start": 36.36,
+   "end": 39.76,
+   "cx": 0.45
+  },
+  {
+   "img": "/home/claude/radar-midia/assets/cheetah.jpg",
+   "start": 39.76,
+   "end": 55.42,
+   "cx": 0.5
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.54,
+   "text": "VALE A PENA",
+   "hl": false
+  },
+  {
+   "start": 0.54,
+   "end": 1.76,
+   "text": "PAGAR R$ 100 A",
+   "hl": true
+  },
+  {
+   "start": 1.76,
+   "end": 2.58,
+   "text": "MAIS NA ULTIMATE",
+   "hl": false
+  },
+  {
+   "start": 2.58,
+   "end": 4.04,
+   "text": "DE GTA 6?",
+   "hl": true
+  },
+  {
+   "start": 4.04,
+   "end": 4.46,
+   "text": "OLHA O QUE",
+   "hl": false
+  },
+  {
+   "start": 4.46,
+   "end": 5.38,
+   "text": "MUDA!",
+   "hl": false
+  },
+  {
+   "start": 5.38,
+   "end": 6.46,
+   "text": "NA EDIÇÃO PADRÃO",
+   "hl": false
+  },
+  {
+   "start": 6.46,
+   "end": 8.78,
+   "text": "DE R$ 449,90 VOCÊ",
+   "hl": true
+  },
+  {
+   "start": 8.78,
+   "end": 10.04,
+   "text": "LEVA O JOGO",
+   "hl": false
+  },
+  {
+   "start": 10.04,
+   "end": 10.66,
+   "text": "E QUEM COMPRA",
+   "hl": false
+  },
+  {
+   "start": 10.66,
+   "end": 11.64,
+   "text": "NA PRÉ-VENDA GANHA",
+   "hl": false
+  },
+  {
+   "start": 11.64,
+   "end": 12.72,
+   "text": "O PACOTE VINTAGE",
+   "hl": false
+  },
+  {
+   "start": 12.72,
+   "end": 13.72,
+   "text": "VICE CITY",
+   "hl": false
+  },
+  {
+   "start": 13.72,
+   "end": 14.72,
+   "text": "COM ROUPAS",
+   "hl": false
+  },
+  {
+   "start": 14.72,
+   "end": 15.56,
+   "text": "O CARRO STANIER",
+   "hl": false
+  },
+  {
+   "start": 15.56,
+   "end": 16.76,
+   "text": "DE R$ 55,00 E",
+   "hl": true
+  },
+  {
+   "start": 16.76,
+   "end": 18.02,
+   "text": "UMA GARAGEM",
+   "hl": false
+  },
+  {
+   "start": 18.02,
+   "end": 18.88,
+   "text": "NA ULTIMATE",
+   "hl": false
+  },
+  {
+   "start": 18.88,
+   "end": 21.04,
+   "text": "DE R$ 549,90",
+   "hl": true
+  },
+  {
+   "start": 21.04,
+   "end": 21.92,
+   "text": "VEM TUDO ISSO",
+   "hl": false
+  },
+  {
+   "start": 21.92,
+   "end": 22.38,
+   "text": "E MAIS",
+   "hl": false
+  },
+  {
+   "start": 22.38,
+   "end": 23.98,
+   "text": "CARROS COMO GROTTI",
+   "hl": false
+  },
+  {
+   "start": 23.98,
+   "end": 25.76,
+   "text": "CHEETAH DE R$ 95,00",
+   "hl": true
+  },
+  {
+   "start": 25.76,
+   "end": 26.7,
+   "text": "O REVÓLVER HAWK",
+   "hl": false
+  },
+  {
+   "start": 26.7,
+   "end": 28.02,
+   "text": "E LITTLE MORGAN",
+   "hl": false
+  },
+  {
+   "start": 28.02,
+   "end": 29.02,
+   "text": "ROUPAS E TATUAGENS",
+   "hl": false
+  },
+  {
+   "start": 29.02,
+   "end": 30.68,
+   "text": "EXCLUSIVAS E LOJAS",
+   "hl": false
+  },
+  {
+   "start": 30.68,
+   "end": 31.84,
+   "text": "E ATIVIDADES EXTRAS",
+   "hl": false
+  },
+  {
+   "start": 31.84,
+   "end": 33.04,
+   "text": "PELO MAPA",
+   "hl": false
+  },
+  {
+   "start": 33.04,
+   "end": 33.94,
+   "text": "RESUMO",
+   "hl": false
+  },
+  {
+   "start": 33.94,
+   "end": 34.66,
+   "text": "SE VOCÊ CURTE",
+   "hl": false
+  },
+  {
+   "start": 34.66,
+   "end": 35.76,
+   "text": "CUSTOMIZAÇÃO",
+   "hl": false
+  },
+  {
+   "start": 35.76,
+   "end": 36.36,
+   "text": "A ULTIMATE FAZ",
+   "hl": false
+  },
+  {
+   "start": 36.36,
+   "end": 37.32,
+   "text": "SENTIDO",
+   "hl": false
+  },
+  {
+   "start": 37.32,
+   "end": 37.8,
+   "text": "SE SÓ QUER",
+   "hl": false
+  },
+  {
+   "start": 37.8,
+   "end": 38.62,
+   "text": "A HISTÓRIA",
+   "hl": false
+  },
+  {
+   "start": 38.62,
+   "end": 39.76,
+   "text": "A PADRÃO RESOLVE",
+   "hl": false
+  },
+  {
+   "start": 39.76,
+   "end": 40.32,
+   "text": "QUAL VOCÊ VAI",
+   "hl": false
+  },
+  {
+   "start": 40.32,
+   "end": 41.0,
+   "text": "PEGAR?",
+   "hl": true
+  },
+  {
+   "start": 41.0,
+   "end": 41.94,
+   "text": "COMENTA AÍ E",
+   "hl": false
+  },
+  {
+   "start": 41.94,
+   "end": 45.42,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}

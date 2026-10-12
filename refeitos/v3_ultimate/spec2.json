@@ -1,0 +1,50 @@
+{
+ "audio": "voz.mp3",
+ "out": "/home/claude/radar-midia/radar_v3_ultimate_v2.mp4",
+ "headline": "ULTIMATE OU PADRÃO?",
+ "source": "Fontes: PC Gamer e Tecnoblog | Imagens: Rockstar Games",
+ "images": [
+  [
+   "/home/claude/radar-midia/assets/cover.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/vintage.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/stanier.jpg",
+   0.45
+  ],
+  [
+   "/home/claude/radar-midia/assets/cheetah.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/revolvers.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/looks.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/ult02.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/album.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/postcard.jpg",
+   0.5
+  ],
+  [
+   "/home/claude/radar-midia/assets/hero.jpg",
+   0.4
+  ]
+ ],
+ "logo": "/home/claude/radar-midia/assets/logo.png",
+ "font": "/home/claude/radar-midia/assets/fonts/Anton.ttf"
+}
