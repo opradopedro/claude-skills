@@ -1,0 +1,24 @@
+{
+ "audio": "voz.mp3",
+ "out": "../../radar_v4_midia_fisica_v4.mp4",
+ "captions_from": "config2.json",
+ "headline": "A CAIXA DE GTA 6 NÃO VEM COM DISCO",
+ "broll": [
+  "frames/tJbzMqJGH4k_254.jpg",
+  "frames/tJbzMqJGH4k_260.jpg",
+  "frames/tJbzMqJGH4k_286.jpg",
+  "frames/tJbzMqJGH4k_197.jpg",
+  "frames/tJbzMqJGH4k_191.jpg",
+  "frames/tJbzMqJGH4k_155.jpg",
+  "frames/tJbzMqJGH4k_393.jpg",
+  "frames/tJbzMqJGH4k_149.jpg",
+  "frames/tJbzMqJGH4k_167.jpg",
+  "frames/tJbzMqJGH4k_293.jpg",
+  "frames/tJbzMqJGH4k_125.jpg",
+  "frames/tJbzMqJGH4k_119.jpg",
+  "frames/tJbzMqJGH4k_275.jpg",
+  "frames/QdBZY2fkU-0_008.jpg"
+ ],
+ "font": "../../assets/fonts/Anton.ttf",
+ "seed": 5
+}
