@@ -1,134 +1,104 @@
 {
  "audio": "voz.mp3",
- "out": "../../radar_v6_golpe_pc_demo.mp4",
+ "out": "../../radar_v6_golpe_pc_v3.mp4",
  "font": "../../assets/fonts/Anton.ttf",
  "handle": "@radar.gta6br",
  "scenes": [
   {
-   "src": "../../assets/revolvers.jpg",
-   "start": 0.0,
-   "end": 2.2,
-   "layout": "band",
-   "cx": 0.42
-  },
-  {
-   "src": "../../assets/hero.jpg",
-   "start": 2.2,
-   "end": 3.938,
-   "layout": "band",
-   "cx": 0.51
-  },
-  {
    "src": "../../assets/jason_clip.jpg",
-   "start": 3.938,
-   "end": 5.604,
+   "start": 0.0,
+   "end": 3.938,
    "layout": "full",
-   "cx": 0.46
+   "cx": 0.59,
+   "pan": 1
+  },
+  {
+   "src": "../../assets/revolvers.jpg",
+   "start": 3.938,
+   "end": 6.596,
+   "layout": "full",
+   "cx": 0.6,
+   "pan": -1
   },
   {
    "src": "../../assets/vc11.jpg",
-   "start": 5.604,
-   "end": 7.849,
-   "layout": "band",
-   "cx": 0.53
+   "start": 6.596,
+   "end": 10.362,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 1
   },
   {
    "src": "../../assets/cheetah.jpg",
-   "start": 7.849,
-   "end": 10.362,
-   "layout": "band",
-   "cx": 0.54
+   "start": 10.362,
+   "end": 13.12,
+   "layout": "full",
+   "cx": 0.43,
+   "pan": -1
   },
   {
    "src": "../../assets/lucia.jpg",
-   "start": 10.362,
-   "end": 11.94,
+   "start": 13.12,
+   "end": 16.636,
    "layout": "full",
-   "cx": 0.37
+   "cx": 0.35,
+   "pan": 1
   },
   {
    "src": "../../assets/stanier.jpg",
-   "start": 11.94,
-   "end": 14.571,
-   "layout": "band",
-   "cx": 0.35
+   "start": 16.636,
+   "end": 19.742,
+   "layout": "full",
+   "cx": 0.55,
+   "pan": -1
   },
   {
    "src": "../../assets/postcard.jpg",
-   "start": 14.571,
-   "end": 16.636,
-   "layout": "band",
-   "cx": 0.6
+   "start": 19.742,
+   "end": 22.192,
+   "layout": "full",
+   "cx": 0.49,
+   "pan": 1
   },
   {
    "src": "../../assets/album.jpg",
-   "start": 16.636,
-   "end": 18.307,
-   "layout": "full",
-   "cx": 0.43
-  },
-  {
-   "src": "../../assets/looks.jpg",
-   "start": 18.307,
-   "end": 19.742,
-   "layout": "band",
-   "cx": 0.42
-  },
-  {
-   "src": "../../assets/jason.jpg",
-   "start": 19.742,
-   "end": 22.192,
-   "layout": "band",
-   "cx": 0.65
-  },
-  {
-   "src": "../../assets/vintage.jpg",
    "start": 22.192,
    "end": 24.833,
    "layout": "full",
-   "cx": 0.49
+   "cx": 0.58,
+   "pan": -1
   },
   {
-   "src": "../../assets/revolvers.jpg",
+   "src": "../../assets/looks.jpg",
    "start": 24.833,
-   "end": 26.576,
-   "layout": "band",
-   "cx": 0.6
+   "end": 27.38,
+   "layout": "full",
+   "cx": 0.46,
+   "pan": 1
+  },
+  {
+   "src": "../../assets/jason.jpg",
+   "start": 27.38,
+   "end": 29.904,
+   "layout": "full",
+   "cx": 0.58,
+   "pan": -1
+  },
+  {
+   "src": "../../assets/vintage.jpg",
+   "start": 29.904,
+   "end": 32.535,
+   "layout": "full",
+   "cx": 0.43,
+   "pan": 1
   },
   {
    "src": "../../assets/hero.jpg",
-   "start": 26.576,
-   "end": 29.354,
-   "layout": "band",
-   "cx": 0.49
-  },
-  {
-   "src": "../../assets/jason_clip.jpg",
-   "start": 29.354,
-   "end": 31.58,
-   "layout": "full",
-   "cx": 0.54
-  },
-  {
-   "src": "../../assets/vc11.jpg",
-   "start": 31.58,
-   "end": 33.092,
-   "layout": "band",
-   "cx": 0.4
-  },
-  {
-   "src": "../../assets/cheetah.jpg",
-   "start": 33.092,
-   "end": 34.545,
-   "layout": "band",
-   "cx": 0.54
-  },
-  {
-   "src": "../../assets/lucia.jpg",
-   "start": 34.545,
+   "start": 32.535,
    "end": 35.561,
    "layout": "full",
-   "cx": 0.61
+   "cx": 0.59,
+   "pan": -1
   }
  ],
  "captions": [
@@ -306,5 +276,7 @@
    "text": "FURADA",
    "hl": false
   }
- ]
+ ],
+ "headline": "GTA 6 PRA PC É GOLPE",
+ "transicao": "deslize"
 }

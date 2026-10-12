@@ -2,18 +2,17 @@
 
 Lido pela tarefa agendada "Radar GTA: publicação diária", que roda 3 vezes por dia (11h50, 17h50 e 20h50, America/Sao_Paulo). Tudo que a tarefa precisa está neste branch.
 
-## TESTE EM ANDAMENTO: formato "demo" (pedido do Pedro, 12/10)
-De 12/10 (18h) até 15/10 (21h), TODO Reel sai no formato **demo**, igual ao `demo_short/demo_estilo_corte.mp4` (publicado em https://www.instagram.com/reel/DeaJ3ciEfn_/): legenda amarela de 2 a 3 palavras no centro, cortes de 1,3 a 2,4 s alternando foto em faixa e em tela cheia (band, band, full), @ embaixo. Isso vale acima da sugestão do `aprendizado.py sugerir` e acima da identidade "painel" descrita abaixo; a ficha leva `formato: "demo"`.
-- Montagem: `pipeline/estilo_demo.py spec.json` (spec com `audio`, `out`, `text` do roteiro narrado, `broll` com 12 imagens variadas de `assets/`, `font`, `seed`) e depois `pipeline/make_short.py config.json` rodado de dentro da pasta do spec. Exemplos prontos: `demo_short/spec.json` e `refeitos/*/spec_demo.json`.
-- Checagem do frame continua obrigatória (legenda legível, sem "GTA" separado de "6", nada fora da área segura).
-- **16/10, execução das 11h50:** comparar no `aprendizado.md` a nota dos Reels "demo" com "painel" e "corte" e mandar ao Pedro a conclusão (manter, voltar ou misturar). Até o Pedro responder, continuar no demo.
+## FORMATO OFICIAL (decisão do Pedro, 12/10; vale acima de tudo que este playbook diz sobre formato)
+- **Autoral, notícia, atemporal, lembrete:** formato "fotos deslizando em tela cheia", igual ao Reel do Ultimate x Padrão (DeZjgTSD3Aw, o melhor até agora) e ao `demo_fotos_deslizando_v2` que o Pedro aprovou. Montagem: `pipeline/auto_short.py spec.json` só com fotos de `assets/` no `broll` (12 fotos variadas, sem `cover.jpg`), `headline` curta (aparece no topo nos 2 primeiros segundos), e depois `pipeline/make_short.py config.json` rodado de dentro da pasta do spec. Legenda amarela de 2 a 3 palavras, foto deslizando de lado e empurrando a anterior. Exemplos: `refeitos/*/spec3.json`. Ficha: `formato: "corte"`.
+- **Inspirado na gringa:** copiar o FORMATO do post gringo que bombou (estrutura, ritmo, tipo de texto na tela, duração), com material oficial da Rockstar, o @radar.gta6br e as cores da página (rosa e laranja, legenda amarela). Nunca baixar nem reaproveitar o vídeo de outra página. Ficha: `formato: "gringa"`, `origem: "gringa"`.
+- **Proibido:** o formato "demo" com faixa/tela cheia alternando (`demo_short/demo_estilo_corte.mp4`, reprovado) e a voz do Piper (reprovada). O "painel" do v8 só se o Pedro pedir.
+- O `aprendizado.py sugerir` continua valendo para tema e gancho; para formato, seguir as regras acima.
 
 ## Narração (ordem de tentativa)
 1. `python3 pipeline/tts_gemini.py roteiro.txt voz.mp3` (Gemini; em 12/10 deu 403 PERMISSION_DENIED porque a chave não chegou ao ambiente).
 2. Se existir GOOGLE_TTS_API_KEY: `python3 pipeline/tts_google.py roteiro.txt voz.mp3`.
-3. **Reserva grátis sem chave:** `python3 pipeline/tts_piper.py roteiro.txt voz.mp3` (Piper, voz pt_BR faber, roda aqui mesmo). Usar se 1 e 2 falharem.
-4. vidIQ (voz TX3LPaxmHKxFdv7VOQHJ, ~14 créditos) só se 3 também falhar e houver saldo.
-Esta ordem substitui a frase sobre "sem chave de voz" no passo 4: com o Piper, falta de chave não impede mais a produção.
+3. vidIQ (vidiq_voiceover_generate, voz TX3LPaxmHKxFdv7VOQHJ, 14 créditos por roteiro de até 1000 caracteres), se houver saldo.
+4. Sem nenhuma das três: não publicar vídeo novo e avisar o Pedro uma vez por dia. Itens "pendente" (vídeo pronto) continuam saindo.
 
 ## Regra de cada execução: publicar UM Reel
 1. Ler agenda.json. Pegar o item com a data de hoje cuja `hora` é a mais próxima da hora atual e que ainda não está "postado" (o horário da execução é 10 minutos antes do slot). Se o slot de agora já estiver "postado", não fazer nada.

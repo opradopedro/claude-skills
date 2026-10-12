@@ -1,10 +1,11 @@
 {
  "audio": "voz.mp3",
- "out": "../../radar_v5_mecanicas_demo.mp4",
+ "out": "../../radar_v5_mecanicas_v3.mp4",
  "captions_from": "config2.json",
+ "headline": "GTA 6 COM CARA DE SAN ANDREAS",
  "broll": [
-  "../../assets/jason.jpg",
   "../../assets/looks.jpg",
+  "../../assets/jason.jpg",
   "../../assets/lucia_clip.jpg",
   "../../assets/vc11.jpg",
   "../../assets/cheetah.jpg",
@@ -17,5 +18,5 @@
   "../../assets/album.jpg"
  ],
  "font": "../../assets/fonts/Anton.ttf",
- "seed": 3
+ "seed": 7
 }

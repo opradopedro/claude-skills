@@ -94,7 +94,7 @@
       "data": "2026-10-12",
       "hora": "18:00",
       "arquivo": "demo_short/demo_estilo_corte.mp4",
-      "status": "postado",
+      "status": "removido",
       "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6",
       "link": "https://www.instagram.com/reel/DeaJ3ciEfn_/",
       "ficha": {
@@ -103,17 +103,31 @@
         "gancho": "pergunta",
         "origem": "gringa"
       },
-      "obs": "versão demo aprovada pelo Pedro; início do teste de 3 dias do formato demo"
+      "obs": "versão errada (Pedro não gostou); Pedro apagou. Formato demo descartado."
+    },
+    {
+      "data": "2026-10-12",
+      "hora": "18:00",
+      "arquivo": null,
+      "status": "aguardando_pedro",
+      "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6",
+      "ficha": {
+        "formato": "corte",
+        "tema": "teoria",
+        "gancho": "pergunta",
+        "origem": "gringa"
+      },
+      "obs": "Pedro quer publicar a versão da teoria do Jason que começa com o Jason andando (clipe do início do Extended Look, b-roll em movimento). O arquivo não está neste branch; aguardando o Pedro mandar ou liberar o repositório fabrica-de-paginas. Publicar manualmente nesta conversa, não pela tarefa agendada."
     },
     {
       "data": "2026-10-12",
       "hora": "21:00",
-      "arquivo": "radar_v4_midia_fisica_demo.mp4",
+      "arquivo": "radar_v4_midia_fisica_v3.mp4",
       "status": "pendente",
       "legenda": "A caixa de GTA 6 não vem com disco 📦\n\nNo lançamento vem só um código pra baixar. Segundo o suporte da Rockstar, o disco chega nos meses seguintes.\n\nDisco ou digital? Comenta 👇\nSalva e manda pro amigo que ia comprar a caixa.\n\n#gta6 #gtavi #gta6brasil #rockstargames #ps5 #xboxseriesx #midiafisica",
-      "obs": "refeito no formato demo (pedido do Pedro 12/10); versão painel radar_v4_midia_fisica_v2.mp4 fica sem uso",
+      "obs": "refeito no formato fotos deslizando tela cheia (igual ao Ultimate e ao demo_fotos_deslizando_v2 aprovados pelo Pedro, 12/10)",
       "ficha": {
-        "formato": "demo",
+        "formato": "corte",
         "tema": "preco_compra",
         "gancho": "revelacao",
         "origem": "autoral"
@@ -122,12 +136,12 @@
     {
       "data": "2026-10-13",
       "hora": "12:00",
-      "arquivo": "radar_v6_golpe_pc_demo.mp4",
+      "arquivo": "radar_v6_golpe_pc_v3.mp4",
       "status": "pendente",
       "legenda": "⚠️ GTA 6 pra PC é GOLPE\n\nNão existe versão oficial pra computador. Os instaladores que estão circulando vêm com vírus. Até agora: só PS5 e Xbox Series.\n\nManda pro amigo que baixa tudo 👇\n\n#gta6 #gtavi #gta6pc #golpe #gta6brasil #rockstargames",
-      "obs": "refeito no formato demo (pedido do Pedro 12/10); versão painel radar_v6_golpe_pc_v2.mp4 fica sem uso",
+      "obs": "refeito no formato fotos deslizando tela cheia (igual ao Ultimate e ao demo_fotos_deslizando_v2 aprovados pelo Pedro, 12/10)",
       "ficha": {
-        "formato": "demo",
+        "formato": "corte",
         "tema": "golpe",
         "gancho": "alerta",
         "origem": "autoral"
@@ -136,12 +150,12 @@
     {
       "data": "2026-10-13",
       "hora": "18:00",
-      "arquivo": "radar_v5_mecanicas_demo.mp4",
+      "arquivo": "radar_v5_mecanicas_v3.mp4",
       "status": "pendente",
       "legenda": "GTA 6 tá com cara de San Andreas 💪\n\nComer, treinar e dormir mudam o corpo do Jason e da Lucia. E ainda tem caiaque, zoológico, sinuca, mini-golfe, luta livre e corrida de rua.\n\nQual você faz primeiro? Comenta 👇\n\n#gta6 #gtavi #gtasanandreas #gta6brasil #rockstargames #vicecity",
-      "obs": "refeito no formato demo (pedido do Pedro 12/10); versão painel radar_v5_mecanicas_v2.mp4 fica sem uso",
+      "obs": "refeito no formato fotos deslizando tela cheia (igual ao Ultimate e ao demo_fotos_deslizando_v2 aprovados pelo Pedro, 12/10)",
       "ficha": {
-        "formato": "demo",
+        "formato": "corte",
         "tema": "gameplay",
         "gancho": "comparacao",
         "origem": "autoral"
@@ -153,7 +167,7 @@
       "arquivo": null,
       "status": "produzir",
       "tema": "Radar da gringa: o post de GTA 6 que mais bombou nos EUA nos últimos 3 dias, traduzido",
-      "formato": "demo"
+      "formato": "gringa"
     },
     {
       "data": "2026-10-14",
@@ -161,7 +175,7 @@
       "arquivo": null,
       "status": "produzir",
       "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
-      "formato": "demo"
+      "formato": "gringa"
     },
     {
       "data": "2026-10-14",
@@ -177,9 +191,9 @@
         "carro",
         "cidade"
       ],
-      "formato": "demo",
+      "formato": "corte",
       "ficha": {
-        "formato": "demo",
+        "formato": "corte",
         "tema": "vazamento",
         "gancho": "pergunta",
         "origem": "autoral"
@@ -200,9 +214,9 @@
         "cidade",
         "praia"
       ],
-      "formato": "demo",
+      "formato": "corte",
       "ficha": {
-        "formato": "demo",
+        "formato": "corte",
         "tema": "vazamento",
         "gancho": "pergunta",
         "origem": "autoral"
@@ -214,7 +228,7 @@
       "arquivo": null,
       "status": "produzir",
       "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
-      "formato": "demo"
+      "formato": "gringa"
     },
     {
       "data": "2026-10-15",
@@ -230,9 +244,9 @@
         "noite",
         "cidade"
       ],
-      "formato": "demo",
+      "formato": "corte",
       "ficha": {
-        "formato": "demo",
+        "formato": "corte",
         "tema": "vazamento",
         "gancho": "pergunta",
         "origem": "autoral"
@@ -253,9 +267,9 @@
         "moto",
         "natureza"
       ],
-      "formato": "demo",
+      "formato": "corte",
       "ficha": {
-        "formato": "demo",
+        "formato": "corte",
         "tema": "gameplay",
         "gancho": "pergunta",
         "origem": "autoral"
@@ -266,42 +280,48 @@
       "hora": "12:00",
       "arquivo": null,
       "status": "produzir",
-      "tema": "Radar da gringa (post gringo que mais bombou, traduzido)"
+      "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
+      "formato": "gringa"
     },
     {
       "data": "2026-10-16",
       "hora": "18:00",
       "arquivo": null,
       "status": "produzir",
-      "tema": "Autoral estilo Flow Games: notícia de última hora"
+      "tema": "Autoral estilo Flow Games: notícia de última hora",
+      "formato": "corte"
     },
     {
       "data": "2026-10-16",
       "hora": "21:00",
       "arquivo": null,
       "status": "produzir",
-      "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)"
+      "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)",
+      "formato": "corte"
     },
     {
       "data": "2026-10-17",
       "hora": "12:00",
       "arquivo": null,
       "status": "produzir",
-      "tema": "Radar da gringa (post gringo que mais bombou, traduzido)"
+      "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
+      "formato": "gringa"
     },
     {
       "data": "2026-10-17",
       "hora": "18:00",
       "arquivo": null,
       "status": "produzir",
-      "tema": "Autoral estilo Flow Games: notícia de última hora"
+      "tema": "Autoral estilo Flow Games: notícia de última hora",
+      "formato": "corte"
     },
     {
       "data": "2026-10-17",
       "hora": "21:00",
       "arquivo": null,
       "status": "produzir",
-      "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)"
+      "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)",
+      "formato": "corte"
     }
   ]
 }

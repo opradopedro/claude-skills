@@ -28,7 +28,7 @@ CAMPOS = ("playCount", "likeCount", "commentCount", "shares", "saves", "avgWatch
 DIMENSOES = ("formato", "tema", "gancho", "origem", "slot")
 # opções conhecidas; "sugerir" explora as menos testadas
 OPCOES = {
-    "formato": ["painel", "corte", "demo"],
+    "formato": ["painel", "corte", "gringa"],
     "tema": ["noticias", "preco_compra", "mito", "console_tecnico", "teoria", "golpe", "gameplay", "vazamento",
              "lancamento"],
     "gancho": ["pergunta", "lista", "mentira_verdade", "alerta", "comparacao", "revelacao"],

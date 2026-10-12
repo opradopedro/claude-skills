@@ -50,6 +50,20 @@ def chunks(words, censor):
     return out
 
 
+def rechunk(caps, censor):
+    """Quebra legendas antigas (4+ palavras) em blocos de 2 a 3 palavras, dividindo o tempo por letras."""
+    words = []
+    for c in caps:
+        ws = re.sub(r"\bGTA (6|VI)\b", r"GTA_\1", c["text"]).split()  # "GTA 6" nunca se separa
+        tot = sum(len(w) for w in ws) or 1
+        t = c["start"]
+        for w in ws:
+            d = (c["end"] - c["start"]) * len(w) / tot
+            words.append((w, t, t + d))
+            t += d
+    return [dict(c, text=c["text"].replace("GTA_", "GTA ")) for c in chunks(words, censor)]
+
+
 def pick_broll(spec, base, rnd):
     if spec.get("broll"):
         return [os.path.join(base, p) if not os.path.isabs(p) else p for p in spec["broll"]]
@@ -90,9 +104,12 @@ def main(path):
     base = os.path.dirname(os.path.abspath(path))
     rnd = random.Random(spec.get("seed", 1))
     audio = os.path.join(base, spec["audio"])
-    words = align(audio, spec["text"], spec.get("merge", {}))
     censor = dict(CENSOR, **spec.get("censor", {}))
-    caps = chunks(words, censor)
+    if spec.get("captions_from"):  # reaproveita legendas com tempo de um config antigo (ex.: refeitos/*/config2.json)
+        old = json.load(open(os.path.join(base, spec["captions_from"]), encoding="utf-8"))["captions"]
+        caps = rechunk(old, censor)
+    else:
+        caps = chunks(align(audio, spec["text"], spec.get("merge", {})), censor)
     total = duration(audio) + 0.4
     srcs = pick_broll(spec, base, rnd)
     # cortes: 1,3 a 2,2 s com clipes; so com fotos, 2,4 a 3,6 s para dar tempo da foto deslizar

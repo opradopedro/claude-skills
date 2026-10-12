@@ -1,6 +1,6 @@
 {
  "audio": "voz.mp3",
- "out": "../../radar_v4_midia_fisica_demo.mp4",
+ "out": "../../radar_v4_midia_fisica_v3.mp4",
  "font": "../../assets/fonts/Anton.ttf",
  "handle": "@radar.gta6br",
  "scenes": [
@@ -8,134 +8,113 @@
    "src": "../../assets/box.jpg",
    "start": 0.0,
    "end": 2.72,
-   "layout": "band",
-   "cx": 0.42
-  },
-  {
-   "src": "../../assets/cover.jpg",
-   "start": 2.72,
-   "end": 4.44,
-   "layout": "band",
-   "cx": 0.51
+   "layout": "full",
+   "cx": 0.54,
+   "pan": 1
   },
   {
    "src": "../../assets/postcard.jpg",
-   "start": 4.44,
-   "end": 6.96,
+   "start": 2.72,
+   "end": 5.4,
    "layout": "full",
-   "cx": 0.46
+   "cx": 0.57,
+   "pan": -1
   },
   {
    "src": "../../assets/vc11.jpg",
-   "start": 6.96,
+   "start": 5.4,
    "end": 8.3,
-   "layout": "band",
-   "cx": 0.53
+   "layout": "full",
+   "cx": 0.59,
+   "pan": 1
   },
   {
    "src": "../../assets/jason.jpg",
    "start": 8.3,
    "end": 11.24,
-   "layout": "band",
-   "cx": 0.54
+   "layout": "full",
+   "cx": 0.63,
+   "pan": -1
   },
   {
    "src": "../../assets/lucia.jpg",
    "start": 11.24,
-   "end": 13.265,
+   "end": 14.163,
    "layout": "full",
-   "cx": 0.37
+   "cx": 0.57,
+   "pan": 1
   },
   {
    "src": "../../assets/album.jpg",
-   "start": 13.265,
-   "end": 14.637,
-   "layout": "band",
-   "cx": 0.35
+   "start": 14.163,
+   "end": 17.3,
+   "layout": "full",
+   "cx": 0.63,
+   "pan": -1
   },
   {
    "src": "../../assets/hero.jpg",
-   "start": 14.637,
-   "end": 17.3,
-   "layout": "band",
-   "cx": 0.6
+   "start": 17.3,
+   "end": 20.68,
+   "layout": "full",
+   "cx": 0.36,
+   "pan": 1
   },
   {
    "src": "../../assets/stanier.jpg",
-   "start": 17.3,
-   "end": 19.54,
+   "start": 20.68,
+   "end": 23.16,
    "layout": "full",
-   "cx": 0.43
+   "cx": 0.49,
+   "pan": -1
   },
   {
    "src": "../../assets/vintage.jpg",
-   "start": 19.54,
-   "end": 23.16,
-   "layout": "band",
-   "cx": 0.42
+   "start": 23.16,
+   "end": 25.74,
+   "layout": "full",
+   "cx": 0.63,
+   "pan": 1
   },
   {
    "src": "../../assets/looks.jpg",
-   "start": 23.16,
-   "end": 25.74,
-   "layout": "band",
-   "cx": 0.65
+   "start": 25.74,
+   "end": 28.36,
+   "layout": "full",
+   "cx": 0.54,
+   "pan": -1
   },
   {
    "src": "../../assets/lucia_clip.jpg",
-   "start": 25.74,
-   "end": 27.535,
+   "start": 28.36,
+   "end": 31.528,
    "layout": "full",
-   "cx": 0.49
+   "cx": 0.62,
+   "pan": 1
+  },
+  {
+   "src": "../../assets/cheetah.jpg",
+   "start": 31.528,
+   "end": 34.87,
+   "layout": "full",
+   "cx": 0.38,
+   "pan": -1
   },
   {
    "src": "../../assets/box.jpg",
-   "start": 27.535,
-   "end": 28.978,
-   "layout": "band",
-   "cx": 0.6
-  },
-  {
-   "src": "../../assets/cover.jpg",
-   "start": 28.978,
-   "end": 30.408,
-   "layout": "band",
-   "cx": 0.49
+   "start": 34.87,
+   "end": 38.08,
+   "layout": "full",
+   "cx": 0.49,
+   "pan": 1
   },
   {
    "src": "../../assets/postcard.jpg",
-   "start": 30.408,
-   "end": 32.818,
-   "layout": "full",
-   "cx": 0.54
-  },
-  {
-   "src": "../../assets/vc11.jpg",
-   "start": 32.818,
-   "end": 34.87,
-   "layout": "band",
-   "cx": 0.4
-  },
-  {
-   "src": "../../assets/jason.jpg",
-   "start": 34.87,
-   "end": 37.0,
-   "layout": "band",
-   "cx": 0.54
-  },
-  {
-   "src": "../../assets/lucia.jpg",
-   "start": 37.0,
-   "end": 38.8,
-   "layout": "full",
-   "cx": 0.61
-  },
-  {
-   "src": "../../assets/album.jpg",
-   "start": 38.8,
+   "start": 38.08,
    "end": 40.132,
-   "layout": "band",
-   "cx": 0.51
+   "layout": "full",
+   "cx": 0.42,
+   "pan": -1
   }
  ],
  "captions": [
@@ -361,5 +340,7 @@
    "text": "SEGUE O RADAR",
    "hl": false
   }
- ]
+ ],
+ "headline": "A CAIXA DE GTA 6 NÃO VEM COM DISCO",
+ "transicao": "deslize"
 }
