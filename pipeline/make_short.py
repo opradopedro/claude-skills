@@ -17,13 +17,15 @@ as outras imagens paradas ganham zoom lento (Ken Burns).
 Area segura do Reels: texto entre y=170 e y=1690 e longe dos icones (x > 930 a partir de y=1090).
 """
 import json, os, shutil, subprocess, sys
+import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 W, H, FPS = 1080, 1920, 30
 BAND_Y, BAND_H = 380, 1000
 CX, SAFE_W = 540, 760
 CAP_Y = 1060  # centro vertical da legenda
-PAN_VEL = 420  # px/s do deslize lateral das fotos deitadas
+PAN_VEL = 230  # px/s do deslize lateral das fotos deitadas (Pedro achou 420 rapido demais)
+TRANS = 0.3  # s da transicao "empurrar de lado" (slide com borrao de movimento) entre fotos
 YELLOW, WHITE, PURPLE = (255, 221, 0), (255, 255, 255), (190, 120, 255)
 IMG_EXT = (".jpg", ".jpeg", ".png", ".webp")
 
@@ -78,8 +80,8 @@ def pan_filter(img_w, img_h, dur, sentido):
             f"setsar=1,fps={FPS}[v]")
 
 
-def render_scene(s, path):
-    dur = s["end"] - s["start"]
+def render_scene(s, path, extra=0.0):
+    dur = s["end"] - s["start"] + extra  # extra: sobra para a transicao com a cena seguinte
     still = s["src"].lower().endswith(IMG_EXT)
     inp = (["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.3f}", "-i", s["src"]] if still
            else ["-ss", f"{s.get('ss', 0):.2f}", "-t", f"{dur:.3f}", "-i", s["src"]])
@@ -123,6 +125,13 @@ def caption_layer(text, font, hl):
     return layer
 
 
+def borrao_lateral(img, k):
+    """Borrao so na horizontal (k px), o rastro de movimento de um deslize rapido."""
+    a = np.asarray(img, dtype=np.float32)
+    c = np.cumsum(np.pad(a, ((0, 0), (k // 2 + 1, k - k // 2), (0, 0)), mode="edge"), axis=1)
+    return Image.fromarray(((c[:, k:k + W] - c[:, :W]) / k).clip(0, 255).astype(np.uint8))
+
+
 def main(path):
     cfg = load_cfg(path)
     font = cfg["font"]
@@ -130,14 +139,33 @@ def main(path):
     cfg["scenes"][-1]["end"] = max(cfg["scenes"][-1]["end"], dur)
     tmp = os.path.splitext(cfg["out"])[0] + "_cenas"
     shutil.rmtree(tmp, ignore_errors=True); os.makedirs(tmp)
+    sc = cfg["scenes"]
+    trans = cfg.get("transicao") == "deslize" and len(sc) > 1
     parts = []
-    for i, s in enumerate(cfg["scenes"]):
-        p = os.path.join(tmp, f"{i:03d}.mp4"); render_scene(s, p); parts.append(p)
-    lst = os.path.join(tmp, "lista.txt")
-    open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
+    for i, s in enumerate(sc):
+        p = os.path.join(tmp, f"{i:03d}.mp4")
+        render_scene(s, p, TRANS if trans and i + 1 < len(sc) else 0.0)
+        parts.append(p)
     base = os.path.join(tmp, "base.mp4")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", base],
-                   check=True)
+    janelas = []  # trechos com transicao, para o borrao de movimento
+    if trans:
+        # cada foto empurra a anterior para o lado (no sentido do deslize dela), como nos edits gringos
+        ins = sum((["-i", p] for p in parts), [])
+        flt, ult = [], "[0:v]"
+        for k in range(1, len(sc)):
+            t0 = sc[k]["start"] - sc[0]["start"]
+            lado = "slideleft" if sc[k].get("pan", 1) >= 0 else "slideright"
+            flt.append(f"{ult}[{k}:v]xfade=transition={lado}:duration={TRANS}:offset={t0:.3f}[x{k}]")
+            ult = f"[x{k}]"
+            janelas.append((t0, t0 + TRANS))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(flt), "-map", ult,
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", base],
+                       check=True)
+    else:
+        lst = os.path.join(tmp, "lista.txt")
+        open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", base],
+                       check=True)
 
     # camada fixa: @ da pagina embaixo, como marca d'agua
     top = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -171,6 +199,10 @@ def main(path):
             break
         t = i / FPS
         frame = Image.frombytes("RGB", (W, H), raw)
+        jan = next(((a, b) for a, b in janelas if a <= t < b), None)
+        if jan:  # borrao de movimento horizontal durante o empurrao, mais forte no meio
+            meio = 1 - abs((t - jan[0]) / (jan[1] - jan[0]) * 2 - 1)
+            frame = borrao_lateral(frame, int(8 + 70 * meio))
         frame.paste(top, (0, 0), top)
         if head is not None and t < 2.2:
             frame.paste(head, (0, 0), head)
