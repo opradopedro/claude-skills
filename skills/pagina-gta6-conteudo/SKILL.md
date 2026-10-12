@@ -26,7 +26,14 @@ Vazamentos: pode noticiar o que a imprensa reporta, sempre marcado como não con
 - Toda notícia com fonte com link; rumor e vazamento marcados como não confirmados.
 - GTA 6 lança em 19/11/2026 (PS5 e Xbox Series, sem PC). Antes: notícias, vazamentos, mecânicas, teorias, contagem. Depois: dicas, segredos, mapas, "onde achar".
 
-## Formato dos vídeos (aprovado pelo Pedro)
+## Formato padrão: "corte" (pedido do Pedro em 12/10/2026)
+Referência: cortes de podcast do Flow Games/GameplayRJ no YouTube Shorts, mas sem apresentador. Opinião rápida sobre o assunto quente de GTA 6 (vazamento comentado como notícia, polêmica, teoria, "vai ter ou não vai ter?"), falada como conversa ("mano", "gente", "pensa comigo"), 30 a 40 s.
+- Visual: b-roll em movimento tela cheia (clipes dos trailers oficiais, banco no branch `radar-gta6-broll`, montado no PC do Pedro com `montar_broll.py`), alternando faixa central com fundo desfocado e tela cheia, corte a cada 1,3 a 2,2 s. Sem clipe, imagens oficiais com zoom lento.
+- Legenda amarela de 2 a 3 palavras no centro, números em roxo, palavras sensíveis censuradas (P3L@D0), @RADAR.GTA6BR pequeno embaixo.
+- Scripts: `auto_short.py` e `make_short.py` (skill `radar-da-gringa`).
+- Nunca usar imagem ou vídeo de vazamento; só material oficial.
+
+## Formato "painel" (o anterior, ainda disponível)
 - Reels de 35 a 40 s, 1080x1920, narração em português pelo Google Cloud TTS (`tts_google.py`, quando houver a chave GOOGLE_TTS_API_KEY no ambiente) ou pela voz "Liam - Energetic, Social Media Creator" do vidIQ (id TX3LPaxmHKxFdv7VOQHJ).
 - Visual: imagens oficiais da Rockstar em HD (branch `radar-gta6-midia`, pasta `assets/`), trocando a cada 2 a 3 s com zoom e flash, imagens e enquadramentos diferentes de um vídeo para o outro. Título no topo, legenda grande sincronizada com a fala (fonte Anton, números e destaques em laranja), fontes e @radar.gta6br com logo embaixo do painel.
 - Tudo dentro da área segura do Reels: nada acima de y=170, abaixo de y=1690 ou à direita de x=930 a partir de y=1090. O `make_reel.py` atual já faz isso, com todos os textos centralizados em x=540 e fontes menores.

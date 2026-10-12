@@ -35,6 +35,7 @@ Escolha a rota pelo que a sessão tem:
   2. `python3 auto_config.py spec.json` gera o `config.json`. O `align2.py` cronometra a legenda pelas pausas reais da fala, sem Whisper (que fica bloqueado na nuvem).
   3. `python3 make_reel.py config.json` monta o 1080x1920. Rode uma montagem por vez por pasta e espere o processo terminar antes de copiar o arquivo.
   4. Conferir 2 ou 3 quadros (ffmpeg) antes de publicar.
+- Formato "corte" (o padrão desde 12/10/2026, veja `pagina-gta6-conteudo`): `auto_short.py spec.json` (com `text`, `merge`, `broll` ou `tags`, `headline`) e `make_short.py config.json`. O banco de b-roll em movimento sai do `montar_broll.py`, que roda no PC do Pedro (a nuvem não alcança o YouTube) e baixa só vídeos oficiais da Rockstar.
 
 ### 4. Área segura do Reels (o layout já respeita)
 Nada de texto acima de y=170 (cabeçalho do Instagram), abaixo de y=1690 (nome e legenda do post) ou à direita de x=930 a partir de y=1090 (ícones de curtir, comentar, compartilhar). Todos os textos ficam centralizados na tela (x=540), com a legenda queimada em no máximo 740 px de largura e fontes menores (título 72, legenda 84 e destaque 100, fontes 28, @ 42) para não brigar com o texto do Instagram. Ao mudar o layout, conferir com um print de Reel publicado.
