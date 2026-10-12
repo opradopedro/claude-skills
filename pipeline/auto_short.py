@@ -72,6 +72,19 @@ def pick_broll(spec, base, rnd):
     return [os.path.join(root, c["file"]) for c in good]
 
 
+def baixar_faltando(arqs):
+    """Banco de b-roll clonado so com index, tags e miniaturas (clone parcial + sparse-checkout):
+    baixa do git so os clipes que este video vai usar."""
+    falta = sorted({a for a in arqs if not os.path.exists(a)})
+    if not falta:
+        return
+    pasta = os.path.dirname(falta[0])
+    top = subprocess.check_output(["git", "-C", pasta, "rev-parse", "--show-toplevel"], text=True).strip()
+    rel = ["/" + os.path.relpath(a, top) for a in falta]
+    subprocess.run(["git", "-C", top, "sparse-checkout", "add", *rel], check=True)
+    print("baixou", len(rel), "clipes do banco")
+
+
 def main(path):
     spec = json.load(open(path, encoding="utf-8"))
     base = os.path.dirname(os.path.abspath(path))
@@ -93,6 +106,7 @@ def main(path):
             cuts.append(cuts[-1] + passo)
     while total - cuts[-1] > mx:
         cuts.append(cuts[-1] + passo)
+    baixar_faltando([srcs[i % len(srcs)] for i in range(len(cuts))])
     scenes = []
     for i, t0 in enumerate(cuts):
         t1 = cuts[i + 1] if i + 1 < len(cuts) else total
