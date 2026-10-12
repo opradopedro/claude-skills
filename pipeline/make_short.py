@@ -12,7 +12,8 @@ Config (gerado pelo auto_short.py):
   "captions": [{"start": 0, "end": 0.8, "text": "O HACKER LA", "hl": false}]
 }
 Layout "full": cobre a tela inteira. "band": faixa de 1080x1000 no meio com o fundo
-desfocado. Imagens paradas ganham zoom lento (Ken Burns).
+desfocado. Fotos deitadas em tela cheia deslizam de lado (cena com "pan": 1 ou -1 para o sentido);
+as outras imagens paradas ganham zoom lento (Ken Burns).
 Area segura do Reels: texto entre y=170 e y=1690 e longe dos icones (x > 930 a partir de y=1090).
 """
 import json, os, shutil, subprocess, sys
@@ -22,6 +23,7 @@ W, H, FPS = 1080, 1920, 30
 BAND_Y, BAND_H = 380, 1000
 CX, SAFE_W = 540, 760
 CAP_Y = 1060  # centro vertical da legenda
+PAN_VEL = 420  # px/s do deslize lateral das fotos deitadas
 YELLOW, WHITE, PURPLE = (255, 221, 0), (255, 255, 255), (190, 120, 255)
 IMG_EXT = (".jpg", ".jpeg", ".png", ".webp")
 
@@ -64,12 +66,30 @@ def scene_filter(layout, cx, still, dur):
             f"drawbox=x=0:y={BAND_Y + BAND_H}:w={W}:h=6:color=0xFFDD00:t=fill[v]")
 
 
+def pan_filter(img_w, img_h, dur, sentido):
+    """Foto deitada em tela cheia: ocupa a altura toda e desliza de lado, para mostrar mais da imagem.
+    Percorre ate 70% da sobra horizontal, no maximo PAN_VEL px/s, com entrada e saida suaves."""
+    sw = int(round(img_w * H / img_h / 2)) * 2
+    sobra = sw - W
+    dist = min(sobra * 0.7, PAN_VEL * dur)
+    x0 = (sobra - dist) / 2 if sentido >= 0 else (sobra + dist) / 2
+    x1 = x0 + dist * (1 if sentido >= 0 else -1)
+    return (f"[0:v]scale={sw}:{H},crop={W}:{H}:'{x0:.1f}+({x1 - x0:.1f})*(0.5-0.5*cos(PI*t/{dur:.3f}))':0,"
+            f"setsar=1,fps={FPS}[v]")
+
+
 def render_scene(s, path):
     dur = s["end"] - s["start"]
     still = s["src"].lower().endswith(IMG_EXT)
     inp = (["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.3f}", "-i", s["src"]] if still
            else ["-ss", f"{s.get('ss', 0):.2f}", "-t", f"{dur:.3f}", "-i", s["src"]])
-    flt = scene_filter(s.get("layout", "full"), s.get("cx", 0.5), still, dur)
+    layout = s.get("layout", "full")
+    flt = None
+    if still and layout == "full":
+        iw, ih = Image.open(s["src"]).size
+        if iw * H / ih >= W * 1.25:  # foto deitada: desliza de lado em vez do zoom parado
+            flt = pan_filter(iw, ih, dur, s.get("pan", 1))
+    flt = flt or scene_filter(layout, s.get("cx", 0.5), still, dur)
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inp, "-filter_complex", flt, "-map", "[v]",
                     "-frames:v", str(max(1, int(round(dur * FPS)))), "-an",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", path],

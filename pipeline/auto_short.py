@@ -11,7 +11,7 @@ spec:
   "headline": "opcional", "censor": {"PELADO": "P3L@D0"}, "seed": 7
 }
 Legenda: 2 a 3 palavras por bloco, em amarelo; numeros em destaque (roxo).
-Cortes: a cada 1,3 a 2,2 s, sempre no inicio de um bloco de legenda.
+Cortes: a cada 1,3 a 2,2 s (so fotos: 2,4 a 3,6 s, com a foto deslizando de lado), sempre no inicio de um bloco de legenda.
 """
 import json, os, random, re, subprocess, sys
 
@@ -81,22 +81,25 @@ def main(path):
     censor = dict(CENSOR, **spec.get("censor", {}))
     caps = chunks(words, censor)
     total = duration(audio) + 0.4
-    # cortes
+    srcs = pick_broll(spec, base, rnd)
+    # cortes: 1,3 a 2,2 s com clipes; so com fotos, 2,4 a 3,6 s para dar tempo da foto deslizar
+    so_fotos = all(p.lower().endswith((".jpg", ".jpeg", ".png", ".webp")) for p in srcs)
+    mn, mx, passo = (2.4, 3.6, 3.0) if so_fotos else (1.3, 2.2, 1.6)
     cuts = [0.0]
     for c in caps:
-        if c["start"] - cuts[-1] >= 1.3:
+        if c["start"] - cuts[-1] >= mn:
             cuts.append(c["start"])
-        while c["start"] - cuts[-1] > 2.2:
-            cuts.append(cuts[-1] + 1.6)
-    while total - cuts[-1] > 2.2:
-        cuts.append(cuts[-1] + 1.6)
-    srcs = pick_broll(spec, base, rnd)
+        while c["start"] - cuts[-1] > mx:
+            cuts.append(cuts[-1] + passo)
+    while total - cuts[-1] > mx:
+        cuts.append(cuts[-1] + passo)
     scenes = []
     for i, t0 in enumerate(cuts):
         t1 = cuts[i + 1] if i + 1 < len(cuts) else total
         src = srcs[i % len(srcs)]
         sc = {"src": os.path.relpath(src, base), "start": round(t0, 3), "end": round(t1, 3),
-              "layout": spec.get("layout") or ("full" if i % 3 == 2 else "band"), "cx": round(rnd.uniform(0.35, 0.65), 2)}
+              "layout": spec.get("layout") or "full", "cx": round(rnd.uniform(0.35, 0.65), 2),
+              "pan": 1 if i % 2 == 0 else -1}
         if not src.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
             d = duration(src)
             sc["ss"] = round(rnd.uniform(0, max(0.0, d - (t1 - t0) - 0.1)), 2)
