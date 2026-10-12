@@ -15,7 +15,7 @@ Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na co
 ## Regras do Pedro (valem acima de tudo)
 1. **Postar direto, sem pedir aprovação.** Se ele não gostar, ele reclama depois.
 2. **Nunca repetir conteúdo** (mesmo arquivo, mesma primeira linha de legenda) e nunca dois Reels com menos de 90 min de diferença.
-3. **Voz:** a do vidIQ é a aprovada (voz `TX3LPaxmHKxFdv7VOQHJ`), mas o plano pago ficou caro; com menos de 14 créditos, usar o Gemini (`pipeline/tts_gemini.py`) com a voz que o Pedro escolher. **Piper proibido** (robótico). Sem voz disponível: não produzir vídeo novo, só publicar o que já estiver `pendente`.
+3. **Voz:** a do vidIQ é a aprovada (voz `TX3LPaxmHKxFdv7VOQHJ`), mas o plano pago ficou caro; com menos de 14 créditos, usar o Gemini (`pipeline/tts_gemini.py`) com a voz **Orus** (`GEMINI_TTS_VOICE=Orus`), escolhida pelo Pedro em 12/10. **Piper proibido** (robótico). Sem voz disponível: não produzir vídeo novo, só publicar o que já estiver `pendente`.
 4. **Formato único:** tela cheia 9:16, legenda amarela de 2 a 3 palavras, @radar.gta6br. Visual de b-roll **em movimento**, como o vídeo do Jason aprovado (`aprovados/jason_extended_look_APROVADO.mp4`): abre com um clipe forte e segue com cortes de 1,3 a 2,2 s.
    - Use clipes do Extended Look (`tJbzMqJGH4k_*`), Trailer 1 (`QdBZY2fkU-0_*`) e teasers. **Não use clipes do Trailer 2 (`VQRLujxTm3c_*`)**: eles têm faixas pretas de cinema que aparecem no Reel.
    - Fotos de `assets/` só como complemento; quando aparecerem, deslizam devagar e entram empurrando a anterior (nada de uma imagem se transformando na outra). Nunca `cover.jpg`.
