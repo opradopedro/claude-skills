@@ -108,16 +108,17 @@
     {
       "data": "2026-10-12",
       "hora": "18:00",
-      "arquivo": null,
-      "status": "aguardando_pedro",
-      "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6",
+      "arquivo": "aprovados/jason_extended_look_APROVADO.mp4",
+      "status": "postado",
+      "legenda": "O Jason de GTA 6 é autista? Essa teoria tá bombando lá fora 🤔\n\nO chefe de narrativa da Rockstar contou à revista LOVE que é o jogador quem decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nFaz sentido pra você? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6 #extendedlook",
       "ficha": {
         "formato": "corte",
         "tema": "teoria",
         "gancho": "pergunta",
         "origem": "gringa"
       },
-      "obs": "Pedro quer publicar a versão da teoria do Jason que começa com o Jason andando (clipe do início do Extended Look, b-roll em movimento). O arquivo não está neste branch; aguardando o Pedro mandar ou liberar o repositório fabrica-de-paginas. Publicar manualmente nesta conversa, não pela tarefa agendada."
+      "obs": "versão aprovada pelo Pedro (clipes do Extended Look, abre com o Jason andando); publicada às 19h25",
+      "link": "https://www.instagram.com/reel/DeaTN8uj8pd/"
     },
     {
       "data": "2026-10-12",
