@@ -9,7 +9,7 @@ Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na co
 
 ## Pastas na nuvem (tarefa atual)
 - Repositório: `/home/claude/radar-midia` (mesmo branch).
-- Banco de b-roll: clone parcial do repositório privado `opradopedro/fabrica-de-paginas` em `/home/claude/fabrica-de-paginas`, só com `index.json` e `tags.json`. Se faltar: `git clone --filter=blob:none --sparse https://github.com/opradopedro/fabrica-de-paginas /home/claude/fabrica-de-paginas` e `git -C /home/claude/fabrica-de-paginas sparse-checkout set radar-gta6/broll/index.json radar-gta6/broll/tags.json`. O `auto_short.py` baixa sozinho só os clipes que o vídeo usar. No `spec.json`, `index` = `/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json`.
+- Banco de b-roll: clone parcial do repositório privado `opradopedro/fabrica-de-paginas` em `/home/claude/fabrica-de-paginas`, só com `index.json` e `tags.json`. Se faltar: `git clone --filter=blob:none --sparse https://github.com/opradopedro/fabrica-de-paginas /home/claude/fabrica-de-paginas` e `git -C /home/claude/fabrica-de-paginas sparse-checkout set --no-cone radar-gta6/broll/index.json radar-gta6/broll/tags.json`. O `auto_short.py` baixa sozinho só os clipes que o vídeo usar. No `spec.json`, `index` = `/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json`.
 - Comandos com `python3` e caminhos com `/`.
 
 ## Regras do Pedro (valem acima de tudo)
