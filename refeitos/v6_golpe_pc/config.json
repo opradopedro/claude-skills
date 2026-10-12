@@ -1,0 +1,310 @@
+{
+ "audio": "voz.mp3",
+ "out": "../../radar_v6_golpe_pc_demo.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../assets/revolvers.jpg",
+   "start": 0.0,
+   "end": 2.2,
+   "layout": "band",
+   "cx": 0.42
+  },
+  {
+   "src": "../../assets/hero.jpg",
+   "start": 2.2,
+   "end": 3.938,
+   "layout": "band",
+   "cx": 0.51
+  },
+  {
+   "src": "../../assets/jason_clip.jpg",
+   "start": 3.938,
+   "end": 5.604,
+   "layout": "full",
+   "cx": 0.46
+  },
+  {
+   "src": "../../assets/vc11.jpg",
+   "start": 5.604,
+   "end": 7.849,
+   "layout": "band",
+   "cx": 0.53
+  },
+  {
+   "src": "../../assets/cheetah.jpg",
+   "start": 7.849,
+   "end": 10.362,
+   "layout": "band",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/lucia.jpg",
+   "start": 10.362,
+   "end": 11.94,
+   "layout": "full",
+   "cx": 0.37
+  },
+  {
+   "src": "../../assets/stanier.jpg",
+   "start": 11.94,
+   "end": 14.571,
+   "layout": "band",
+   "cx": 0.35
+  },
+  {
+   "src": "../../assets/postcard.jpg",
+   "start": 14.571,
+   "end": 16.636,
+   "layout": "band",
+   "cx": 0.6
+  },
+  {
+   "src": "../../assets/album.jpg",
+   "start": 16.636,
+   "end": 18.307,
+   "layout": "full",
+   "cx": 0.43
+  },
+  {
+   "src": "../../assets/looks.jpg",
+   "start": 18.307,
+   "end": 19.742,
+   "layout": "band",
+   "cx": 0.42
+  },
+  {
+   "src": "../../assets/jason.jpg",
+   "start": 19.742,
+   "end": 22.192,
+   "layout": "band",
+   "cx": 0.65
+  },
+  {
+   "src": "../../assets/vintage.jpg",
+   "start": 22.192,
+   "end": 24.833,
+   "layout": "full",
+   "cx": 0.49
+  },
+  {
+   "src": "../../assets/revolvers.jpg",
+   "start": 24.833,
+   "end": 26.576,
+   "layout": "band",
+   "cx": 0.6
+  },
+  {
+   "src": "../../assets/hero.jpg",
+   "start": 26.576,
+   "end": 29.354,
+   "layout": "band",
+   "cx": 0.49
+  },
+  {
+   "src": "../../assets/jason_clip.jpg",
+   "start": 29.354,
+   "end": 31.58,
+   "layout": "full",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/vc11.jpg",
+   "start": 31.58,
+   "end": 33.092,
+   "layout": "band",
+   "cx": 0.4
+  },
+  {
+   "src": "../../assets/cheetah.jpg",
+   "start": 33.092,
+   "end": 34.545,
+   "layout": "band",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/lucia.jpg",
+   "start": 34.545,
+   "end": 35.561,
+   "layout": "full",
+   "cx": 0.61
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.0,
+   "text": "VIU GTA 6 PRA",
+   "hl": true
+  },
+  {
+   "start": 1.0,
+   "end": 2.2,
+   "text": "BAIXAR NO PC?",
+   "hl": false
+  },
+  {
+   "start": 2.2,
+   "end": 3.938,
+   "text": "NÃO CLICA GOLPISTAS",
+   "hl": false
+  },
+  {
+   "start": 3.938,
+   "end": 5.604,
+   "text": "ESTÃO ESPALHANDO INSTALADORES",
+   "hl": false
+  },
+  {
+   "start": 5.604,
+   "end": 6.596,
+   "text": "FALSOS DE GTA 6",
+   "hl": true
+  },
+  {
+   "start": 6.596,
+   "end": 7.849,
+   "text": "PRA COMPUTADOR E",
+   "hl": false
+  },
+  {
+   "start": 7.849,
+   "end": 8.776,
+   "text": "O ARQUIVO VEM",
+   "hl": false
+  },
+  {
+   "start": 8.776,
+   "end": 10.362,
+   "text": "COM VÍRUS PRESTA",
+   "hl": false
+  },
+  {
+   "start": 10.362,
+   "end": 11.94,
+   "text": "ATENÇÃO ATÉ AGORA",
+   "hl": false
+  },
+  {
+   "start": 11.94,
+   "end": 13.12,
+   "text": "GTA 6 FOI CONFIRMADO",
+   "hl": true
+  },
+  {
+   "start": 13.12,
+   "end": 14.571,
+   "text": "SÓ PRA PLAYSTATION",
+   "hl": false
+  },
+  {
+   "start": 14.571,
+   "end": 15.316,
+   "text": "5 E XBOX",
+   "hl": true
+  },
+  {
+   "start": 15.316,
+   "end": 16.636,
+   "text": "SERIES NÃO EXISTE",
+   "hl": false
+  },
+  {
+   "start": 16.636,
+   "end": 18.307,
+   "text": "VERSÃO OFICIAL PRA",
+   "hl": false
+  },
+  {
+   "start": 18.307,
+   "end": 19.742,
+   "text": "PC ENTÃO QUALQUER",
+   "hl": false
+  },
+  {
+   "start": 19.742,
+   "end": 20.724,
+   "text": "SITE VÍDEO OU",
+   "hl": false
+  },
+  {
+   "start": 20.724,
+   "end": 22.192,
+   "text": "LINK PROMETENDO GTA 6",
+   "hl": true
+  },
+  {
+   "start": 22.192,
+   "end": 23.344,
+   "text": "NO COMPUTADOR É",
+   "hl": false
+  },
+  {
+   "start": 23.344,
+   "end": 24.833,
+   "text": "GOLPE COMPRA SÓ",
+   "hl": false
+  },
+  {
+   "start": 24.833,
+   "end": 26.576,
+   "text": "NAS LOJAS OFICIAIS",
+   "hl": false
+  },
+  {
+   "start": 26.576,
+   "end": 27.38,
+   "text": "E SE TIVER",
+   "hl": false
+  },
+  {
+   "start": 27.38,
+   "end": 29.354,
+   "text": "DÚVIDA DESCONFIA MANDA",
+   "hl": false
+  },
+  {
+   "start": 29.354,
+   "end": 29.904,
+   "text": "ESSE VÍDEO PRO",
+   "hl": false
+  },
+  {
+   "start": 29.904,
+   "end": 30.598,
+   "text": "AMIGO QUE VIVE",
+   "hl": false
+  },
+  {
+   "start": 30.598,
+   "end": 31.58,
+   "text": "BAIXANDO O JOGO",
+   "hl": false
+  },
+  {
+   "start": 31.58,
+   "end": 32.535,
+   "text": "P1R@T@ E SEGUE",
+   "hl": false
+  },
+  {
+   "start": 32.535,
+   "end": 33.092,
+   "text": "O RADAR PRA",
+   "hl": false
+  },
+  {
+   "start": 33.092,
+   "end": 34.545,
+   "text": "NÃO CAIR EM",
+   "hl": false
+  },
+  {
+   "start": 34.545,
+   "end": 37.14,
+   "text": "FURADA",
+   "hl": false
+  }
+ ]
+}

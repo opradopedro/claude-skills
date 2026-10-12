@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "../../radar_v5_mecanicas_demo.mp4",
+ "captions_from": "config2.json",
+ "broll": [
+  "../../assets/jason.jpg",
+  "../../assets/looks.jpg",
+  "../../assets/lucia_clip.jpg",
+  "../../assets/vc11.jpg",
+  "../../assets/cheetah.jpg",
+  "../../assets/postcard.jpg",
+  "../../assets/stanier.jpg",
+  "../../assets/lucia.jpg",
+  "../../assets/hero.jpg",
+  "../../assets/jason_clip.jpg",
+  "../../assets/vintage.jpg",
+  "../../assets/album.jpg"
+ ],
+ "font": "../../assets/fonts/Anton.ttf",
+ "seed": 3
+}

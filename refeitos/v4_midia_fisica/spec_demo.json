@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "../../radar_v4_midia_fisica_demo.mp4",
+ "captions_from": "config2.json",
+ "broll": [
+  "../../assets/box.jpg",
+  "../../assets/cover.jpg",
+  "../../assets/postcard.jpg",
+  "../../assets/vc11.jpg",
+  "../../assets/jason.jpg",
+  "../../assets/lucia.jpg",
+  "../../assets/album.jpg",
+  "../../assets/hero.jpg",
+  "../../assets/stanier.jpg",
+  "../../assets/vintage.jpg",
+  "../../assets/looks.jpg",
+  "../../assets/lucia_clip.jpg"
+ ],
+ "font": "../../assets/fonts/Anton.ttf",
+ "seed": 3
+}

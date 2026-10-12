@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "../../radar_v6_golpe_pc_demo.mp4",
+ "captions_from": "config2.json",
+ "broll": [
+  "../../assets/revolvers.jpg",
+  "../../assets/hero.jpg",
+  "../../assets/jason_clip.jpg",
+  "../../assets/vc11.jpg",
+  "../../assets/cheetah.jpg",
+  "../../assets/lucia.jpg",
+  "../../assets/stanier.jpg",
+  "../../assets/postcard.jpg",
+  "../../assets/album.jpg",
+  "../../assets/looks.jpg",
+  "../../assets/jason.jpg",
+  "../../assets/vintage.jpg"
+ ],
+ "font": "../../assets/fonts/Anton.ttf",
+ "seed": 3
+}

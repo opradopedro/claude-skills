@@ -1,0 +1,354 @@
+{
+ "audio": "voz.mp3",
+ "out": "../../radar_v5_mecanicas_demo.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../assets/jason.jpg",
+   "start": 0.0,
+   "end": 1.32,
+   "layout": "band",
+   "cx": 0.42
+  },
+  {
+   "src": "../../assets/looks.jpg",
+   "start": 1.32,
+   "end": 3.26,
+   "layout": "band",
+   "cx": 0.51
+  },
+  {
+   "src": "../../assets/lucia_clip.jpg",
+   "start": 3.26,
+   "end": 4.58,
+   "layout": "full",
+   "cx": 0.46
+  },
+  {
+   "src": "../../assets/vc11.jpg",
+   "start": 4.58,
+   "end": 6.56,
+   "layout": "band",
+   "cx": 0.53
+  },
+  {
+   "src": "../../assets/cheetah.jpg",
+   "start": 6.56,
+   "end": 8.18,
+   "layout": "band",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/postcard.jpg",
+   "start": 8.18,
+   "end": 10.214,
+   "layout": "full",
+   "cx": 0.37
+  },
+  {
+   "src": "../../assets/stanier.jpg",
+   "start": 10.214,
+   "end": 12.48,
+   "layout": "band",
+   "cx": 0.35
+  },
+  {
+   "src": "../../assets/lucia.jpg",
+   "start": 12.48,
+   "end": 14.74,
+   "layout": "band",
+   "cx": 0.6
+  },
+  {
+   "src": "../../assets/hero.jpg",
+   "start": 14.74,
+   "end": 17.08,
+   "layout": "full",
+   "cx": 0.43
+  },
+  {
+   "src": "../../assets/jason_clip.jpg",
+   "start": 17.08,
+   "end": 18.57,
+   "layout": "band",
+   "cx": 0.42
+  },
+  {
+   "src": "../../assets/vintage.jpg",
+   "start": 18.57,
+   "end": 20.229,
+   "layout": "band",
+   "cx": 0.65
+  },
+  {
+   "src": "../../assets/album.jpg",
+   "start": 20.229,
+   "end": 22.2,
+   "layout": "full",
+   "cx": 0.49
+  },
+  {
+   "src": "../../assets/jason.jpg",
+   "start": 22.2,
+   "end": 24.042,
+   "layout": "band",
+   "cx": 0.6
+  },
+  {
+   "src": "../../assets/looks.jpg",
+   "start": 24.042,
+   "end": 26.318,
+   "layout": "band",
+   "cx": 0.49
+  },
+  {
+   "src": "../../assets/lucia_clip.jpg",
+   "start": 26.318,
+   "end": 28.02,
+   "layout": "full",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/vc11.jpg",
+   "start": 28.02,
+   "end": 29.683,
+   "layout": "band",
+   "cx": 0.4
+  },
+  {
+   "src": "../../assets/cheetah.jpg",
+   "start": 29.683,
+   "end": 31.88,
+   "layout": "band",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/postcard.jpg",
+   "start": 31.88,
+   "end": 33.22,
+   "layout": "full",
+   "cx": 0.61
+  },
+  {
+   "src": "../../assets/stanier.jpg",
+   "start": 33.22,
+   "end": 35.02,
+   "layout": "band",
+   "cx": 0.51
+  },
+  {
+   "src": "../../assets/lucia.jpg",
+   "start": 35.02,
+   "end": 36.292,
+   "layout": "band",
+   "cx": 0.57
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.32,
+   "text": "GTA 6 TROUXE DE",
+   "hl": true
+  },
+  {
+   "start": 1.32,
+   "end": 1.88,
+   "text": "VOLTA UMA DAS",
+   "hl": false
+  },
+  {
+   "start": 1.88,
+   "end": 3.26,
+   "text": "COISAS MAIS AMADAS",
+   "hl": false
+  },
+  {
+   "start": 3.26,
+   "end": 4.58,
+   "text": "DO SAN ANDREAS",
+   "hl": false
+  },
+  {
+   "start": 4.58,
+   "end": 5.36,
+   "text": "O CORPO DO",
+   "hl": false
+  },
+  {
+   "start": 5.36,
+   "end": 6.56,
+   "text": "PERSONAGEM MUDA DE",
+   "hl": false
+  },
+  {
+   "start": 6.56,
+   "end": 7.12,
+   "text": "ACORDO COM O",
+   "hl": false
+  },
+  {
+   "start": 7.12,
+   "end": 8.18,
+   "text": "QUE VOCÊ FAZ",
+   "hl": false
+  },
+  {
+   "start": 8.18,
+   "end": 9.32,
+   "text": "COMER TREINAR E",
+   "hl": false
+  },
+  {
+   "start": 9.32,
+   "end": 10.214,
+   "text": "DORMIR AFETAM A",
+   "hl": false
+  },
+  {
+   "start": 10.214,
+   "end": 11.478,
+   "text": "APARÊNCIA DO JASON",
+   "hl": false
+  },
+  {
+   "start": 11.478,
+   "end": 12.48,
+   "text": "E DA LUCIA",
+   "hl": false
+  },
+  {
+   "start": 12.48,
+   "end": 12.94,
+   "text": "E NÃO PARA",
+   "hl": false
+  },
+  {
+   "start": 12.94,
+   "end": 13.739,
+   "text": "POR AÍ A",
+   "hl": false
+  },
+  {
+   "start": 13.739,
+   "end": 14.74,
+   "text": "ROCKSTAR CONFIRMOU",
+   "hl": false
+  },
+  {
+   "start": 14.74,
+   "end": 15.62,
+   "text": "UM MONTE DE",
+   "hl": false
+  },
+  {
+   "start": 15.62,
+   "end": 17.08,
+   "text": "ATIVIDADES PELO MAPA",
+   "hl": false
+  },
+  {
+   "start": 17.08,
+   "end": 18.57,
+   "text": "CAIAQUE VISITA O",
+   "hl": false
+  },
+  {
+   "start": 18.57,
+   "end": 19.8,
+   "text": "ZOOLÓGICO CORRIDA",
+   "hl": false
+  },
+  {
+   "start": 19.8,
+   "end": 20.229,
+   "text": "DE RUA E",
+   "hl": false
+  },
+  {
+   "start": 20.229,
+   "end": 22.2,
+   "text": "OFF-ROAD LUTA LIVRE",
+   "hl": false
+  },
+  {
+   "start": 22.2,
+   "end": 24.042,
+   "text": "SINUCA MINIGOLFE E",
+   "hl": false
+  },
+  {
+   "start": 24.042,
+   "end": 25.254,
+   "text": "ACADEMIA E OS",
+   "hl": false
+  },
+  {
+   "start": 25.254,
+   "end": 26.318,
+   "text": "NPCS REAGEM AO",
+   "hl": false
+  },
+  {
+   "start": 26.318,
+   "end": 26.971,
+   "text": "QUE VOCÊ FAZ",
+   "hl": false
+  },
+  {
+   "start": 26.971,
+   "end": 28.02,
+   "text": "NO MUNDO ABERTO",
+   "hl": false
+  },
+  {
+   "start": 28.02,
+   "end": 28.58,
+   "text": "O CJ IA",
+   "hl": false
+  },
+  {
+   "start": 28.58,
+   "end": 29.683,
+   "text": "FICAR ORGULHOSO QUAL",
+   "hl": false
+  },
+  {
+   "start": 29.683,
+   "end": 30.941,
+   "text": "DESSAS VOCÊ VAI",
+   "hl": false
+  },
+  {
+   "start": 30.941,
+   "end": 31.88,
+   "text": "FAZER PRIMEIRO?",
+   "hl": false
+  },
+  {
+   "start": 31.88,
+   "end": 32.7,
+   "text": "COMENTA AQUI E",
+   "hl": false
+  },
+  {
+   "start": 32.7,
+   "end": 33.22,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  },
+  {
+   "start": 33.22,
+   "end": 33.98,
+   "text": "PRA SABER TUDO",
+   "hl": false
+  },
+  {
+   "start": 33.98,
+   "end": 37.8,
+   "text": "DE GTA 6",
+   "hl": true
+  }
+ ]
+}

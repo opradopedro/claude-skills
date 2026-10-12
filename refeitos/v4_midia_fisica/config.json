@@ -1,0 +1,365 @@
+{
+ "audio": "voz.mp3",
+ "out": "../../radar_v4_midia_fisica_demo.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../assets/box.jpg",
+   "start": 0.0,
+   "end": 2.72,
+   "layout": "band",
+   "cx": 0.42
+  },
+  {
+   "src": "../../assets/cover.jpg",
+   "start": 2.72,
+   "end": 4.44,
+   "layout": "band",
+   "cx": 0.51
+  },
+  {
+   "src": "../../assets/postcard.jpg",
+   "start": 4.44,
+   "end": 6.96,
+   "layout": "full",
+   "cx": 0.46
+  },
+  {
+   "src": "../../assets/vc11.jpg",
+   "start": 6.96,
+   "end": 8.3,
+   "layout": "band",
+   "cx": 0.53
+  },
+  {
+   "src": "../../assets/jason.jpg",
+   "start": 8.3,
+   "end": 11.24,
+   "layout": "band",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/lucia.jpg",
+   "start": 11.24,
+   "end": 13.265,
+   "layout": "full",
+   "cx": 0.37
+  },
+  {
+   "src": "../../assets/album.jpg",
+   "start": 13.265,
+   "end": 14.637,
+   "layout": "band",
+   "cx": 0.35
+  },
+  {
+   "src": "../../assets/hero.jpg",
+   "start": 14.637,
+   "end": 17.3,
+   "layout": "band",
+   "cx": 0.6
+  },
+  {
+   "src": "../../assets/stanier.jpg",
+   "start": 17.3,
+   "end": 19.54,
+   "layout": "full",
+   "cx": 0.43
+  },
+  {
+   "src": "../../assets/vintage.jpg",
+   "start": 19.54,
+   "end": 23.16,
+   "layout": "band",
+   "cx": 0.42
+  },
+  {
+   "src": "../../assets/looks.jpg",
+   "start": 23.16,
+   "end": 25.74,
+   "layout": "band",
+   "cx": 0.65
+  },
+  {
+   "src": "../../assets/lucia_clip.jpg",
+   "start": 25.74,
+   "end": 27.535,
+   "layout": "full",
+   "cx": 0.49
+  },
+  {
+   "src": "../../assets/box.jpg",
+   "start": 27.535,
+   "end": 28.978,
+   "layout": "band",
+   "cx": 0.6
+  },
+  {
+   "src": "../../assets/cover.jpg",
+   "start": 28.978,
+   "end": 30.408,
+   "layout": "band",
+   "cx": 0.49
+  },
+  {
+   "src": "../../assets/postcard.jpg",
+   "start": 30.408,
+   "end": 32.818,
+   "layout": "full",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/vc11.jpg",
+   "start": 32.818,
+   "end": 34.87,
+   "layout": "band",
+   "cx": 0.4
+  },
+  {
+   "src": "../../assets/jason.jpg",
+   "start": 34.87,
+   "end": 37.0,
+   "layout": "band",
+   "cx": 0.54
+  },
+  {
+   "src": "../../assets/lucia.jpg",
+   "start": 37.0,
+   "end": 38.8,
+   "layout": "full",
+   "cx": 0.61
+  },
+  {
+   "src": "../../assets/album.jpg",
+   "start": 38.8,
+   "end": 40.132,
+   "layout": "band",
+   "cx": 0.51
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.26,
+   "text": "VAI COMPRAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 1.26,
+   "end": 2.72,
+   "text": "EM MÍDIA FÍSICA?",
+   "hl": false
+  },
+  {
+   "start": 2.72,
+   "end": 3.78,
+   "text": "CUIDADO",
+   "hl": false
+  },
+  {
+   "start": 3.78,
+   "end": 4.44,
+   "text": "A CAIXA QUE",
+   "hl": false
+  },
+  {
+   "start": 4.44,
+   "end": 5.4,
+   "text": "CHEGA NO LANÇAMENTO",
+   "hl": false
+  },
+  {
+   "start": 5.4,
+   "end": 6.96,
+   "text": "NÃO TEM DISCO",
+   "hl": false
+  },
+  {
+   "start": 6.96,
+   "end": 7.5,
+   "text": "TEM SÓ UM",
+   "hl": false
+  },
+  {
+   "start": 7.5,
+   "end": 8.3,
+   "text": "CÓDIGO PRA BAIXAR",
+   "hl": false
+  },
+  {
+   "start": 8.3,
+   "end": 8.82,
+   "text": "O JOGO NA",
+   "hl": false
+  },
+  {
+   "start": 8.82,
+   "end": 9.58,
+   "text": "LOJA DO PLAYSTATION",
+   "hl": false
+  },
+  {
+   "start": 9.58,
+   "end": 11.24,
+   "text": "OU DO XBOX",
+   "hl": false
+  },
+  {
+   "start": 11.24,
+   "end": 12.04,
+   "text": "SEGUNDO O SUPORTE",
+   "hl": false
+  },
+  {
+   "start": 12.04,
+   "end": 13.265,
+   "text": "DA ROCKSTAR O",
+   "hl": false
+  },
+  {
+   "start": 13.265,
+   "end": 14.163,
+   "text": "DISCO DE VERDADE",
+   "hl": false
+  },
+  {
+   "start": 14.163,
+   "end": 14.637,
+   "text": "SÓ VAI SER",
+   "hl": false
+  },
+  {
+   "start": 14.637,
+   "end": 15.583,
+   "text": "VENDIDO NOS MESES",
+   "hl": false
+  },
+  {
+   "start": 15.583,
+   "end": 17.3,
+   "text": "DEPOIS DO LANÇAMENTO",
+   "hl": false
+  },
+  {
+   "start": 17.3,
+   "end": 17.86,
+   "text": "TEM QUEM FALE",
+   "hl": false
+  },
+  {
+   "start": 17.86,
+   "end": 18.58,
+   "text": "EM POUCAS SEMANAS",
+   "hl": false
+  },
+  {
+   "start": 18.58,
+   "end": 19.54,
+   "text": "E TEM QUEM",
+   "hl": false
+  },
+  {
+   "start": 19.54,
+   "end": 20.68,
+   "text": "FALE EM COMEÇO",
+   "hl": false
+  },
+  {
+   "start": 20.68,
+   "end": 23.16,
+   "text": "DE 2027 ENTÃO",
+   "hl": true
+  },
+  {
+   "start": 23.16,
+   "end": 23.84,
+   "text": "SE VOCÊ QUER",
+   "hl": false
+  },
+  {
+   "start": 23.84,
+   "end": 24.44,
+   "text": "O DISCO PRA",
+   "hl": false
+  },
+  {
+   "start": 24.44,
+   "end": 25.74,
+   "text": "COLECIONAR OU REVENDER",
+   "hl": false
+  },
+  {
+   "start": 25.74,
+   "end": 27.535,
+   "text": "DEPOIS TALVEZ VALE",
+   "hl": false
+  },
+  {
+   "start": 27.535,
+   "end": 28.36,
+   "text": "ESPERAR SE SÓ",
+   "hl": false
+  },
+  {
+   "start": 28.36,
+   "end": 28.978,
+   "text": "QUER JOGAR NO",
+   "hl": false
+  },
+  {
+   "start": 28.978,
+   "end": 30.408,
+   "text": "DIA 19 TANTO",
+   "hl": true
+  },
+  {
+   "start": 30.408,
+   "end": 31.528,
+   "text": "FAZ COM CAIXA",
+   "hl": false
+  },
+  {
+   "start": 31.528,
+   "end": 32.818,
+   "text": "OU DIGITAL VOCÊ",
+   "hl": false
+  },
+  {
+   "start": 32.818,
+   "end": 33.45,
+   "text": "VAI BAIXAR DO",
+   "hl": false
+  },
+  {
+   "start": 33.45,
+   "end": 34.87,
+   "text": "MESMO JEITO VOCÊ",
+   "hl": false
+  },
+  {
+   "start": 34.87,
+   "end": 35.944,
+   "text": "PREFERE DISCO OU",
+   "hl": false
+  },
+  {
+   "start": 35.944,
+   "end": 37.0,
+   "text": "DIGITAL?",
+   "hl": false
+  },
+  {
+   "start": 37.0,
+   "end": 38.08,
+   "text": "COMENTA AÍ E",
+   "hl": false
+  },
+  {
+   "start": 38.08,
+   "end": 41.64,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
