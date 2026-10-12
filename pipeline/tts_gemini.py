@@ -2,7 +2,8 @@
 """Narracao pela API do Gemini (Google AI Studio), que tem cota gratis sem cartao.
 
 Uso: python3 tts_gemini.py roteiro.txt voz.mp3
-Le a chave da variavel de ambiente GEMINI_API_KEY (nunca gravar a chave no repositorio).
+Chave: variavel de ambiente GEMINI_API_KEY ou, sem ela, o segredo de rede do ambiente da nuvem
+(cabecalho x-goog-api-key injetado para generativelanguage.googleapis.com). Nunca gravar a chave no repositorio.
 GEMINI_TTS_VOICE (padrao Fenrir) e GEMINI_TTS_MODEL (padrao gemini-2.5-flash-preview-tts) sao opcionais.
 """
 import base64, json, os, subprocess, sys, tempfile, time, urllib.error, urllib.request
@@ -12,9 +13,7 @@ ESTILO = ("Leia em português do Brasil como um youtuber gamer brasileiro coment
 
 
 def main(src, out):
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key:
-        sys.exit("GEMINI_API_KEY não definida")
+    key = os.environ.get("GEMINI_API_KEY", "")
     model = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
     voice = os.environ.get("GEMINI_TTS_VOICE", "Fenrir")
     text = open(src, encoding="utf-8").read().strip()
@@ -22,8 +21,10 @@ def main(src, out):
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    req = urllib.request.Request(url, json.dumps(body).encode(),
-                                 {"Content-Type": "application/json", "x-goog-api-key": key})
+    hdr = {"Content-Type": "application/json"}
+    if key:
+        hdr["x-goog-api-key"] = key
+    req = urllib.request.Request(url, json.dumps(body).encode(), hdr)
     for tent in range(4):
         try:
             resp = json.load(urllib.request.urlopen(req, timeout=180))
