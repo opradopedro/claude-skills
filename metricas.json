@@ -3,17 +3,17 @@
   "publicado": "2026-10-12T15:28:32.000Z",
   "legenda": "Ultimate ou Padrão? A diferença é de R$ 100",
   "atual": {
-   "playCount": 806,
-   "likeCount": 22,
+   "playCount": 1041,
+   "likeCount": 32,
    "commentCount": 0,
    "shares": 0,
    "saves": 2,
-   "avgWatchTimeMs": 17027,
-   "avgWatchedPct": 39.59767441860465,
-   "skipRate": 31.3,
+   "avgWatchTimeMs": 18181,
+   "avgWatchedPct": 42.28139534883721,
+   "skipRate": 33,
    "durationSeconds": 43,
-   "coletado": "2026-10-12T20:51Z",
-   "horas": 5.4
+   "coletado": "2026-10-12T22:16Z",
+   "horas": 6.8
   }
  },
  "DeX4Vhuj49m": {
@@ -25,29 +25,42 @@
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 7778,
-   "avgWatchedPct": 21.021621621621623,
+   "avgWatchTimeMs": 7707,
+   "avgWatchedPct": 20.829729729729728,
    "skipRate": 49.6,
    "durationSeconds": 37,
-   "coletado": "2026-10-12T20:51Z",
-   "horas": 21.0
+   "coletado": "2026-10-12T22:16Z",
+   "horas": 22.4
   }
  },
  "DeXjx6Djoxl": {
   "publicado": "2026-10-11T20:52:18.000Z",
   "legenda": "Se o seu PS5 é desbloqueado, GTA 6 vai te dar dor de cabeça",
   "atual": {
-   "playCount": 148,
+   "playCount": 150,
    "likeCount": 1,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 10103,
-   "avgWatchedPct": 28.06388888888889,
-   "skipRate": 54.7,
+   "avgWatchTimeMs": 10255,
+   "avgWatchedPct": 28.48611111111111,
+   "skipRate": 54.3,
    "durationSeconds": 36,
-   "coletado": "2026-10-12T20:51Z",
-   "horas": 24.0
+   "coletado": "2026-10-12T22:16Z",
+   "horas": 25.4
+  },
+  "h24": {
+   "playCount": 150,
+   "likeCount": 1,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 10255,
+   "avgWatchedPct": 28.48611111111111,
+   "skipRate": 54.3,
+   "durationSeconds": 36,
+   "coletado": "2026-10-12T22:16Z",
+   "horas": 25.4
   }
  },
  "DeWv5ONFR3W": {
@@ -63,8 +76,8 @@
    "avgWatchedPct": 22.837209302325583,
    "skipRate": 55.3,
    "durationSeconds": 43,
-   "coletado": "2026-10-12T20:51Z",
-   "horas": 31.5
+   "coletado": "2026-10-12T22:16Z",
+   "horas": 32.9
   },
   "h24": {
    "playCount": 136,
