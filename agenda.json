@@ -138,9 +138,9 @@
       "data": "2026-10-13",
       "hora": "12:00",
       "arquivo": "radar_v6_golpe_pc_v3.mp4",
-      "status": "pendente",
+      "status": "cancelado",
       "legenda": "⚠️ GTA 6 pra PC é GOLPE\n\nNão existe versão oficial pra computador. Os instaladores que estão circulando vêm com vírus. Até agora: só PS5 e Xbox Series.\n\nManda pro amigo que baixa tudo 👇\n\n#gta6 #gtavi #gta6pc #golpe #gta6brasil #rockstargames",
-      "obs": "refeito no formato fotos deslizando tela cheia (igual ao Ultimate e ao demo_fotos_deslizando_v2 aprovados pelo Pedro, 12/10)",
+      "obs": "Pedro (12/10): tema de PC já saiu (v8, PC pela nuvem); não postar. Slot vira produzir.",
       "ficha": {
         "formato": "corte",
         "tema": "golpe",
@@ -323,6 +323,12 @@
       "status": "produzir",
       "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)",
       "formato": "corte"
+    },
+    {
+      "data": "2026-10-13",
+      "hora": "12:00",
+      "status": "produzir",
+      "obs": "substitui o v6 (golpe PC), cancelado pelo Pedro por repetir tema de PC"
     }
   ]
 }

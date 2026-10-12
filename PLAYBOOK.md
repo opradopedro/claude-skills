@@ -14,13 +14,16 @@ Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na co
 
 ## Regras do Pedro (valem acima de tudo)
 1. **Postar direto, sem pedir aprovação.** Se ele não gostar, ele reclama depois.
-2. **Nunca repetir conteúdo** (mesmo arquivo, mesma primeira linha de legenda) e nunca dois Reels com menos de 90 min de diferença.
+2. **Repetir só quando acabar tema novo.** Antes de escolher, confira em `agenda.json` tudo o que já foi `postado` (tema e assunto, não só o arquivo). Se não houver assunto novo e for preciso repetir, o Reel abre com o selo "RELEMBRANDO" na imagem e a legenda começa com "Relembrando:". Fora isso, **nunca repetir conteúdo** (mesmo arquivo, mesma primeira linha de legenda) e nunca dois Reels com menos de 90 min de diferença.
 3. **Voz:** a do vidIQ é a aprovada (voz `TX3LPaxmHKxFdv7VOQHJ`), mas o plano pago ficou caro; com menos de 14 créditos, usar o Gemini (`pipeline/tts_gemini.py`) com a voz **Orus** (`GEMINI_TTS_VOICE=Orus`), escolhida pelo Pedro em 12/10. **Piper proibido** (robótico). Sem voz disponível: não produzir vídeo novo, só publicar o que já estiver `pendente`.
 4. **Formato único:** tela cheia 9:16, legenda amarela de 2 a 3 palavras, @radar.gta6br. Visual de b-roll **em movimento**, como o vídeo do Jason aprovado (`aprovados/jason_extended_look_APROVADO.mp4`): abre com um clipe forte e segue com cortes de 1,3 a 2,2 s.
    - Use clipes do Extended Look (`tJbzMqJGH4k_*`), Trailer 1 (`QdBZY2fkU-0_*`) e teasers. **Não use clipes do Trailer 2 (`VQRLujxTm3c_*`)**: eles têm faixas pretas de cinema que aparecem no Reel.
    - Fotos de `assets/` só como complemento; quando aparecerem, deslizam devagar e entram empurrando a anterior (nada de uma imagem se transformando na outra). Nunca `cover.jpg`.
    - Formatos proibidos: o "demo" faixa/tela cheia alternando (`demo_short/demo_estilo_corte.mp4`) e o "painel".
 5. Vazamento só como notícia não confirmada, sem imagem do vazamento. Toda informação com fonte. Português do Brasil, linguagem gamer, sem travessão. Lançamento: 19/11/2026 (PS5 e Xbox Series).
+
+## Pedidos do Pedro pela página de vídeos
+A página https://claude.ai/artifact/7niMPUBm3tULBMW37X8rJb guarda no banco dela: `avaliacoes/<id>` (voto bom/ruim e comentário) e `pedidos/<id>` (texto com o que trocar, motivo ou inspiração; `status` aberto/feito/recusado; `resposta`). Toda execução lê os pedidos `aberto` primeiro: refaz o vídeo da fila pedido (ou troca o assunto), atualiza o pedido para `feito` com uma `resposta` curta do que mudou, ou `recusado` explicando por quê. Pedido vale mais que o aprendizado automático.
 
 ## Cada execução publica UM Reel
 1. `git pull` no repositório. Ler `agenda.json`. Slot de agora = 12:00, 18:00 ou 21:00 (o mais próximo da hora atual). Se o slot de hoje já estiver `postado`, parar.

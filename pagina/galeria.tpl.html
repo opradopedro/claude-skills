@@ -49,6 +49,12 @@ nav button:focus-visible, button:focus-visible, textarea:focus-visible, a:focus-
 .voto button.ruim[aria-pressed="true"] { background: var(--ruim); border-color: var(--ruim); color: #1a0508; }
 textarea { width: 100%; box-sizing: border-box; min-height: 58px; resize: vertical; background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; font: 14px var(--body); }
 .salvo { font-size: 12px; color: var(--muted); min-height: 1em; margin: 0; }
+.pedido { border-top: 1px dashed var(--line); padding-top: 10px; display: flex; flex-direction: column; gap: 8px; }
+.pedido label { font-weight: 700; font-size: 13px; }
+.enviar { font: 700 14px var(--body); padding: 9px 0; border-radius: 10px; border: 1px solid var(--amarelo); background: transparent; color: var(--amarelo); cursor: pointer; }
+.enviar:disabled { opacity: .5; cursor: default; }
+.estado-pedido { font-size: 12px; color: var(--muted); margin: 0; white-space: pre-line; }
+.estado-pedido b { color: var(--amarelo); font-weight: 700; }
 .vazio { color: var(--muted); padding: 30px 0; }
 .como { max-width: 70ch; margin-top: 18px; display: flex; flex-direction: column; gap: 22px; }
 .como h2 { font-family: var(--display); font-weight: 400; text-transform: uppercase; letter-spacing: .5px; font-size: 24px; margin: 0 0 6px; color: var(--amarelo); }
@@ -69,7 +75,7 @@ textarea { width: 100%; box-sizing: border-box; min-height: 58px; resize: vertic
     <button role="tab" id="tab-postados" aria-selected="false" data-aba="postados">Já postados</button>
     <button role="tab" id="tab-como" aria-selected="false" data-aba="como">Como funciona</button>
   </nav>
-  <p class="nota" id="nota-voto">Avaliar é opcional: os vídeos saem no horário mesmo sem nota. O que você marcar aqui eu leio antes de montar os próximos.</p>
+  <p class="nota" id="nota-voto">Avaliar é opcional: os vídeos saem no horário mesmo sem nota. Notas e pedidos de troca eu leio antes de cada post; um pedido muda o vídeo antes de ele sair.</p>
 
   <section id="aba-fila" class="grade" role="tabpanel" aria-labelledby="tab-fila"></section>
   <section id="aba-postados" class="grade" role="tabpanel" aria-labelledby="tab-postados" hidden></section>
@@ -160,9 +166,13 @@ function montar(item) {
   const ruim = el("button", { type: "button", class: "ruim", "aria-pressed": "false", text: "👎 Não gostei" });
   const txt = el("textarea", { id: "c-" + item.id, placeholder: "Comentário (opcional): o que mudar nos próximos?" });
   const salvo = el("p", { class: "salvo", "aria-live": "polite" });
-  const avaliacao = el("div", { class: "info", style: "padding-top:0" }, el("div", { class: "voto" }, bom, ruim), txt, salvo);
+  const pedTxt = el("textarea", { id: "p-" + item.id, placeholder: item.status === "pendente" ? "Ex.: esse tema já saiu, troca por outro / usa mais clipes da Lucia / começa com a pergunta tal" : "Ex.: refaz com outras imagens e posta de novo como relembrando" });
+  const pedBtn = el("button", { type: "button", class: "enviar", text: "Enviar pedido" });
+  const pedEstado = el("p", { class: "estado-pedido", "aria-live": "polite" });
+  const pedido = el("div", { class: "pedido" }, el("label", { for: "p-" + item.id, text: "Pedir pra trocar ou refazer" }), pedTxt, pedBtn, pedEstado);
+  const avaliacao = el("div", { class: "info", style: "padding-top:0" }, el("div", { class: "voto" }, bom, ruim), txt, salvo, pedido);
   avaliacao.hidden = true;
-  cards[item.id] = { bom, ruim, txt, salvo, avaliacao };
+  cards[item.id] = { bom, ruim, txt, salvo, avaliacao, pedTxt, pedBtn, pedEstado };
   const card = el("article", { class: "card" }, video, info, avaliacao);
   return card;
 }
@@ -208,6 +218,28 @@ try { const a = localStorage.getItem("aba"); if (a) document.querySelector(`nav 
     c.ruim.onclick = () => salvar(id, { voto: estado[id]?.voto === "ruim" ? null : "ruim" });
     c.txt.onchange = () => salvar(id, { comentario: c.txt.value.trim() });
   }
+  const pedidos = db.collection("pedidos");
+  const rotulo = { aberto: "Pedido enviado. Eu leio antes do próximo post.", feito: "Feito", recusado: "Não deu" };
+  for (const [id, c] of Object.entries(cards)) {
+    c.pedBtn.onclick = async () => {
+      const texto = c.pedTxt.value.trim();
+      if (!texto) { c.pedEstado.textContent = "Escreva o que trocar antes de enviar."; return; }
+      c.pedBtn.disabled = true; c.pedEstado.textContent = "Enviando…";
+      try {
+        await pedidos.doc(id).set({ pedido: texto, status: "aberto", quando: new Date().toISOString() });
+        c.pedTxt.value = "";
+      } catch (e) { c.pedEstado.textContent = "Não enviou. Tente de novo em instantes."; }
+      c.pedBtn.disabled = false;
+    };
+  }
+  pedidos.onSnapshot(snap => {
+    snap.docs.forEach(d => {
+      const c = cards[d.id]; if (!c) return; const v = d.data();
+      c.pedEstado.textContent = "";
+      const b = document.createElement("b"); b.textContent = rotulo[v.status] || v.status;
+      c.pedEstado.append(b, document.createTextNode(`\nVocê pediu: ${v.pedido}` + (v.resposta ? `\nResposta: ${v.resposta}` : "")));
+    });
+  }, () => {});
   col.onSnapshot(snap => {
     snap.docs.forEach(d => { estado[d.id] = d.data(); if (cards[d.id]) mostrar(d.id); });
   }, () => {});
