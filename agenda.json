@@ -10,7 +10,13 @@
    "arquivo": "radar_v2_noticias.mp4",
    "status": "postado",
    "link": "https://www.instagram.com/reel/DeWv5ONFR3W/",
-   "hora": "10:22"
+   "hora": "10:22",
+   "ficha": {
+    "formato": "painel",
+    "tema": "noticias",
+    "gancho": "lista",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-11",
@@ -18,7 +24,13 @@
    "arquivo": "radar_v7_ps5_desbloqueado.mp4",
    "status": "postado",
    "legenda": "Se o seu PS5 é desbloqueado, GTA 6 vai te dar dor de cabeça 😬\n\nO jogo vai exigir o sistema 14.10 do PS5, e o desbloqueio só funciona até a 13.60. Atualizou pra jogar, perdeu o desbloqueio.\n\nTem PS5 desbloqueado aí? Comenta o que você vai fazer 👇\nSegue o @radar.gta6br pra não perder nada até 19/11.\n\n#gta6 #gtavi #gta6brasil #ps5 #playstation #rockstargames #noticiasgames",
-   "link": "https://www.instagram.com/reel/DeXjx6Djoxl/"
+   "link": "https://www.instagram.com/reel/DeXjx6Djoxl/",
+   "ficha": {
+    "formato": "painel",
+    "tema": "console_tecnico",
+    "gancho": "alerta",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-11",
@@ -26,22 +38,55 @@
    "arquivo": "radar_v8_pc_nuvem_mentira.mp4",
    "status": "postado",
    "legenda": "\"Dá pra jogar GTA 6 no PC pela nuvem no lançamento\" ❌ MENTIRA\n\nO próprio Xbox desmentiu: GTA 6 não sai por streaming exclusivo nem como jeito de jogar no PC. Em 19/11 é só PS5 e Xbox Series.\n\nManda pro amigo que caiu nessa 👇\n\n#gta6 #gtavi #gta6brasil #xbox #pcgamer #rockstargames #noticiasgames",
-   "link": "https://www.instagram.com/reel/DeX4Vhuj49m/"
+   "link": "https://www.instagram.com/reel/DeX4Vhuj49m/",
+   "ficha": {
+    "formato": "painel",
+    "tema": "mito",
+    "gancho": "mentira_verdade",
+    "origem": "autoral"
+   }
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "12:00",
+   "arquivo": "radar_v3_ultimate_full.mp4",
+   "status": "postado",
+   "legenda": "Ultimate ou Padrão? A diferença é de R$ 100 💸\n\nPadrão (R$ 449,90): o jogo + pacote Vintage Vice City na pré-venda\nUltimate (R$ 549,90): tudo isso + Grotti Cheetah, revólver Hawk & Little Morgan, roupas, tatuagens e lojas extras\n\nQual você vai pegar? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity #ps5 #xboxseriesx",
+   "link": "https://www.instagram.com/reel/DeZjgTSD3Aw/",
+   "ficha": {
+    "formato": "corte",
+    "tema": "preco_compra",
+    "gancho": "comparacao",
+    "origem": "autoral"
+   },
+   "obs": "versão tela cheia (estilo corte com imagens paradas). Fica no ar: foi o Reel de melhor retenção dos primeiros 4 (Pedro, 12/10)."
   },
   {
    "data": "2026-10-12",
    "hora": "12:00",
    "arquivo": "radar_v3_ultimate_v2.mp4",
-   "status": "aguardando_pedro",
+   "status": "cancelado",
    "legenda": "Ultimate ou Padrão? A diferença é de R$ 100 💸\n\nPadrão (R$ 449,90): o jogo + pacote Vintage Vice City na pré-venda\nUltimate (R$ 549,90): tudo isso + Grotti Cheetah, revólver Hawk & Little Morgan, roupas, tatuagens e lojas extras\n\nQual você vai pegar? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity #ps5 #xboxseriesx",
-   "obs": "1a versão DeZfbpMDb-k (encolhida) apagada; 2a versão DeZjgTSD3Aw (tela cheia, reprovada) o Pedro vai apagar. Republicar radar_v3_ultimate_v2.mp4 (padrão v8) só com OK do Pedro, depois que DeZjgTSD3Aw sumir. Tarefa agendada: não publicar este item."
+   "obs": "não publicar: o mesmo conteúdo já está no ar em DeZjgTSD3Aw (tela cheia), que o Pedro decidiu manter por ter o melhor engajamento.",
+   "ficha": {
+    "formato": "painel",
+    "tema": "preco_compra",
+    "gancho": "comparacao",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-12",
    "hora": "18:00",
    "arquivo": "radar_v9_teoria_jason.mp4",
    "status": "pendente",
-   "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6"
+   "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6",
+   "ficha": {
+    "formato": "painel",
+    "tema": "teoria",
+    "gancho": "pergunta",
+    "origem": "gringa"
+   }
   },
   {
    "data": "2026-10-12",
@@ -49,7 +94,13 @@
    "arquivo": "radar_v4_midia_fisica_v2.mp4",
    "status": "pendente",
    "legenda": "A caixa de GTA 6 não vem com disco 📦\n\nNo lançamento vem só um código pra baixar. Segundo o suporte da Rockstar, o disco chega nos meses seguintes.\n\nDisco ou digital? Comenta 👇\nSalva e manda pro amigo que ia comprar a caixa.\n\n#gta6 #gtavi #gta6brasil #rockstargames #ps5 #xboxseriesx #midiafisica",
-   "obs": "refeito no padrão painel do v8 (o original radar_v4_midia_fisica.mp4 saiu encolhido com moldura preta)"
+   "obs": "refeito no padrão painel do v8 (o original radar_v4_midia_fisica.mp4 saiu encolhido com moldura preta)",
+   "ficha": {
+    "formato": "painel",
+    "tema": "preco_compra",
+    "gancho": "revelacao",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-13",
@@ -57,7 +108,13 @@
    "arquivo": "radar_v6_golpe_pc_v2.mp4",
    "status": "pendente",
    "legenda": "⚠️ GTA 6 pra PC é GOLPE\n\nNão existe versão oficial pra computador. Os instaladores que estão circulando vêm com vírus. Até agora: só PS5 e Xbox Series.\n\nManda pro amigo que baixa tudo 👇\n\n#gta6 #gtavi #gta6pc #golpe #gta6brasil #rockstargames",
-   "obs": "refeito no padrão painel do v8 (o original radar_v6_golpe_pc.mp4 saiu encolhido com moldura preta)"
+   "obs": "refeito no padrão painel do v8 (o original radar_v6_golpe_pc.mp4 saiu encolhido com moldura preta)",
+   "ficha": {
+    "formato": "painel",
+    "tema": "golpe",
+    "gancho": "alerta",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-13",
@@ -65,7 +122,13 @@
    "arquivo": "radar_v5_mecanicas_v2.mp4",
    "status": "pendente",
    "legenda": "GTA 6 tá com cara de San Andreas 💪\n\nComer, treinar e dormir mudam o corpo do Jason e da Lucia. E ainda tem caiaque, zoológico, sinuca, mini-golfe, luta livre e corrida de rua.\n\nQual você faz primeiro? Comenta 👇\n\n#gta6 #gtavi #gtasanandreas #gta6brasil #rockstargames #vicecity",
-   "obs": "refeito no padrão painel do v8 (o original radar_v5_mecanicas.mp4 saiu encolhido com moldura preta)"
+   "obs": "refeito no padrão painel do v8 (o original radar_v5_mecanicas.mp4 saiu encolhido com moldura preta)",
+   "ficha": {
+    "formato": "painel",
+    "tema": "gameplay",
+    "gancho": "comparacao",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-13",
@@ -95,7 +158,13 @@
     "carro",
     "cidade"
    ],
-   "formato": "corte"
+   "formato": "corte",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vazamento",
+    "gancho": "pergunta",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-14",
@@ -112,7 +181,13 @@
     "cidade",
     "praia"
    ],
-   "formato": "corte"
+   "formato": "corte",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vazamento",
+    "gancho": "pergunta",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-15",
@@ -135,7 +210,13 @@
     "noite",
     "cidade"
    ],
-   "formato": "corte"
+   "formato": "corte",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vazamento",
+    "gancho": "pergunta",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-15",
@@ -152,7 +233,13 @@
     "moto",
     "natureza"
    ],
-   "formato": "corte"
+   "formato": "corte",
+   "ficha": {
+    "formato": "corte",
+    "tema": "gameplay",
+    "gancho": "pergunta",
+    "origem": "autoral"
+   }
   },
   {
    "data": "2026-10-16",
