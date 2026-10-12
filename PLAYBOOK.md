@@ -1,16 +1,21 @@
-# Playbook do @radar.gta6br (versão PC, 12/10)
+# Playbook do @radar.gta6br (12/10)
 
-Lido pela tarefa agendada "Radar GTA: publicação diária (PC)", que roda no PC de casa do Pedro às 11h50, 17h50 e 20h50. Este arquivo substitui as regras antigas: se algo aqui contradizer `aprendizado.md`, a skill ou um chat antigo, vale este arquivo.
+Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na conversa principal do projeto, às 11h50, 17h50 e 20h50 (escolha do Pedro em 12/10; a tarefa do PC foi apagada). Este arquivo substitui as regras antigas: se algo aqui contradizer `aprendizado.md`, a skill ou um chat antigo, vale este arquivo.
 
 ## Pastas no PC
 - Repositório (branch `radar-gta6-midia` de opradopedro/claude-skills): `C:\Users\pedro\radar_gta6`
 - Banco de b-roll completo (476 clipes): `C:\Users\pedro\radar_broll\fabrica-de-paginas\radar-gta6\broll` (`index.json`, `tags.json`, `clips/`)
 - ffmpeg/ffprobe: instalados pelo winget. Se não estiverem no PATH, recarregar o PATH de usuário e de máquina.
 
+## Pastas na nuvem (tarefa atual)
+- Repositório: `/home/claude/radar-midia` (mesmo branch).
+- Banco de b-roll: clone parcial do repositório privado `opradopedro/fabrica-de-paginas` em `/home/claude/fabrica-de-paginas`, só com `index.json` e `tags.json`. Se faltar: `git clone --filter=blob:none --sparse https://github.com/opradopedro/fabrica-de-paginas /home/claude/fabrica-de-paginas` e `git -C /home/claude/fabrica-de-paginas sparse-checkout set radar-gta6/broll/index.json radar-gta6/broll/tags.json`. O `auto_short.py` baixa sozinho só os clipes que o vídeo usar. No `spec.json`, `index` = `/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json`.
+- Comandos com `python3` e caminhos com `/`.
+
 ## Regras do Pedro (valem acima de tudo)
 1. **Postar direto, sem pedir aprovação.** Se ele não gostar, ele reclama depois.
 2. **Nunca repetir conteúdo** (mesmo arquivo, mesma primeira linha de legenda) e nunca dois Reels com menos de 90 min de diferença.
-3. **Voz:** a do vidIQ é a aprovada (voz `TX3LPaxmHKxFdv7VOQHJ`). O Gemini (`pipeline/tts_gemini.py`) só se existir `GEMINI_API_KEY`. **Piper proibido** (robótico). Sem voz disponível: não produzir vídeo novo, só publicar o que já estiver `pendente`.
+3. **Voz:** a do vidIQ é a aprovada (voz `TX3LPaxmHKxFdv7VOQHJ`), mas o plano pago ficou caro; com menos de 14 créditos, usar o Gemini (`pipeline/tts_gemini.py`) com a voz que o Pedro escolher. **Piper proibido** (robótico). Sem voz disponível: não produzir vídeo novo, só publicar o que já estiver `pendente`.
 4. **Formato único:** tela cheia 9:16, legenda amarela de 2 a 3 palavras, @radar.gta6br. Visual de b-roll **em movimento**, como o vídeo do Jason aprovado (`aprovados/jason_extended_look_APROVADO.mp4`): abre com um clipe forte e segue com cortes de 1,3 a 2,2 s.
    - Use clipes do Extended Look (`tJbzMqJGH4k_*`), Trailer 1 (`QdBZY2fkU-0_*`) e teasers. **Não use clipes do Trailer 2 (`VQRLujxTm3c_*`)**: eles têm faixas pretas de cinema que aparecem no Reel.
    - Fotos de `assets/` só como complemento; quando aparecerem, deslizam devagar e entram empurrando a anterior (nada de uma imagem se transformando na outra). Nunca `cover.jpg`.
