@@ -86,7 +86,7 @@ def main(path):
         t1 = cuts[i + 1] if i + 1 < len(cuts) else total
         src = srcs[i % len(srcs)]
         sc = {"src": os.path.relpath(src, base), "start": round(t0, 3), "end": round(t1, 3),
-              "layout": "full" if i % 3 == 2 else "band", "cx": round(rnd.uniform(0.35, 0.65), 2)}
+              "layout": spec.get("layout", "full"), "cx": round(rnd.uniform(0.35, 0.65), 2)}
         if not src.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
             d = duration(src)
             sc["ss"] = round(rnd.uniform(0, max(0.0, d - (t1 - t0) - 0.1)), 2)
