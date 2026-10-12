@@ -1,0 +1,215 @@
+<title>Vídeos do Radar GTA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: sala de controle da página. Abas no topo, cards 9:16 em grade que vira coluna única no celular. Visual escuro fixo, como o Reel. */
+:root {
+  color-scheme: dark;
+  --bg: #0e0f12;
+  --panel: #17191f;
+  --line: #2a2d36;
+  --fg: #f1efe8;
+  --muted: #9a9caa;
+  --amarelo: #ffd21f;
+  --bom: #3ccf8e;
+  --ruim: #ff5d6c;
+  --display: "Anton", Impact, "Arial Narrow", sans-serif;
+  --body: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1100px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 48px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(30px, 7vw, 46px); letter-spacing: .5px; text-transform: uppercase; margin: 0; line-height: 1; }
+h1 span { color: var(--amarelo); }
+.handle { font-family: var(--mono); color: var(--muted); font-size: 13px; }
+nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); display: flex; gap: 8px; padding-block: 14px; margin-top: 8px; border-bottom: 1px solid var(--line); overflow-x: auto; }
+nav button { font: 600 14px var(--body); color: var(--muted); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px; cursor: pointer; white-space: nowrap; }
+nav button[aria-selected="true"] { color: #111; background: var(--amarelo); border-color: var(--amarelo); }
+nav button:focus-visible, button:focus-visible, textarea:focus-visible, a:focus-visible { outline: 2px solid var(--amarelo); outline-offset: 2px; }
+.nota { color: var(--muted); font-size: 13px; margin: 14px 0 0; max-width: 65ch; }
+.grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin-top: 18px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.card video { width: 100%; aspect-ratio: 9 / 16; max-width: 100%; background: #000; display: block; object-fit: cover; }
+.info { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 10px; }
+.slot { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.quando { font-family: var(--mono); font-size: 13px; color: var(--amarelo); font-variant-numeric: tabular-nums; }
+.pill { font-size: 12px; font-weight: 700; border-radius: 999px; padding: 3px 9px; border: 1px solid var(--line); color: var(--muted); }
+.pill.fila { color: #111; background: var(--amarelo); border-color: var(--amarelo); }
+.titulo { font-weight: 700; font-size: 15px; margin: 0; text-wrap: balance; }
+.legenda { color: var(--muted); font-size: 13px; margin: 0; white-space: pre-line; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.legenda.aberta { -webkit-line-clamp: unset; display: block; }
+.mais { background: none; border: 0; color: var(--fg); font: 500 13px var(--body); padding: 0; cursor: pointer; text-decoration: underline; align-self: flex-start; }
+.numeros { display: flex; flex-wrap: wrap; gap: 6px 14px; font-family: var(--mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.numeros b { color: var(--fg); font-weight: 500; }
+.ig { color: var(--amarelo); font-weight: 700; font-size: 14px; text-decoration: none; }
+.voto { display: flex; gap: 8px; }
+.voto button { flex: 1; font: 700 14px var(--body); padding: 9px 0; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; }
+.voto button.bom[aria-pressed="true"] { background: var(--bom); border-color: var(--bom); color: #08130d; }
+.voto button.ruim[aria-pressed="true"] { background: var(--ruim); border-color: var(--ruim); color: #1a0508; }
+textarea { width: 100%; box-sizing: border-box; min-height: 58px; resize: vertical; background: var(--bg); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; font: 14px var(--body); }
+.salvo { font-size: 12px; color: var(--muted); min-height: 1em; margin: 0; }
+.vazio { color: var(--muted); padding: 30px 0; }
+.como { max-width: 70ch; margin-top: 18px; display: flex; flex-direction: column; gap: 22px; }
+.como h2 { font-family: var(--display); font-weight: 400; text-transform: uppercase; letter-spacing: .5px; font-size: 24px; margin: 0 0 6px; color: var(--amarelo); }
+.como p, .como li { margin: 0; }
+.como ol, .como ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+.horarios { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.horarios span { font-family: var(--mono); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; font-size: 13px; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Radar <span>GTA VI</span> · vídeos</h1>
+    <span class="handle">@radar.gta6br · atualizado em <span id="atualizado"></span></span>
+  </header>
+  <nav role="tablist" aria-label="Seções">
+    <button role="tab" id="tab-fila" aria-selected="true" data-aba="fila">Próximos</button>
+    <button role="tab" id="tab-postados" aria-selected="false" data-aba="postados">Já postados</button>
+    <button role="tab" id="tab-como" aria-selected="false" data-aba="como">Como funciona</button>
+  </nav>
+  <p class="nota" id="nota-voto">Avaliar é opcional: os vídeos saem no horário mesmo sem nota. O que você marcar aqui eu leio antes de montar os próximos.</p>
+
+  <section id="aba-fila" class="grade" role="tabpanel" aria-labelledby="tab-fila"></section>
+  <section id="aba-postados" class="grade" role="tabpanel" aria-labelledby="tab-postados" hidden></section>
+  <section id="aba-como" class="como" role="tabpanel" aria-labelledby="tab-como" hidden>
+    <div>
+      <h2>Frequência</h2>
+      <p>3 Reels por dia, todos os dias. A tarefa acorda 10 minutos antes de cada horário, publica e me avisa na conversa "Automação de conteúdo com IA" com o link.</p>
+      <div class="horarios"><span>12h · notícia ou viral gringo</span><span>18h · vídeo autoral</span><span>21h · gringo ou atemporal</span></div>
+    </div>
+    <div>
+      <h2>De onde vem o assunto</h2>
+      <ul>
+        <li><b>Notícias das últimas 48 h</b> sobre GTA 6, buscadas na web e sempre com fonte (Rockstar, IGN, Insider Gaming, Eurogamer...).</li>
+        <li><b>Virais da gringa</b>: posts de TikTok e Instagram com #gta6, #gtavi e #gta6news dos últimos 3 dias com 50 mil views ou mais (pela Apify). Daqui sai só o assunto; vídeo de outra página nunca é baixado nem repostado.</li>
+        <li><b>Atemporais</b> quando o dia está fraco: contagem para 19/11, edições e preços, golpes, curiosidades e teorias, sem repetir tema.</li>
+        <li><b>Aprendizado</b>: cada Reel ganha uma nota (pulos, tempo assistido, curtidas, salvos e compartilhamentos). A escolha do tema e do gancho segue 70% o que já funcionou e 30% testes novos. Toda segunda às 12h sai um resumo do que está dando certo.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>De onde vêm as imagens</h2>
+      <ul>
+        <li>Só material oficial da Rockstar: 476 clipes em movimento cortados do Extended Look, do Trailer 1 e dos teasers, mais as fotos oficiais do site.</li>
+        <li>Clipes do Trailer 2 estão bloqueados porque têm faixas pretas de cinema.</li>
+        <li>Fica de fora: vazamento, cartela, logo, laboratório de droga, corpo e lingerie.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Como cada vídeo é feito</h2>
+      <ol>
+        <li>Roteiro de 30 a 45 segundos, falado, terminando com uma pergunta pra puxar comentário.</li>
+        <li>Narração com a voz Orus do Gemini, a que você escolheu.</li>
+        <li>Montagem em tela cheia com cortes de 1,3 a 2,2 s, legenda amarela de 2 a 3 palavras e o @ da página, tudo dentro da área segura do Reels.</li>
+        <li>Conferência de um frame de cada cena (sem faixa preta, tela preta ou logo) antes de publicar.</li>
+        <li>Publicação pelo vidIQ e registro na agenda, para nunca repetir vídeo nem legenda.</li>
+      </ol>
+    </div>
+    <div>
+      <h2>Custos</h2>
+      <p>Postar e medir pelo vidIQ não gasta crédito. A voz do Gemini está na cota grátis. A Apify cobra por resultado, e cada busca fica em centavos de dólar.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+const ATUALIZADO = /*ATUALIZADO*/"";
+const ITENS = /*ITENS*/[];
+document.getElementById("atualizado").textContent = ATUALIZADO;
+
+const fmtData = (d, h) => {
+  const [a, m, dia] = d.split("-");
+  const hoje = new Date(); const alvo = new Date(+a, m - 1, +dia);
+  const diff = Math.round((alvo - new Date(hoje.getFullYear(), hoje.getMonth(), hoje.getDate())) / 864e5);
+  const rot = diff === 0 ? "Hoje" : diff === 1 ? "Amanhã" : diff === -1 ? "Ontem" : `${dia}/${m}`;
+  return `${rot} · ${h.replace(":00", "h").replace(":", "h")}`;
+};
+const el = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v; else e.setAttribute(k, v);
+  }
+  kids.flat().forEach(k => k && e.append(k));
+  return e;
+};
+
+const estado = {}; // votos do banco, por id
+const cards = {};
+
+function montar(item) {
+  const video = el("video", { controls: "", preload: "none", playsinline: "", poster: `v/${item.id}.jpg`, src: `v/${item.id}.mp4` });
+  const leg = el("p", { class: "legenda", text: item.legenda || "" });
+  const mais = el("button", { class: "mais", type: "button", text: "ver legenda inteira" });
+  mais.onclick = () => { const ab = leg.classList.toggle("aberta"); mais.textContent = ab ? "recolher" : "ver legenda inteira"; };
+  const slot = el("div", { class: "slot" },
+    el("span", { class: "quando", text: fmtData(item.data, item.hora) }),
+    el("span", { class: "pill" + (item.status === "pendente" ? " fila" : ""), text: item.status === "pendente" ? "na fila" : "postado" }));
+  const info = el("div", { class: "info" }, slot, el("p", { class: "titulo", text: item.titulo }));
+  if (item.legenda) info.append(leg, mais);
+  if (item.numeros) {
+    const n = item.numeros;
+    info.append(el("div", { class: "numeros" },
+      el("span", {}, el("b", { text: n.views.toLocaleString("pt-BR") }), " views"),
+      el("span", {}, el("b", { text: String(n.curtidas) }), " curtidas"),
+      el("span", {}, el("b", { text: n.pulos + "%" }), " pularam")));
+  }
+  if (item.link) info.append(el("a", { class: "ig", href: item.link, target: "_blank", rel: "noopener", text: "Abrir no Instagram ↗" }));
+
+  const bom = el("button", { type: "button", class: "bom", "aria-pressed": "false", text: "👍 Gostei" });
+  const ruim = el("button", { type: "button", class: "ruim", "aria-pressed": "false", text: "👎 Não gostei" });
+  const txt = el("textarea", { id: "c-" + item.id, placeholder: "Comentário (opcional): o que mudar nos próximos?" });
+  const salvo = el("p", { class: "salvo", "aria-live": "polite" });
+  const avaliacao = el("div", { class: "info", style: "padding-top:0" }, el("div", { class: "voto" }, bom, ruim), txt, salvo);
+  avaliacao.hidden = true;
+  cards[item.id] = { bom, ruim, txt, salvo, avaliacao };
+  const card = el("article", { class: "card" }, video, info, avaliacao);
+  return card;
+}
+
+const fila = ITENS.filter(i => i.status === "pendente").sort((a, b) => (a.data + a.hora).localeCompare(b.data + b.hora));
+const postados = ITENS.filter(i => i.status === "postado").sort((a, b) => (b.data + b.hora).localeCompare(a.data + a.hora));
+const abaFila = document.getElementById("aba-fila"), abaPost = document.getElementById("aba-postados");
+fila.length ? fila.forEach(i => abaFila.append(montar(i))) : abaFila.append(el("p", { class: "vazio", text: "Nenhum vídeo pronto na fila agora. O próximo é montado na hora do horário." }));
+postados.forEach(i => abaPost.append(montar(i)));
+
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x === b ? "true" : "false"));
+  ["fila", "postados", "como"].forEach(a => document.getElementById("aba-" + a).hidden = a !== b.dataset.aba);
+  document.getElementById("nota-voto").hidden = b.dataset.aba === "como";
+  try { localStorage.setItem("aba", b.dataset.aba); } catch (e) {}
+});
+try { const a = localStorage.getItem("aba"); if (a) document.querySelector(`nav button[data-aba="${a}"]`)?.click(); } catch (e) {}
+
+(async () => {
+  const db = await window.claude?.use?.("db");
+  if (!db) { document.getElementById("nota-voto").textContent = "Os vídeos saem no horário mesmo sem nota. Para avaliar, abra esta página logado no Claude."; return; }
+  const col = db.collection("avaliacoes");
+  const mostrar = id => {
+    const c = cards[id]; const v = estado[id] || {};
+    c.bom.setAttribute("aria-pressed", v.voto === "bom" ? "true" : "false");
+    c.ruim.setAttribute("aria-pressed", v.voto === "ruim" ? "true" : "false");
+    if (document.activeElement !== c.txt) c.txt.value = v.comentario || "";
+  };
+  const salvar = async (id, dados) => {
+    const c = cards[id];
+    c.salvo.textContent = "Salvando…";
+    try {
+      const novo = { ...(estado[id] || {}), ...dados, quando: new Date().toISOString() };
+      await col.doc(id).set(novo);
+      c.salvo.textContent = "Salvo. Vou levar isso em conta nos próximos.";
+    } catch (e) {
+      c.salvo.textContent = e && e.code === "permission_denied" ? "Sem permissão para salvar nesta conta." : "Não salvou. Tente de novo em instantes.";
+    }
+  };
+  for (const [id, c] of Object.entries(cards)) {
+    c.avaliacao.hidden = false;
+    c.bom.onclick = () => salvar(id, { voto: estado[id]?.voto === "bom" ? null : "bom" });
+    c.ruim.onclick = () => salvar(id, { voto: estado[id]?.voto === "ruim" ? null : "ruim" });
+    c.txt.onchange = () => salvar(id, { comentario: c.txt.value.trim() });
+  }
+  col.onSnapshot(snap => {
+    snap.docs.forEach(d => { estado[d.id] = d.data(); if (cards[d.id]) mostrar(d.id); });
+  }, () => {});
+})();
+</script>
