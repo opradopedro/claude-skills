@@ -82,14 +82,33 @@
    "hora": "18:00",
    "arquivo": null,
    "status": "produzir",
-   "tema": "Autoral estilo Flow Games: notícia de última hora"
+   "tema": "Corte: GTA 6 em primeira pessoa? (vazamento Cyberleek, 8/10)",
+   "headline": "GTA 6 EM PRIMEIRA PESSOA?",
+   "roteiro": "Mano, o hacker voltou. O tal do Cyberleek soltou mais 25 minutos de GTA 6, e tem uma parte que deixou todo mundo doido: o Jason dirigindo e andando pela cidade em primeira pessoa. Calma que tem um detalhe: isso é versão de desenvolvedor, e a Rockstar não confirmou nada. Mas pensa comigo: o GTA 5 ganhou primeira pessoa no PS4 e foi um sucesso. Não faz sentido nenhum a Rockstar tirar isso do 6. Eu aposto que vem. E você, joga em primeira ou terceira pessoa?",
+   "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
+   "tags": [
+    "jason",
+    "carro",
+    "cidade"
+   ],
+   "formato": "corte"
   },
   {
    "data": "2026-10-14",
    "hora": "21:00",
    "arquivo": null,
    "status": "produzir",
-   "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)"
+   "tema": "Corte: Jason pelado no vazamento, vai pro jogo final?",
+   "headline": "VAI TER ISSO NO GTA 6?",
+   "roteiro": "Gente, o vazamento novo de GTA 6 botou o Jason pelado andando na rua, e a internet surtou. Muita gente falando que os NPCs nem reagem. Só que isso aí é versão de desenvolvedor, onde o pessoal testa tudo, inclusive o boneco sem roupa. A Rockstar vive falando de imersão. Já imaginou andar pelado em Vice City e a polícia não vir atrás de você? Não tem lógica nenhuma. Eu duvido muito que isso vá pra versão final. Vai ter ou não vai ter? Comenta aí.",
+   "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
+   "tags": [
+    "jason",
+    "policia",
+    "cidade",
+    "praia"
+   ],
+   "formato": "corte"
   },
   {
    "data": "2026-10-15",
@@ -103,14 +122,33 @@
    "hora": "18:00",
    "arquivo": null,
    "status": "produzir",
-   "tema": "Autoral estilo Flow Games: notícia de última hora"
+   "tema": "Corte: o que acontece com quem vaza GTA (Kurtaj 2022 x Cyberleek)",
+   "headline": "O QUE ACONTECE COM QUEM VAZA GTA",
+   "roteiro": "Sabe o que aconteceu com o último cara que vazou GTA? Em 2022, um hacker de 18 anos invadiu a Rockstar e soltou mais de 90 vídeos de GTA 6. Ele foi preso, e a justiça inglesa mandou ele ficar internado num hospital psiquiátrico sem data pra sair. Agora tem um novo vazador, o Cyberleek, que já soltou dezenas de minutos de gameplay. E a Take-Two já foi na justiça pra descobrir quem é. Pelo histórico, esse cara tá muito encrencado. Você acha que pegam ele antes do lançamento?",
+   "fontes": "Fontes: BBC, Dexerto e Push Square | Imagens: Rockstar Games",
+   "tags": [
+    "policia",
+    "noite",
+    "cidade"
+   ],
+   "formato": "corte"
   },
   {
    "data": "2026-10-15",
    "hora": "21:00",
    "arquivo": null,
    "status": "produzir",
-   "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)"
+   "tema": "Corte: moto de trilha e o interior de Leonida",
+   "headline": "GTA 6 VAI TER CORRIDA NA LAMA?",
+   "roteiro": "Olha que coisa: no vazamento novo de GTA 6 aparece o Jason numa moto de trilha, descendo morro de terra, com corrida e tudo. Ainda não é oficial, é versão de teste. Mas se vier, imagina o que vai ser o mapa fora de Vice City: mato, lama, pântano, o pessoal lá do interior. Lembra que no trailer já aparece um monte de gente fazendo festa na lama? Pra mim o interior de Leonida vai ser o lugar mais divertido do jogo. Você vai ficar na cidade ou vai pro mato?",
+   "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
+   "tags": [
+    "interior",
+    "lama",
+    "moto",
+    "natureza"
+   ],
+   "formato": "corte"
   },
   {
    "data": "2026-10-16",

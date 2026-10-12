@@ -1,0 +1,391 @@
+{
+ "audio": "voz.mp3",
+ "out": "demo_estilo_corte.mp4",
+ "font": "../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../assets/jason.jpg",
+   "start": 0.0,
+   "end": 2.274,
+   "layout": "band",
+   "cx": 0.42
+  },
+  {
+   "src": "../assets/vc11.jpg",
+   "start": 2.274,
+   "end": 3.653,
+   "layout": "band",
+   "cx": 0.51
+  },
+  {
+   "src": "../assets/lucia.jpg",
+   "start": 3.653,
+   "end": 5.256,
+   "layout": "full",
+   "cx": 0.46
+  },
+  {
+   "src": "../assets/cheetah.jpg",
+   "start": 5.256,
+   "end": 7.704,
+   "layout": "band",
+   "cx": 0.53
+  },
+  {
+   "src": "../assets/looks.jpg",
+   "start": 7.704,
+   "end": 9.898,
+   "layout": "band",
+   "cx": 0.54
+  },
+  {
+   "src": "../assets/stanier.jpg",
+   "start": 9.898,
+   "end": 11.276,
+   "layout": "full",
+   "cx": 0.37
+  },
+  {
+   "src": "../assets/hero.jpg",
+   "start": 11.276,
+   "end": 12.758,
+   "layout": "band",
+   "cx": 0.35
+  },
+  {
+   "src": "../assets/postcard.jpg",
+   "start": 12.758,
+   "end": 14.322,
+   "layout": "band",
+   "cx": 0.6
+  },
+  {
+   "src": "../assets/jason_clip.jpg",
+   "start": 14.322,
+   "end": 16.03,
+   "layout": "full",
+   "cx": 0.43
+  },
+  {
+   "src": "../assets/vintage.jpg",
+   "start": 16.03,
+   "end": 17.932,
+   "layout": "band",
+   "cx": 0.42
+  },
+  {
+   "src": "../assets/album.jpg",
+   "start": 17.932,
+   "end": 19.663,
+   "layout": "band",
+   "cx": 0.65
+  },
+  {
+   "src": "../assets/revolvers.jpg",
+   "start": 19.663,
+   "end": 21.165,
+   "layout": "full",
+   "cx": 0.49
+  },
+  {
+   "src": "../assets/lucia_clip.jpg",
+   "start": 21.165,
+   "end": 22.722,
+   "layout": "band",
+   "cx": 0.6
+  },
+  {
+   "src": "../assets/cover.jpg",
+   "start": 22.722,
+   "end": 24.47,
+   "layout": "band",
+   "cx": 0.49
+  },
+  {
+   "src": "../assets/jason.jpg",
+   "start": 24.47,
+   "end": 27.065,
+   "layout": "full",
+   "cx": 0.54
+  },
+  {
+   "src": "../assets/vc11.jpg",
+   "start": 27.065,
+   "end": 28.484,
+   "layout": "band",
+   "cx": 0.4
+  },
+  {
+   "src": "../assets/lucia.jpg",
+   "start": 28.484,
+   "end": 29.881,
+   "layout": "band",
+   "cx": 0.54
+  },
+  {
+   "src": "../assets/cheetah.jpg",
+   "start": 29.881,
+   "end": 31.383,
+   "layout": "full",
+   "cx": 0.61
+  },
+  {
+   "src": "../assets/looks.jpg",
+   "start": 31.383,
+   "end": 33.676,
+   "layout": "band",
+   "cx": 0.51
+  },
+  {
+   "src": "../assets/stanier.jpg",
+   "start": 33.676,
+   "end": 35.316,
+   "layout": "band",
+   "cx": 0.57
+  },
+  {
+   "src": "../assets/hero.jpg",
+   "start": 35.316,
+   "end": 37.154,
+   "layout": "full",
+   "cx": 0.55
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.137,
+   "end": 0.951,
+   "text": "TEM UMA TEORIA",
+   "hl": false
+  },
+  {
+   "start": 0.951,
+   "end": 2.274,
+   "text": "BOMBANDO LÁ FORA",
+   "hl": false
+  },
+  {
+   "start": 2.274,
+   "end": 2.791,
+   "text": "O JASON",
+   "hl": false
+  },
+  {
+   "start": 2.791,
+   "end": 3.653,
+   "text": "DE GTA 6",
+   "hl": true
+  },
+  {
+   "start": 3.653,
+   "end": 5.256,
+   "text": "SERIA NEURODIVERGENTE",
+   "hl": false
+  },
+  {
+   "start": 5.256,
+   "end": 6.493,
+   "text": "TALVEZ AUTISTA",
+   "hl": false
+  },
+  {
+   "start": 6.493,
+   "end": 7.704,
+   "text": "OS FÃS REPARARAM",
+   "hl": false
+  },
+  {
+   "start": 7.704,
+   "end": 8.563,
+   "text": "QUE ELE AGE",
+   "hl": false
+  },
+  {
+   "start": 8.563,
+   "end": 9.898,
+   "text": "DIFERENTE NOS TRAILERS",
+   "hl": false
+  },
+  {
+   "start": 9.898,
+   "end": 10.587,
+   "text": "O JEITO DE",
+   "hl": false
+  },
+  {
+   "start": 10.587,
+   "end": 11.276,
+   "text": "FALAR COM AS",
+   "hl": false
+  },
+  {
+   "start": 11.276,
+   "end": 11.62,
+   "text": "PESSOAS",
+   "hl": false
+  },
+  {
+   "start": 11.62,
+   "end": 12.758,
+   "text": "OS MOVIMENTOS MEIO",
+   "hl": false
+  },
+  {
+   "start": 12.758,
+   "end": 13.894,
+   "text": "TRAVADOS",
+   "hl": false
+  },
+  {
+   "start": 13.894,
+   "end": 14.322,
+   "text": "E AÍ VEIO",
+   "hl": false
+  },
+  {
+   "start": 14.322,
+   "end": 15.338,
+   "text": "A ENTREVISTA",
+   "hl": false
+  },
+  {
+   "start": 15.338,
+   "end": 16.03,
+   "text": "O CHEFE DE",
+   "hl": false
+  },
+  {
+   "start": 16.03,
+   "end": 17.24,
+   "text": "NARRATIVA DA ROCKSTAR",
+   "hl": false
+  },
+  {
+   "start": 17.24,
+   "end": 17.932,
+   "text": "RUPERT HUMPHRIES",
+   "hl": false
+  },
+  {
+   "start": 17.932,
+   "end": 19.143,
+   "text": "DISSE PRA REVISTA LOVE",
+   "hl": false
+  },
+  {
+   "start": 19.143,
+   "end": 19.663,
+   "text": "QUE É O",
+   "hl": false
+  },
+  {
+   "start": 19.663,
+   "end": 21.165,
+   "text": "JOGADOR QUEM DECIDE",
+   "hl": false
+  },
+  {
+   "start": 21.165,
+   "end": 21.857,
+   "text": "SE O JASON",
+   "hl": false
+  },
+  {
+   "start": 21.857,
+   "end": 22.722,
+   "text": "ENTROU PRO CRIME",
+   "hl": false
+  },
+  {
+   "start": 22.722,
+   "end": 23.415,
+   "text": "POR CAUSA DA",
+   "hl": false
+  },
+  {
+   "start": 23.415,
+   "end": 24.47,
+   "text": "VIDA QUE TEVE",
+   "hl": false
+  },
+  {
+   "start": 24.47,
+   "end": 25.334,
+   "text": "OU PORQUE ELE",
+   "hl": false
+  },
+  {
+   "start": 25.334,
+   "end": 25.507,
+   "text": "É",
+   "hl": false
+  },
+  {
+   "start": 25.507,
+   "end": 27.065,
+   "text": "NAS PALAVRAS DELE",
+   "hl": false
+  },
+  {
+   "start": 27.065,
+   "end": 28.484,
+   "text": "PROGRAMADO DIFERENTE",
+   "hl": false
+  },
+  {
+   "start": 28.484,
+   "end": 29.881,
+   "text": "DAS OUTRAS PESSOAS",
+   "hl": false
+  },
+  {
+   "start": 29.881,
+   "end": 30.548,
+   "text": "A ROCKSTAR NÃO",
+   "hl": false
+  },
+  {
+   "start": 30.548,
+   "end": 31.383,
+   "text": "CONFIRMOU NADA",
+   "hl": false
+  },
+  {
+   "start": 31.383,
+   "end": 31.883,
+   "text": "MAS SE FOR",
+   "hl": false
+  },
+  {
+   "start": 31.883,
+   "end": 32.384,
+   "text": "VERDADE",
+   "hl": false
+  },
+  {
+   "start": 32.384,
+   "end": 33.676,
+   "text": "SERIA UMA VIRADA",
+   "hl": false
+  },
+  {
+   "start": 33.676,
+   "end": 35.316,
+   "text": "ENORME PRA SÉRIE",
+   "hl": false
+  },
+  {
+   "start": 35.316,
+   "end": 36.467,
+   "text": "VOCÊ ACREDITA NESSA",
+   "hl": false
+  },
+  {
+   "start": 36.467,
+   "end": 36.754,
+   "text": "TEORIA?",
+   "hl": false
+  }
+ ]
+}

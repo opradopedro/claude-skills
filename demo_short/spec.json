@@ -1,0 +1,25 @@
+{
+ "audio": "voz.mp3",
+ "out": "demo_estilo_corte.mp4",
+ "text": "Tem uma teoria bombando lá fora: o Jason, de GTA 6, seria neurodivergente, talvez autista. Os fãs repararam que ele age diferente nos trailers: o jeito de falar com as pessoas, os movimentos meio travados. E aí veio a entrevista. O chefe de narrativa da Rockstar, Rupert Humphries, disse pra revista LOVE que é o jogador quem decide se o Jason entrou pro crime por causa da vida que teve, ou porque ele é, nas palavras dele, programado diferente das outras pessoas. A Rockstar não confirmou nada. Mas se for verdade, seria uma virada enorme pra série. Você acredita nessa teoria?",
+ "merge": {
+  "revista LOVE": "revista LOVE"
+ },
+ "broll": [
+  "../assets/jason.jpg",
+  "../assets/vc11.jpg",
+  "../assets/lucia.jpg",
+  "../assets/cheetah.jpg",
+  "../assets/looks.jpg",
+  "../assets/stanier.jpg",
+  "../assets/hero.jpg",
+  "../assets/postcard.jpg",
+  "../assets/jason_clip.jpg",
+  "../assets/vintage.jpg",
+  "../assets/album.jpg",
+  "../assets/revolvers.jpg",
+  "../assets/lucia_clip.jpg",
+  "../assets/cover.jpg"
+ ],
+ "seed": 3
+}
