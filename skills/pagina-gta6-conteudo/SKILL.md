@@ -55,5 +55,8 @@ Tabela com dia, hora (12h, 18h, 21h), fonte de pauta (gringa, autoral ou atempor
 ## Aprendizado por engajamento (pedido do Pedro em 12/10/2026)
 A página se adapta sozinha ao que engaja. Cada Reel publicado leva uma `ficha` (formato painel ou corte, tema, gancho, origem). Toda execução salva a resposta do vidiq_instagram_owner_insights (grátis) e roda `scripts/aprendizado.py coletar`, que guarda as métricas com 24 h e 72 h no ar e dá uma nota de 0 a 100 (35% quem não pulou, 25% % assistido, 30% interação por view com salvamento e compartilhamento valendo 3x, 10% alcance). `aprendizado.py sugerir` escolhe formato, tema e gancho do próximo Reel: 70% repete o melhor (média ajustada para poucos posts), 30% testa o menos testado; opção com 3+ posts e 8 pontos abaixo da média fica pausada. O tema sugerido só vale se houver fato real com fonte.
 
+## Pesquisa da gringa pelo Apify (12/10/2026)
+`scripts/gringa_apify.py` (skill radar-da-gringa) substitui a busca de outliers do vidIQ: `virais` traz os posts de GTA 6 com 50 mil+ views dos últimos 3 dias no TikTok e no Instagram, `concorrentes @a @b` traz os Reels recentes dessas páginas e `checar` testa o acesso. Chave APIFY_TOKEN no ambiente da nuvem (nunca no chat). Os atores cobram por resultado, por isso as buscas são pequenas e uma vez por dia. Cada post ganha um `tema`, e o aprendizado.md soma as views por tema na seção "Em alta lá fora". Do post gringo sai só o assunto; vídeo e imagem de outras páginas nunca são baixados nem republicados.
+
 ## Revisão semanal
 Toda segunda, 3 a 5 linhas do `aprendizado.md` para o Pedro: o que está indo melhor, o que foi pausado e o que será testado.

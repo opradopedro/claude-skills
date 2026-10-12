@@ -169,6 +169,25 @@ def sugerir(data, hora):
     print(json.dumps(out, ensure_ascii=False, indent=1))
 
 
+def em_alta_fora(dias=7):
+    """Soma views dos virais gringos por tema (campo `tema` que a execução grava em pesquisa/*.json)."""
+    pasta = os.path.join(RAIZ, "pesquisa")
+    if not os.path.isdir(pasta):
+        return []
+    limite = (datetime.now(timezone.utc) - timedelta(days=dias)).strftime("%Y-%m-%d")
+    soma = {}
+    for f in sorted(os.listdir(pasta)):
+        if not re.match(r"\d{4}-\d{2}-\d{2}\.json$", f) or f[:10] < limite:
+            continue
+        dado = ler(os.path.join(pasta, f), {})
+        posts = dado.get("posts") if isinstance(dado, dict) else dado
+        for p in posts or []:
+            if isinstance(p, dict) and p.get("tema"):
+                n, v = soma.get(p["tema"], (0, 0))
+                soma[p["tema"]] = (n + 1, v + int(p.get("views") or 0))
+    return sorted(((t, n, v) for t, (n, v) in soma.items()), key=lambda x: -x[2])
+
+
 def relatorio():
     linhas = base_notas()
     geral, rk = ranking(linhas)
@@ -196,6 +215,11 @@ def relatorio():
                   f"{round(f.get('avgWatchedPct') or 0)}% | {f.get('likeCount')} | {f.get('commentCount')} | "
                   f"{f.get('saves')} | {f.get('shares')} | {l['nota']} ({l['marco']}) |")
     md.append("")
+    fora = em_alta_fora()
+    if fora:
+        md += ["## Em alta lá fora (pesquisa da gringa, últimos 7 dias)", "",
+               "| Tema | Posts virais | Views somadas |", "|---|---|---|"]
+        md += [f"| {t} | {n} | {v:,} |".replace(",", ".") for t, n, v in fora] + [""]
     novos = [(sc, m["atual"]) for sc, m in ler(METRICAS, {}).items()
              if m.get("atual") and foto_valida(m)[0] is None]
     if novos:
