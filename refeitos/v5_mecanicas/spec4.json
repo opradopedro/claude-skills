@@ -1,0 +1,24 @@
+{
+ "audio": "voz.mp3",
+ "out": "../../radar_v5_mecanicas_v4.mp4",
+ "captions_from": "config2.json",
+ "headline": "GTA 6 COM CARA DE SAN ANDREAS",
+ "broll": [
+  "frames/tJbzMqJGH4k_133.jpg",
+  "frames/tJbzMqJGH4k_279.jpg",
+  "frames/tJbzMqJGH4k_238.jpg",
+  "frames/tJbzMqJGH4k_230.jpg",
+  "frames/tJbzMqJGH4k_215.jpg",
+  "frames/tJbzMqJGH4k_142.jpg",
+  "frames/tJbzMqJGH4k_154.jpg",
+  "frames/tJbzMqJGH4k_198.jpg",
+  "frames/tJbzMqJGH4k_269.jpg",
+  "frames/tJbzMqJGH4k_172.jpg",
+  "frames/tJbzMqJGH4k_252.jpg",
+  "frames/tJbzMqJGH4k_260.jpg",
+  "frames/tJbzMqJGH4k_127.jpg",
+  "frames/QdBZY2fkU-0_006.jpg"
+ ],
+ "font": "../../assets/fonts/Anton.ttf",
+ "seed": 7
+}
