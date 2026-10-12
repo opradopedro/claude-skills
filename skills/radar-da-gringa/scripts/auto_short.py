@@ -122,6 +122,8 @@ def main(path):
            "handle": spec.get("handle", "@radar.gta6br"), "scenes": scenes, "captions": caps}
     if spec.get("headline"):
         cfg["headline"] = spec["headline"]
+    if so_fotos:
+        cfg["transicao"] = spec.get("transicao", "deslize")
     json.dump(cfg, open(os.path.join(base, "config.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(len(caps), "legendas,", len(scenes), "cortes,", round(total, 1), "s")
 
