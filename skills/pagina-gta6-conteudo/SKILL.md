@@ -26,7 +26,7 @@ Vazamentos: pode noticiar o que a imprensa reporta, sempre marcado como não con
 - Toda notícia com fonte com link; rumor e vazamento marcados como não confirmados.
 - GTA 6 lança em 19/11/2026 (PS5 e Xbox Series, sem PC). Antes: notícias, vazamentos, mecânicas, teorias, contagem. Depois: dicas, segredos, mapas, "onde achar".
 
-## Formato padrão: "corte" (pedido do Pedro em 12/10/2026)
+## Formato "corte" (um dos dois formatos testados; o outro é o "painel" do v8)
 Referência: cortes de podcast do Flow Games/GameplayRJ no YouTube Shorts, mas sem apresentador. Opinião rápida sobre o assunto quente de GTA 6 (vazamento comentado como notícia, polêmica, teoria, "vai ter ou não vai ter?"), falada como conversa ("mano", "gente", "pensa comigo"), 30 a 40 s.
 - Visual: b-roll em movimento tela cheia (clipes dos trailers oficiais, banco no branch `radar-gta6-broll`, montado no PC do Pedro com `montar_broll.py`), alternando faixa central com fundo desfocado e tela cheia, corte a cada 1,3 a 2,2 s. Sem clipe, imagens oficiais com zoom lento.
 - Legenda amarela de 2 a 3 palavras no centro, números em roxo, palavras sensíveis censuradas (P3L@D0), @RADAR.GTA6BR pequeno embaixo.
@@ -52,5 +52,8 @@ Tabela com dia, hora (12h, 18h, 21h), fonte de pauta (gringa, autoral ou atempor
 - Memes gringos traduzidos (texto + imagem, áudio em alta escolhido no app) para quando o Pedro postar à mão.
 - Achados: produtos de GTA que viralizaram na gringa (ex.: abajur de dinheiro que levita, projetor temático) e 3 temáticos por semana para os stories, com texto. O Pedro cola o link de afiliado.
 
+## Aprendizado por engajamento (pedido do Pedro em 12/10/2026)
+A página se adapta sozinha ao que engaja. Cada Reel publicado leva uma `ficha` (formato painel ou corte, tema, gancho, origem). Toda execução salva a resposta do vidiq_instagram_owner_insights (grátis) e roda `scripts/aprendizado.py coletar`, que guarda as métricas com 24 h e 72 h no ar e dá uma nota de 0 a 100 (35% quem não pulou, 25% % assistido, 30% interação por view com salvamento e compartilhamento valendo 3x, 10% alcance). `aprendizado.py sugerir` escolhe formato, tema e gancho do próximo Reel: 70% repete o melhor (média ajustada para poucos posts), 30% testa o menos testado; opção com 3+ posts e 8 pontos abaixo da média fica pausada. O tema sugerido só vale se houver fato real com fonte.
+
 ## Revisão semanal
-Métricas pelo vidIQ (vidiq_instagram_connected_accounts e vidiq_instagram_owner_insights, sem custo) ou prints do Pedro. Comparar alcance em não seguidores, salvamentos, compartilhamentos e % assistido por fonte de pauta, formato e horário, e dizer o que repetir e o que cortar.
+Toda segunda, 3 a 5 linhas do `aprendizado.md` para o Pedro: o que está indo melhor, o que foi pausado e o que será testado.
