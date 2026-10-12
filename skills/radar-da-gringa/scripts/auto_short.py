@@ -53,11 +53,21 @@ def chunks(words, censor):
 def pick_broll(spec, base, rnd):
     if spec.get("broll"):
         return [os.path.join(base, p) if not os.path.isabs(p) else p for p in spec["broll"]]
-    idx_path = os.path.join(base, spec.get("index", "../broll/index.json"))
+    idx_path = spec.get("index", "../broll/index.json")
+    idx_path = idx_path if os.path.isabs(idx_path) else os.path.join(base, idx_path)
     idx = json.load(open(idx_path, encoding="utf-8"))
     root = os.path.dirname(idx_path)
+    tag_path = os.path.join(os.path.dirname(idx_path), "tags.json")  # tags revisadas a mao, por arquivo
+    if os.path.exists(tag_path):
+        extra = json.load(open(tag_path, encoding="utf-8"))
+        for c in idx:
+            c.update(extra.get(c["file"], {}))
+    idx = [c for c in idx if not c.get("excluir")]  # cartelas, logos e textos ficam de fora
     tags = set(spec.get("tags", []))
-    good = [c for c in idx if tags & set(c.get("tags", []))] or idx
+    good = [c for c in idx if tags & set(c.get("tags", []))]
+    resto = [c for c in idx if c not in good]
+    rnd.shuffle(resto)
+    good = good + resto[:max(0, 12 - len(good))]  # completa com outros clipes se a tag tiver poucos
     rnd.shuffle(good)
     return [os.path.join(root, c["file"]) for c in good]
 
@@ -86,7 +96,7 @@ def main(path):
         t1 = cuts[i + 1] if i + 1 < len(cuts) else total
         src = srcs[i % len(srcs)]
         sc = {"src": os.path.relpath(src, base), "start": round(t0, 3), "end": round(t1, 3),
-              "layout": "full" if i % 3 == 2 else "band", "cx": round(rnd.uniform(0.35, 0.65), 2)}
+              "layout": spec.get("layout", "full"), "cx": round(rnd.uniform(0.35, 0.65), 2)}
         if not src.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
             d = duration(src)
             sc["ss"] = round(rnd.uniform(0, max(0.0, d - (t1 - t0) - 0.1)), 2)
