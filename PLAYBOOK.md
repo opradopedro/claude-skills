@@ -22,6 +22,10 @@ Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na co
    - Formatos proibidos: o "demo" faixa/tela cheia alternando (`demo_short/demo_estilo_corte.mp4`) e o "painel".
 5. Vazamento só como notícia não confirmada, sem imagem do vazamento. Toda informação com fonte. Português do Brasil, linguagem gamer, sem travessão. Lançamento: 19/11/2026 (PS5 e Xbox Series).
 
+## Até sexta 16/10 (pedido do Pedro em 13/10)
+- Nada de repetido: só vídeo novo. 1 vídeo por dia, às 18h, até quinta 15/10. Sexta depois das 16h os créditos voltam e retomam os 3 por dia (na execução das 17h50 de sexta, voltar o cron da tarefa para `50 11,17,20`).
+- 14/10 18h: comparação GTA V x GTA VI, cenas parecidas empilhadas (GTA V em cima, GTA VI embaixo, rótulos "GTA V" e "GTA VI"), só vídeo oficial da Rockstar. Material em /mnt/project-files/radar-gta6/comparacao/ (baixado pela sessão "Gerador da voz Gemini" ou pelo PC).
+
 ## Pedidos do Pedro pela página de vídeos
 A página https://claude.ai/artifact/7niMPUBm3tULBMW37X8rJb guarda no banco dela: `avaliacoes/<id>` (voto bom/ruim e comentário) e `pedidos/<id>` (texto com o que trocar, motivo ou inspiração; `status` aberto/feito/recusado; `resposta`). Toda execução lê os pedidos `aberto` primeiro: refaz o vídeo da fila pedido (ou troca o assunto), atualiza o pedido para `feito` com uma `resposta` curta do que mudou, ou `recusado` explicando por quê. Pedido vale mais que o aprendizado automático.
 

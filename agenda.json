@@ -168,17 +168,19 @@
       "data": "2026-10-13",
       "hora": "21:00",
       "arquivo": null,
-      "status": "produzir",
+      "status": "cancelado",
       "tema": "Radar da gringa: o post de GTA 6 que mais bombou nos EUA nos últimos 3 dias, traduzido",
-      "formato": "gringa"
+      "formato": "gringa",
+      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
     },
     {
       "data": "2026-10-14",
       "hora": "12:00",
       "arquivo": null,
-      "status": "produzir",
+      "status": "cancelado",
       "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
-      "formato": "gringa"
+      "formato": "gringa",
+      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
     },
     {
       "data": "2026-10-14",
@@ -200,13 +202,14 @@
         "tema": "vazamento",
         "gancho": "pergunta",
         "origem": "autoral"
-      }
+      },
+      "tema_pedido": "Comparação GTA V x GTA VI: cenas parecidas uma em cima da outra (tela dividida em cima/embaixo), só imagem oficial da Rockstar. Pedido do Pedro 13/10."
     },
     {
       "data": "2026-10-14",
       "hora": "21:00",
       "arquivo": null,
-      "status": "produzir",
+      "status": "cancelado",
       "tema": "Corte: Jason pelado no vazamento, vai pro jogo final?",
       "headline": "VAI TER ISSO NO GTA 6?",
       "roteiro": "Gente, o vazamento novo de GTA 6 botou o Jason pelado andando na rua, e a internet surtou. Muita gente falando que os NPCs nem reagem. Só que isso aí é versão de desenvolvedor, onde o pessoal testa tudo, inclusive o boneco sem roupa. A Rockstar vive falando de imersão. Já imaginou andar pelado em Vice City e a polícia não vir atrás de você? Não tem lógica nenhuma. Eu duvido muito que isso vá pra versão final. Vai ter ou não vai ter? Comenta aí.",
@@ -223,15 +226,17 @@
         "tema": "vazamento",
         "gancho": "pergunta",
         "origem": "autoral"
-      }
+      },
+      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
     },
     {
       "data": "2026-10-15",
       "hora": "12:00",
       "arquivo": null,
-      "status": "produzir",
+      "status": "cancelado",
       "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
-      "formato": "gringa"
+      "formato": "gringa",
+      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
     },
     {
       "data": "2026-10-15",
@@ -259,7 +264,7 @@
       "data": "2026-10-15",
       "hora": "21:00",
       "arquivo": null,
-      "status": "produzir",
+      "status": "cancelado",
       "tema": "Corte: moto de trilha e o interior de Leonida",
       "headline": "GTA 6 VAI TER CORRIDA NA LAMA?",
       "roteiro": "Olha que coisa: no vazamento novo de GTA 6 aparece o Jason numa moto de trilha, descendo morro de terra, com corrida e tudo. Ainda não é oficial, é versão de teste. Mas se vier, imagina o que vai ser o mapa fora de Vice City: mato, lama, pântano, o pessoal lá do interior. Lembra que no trailer já aparece um monte de gente fazendo festa na lama? Pra mim o interior de Leonida vai ser o lugar mais divertido do jogo. Você vai ficar na cidade ou vai pro mato?",
@@ -276,15 +281,17 @@
         "tema": "gameplay",
         "gancho": "pergunta",
         "origem": "autoral"
-      }
+      },
+      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
     },
     {
       "data": "2026-10-16",
       "hora": "12:00",
       "arquivo": null,
-      "status": "produzir",
+      "status": "cancelado",
       "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
-      "formato": "gringa"
+      "formato": "gringa",
+      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
     },
     {
       "data": "2026-10-16",
@@ -329,8 +336,9 @@
     {
       "data": "2026-10-13",
       "hora": "12:00",
-      "status": "produzir",
-      "obs": "substitui o v6 (golpe PC), cancelado pelo Pedro por repetir tema de PC"
+      "status": "cancelado",
+      "obs": "substitui o v6 (golpe PC), cancelado pelo Pedro por repetir tema de PC",
+      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
     }
   ]
 }
