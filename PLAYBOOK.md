@@ -23,8 +23,9 @@ Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na co
 5. Vazamento só como notícia não confirmada, sem imagem do vazamento. Toda informação com fonte. Português do Brasil, linguagem gamer, sem travessão. Lançamento: 19/11/2026 (PS5 e Xbox Series).
 
 ## Até sexta 16/10 (pedido do Pedro em 13/10)
-- Nada de repetido: só vídeo novo. 1 vídeo por dia, às 18h, até quinta 15/10. Sexta depois das 16h os créditos voltam e retomam os 3 por dia (na execução das 17h50 de sexta, voltar o cron da tarefa para `50 11,17,20`).
-- 14/10 18h: comparação GTA V x GTA VI, cenas parecidas empilhadas (GTA V em cima, GTA VI embaixo, rótulos "GTA V" e "GTA VI"), só vídeo oficial da Rockstar. Material em /mnt/project-files/radar-gta6/comparacao/ (baixado pela sessão "Gerador da voz Gemini" ou pelo PC).
+- Nada de repetido: só vídeo novo. 1 vídeo por dia às 18h na quarta e quinta (já prontos: v10 CyberLeak, v11 PC 2027), sexta às 12h (v12 regiões de Leonida, disparo avulso). Sexta 16h10 um disparo avulso volta o cron para `50 11,17,20` e produz os de 18h e 21h.
+- Qualidade (Pedro 13/10, vídeos estavam borrados): make_short.py usa lanczos + nitidez e saída ~10 Mbps; auto_short.py evita clipes com menos de 2 Mbps e o Trailer 2. Legendas pela skill instagram-skills (gancho nos primeiros 125 caracteres, 3 a 5 hashtags).
+- Comparação GTA V x GTA VI fica para depois: precisa do trailer oficial do GTA V, que o YouTube bloqueia na nuvem (baixar pelo PC). Narração já pronta em /mnt/project-files/radar-gta6/comparacao/.
 
 ## Pedidos do Pedro pela página de vídeos
 A página https://claude.ai/artifact/7niMPUBm3tULBMW37X8rJb guarda no banco dela: `avaliacoes/<id>` (voto bom/ruim e comentário) e `pedidos/<id>` (texto com o que trocar, motivo ou inspiração; `status` aberto/feito/recusado; `resposta`). Toda execução lê os pedidos `aberto` primeiro: refaz o vídeo da fila pedido (ou troca o assunto), atualiza o pedido para `feito` com uma `resposta` curta do que mudou, ou `recusado` explicando por quê. Pedido vale mais que o aprendizado automático.
