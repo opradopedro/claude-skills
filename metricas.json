@@ -3,17 +3,30 @@
   "publicado": "2026-10-12T15:28:32.000Z",
   "legenda": "Ultimate ou Padrão? A diferença é de R$ 100",
   "atual": {
-   "playCount": 1041,
-   "likeCount": 32,
+   "playCount": 1237,
+   "likeCount": 44,
    "commentCount": 0,
-   "shares": 0,
+   "shares": 1,
    "saves": 2,
-   "avgWatchTimeMs": 18181,
-   "avgWatchedPct": 42.28139534883721,
-   "skipRate": 33,
+   "avgWatchTimeMs": 17857,
+   "avgWatchedPct": 41.53,
+   "skipRate": 35.7,
    "durationSeconds": 43,
-   "coletado": "2026-10-12T22:16Z",
-   "horas": 6.8
+   "coletado": "2026-10-13T20:51Z",
+   "horas": 29.4
+  },
+  "h24": {
+   "playCount": 1237,
+   "likeCount": 44,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 2,
+   "avgWatchTimeMs": 17857,
+   "avgWatchedPct": 41.53,
+   "skipRate": 35.7,
+   "durationSeconds": 43,
+   "coletado": "2026-10-13T20:51Z",
+   "horas": 29.4
   }
  },
  "DeX4Vhuj49m": {
@@ -91,6 +104,40 @@
    "durationSeconds": 43,
    "coletado": "2026-10-12T17:04Z",
    "horas": 27.7
+  }
+ },
+ "DeadIlEmV0_": {
+  "publicado": "2026-10-12T23:53:13.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 164,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 17298,
+   "avgWatchedPct": 43.245,
+   "skipRate": 41,
+   "durationSeconds": 40,
+   "coletado": "2026-10-13T20:51Z",
+   "horas": 21.0
+  }
+ },
+ "DeaTN8uj8pd": {
+  "publicado": "2026-10-12T22:25:06.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 158,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 16627,
+   "avgWatchedPct": 44.94,
+   "skipRate": 31.9,
+   "durationSeconds": 37,
+   "coletado": "2026-10-13T20:51Z",
+   "horas": 22.4
   }
  }
 }
