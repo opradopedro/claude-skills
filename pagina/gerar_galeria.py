@@ -25,8 +25,8 @@ def titulo(legenda):
 
 def previa(origem, dest_mp4, dest_jpg):
     if not os.path.exists(dest_mp4):
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", origem, "-vf", "scale=540:-2", "-c:v", "libx264",
-                        "-preset", "veryfast", "-crf", "30", "-c:a", "aac", "-b:a", "80k", "-movflags", "+faststart",
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", origem, "-vf", "scale=720:-2:flags=lanczos", "-c:v", "libx264",
+                        "-preset", "medium", "-crf", "24", "-c:a", "aac", "-b:a", "80k", "-movflags", "+faststart",
                         dest_mp4], check=True)
     if not os.path.exists(dest_jpg):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.5", "-i", origem, "-frames:v", "1", "-vf",
