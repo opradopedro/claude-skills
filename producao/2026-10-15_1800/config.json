@@ -1,0 +1,382 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v11_pc_2027.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_146.mp4",
+   "start": 0.0,
+   "end": 2.473,
+   "layout": "full",
+   "cx": 0.64,
+   "pan": 1,
+   "ss": 0.77
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_237.mp4",
+   "start": 2.473,
+   "end": 3.856,
+   "layout": "full",
+   "cx": 0.55,
+   "pan": -1,
+   "ss": 0.88
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_214.mp4",
+   "start": 3.856,
+   "end": 6.311,
+   "layout": "full",
+   "cx": 0.57,
+   "pan": 1,
+   "ss": 0.36
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_011.mp4",
+   "start": 6.311,
+   "end": 7.885,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": -1,
+   "ss": 0.84
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_332.mp4",
+   "start": 7.885,
+   "end": 10.049,
+   "layout": "full",
+   "cx": 0.44,
+   "pan": 1,
+   "ss": 0.23
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_259.mp4",
+   "start": 10.049,
+   "end": 11.475,
+   "layout": "full",
+   "cx": 0.42,
+   "pan": -1,
+   "ss": 1.22
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_185.mp4",
+   "start": 11.475,
+   "end": 13.582,
+   "layout": "full",
+   "cx": 0.43,
+   "pan": 1,
+   "ss": 0.01
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_057.mp4",
+   "start": 13.582,
+   "end": 15.291,
+   "layout": "full",
+   "cx": 0.59,
+   "pan": -1,
+   "ss": 0.63
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_048.mp4",
+   "start": 15.291,
+   "end": 17.427,
+   "layout": "full",
+   "cx": 0.63,
+   "pan": 1,
+   "ss": 1.06
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_086.mp4",
+   "start": 17.427,
+   "end": 19.073,
+   "layout": "full",
+   "cx": 0.47,
+   "pan": -1,
+   "ss": 1.97
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_213.mp4",
+   "start": 19.073,
+   "end": 20.96,
+   "layout": "full",
+   "cx": 0.62,
+   "pan": 1,
+   "ss": 0.64
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_152.mp4",
+   "start": 20.96,
+   "end": 22.918,
+   "layout": "full",
+   "cx": 0.39,
+   "pan": -1,
+   "ss": 1.22
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_331.mp4",
+   "start": 22.918,
+   "end": 25.135,
+   "layout": "full",
+   "cx": 0.6,
+   "pan": 1,
+   "ss": 1.0
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_058.mp4",
+   "start": 25.135,
+   "end": 26.631,
+   "layout": "full",
+   "cx": 0.59,
+   "pan": -1,
+   "ss": 0.52
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_122.mp4",
+   "start": 26.631,
+   "end": 28.09,
+   "layout": "full",
+   "cx": 0.54,
+   "pan": 1,
+   "ss": 0.64
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+   "start": 28.09,
+   "end": 29.477,
+   "layout": "full",
+   "cx": 0.47,
+   "pan": -1,
+   "ss": 0.95
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_317.mp4",
+   "start": 29.477,
+   "end": 31.006,
+   "layout": "full",
+   "cx": 0.47,
+   "pan": 1,
+   "ss": 0.95
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_055.mp4",
+   "start": 31.006,
+   "end": 33.184,
+   "layout": "full",
+   "cx": 0.59,
+   "pan": -1,
+   "ss": 0.29
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.979,
+   "text": "GALERA DO PC",
+   "hl": false
+  },
+  {
+   "start": 0.979,
+   "end": 2.473,
+   "text": "TENHO NOTÍCIA BOA",
+   "hl": false
+  },
+  {
+   "start": 2.473,
+   "end": 3.856,
+   "text": "SEGUNDO UMA REPORTAGEM",
+   "hl": false
+  },
+  {
+   "start": 3.856,
+   "end": 4.736,
+   "text": "DO GAMESBEAT",
+   "hl": false
+  },
+  {
+   "start": 4.736,
+   "end": 6.311,
+   "text": "REPERCUTIDA PELA FORBES",
+   "hl": false
+  },
+  {
+   "start": 6.311,
+   "end": 7.885,
+   "text": "GTA 6 PODE CHEGAR",
+   "hl": true
+  },
+  {
+   "start": 7.885,
+   "end": 8.868,
+   "text": "NO PC ENTRE",
+   "hl": false
+  },
+  {
+   "start": 8.868,
+   "end": 10.049,
+   "text": "JANEIRO E MARÇO",
+   "hl": false
+  },
+  {
+   "start": 10.049,
+   "end": 11.475,
+   "text": "DE 2027",
+   "hl": true
+  },
+  {
+   "start": 11.475,
+   "end": 12.124,
+   "text": "ISSO DÁ SÓ",
+   "hl": false
+  },
+  {
+   "start": 12.124,
+   "end": 12.61,
+   "text": "UNS DOIS A",
+   "hl": false
+  },
+  {
+   "start": 12.61,
+   "end": 13.582,
+   "text": "QUATRO MESES DEPOIS",
+   "hl": false
+  },
+  {
+   "start": 13.582,
+   "end": 14.502,
+   "text": "DO CONSOLE",
+   "hl": false
+  },
+  {
+   "start": 14.502,
+   "end": 15.291,
+   "text": "QUE LANÇA DIA",
+   "hl": false
+  },
+  {
+   "start": 15.291,
+   "end": 16.527,
+   "text": "19/11",
+   "hl": true
+  },
+  {
+   "start": 16.527,
+   "end": 17.427,
+   "text": "PENSA COMIGO",
+   "hl": false
+  },
+  {
+   "start": 17.427,
+   "end": 18.25,
+   "text": "NO GTA 5",
+   "hl": true
+  },
+  {
+   "start": 18.25,
+   "end": 19.073,
+   "text": "A ESPERA FOI",
+   "hl": false
+  },
+  {
+   "start": 19.073,
+   "end": 19.731,
+   "text": "DE UM ANO",
+   "hl": false
+  },
+  {
+   "start": 19.731,
+   "end": 20.96,
+   "text": "E SETE MESES",
+   "hl": false
+  },
+  {
+   "start": 20.96,
+   "end": 21.735,
+   "text": "A ROCKSTAR AINDA",
+   "hl": false
+  },
+  {
+   "start": 21.735,
+   "end": 22.918,
+   "text": "NÃO CONFIRMOU NADA",
+   "hl": false
+  },
+  {
+   "start": 22.918,
+   "end": 23.983,
+   "text": "ENTÃO TRATA COMO",
+   "hl": false
+  },
+  {
+   "start": 23.983,
+   "end": 25.135,
+   "text": "RUMOR FORTE",
+   "hl": false
+  },
+  {
+   "start": 25.135,
+   "end": 25.701,
+   "text": "E ATÉ LÁ",
+   "hl": false
+  },
+  {
+   "start": 25.701,
+   "end": 26.631,
+   "text": "CUIDADO COM SITE",
+   "hl": false
+  },
+  {
+   "start": 26.631,
+   "end": 27.561,
+   "text": "VENDENDO VERSÃO DE",
+   "hl": false
+  },
+  {
+   "start": 27.561,
+   "end": 28.09,
+   "text": "PC",
+   "hl": false
+  },
+  {
+   "start": 28.09,
+   "end": 28.826,
+   "text": "PORQUE HOJE ISSO",
+   "hl": false
+  },
+  {
+   "start": 28.826,
+   "end": 29.477,
+   "text": "É GOLPE",
+   "hl": false
+  },
+  {
+   "start": 29.477,
+   "end": 30.151,
+   "text": "E VOCÊ",
+   "hl": false
+  },
+  {
+   "start": 30.151,
+   "end": 31.006,
+   "text": "ESPERA O PC",
+   "hl": false
+  },
+  {
+   "start": 31.006,
+   "end": 31.575,
+   "text": "OU COMPRA NO",
+   "hl": false
+  },
+  {
+   "start": 31.575,
+   "end": 32.246,
+   "text": "CONSOLE?",
+   "hl": false
+  },
+  {
+   "start": 32.246,
+   "end": 32.784,
+   "text": "COMENTA AÍ",
+   "hl": false
+  }
+ ]
+}

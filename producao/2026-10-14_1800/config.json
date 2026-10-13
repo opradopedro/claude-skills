@@ -1,0 +1,382 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v10_cyberleak.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_381.mp4",
+   "start": 0.0,
+   "end": 2.606,
+   "layout": "full",
+   "cx": 0.55,
+   "pan": 1,
+   "ss": 0.26
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_322.mp4",
+   "start": 2.606,
+   "end": 4.931,
+   "layout": "full",
+   "cx": 0.48,
+   "pan": -1,
+   "ss": 0.95
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_031.mp4",
+   "start": 4.931,
+   "end": 6.819,
+   "layout": "full",
+   "cx": 0.62,
+   "pan": 1,
+   "ss": 1.77
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_237.mp4",
+   "start": 6.819,
+   "end": 8.518,
+   "layout": "full",
+   "cx": 0.47,
+   "pan": -1,
+   "ss": 1.28
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_002.mp4",
+   "start": 8.518,
+   "end": 10.079,
+   "layout": "full",
+   "cx": 0.44,
+   "pan": 1,
+   "ss": 0.32
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_272.mp4",
+   "start": 10.079,
+   "end": 12.375,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": -1,
+   "ss": 1.31
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_385.mp4",
+   "start": 12.375,
+   "end": 14.266,
+   "layout": "full",
+   "cx": 0.6,
+   "pan": 1,
+   "ss": 1.43
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_319.mp4",
+   "start": 14.266,
+   "end": 16.057,
+   "layout": "full",
+   "cx": 0.64,
+   "pan": -1,
+   "ss": 0.58
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_028.mp4",
+   "start": 16.057,
+   "end": 17.571,
+   "layout": "full",
+   "cx": 0.4,
+   "pan": 1,
+   "ss": 1.08
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_148.mp4",
+   "start": 17.571,
+   "end": 20.014,
+   "layout": "full",
+   "cx": 0.43,
+   "pan": -1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_282.mp4",
+   "start": 20.014,
+   "end": 21.705,
+   "layout": "full",
+   "cx": 0.47,
+   "pan": 1,
+   "ss": 1.36
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_221.mp4",
+   "start": 21.705,
+   "end": 23.373,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": -1,
+   "ss": 0.7
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_290.mp4",
+   "start": 23.373,
+   "end": 25.267,
+   "layout": "full",
+   "cx": 0.6,
+   "pan": 1,
+   "ss": 0.96
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_309.mp4",
+   "start": 25.267,
+   "end": 27.929,
+   "layout": "full",
+   "cx": 0.49,
+   "pan": -1,
+   "ss": 0.09
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_316.mp4",
+   "start": 27.929,
+   "end": 29.46,
+   "layout": "full",
+   "cx": 0.36,
+   "pan": 1,
+   "ss": 2.07
+  },
+  {
+   "src": "../../../fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_206.mp4",
+   "start": 29.46,
+   "end": 30.472,
+   "layout": "full",
+   "cx": 0.36,
+   "pan": -1,
+   "ss": 2.05
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.312,
+   "text": "MANO",
+   "hl": false
+  },
+  {
+   "start": 0.312,
+   "end": 1.282,
+   "text": "O CYBERLEAK TÁ",
+   "hl": false
+  },
+  {
+   "start": 1.282,
+   "end": 2.606,
+   "text": "PERDENDO A MORAL",
+   "hl": false
+  },
+  {
+   "start": 2.606,
+   "end": 3.187,
+   "text": "ELE É O",
+   "hl": false
+  },
+  {
+   "start": 3.187,
+   "end": 3.768,
+   "text": "CARA QUE VEM",
+   "hl": false
+  },
+  {
+   "start": 3.768,
+   "end": 4.931,
+   "text": "SOLTANDO VÍDEO VAZADO",
+   "hl": false
+  },
+  {
+   "start": 4.931,
+   "end": 5.802,
+   "text": "DE GTA 6 E",
+   "hl": true
+  },
+  {
+   "start": 5.802,
+   "end": 6.819,
+   "text": "CRIOU UMA CRIPTOMOEDA",
+   "hl": false
+  },
+  {
+   "start": 6.819,
+   "end": 7.4,
+   "text": "PRA COBRAR POR",
+   "hl": false
+  },
+  {
+   "start": 7.4,
+   "end": 8.518,
+   "text": "CADA V@Z@MENTO",
+   "hl": false
+  },
+  {
+   "start": 8.518,
+   "end": 8.986,
+   "text": "SÓ QUE A",
+   "hl": false
+  },
+  {
+   "start": 8.986,
+   "end": 10.079,
+   "text": "MOEDA DESPENCOU 50%",
+   "hl": true
+  },
+  {
+   "start": 10.079,
+   "end": 10.548,
+   "text": "EM UM DIA",
+   "hl": false
+  },
+  {
+   "start": 10.548,
+   "end": 12.375,
+   "text": "SEGUNDO O KOTAKU",
+   "hl": false
+  },
+  {
+   "start": 12.375,
+   "end": 13.006,
+   "text": "E AGORA ELE",
+   "hl": false
+  },
+  {
+   "start": 13.006,
+   "end": 13.636,
+   "text": "AMEAÇA SOLTAR O",
+   "hl": false
+  },
+  {
+   "start": 13.636,
+   "end": 14.266,
+   "text": "JOGO INTEIRO SE",
+   "hl": false
+  },
+  {
+   "start": 14.266,
+   "end": 14.792,
+   "text": "A MOEDA CHEGAR",
+   "hl": false
+  },
+  {
+   "start": 14.792,
+   "end": 15.552,
+   "text": "A US$ 30 MILHÕES",
+   "hl": true
+  },
+  {
+   "start": 15.552,
+   "end": 16.057,
+   "text": "SÓ QUE TEM",
+   "hl": false
+  },
+  {
+   "start": 16.057,
+   "end": 17.235,
+   "text": "MUITA GENTE CANSADA",
+   "hl": false
+  },
+  {
+   "start": 17.235,
+   "end": 17.571,
+   "text": "DISSO",
+   "hl": false
+  },
+  {
+   "start": 17.571,
+   "end": 18.699,
+   "text": "PORQUE CADA VÍDEO",
+   "hl": false
+  },
+  {
+   "start": 18.699,
+   "end": 20.014,
+   "text": "VAZADO ESTRAGA A",
+   "hl": false
+  },
+  {
+   "start": 20.014,
+   "end": 20.954,
+   "text": "SURPRESA DE QUEM",
+   "hl": false
+  },
+  {
+   "start": 20.954,
+   "end": 21.705,
+   "text": "QUER JOGAR DO",
+   "hl": false
+  },
+  {
+   "start": 21.705,
+   "end": 22.457,
+   "text": "ZERO NO DIA",
+   "hl": false
+  },
+  {
+   "start": 22.457,
+   "end": 23.373,
+   "text": "19/11",
+   "hl": true
+  },
+  {
+   "start": 23.373,
+   "end": 24.521,
+   "text": "ENTÃO BORA VOTAR",
+   "hl": false
+  },
+  {
+   "start": 24.521,
+   "end": 25.267,
+   "text": "SE VOCÊ É",
+   "hl": false
+  },
+  {
+   "start": 25.267,
+   "end": 25.871,
+   "text": "A FAVOR DOS",
+   "hl": false
+  },
+  {
+   "start": 25.871,
+   "end": 26.475,
+   "text": "VAZAMENTOS",
+   "hl": false
+  },
+  {
+   "start": 26.475,
+   "end": 27.929,
+   "text": "DIGITA 1 NOS",
+   "hl": true
+  },
+  {
+   "start": 27.929,
+   "end": 29.215,
+   "text": "COMENTÁRIOS",
+   "hl": false
+  },
+  {
+   "start": 29.215,
+   "end": 29.46,
+   "text": "SE É CONTRA",
+   "hl": false
+  },
+  {
+   "start": 29.46,
+   "end": 29.705,
+   "text": "DIGITA 2",
+   "hl": true
+  },
+  {
+   "start": 29.705,
+   "end": 29.95,
+   "text": "VAMOS VER QUEM",
+   "hl": false
+  },
+  {
+   "start": 29.95,
+   "end": 30.072,
+   "text": "GANHA",
+   "hl": false
+  }
+ ]
+}

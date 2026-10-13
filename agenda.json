@@ -185,8 +185,8 @@
     {
       "data": "2026-10-14",
       "hora": "18:00",
-      "arquivo": null,
-      "status": "produzir",
+      "arquivo": "radar_v10_cyberleak.mp4",
+      "status": "pendente",
       "tema": "Corte: GTA 6 em primeira pessoa? (vazamento Cyberleek, 8/10)",
       "headline": "GTA 6 EM PRIMEIRA PESSOA?",
       "roteiro": "Mano, o hacker voltou. O tal do Cyberleek soltou mais 25 minutos de GTA 6, e tem uma parte que deixou todo mundo doido: o Jason dirigindo e andando pela cidade em primeira pessoa. Calma que tem um detalhe: isso é versão de desenvolvedor, e a Rockstar não confirmou nada. Mas pensa comigo: o GTA 5 ganhou primeira pessoa no PS4 e foi um sucesso. Não faz sentido nenhum a Rockstar tirar isso do 6. Eu aposto que vem. E você, joga em primeira ou terceira pessoa?",
@@ -199,11 +199,11 @@
       "formato": "corte",
       "ficha": {
         "formato": "corte",
-        "tema": "vazamento",
-        "gancho": "pergunta",
-        "origem": "autoral"
+        "tema": "vazamentos",
+        "gancho": "votacao",
+        "origem": "Kotaku 12/10"
       },
-      "tema_pedido": "Comparação GTA V x GTA VI: cenas parecidas uma em cima da outra (tela dividida em cima/embaixo), só imagem oficial da Rockstar. Pedido do Pedro 13/10."
+      "legenda": "CyberLeak quer vazar GTA 6 inteiro, mas a moeda dele caiu 50% em 24h 📉\n\nEle cobra em cripto pra soltar vídeo vazado. Segundo o Kotaku, o token despencou e muita gente já tá cansada de spoiler antes do jogo sair em 19/11.\n\nVotação valendo:\n1️⃣ a favor dos vazamentos\n2️⃣ contra os vazamentos\n\nDigita 1 ou 2 nos comentários 👇\n\n#gta6 #gta6brasil #gtavi #cyberleak"
     },
     {
       "data": "2026-10-14",
@@ -241,8 +241,8 @@
     {
       "data": "2026-10-15",
       "hora": "18:00",
-      "arquivo": null,
-      "status": "produzir",
+      "arquivo": "radar_v11_pc_2027.mp4",
+      "status": "pendente",
       "tema": "Corte: o que acontece com quem vaza GTA (Kurtaj 2022 x Cyberleek)",
       "headline": "O QUE ACONTECE COM QUEM VAZA GTA",
       "roteiro": "Sabe o que aconteceu com o último cara que vazou GTA? Em 2022, um hacker de 18 anos invadiu a Rockstar e soltou mais de 90 vídeos de GTA 6. Ele foi preso, e a justiça inglesa mandou ele ficar internado num hospital psiquiátrico sem data pra sair. Agora tem um novo vazador, o Cyberleek, que já soltou dezenas de minutos de gameplay. E a Take-Two já foi na justiça pra descobrir quem é. Pelo histórico, esse cara tá muito encrencado. Você acha que pegam ele antes do lançamento?",
@@ -255,10 +255,11 @@
       "formato": "corte",
       "ficha": {
         "formato": "corte",
-        "tema": "vazamento",
-        "gancho": "pergunta",
-        "origem": "autoral"
-      }
+        "tema": "pc",
+        "gancho": "noticia",
+        "origem": "Forbes/GamesBeat 13/10"
+      },
+      "legenda": "GTA 6 no PC pode sair entre janeiro e março de 2027 💻\n\nÉ o que diz uma reportagem do GamesBeat, repercutida pela Forbes. Seriam 2 a 4 meses depois do console (19/11). No GTA 5 a espera foi de 19 meses.\n\nA Rockstar ainda não confirmou. Até lá, qualquer site vendendo GTA 6 pra PC é golpe.\n\nVocê espera o PC ou compra no console?\n\n#gta6 #gta6pc #gta6brasil #gtavi"
     },
     {
       "data": "2026-10-15",
@@ -287,11 +288,17 @@
     {
       "data": "2026-10-16",
       "hora": "12:00",
-      "arquivo": null,
-      "status": "cancelado",
+      "arquivo": "radar_v12_regioes_leonida.mp4",
+      "status": "pendente",
       "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
       "formato": "gringa",
-      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
+      "legenda": "As 6 regiões de Leonida em GTA 6 🗺️ salva pra não se perder\n\n1. Vice City\n2. Leonida Keys\n3. Grassrivers\n4. Port Gellhorn\n5. Ambrosia\n6. Monte Kalaga\n\nQual você vai explorar primeiro?\n\n#gta6 #leonida #vicecity #gta6brasil #gtavi",
+      "ficha": {
+        "formato": "corte",
+        "tema": "mapa",
+        "gancho": "lista",
+        "origem": "Rockstar (site oficial)"
+      }
     },
     {
       "data": "2026-10-16",
