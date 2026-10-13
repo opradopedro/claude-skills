@@ -21,6 +21,12 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 W, H, FPS = 1080, 1920, 30
+# Qualidade (Pedro 13/10: os Reels estavam saindo borrados). O clipe 16:9 vira 9:16 ampliado ~1,8x,
+# entao: escala lanczos + nitidez leve, intermediarios quase sem perda e saida final com bitrate alto
+# (o Instagram recomprime; mandar ~10 Mbps evita o borrao duplo).
+NITIDEZ = "unsharp=5:5:0.7:5:5:0.0"
+SAIDA_VIDEO = ["-c:v", "libx264", "-preset", "slow", "-crf", "16", "-maxrate", "14M", "-bufsize", "28M",
+               "-profile:v", "high", "-level", "4.2", "-pix_fmt", "yuv420p", "-r", "30"]
 BAND_Y, BAND_H = 380, 1000
 CX, SAFE_W = 540, 760
 CAP_Y = 1060  # centro vertical da legenda
@@ -54,9 +60,9 @@ def scene_filter(layout, cx, still, dur):
     move = (f"zoompan=z='1+0.12*on/{n}':x='(iw-iw/zoom)*{cx}':y='(ih-ih/zoom)/2':d=1:s={{w}}x{{h}}:fps={FPS},"
             if still else "")
     if layout == "full":
-        return (f"[0:v]scale={W}*{k}:{H}*{k}:force_original_aspect_ratio=increase,"
+        return (f"[0:v]scale={W}*{k}:{H}*{k}:force_original_aspect_ratio=increase:flags=lanczos,"
                 f"crop={W}*{k}:{H}*{k}:(iw-{W}*{k})*{cx}:(ih-{H}*{k})/2,"
-                + move.format(w=W, h=H) + f"scale={W}:{H},setsar=1,fps={FPS}[v]")
+                + move.format(w=W, h=H) + f"scale={W}:{H}:flags=lanczos,{NITIDEZ},setsar=1,fps={FPS}[v]")
     return (f"[0:v]split[a][b];"
             f"[a]scale={W // 4}:{H // 4}:force_original_aspect_ratio=increase,crop={W // 4}:{H // 4},"
             f"boxblur=12,scale={W}:{H},eq=brightness=-0.3,setsar=1,fps={FPS}[bg];"
@@ -76,7 +82,7 @@ def pan_filter(img_w, img_h, dur, sentido):
     dist = min(sobra * 0.7, PAN_VEL * dur)
     x0 = (sobra - dist) / 2 if sentido >= 0 else (sobra + dist) / 2
     x1 = x0 + dist * (1 if sentido >= 0 else -1)
-    return (f"[0:v]scale={sw}:{H},crop={W}:{H}:'{x0:.1f}+({x1 - x0:.1f})*(0.5-0.5*cos(PI*t/{dur:.3f}))':0,"
+    return (f"[0:v]scale={sw}:{H}:flags=lanczos,crop={W}:{H}:'{x0:.1f}+({x1 - x0:.1f})*(0.5-0.5*cos(PI*t/{dur:.3f}))':0,"
             f"setsar=1,fps={FPS}[v]")
 
 
@@ -94,7 +100,7 @@ def render_scene(s, path, extra=0.0):
     flt = flt or scene_filter(layout, s.get("cx", 0.5), still, dur)
     subprocess.run(["ffmpeg", "-v", "error", "-y", *inp, "-filter_complex", flt, "-map", "[v]",
                     "-frames:v", str(max(1, int(round(dur * FPS)))), "-an",
-                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", path],
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p", path],
                    check=True)
 
 
@@ -159,7 +165,7 @@ def main(path):
             ult = f"[x{k}]"
             janelas.append((t0, t0 + TRANS))
         subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(flt), "-map", ult,
-                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", base],
+                        "-c:v", "libx264", "-preset", "veryfast", "-crf", "12", "-pix_fmt", "yuv420p", base],
                        check=True)
     else:
         lst = os.path.join(tmp, "lista.txt")
@@ -189,8 +195,8 @@ def main(path):
                            stdout=subprocess.PIPE)
     enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
                             "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", cfg["audio"],
-                            "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p",
-                            "-c:a", "aac", "-b:a", "192k", "-af", "apad", "-t", f"{dur:.2f}",
+                            *SAIDA_VIDEO,
+                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-af", "apad", "-t", f"{dur:.2f}",
                             "-movflags", "+faststart", cfg["out"]], stdin=subprocess.PIPE)
     cache, i, fs = {}, 0, W * H * 3
     while True:

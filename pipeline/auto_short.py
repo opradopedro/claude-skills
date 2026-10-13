@@ -77,6 +77,13 @@ def pick_broll(spec, base, rnd):
         for c in idx:
             c.update(extra.get(c["file"], {}))
     idx = [c for c in idx if not c.get("excluir")]  # cartelas, logos e textos ficam de fora
+    idx = [c for c in idx if not c["file"].split("/")[-1].startswith("VQRLujxTm3c")]  # Trailer 2: faixas pretas
+
+    def kbps(c):  # clipe com pouco bitrate fica borrado ao ampliar para 9:16 (Pedro 13/10)
+        f = os.path.join(root, c["file"])
+        return os.path.getsize(f) * 8 / 1000 / max(c.get("dur", 4), 0.5) if os.path.exists(f) else 9999
+    nitidos = [c for c in idx if kbps(c) >= 2000]
+    idx = nitidos if len(nitidos) >= 40 else idx
     tags = set(spec.get("tags", []))
     good = [c for c in idx if tags & set(c.get("tags", []))]
     resto = [c for c in idx if c not in good]

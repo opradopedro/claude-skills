@@ -1,0 +1,23 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v11_pc_2027.mp4",
+ "text": "Galera do PC, tenho notícia boa. Segundo uma reportagem do GamesBeat, repercutida pela Forbes, GTA 6 pode chegar no PC entre janeiro e março de 2027. Isso dá só uns dois a quatro meses depois do console, que lança dia dezenove de novembro. Pensa comigo: no GTA 5 a espera foi de um ano e sete meses! A Rockstar ainda não confirmou nada, então trata como rumor forte. E até lá, cuidado com site vendendo versão de PC, porque hoje isso é golpe. E você, espera o PC ou compra no console? Comenta aí.",
+ "merge": {
+  "dezenove de novembro": "19/11",
+  "cinquenta por cento": "50%",
+  "trinta milhões de dólares": "US$ 30 milhões"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "noite",
+  "dirigindo",
+  "carro",
+  "jason",
+  "lucia",
+  "luxo",
+  "festa"
+ ],
+ "seed": 12,
+ "font": "../../assets/fonts/Anton.ttf"
+}

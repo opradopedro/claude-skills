@@ -1,0 +1,27 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v12_regioes_leonida.mp4",
+ "text": "Salva esse vídeo pra não se perder em Leonida. O estado de GTA 6 tem seis regiões que a Rockstar já mostrou. Vice City, a cidade grande, cheia de festa e prédio de luxo. Leonida Keys, as ilhas com praia e barco. Grassrivers, o pântano cheio de jacaré. Port Gellhorn, a cidade portuária esquecida. Ambrosia, a terra da refinaria de açúcar e das gangues de moto. E o Monte Kalaga, o parque nacional no meio do mato. Falta pouco mais de um mês pro lançamento. Qual região você vai explorar primeiro? Comenta aí.",
+ "merge": {
+  "dezenove de novembro": "19/11",
+  "cinquenta por cento": "50%",
+  "trinta milhões de dólares": "US$ 30 milhões"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "praia",
+  "mar",
+  "natureza",
+  "pantano",
+  "aereo",
+  "rodovia",
+  "vice-city",
+  "keys",
+  "por-do-sol",
+  "cidade",
+  "barco",
+  "jetski"
+ ],
+ "seed": 13,
+ "font": "../../assets/fonts/Anton.ttf"
+}

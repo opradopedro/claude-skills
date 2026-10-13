@@ -1,0 +1,23 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v10_cyberleak.mp4",
+ "text": "Mano, o CyberLeak tá perdendo a moral. Ele é o cara que vem soltando vídeo vazado de GTA 6 e criou uma criptomoeda pra cobrar por cada vazamento. Só que a moeda despencou cinquenta por cento em um dia, segundo o Kotaku. E agora ele ameaça soltar o jogo inteiro se a moeda chegar a trinta milhões de dólares. Só que tem muita gente cansada disso, porque cada vídeo vazado estraga a surpresa de quem quer jogar do zero no dia dezenove de novembro. Então bora votar. Se você é a favor dos vazamentos, digita 1 nos comentários. Se é contra, digita 2. Vamos ver quem ganha!",
+ "merge": {
+  "dezenove de novembro": "19/11",
+  "cinquenta por cento": "50%",
+  "trinta milhões de dólares": "US$ 30 milhões"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "gameplay",
+  "acao",
+  "carro",
+  "perseguicao",
+  "noite",
+  "cidade",
+  "policia",
+  "fuga"
+ ],
+ "seed": 11,
+ "font": "../../assets/fonts/Anton.ttf"
+}
