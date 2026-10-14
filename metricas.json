@@ -3,17 +3,17 @@
   "publicado": "2026-10-12T15:28:32.000Z",
   "legenda": "Ultimate ou Padrão? A diferença é de R$ 100",
   "atual": {
-   "playCount": 1237,
-   "likeCount": 44,
+   "playCount": 1242,
+   "likeCount": 46,
    "commentCount": 0,
    "shares": 1,
    "saves": 2,
-   "avgWatchTimeMs": 17857,
-   "avgWatchedPct": 41.53,
-   "skipRate": 35.7,
+   "avgWatchTimeMs": 17881,
+   "avgWatchedPct": 41.58,
+   "skipRate": 35.9,
    "durationSeconds": 43,
-   "coletado": "2026-10-13T20:51Z",
-   "horas": 29.4
+   "coletado": "2026-10-14T20:51Z",
+   "horas": 53.4
   },
   "h24": {
    "playCount": 1237,
@@ -110,34 +110,77 @@
   "publicado": "2026-10-12T23:53:13.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 164,
-   "likeCount": 4,
+   "playCount": 171,
+   "likeCount": 6,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 17298,
-   "avgWatchedPct": 43.245,
-   "skipRate": 41,
+   "avgWatchTimeMs": 17036,
+   "avgWatchedPct": 42.59,
+   "skipRate": 40.9,
    "durationSeconds": 40,
-   "coletado": "2026-10-13T20:51Z",
-   "horas": 21.0
+   "coletado": "2026-10-14T20:51Z",
+   "horas": 45.0
+  },
+  "h24": {
+   "playCount": 171,
+   "likeCount": 6,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 17036,
+   "avgWatchedPct": 42.59,
+   "skipRate": 40.9,
+   "durationSeconds": 40,
+   "coletado": "2026-10-14T20:51Z",
+   "horas": 45.0
   }
  },
  "DeaTN8uj8pd": {
   "publicado": "2026-10-12T22:25:06.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 158,
-   "likeCount": 4,
+   "playCount": 163,
+   "likeCount": 6,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 16627,
-   "avgWatchedPct": 44.94,
-   "skipRate": 31.9,
+   "avgWatchTimeMs": 16873,
+   "avgWatchedPct": 45.6,
+   "skipRate": 32.6,
    "durationSeconds": 37,
-   "coletado": "2026-10-13T20:51Z",
-   "horas": 22.4
+   "coletado": "2026-10-14T20:51Z",
+   "horas": 46.4
+  },
+  "h24": {
+   "playCount": 163,
+   "likeCount": 6,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 16873,
+   "avgWatchedPct": 45.6,
+   "skipRate": 32.6,
+   "durationSeconds": 37,
+   "coletado": "2026-10-14T20:51Z",
+   "horas": 46.4
+  }
+ },
+ "DectbiBAgte": {
+  "publicado": "2026-10-13T20:52:40.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 1316,
+   "likeCount": 52,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 11915,
+   "avgWatchedPct": 33.1,
+   "skipRate": 38.2,
+   "durationSeconds": 36,
+   "coletado": "2026-10-14T20:51Z",
+   "horas": 24.0
   }
  }
 }
