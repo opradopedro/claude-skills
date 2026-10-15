@@ -347,6 +347,20 @@
       "status": "cancelado",
       "obs": "substitui o v6 (golpe PC), cancelado pelo Pedro por repetir tema de PC",
       "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
+    },
+    {
+      "data": "2026-10-15",
+      "hora": "11:30",
+      "status": "pendente",
+      "arquivo": "radar_v13_trailer_lancamento.mp4",
+      "extra": "pedido urgente do Pedro 15/10 (trailer de lançamento)",
+      "legenda": "Saiu o trailer de lançamento de GTA 6 e é ação do começo ao fim 🔥\n\nPerseguição na avenida estilo Ocean Drive, Jason voando de moto, Lucia de tornozeleira eletrônica, assalto ao cofre de um banco e Lucia pulando do carro pra um avião em movimento.\n\nLança 19/11. Qual cena foi a melhor? 👇\n\n#gta6 #gta6trailer #gta6brasil #gtavi",
+      "ficha": {
+        "formato": "corte",
+        "tema": "trailer",
+        "gancho": "noticia",
+        "origem": "Rockstar, trailer de lançamento 15/10"
+      }
     }
   ]
 }
