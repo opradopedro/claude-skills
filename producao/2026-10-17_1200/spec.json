@@ -1,0 +1,23 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v16_rockstar_ainda_muda.mp4",
+ "text": "Faltando um mês pro lançamento, a Rockstar ainda está mexendo em GTA 6. Quem contou foi o Phil Hooker, diretor de tecnologia do estúdio: o jogo nunca fica totalmente fechado. Segundo ele, não existe um plano exato, e mesmo nos últimos meses eles mudaram coisas. E o Jason Schreier, da Bloomberg, disse que os adiamentos não tiveram um grande motivo: o jogo simplesmente não estava pronto. Dezenove de novembro tá chegando. Você prefere um jogo bem polido ou queria ter jogado antes? Comenta aí.",
+ "merge": {
+  "Dezenove de novembro": "19/11",
+  "Phil Hooker": "Phil Hooker",
+  "Jason Schreier": "Jason Schreier",
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "gameplay",
+  "jason",
+  "lucia",
+  "carro",
+  "praia",
+  "acao"
+ ],
+ "seed": 33,
+ "font": "../../assets/fonts/Anton.ttf"
+}
