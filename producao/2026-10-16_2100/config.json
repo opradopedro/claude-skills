@@ -1,0 +1,408 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v15_detalhes_trailer.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 0.0,
+   "end": 1.2,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 66.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 1.2,
+   "end": 1.95,
+   "layout": "full",
+   "cx": 0.65,
+   "ss": 46.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 1.95,
+   "end": 3.157,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 66.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 3.157,
+   "end": 3.957,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 3.957,
+   "end": 4.857,
+   "layout": "full",
+   "cx": 0.4,
+   "ss": 55.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 4.857,
+   "end": 6.757,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 44.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 6.757,
+   "end": 7.707,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 37.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 7.707,
+   "end": 8.507,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 8.507,
+   "end": 9.407,
+   "layout": "full",
+   "cx": 0.4,
+   "ss": 55.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 9.407,
+   "end": 11.307,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 44.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 11.307,
+   "end": 11.953,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 37.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 11.953,
+   "end": 12.512,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.512,
+   "end": 13.63,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 48.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 13.63,
+   "end": 15.191,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 2.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 15.191,
+   "end": 16.752,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 4.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 16.752,
+   "end": 17.491,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 14.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 17.491,
+   "end": 19.48,
+   "layout": "full",
+   "cx": 0.62,
+   "ss": 11.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 19.48,
+   "end": 21.174,
+   "layout": "full",
+   "cx": 0.62,
+   "ss": 11.6
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 21.174,
+   "end": 22.425,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 50.8
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 22.425,
+   "end": 23.125,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 23.125,
+   "end": 24.125,
+   "layout": "full",
+   "cx": 0.38,
+   "ss": 26.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 24.125,
+   "end": 24.825,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 24.825,
+   "end": 25.825,
+   "layout": "full",
+   "cx": 0.38,
+   "ss": 26.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 25.825,
+   "end": 26.713,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 26.713,
+   "end": 27.76,
+   "layout": "full",
+   "cx": 0.45,
+   "ss": 40.0
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.871,
+   "text": "VOCÊ REPAROU NESSES",
+   "hl": false
+  },
+  {
+   "start": 0.871,
+   "end": 1.618,
+   "text": "DETALHES DO TRAILER",
+   "hl": false
+  },
+  {
+   "start": 1.618,
+   "end": 2.365,
+   "text": "DE LANÇAMENTO DE",
+   "hl": false
+  },
+  {
+   "start": 2.365,
+   "end": 3.157,
+   "text": "GTA 6?",
+   "hl": true
+  },
+  {
+   "start": 3.157,
+   "end": 3.822,
+   "text": "A MÚSICA É",
+   "hl": false
+  },
+  {
+   "start": 3.822,
+   "end": 4.507,
+   "text": "INÉDITA",
+   "hl": false
+  },
+  {
+   "start": 4.507,
+   "end": 6.577,
+   "text": "FLOWER IN A HURRICANE",
+   "hl": false
+  },
+  {
+   "start": 6.577,
+   "end": 7.648,
+   "text": "DO JUSTICE",
+   "hl": false
+  },
+  {
+   "start": 7.648,
+   "end": 9.541,
+   "text": "COM TAME IMPALA",
+   "hl": false
+  },
+  {
+   "start": 9.541,
+   "end": 11.953,
+   "text": "SZA E KING GIZZARD",
+   "hl": false
+  },
+  {
+   "start": 11.953,
+   "end": 12.552,
+   "text": "E O JUSTICE",
+   "hl": false
+  },
+  {
+   "start": 12.552,
+   "end": 13.031,
+   "text": "TAMBÉM FEZ A",
+   "hl": false
+  },
+  {
+   "start": 13.031,
+   "end": 13.63,
+   "text": "TRILHA DO JOGO",
+   "hl": false
+  },
+  {
+   "start": 13.63,
+   "end": 14.662,
+   "text": "O TRAILER ABRE",
+   "hl": false
+  },
+  {
+   "start": 14.662,
+   "end": 15.45,
+   "text": "NAS KEYS",
+   "hl": false
+  },
+  {
+   "start": 15.45,
+   "end": 16.146,
+   "text": "REGIÃO QUE QUASE",
+   "hl": false
+  },
+  {
+   "start": 16.146,
+   "end": 17.491,
+   "text": "NÃO TINHA APARECIDO",
+   "hl": false
+  },
+  {
+   "start": 17.491,
+   "end": 18.192,
+   "text": "O JASON RECEBE",
+   "hl": false
+  },
+  {
+   "start": 18.192,
+   "end": 18.894,
+   "text": "UMA LIGAÇÃO A",
+   "hl": false
+  },
+  {
+   "start": 18.894,
+   "end": 19.48,
+   "text": "COBRAR",
+   "hl": false
+  },
+  {
+   "start": 19.48,
+   "end": 20.09,
+   "text": "E A GALERA",
+   "hl": false
+  },
+  {
+   "start": 20.09,
+   "end": 20.577,
+   "text": "ACHA QUE VEM",
+   "hl": false
+  },
+  {
+   "start": 20.577,
+   "end": 21.174,
+   "text": "DA CADEIA",
+   "hl": false
+  },
+  {
+   "start": 21.174,
+   "end": 22.112,
+   "text": "E AQUELA TORNOZELEIRA",
+   "hl": false
+  },
+  {
+   "start": 22.112,
+   "end": 22.425,
+   "text": "NA LUCIA?",
+   "hl": false
+  },
+  {
+   "start": 22.425,
+   "end": 23.027,
+   "text": "PODE SER SINAL",
+   "hl": false
+  },
+  {
+   "start": 23.027,
+   "end": 23.509,
+   "text": "DE QUE ELA",
+   "hl": false
+  },
+  {
+   "start": 23.509,
+   "end": 24.232,
+   "text": "TÁ EM LIBERDADE",
+   "hl": false
+  },
+  {
+   "start": 24.232,
+   "end": 25.098,
+   "text": "CONDICIONAL",
+   "hl": false
+  },
+  {
+   "start": 25.098,
+   "end": 26.713,
+   "text": "SEGUNDO O EUROGAMER",
+   "hl": false
+  },
+  {
+   "start": 26.713,
+   "end": 26.972,
+   "text": "QUAL DETALHE VOCÊ",
+   "hl": false
+  },
+  {
+   "start": 26.972,
+   "end": 27.188,
+   "text": "NÃO TINHA VISTO?",
+   "hl": false
+  },
+  {
+   "start": 27.188,
+   "end": 27.36,
+   "text": "COMENTA AÍ",
+   "hl": false
+  }
+ ]
+}

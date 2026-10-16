@@ -306,18 +306,32 @@
     {
       "data": "2026-10-16",
       "hora": "18:00",
-      "arquivo": null,
-      "status": "produzir",
-      "tema": "Autoral estilo Flow Games: notícia de última hora",
-      "formato": "corte"
+      "arquivo": "radar_v14_cyberleak_desistiu.mp4",
+      "status": "pendente",
+      "tema": "CyberLeak desistiu dos vazamentos",
+      "formato": "corte",
+      "legenda": "O CyberLeak desistiu: os vazamentos de GTA 6 acabaram (por enquanto) 🛑\n\nDepois de dias soltando informações, a moeda dele despencou pra cerca de US$ 1,2 milhão e ele parou de vazar. Sem spoiler do final aqui.\n\nE aí, você votou 1 (a favor) ou 2 (contra os vazamentos)? Comenta!\n\n#gta6 #gtavi #gta6brasil #rockstargames",
+      "ficha": {
+        "formato": "corte",
+        "tema": "vazamentos",
+        "gancho": "noticia",
+        "origem": "Mezha/Gfinity 14/10"
+      }
     },
     {
       "data": "2026-10-16",
       "hora": "21:00",
-      "arquivo": null,
-      "status": "produzir",
-      "tema": "Radar da gringa ou atemporal (lembrete/contagem se faltar notícia)",
-      "formato": "corte"
+      "arquivo": "radar_v15_detalhes_trailer.mp4",
+      "status": "pendente",
+      "tema": "Detalhes do trailer de lançamento",
+      "formato": "corte",
+      "legenda": "3 detalhes do trailer de lançamento de GTA 6 que quase ninguém reparou 👀\n\n🎵 A música é Flower in a Hurricane, do Justice com Tame Impala, SZA e King Gizzard\n🏝️ O trailer abre nas Keys\n⛓️ A Lucia aparece de tornozeleira: condicional?\n\nQual detalhe você não tinha visto?\n\n#gta6 #gtavi #gta6trailer #gta6brasil",
+      "ficha": {
+        "formato": "corte",
+        "tema": "trailer",
+        "gancho": "curiosidade",
+        "origem": "Eurogamer via comicshoplocator 16/10"
+      }
     },
     {
       "data": "2026-10-17",
