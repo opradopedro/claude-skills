@@ -22,10 +22,11 @@ Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na co
    - Formatos proibidos: o "demo" faixa/tela cheia alternando (`demo_short/demo_estilo_corte.mp4`) e o "painel".
 5. Vazamento só como notícia não confirmada, sem imagem do vazamento. Toda informação com fonte. Português do Brasil, linguagem gamer, sem travessão. Lançamento: 19/11/2026 (PS5 e Xbox Series).
 
-## Até sexta 16/10 (pedido do Pedro em 13/10)
-- Nada de repetido: só vídeo novo. 1 vídeo por dia às 18h na quarta e quinta (já prontos: v10 CyberLeak, v11 PC 2027), sexta às 12h (v12 regiões de Leonida, disparo avulso). Sexta 16h10 um disparo avulso volta o cron para `50 11,17,20` e produz os de 18h e 21h.
-- Qualidade (Pedro 13/10, vídeos estavam borrados): make_short.py usa lanczos + nitidez e saída ~10 Mbps; auto_short.py evita clipes com menos de 2 Mbps e o Trailer 2. Legendas pela skill instagram-skills (gancho nos primeiros 125 caracteres, 3 a 5 hashtags).
-- Comparação GTA V x GTA VI fica para depois: precisa do trailer oficial do GTA V, que o YouTube bloqueia na nuvem (baixar pelo PC). Narração já pronta em /mnt/project-files/radar-gta6/comparacao/.
+## Rotina a partir de 16/10 (pedido do Pedro em 13/10)
+- 3 vídeos por dia: 12h, 18h e 21h. A execução das 20h50 publica o das 21h e já deixa PRONTO (pendente, na galeria) o vídeo das 12h do dia seguinte, para o Pedro avaliar antes das 11h50. A das 11h50 publica e procura tema novo (e produz o das 18h se não houver). A das 17h50 publica o das 18h e produz o das 21h se faltar.
+- Qualidade (Pedro 13/10): make_short.py usa lanczos + nitidez e saída ~10 Mbps; auto_short.py evita clipes com menos de 2 Mbps e o Trailer 2. Legendas pela skill instagram-skills do repositório claude-skills (gancho nos primeiros 125 caracteres, 3 a 5 hashtags).
+- Trailer de lançamento oficial (15/10) em /home/claude/trailer/launch_crop.mp4 quando existir; senão /mnt/project-files/radar-gta6/trailer-lancamento/launch.mp4 (cortar `crop=1920:960:0:60`; pular logos em 0-2, 15-17, 22-24 e 76-90 s). Para vídeo em que a imagem precisa bater com a fala, use o modelo producao/2026-10-15_trailer/montar.py.
+- Comparação GTA V x GTA VI fica para quando o trailer do GTA V puder ser baixado (PC do Pedro). Narração já pronta em /mnt/project-files/radar-gta6/comparacao/.
 
 ## Pedidos do Pedro pela página de vídeos
 A página https://claude.ai/artifact/7niMPUBm3tULBMW37X8rJb guarda no banco dela: `avaliacoes/<id>` (voto bom/ruim e comentário) e `pedidos/<id>` (texto com o que trocar, motivo ou inspiração; `status` aberto/feito/recusado; `resposta`). Toda execução lê os pedidos `aberto` primeiro: refaz o vídeo da fila pedido (ou troca o assunto), atualiza o pedido para `feito` com uma `resposta` curta do que mudou, ou `recusado` explicando por quê. Pedido vale mais que o aprendizado automático.

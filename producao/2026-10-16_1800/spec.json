@@ -1,0 +1,23 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v14_cyberleak_desistiu.mp4",
+ "text": "Acabou o CyberLeak. Pelo menos por enquanto. O cara que vinha vazando GTA 6 pra fazer a criptomoeda dele subir anunciou que vai parar. A moeda não chegou nem perto dos trinta milhões de dólares que ele queria e despencou pra uns um milhão e duzentos mil, segundo o site Mezha. Ele ainda ameaçou soltar spoiler da história se a Take-Two for atrás dele, mas disse que o final do jogo ele não vai mostrar. Ou seja, dá pra chegar no dia dezenove de novembro sem saber o final. E aí, você votou 1 ou 2 na nossa enquete? Comenta aí.",
+ "merge": {
+  "dezenove de novembro": "19/11",
+  "trinta milhões de dólares": "US$ 30 milhões",
+  "um milhão e duzentos mil": "US$ 1,2 milhão"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "noite",
+  "cidade",
+  "acao",
+  "fuga",
+  "gameplay",
+  "carro",
+  "jason",
+  "lucia"
+ ],
+ "seed": 21,
+ "font": "../../assets/fonts/Anton.ttf"
+}
