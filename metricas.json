@@ -307,34 +307,51 @@
   "publicado": "2026-10-16T20:52:39.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 176,
+   "playCount": 177,
    "likeCount": 3,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 10821,
-   "avgWatchedPct": 38.65,
-   "skipRate": 41.1,
+   "avgWatchTimeMs": 10753,
+   "avgWatchedPct": 38.4,
+   "skipRate": 41.4,
    "durationSeconds": 28,
-   "coletado": "2026-10-17T14:51Z",
-   "horas": 18.0
+   "coletado": "2026-10-17T20:51Z",
+   "horas": 24.0
   }
  },
  "DekwckRj0_9": {
   "publicado": "2026-10-16T23:53:18.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 269,
-   "likeCount": 4,
+   "playCount": 293,
+   "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 11559,
-   "avgWatchedPct": 42.81,
-   "skipRate": 49.5,
+   "avgWatchTimeMs": 11241,
+   "avgWatchedPct": 41.63,
+   "skipRate": 49.4,
    "durationSeconds": 27,
-   "coletado": "2026-10-17T14:51Z",
-   "horas": 15.0
+   "coletado": "2026-10-17T20:51Z",
+   "horas": 21.0
+  }
+ },
+ "DemXZASj3oQ": {
+  "publicado": "2026-10-17T14:52:26.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 295,
+   "likeCount": 6,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 12261,
+   "avgWatchedPct": 40.87,
+   "skipRate": 32.9,
+   "durationSeconds": 30,
+   "coletado": "2026-10-17T20:51Z",
+   "horas": 6.0
   }
  }
 }
