@@ -1,0 +1,25 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v17_game_awards.mp4",
+ "text": "GTA 6 escapou por um dia de ficar fora do The Game Awards. A regra da premiação diz que o jogo precisa estar à venda até vinte de novembro. E GTA 6 sai no dia dezenove. Ou seja, por vinte e quatro horas, ele pode disputar o jogo do ano de 2026. O problema é que os jurados vão ter pouquíssimo tempo pra jogar antes de votar. Mesmo assim, você acha que GTA 6 leva o jogo do ano? Comenta sim ou não.",
+ "merge": {
+  "vinte de novembro": "20/11",
+  "dia dezenove": "dia 19",
+  "vinte e quatro horas": "24 horas",
+  "The Game Awards": "The Game Awards",
+  "GTA 6": "GTA 6",
+  "jogo do ano": "jogo do ano"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "noite",
+  "jason",
+  "lucia",
+  "acao",
+  "carro",
+  "praia"
+ ],
+ "seed": 47,
+ "font": "../../assets/fonts/Anton.ttf"
+}

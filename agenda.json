@@ -354,10 +354,17 @@
     {
       "data": "2026-10-17",
       "hora": "18:00",
-      "arquivo": null,
-      "status": "produzir",
-      "tema": "Autoral estilo Flow Games: notícia de última hora",
-      "formato": "corte"
+      "arquivo": "radar_v17_game_awards.mp4",
+      "status": "pendente",
+      "tema": "GTA 6 elegível no The Game Awards",
+      "formato": "corte",
+      "legenda": "GTA 6 escapou por 1 dia de ficar fora do The Game Awards 🏆\n\nA regra diz que o jogo precisa estar à venda até 20 de novembro. GTA 6 sai no dia 19. Ou seja: pode disputar o Jogo do Ano de 2026, mas os jurados vão ter pouquíssimo tempo pra jogar.\n\nGTA 6 leva o GOTY? Comenta sim ou não 👇\n\n#gta6 #gtavi #thegameawards #gta6brasil",
+      "ficha": {
+        "formato": "corte",
+        "tema": "premiacao",
+        "gancho": "enquete",
+        "origem": "Kotaku 15/10 (FAQ do The Game Awards)"
+      }
     },
     {
       "data": "2026-10-17",
