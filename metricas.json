@@ -269,8 +269,8 @@
    "avgWatchedPct": 24.9,
    "skipRate": 64.3,
    "durationSeconds": 31,
-   "coletado": "2026-10-16T23:51Z",
-   "horas": 9.0
+   "coletado": "2026-10-17T14:51Z",
+   "horas": 24.0
   }
  },
  "Deh27W5AUHm": {
@@ -307,17 +307,34 @@
   "publicado": "2026-10-16T20:52:39.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 172,
+   "playCount": 176,
    "likeCount": 3,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 11147,
-   "avgWatchedPct": 39.81,
-   "skipRate": 39.2,
+   "avgWatchTimeMs": 10821,
+   "avgWatchedPct": 38.65,
+   "skipRate": 41.1,
    "durationSeconds": 28,
-   "coletado": "2026-10-16T23:51Z",
-   "horas": 3.0
+   "coletado": "2026-10-17T14:51Z",
+   "horas": 18.0
+  }
+ },
+ "DekwckRj0_9": {
+  "publicado": "2026-10-16T23:53:18.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 269,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 11559,
+   "avgWatchedPct": 42.81,
+   "skipRate": 49.5,
+   "durationSeconds": 27,
+   "coletado": "2026-10-17T14:51Z",
+   "horas": 15.0
   }
  }
 }
