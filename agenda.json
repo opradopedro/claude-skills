@@ -371,7 +371,7 @@
       "data": "2026-10-17",
       "hora": "21:00",
       "arquivo": "radar_v18_carros_miami.mp4",
-      "status": "pendente",
+      "status": "postado",
       "tema": "Carros de GTA 6 nas ruas de Miami",
       "formato": "corte",
       "legenda": "Carros de GTA 6 estão rodando de verdade pelas ruas de Miami 🚓\n\nFãs flagraram uma Lamborghini com pintura da polícia de Vice Beach, carros com kit no estilo do jogo e placas de Vice City. Teve até dirigível com a logo e avião puxando faixa. A Rockstar não confirmou oficialmente.\n\nSe visse um na rua: tirava foto ou roubava? 👇\n\n#gta6 #gtavi #vicecity #gta6brasil",
@@ -380,7 +380,8 @@
         "tema": "marketing",
         "gancho": "curiosidade",
         "origem": "Push Square/GameRant 16/10 (posts de fãs)"
-      }
+      },
+      "link": "https://www.instagram.com/reel/DenVRLvAWnp/"
     },
     {
       "data": "2026-10-13",
@@ -403,6 +404,30 @@
         "origem": "Rockstar, trailer de lançamento 15/10"
       },
       "link": "https://www.instagram.com/reel/DehKLJggYHT/"
+    },
+    {
+      "data": "2026-10-18",
+      "hora": "12:00",
+      "arquivo": null,
+      "status": "produzir",
+      "tema": "Notícia/curiosidade nova",
+      "formato": "corte"
+    },
+    {
+      "data": "2026-10-18",
+      "hora": "18:00",
+      "arquivo": null,
+      "status": "produzir",
+      "tema": "Autoral estilo Flow Games: notícia de última hora",
+      "formato": "corte"
+    },
+    {
+      "data": "2026-10-18",
+      "hora": "21:00",
+      "arquivo": null,
+      "status": "produzir",
+      "tema": "Radar da gringa ou atemporal",
+      "formato": "corte"
     }
   ]
 }
