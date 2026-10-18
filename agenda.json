@@ -425,7 +425,7 @@
       "data": "2026-10-18",
       "hora": "18:00",
       "arquivo": "radar_v20_narrador_trailer.mp4",
-      "status": "pendente",
+      "status": "postado",
       "tema": "Narrador do trailer: sinal de que não atrasa",
       "formato": "corte",
       "legenda": "GTA 6 não atrasa mais, e esse é o sinal 🎙️\n\nA voz grave que fala \"Grand Theft Auto\" no fim do trailer de lançamento é o mesmo narrador desde San Andreas, passando por GTA 4, GTA 5 e os dois Red Dead. E a Rockstar só chama ele quando o jogo está pronto. 19 de novembro é pra valer.\n\nVocê confia ou acha que ainda atrasa? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #rockstargames #gta6brasil",
@@ -434,7 +434,8 @@
         "tema": "trailer",
         "gancho": "enquete",
         "origem": "Kotaku 16/10"
-      }
+      },
+      "link": "https://www.instagram.com/reel/DeplZ4bk8TX/"
     },
     {
       "data": "2026-10-18",
