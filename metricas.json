@@ -341,34 +341,51 @@
   "publicado": "2026-10-17T14:52:26.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 355,
-   "likeCount": 7,
+   "playCount": 1446,
+   "likeCount": 51,
    "commentCount": 0,
-   "shares": 0,
-   "saves": 0,
-   "avgWatchTimeMs": 12265,
-   "avgWatchedPct": 40.88,
-   "skipRate": 34,
+   "shares": 1,
+   "saves": 2,
+   "avgWatchTimeMs": 14401,
+   "avgWatchedPct": 48.0,
+   "skipRate": 31.1,
    "durationSeconds": 30,
-   "coletado": "2026-10-17T23:51Z",
-   "horas": 9.0
+   "coletado": "2026-10-18T14:51Z",
+   "horas": 24.0
   }
  },
  "DenAhZZCOCA": {
   "publicado": "2026-10-17T20:51:55.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 570,
-   "likeCount": 15,
+   "playCount": 1778,
+   "likeCount": 48,
    "commentCount": 0,
-   "shares": 2,
-   "saves": 1,
-   "avgWatchTimeMs": 10968,
-   "avgWatchedPct": 42.18,
-   "skipRate": 28.5,
+   "shares": 14,
+   "saves": 3,
+   "avgWatchTimeMs": 11759,
+   "avgWatchedPct": 45.23,
+   "skipRate": 36,
    "durationSeconds": 26,
-   "coletado": "2026-10-17T23:51Z",
-   "horas": 3.0
+   "coletado": "2026-10-18T14:51Z",
+   "horas": 18.0
+  }
+ },
+ "DenVRLvAWnp": {
+  "publicado": "2026-10-17T23:53:37.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 318,
+   "likeCount": 8,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 8280,
+   "avgWatchedPct": 28.55,
+   "skipRate": 53.1,
+   "durationSeconds": 29,
+   "coletado": "2026-10-18T14:51Z",
+   "horas": 15.0
   }
  }
 }
