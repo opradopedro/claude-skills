@@ -1,0 +1,388 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v19_letreiro_vice_city.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 0.0,
+   "end": 0.8,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 0.8,
+   "end": 2.7,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 4.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 2.7,
+   "end": 3.5,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 3.5,
+   "end": 5.4,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 4.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 5.4,
+   "end": 6.526,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 6.526,
+   "end": 7.426,
+   "layout": "full",
+   "cx": 0.4,
+   "ss": 55.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 7.426,
+   "end": 8.326,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 14.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 8.326,
+   "end": 10.226,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 44.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 10.226,
+   "end": 11.126,
+   "layout": "full",
+   "cx": 0.4,
+   "ss": 55.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 11.126,
+   "end": 12.026,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 14.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.026,
+   "end": 12.728,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 44.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.728,
+   "end": 13.578,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 13.578,
+   "end": 14.778,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 61.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 14.778,
+   "end": 15.628,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 15.628,
+   "end": 16.828,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 61.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 16.828,
+   "end": 17.678,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 17.678,
+   "end": 18.878,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 61.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 18.878,
+   "end": 19.728,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 19.728,
+   "end": 20.928,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 61.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 20.928,
+   "end": 21.691,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 21.691,
+   "end": 22.391,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 22.391,
+   "end": 23.141,
+   "layout": "full",
+   "cx": 0.65,
+   "ss": 46.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 23.141,
+   "end": 23.841,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 23.841,
+   "end": 24.538,
+   "layout": "full",
+   "cx": 0.65,
+   "ss": 46.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 24.538,
+   "end": 25.738,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 34.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 25.738,
+   "end": 26.938,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 66.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 26.938,
+   "end": 28.096,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 34.5
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.978,
+   "text": "A ROCKSTAR PAGOU",
+   "hl": false
+  },
+  {
+   "start": 0.978,
+   "end": 2.542,
+   "text": "US$ 1 MILHÃO PRA ESCREVER",
+   "hl": true
+  },
+  {
+   "start": 2.542,
+   "end": 4.301,
+   "text": "WELCOME TO VICE CITY NO",
+   "hl": false
+  },
+  {
+   "start": 4.301,
+   "end": 5.474,
+   "text": "TETO DA ARENA",
+   "hl": false
+  },
+  {
+   "start": 5.474,
+   "end": 6.526,
+   "text": "DO MIAMI HEAT",
+   "hl": false
+  },
+  {
+   "start": 6.526,
+   "end": 7.892,
+   "text": "SÃO US$ 975 MIL PAGOS",
+   "hl": true
+  },
+  {
+   "start": 7.892,
+   "end": 8.745,
+   "text": "AO CONDADO DE",
+   "hl": false
+  },
+  {
+   "start": 8.745,
+   "end": 9.428,
+   "text": "MIAMI-DADE",
+   "hl": false
+  },
+  {
+   "start": 9.428,
+   "end": 10.282,
+   "text": "POR UM LETREIRO",
+   "hl": false
+  },
+  {
+   "start": 10.282,
+   "end": 11.362,
+   "text": "DE UNS 400 M²",
+   "hl": true
+  },
+  {
+   "start": 11.362,
+   "end": 12.045,
+   "text": "EM CIMA DO",
+   "hl": false
+  },
+  {
+   "start": 12.045,
+   "end": 12.728,
+   "text": "KASEYA CENTER",
+   "hl": false
+  },
+  {
+   "start": 12.728,
+   "end": 13.589,
+   "text": "O ACORDO FOI",
+   "hl": false
+  },
+  {
+   "start": 13.589,
+   "end": 15.45,
+   "text": "REVELADO DE MADRUGADA",
+   "hl": false
+  },
+  {
+   "start": 15.45,
+   "end": 16.302,
+   "text": "NUMA REUNIÃO DE",
+   "hl": false
+  },
+  {
+   "start": 16.302,
+   "end": 16.984,
+   "text": "ORÇAMENTO",
+   "hl": false
+  },
+  {
+   "start": 16.984,
+   "end": 18.646,
+   "text": "E ALGUNS VEREADORES",
+   "hl": false
+  },
+  {
+   "start": 18.646,
+   "end": 20.215,
+   "text": "RECLAMARAM DE NÃO",
+   "hl": false
+  },
+  {
+   "start": 20.215,
+   "end": 21.691,
+   "text": "TEREM VOTADO",
+   "hl": false
+  },
+  {
+   "start": 21.691,
+   "end": 22.289,
+   "text": "E TEM GENTE",
+   "hl": false
+  },
+  {
+   "start": 22.289,
+   "end": 23.037,
+   "text": "DIZENDO QUE NEM",
+   "hl": false
+  },
+  {
+   "start": 23.037,
+   "end": 23.486,
+   "text": "DÁ PRA VER",
+   "hl": false
+  },
+  {
+   "start": 23.486,
+   "end": 24.538,
+   "text": "DIREITO DA RUA",
+   "hl": false
+  },
+  {
+   "start": 24.538,
+   "end": 25.583,
+   "text": "VALEU O INVESTIMENTO",
+   "hl": false
+  },
+  {
+   "start": 25.583,
+   "end": 26.236,
+   "text": "OU FOI DINHEIRO",
+   "hl": false
+  },
+  {
+   "start": 26.236,
+   "end": 27.152,
+   "text": "JOGADO FORA?",
+   "hl": false
+  },
+  {
+   "start": 27.152,
+   "end": 27.696,
+   "text": "COMENTA AÍ",
+   "hl": false
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v19_letreiro_vice_city.mp4",
+ "text": "A Rockstar pagou quase um milhão de dólares pra escrever Welcome to Vice City no teto da arena do Miami Heat. São novecentos e setenta e cinco mil dólares pagos ao condado de Miami-Dade, por um letreiro de uns quatrocentos metros quadrados em cima do Kaseya Center. O acordo foi revelado de madrugada, numa reunião de orçamento, e alguns vereadores reclamaram de não terem votado. E tem gente dizendo que nem dá pra ver direito da rua. Valeu o investimento ou foi dinheiro jogado fora? Comenta aí.",
+ "merge": {
+  "quase um milhão de dólares": "US$ 1 milhão",
+  "novecentos e setenta e cinco mil dólares": "US$ 975 mil",
+  "quatrocentos metros quadrados": "400 m²",
+  "Welcome to Vice City": "Welcome to Vice City",
+  "Miami Heat": "Miami Heat",
+  "Kaseya Center": "Kaseya Center",
+  "Miami-Dade": "Miami-Dade"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "noite",
+  "praia",
+  "carro",
+  "acao"
+ ],
+ "seed": 64,
+ "font": "../../assets/fonts/Anton.ttf"
+}
