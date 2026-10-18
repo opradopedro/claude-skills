@@ -28,6 +28,14 @@ Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na co
 - Trailer de lançamento oficial (15/10) em /home/claude/trailer/launch_crop.mp4 quando existir; senão /mnt/project-files/radar-gta6/trailer-lancamento/launch.mp4 (cortar `crop=1920:960:0:60`; pular logos em 0-2, 15-17, 22-24 e 76-90 s). Para vídeo em que a imagem precisa bater com a fala, use o modelo producao/2026-10-15_trailer/montar.py.
 - Comparação GTA V x GTA VI fica para quando o trailer do GTA V puder ser baixado (PC do Pedro). Narração já pronta em /mnt/project-files/radar-gta6/comparacao/.
 
+## Crescimento de seguidores (pesquisa de 18/10, vale para todo vídeo novo)
+- Roteiro: notícia no primeiro segundo, pergunta de sim/não ou 1/2 no fim e, por último, o bordão fixo: "Manda pra quem vai jogar GTA 6 com você e segue o Radar." O Instagram pesa envios por DM mais que curtidas para quem não segue.
+- Legenda: começa com "GTA 6" (os posts aparecem no Google e na busca do Instagram), gancho nos primeiros 125 caracteres, pede envio ("manda pra quem vai jogar com você"), 3 a 5 hashtags (limite do Instagram é 5).
+- Sempre narração e análise próprias por cima das imagens oficiais. Nunca repost puro: desde abr/2026 conta que reposta perde recomendação para quem não segue.
+- Notícia com polêmica ou enquete performa melhor (Game Awards 1.778 views, Rockstar ainda mexendo 1.446). Marketing/curiosidade de Miami foi o pior (318 views, 53% pularam).
+- Trial Reels só liberam com 200 seguidores; ao chegar lá, testar um gancho por vez.
+- Nada de robô de seguir ou curtir: Instagram trata como atividade inautêntica (bloqueio de ações, perda de alcance).
+
 ## Pedidos do Pedro pela página de vídeos
 A página https://claude.ai/artifact/7niMPUBm3tULBMW37X8rJb guarda no banco dela: `avaliacoes/<id>` (voto bom/ruim e comentário) e `pedidos/<id>` (texto com o que trocar, motivo ou inspiração; `status` aberto/feito/recusado; `resposta`). Toda execução lê os pedidos `aberto` primeiro: refaz o vídeo da fila pedido (ou troca o assunto), atualiza o pedido para `feito` com uma `resposta` curta do que mudou, ou `recusado` explicando por quê. Pedido vale mais que o aprendizado automático.
 
