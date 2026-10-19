@@ -488,7 +488,7 @@
     {
       "data": "2026-10-19",
       "hora": "21:00",
-      "status": "producao",
+      "status": "pendente",
       "arquivo": "radar_v24_julgamento_demitidos.mp4",
       "tema": "Rockstar julgada por demitir 34 devs de GTA 6",
       "formato": "corte",

@@ -7,7 +7,7 @@ from auto_short import chunks, CENSOR, duration
 SRC = "/home/claude/trailer/launch_crop.mp4"  # trailer oficial sem as faixas pretas (1920x960)
 TEXT = open("roteiro.txt").read().strip()
 # (primeira palavra do trecho, [(inicio, fim, cx), ...]) em segundos do trailer
-SEG = [("Rockstar está", [(47.0, 48.1, .5), (50.8, 52.1, .5), (25.2, 26.0, .5), (29.7, 32.0, .5)]),
+SEG = [("Rockstar está", [(47.0, 48.1, .5), (50.8, 52.1, .5), (25.2, 26.0, .5), (29.7, 32.0, .5), (38.3, 39.7, .5)]),
        ("A empresa", [(11.2, 13.9, .62), (33.0, 34.4, .5), (34.5, 35.7, .5)]),
        ("Já o", [(61.0, 62.2, .5), (60.25, 60.95, .5), (59.3, 60.1, .5), (44.0, 45.9, .55)]),
        ("No julgamento", [(68.0, 69.2, .5), (63.25, 64.1, .5), (70.2, 70.95, .5), (35.8, 37.2, .5), (27.3, 28.7, .5), (6.0, 8.9, .5)]),
