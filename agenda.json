@@ -488,7 +488,17 @@
     {
       "data": "2026-10-19",
       "hora": "21:00",
-      "status": "a_produzir"
+      "status": "producao",
+      "arquivo": "radar_v24_julgamento_demitidos.mp4",
+      "tema": "Rockstar julgada por demitir 34 devs de GTA 6",
+      "formato": "corte",
+      "legenda": "GTA 6: a Rockstar está sendo julgada por demitir 34 desenvolvedores do jogo ⚖️\n\nO caso corre num tribunal trabalhista em Glasgow, na Escócia. A Rockstar diz que eles vazaram informações confidenciais num servidor do Discord. O sindicato IWGB diz que foram demitidos por se organizar. No julgamento, apareceu que o RH teria oferecido uma hora de folga a um informante que passava prints do grupo. A Rockstar nega ligação com o sindicato, e a audiência deve terminar em 18 de novembro, véspera do lançamento.\n\nVocê acha que a Rockstar errou? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #rockstargames #gta6brasil",
+      "ficha": {
+        "formato": "corte",
+        "tema": "bastidores",
+        "gancho": "enquete",
+        "origem": "TalkEsport/The Scotsman 16/10"
+      }
     }
   ]
 }
