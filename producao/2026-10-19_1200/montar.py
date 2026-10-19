@@ -7,12 +7,12 @@ from auto_short import chunks, CENSOR, duration
 SRC = "/home/claude/trailer/launch_crop.mp4"  # trailer oficial sem as faixas pretas (1920x960)
 TEXT = open("roteiro.txt").read().strip()
 # (primeira palavra do trecho, [(inicio, fim, cx), ...]) em segundos do trailer
-SEG = [("Activision diz", [(59.3, 60.1, .5), (61.0, 62.2, .5), (33.0, 34.4, .5)]),
-       ("Quem falou", [(25.2, 26.0, .5), (44.0, 45.9, .55)]),
+SEG = [("Activision diz", [(59.3, 60.1, .5), (61.0, 62.2, .5), (33.0, 34.4, .5), (29.7, 32.0, .5), (50.8, 52.1, .5)]),
+       ("Quem falou", [(25.2, 26.0, .5), (44.0, 45.9, .55), (11.2, 13.9, .62)]),
        ("Sem querer", [(46.25, 47.0, .65), (47.0, 48.1, .5), (48.2, 49.9, .5), (37.25, 38.2, .5)]),
-       ("E a", [(52.3, 53.4, .5), (60.25, 60.95, .5), (70.2, 70.95, .5), (38.3, 39.7, .5), (72.0, 73.0, .5), (34.5, 35.7, .5)]),
+       ("E a", [(52.3, 53.4, .5), (60.25, 60.95, .5), (70.2, 70.95, .5), (38.3, 39.7, .5), (72.0, 73.0, .5), (34.5, 35.7, .5), (27.3, 28.7, .5), (35.8, 37.2, .5), (62.5, 63.2, .5), (6.0, 8.9, .5)]),
        ("Você", [(26.0, 27.0, .38), (40.0, 41.9, .45), (66.5, 67.7, .55)]),
-       ("Manda", [(63.25, 64.1, .5), (68.0, 69.2, .5), (55.0, 55.9, .4)])]
+       ("Manda", [(63.25, 64.1, .5), (68.0, 69.2, .5), (55.0, 55.9, .4), (14.0, 14.9, .5), (2.0, 3.9, .5)])]
 
 words = align("voz.mp3", TEXT, {"GTA 6": "GTA 6", "Call of Duty": "Call of Duty", "Modern Warfare 4": "Modern Warfare 4", "The Game Business": "The Game Business"})
 total = duration("voz.mp3") + 0.4
