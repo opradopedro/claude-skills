@@ -488,7 +488,7 @@
     {
       "data": "2026-10-19",
       "hora": "21:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v24_julgamento_demitidos.mp4",
       "tema": "Rockstar julgada por demitir 34 devs de GTA 6",
       "formato": "corte",
@@ -498,7 +498,23 @@
         "tema": "bastidores",
         "gancho": "enquete",
         "origem": "TalkEsport/The Scotsman 16/10"
-      }
+      },
+      "link": "https://www.instagram.com/reel/DeseuwKD_89/"
+    },
+    {
+      "data": "2026-10-20",
+      "hora": "12:00",
+      "status": "a_produzir"
+    },
+    {
+      "data": "2026-10-20",
+      "hora": "18:00",
+      "status": "a_produzir"
+    },
+    {
+      "data": "2026-10-20",
+      "hora": "21:00",
+      "status": "a_produzir"
     }
   ]
 }
