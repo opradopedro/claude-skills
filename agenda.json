@@ -504,7 +504,17 @@
     {
       "data": "2026-10-20",
       "hora": "12:00",
-      "status": "a_produzir"
+      "status": "producao",
+      "arquivo": "radar_v25_sem_online.mp4",
+      "tema": "GTA 6 chega sem modo online",
+      "formato": "corte",
+      "legenda": "GTA 6 vai chegar sem modo online 🎮\n\nA página do jogo na PlayStation Store chama GTA 6 de \"experiência para um jogador\", e a Rockstar ainda não anunciou data pro multiplayer. No GTA 5, o GTA Online chegou duas semanas depois do jogo. Agora, com um mapa muito maior, pode demorar mais.\n\nVocê vai jogar mesmo sem online? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gtaonline #gta6brasil",
+      "ficha": {
+        "formato": "corte",
+        "tema": "noticias",
+        "gancho": "enquete",
+        "origem": "PS Store FAQ via Beebom; The Game Haus 19/10"
+      }
     },
     {
       "data": "2026-10-20",
