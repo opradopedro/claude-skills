@@ -1,0 +1,470 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v23_falta_um_mes.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 0.0,
+   "end": 0.52,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 0.52,
+   "end": 1.755,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 2.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 1.755,
+   "end": 2.99,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 4.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 2.99,
+   "end": 4.647,
+   "layout": "full",
+   "cx": 0.45,
+   "ss": 40.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 4.647,
+   "end": 5.519,
+   "layout": "full",
+   "cx": 0.38,
+   "ss": 26.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 5.519,
+   "end": 6.174,
+   "layout": "full",
+   "cx": 0.65,
+   "ss": 46.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 6.174,
+   "end": 7.133,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 47.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 7.133,
+   "end": 8.398,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 6.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 8.398,
+   "end": 9.662,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 7.26
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 9.662,
+   "end": 10.851,
+   "layout": "full",
+   "cx": 0.62,
+   "ss": 11.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 10.851,
+   "end": 12.039,
+   "layout": "full",
+   "cx": 0.62,
+   "ss": 12.39
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.039,
+   "end": 12.832,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 14.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.832,
+   "end": 14.065,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 38.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 14.065,
+   "end": 14.857,
+   "layout": "full",
+   "cx": 0.4,
+   "ss": 55.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 14.857,
+   "end": 16.09,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 27.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 16.09,
+   "end": 16.838,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 16.838,
+   "end": 18.317,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 44.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 18.317,
+   "end": 19.056,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 37.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 19.056,
+   "end": 20.145,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 35.8
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 20.145,
+   "end": 21.079,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 68.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 21.079,
+   "end": 22.217,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 66.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 22.217,
+   "end": 22.88,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 22.88,
+   "end": 24.018,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 61.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 24.018,
+   "end": 24.776,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 59.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 24.776,
+   "end": 25.44,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 60.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 25.44,
+   "end": 26.205,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 48.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 26.205,
+   "end": 26.834,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 29.7
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 26.834,
+   "end": 27.304,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 70.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 27.304,
+   "end": 27.931,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 72.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 27.931,
+   "end": 28.809,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 33.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 28.809,
+   "end": 29.561,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 34.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 29.561,
+   "end": 30.376,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 50.8
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.847,
+   "text": "FALTA EXATAMENTE UM",
+   "hl": false
+  },
+  {
+   "start": 1.847,
+   "end": 2.99,
+   "text": "MÊS PRA GTA 6",
+   "hl": true
+  },
+  {
+   "start": 2.99,
+   "end": 4.127,
+   "text": "HOJE É DEZENOVE",
+   "hl": false
+  },
+  {
+   "start": 4.127,
+   "end": 4.776,
+   "text": "DE OUTUBRO",
+   "hl": false
+  },
+  {
+   "start": 4.776,
+   "end": 5.332,
+   "text": "E O JOGO",
+   "hl": false
+  },
+  {
+   "start": 5.332,
+   "end": 6.305,
+   "text": "CHEGA DIA DEZENOVE",
+   "hl": false
+  },
+  {
+   "start": 6.305,
+   "end": 6.993,
+   "text": "DE NOVEMBRO",
+   "hl": false
+  },
+  {
+   "start": 6.993,
+   "end": 8.44,
+   "text": "NO PLAYSTATION 5 E",
+   "hl": true
+  },
+  {
+   "start": 8.44,
+   "end": 9.662,
+   "text": "NO XBOX SERIES",
+   "hl": false
+  },
+  {
+   "start": 9.662,
+   "end": 10.292,
+   "text": "QUEM COMPROU NA",
+   "hl": false
+  },
+  {
+   "start": 10.292,
+   "end": 11.372,
+   "text": "VERSÃO DIGITAL JÁ",
+   "hl": false
+  },
+  {
+   "start": 11.372,
+   "end": 12.159,
+   "text": "VAI PODER BAIXAR",
+   "hl": false
+  },
+  {
+   "start": 12.159,
+   "end": 13.383,
+   "text": "UMA SEMANA ANTES",
+   "hl": false
+  },
+  {
+   "start": 13.383,
+   "end": 14.017,
+   "text": "A PARTIR DO",
+   "hl": false
+  },
+  {
+   "start": 14.017,
+   "end": 14.65,
+   "text": "DIA DOZE DE",
+   "hl": false
+  },
+  {
+   "start": 14.65,
+   "end": 15.261,
+   "text": "NOVEMBRO",
+   "hl": false
+  },
+  {
+   "start": 15.261,
+   "end": 15.993,
+   "text": "PRA JOGAR ASSIM",
+   "hl": false
+  },
+  {
+   "start": 15.993,
+   "end": 16.838,
+   "text": "QUE LIBERAR",
+   "hl": false
+  },
+  {
+   "start": 16.838,
+   "end": 17.513,
+   "text": "NO MESMO DIA",
+   "hl": false
+  },
+  {
+   "start": 17.513,
+   "end": 18.318,
+   "text": "AINDA SAI O",
+   "hl": false
+  },
+  {
+   "start": 18.318,
+   "end": 19.33,
+   "text": "ÁLBUM OFICIAL COM",
+   "hl": false
+  },
+  {
+   "start": 19.33,
+   "end": 20.342,
+   "text": "A TRILHA SONORA",
+   "hl": false
+  },
+  {
+   "start": 20.342,
+   "end": 21.079,
+   "text": "DO JOGO",
+   "hl": false
+  },
+  {
+   "start": 21.079,
+   "end": 21.81,
+   "text": "DEPOIS DE MAIS",
+   "hl": false
+  },
+  {
+   "start": 21.81,
+   "end": 22.542,
+   "text": "DE DEZ ANOS",
+   "hl": false
+  },
+  {
+   "start": 22.542,
+   "end": 23.437,
+   "text": "DE ESPERA",
+   "hl": false
+  },
+  {
+   "start": 23.437,
+   "end": 24.529,
+   "text": "AGORA É CONTAGEM",
+   "hl": false
+  },
+  {
+   "start": 24.529,
+   "end": 25.44,
+   "text": "REGRESSIVA",
+   "hl": false
+  },
+  {
+   "start": 25.44,
+   "end": 26.305,
+   "text": "VOCÊ JÁ GARANTIU",
+   "hl": false
+  },
+  {
+   "start": 26.305,
+   "end": 26.834,
+   "text": "O SEU?",
+   "hl": false
+  },
+  {
+   "start": 26.834,
+   "end": 27.42,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 27.42,
+   "end": 28.447,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 28.447,
+   "end": 29.243,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 29.243,
+   "end": 29.976,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
