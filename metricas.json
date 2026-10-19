@@ -522,51 +522,81 @@
   "publicado": "2026-10-18T14:53:45.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 164,
+   "playCount": 165,
    "likeCount": 3,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 8399,
-   "avgWatchedPct": 30.0,
-   "skipRate": 46.2,
+   "avgWatchTimeMs": 8346,
+   "avgWatchedPct": 29.81,
+   "skipRate": 46.5,
    "durationSeconds": 28,
-   "coletado": "2026-10-19T14:53Z",
-   "horas": 24.0
+   "coletado": "2026-10-19T20:52Z",
+   "horas": 30.0
+  },
+  "h24": {
+   "playCount": 165,
+   "likeCount": 3,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 8346,
+   "avgWatchedPct": 29.81,
+   "skipRate": 46.5,
+   "durationSeconds": 28,
+   "coletado": "2026-10-19T20:52Z",
+   "horas": 30.0
   }
  },
  "Dep6MPzlVqQ": {
   "publicado": "2026-10-18T23:54:36.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 157,
+   "playCount": 158,
    "likeCount": 10,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 9004,
-   "avgWatchedPct": 29.05,
-   "skipRate": 43.4,
+   "avgWatchTimeMs": 8961,
+   "avgWatchedPct": 28.91,
+   "skipRate": 43.8,
    "durationSeconds": 31,
-   "coletado": "2026-10-19T14:53Z",
-   "horas": 15.0
+   "coletado": "2026-10-19T20:52Z",
+   "horas": 21.0
   }
  },
  "DeplZ4bk8TX": {
   "publicado": "2026-10-18T20:52:45.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 149,
-   "likeCount": 4,
+   "playCount": 150,
+   "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 11472,
-   "avgWatchedPct": 42.49,
-   "skipRate": 30.4,
+   "avgWatchTimeMs": 11385,
+   "avgWatchedPct": 42.17,
+   "skipRate": 31,
    "durationSeconds": 27,
-   "coletado": "2026-10-19T14:53Z",
-   "horas": 18.0
+   "coletado": "2026-10-19T20:52Z",
+   "horas": 24.0
+  }
+ },
+ "DerhBaEAqHr": {
+  "publicado": "2026-10-19T14:53:41.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 177,
+   "likeCount": 7,
+   "commentCount": 1,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 10540,
+   "avgWatchedPct": 34,
+   "skipRate": 29.4,
+   "durationSeconds": 31,
+   "coletado": "2026-10-19T20:52Z",
+   "horas": 6.0
   }
  }
 }
