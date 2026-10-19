@@ -504,7 +504,7 @@
     {
       "data": "2026-10-20",
       "hora": "12:00",
-      "status": "producao",
+      "status": "pendente",
       "arquivo": "radar_v25_sem_online.mp4",
       "tema": "GTA 6 chega sem modo online",
       "formato": "corte",
