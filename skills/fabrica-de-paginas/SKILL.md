@@ -5,7 +5,7 @@ description: 'Planeja, produz e automatiza páginas de nicho no Instagram/TikTok
 
 # Fábrica de páginas de nicho
 
-Versão genérica do fluxo da página de GTA 6. Serve para abrir e tocar páginas de qualquer nicho, monetizadas com afiliados (Shopee e similares). Se o nicho for GTA 6, use a skill `pagina-gta6-conteudo`. A produção e publicação automática segue o modelo da skill `radar-da-gringa`.
+Versão genérica do fluxo da página de GTA 6. Serve para abrir e tocar páginas de qualquer nicho, monetizadas com afiliados (Shopee e similares). Se o nicho for GTA 6, use a skill `pagina-gta6-conteudo`. A produção e publicação automática segue o modelo da skill `radar-da-gringa`. Para canal dark no YouTube Shorts (algoritmo do YouTube, monetização pelo YPP, roteiro, título, capa e agendamento), use a skill `canal-dark-shorts`.
 
 ## Parâmetros (perguntar se faltar)
 - Nicho e público (idade, região, interesse)
