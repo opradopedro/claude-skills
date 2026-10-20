@@ -520,7 +520,17 @@
     {
       "data": "2026-10-20",
       "hora": "18:00",
-      "status": "a_produzir"
+      "status": "producao",
+      "arquivo": "radar_v26_crimes_miami.mp4",
+      "tema": "Moradores de Miami confessavam crimes à equipe de GTA 6",
+      "formato": "corte",
+      "legenda": "GTA 6: quando a Rockstar foi pesquisar em Miami, o povo começou a confessar crimes 😳\n\nSegundo Jason Schreier, da Bloomberg, a equipe viajava pra Miami desde 2015 e quase abriu um escritório na cidade. \"Era só saberem de onde você vinha que queriam contar todo crime que já tinham feito\", contou um diretor da Rockstar: guerra de gangue, assalto à mão armada.\n\nVocê acha que isso deixa o jogo mais realista? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #vicecity #gta6brasil",
+      "ficha": {
+        "formato": "corte",
+        "tema": "bastidores",
+        "gancho": "pergunta",
+        "origem": "Jason Schreier via Gameranx 20/10"
+      }
     },
     {
       "data": "2026-10-20",
