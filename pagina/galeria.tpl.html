@@ -62,6 +62,23 @@ textarea { width: 100%; box-sizing: border-box; min-height: 58px; resize: vertic
 .como ol, .como ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
 .horarios { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
 .horarios span { font-family: var(--mono); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; font-size: 13px; }
+.barra { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-block: 10px; border-bottom: 1px solid var(--line); margin-top: 10px; }
+.barra button, .baixar-um { font: 600 14px var(--body); color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; cursor: pointer; white-space: nowrap; min-height: 40px; }
+.barra .baixar { color: #111; background: var(--amarelo); border-color: var(--amarelo); margin-left: auto; }
+.barra .baixar:disabled { opacity: .45; cursor: default; }
+.barra .modo[aria-pressed="true"] { border-color: var(--amarelo); color: var(--amarelo); }
+.progresso { flex-basis: 100%; font-size: 13px; color: var(--muted); margin: 0; min-height: 1em; }
+.progresso:empty { display: none; }
+.lista { display: flex; flex-direction: column; margin-top: 8px; }
+.linha { display: grid; grid-template-columns: 28px 54px minmax(0, 1fr) auto; align-items: center; gap: 12px; padding: 10px 4px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.linha:has(input:checked) { background: #1d1a0c; }
+.linha input, .marcar input { width: 22px; height: 22px; accent-color: var(--amarelo); margin: 0; cursor: pointer; }
+.linha img { width: 54px; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 6px; background: #000; display: block; }
+.linha .txt { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.linha .titulo { font-size: 14px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.linha .baixar-um { padding: 8px 10px; }
+.marcar { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); cursor: pointer; }
+[hidden] { display: none !important; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
 </style>
 
@@ -76,6 +93,14 @@ textarea { width: 100%; box-sizing: border-box; min-height: 58px; resize: vertic
     <button role="tab" id="tab-como" aria-selected="false" data-aba="como">Como funciona</button>
   </nav>
   <p class="nota" id="nota-voto">Avaliar é opcional: os vídeos saem no horário mesmo sem nota. Notas e pedidos de troca eu leio antes de cada post; um pedido muda o vídeo antes de ele sair.</p>
+
+  <div class="barra" id="barra">
+    <button type="button" class="modo" id="modo-lista" aria-pressed="true">☰ Lista</button>
+    <button type="button" class="modo" id="modo-grade" aria-pressed="false">▦ Grade</button>
+    <button type="button" id="sel-todos">Selecionar todos</button>
+    <button type="button" class="baixar" id="baixar-sel" disabled>Baixar selecionados</button>
+    <p class="progresso" id="progresso" aria-live="polite"></p>
+  </div>
 
   <section id="aba-fila" class="grade" role="tabpanel" aria-labelledby="tab-fila"></section>
   <section id="aba-postados" class="grade" role="tabpanel" aria-labelledby="tab-postados" hidden></section>
@@ -148,8 +173,10 @@ function montar(item) {
   const leg = el("p", { class: "legenda", text: item.legenda || "" });
   const mais = el("button", { class: "mais", type: "button", text: "ver legenda inteira" });
   mais.onclick = () => { const ab = leg.classList.toggle("aberta"); mais.textContent = ab ? "recolher" : "ver legenda inteira"; };
+  const caixa = el("input", { type: "checkbox", "aria-label": "Selecionar " + item.titulo });
+  caixa.onchange = () => marcar(item.id, caixa.checked);
   const slot = el("div", { class: "slot" },
-    el("span", { class: "quando", text: fmtData(item.data, item.hora) }),
+    el("label", { class: "marcar" }, caixa, el("span", { class: "quando", text: fmtData(item.data, item.hora) })),
     el("span", { class: "pill" + (item.status === "pendente" ? " fila" : ""), text: item.status === "pendente" ? "na fila" : "postado" }));
   const info = el("div", { class: "info" }, slot, el("p", { class: "titulo", text: item.titulo }));
   if (item.legenda) info.append(leg, mais);
@@ -161,6 +188,10 @@ function montar(item) {
       el("span", {}, el("b", { text: n.pulos + "%" }), " pularam")));
   }
   if (item.link) info.append(el("a", { class: "ig", href: item.link, target: "_blank", rel: "noopener", text: "Abrir no Instagram ↗" }));
+  const um = el("button", { type: "button", class: "baixar-um", text: "⬇ Baixar este vídeo" });
+  um.onclick = () => baixar([item]);
+  info.append(um);
+  caixas[item.id] = [caixa];
 
   const bom = el("button", { type: "button", class: "bom", "aria-pressed": "false", text: "👍 Gostei" });
   const ruim = el("button", { type: "button", class: "ruim", "aria-pressed": "false", text: "👎 Não gostei" });
@@ -177,19 +208,113 @@ function montar(item) {
   return card;
 }
 
+// Seleção e download: o botão nativo do <video> não baixa dentro da página (falha no celular),
+// então o arquivo sai pelo capability "downloads", que abre a confirmação do app/navegador.
+const caixas = {};          // id -> checkboxes do card e da linha
+const selecionados = new Set();
+let abaAtual = "fila", modo = "lista";
+const listas = { fila: [], postados: [] };
+const progresso = document.getElementById("progresso");
+const btnBaixar = document.getElementById("baixar-sel"), btnTodos = document.getElementById("sel-todos");
+
+function marcar(id, sim) {
+  sim ? selecionados.add(id) : selecionados.delete(id);
+  (caixas[id] || []).forEach(c => c.checked = sim);
+  atualizarBarra();
+}
+function visiveis() { return listas[abaAtual] || []; }
+function atualizarBarra() {
+  const vis = visiveis(), n = vis.filter(i => selecionados.has(i.id)).length;
+  btnBaixar.disabled = n === 0;
+  btnBaixar.textContent = n ? `Baixar ${n} selecionado${n > 1 ? "s" : ""}` : "Baixar selecionados";
+  btnTodos.textContent = vis.length && n === vis.length ? "Limpar seleção" : "Selecionar todos";
+}
+btnTodos.onclick = () => {
+  const vis = visiveis(), todos = vis.length && vis.every(i => selecionados.has(i.id));
+  vis.forEach(i => marcar(i.id, !todos));
+};
+btnBaixar.onclick = () => baixar(visiveis().filter(i => selecionados.has(i.id)));
+
+const nomeArquivo = i => `radar-gta6_${i.data}_${i.hora.replace(":", "h")}_${i.id.replace(/^radar_/, "")}.mp4`;
+let baixando = false;
+async function baixar(itens) {
+  if (baixando || !itens.length) return;
+  const dl = await window.claude?.use?.("downloads");
+  if (!dl) { progresso.textContent = "Baixar só funciona com a página aberta logada no Claude (app ou navegador)."; return; }
+  baixando = true; btnBaixar.disabled = true;
+  let ok = 0;
+  for (const [k, item] of itens.entries()) {
+    const pre = itens.length > 1 ? `${k + 1} de ${itens.length}: ` : "";
+    try {
+      progresso.textContent = `${pre}preparando ${item.titulo}…`;
+      const r = await fetch(`v/${item.id}.mp4`);
+      if (!r.ok) throw { code: "fetch" };
+      const blob = await r.blob();
+      progresso.textContent = `${pre}confirme o download na janela que abriu.`;
+      await dl.save({ filename: nomeArquivo(item), data: blob });
+      ok++; marcar(item.id, false);
+    } catch (e) {
+      const c = e && e.code;
+      if (c === "declined") { progresso.textContent = `${pre}cancelado.`; continue; }
+      if (c === "rate_limited") { progresso.textContent = "Já tem uma confirmação aberta. Responda ela e tente de novo."; break; }
+      if (c === "fetch") { progresso.textContent = `${pre}não consegui carregar o vídeo. Tente de novo.`; continue; }
+      progresso.textContent = "O download não está disponível nesta tela. Tente pelo app do Claude ou pelo navegador.";
+      break;
+    }
+  }
+  if (ok) progresso.textContent = ok === 1 ? "1 vídeo baixado." : `${ok} vídeos baixados.`;
+  baixando = false; atualizarBarra();
+}
+
+function linha(item) {
+  const caixa = el("input", { type: "checkbox", "aria-label": "Selecionar " + item.titulo });
+  caixa.onchange = () => marcar(item.id, caixa.checked);
+  const um = el("button", { type: "button", class: "baixar-um", "aria-label": "Baixar " + item.titulo, text: "⬇" });
+  um.onclick = e => { e.preventDefault(); baixar([item]); };
+  const row = el("label", { class: "linha" }, caixa,
+    el("img", { src: `v/${item.id}.jpg`, alt: "", loading: "lazy" }),
+    el("span", { class: "txt" },
+      el("span", { class: "quando", text: fmtData(item.data, item.hora) + (item.status === "pendente" ? " · na fila" : "") }),
+      el("span", { class: "titulo", text: item.titulo })),
+    um);
+  caixas[item.id].push(caixa);
+  return row;
+}
+
 const fila = ITENS.filter(i => i.status === "pendente").sort((a, b) => (a.data + a.hora).localeCompare(b.data + b.hora));
 const postados = ITENS.filter(i => i.status === "postado").sort((a, b) => (b.data + b.hora).localeCompare(a.data + a.hora));
+listas.fila = fila; listas.postados = postados;
 const abaFila = document.getElementById("aba-fila"), abaPost = document.getElementById("aba-postados");
-fila.length ? fila.forEach(i => abaFila.append(montar(i))) : abaFila.append(el("p", { class: "vazio", text: "Nenhum vídeo pronto na fila agora. O próximo é montado na hora do horário." }));
-postados.forEach(i => abaPost.append(montar(i)));
+const listaFila = el("div", { class: "lista" }), listaPost = el("div", { class: "lista" });
+abaFila.before(listaFila); abaPost.before(listaPost);
+fila.length ? fila.forEach(i => { abaFila.append(montar(i)); listaFila.append(linha(i)); })
+  : [abaFila, listaFila].forEach(a => a.append(el("p", { class: "vazio", text: "Nenhum vídeo pronto na fila agora. O próximo é montado na hora do horário." })));
+postados.forEach(i => { abaPost.append(montar(i)); listaPost.append(linha(i)); });
 
+function mostrarAba() {
+  const conteudo = abaAtual !== "como";
+  document.getElementById("barra").hidden = !conteudo;
+  document.getElementById("nota-voto").hidden = !conteudo || modo === "lista";
+  document.getElementById("aba-como").hidden = abaAtual !== "como";
+  abaFila.hidden = !(abaAtual === "fila" && modo === "grade");
+  abaPost.hidden = !(abaAtual === "postados" && modo === "grade");
+  listaFila.hidden = !(abaAtual === "fila" && modo === "lista");
+  listaPost.hidden = !(abaAtual === "postados" && modo === "lista");
+  document.getElementById("modo-lista").setAttribute("aria-pressed", modo === "lista");
+  document.getElementById("modo-grade").setAttribute("aria-pressed", modo === "grade");
+  progresso.textContent = "";
+  atualizarBarra();
+}
+document.getElementById("modo-lista").onclick = () => { modo = "lista"; mostrarAba(); try { localStorage.setItem("modo", modo); } catch (e) {} };
+document.getElementById("modo-grade").onclick = () => { modo = "grade"; mostrarAba(); try { localStorage.setItem("modo", modo); } catch (e) {} };
 document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
   document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x === b ? "true" : "false"));
-  ["fila", "postados", "como"].forEach(a => document.getElementById("aba-" + a).hidden = a !== b.dataset.aba);
-  document.getElementById("nota-voto").hidden = b.dataset.aba === "como";
+  abaAtual = b.dataset.aba; mostrarAba();
   try { localStorage.setItem("aba", b.dataset.aba); } catch (e) {}
 });
+try { const m = localStorage.getItem("modo"); if (m === "grade" || m === "lista") modo = m; } catch (e) {}
 try { const a = localStorage.getItem("aba"); if (a) document.querySelector(`nav button[data-aba="${a}"]`)?.click(); } catch (e) {}
+mostrarAba();
 
 (async () => {
   const db = await window.claude?.use?.("db");

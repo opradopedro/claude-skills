@@ -3,8 +3,8 @@
 
 Uso (da raiz do branch): python3 pagina/gerar_galeria.py SAIDA
 Escreve SAIDA/index.html e as prévias leves SAIDA/v/<id>.mp4 e .jpg (540 px, ~2 MB), só as que faltarem.
-Depois publique com o Artifact tool: file_path SAIDA/index.html, files {"v/<id>.mp4": ..., "v/<id>.jpg": ...}
-e o mesmo url do artifact (ver memória radar-gta6-rotina-nova). As notas do Pedro ficam no db do artifact,
+Depois publique com o Artifact tool: file_path SAIDA/index.html, files só com as prévias NOVAS {"v/<id>.mp4": ..., "v/<id>.jpg": ...}
+(cada mp4 tem ~12 MB e um publish leva no máximo 64 MB) mais null para cada caminho de remover.json, e o mesmo url do artifact (ver memória radar-gta6-rotina-nova). As notas do Pedro ficam no db do artifact,
 coleção "avaliacoes", um documento por id.
 """
 import json, os, re, subprocess, sys
@@ -23,11 +23,18 @@ def titulo(legenda):
     return re.sub(r"[^\w\s?!,.:%$()/'\"-]", "", linha).strip() or "Reel"
 
 
+def largura(mp4):
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width", "-of", "csv=p=0", mp4],
+                       capture_output=True, text=True)
+    return int(r.stdout.strip() or 0)
+
+
 def previa(origem, dest_mp4, dest_jpg):
-    if not os.path.exists(dest_mp4):
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", origem, "-vf", "scale=720:-2:flags=lanczos", "-c:v", "libx264",
-                        "-preset", "medium", "-crf", "24", "-c:a", "aac", "-b:a", "80k", "-movflags", "+faststart",
-                        dest_mp4], check=True)
+    if not os.path.exists(dest_mp4) or largura(dest_mp4) < 1080:
+        # 1080p com teto de bitrate: serve de prévia e de arquivo para baixar (cada arquivo do artifact vai até 15 MB)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", origem, "-vf", "scale=1080:-2:flags=lanczos", "-c:v", "libx264",
+                        "-preset", "medium", "-crf", "22", "-maxrate", "2800k", "-bufsize", "5600k", "-c:a", "aac",
+                        "-b:a", "128k", "-movflags", "+faststart", dest_mp4], check=True)
     if not os.path.exists(dest_jpg):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", "1.5", "-i", origem, "-frames:v", "1", "-vf",
                         "scale=270:-2", "-q:v", "5", dest_jpg], check=True)
@@ -64,7 +71,13 @@ def main(saida):
         "/*ITENS*/[]", json.dumps(itens, ensure_ascii=False).replace("</", "<\\/"))
     open(os.path.join(saida, "index.html"), "w", encoding="utf-8").write(html)
     json.dump({p: os.path.join(saida, p) for p in arquivos}, open(os.path.join(saida, "files.json"), "w"), indent=1)
-    print(len(itens), "vídeos na página;", "mapa de arquivos em", os.path.join(saida, "files.json"))
+    # Prévias que saíram da página: apaga daqui e lista em remover.json para publicar com null (o artifact tem teto de 256 MB)
+    sobras = [f"v/{f}" for f in sorted(os.listdir(os.path.join(saida, "v"))) if f"v/{f}" not in arquivos]
+    for f in sobras:
+        os.remove(os.path.join(saida, f))
+    json.dump(sobras, open(os.path.join(saida, "remover.json"), "w"), indent=1)
+    print(len(itens), "vídeos na página;", "mapa de arquivos em", os.path.join(saida, "files.json"),
+          f"; {len(sobras)} prévias a remover (remover.json)" if sobras else "")
 
 
 if __name__ == "__main__":
