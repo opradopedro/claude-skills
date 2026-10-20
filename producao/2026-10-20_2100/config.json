@@ -5,244 +5,220 @@
  "handle": "@radar.gta6br",
  "scenes": [
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
    "start": 0.0,
-   "end": 0.833,
+   "end": 1.72,
    "layout": "full",
-   "cx": 0.5,
+   "cx": 0.086,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 1.72,
+   "end": 2.35,
+   "layout": "full",
+   "cx": 0.636,
    "ss": 52.3
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 0.833,
-   "end": 1.439,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_268.mp4",
+   "start": 2.35,
+   "end": 3.783,
    "layout": "full",
-   "cx": 0.5,
+   "cx": 0.694,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 3.783,
+   "end": 4.242,
+   "layout": "full",
+   "cx": 0.511,
    "ss": 25.2
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 1.439,
-   "end": 2.121,
-   "layout": "full",
-   "cx": 0.5,
-   "ss": 14.0
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 2.121,
-   "end": 2.651,
-   "layout": "full",
-   "cx": 0.5,
-   "ss": 62.5
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 2.651,
-   "end": 3.636,
-   "layout": "full",
-   "cx": 0.5,
-   "ss": 50.8
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 3.636,
-   "end": 4.242,
-   "layout": "full",
-   "cx": 0.5,
-   "ss": 59.3
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_287.mp4",
    "start": 4.242,
-   "end": 5.971,
+   "end": 6.137,
    "layout": "full",
-   "cx": 0.55,
-   "ss": 44.0
+   "cx": 0.587,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_155.mp4",
+   "start": 6.137,
+   "end": 7.946,
+   "layout": "full",
+   "cx": 1.0,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+   "start": 7.946,
+   "end": 9.842,
+   "layout": "full",
+   "cx": 0.957,
+   "ss": 0
   },
   {
    "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 5.971,
-   "end": 7.701,
+   "start": 9.842,
+   "end": 11.479,
    "layout": "full",
-   "cx": 0.5,
+   "cx": 0.502,
    "ss": 2.0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 7.701,
-   "end": 9.43,
-   "layout": "full",
-   "cx": 0.5,
-   "ss": 4.0
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 9.43,
-   "end": 10.705,
-   "layout": "full",
-   "cx": 0.5,
-   "ss": 35.8
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 10.705,
-   "end": 11.479,
-   "layout": "full",
-   "cx": 0.5,
-   "ss": 63.25
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_009.mp4",
    "start": 11.479,
-   "end": 12.731,
+   "end": 12.433,
    "layout": "full",
-   "cx": 0.5,
+   "cx": 0.342,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 12.433,
+   "end": 13.834,
+   "layout": "full",
+   "cx": 0.534,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_394.mp4",
+   "start": 13.834,
+   "end": 15.234,
+   "layout": "full",
+   "cx": 0.21,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 15.234,
+   "end": 16.508,
+   "layout": "full",
+   "cx": 0.461,
    "ss": 6.0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 12.731,
-   "end": 13.983,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_271.mp4",
+   "start": 16.508,
+   "end": 17.654,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 7.25
+   "cx": 0.452,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_264.mp4",
+   "start": 17.654,
+   "end": 18.873,
+   "layout": "full",
+   "cx": 0.498,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_006.mp4",
+   "start": 18.873,
+   "end": 20.092,
+   "layout": "full",
+   "cx": 0.813,
+   "ss": 0
   },
   {
    "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 13.983,
-   "end": 14.76,
+   "start": 20.092,
+   "end": 20.868,
    "layout": "full",
-   "cx": 0.4,
-   "ss": 55.0
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 14.76,
-   "end": 15.969,
-   "layout": "full",
-   "cx": 0.5,
+   "cx": 0.115,
    "ss": 27.3
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 15.969,
-   "end": 16.617,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_269.mp4",
+   "start": 20.868,
+   "end": 21.755,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 70.2
+   "cx": 0.765,
+   "ss": 0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 16.617,
-   "end": 17.654,
-   "layout": "full",
-   "cx": 0.5,
-   "ss": 68.0
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 17.654,
-   "end": 18.571,
-   "layout": "full",
-   "cx": 0.38,
-   "ss": 26.0
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 18.571,
-   "end": 20.314,
-   "layout": "full",
-   "cx": 0.45,
-   "ss": 40.0
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 20.314,
-   "end": 21.415,
-   "layout": "full",
-   "cx": 0.55,
-   "ss": 66.5
-  },
-  {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 21.415,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_266.mp4",
+   "start": 21.755,
    "end": 22.974,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 48.2
+   "cx": 0.454,
+   "ss": 0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_188.mp4",
    "start": 22.974,
-   "end": 24.041,
+   "end": 23.914,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 33.0
+   "cx": 0.665,
+   "ss": 0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 24.041,
-   "end": 24.956,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_175.mp4",
+   "start": 23.914,
+   "end": 24.854,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 34.5
+   "cx": 0.972,
+   "ss": 0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 24.956,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_132.mp4",
+   "start": 24.854,
    "end": 25.794,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 47.0
+   "cx": 0.283,
+   "ss": 0
   },
   {
    "src": "/home/claude/trailer/launch_crop.mp4",
    "start": 25.794,
-   "end": 26.327,
+   "end": 26.526,
    "layout": "full",
-   "cx": 0.65,
-   "ss": 46.25
+   "cx": 0.178,
+   "ss": 48.2
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 26.327,
-   "end": 27.322,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_289.mp4",
+   "start": 26.526,
+   "end": 27.387,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 38.3
+   "cx": 0.621,
+   "ss": 0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 27.322,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_176.mp4",
+   "start": 27.387,
    "end": 28.034,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 72.0
+   "cx": 0.141,
+   "ss": 0
   },
   {
    "src": "/home/claude/trailer/launch_crop.mp4",
    "start": 28.034,
-   "end": 29.43,
+   "end": 29.001,
    "layout": "full",
-   "cx": 0.62,
-   "ss": 11.2
+   "cx": 0.233,
+   "ss": 40.0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 29.43,
-   "end": 30.05,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_170.mp4",
+   "start": 29.001,
+   "end": 30.12,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 61.0
+   "cx": 0.521,
+   "ss": 0
   },
   {
-   "src": "/home/claude/trailer/launch_crop.mp4",
-   "start": 30.05,
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_393.mp4",
+   "start": 30.12,
    "end": 31.24,
    "layout": "full",
-   "cx": 0.5,
-   "ss": 29.7
+   "cx": 0.603,
+   "ss": 0
   }
  ],
  "captions": [
