@@ -536,7 +536,7 @@
     {
       "data": "2026-10-20",
       "hora": "21:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v27_furacao_clima.mp4",
       "tema": "Furacões e o novo sistema de clima de GTA 6",
       "formato": "corte",
@@ -546,7 +546,8 @@
         "tema": "gameplay",
         "gancho": "pergunta",
         "origem": "Game Informer via Dexerto 29/09"
-      }
+      },
+      "link": "https://www.instagram.com/reel/DevDjNqkdcV/"
     }
   ]
 }
