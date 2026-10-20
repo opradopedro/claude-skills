@@ -536,7 +536,17 @@
     {
       "data": "2026-10-20",
       "hora": "21:00",
-      "status": "a_produzir"
+      "status": "producao",
+      "arquivo": "radar_v27_furacao_clima.mp4",
+      "tema": "Furacões e o novo sistema de clima de GTA 6",
+      "formato": "corte",
+      "legenda": "GTA 6 vai ter furacão e tempestade tropical 🌀\n\nA Rockstar refez o sistema de clima: a chuva é localizada (dá pra estar no sol com temporal no bairro do lado), as nuvens andam por Leonida, as poças ficam depois da chuva e aparece até arco-íris. O vento é simulado e mexe cabelo, água e o mato do pântano. Ainda não se sabe se o furacão destrói prédio.\n\nVocê quer pegar um furacão no meio de uma fuga? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #leonida #gta6brasil",
+      "ficha": {
+        "formato": "corte",
+        "tema": "gameplay",
+        "gancho": "pergunta",
+        "origem": "Game Informer via Dexerto 29/09"
+      }
     }
   ]
 }
