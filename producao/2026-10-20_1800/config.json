@@ -1,0 +1,492 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v26_crimes_miami.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 0.0,
+   "end": 0.8,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 0.8,
+   "end": 1.6,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 59.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 1.6,
+   "end": 2.3,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 60.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 2.3,
+   "end": 3.5,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 61.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 3.5,
+   "end": 5.152,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 33.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 5.152,
+   "end": 6.573,
+   "layout": "full",
+   "cx": 0.62,
+   "ss": 11.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 6.573,
+   "end": 7.573,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 44.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 7.573,
+   "end": 8.154,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 14.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 8.154,
+   "end": 9.379,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 2.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 9.379,
+   "end": 10.605,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 4.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 10.605,
+   "end": 12.475,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 6.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.475,
+   "end": 13.055,
+   "layout": "full",
+   "cx": 0.4,
+   "ss": 55.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 13.055,
+   "end": 13.958,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 27.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 13.958,
+   "end": 14.653,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 14.653,
+   "end": 15.265,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 70.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 15.265,
+   "end": 16.245,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 34.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 16.245,
+   "end": 17.062,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 72.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 17.062,
+   "end": 17.961,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 52.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 17.961,
+   "end": 18.859,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 47.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 18.859,
+   "end": 20.738,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 29.7
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 20.738,
+   "end": 21.8,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 50.8
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 21.8,
+   "end": 23.116,
+   "layout": "full",
+   "cx": 0.45,
+   "ss": 40.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 23.116,
+   "end": 23.809,
+   "layout": "full",
+   "cx": 0.38,
+   "ss": 26.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 23.809,
+   "end": 24.294,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 24.294,
+   "end": 25.264,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 38.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 25.264,
+   "end": 25.992,
+   "layout": "full",
+   "cx": 0.55,
+   "ss": 66.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 25.992,
+   "end": 26.567,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 37.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 26.567,
+   "end": 27.416,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 35.8
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 27.416,
+   "end": 28.828,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 48.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 28.828,
+   "end": 29.451,
+   "layout": "full",
+   "cx": 0.65,
+   "ss": 46.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 29.451,
+   "end": 30.448,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 68.0
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.837,
+   "text": "QUANDO A EQUIPE",
+   "hl": false
+  },
+  {
+   "start": 0.837,
+   "end": 1.674,
+   "text": "DE GTA 6 FOI",
+   "hl": true
+  },
+  {
+   "start": 1.674,
+   "end": 2.511,
+   "text": "PESQUISAR EM MIAMI",
+   "hl": false
+  },
+  {
+   "start": 2.511,
+   "end": 3.719,
+   "text": "AS PESSOAS COMEÇARAM",
+   "hl": false
+  },
+  {
+   "start": 3.719,
+   "end": 5.152,
+   "text": "A CONFESSAR CRIMES",
+   "hl": false
+  },
+  {
+   "start": 5.152,
+   "end": 5.7,
+   "text": "QUEM CONTA É",
+   "hl": false
+  },
+  {
+   "start": 5.7,
+   "end": 6.247,
+   "text": "O JASON SCHREIER",
+   "hl": false
+  },
+  {
+   "start": 6.247,
+   "end": 7.44,
+   "text": "DA BLOOMBERG",
+   "hl": false
+  },
+  {
+   "start": 7.44,
+   "end": 8.241,
+   "text": "A ROCKSTAR COMEÇOU",
+   "hl": false
+  },
+  {
+   "start": 8.241,
+   "end": 8.775,
+   "text": "A VIAJAR PRA",
+   "hl": false
+  },
+  {
+   "start": 8.775,
+   "end": 9.71,
+   "text": "MIAMI EM 2015",
+   "hl": true
+  },
+  {
+   "start": 9.71,
+   "end": 10.519,
+   "text": "E QUASE ABRIU",
+   "hl": false
+  },
+  {
+   "start": 10.519,
+   "end": 11.32,
+   "text": "UM ESCRITÓRIO NA",
+   "hl": false
+  },
+  {
+   "start": 11.32,
+   "end": 11.721,
+   "text": "CIDADE",
+   "hl": false
+  },
+  {
+   "start": 11.721,
+   "end": 12.952,
+   "text": "COM GENTE TRABALHANDO",
+   "hl": false
+  },
+  {
+   "start": 12.952,
+   "end": 13.958,
+   "text": "LÁ DIRETO",
+   "hl": false
+  },
+  {
+   "start": 13.958,
+   "end": 14.916,
+   "text": "SEGUNDO UM DIRETOR",
+   "hl": false
+  },
+  {
+   "start": 14.916,
+   "end": 15.541,
+   "text": "DA ROCKSTAR",
+   "hl": false
+  },
+  {
+   "start": 15.541,
+   "end": 16.188,
+   "text": "ERA SÓ FALAR",
+   "hl": false
+  },
+  {
+   "start": 16.188,
+   "end": 16.835,
+   "text": "DE ONDE ELES",
+   "hl": false
+  },
+  {
+   "start": 16.835,
+   "end": 17.352,
+   "text": "VINHAM QUE O",
+   "hl": false
+  },
+  {
+   "start": 17.352,
+   "end": 18.329,
+   "text": "PESSOAL QUERIA CONTAR",
+   "hl": false
+  },
+  {
+   "start": 18.329,
+   "end": 18.976,
+   "text": "TODO CRIME QUE",
+   "hl": false
+  },
+  {
+   "start": 18.976,
+   "end": 19.752,
+   "text": "JÁ TINHA FEITO",
+   "hl": false
+  },
+  {
+   "start": 19.752,
+   "end": 20.392,
+   "text": "GUERRA DE GANGUE",
+   "hl": false
+  },
+  {
+   "start": 20.392,
+   "end": 21.093,
+   "text": "ASSALTO À MÃO",
+   "hl": false
+  },
+  {
+   "start": 21.093,
+   "end": 21.8,
+   "text": "ARMADA",
+   "hl": false
+  },
+  {
+   "start": 21.8,
+   "end": 22.399,
+   "text": "OU SEJA",
+   "hl": false
+  },
+  {
+   "start": 22.399,
+   "end": 23.127,
+   "text": "MUITA COISA DO",
+   "hl": false
+  },
+  {
+   "start": 23.127,
+   "end": 23.855,
+   "text": "JOGO PODE TER",
+   "hl": false
+  },
+  {
+   "start": 23.855,
+   "end": 24.728,
+   "text": "SAÍDO DE HISTÓRIA",
+   "hl": false
+  },
+  {
+   "start": 24.728,
+   "end": 25.264,
+   "text": "REAL",
+   "hl": false
+  },
+  {
+   "start": 25.264,
+   "end": 25.805,
+   "text": "VOCÊ ACHA QUE",
+   "hl": false
+  },
+  {
+   "start": 25.805,
+   "end": 26.347,
+   "text": "ISSO DEIXA O",
+   "hl": false
+  },
+  {
+   "start": 26.347,
+   "end": 27.416,
+   "text": "JOGO MAIS REALISTA?",
+   "hl": false
+  },
+  {
+   "start": 27.416,
+   "end": 27.905,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 27.905,
+   "end": 28.761,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 28.761,
+   "end": 29.437,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 29.437,
+   "end": 30.048,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}

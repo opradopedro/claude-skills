@@ -520,7 +520,7 @@
     {
       "data": "2026-10-20",
       "hora": "18:00",
-      "status": "producao",
+      "status": "pendente",
       "arquivo": "radar_v26_crimes_miami.mp4",
       "tema": "Moradores de Miami confessavam crimes à equipe de GTA 6",
       "formato": "corte",
