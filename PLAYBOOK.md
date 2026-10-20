@@ -20,6 +20,8 @@ Lido pela tarefa agendada "Radar GTA: 3 Reels por dia", que roda na nuvem, na co
    - Use clipes do Extended Look (`tJbzMqJGH4k_*`), Trailer 1 (`QdBZY2fkU-0_*`) e teasers. **Não use clipes do Trailer 2 (`VQRLujxTm3c_*`)**: eles têm faixas pretas de cinema que aparecem no Reel.
    - Fotos de `assets/` só como complemento; quando aparecerem, deslizam devagar e entram empurrando a anterior (nada de uma imagem se transformando na outra). Nunca `cover.jpg`.
    - Formatos proibidos: o "demo" faixa/tela cheia alternando (`demo_short/demo_estilo_corte.mp4`) e o "painel".
+   - **Imagens de todos os trailers (Pedro 20/10):** misture Extended Look, Trailer 1, teasers, trailer de lançamento, fotos oficiais da Rockstar (Newswire, site) e imagens oficiais repostadas em fóruns. Só material oficial, nunca vazamento. "Só o trailer novo" vale apenas para vídeo que anuncia o trailer novo. Modelo de mistura: `producao/2026-10-20_2100/montar.py`.
+   - **Enquadramento no detalhe (Pedro 20/10):** o corte 9:16 mostra o que a fala aponta (o rosto do Jason, a máquina encerando o carro), nunca só lataria ou mão cortada pela metade. `pipeline/enquadrar.py` (`cx_auto`) acha rosto ou detalhe e já é usado pelo `auto_short.py`; em `montar.py` próprio, chame `cx_auto(src, ss, dur)` em cada cena. Na folha de quadros, confira se nenhum rosto ou mão ficou cortado.
 5. Vazamento só como notícia não confirmada, sem imagem do vazamento. Toda informação com fonte. Português do Brasil, linguagem gamer, sem travessão. Lançamento: 19/11/2026 (PS5 e Xbox Series).
 
 ## Rotina a partir de 16/10 (pedido do Pedro em 13/10)

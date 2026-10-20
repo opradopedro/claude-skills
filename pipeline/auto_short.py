@@ -17,6 +17,7 @@ import json, os, random, re, subprocess, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from align2 import align  # noqa: E402
+from enquadrar import cx_auto  # noqa: E402
 
 CENSOR = {"PELADO": "P3L@D0", "PELADA": "P3L@D@", "PELADOS": "P3L@D0S", "NUDEZ": "NUD3Z",
           "SEXO": "S3X0", "MORTE": "M0RT3", "MORTO": "M0RT0", "MATAR": "M@T@R", "DROGA": "DR0G@",
@@ -141,6 +142,7 @@ def main(path):
         if not src.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
             d = duration(src)
             sc["ss"] = round(rnd.uniform(0, max(0.0, d - (t1 - t0) - 0.1)), 2)
+            sc["cx"] = round(cx_auto(src, sc["ss"], round(t1 - t0, 2)), 3)  # rosto/detalhe no centro do 9:16
         scenes.append(sc)
     cfg = {"audio": spec["audio"], "out": spec["out"], "font": spec.get("font", "../assets/fonts/Anton.ttf"),
            "handle": spec.get("handle", "@radar.gta6br"), "scenes": scenes, "captions": caps}
