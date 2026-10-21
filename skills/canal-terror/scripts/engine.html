@@ -459,11 +459,18 @@ COMP.texto = (t, lt, p) => {
 function subtitle(t) {
   const s = ST.segs.find(s => t >= s.t0 - 0.05 && t <= s.t1 + 0.25);
   if (!s) return;
-  const words = s.text.split(' '), chunks = [];
-  for (let i = 0; i < words.length;) { let n = 0, len = 0; while (i + n < words.length && (n < 2 || len < 16) && n < 5) { len += words[i + n].length + 1; n++; } chunks.push(words.slice(i, i + n).join(' ')); i += n; }
-  const total = chunks.reduce((a, b) => a + b.length, 0), pp = (t - s.t0) / (s.t1 - s.t0) * total;
-  let acc = 0, cur = chunks[chunks.length - 1];
-  for (const ch of chunks) { acc += ch.length; if (pp <= acc) { cur = ch; break; } }
+  const words = s.text.split(' ').filter(Boolean), chunks = [], ini = [];
+  for (let i = 0; i < words.length;) { let n = 0, len = 0; while (i + n < words.length && (n < 2 || len < 16) && n < 5) { len += words[i + n].length + 1; n++; if (/[.?!…:]$/.test(words[i + n - 1])) break; } chunks.push(words.slice(i, i + n).join(' ')); ini.push(i); i += n; }
+  let cur = chunks[chunks.length - 1];
+  if (s.w && s.w.length === words.length) {
+    // tempo de cada palavra medido na voz (tts.py): o bloco aparece 0,1 s antes da primeira palavra dele
+    let k = 0; for (let i = 0; i < words.length; i++) if (s.w[i] <= t + 0.1) k = i;
+    for (let c = 0; c < chunks.length; c++) if (ini[c] <= k) cur = chunks[c];
+  } else {
+    const total = chunks.reduce((a, b) => a + b.length, 0), pp = (t - s.t0) / (s.t1 - s.t0) * total;
+    let acc = 0;
+    for (const ch of chunks) { acc += ch.length; if (pp <= acc) { cur = ch; break; } }
+  }
   x.font = '900 76px "Arial Black", Impact, system-ui, sans-serif'; x.textAlign = 'center'; x.textBaseline = 'middle';
   const lines = []; let line = '';
   for (const w of cur.split(' ')) { const test = line ? line + ' ' + w : w; if (x.measureText(test).width > W - 300 && line) { lines.push(line); line = w; } else line = test; }

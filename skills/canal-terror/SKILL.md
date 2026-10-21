@@ -65,7 +65,7 @@ O Pedro assiste, vota e pede mudanças em **https://claude.ai/artifact/MsfWrEjGF
 | Script | Faz |
 |---|---|
 | `scripts/produce.py` | Orquestra: voz, vídeo, trilha, MP4 final (CRF 26) e upload agendado |
-| `scripts/tts.py` | Gemini TTS numa chamada só, corte nas pausas, tempos por linha; reserva Kokoro |
+| `scripts/tts.py` | Gemini TTS numa chamada só, corte nas pausas (tempo de voz por linha + marcas do Gemini texto), tempo de cada palavra para a legenda; reserva Kokoro |
 | `scripts/engine.html` | Biblioteca de cenas em canvas 1080x1920, legenda palavra a palavra |
 | `scripts/render.py` | Chromium (Playwright) quadro a quadro para FFmpeg, 30 fps; `--teste` salva JPGs |
 | `scripts/mix.py` | Voz limpa (sem eco), piano grave com reverb, drone e efeitos nos eventos, -15 LUFS |
@@ -73,6 +73,7 @@ O Pedro assiste, vota e pede mudanças em **https://claude.ai/artifact/MsfWrEjGF
 | `scripts/pagina.py` | Gera `itens.json` e a pasta `v/` da página de revisão |
 | `scripts/capa.py` | Thumbnail 1080x1920: quadro do gancho + texto do campo `capa` + selo da parte (enviada no upload) |
 | `scripts/marca.py` | Foto de perfil e banner do canal (relógio 3:33); o Pedro sobe no Studio, a API não troca a foto |
+| `scripts/conferir_voz.py` | Corta a narração e transcreve cada pedaço (Gemini texto) para provar que cada linha caiu no lugar certo |
 | `scripts/comum.py` | Converte cenas e eventos do roteiro em segundos |
 
 ## Escrever uma série nova
@@ -150,6 +151,9 @@ Conferir antes de subir:
 ```bash
 python3 scripts/produce.py stories/009-x-1.json stories/010-x-2.json --saida /tmp/hm --teste   # JPGs em /tmp/hm/HM009_*.jpg
 ```
+
+Se a voz parecer fora da legenda, rode `python3 scripts/conferir_voz.py historia.json /tmp/hm/HMxxx_voz_bruto.wav`
+(todas as linhas devem sair com nota >= 0,6).
 
 Olhe os JPGs: o susto aparece na tela? O primeiro quadro (gancho) assusta? A legenda não cobre o
 essencial? (Ela fica em 62% da altura, puxada para a esquerda: abaixo de ~72% e na coluna da direita a interface do Shorts cobre tudo.) Só então rode sem `--teste`.
