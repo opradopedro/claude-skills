@@ -1,0 +1,171 @@
+{
+ "codigo": "HM006",
+ "formato": "Leyenda",
+ "titulo": "Le preguntó: ¿tú eres mi hijo? 😨 La Llorona #shorts",
+ "descripcion": "La Llorona busca a sus hijos junto a los ríos desde hace siglos.\n\n¿Alguien de tu familia la escuchó?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #lallorona #leyendasmexicanas #mexico",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "la llorona",
+  "leyendas mexicanas",
+  "mexico"
+ ],
+ "lineas": [
+  {
+   "texto": "Si escuchas a una mujer llorar cerca del río, aléjate. Si la escuchas lejos... ya está aquí.",
+   "pausa": 1.0,
+   "vel": 0.86
+  },
+  {
+   "texto": "Es la Llorona. Busca a sus hijos desde hace más de cuatrocientos años.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "Mi prima acampó con sus amigos junto a un río. A medianoche, oyeron el llanto.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "Una mujer de blanco caminaba por la orilla, con el cabello cubriéndole la cara.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "Uno de ellos le gritó: ¿señora, está bien?",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Ella dejó de llorar. Y en un parpadeo... estaba frente a él.",
+   "pausa": 0.9,
+   "vel": 0.84
+  },
+  {
+   "texto": "Le preguntó: ¿tú eres mi hijo?",
+   "pausa": 1.0,
+   "vel": 0.78
+  },
+  {
+   "texto": "Él no volvió a hablar nunca más.",
+   "pausa": 0.3,
+   "vel": 0.82
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "rio",
+   "p": {
+    "dist": [
+     1,
+     0.92
+    ]
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "rio",
+   "p": {
+    "dist": [
+     0.95,
+     0.9
+    ],
+    "zoom": 0.04
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "rio",
+   "p": {
+    "dist": [
+     0.75,
+     0.6
+    ],
+    "zoom": 0.1
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "rio",
+   "p": {
+    "dist": [
+     0.05,
+     0.0
+    ],
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "vela",
+   "p": {
+    "foto": true
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "grito",
+   "linea": 0,
+   "en": 0.6,
+   "dur": 2.0
+  },
+  {
+   "tipo": "grito",
+   "linea": 2,
+   "en": "fin",
+   "mas": 0.1,
+   "dur": 1.6
+  },
+  {
+   "tipo": "grito",
+   "linea": 5,
+   "en": 0.62,
+   "dur": 1.0
+  },
+  {
+   "tipo": "susto",
+   "linea": 5,
+   "en": 0.62
+  },
+  {
+   "tipo": "grito",
+   "linea": 6,
+   "en": "inicio",
+   "mas": -0.1,
+   "dur": 0.4
+  },
+  {
+   "tipo": "foto",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.1
+  },
+  {
+   "tipo": "apaga",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.1
+  },
+  {
+   "tipo": "susto",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.1
+  }
+ ],
+ "destaque": [
+  "ya está aquí",
+  "frente a él",
+  "mi hijo",
+  "nunca"
+ ],
+ "gancho": {
+  "cena": 2,
+  "evento": "grito",
+  "mas": 0.3,
+  "dur": 0.8
+ }
+}
