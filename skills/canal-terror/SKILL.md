@@ -35,7 +35,8 @@ por parte.
 
 Variáveis de ambiente (só no ambiente, nunca imprimir, nunca pedir no chat):
 `GEMINI_API_KEY`, `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN_ES`.
-Sem `GEMINI_API_KEY` a voz cai para o Kokoro local (grátis, mais robótica).
+Sem Gemini a voz cai para o Kokoro local, que o Pedro reprovou (robótica, sotaque americano): serve só para
+teste. Com `--subir`, se o Gemini falhar o script para com `VOZ FALHOU` e não publica nada; tente de novo mais tarde.
 
 Erros comuns:
 - `YT_REFRESH_TOKEN_ES vencido`: token revogado ou gerado quando o app ainda estava em teste (vence em 7 dias).

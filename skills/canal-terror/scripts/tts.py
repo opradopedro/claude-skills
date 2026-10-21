@@ -163,8 +163,12 @@ def main():
             if pedacos:
                 break
         if not pedacos:
+            if os.environ.get("HM_SEM_KOKORO"):
+                sys.exit("VOZ FALHOU: o Gemini nao narrou e a reserva Kokoro (sotaque americano) esta proibida para publicar")
             motor = "kokoro"
     if motor == "kokoro":
+        if os.environ.get("HM_SEM_KOKORO"):
+            sys.exit("VOZ FALHOU: sem GEMINI_API_KEY e a reserva Kokoro esta proibida para publicar")
         pedacos = kokoro(linhas, vels)
 
     lead = (h.get("gancho") or {}).get("dur", 0.25) + 0.15
