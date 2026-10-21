@@ -568,7 +568,7 @@
     {
       "data": "2026-10-21",
       "hora": "18:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v29_radios_bad_bunny.mp4",
       "tema": "Rádios de GTA 6 (Bad Bunny, Slayer, Lana Del Rey)",
       "formato": "corte",
@@ -578,7 +578,8 @@
         "tema": "novidade oficial",
         "gancho": "revelacao",
         "origem": "Rockstar Newswire 08/10 via endgametools/ghacks"
-      }
+      },
+      "link": "https://www.instagram.com/reel/DexT2DJDFHW/"
     }
   ]
 }
