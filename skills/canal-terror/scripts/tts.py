@@ -22,6 +22,10 @@ SR = 24000
 # O TTS do Gemini LE em voz alta qualquer instrucao em prosa (e systemInstruction da erro 400):
 # o estilo vai so em tags no comeco do texto.
 ESTILO = os.environ.get("GEMINI_TTS_ESTILO", "[whispering] [slow] [deep voice] ")
+# Pedido do Pedro (2026-10-21): fala mais calma e pausada para dar suspense. A voz do Gemini e esticada
+# sem mudar o tom (atempo) e as pausas do roteiro ficam mais longas.
+TEMPO = float(os.environ.get("HM_VOZ_TEMPO", "0.9"))
+PAUSA_FATOR = float(os.environ.get("HM_PAUSA_FATOR", "1.4"))
 API = "https://generativelanguage.googleapis.com/v1beta"
 KOKORO_URL = "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2"
 
@@ -72,6 +76,15 @@ def gemini(linhas, key):
                 erro = f"{modelo} resposta sem audio: {e}"
                 break
     raise RuntimeError(erro)
+
+
+def esticar(a, tempo):
+    if abs(tempo - 1) < 0.01:
+        return a
+    p = subprocess.run(["ffmpeg", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-",
+                        "-af", f"atempo={tempo}", "-f", "f32le", "-"], input=a.astype("<f4").tobytes(),
+                       capture_output=True, check=True)
+    return np.frombuffer(p.stdout, dtype="<f4").copy()
 
 
 def reamostrar(a, rate):
@@ -149,14 +162,14 @@ def main():
     a = ap.parse_args()
     h = carregar(a.historia)
     linhas = [l["texto"] for l in h["lineas"]]
-    pausas = [float(l.get("pausa", 0.6)) for l in h["lineas"]]
+    pausas = [float(l.get("pausa", 0.6)) * PAUSA_FATOR for l in h["lineas"]]
     vels = [float(l.get("vel", 0.9)) for l in h["lineas"]]
     motor = a.motor or ("gemini" if os.environ.get("GEMINI_API_KEY") else "kokoro")
     pedacos = None
     if motor == "gemini":
         for tent in range(2):
             try:
-                pedacos = cortar(gemini(linhas, os.environ["GEMINI_API_KEY"]), linhas)
+                pedacos = cortar(esticar(gemini(linhas, os.environ["GEMINI_API_KEY"]), TEMPO), linhas)
             except Exception as e:
                 print("gemini falhou:", e, file=sys.stderr)
                 break

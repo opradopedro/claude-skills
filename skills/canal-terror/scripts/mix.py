@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Trilha do video: voz tratada (mais grave, com eco) + ambiente + efeitos sincronizados com os eventos.
+"""Trilha do video: voz limpa + piano grave de suspense + ambiente + efeitos sincronizados com os eventos.
 
 Uso: python3 mix.py historia.json voz.wav tempos.json trilha.m4a
-Tudo sintetizado aqui (sem bancos de som): drone grave, golpes, vibracao de celular, susto, assobio,
+Tudo sintetizado aqui (sem bancos de som): piano grave com reverb, drone grave, golpes, vibracao de celular, susto, assobio,
 grito, zumbido de apagao. Volume final normalizado em -15 LUFS (padrao bom para Shorts).
 """
 import json, os, subprocess, sys, tempfile
@@ -71,6 +71,49 @@ def apaga():
     return (r - r.mean()) * env(n, 0.05, 0.15) * 0.3
 
 
+def piano(f, dur=4.0):
+    """Nota de piano grave: parciais levemente desafinadas (inarmonicidade), martelo e queda longa."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    s = np.zeros(n)
+    for k in range(1, 9):
+        fk = f * k * np.sqrt(1 + 0.0004 * k * k)
+        s += np.sin(2 * np.pi * fk * t + rng.random() * 6.28) / k ** 1.3 * np.exp(-t * (0.6 + 0.45 * k))
+    martelo = rng.normal(0, 1, n) * env(n, 0.001, 0.008) * 0.15
+    return (s + martelo) * env(n, 0.004) * np.minimum(1, (dur - t) / 0.3)
+
+
+NOTAS = {"A0": 27.5, "C1": 32.7, "D1": 36.71, "E1": 41.2, "F1": 43.65, "G1": 49.0, "A1": 55.0, "B1": 61.74,
+         "C2": 65.41, "D#2": 77.78, "E2": 82.41, "F2": 87.31, "A2": 110.0}
+# frase em la menor que se repete devagar; o tritono (D#) entra perto do fim para crescer a tensao
+FRASE = [("A1", "E2"), ("C2",), ("B1",), ("F1", "C2"), ("E1", "B1"), ("A1",), ("G1",), ("F1", "A1")]
+TENSO = [("A1", "D#2"), ("A0", "A1"), ("E1", "F1"), ("A1", "D#2")]
+
+
+def reverb(x, seg=2.6, mistura=0.45):
+    m = int(seg * SR); t = np.arange(m) / SR
+    ir = rng.normal(0, 1, m) * np.exp(-t * 6.9 / seg); ir[:int(0.02 * SR)] *= np.linspace(0, 1, int(0.02 * SR))
+    ir /= np.sqrt((ir ** 2).sum())
+    L = 1 << int(np.ceil(np.log2(len(x) + m)))
+    w = np.fft.irfft(np.fft.rfft(x, L) * np.fft.rfft(ir, L), L)[:len(x)]
+    return x * (1 - mistura) + w * mistura * 2.2
+
+
+def trilha_piano(n, sustos, dur):
+    """Uma nota (ou intervalo) a cada ~2,6 s; silencia 1,5 s antes de cada susto e volta tensa depois."""
+    m = np.zeros(n); passo = 2.6; t = 0.9; k = 0
+    while t < dur - 2:
+        if any(0 < s - t < 1.5 for s in sustos):
+            t += passo / 2; continue
+        acorde = (TENSO[k % len(TENSO)] if t > dur * 0.62 or any(0 < t - s < 4 for s in sustos)
+                  else FRASE[k % len(FRASE)])
+        for i, nota in enumerate(acorde):
+            s = piano(NOTAS[nota], min(4.5, dur - t)) * (0.8 if i else 1)
+            a = int((t + 0.03 * i) * SR); b = min(n, a + len(s)); m[a:b] += s[:b - a]
+        k += 1; t += passo * (1.0 if k % 4 else 1.5)
+    m = reverb(m)
+    return (m / (np.abs(m).max() + 1e-9) * 0.16).astype(np.float32)
+
+
 SONS = {"golpe": lambda e: golpe(), "vibra": lambda e: vibra(e.get("dur") or 1.6), "susto": lambda e: susto(),
         "silbido": lambda e: silbido(e.get("dur") or 2.8), "grito": lambda e: grito(e.get("dur") or 1.8),
         "apagon": lambda e: apagon(e.get("dur") or 1.5), "apaga": lambda e: apaga()}
@@ -84,14 +127,18 @@ def main(historia, voz, tempos, saida):
     vt = os.path.join(tmp, "v.wav")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", voz, "-af",
                     f"aresample={SR},asetrate={SR}*{grave},aresample={SR},atempo={1 / grave:.4f},"
-                    "aecho=0.8:0.5:50|110:0.18|0.08,volume=1.5", "-ac", "1", vt], check=True)
+                    # voz limpa (sem eco, pedido do Pedro): so tira o ronco e segura os picos
+                    "highpass=f=70,acompressor=threshold=0.1:ratio=2.5:attack=15:release=200,volume=1.5",
+                    "-ac", "1", vt], check=True)
     v, _ = sf.read(vt, dtype="float32")
     mix = np.zeros(n + SR, np.float32); mix[:min(len(v), len(mix))] += v[:len(mix)]
     t = np.arange(len(mix)) / SR
     marrom = np.cumsum(rng.normal(0, 1, len(mix))); marrom -= np.convolve(marrom, np.ones(4410) / 4410, "same")
     marrom /= np.abs(marrom).max() + 1e-9
-    mix += (marrom * 0.10 * np.minimum(1, t / 1.0)).astype(np.float32)
+    mix += (marrom * 0.07 * np.minimum(1, t / 1.0)).astype(np.float32)
     mix += (np.sin(2 * np.pi * 48 * t) * (0.7 + 0.3 * np.sin(2 * np.pi * 0.2 * t)) * 0.05).astype(np.float32)
+    sustos = [e["t"] for e in r["eventos"] if e["tipo"] in ("susto", "grito")]
+    pz = trilha_piano(len(mix), sustos, dur); mix += pz * float(h.get("piano", 1.0))
     eventos = list(r["eventos"])
     if r["gancho"]:
         eventos.append({"tipo": "susto", "t": 0.02})
