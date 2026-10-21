@@ -68,7 +68,7 @@ O Pedro assiste, vota e pede mudanças em **https://claude.ai/artifact/MsfWrEjGF
 | `scripts/tts.py` | Gemini TTS numa chamada só, corte nas pausas, tempos por linha; reserva Kokoro |
 | `scripts/engine.html` | Biblioteca de cenas em canvas 1080x1920, legenda palavra a palavra |
 | `scripts/render.py` | Chromium (Playwright) quadro a quadro para FFmpeg, 30 fps; `--teste` salva JPGs |
-| `scripts/mix.py` | Voz com eco, drone grave e efeitos sintetizados nos eventos, -15 LUFS |
+| `scripts/mix.py` | Voz limpa (sem eco), piano grave com reverb, drone e efeitos nos eventos, -15 LUFS |
 | `scripts/yt_upload.py` | `subir video.json` e `publicados` (códigos HMxxx já no canal, pela tag) |
 | `scripts/pagina.py` | Gera `itens.json` e a pasta `v/` da página de revisão |
 | `scripts/comum.py` | Converte cenas e eventos do roteiro em segundos |
@@ -107,7 +107,7 @@ Formato de cada parte:
 }
 ```
 
-- `lineas`: 7 a 9 frases curtas, no máximo 58 s (a voz do Gemini é lenta: ~5 s por frase). `pausa` é o silêncio depois da linha; `vel` só vale no Kokoro.
+- `lineas`: 7 a 9 frases curtas, no máximo 58 s (a voz do Gemini é lenta: ~5 s por frase). `pausa` é o silêncio depois da linha (o `tts.py` multiplica por 1,4 e deixa a voz 10% mais lenta: fala calma e pausada, pedido do Pedro); `vel` só vale no Kokoro. `"piano": 0` no roteiro desliga o piano.
 - `cenas`: cada cena começa 0,25 s antes da linha indicada e vai até a próxima cena.
   `p.zoom` (aproximação lenta, padrão 0.06), `p.fy` (centro do zoom, 0 a 1), `p.niebla`, `p.temblor`.
 - `eventos`: momento = linha + `en` (`inicio`, `fin` ou fração 0 a 1) + `mas` segundos. `dur` opcional.
