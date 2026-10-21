@@ -149,6 +149,23 @@ def main():
             r = yt_upload.subir(base + "_upload.json")
             ids[cod] = r["id"]
             print(f"AGENDADO {cod} https://youtu.be/{r['id']} publica em {up['publicar_em']} (UTC)", flush=True)
+        guardar(cod, base, up, ids.get(cod) if a.subir else None)
+
+
+def guardar(cod, base, up, vid):
+    """Copia o video, uma capa e os dados para a pasta da pagina de revisao (scripts/pagina.py)."""
+    pasta = os.environ.get("HM_VIDEOS", "/mnt/project-files/canal-terror/videos")
+    if not os.path.isdir(os.path.dirname(pasta)):
+        return
+    os.makedirs(pasta, exist_ok=True)
+    import shutil
+    shutil.copy(base + ".mp4", os.path.join(pasta, cod + ".mp4"))
+    run("ffmpeg", "-v", "error", "-y", "-ss", "2", "-i", base + ".mp4", "-frames:v", "1", "-vf", "scale=360:-1",
+        os.path.join(pasta, cod + ".jpg"))
+    meta = {"codigo": cod, "titulo": up["titulo"], "motor_voz": json.load(open(base + "_tempos.json")).get("motor")}
+    if vid:
+        meta.update(url=f"https://youtube.com/shorts/{vid}", publishAt=up["publicar_em"])
+    json.dump(meta, open(os.path.join(pasta, cod + ".json"), "w"), ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":

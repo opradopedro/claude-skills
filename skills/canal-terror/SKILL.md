@@ -45,6 +45,21 @@ Erros comuns:
   e, se nada der, usa o Kokoro.
 - Cota do YouTube: cada upload gasta 1.600 de 10.000 unidades por dia (no máximo 6 vídeos/dia).
 
+## Página de revisão (depois de cada execução)
+
+O Pedro assiste, vota e pede mudanças em **https://claude.ai/artifact/MsfWrEjGFq19E9VEAUMzQF**
+("Vídeos do Hora Muerta"). Banco da página: `pedidos` ({codigo, texto, status "aberto"|"feito", resposta}) e
+`avaliacoes` ({codigo, nota "sim"|"nao"}).
+
+1. **Antes de produzir**, leia os pedidos abertos (ArtifactData `list` em `pedidos` com esse url). Pedido de um
+   roteiro ainda não subido: edite o JSON em `stories/` antes. Pedido de algo do motor (voz, cena, susto): aplique
+   e mande por PR. Ao aplicar, marque `status: "feito"` e `resposta` com uma frase do que mudou.
+   Pedido de vídeo já agendado: se dá para refazer antes das 21h, refaça; senão aplique nos próximos e responda isso.
+2. **Depois de subir**: o `produce.py` já copia MP4, capa e `HMxxx.json` ({codigo, titulo, url, publishAt, motor_voz})
+   para `/mnt/project-files/canal-terror/videos/` (`HM_VIDEOS` muda a pasta). Rode `python3 scripts/pagina.py --saida /tmp/pagina` e
+   republique a página com o Artifact tool: `url` acima, `file_path` = a página (leia antes com `action: read`) e
+   `files` = `itens.json` e cada `v/HMxxx.mp4` e `v/HMxxx.jpg` de `/tmp/pagina` (o script já reduz para 720p, abaixo do limite de 15 MB).
+
 ## Peças
 
 | Script | Faz |
@@ -55,6 +70,7 @@ Erros comuns:
 | `scripts/render.py` | Chromium (Playwright) quadro a quadro para FFmpeg, 30 fps; `--teste` salva JPGs |
 | `scripts/mix.py` | Voz com eco, drone grave e efeitos sintetizados nos eventos, -15 LUFS |
 | `scripts/yt_upload.py` | `subir video.json` e `publicados` (códigos HMxxx já no canal, pela tag) |
+| `scripts/pagina.py` | Gera `itens.json` e a pasta `v/` da página de revisão |
 | `scripts/comum.py` | Converte cenas e eventos do roteiro em segundos |
 
 ## Escrever uma série nova
