@@ -1,0 +1,38 @@
+{
+  "codigo": "HM001",
+  "formato": "Testigo",
+  "titulo": "Mi reflejo tardó un segundo en moverse 😨 #terror #shorts",
+  "descripcion": "Mi abuela cubría todos los espejos a medianoche. Ahora entiendo por qué.\n\n¿Tú cubres los espejos de tu casa? Cuéntame en los comentarios.\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #espejo #creepypasta",
+  "tags": ["historias de terror", "relatos de terror", "terror", "espejo", "creepypasta", "leyendas", "shorts de terror"],
+  "lineas": [
+    {"texto": "Anoche, el espejo de mi baño tocó dos veces. Desde adentro.", "pausa": 1.0, "vel": 0.88},
+    {"texto": "Mi abuela cubría todos los espejos a medianoche. Decía: para que no se acostumbren a vernos.", "pausa": 0.6},
+    {"texto": "Cuando murió, nadie los volvió a cubrir.", "pausa": 0.8},
+    {"texto": "Una noche, me lavé la cara frente al espejo.", "pausa": 0.5},
+    {"texto": "Cuando levanté la vista... mi reflejo tardó un segundo en levantar la suya.", "pausa": 0.7, "vel": 0.85},
+    {"texto": "Y luego... sonrió. Yo no estaba sonriendo.", "pausa": 1.0, "vel": 0.82},
+    {"texto": "Desde entonces, cubro todos los espejos.", "pausa": 0.5},
+    {"texto": "Pero anoche, debajo de la tela, algo tocó dos veces.", "pausa": 1.1},
+    {"texto": "Como pidiendo permiso para salir.", "pausa": 0.3, "vel": 0.8}
+  ],
+  "cenas": [
+    {"linea": 0, "comp": "tela", "p": {"mano": [0.35, 0], "zoom": 0.05}},
+    {"linea": 1, "comp": "tres_espejos"},
+    {"linea": 3, "comp": "bano", "p": {"zoom": 0.14, "fy": 0.4}},
+    {"linea": 6, "comp": "tela", "p": {"mano": [0, 0.3], "zoom": 0.12}}
+  ],
+  "eventos": [
+    {"tipo": "golpe", "linea": 0, "en": "fin", "mas": 0.1},
+    {"tipo": "golpe", "linea": 0, "en": "fin", "mas": 0.55},
+    {"tipo": "descubre", "linea": 2, "en": "inicio"},
+    {"tipo": "levanta", "linea": 4, "en": 0.45},
+    {"tipo": "sonrisa", "linea": 5, "en": "inicio", "mas": -0.1},
+    {"tipo": "susto", "linea": 5, "en": "inicio", "mas": -0.1},
+    {"tipo": "golpe", "linea": 7, "en": "fin", "mas": 0.1},
+    {"tipo": "golpe", "linea": 7, "en": "fin", "mas": 0.55},
+    {"tipo": "revela", "linea": 8, "en": "fin", "mas": -0.2},
+    {"tipo": "susto", "linea": 8, "en": "fin", "mas": 0.2}
+  ],
+  "destaque": ["adentro", "sonri", "salir", "tardó", "dos veces"],
+  "gancho": {"cena": 2, "evento": "sonrisa", "mas": 0.5, "dur": 0.8}
+}

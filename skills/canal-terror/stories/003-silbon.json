@@ -1,0 +1,193 @@
+{
+ "codigo": "HM003",
+ "formato": "Leyenda",
+ "titulo": "Si lo escuchas lejos... ya está a tu lado 😨 El Silbón #shorts",
+ "descripcion": "La leyenda del Silbón, el espanto de los llanos de Venezuela y Colombia.\n\n¿Conocías esta leyenda? ¿De qué país eres?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #elsilbon #leyendas #venezuela #colombia",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "el silbon",
+  "leyendas venezolanas",
+  "leyendas colombianas",
+  "llanos"
+ ],
+ "lineas": [
+  {
+   "texto": "Si escuchas un silbido cerca, tranquilo. Si lo escuchas lejos... corre.",
+   "pausa": 1.0,
+   "vel": 0.86
+  },
+  {
+   "texto": "Es la leyenda del Silbón, en los llanos de Venezuela y Colombia.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "Un joven que mató a su padre fue maldecido a vagar para siempre, cargando sus huesos en un saco.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "Mide más de dos metros, lleva sombrero, y su silbido sube nota por nota.",
+   "pausa": 1.6
+  },
+  {
+   "texto": "Mi tío lo escuchó una noche, volviendo a casa por un camino de tierra.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "El silbido sonaba lejísimos. Él pensó que estaba a salvo.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Pero el Silbón no funciona así. Cuando suena lejos... es porque ya está a tu lado.",
+   "pausa": 1.0,
+   "vel": 0.84
+  },
+  {
+   "texto": "Esa noche, mi tío escuchó algo más. Alguien contando huesos, uno por uno, detrás de él.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Si algún día escuchas un silbido muy lejos... no mires atrás.",
+   "pausa": 0.3,
+   "vel": 0.82
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "camino",
+   "p": {
+    "dist": [
+     0.95,
+     0.9
+    ]
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "vela",
+   "p": {
+    "foto": false
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "camino",
+   "p": {
+    "dist": [
+     0.8,
+     0.7
+    ],
+    "zoom": 0.1
+   }
+  },
+  {
+   "linea": 4,
+   "comp": "camino",
+   "p": {
+    "figura": false
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "camino",
+   "p": {
+    "dist": [
+     0.9,
+     0.85
+    ]
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "camino",
+   "p": {
+    "dist": [
+     0.3,
+     0.2
+    ],
+    "ojos": true,
+    "zoom": 0.12
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "silbido",
+   "linea": 0,
+   "en": 0.2,
+   "dur": 2.6
+  },
+  {
+   "tipo": "silbido",
+   "linea": 3,
+   "en": "fin",
+   "mas": -0.2,
+   "dur": 2.0
+  },
+  {
+   "tipo": "silbido",
+   "linea": 5,
+   "en": "inicio",
+   "dur": 2.2
+  },
+  {
+   "tipo": "acerca",
+   "linea": 6,
+   "en": "fin",
+   "mas": -0.4
+  },
+  {
+   "tipo": "susto",
+   "linea": 6,
+   "en": "fin",
+   "mas": -0.4
+  },
+  {
+   "tipo": "golpe",
+   "linea": 7,
+   "en": 0.7
+  },
+  {
+   "tipo": "golpe",
+   "linea": 7,
+   "en": 0.78
+  },
+  {
+   "tipo": "golpe",
+   "linea": 7,
+   "en": 0.86
+  },
+  {
+   "tipo": "silbido",
+   "linea": 8,
+   "en": "fin",
+   "mas": 0.1,
+   "dur": 1.4
+  },
+  {
+   "tipo": "susto",
+   "linea": 8,
+   "en": "fin",
+   "mas": 0.4
+  }
+ ],
+ "destaque": [
+  "lejos",
+  "corre",
+  "huesos",
+  "a tu lado",
+  "atrás"
+ ],
+ "gancho": {
+  "cena": 4,
+  "evento": "acerca",
+  "mas": 0.4,
+  "dur": 0.8
+ }
+}
