@@ -466,12 +466,14 @@ function subtitle(t) {
   for (const ch of chunks) { acc += ch.length; if (pp <= acc) { cur = ch; break; } }
   x.font = '900 76px "Arial Black", Impact, system-ui, sans-serif'; x.textAlign = 'center'; x.textBaseline = 'middle';
   const lines = []; let line = '';
-  for (const w of cur.split(' ')) { const test = line ? line + ' ' + w : w; if (x.measureText(test).width > W - 160 && line) { lines.push(line); line = w; } else line = test; }
+  for (const w of cur.split(' ')) { const test = line ? line + ' ' + w : w; if (x.measureText(test).width > W - 300 && line) { lines.push(line); line = w; } else line = test; }
   lines.push(line);
   lines.forEach((l, i) => {
-    const y = H * 0.8 + i * 90;
-    x.lineWidth = 14; x.strokeStyle = '#000'; x.lineJoin = 'round'; x.strokeText(l.toUpperCase(), W / 2, y);
-    x.fillStyle = RX && RX.test(l) ? '#ff3a2a' : '#f4efe6'; x.fillText(l.toUpperCase(), W / 2, y);
+    // zona segura do Shorts: o rodape (nome do canal, Inscrever-se, descricao) cobre de ~72% para baixo
+    // e a coluna de botoes ocupa a direita, entao a legenda fica em 62% e puxada para a esquerda
+    const y = H * 0.62 + i * 90, cx = W / 2 - 50;
+    x.lineWidth = 14; x.strokeStyle = '#000'; x.lineJoin = 'round'; x.strokeText(l.toUpperCase(), cx, y);
+    x.fillStyle = RX && RX.test(l) ? '#ff3a2a' : '#f4efe6'; x.fillText(l.toUpperCase(), cx, y);
   });
 }
 function sceneAt(t) {
