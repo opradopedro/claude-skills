@@ -14,6 +14,7 @@ O modelo e baixado do GitHub releases para ~/.cache/hora-muerta na primeira vez 
 """
 import argparse, base64, json, os, re, subprocess, sys, tarfile, time, urllib.error, urllib.request
 import numpy as np
+import soundfile as sf
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comum import carregar
@@ -113,12 +114,28 @@ def cortar(audio, linhas):
     n = len(linhas) - 1
     if len(trechos) < n:
         return None
-    cortes = sorted(sorted(trechos, key=lambda r: r[1] - r[0], reverse=True)[:n])
+    # escolhe os n silencios mais perto de onde cada linha deveria acabar (proporcional ao texto);
+    # so os maiores silencios falha quando uma linha tem pausa interna ("Y luego... sonrio.")
+    chars = np.array([len(l) + 12 * l.count("...") for l in linhas], float)  # reticencias viram pausa longa
+    alvo = a + (b - a) * np.cumsum(chars)[:-1] / chars.sum()
+    centro = np.array([(i + j) / 2 for i, j in trechos]); dur = np.array([(j - i) * 0.02 for i, j in trechos])
+    custo = np.abs(centro[None, :] - alvo[:, None]) / (b - a) - 0.01 * np.minimum(dur, 1.5)[None, :]
+    m = len(trechos)
+    melhor = np.full((n, m), np.inf); de = np.zeros((n, m), int)
+    melhor[0] = custo[0]
+    for k in range(1, n):
+        acum = np.minimum.accumulate(melhor[k - 1])
+        arg = np.array([int(np.argmin(melhor[k - 1][:j + 1])) for j in range(m)])
+        melhor[k, 1:] = acum[:-1] + custo[k, 1:]; de[k, 1:] = arg[:-1]
+    j = int(np.argmin(melhor[n - 1])); escolha = [j]
+    for k in range(n - 1, 0, -1):
+        j = de[k, j]; escolha.append(j)
+    cortes = [trechos[j] for j in reversed(escolha)]
     bordas = [a] + [k for i, j in cortes for k in (i, j)] + [b + 1]
     # folga de 80 ms antes e 160 ms depois para nao comer o fim das palavras (silencio tem >= 250 ms)
     pedacos = [audio[max(0, bordas[2 * k] - 4) * fr: (bordas[2 * k + 1] + 8) * fr] for k in range(len(linhas))]
     # confere: duracao de cada pedaco proporcional ao tamanho do texto
-    durs = np.array([len(p) / SR for p in pedacos]); chars = np.array([len(l) for l in linhas], float)
+    durs = np.array([len(p) / SR for p in pedacos])
     razao = (durs / durs.sum()) / (chars / chars.sum())
     if razao.min() < 0.35 or razao.max() > 2.8:
         print("corte suspeito:", np.round(razao, 2).tolist(), file=sys.stderr)
@@ -169,7 +186,14 @@ def main():
     if motor == "gemini":
         for tent in range(2):
             try:
-                pedacos = cortar(esticar(gemini(linhas, os.environ["GEMINI_API_KEY"]), TEMPO), linhas)
+                # guarda a narracao bruta: se o corte falhar, a proxima rodada nao gasta outra das 10 diarias
+                bruto = os.path.splitext(a.wav)[0] + "_bruto.wav"
+                if tent == 0 and os.path.exists(bruto):
+                    audio = sf.read(bruto, dtype="float32")[0]
+                else:
+                    audio = gemini(linhas, os.environ["GEMINI_API_KEY"])
+                    sf.write(bruto, audio, SR)
+                pedacos = cortar(esticar(audio, TEMPO), linhas)
             except Exception as e:
                 print("gemini falhou:", e, file=sys.stderr)
                 break
@@ -192,7 +216,6 @@ def main():
         out += [p, np.zeros(int(pz * SR), np.float32)]; t += d + pz
     t += 1.2
     out.append(np.zeros(int(1.2 * SR), np.float32))
-    import soundfile as sf
     sf.write(a.wav, np.concatenate(out), SR)
     json.dump({"dur": round(t, 3), "motor": motor, "segs": segs}, open(a.tempos, "w"), ensure_ascii=False, indent=1)
     print(motor, round(t, 1), "s")
