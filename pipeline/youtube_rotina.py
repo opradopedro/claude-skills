@@ -2,7 +2,7 @@
 
 1. Reels novos: todo item "postado" no agenda.json a partir de 21/10 que ainda não está em youtube/publicados.json.
 2. Fila de antigos: itens de youtube/plano.json com data e hora já vencidas (Brasília) e ainda não postados.
-No máximo 2 envios por rodada. Grava os links em youtube/publicados.json (o commit e o push ficam com quem chama).
+No máximo 2 envios por rodada; o Reel de 21/10 21h foi para a fila (Pedro pediu só 2 Shorts no primeiro dia). Grava os links em youtube/publicados.json (o commit e o push ficam com quem chama).
 Uso: python3 pipeline/youtube_rotina.py [--dry]
 """
 import datetime, json, os, sys, tempfile
@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from youtube_publicar import publicar
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-INICIO_NOVOS = "2026-10-21"
+INICIO_NOVOS = "2026-10-22"
 RODAPE = "\n\nSe inscreve pra acompanhar tudo de GTA 6 até o lançamento 🔔"
 TAGS = ["gta 6", "gta vi", "gta 6 brasil", "gta 6 noticias", "grand theft auto 6"]
 

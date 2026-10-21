@@ -1,125 +1,143 @@
 {
- "_sobre": "Reels antigos do Instagram repostados como Shorts, 2 por dia (10h e 15h de Brasília), os que mais engajaram primeiro. Os novos vão no mesmo dia do Insta (12h, 18h, 21h). Fora: Game Awards (Pedro já postou), formato painel (v2, v7, v8), cancelados/removidos e o 'falta 1 mês' (data vencida).",
+ "_sobre": "Reels antigos do Instagram repostados como Shorts, 1 por dia às 15h de Brasília (pedido do Pedro em 21/10, para não parecer spam), por ordem de views no Insta. Primeiro o de 21/10 21h, que ficou para o dia seguinte. Os novos saem nos horários do Insta (12h, 18h, 21h). Fora: Game Awards (Pedro já postou), v2 e 'falta 1 mês' (datados), cancelados/removidos.",
  "fila": [
   {
    "data": "2026-10-22",
-   "hora": "10:00",
+   "hora": "15:00",
+   "arquivo": "radar_v30_espaco_console.mp4",
+   "titulo": "GTA 6 pode passar de 120 GB no seu console 💾 #Shorts"
+  },
+  {
+   "data": "2026-10-23",
+   "hora": "15:00",
    "arquivo": "radar_v16_rockstar_ainda_muda.mp4",
    "titulo": "GTA 6: a Rockstar ainda está mudando o jogo a 1 mês do lançamento 🛠️ #Shorts"
   },
   {
-   "data": "2026-10-22",
-   "hora": "15:00",
-   "arquivo": "radar_v5_mecanicas_v4.mp4",
-   "titulo": "GTA 6 tá com cara de San Andreas: comer, treinar e dormir 💪 #Shorts"
-  },
-  {
-   "data": "2026-10-23",
-   "hora": "10:00",
-   "arquivo": "radar_v3_ultimate_full.mp4",
-   "titulo": "GTA 6 Ultimate ou Padrão? A diferença é de R$ 100 💸 #Shorts"
-  },
-  {
-   "data": "2026-10-23",
+   "data": "2026-10-24",
    "hora": "15:00",
    "arquivo": "radar_v10_cyberleak.mp4",
    "titulo": "GTA 6 em primeira pessoa? O vazamento do CyberLeak 📉 #Shorts"
   },
   {
-   "data": "2026-10-24",
-   "hora": "10:00",
+   "data": "2026-10-25",
+   "hora": "15:00",
+   "arquivo": "radar_v5_mecanicas_v4.mp4",
+   "titulo": "GTA 6 tá com cara de San Andreas: comer, treinar e dormir 💪 #Shorts"
+  },
+  {
+   "data": "2026-10-26",
+   "hora": "15:00",
+   "arquivo": "radar_v3_ultimate_full.mp4",
+   "titulo": "GTA 6 Ultimate ou Padrão? A diferença é de R$ 100 💸 #Shorts"
+  },
+  {
+   "data": "2026-10-27",
+   "hora": "15:00",
    "arquivo": "radar_v11_pc_2027.mp4",
    "titulo": "GTA 6 no PC: quando sai? Pode ser só em 2027 💻 #Shorts"
   },
   {
-   "data": "2026-10-24",
+   "data": "2026-10-28",
    "hora": "15:00",
    "arquivo": "radar_v27_furacao_clima.mp4",
    "titulo": "GTA 6 vai ter furacão e tempestade tropical 🌀 #Shorts"
   },
   {
-   "data": "2026-10-25",
-   "hora": "10:00",
-   "arquivo": "radar_v25_sem_online.mp4",
-   "titulo": "GTA 6 vai chegar SEM modo online? 🎮 #Shorts"
-  },
-  {
-   "data": "2026-10-25",
+   "data": "2026-10-29",
    "hora": "15:00",
    "arquivo": "radar_v18_carros_miami.mp4",
    "titulo": "Carros de GTA 6 estão rodando de verdade em Miami 🚓 #Shorts"
   },
   {
-   "data": "2026-10-26",
-   "hora": "10:00",
-   "arquivo": "radar_v13_trailer_lancamento.mp4",
-   "titulo": "Trailer de lançamento de GTA 6: ação do começo ao fim 🔥 #Shorts"
-  },
-  {
-   "data": "2026-10-26",
+   "data": "2026-10-30",
    "hora": "15:00",
    "arquivo": "radar_v15_detalhes_trailer.mp4",
    "titulo": "3 detalhes do trailer de GTA 6 que quase ninguém viu 👀 #Shorts"
   },
   {
-   "data": "2026-10-27",
-   "hora": "10:00",
-   "arquivo": "radar_v24_julgamento_demitidos.mp4",
-   "titulo": "GTA 6: Rockstar é julgada por demitir 34 devs ⚖️ #Shorts"
-  },
-  {
-   "data": "2026-10-27",
-   "hora": "15:00",
-   "arquivo": "radar_v21_historia_red_dead.mp4",
-   "titulo": "A história de GTA 6 vai ser mais Red Dead 2 do que GTA 5 🤠 #Shorts"
-  },
-  {
-   "data": "2026-10-28",
-   "hora": "10:00",
-   "arquivo": "radar_v22_activision_maiores_jogos.mp4",
-   "titulo": "GTA 6 e CoD, os maiores jogos de 2026 segundo a Activision 🎮 #Shorts"
-  },
-  {
-   "data": "2026-10-28",
-   "hora": "15:00",
-   "arquivo": "radar_v4_midia_fisica_v4.mp4",
-   "titulo": "GTA 6 em mídia física não vem com disco? 📦 #Shorts"
-  },
-  {
-   "data": "2026-10-29",
-   "hora": "10:00",
-   "arquivo": "radar_v26_crimes_miami.mp4",
-   "titulo": "GTA 6: moradores de Miami confessavam crimes pra Rockstar 😳 #Shorts"
-  },
-  {
-   "data": "2026-10-29",
-   "hora": "15:00",
-   "arquivo": "radar_v19_letreiro_vice_city.mp4",
-   "titulo": "Rockstar pagou US$ 975 mil por um letreiro de GTA 6 em Miami 💸 #Shorts"
-  },
-  {
-   "data": "2026-10-30",
-   "hora": "10:00",
-   "arquivo": "radar_v20_narrador_trailer.mp4",
-   "titulo": "GTA 6 não atrasa mais, e esse é o sinal 🎙️ #Shorts"
-  },
-  {
-   "data": "2026-10-30",
+   "data": "2026-10-31",
    "hora": "15:00",
    "arquivo": "radar_v14_cyberleak_desistiu.mp4",
    "titulo": "GTA 6: o CyberLeak desistiu dos vazamentos 🛑 #Shorts"
   },
   {
-   "data": "2026-10-31",
-   "hora": "10:00",
+   "data": "2026-11-01",
+   "hora": "15:00",
+   "arquivo": "radar_v22_activision_maiores_jogos.mp4",
+   "titulo": "GTA 6 e CoD, os maiores jogos de 2026 segundo a Activision 🎮 #Shorts"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "15:00",
+   "arquivo": "radar_v4_midia_fisica_v4.mp4",
+   "titulo": "GTA 6 em mídia física não vem com disco? 📦 #Shorts"
+  },
+  {
+   "data": "2026-11-03",
+   "hora": "15:00",
+   "arquivo": "radar_v19_letreiro_vice_city.mp4",
+   "titulo": "Rockstar pagou US$ 975 mil por um letreiro de GTA 6 em Miami 💸 #Shorts"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "15:00",
+   "arquivo": "aprovados/jason_extended_look_APROVADO.mp4",
+   "titulo": "A teoria sobre o Jason de GTA 6 que bombou lá fora 🤔 #Shorts"
+  },
+  {
+   "data": "2026-11-05",
+   "hora": "15:00",
+   "arquivo": "radar_v21_historia_red_dead.mp4",
+   "titulo": "A história de GTA 6 vai ser mais Red Dead 2 do que GTA 5 🤠 #Shorts"
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "15:00",
+   "arquivo": "radar_v20_narrador_trailer.mp4",
+   "titulo": "GTA 6 não atrasa mais, e esse é o sinal 🎙️ #Shorts"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "15:00",
+   "arquivo": "radar_v24_julgamento_demitidos.mp4",
+   "titulo": "GTA 6: Rockstar é julgada por demitir 34 devs ⚖️ #Shorts"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "15:00",
+   "arquivo": "radar_v26_crimes_miami.mp4",
+   "titulo": "GTA 6: moradores de Miami confessavam crimes pra Rockstar 😳 #Shorts"
+  },
+  {
+   "data": "2026-11-09",
+   "hora": "15:00",
+   "arquivo": "radar_v13_trailer_lancamento.mp4",
+   "titulo": "Trailer de lançamento de GTA 6: ação do começo ao fim 🔥 #Shorts"
+  },
+  {
+   "data": "2026-11-10",
+   "hora": "15:00",
+   "arquivo": "radar_v25_sem_online.mp4",
+   "titulo": "GTA 6 vai chegar SEM modo online? 🎮 #Shorts"
+  },
+  {
+   "data": "2026-11-11",
+   "hora": "15:00",
    "arquivo": "radar_v12_regioes_leonida.mp4",
    "titulo": "As 6 regiões do mapa de GTA 6 (Leonida) 🗺️ #Shorts"
   },
   {
-   "data": "2026-10-31",
+   "data": "2026-11-12",
    "hora": "15:00",
-   "arquivo": "aprovados/jason_extended_look_APROVADO.mp4",
-   "titulo": "A teoria sobre o Jason de GTA 6 que bombou lá fora 🤔 #Shorts"
+   "arquivo": "radar_v7_ps5_desbloqueado.mp4",
+   "titulo": "Se o seu PS5 é desbloqueado, GTA 6 vai te dar dor de cabeça 😬 #Shorts"
+  },
+  {
+   "data": "2026-11-13",
+   "hora": "15:00",
+   "arquivo": "radar_v8_pc_nuvem_mentira.mp4",
+   "titulo": "GTA 6 no PC pela nuvem no lançamento? É mentira ❌ #Shorts"
   }
  ]
 }
