@@ -584,7 +584,7 @@
     {
       "data": "2026-10-21",
       "hora": "21:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v30_espaco_console.mp4",
       "tema": "Tamanho de GTA 6 (120 GB+) e pré-download",
       "formato": "corte",
@@ -594,7 +594,8 @@
         "tema": "alerta/utilidade",
         "gancho": "alerta",
         "origem": "gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download)"
-      }
+      },
+      "link": "https://www.instagram.com/reel/DexoWsUjXNi/"
     }
   ]
 }
