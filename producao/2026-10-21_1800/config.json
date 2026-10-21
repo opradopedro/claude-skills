@@ -1,0 +1,536 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v29_radios_bad_bunny.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_015.mp4",
+   "start": 0.0,
+   "end": 1.589,
+   "layout": "full",
+   "cx": 0.0,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_323.mp4",
+   "start": 1.589,
+   "end": 3.177,
+   "layout": "full",
+   "cx": 0.62,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 3.177,
+   "end": 3.839,
+   "layout": "full",
+   "cx": 0.904,
+   "ss": 46.25
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+   "start": 3.839,
+   "end": 4.891,
+   "layout": "full",
+   "cx": 0.239,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+   "start": 4.891,
+   "end": 5.943,
+   "layout": "full",
+   "cx": 0.427,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_194.mp4",
+   "start": 5.943,
+   "end": 6.994,
+   "layout": "full",
+   "cx": 0.445,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_322.mp4",
+   "start": 6.994,
+   "end": 8.757,
+   "layout": "full",
+   "cx": 0.655,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_316.mp4",
+   "start": 8.757,
+   "end": 10.52,
+   "layout": "full",
+   "cx": 0.397,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_320.mp4",
+   "start": 10.52,
+   "end": 12.283,
+   "layout": "full",
+   "cx": 0.649,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.283,
+   "end": 13.263,
+   "layout": "full",
+   "cx": 0.113,
+   "ss": 27.3
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_112.mp4",
+   "start": 13.263,
+   "end": 14.523,
+   "layout": "full",
+   "cx": 0.429,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 14.523,
+   "end": 15.013,
+   "layout": "full",
+   "cx": 0.674,
+   "ss": 60.25
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_013.mp4",
+   "start": 15.013,
+   "end": 16.273,
+   "layout": "full",
+   "cx": 0.257,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 16.273,
+   "end": 16.839,
+   "layout": "full",
+   "cx": 0.541,
+   "ss": 59.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 16.839,
+   "end": 17.618,
+   "layout": "full",
+   "cx": 0.635,
+   "ss": 52.3
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_281.mp4",
+   "start": 17.618,
+   "end": 18.893,
+   "layout": "full",
+   "cx": 0.481,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_010.mp4",
+   "start": 18.893,
+   "end": 19.706,
+   "layout": "full",
+   "cx": 0.613,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_155.mp4",
+   "start": 19.706,
+   "end": 20.52,
+   "layout": "full",
+   "cx": 1.0,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_287.mp4",
+   "start": 20.52,
+   "end": 21.333,
+   "layout": "full",
+   "cx": 0.591,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_314.mp4",
+   "start": 21.333,
+   "end": 22.34,
+   "layout": "full",
+   "cx": 0.507,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_318.mp4",
+   "start": 22.34,
+   "end": 23.347,
+   "layout": "full",
+   "cx": 0.441,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_056.mp4",
+   "start": 23.347,
+   "end": 25.014,
+   "layout": "full",
+   "cx": 0.61,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 25.014,
+   "end": 26.867,
+   "layout": "full",
+   "cx": 0.657,
+   "ss": 11.2
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_267.mp4",
+   "start": 26.867,
+   "end": 28.534,
+   "layout": "full",
+   "cx": 0.519,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_282.mp4",
+   "start": 28.534,
+   "end": 30.201,
+   "layout": "full",
+   "cx": 0.338,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_125.mp4",
+   "start": 30.201,
+   "end": 31.868,
+   "layout": "full",
+   "cx": 0.457,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_128.mp4",
+   "start": 31.868,
+   "end": 33.267,
+   "layout": "full",
+   "cx": 0.564,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_131.mp4",
+   "start": 33.267,
+   "end": 34.667,
+   "layout": "full",
+   "cx": 0.598,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_197.mp4",
+   "start": 34.667,
+   "end": 36.066,
+   "layout": "full",
+   "cx": 0.0,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_199.mp4",
+   "start": 36.066,
+   "end": 37.201,
+   "layout": "full",
+   "cx": 0.495,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_201.mp4",
+   "start": 37.201,
+   "end": 38.337,
+   "layout": "full",
+   "cx": 0.715,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_272.mp4",
+   "start": 38.337,
+   "end": 39.472,
+   "layout": "full",
+   "cx": 0.429,
+   "ss": 0
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.17,
+   "text": "GTA 6 VAI TER",
+   "hl": true
+  },
+  {
+   "start": 1.17,
+   "end": 1.949,
+   "text": "O BAD BUNNY",
+   "hl": false
+  },
+  {
+   "start": 1.949,
+   "end": 3.119,
+   "text": "COMO LOCUTOR DE",
+   "hl": false
+  },
+  {
+   "start": 3.119,
+   "end": 3.839,
+   "text": "RÁDIO",
+   "hl": false
+  },
+  {
+   "start": 3.839,
+   "end": 4.691,
+   "text": "A ROCKSTAR MOSTROU",
+   "hl": false
+  },
+  {
+   "start": 4.691,
+   "end": 5.542,
+   "text": "AS SEIS PRIMEIRAS",
+   "hl": false
+  },
+  {
+   "start": 5.542,
+   "end": 6.994,
+   "text": "RÁDIOS DE LEONIDA",
+   "hl": false
+  },
+  {
+   "start": 6.994,
+   "end": 7.848,
+   "text": "NA COCOTEO FM",
+   "hl": false
+  },
+  {
+   "start": 7.848,
+   "end": 8.661,
+   "text": "O BAD BUNNY",
+   "hl": false
+  },
+  {
+   "start": 8.661,
+   "end": 9.344,
+   "text": "VIRA O EL",
+   "hl": false
+  },
+  {
+   "start": 9.344,
+   "end": 10.596,
+   "text": "MARTILLO E TOCA",
+   "hl": false
+  },
+  {
+   "start": 10.596,
+   "end": 12.283,
+   "text": "REGGAETON E BACHATA",
+   "hl": false
+  },
+  {
+   "start": 12.283,
+   "end": 13.324,
+   "text": "NA BACK COUNTRY",
+   "hl": false
+  },
+  {
+   "start": 13.324,
+   "end": 14.136,
+   "text": "MORGAN WALLEN E",
+   "hl": false
+  },
+  {
+   "start": 14.136,
+   "end": 14.786,
+   "text": "LANA DEL REY",
+   "hl": false
+  },
+  {
+   "start": 14.786,
+   "end": 16.273,
+   "text": "APRESENTAM COUNTRY",
+   "hl": false
+  },
+  {
+   "start": 16.273,
+   "end": 16.914,
+   "text": "OS CARAS DO",
+   "hl": false
+  },
+  {
+   "start": 16.914,
+   "end": 17.716,
+   "text": "SLAYER COMANDAM A",
+   "hl": false
+  },
+  {
+   "start": 17.716,
+   "end": 18.893,
+   "text": "RÁDIO DE METAL",
+   "hl": false
+  },
+  {
+   "start": 18.893,
+   "end": 19.509,
+   "text": "A FLASH FM",
+   "hl": false
+  },
+  {
+   "start": 19.509,
+   "end": 20.331,
+   "text": "TOCA POP COM",
+   "hl": false
+  },
+  {
+   "start": 20.331,
+   "end": 21.333,
+   "text": "A ROBYN",
+   "hl": false
+  },
+  {
+   "start": 21.333,
+   "end": 21.805,
+   "text": "E TEM RAP",
+   "hl": false
+  },
+  {
+   "start": 21.805,
+   "end": 22.278,
+   "text": "DO SUL COM",
+   "hl": false
+  },
+  {
+   "start": 22.278,
+   "end": 22.907,
+   "text": "TRICK DADDY E",
+   "hl": false
+  },
+  {
+   "start": 22.907,
+   "end": 23.347,
+   "text": "TRINA",
+   "hl": false
+  },
+  {
+   "start": 23.347,
+   "end": 24.991,
+   "text": "E PELA PRIMEIRA",
+   "hl": false
+  },
+  {
+   "start": 24.991,
+   "end": 25.867,
+   "text": "VEZ A RÁDIO",
+   "hl": false
+  },
+  {
+   "start": 25.867,
+   "end": 26.951,
+   "text": "SAI DO CARRO",
+   "hl": false
+  },
+  {
+   "start": 26.951,
+   "end": 27.498,
+   "text": "DÁ PRA OUVIR",
+   "hl": false
+  },
+  {
+   "start": 27.498,
+   "end": 28.093,
+   "text": "ANDANDO",
+   "hl": false
+  },
+  {
+   "start": 28.093,
+   "end": 28.643,
+   "text": "NO FONE DO",
+   "hl": false
+  },
+  {
+   "start": 28.643,
+   "end": 29.469,
+   "text": "CELULAR DO JASON",
+   "hl": false
+  },
+  {
+   "start": 29.469,
+   "end": 30.292,
+   "text": "E DA LUCIA",
+   "hl": false
+  },
+  {
+   "start": 30.292,
+   "end": 31.004,
+   "text": "E TEM ATÉ",
+   "hl": false
+  },
+  {
+   "start": 31.004,
+   "end": 31.868,
+   "text": "PODCAST",
+   "hl": false
+  },
+  {
+   "start": 31.868,
+   "end": 32.451,
+   "text": "VOCÊ VAI DEIXAR",
+   "hl": false
+  },
+  {
+   "start": 32.451,
+   "end": 33.684,
+   "text": "O REGGAETON LIGADO?",
+   "hl": false
+  },
+  {
+   "start": 33.684,
+   "end": 34.548,
+   "text": "COMENTA 1 PRA",
+   "hl": true
+  },
+  {
+   "start": 34.548,
+   "end": 34.949,
+   "text": "SIM",
+   "hl": false
+  },
+  {
+   "start": 34.949,
+   "end": 36.066,
+   "text": "2 PRA METAL",
+   "hl": true
+  },
+  {
+   "start": 36.066,
+   "end": 36.627,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 36.627,
+   "end": 37.607,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 37.607,
+   "end": 38.371,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 38.371,
+   "end": 39.072,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
