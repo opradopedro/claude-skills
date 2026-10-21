@@ -19,9 +19,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comum import carregar
 
 SR = 24000
-ESTILO = ("Narra en español latino neutro como un narrador de historias de terror en YouTube: voz grave, "
-          "lenta, susurrada en los momentos de miedo, con suspenso real. Haz una pausa clara de un segundo "
-          "entre cada párrafo. No leas los números de párrafo. Texto:\n\n")
+# O TTS do Gemini LE em voz alta qualquer instrucao em prosa (e systemInstruction da erro 400):
+# o estilo vai so em tags no comeco do texto.
+ESTILO = os.environ.get("GEMINI_TTS_ESTILO", "[whispering] [slow] [deep voice] ")
 API = "https://generativelanguage.googleapis.com/v1beta"
 KOKORO_URL = "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2"
 

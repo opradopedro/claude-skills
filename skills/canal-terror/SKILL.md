@@ -34,7 +34,7 @@ Variáveis de ambiente (só no ambiente, nunca imprimir, nunca pedir no chat):
 Sem `GEMINI_API_KEY` a voz cai para o Kokoro local (grátis, mais robótica).
 
 Erros comuns:
-- `YT_REFRESH_TOKEN_ES vencido`: o app OAuth está em modo teste e o token vence a cada 7 dias.
+- `YT_REFRESH_TOKEN_ES vencido`: token revogado ou gerado quando o app ainda estava em teste (vence em 7 dias).
   Avise o Pedro para gerar outro no OAuth Playground e atualizar a variável do ambiente.
 - Gemini 429: o plano grátis dá 10 narrações por dia por modelo. O script tenta outros modelos TTS
   e, se nada der, usa o Kokoro.
@@ -121,4 +121,6 @@ essencial? Só então rode sem `--teste`.
   `false` porque a animação não é realista; a voz sintética não exige o selo.
 - `selfDeclaredMadeForKids` sempre `false`. Categoria 24 (Entretenimento), idioma `es`.
 - Final com loop ou frase que puxa comentário; pergunta na descrição.
+- Cada vídeo é uma história completa: a reviravolta do final tem que ficar clara para quem assiste uma vez só
+  (diga o que ela significa, não só insinue).
 - Ideia futura (não fazer ainda): histórias em partes com "Parte 2 mañana a las 9 pm".
