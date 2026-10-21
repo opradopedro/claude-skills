@@ -28,7 +28,8 @@ def resolver(h, timing):
     gancho = None
     if h.get("gancho"):
         g = h["gancho"]
-        ev = next((e for e in eventos if e["tipo"] == g["evento"]), None)
+        ini = cenas[g["cena"]]["t0"] - 0.5
+        ev = next((e for e in eventos if e["tipo"] == g["evento"] and e["t"] >= ini), None)
         if ev:
             gancho = {"cena": g["cena"], "t": ev["t"] + g.get("mas", 0.4), "dur": g.get("dur", 0.8)}
     return {"segs": segs, "cenas": cenas, "eventos": eventos, "destaque": h.get("destaque", []),

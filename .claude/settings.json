@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install -q numpy soundfile playwright sherpa-onnx)",
+      "Bash(python3 skills/canal-terror/scripts/produce.py:*)",
+      "Bash(python3 scripts/produce.py:*)",
+      "Bash(cd skills/canal-terror && python3 scripts/produce.py:*)"
+    ]
+  }
+}

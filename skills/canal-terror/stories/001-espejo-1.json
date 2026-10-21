@@ -1,0 +1,180 @@
+{
+ "codigo": "HM001",
+ "formato": "Testigo",
+ "titulo": "Mi reflejo tardó un segundo en moverse 😨 Parte 1 #terror #shorts",
+ "descripcion": "Mi abuela cubría todos los espejos a medianoche. Ahora sé por qué.\n\n▶ Parte 2: mañana a las 9 pm.\n¿Tú cubres los espejos de tu casa?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #espejo",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "espejo",
+  "reflejo"
+ ],
+ "lineas": [
+  {
+   "texto": "Anoche, el espejo de mi baño tocó dos veces. Desde adentro.",
+   "pausa": 1.0,
+   "vel": 0.88
+  },
+  {
+   "texto": "Mi abuela cubría los espejos a medianoche. Para que no se acostumbren a vernos, decía.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "Cuando murió, nadie los volvió a cubrir.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Una noche, me lavé la cara y levanté la vista.",
+   "pausa": 0.4
+  },
+  {
+   "texto": "Mi reflejo tardó un segundo en levantar la suya.",
+   "pausa": 0.8,
+   "vel": 0.85
+  },
+  {
+   "texto": "Y luego... sonrió. Yo no estaba sonriendo.",
+   "pausa": 1.0,
+   "vel": 0.82
+  },
+  {
+   "texto": "Lo tapé con una sábana. Pero anoche, debajo de la tela, escuché mi propia voz.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Me dijo: déjame salir.",
+   "pausa": 1.0,
+   "vel": 0.8
+  },
+  {
+   "texto": "Parte dos, mañana a las nueve de la noche.",
+   "pausa": 0.3,
+   "vel": 0.88
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "tela",
+   "p": {
+    "mano": [
+     0.35,
+     0
+    ],
+    "zoom": 0.05
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "tres_espejos"
+  },
+  {
+   "linea": 3,
+   "comp": "bano",
+   "p": {
+    "zoom": 0.14,
+    "fy": 0.4
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "tela",
+   "p": {
+    "mano": [
+     0,
+     0.3
+    ],
+    "zoom": 0.12
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "PARTE 2",
+     "Mañana · 9 PM"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "golpe",
+   "linea": 0,
+   "en": "fin",
+   "mas": 0.1
+  },
+  {
+   "tipo": "golpe",
+   "linea": 0,
+   "en": "fin",
+   "mas": 0.55
+  },
+  {
+   "tipo": "descubre",
+   "linea": 2,
+   "en": "inicio"
+  },
+  {
+   "tipo": "levanta",
+   "linea": 3,
+   "en": 0.8
+  },
+  {
+   "tipo": "sonrisa",
+   "linea": 5,
+   "en": "inicio",
+   "mas": -0.1
+  },
+  {
+   "tipo": "susto",
+   "linea": 5,
+   "en": "inicio",
+   "mas": -0.1
+  },
+  {
+   "tipo": "golpe",
+   "linea": 6,
+   "en": 0.55
+  },
+  {
+   "tipo": "golpe",
+   "linea": 6,
+   "en": 0.62
+  },
+  {
+   "tipo": "revela",
+   "linea": 7,
+   "en": 0.4
+  },
+  {
+   "tipo": "susto",
+   "linea": 7,
+   "en": 0.7
+  }
+ ],
+ "destaque": [
+  "adentro",
+  "sonri",
+  "salir",
+  "tardó",
+  "dos veces",
+  "parte 2"
+ ],
+ "gancho": {
+  "cena": 2,
+  "evento": "sonrisa",
+  "mas": 0.5,
+  "dur": 0.8
+ },
+ "serie": "espejo",
+ "serie_titulo": "El reflejo | Hora Muerta",
+ "parte": 1,
+ "partes": 2
+}

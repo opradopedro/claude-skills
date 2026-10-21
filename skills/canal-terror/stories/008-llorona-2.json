@@ -1,0 +1,161 @@
+{
+ "codigo": "HM008",
+ "formato": "Leyenda",
+ "titulo": "Él nunca volvió a hablar 😨 La Llorona Parte 2 #shorts",
+ "descripcion": "Final de la historia de la Llorona en el río.\n\n¿Crees en la Llorona?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #lallorona #leyendasmexicanas #mexico",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "la llorona",
+  "leyendas mexicanas",
+  "mexico"
+ ],
+ "lineas": [
+  {
+   "texto": "Parte dos. La Llorona le preguntó si era su hijo. Él no dijo nada.",
+   "pausa": 0.7,
+   "vel": 0.86
+  },
+  {
+   "texto": "Mi prima gritó su nombre, y la mujer se hundió en el agua.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "Nadie durmió. El llanto daba vueltas alrededor de las carpas.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "Al amanecer, él ya no estaba.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Lo encontraron sentado en la orilla, empapado, mirando el río.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Nunca volvió a hablar. Solo repite una frase, cada noche, a medianoche.",
+   "pausa": 1.0
+  },
+  {
+   "texto": "Ya encontré a mi mamá.",
+   "pausa": 0.3,
+   "vel": 0.76
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "rio",
+   "p": {
+    "dist": [
+     0.05,
+     0.0
+    ],
+    "zoom": 0.06
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "rio",
+   "p": {
+    "dist": [
+     0.5,
+     1
+    ]
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "vela",
+   "p": {
+    "foto": false
+   }
+  },
+  {
+   "linea": 4,
+   "comp": "rio",
+   "p": {
+    "dist": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "vela",
+   "p": {
+    "zoom": 0.14
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "grito",
+   "linea": 0,
+   "en": "inicio",
+   "mas": -0.3,
+   "dur": 0.4
+  },
+  {
+   "tipo": "grito",
+   "linea": 2,
+   "en": 0.4,
+   "dur": 2.2
+  },
+  {
+   "tipo": "apagon",
+   "linea": 3,
+   "en": 0.5,
+   "dur": 1.2
+  },
+  {
+   "tipo": "foto",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "apaga",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "susto",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "negro",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.8,
+   "dur": 1.0
+  }
+ ],
+ "destaque": [
+  "su hijo",
+  "se hundió",
+  "ya no estaba",
+  "nunca",
+  "mi mamá"
+ ],
+ "gancho": {
+  "cena": 0,
+  "evento": "grito",
+  "mas": 0.3,
+  "dur": 0.8
+ },
+ "serie": "llorona",
+ "serie_titulo": "La Llorona | Hora Muerta",
+ "parte": 2,
+ "partes": 2,
+ "anterior": "HM007"
+}
