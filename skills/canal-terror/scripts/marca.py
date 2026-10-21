@@ -53,7 +53,10 @@ BANNER = FUNDO.replace("(W, H, cx, cy, r) => {", "() => { const W = 2560, H = 14
 def main(saida):
     os.makedirs(saida, exist_ok=True)
     with sync_playwright() as p:
-        b = p.chromium.launch()
+        try:
+            b = p.chromium.launch()
+        except Exception:  # playwright do pip mais novo que o Chromium da maquina: usa o instalado
+            b = p.chromium.launch(executable_path=os.environ.get("HM_CHROMIUM", "/opt/pw-browsers/chromium"))
         pg = b.new_page(viewport={"width": 1080, "height": 1920})
         pg.goto("file://" + ENGINE)
         for nome, js in (("perfil.png", PERFIL), ("banner.png", BANNER)):
