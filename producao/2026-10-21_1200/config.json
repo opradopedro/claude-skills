@@ -1,0 +1,490 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v28_jason_lucia_terminar.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_203.mp4",
+   "start": 0.0,
+   "end": 1.558,
+   "layout": "full",
+   "cx": 0.328,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 1.558,
+   "end": 2.408,
+   "layout": "full",
+   "cx": 0.652,
+   "ss": 66.5
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+   "start": 2.408,
+   "end": 3.825,
+   "layout": "full",
+   "cx": 0.47,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 3.825,
+   "end": 5.528,
+   "layout": "full",
+   "cx": 0.698,
+   "ss": 11.2
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_093.mp4",
+   "start": 5.528,
+   "end": 7.232,
+   "layout": "full",
+   "cx": 0.525,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_099.mp4",
+   "start": 7.232,
+   "end": 8.935,
+   "layout": "full",
+   "cx": 0.716,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 8.935,
+   "end": 9.803,
+   "layout": "full",
+   "cx": 0.255,
+   "ss": 26.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_148.mp4",
+   "start": 9.803,
+   "end": 11.539,
+   "layout": "full",
+   "cx": 0.0,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 11.539,
+   "end": 12.754,
+   "layout": "full",
+   "cx": 0.713,
+   "ss": 33.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_180.mp4",
+   "start": 12.754,
+   "end": 14.489,
+   "layout": "full",
+   "cx": 0.482,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+   "start": 14.489,
+   "end": 16.269,
+   "layout": "full",
+   "cx": 0.697,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_207.mp4",
+   "start": 16.269,
+   "end": 18.048,
+   "layout": "full",
+   "cx": 0.388,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_146.mp4",
+   "start": 18.048,
+   "end": 19.754,
+   "layout": "full",
+   "cx": 0.839,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 19.754,
+   "end": 20.351,
+   "layout": "full",
+   "cx": 0.602,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 20.351,
+   "end": 21.375,
+   "layout": "full",
+   "cx": 0.33,
+   "ss": 68.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 21.375,
+   "end": 22.1,
+   "layout": "full",
+   "cx": 0.633,
+   "ss": 63.25
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 22.1,
+   "end": 22.953,
+   "layout": "full",
+   "cx": 0.301,
+   "ss": 72.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 22.953,
+   "end": 24.489,
+   "layout": "full",
+   "cx": 0.483,
+   "ss": 29.7
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_165.mp4",
+   "start": 24.489,
+   "end": 26.352,
+   "layout": "full",
+   "cx": 0.221,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 26.352,
+   "end": 27.237,
+   "layout": "full",
+   "cx": 0.961,
+   "ss": 37.25
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_152.mp4",
+   "start": 27.237,
+   "end": 29.1,
+   "layout": "full",
+   "cx": 0.383,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_257.mp4",
+   "start": 29.1,
+   "end": 30.722,
+   "layout": "full",
+   "cx": 0.973,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_001.mp4",
+   "start": 30.722,
+   "end": 32.344,
+   "layout": "full",
+   "cx": 0.281,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_259.mp4",
+   "start": 32.344,
+   "end": 33.966,
+   "layout": "full",
+   "cx": 0.542,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 33.966,
+   "end": 35.051,
+   "layout": "full",
+   "cx": 0.334,
+   "ss": 40.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_161.mp4",
+   "start": 35.051,
+   "end": 36.194,
+   "layout": "full",
+   "cx": 0.521,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_085.mp4",
+   "start": 36.194,
+   "end": 37.336,
+   "layout": "full",
+   "cx": 0.553,
+   "ss": 0
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.11,
+   "text": "GTA 6 VAI DEIXAR",
+   "hl": true
+  },
+  {
+   "start": 1.11,
+   "end": 1.745,
+   "text": "O JASON E",
+   "hl": false
+  },
+  {
+   "start": 1.745,
+   "end": 2.855,
+   "text": "A LUCIA TERMINAREM",
+   "hl": false
+  },
+  {
+   "start": 2.855,
+   "end": 3.825,
+   "text": "O NAMORO",
+   "hl": false
+  },
+  {
+   "start": 3.825,
+   "end": 4.643,
+   "text": "QUEM CONFIRMOU FOI",
+   "hl": false
+  },
+  {
+   "start": 4.643,
+   "end": 5.298,
+   "text": "O ROB NELSON",
+   "hl": false
+  },
+  {
+   "start": 5.298,
+   "end": 6.689,
+   "text": "CHEFE DA ROCKSTAR",
+   "hl": false
+  },
+  {
+   "start": 6.689,
+   "end": 7.25,
+   "text": "NORTH",
+   "hl": false
+  },
+  {
+   "start": 7.25,
+   "end": 8.123,
+   "text": "O ROMANCE É",
+   "hl": false
+  },
+  {
+   "start": 8.123,
+   "end": 8.935,
+   "text": "OPCIONAL",
+   "hl": false
+  },
+  {
+   "start": 8.935,
+   "end": 9.865,
+   "text": "VOCÊ ESCOLHE SE",
+   "hl": false
+  },
+  {
+   "start": 9.865,
+   "end": 10.795,
+   "text": "ELES VIRAM CASAL",
+   "hl": false
+  },
+  {
+   "start": 10.795,
+   "end": 11.569,
+   "text": "OU SÓ PARCEIROS",
+   "hl": false
+  },
+  {
+   "start": 11.569,
+   "end": 12.325,
+   "text": "DE CRIME",
+   "hl": false
+  },
+  {
+   "start": 12.325,
+   "end": 12.925,
+   "text": "E O GOLPE",
+   "hl": false
+  },
+  {
+   "start": 12.925,
+   "end": 13.826,
+   "text": "CONTINUA DO MESMO",
+   "hl": false
+  },
+  {
+   "start": 13.826,
+   "end": 14.489,
+   "text": "JEITO",
+   "hl": false
+  },
+  {
+   "start": 14.489,
+   "end": 15.065,
+   "text": "MAS SE VOCÊ",
+   "hl": false
+  },
+  {
+   "start": 15.065,
+   "end": 16.307,
+   "text": "IGNORAR O PARCEIRO",
+   "hl": false
+  },
+  {
+   "start": 16.307,
+   "end": 17.136,
+   "text": "ELE FICA MENOS",
+   "hl": false
+  },
+  {
+   "start": 17.136,
+   "end": 18.048,
+   "text": "APEGADO",
+   "hl": false
+  },
+  {
+   "start": 18.048,
+   "end": 18.926,
+   "text": "E TEM ESCOLHA",
+   "hl": false
+  },
+  {
+   "start": 18.926,
+   "end": 19.686,
+   "text": "TÓXICA",
+   "hl": false
+  },
+  {
+   "start": 19.686,
+   "end": 21.008,
+   "text": "CONTAR OU ESCONDER",
+   "hl": false
+  },
+  {
+   "start": 21.008,
+   "end": 21.88,
+   "text": "AS COISAS",
+   "hl": false
+  },
+  {
+   "start": 21.88,
+   "end": 22.902,
+   "text": "E ESCONDER PODE",
+   "hl": false
+  },
+  {
+   "start": 22.902,
+   "end": 23.754,
+   "text": "DAR PROBLEMA MAIOR",
+   "hl": false
+  },
+  {
+   "start": 23.754,
+   "end": 24.489,
+   "text": "DEPOIS",
+   "hl": false
+  },
+  {
+   "start": 24.489,
+   "end": 25.144,
+   "text": "LÁ FORA TEM",
+   "hl": false
+  },
+  {
+   "start": 25.144,
+   "end": 25.963,
+   "text": "GENTE NO TIKTOK",
+   "hl": false
+  },
+  {
+   "start": 25.963,
+   "end": 27.109,
+   "text": "DIZENDO QUE NAMORAR",
+   "hl": false
+  },
+  {
+   "start": 27.109,
+   "end": 27.764,
+   "text": "A LUCIA NO",
+   "hl": false
+  },
+  {
+   "start": 27.764,
+   "end": 28.42,
+   "text": "JOGO JÁ É",
+   "hl": false
+  },
+  {
+   "start": 28.42,
+   "end": 29.1,
+   "text": "TRAIÇÃO",
+   "hl": false
+  },
+  {
+   "start": 29.1,
+   "end": 30.018,
+   "text": "PENSA COMIGO",
+   "hl": false
+  },
+  {
+   "start": 30.018,
+   "end": 31.271,
+   "text": "JOGAR GTA 6 É",
+   "hl": true
+  },
+  {
+   "start": 31.271,
+   "end": 31.827,
+   "text": "TRAIR?",
+   "hl": false
+  },
+  {
+   "start": 31.827,
+   "end": 32.618,
+   "text": "DIGITA 1 PRA",
+   "hl": true
+  },
+  {
+   "start": 32.618,
+   "end": 32.776,
+   "text": "SIM",
+   "hl": false
+  },
+  {
+   "start": 32.776,
+   "end": 33.966,
+   "text": "2 PRA NÃO",
+   "hl": true
+  },
+  {
+   "start": 33.966,
+   "end": 34.528,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 34.528,
+   "end": 35.513,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 35.513,
+   "end": 36.233,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 36.233,
+   "end": 36.936,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
