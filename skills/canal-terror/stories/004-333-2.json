@@ -1,0 +1,189 @@
+{
+ "codigo": "HM004",
+ "formato": "Regla",
+ "titulo": "La voz de mi madre quería entrar 😨 Parte 2 #terror #shorts",
+ "descripcion": "Final de la regla de las 3:33.\n\n¿Tú habrías abierto la puerta?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #333 #reglas",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "3:33",
+  "reglas de terror"
+ ],
+ "lineas": [
+  {
+   "texto": "Parte dos. La puerta de mi cuarto se abrió sola.",
+   "pausa": 0.6,
+   "vel": 0.86
+  },
+  {
+   "texto": "Unos dedos largos, demasiado largos, se asomaron por el borde.",
+   "pausa": 0.9,
+   "vel": 0.84
+  },
+  {
+   "texto": "La voz de mi madre susurró: déjame entrar... tengo frío.",
+   "pausa": 0.9,
+   "vel": 0.8
+  },
+  {
+   "texto": "Me tapé los oídos y conté hasta el amanecer.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "A las seis, la puerta se cerró de golpe.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "Mi madre llegó del hospital. Le conté todo. Se quedó pálida.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "La abuela había muerto esa noche... a las tres y treinta y tres.",
+   "pausa": 0.9,
+   "vel": 0.84
+  },
+  {
+   "texto": "Y antes de morir... dijo mi nombre.",
+   "pausa": 1.0,
+   "vel": 0.8
+  },
+  {
+   "texto": "Si alguien te llama a las tres y treinta y tres... no contestes.",
+   "pausa": 0.3,
+   "vel": 0.84
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0.12,
+     0.2
+    ]
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "reloj",
+   "p": {
+    "hora": "5:59",
+    "parpadeo": 0.2
+   }
+  },
+  {
+   "linea": 4,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0.2,
+     0
+    ]
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "vela"
+  },
+  {
+   "linea": 6,
+   "comp": "reloj",
+   "p": {
+    "parpadeo": 1,
+    "zoom": 0.12
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "vela",
+   "p": {
+    "zoom": 0.12
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "3:33",
+     "No contestes"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "mano",
+   "linea": 1,
+   "en": 0.3
+  },
+  {
+   "tipo": "susto",
+   "linea": 1,
+   "en": 0.3
+  },
+  {
+   "tipo": "golpe",
+   "linea": 4,
+   "en": "fin",
+   "mas": -0.3
+  },
+  {
+   "tipo": "susto",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.1
+  },
+  {
+   "tipo": "foto",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "apaga",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "susto",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "negro",
+   "linea": 8,
+   "en": "fin",
+   "mas": 0.2,
+   "dur": 1.0
+  }
+ ],
+ "destaque": [
+  "dedos",
+  "largos",
+  "déjame entrar",
+  "golpe",
+  "muerto",
+  "mi nombre",
+  "no contestes"
+ ],
+ "gancho": {
+  "cena": 0,
+  "evento": "mano",
+  "mas": 0.6,
+  "dur": 0.8
+ },
+ "serie": "333",
+ "serie_titulo": "La regla de las 3:33 | Hora Muerta",
+ "parte": 2,
+ "partes": 2,
+ "anterior": "HM003"
+}

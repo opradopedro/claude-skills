@@ -1,0 +1,185 @@
+{
+ "codigo": "HM003",
+ "formato": "Regla",
+ "titulo": "Nunca contestes a las 3:33 😨 Parte 1 #terror #shorts",
+ "descripcion": "Si alguien te llama por tu nombre a las 3:33 de la mañana... no contestes.\n\n▶ Parte 2: mañana a las 9 pm.\n¿Alguna vez despertaste a las 3:33?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #333 #reglas",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "3:33",
+  "reglas de terror"
+ ],
+ "lineas": [
+  {
+   "texto": "Si alguien te llama por tu nombre a las tres y treinta y tres de la mañana... no contestes.",
+   "pausa": 0.9,
+   "vel": 0.86
+  },
+  {
+   "texto": "Anoche desperté. El reloj marcaba las tres y treinta y tres.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "Desde el pasillo, la voz de mi madre me llamó: Daniel... ven.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Casi respondí. Entonces, mi teléfono vibró.",
+   "pausa": 0.4
+  },
+  {
+   "texto": "Era mi madre: hijo, sigo en el hospital con la abuela.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "La voz del pasillo volvió a hablar. Más cerca.",
+   "pausa": 0.4
+  },
+  {
+   "texto": "Daniel... ¿por qué no contestas?",
+   "pausa": 0.9,
+   "vel": 0.78
+  },
+  {
+   "texto": "Y la puerta de mi cuarto empezó a abrirse.",
+   "pausa": 1.0
+  },
+  {
+   "texto": "Parte dos, mañana a las nueve de la noche.",
+   "pausa": 0.3,
+   "vel": 0.88
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "reloj",
+   "p": {
+    "parpadeo": 0.3
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "reloj",
+   "p": {
+    "parpadeo": 1,
+    "zoom": 0.1
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "pasillo",
+   "p": {
+    "dist": [
+     1,
+     0.8
+    ]
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "telefono",
+   "p": {
+    "hora": "3:33",
+    "de": "Mamá",
+    "msg": [
+     "Hijo, sigo en el hospital",
+     "con la abuela."
+    ]
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "pasillo",
+   "p": {
+    "dist": [
+     0.7,
+     0.4
+    ],
+    "parpadeo": 1,
+    "zoom": 0.12
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0.14
+    ]
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "PARTE 2",
+     "Mañana · 9 PM"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "vibra",
+   "linea": 3,
+   "en": 0.6,
+   "dur": 1.8
+  },
+  {
+   "tipo": "mensaje",
+   "linea": 4,
+   "en": "inicio",
+   "mas": -0.2
+  },
+  {
+   "tipo": "acerca",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.2
+  },
+  {
+   "tipo": "susto",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.2
+  },
+  {
+   "tipo": "mano",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.1
+  },
+  {
+   "tipo": "susto",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.1
+  }
+ ],
+ "destaque": [
+  "no contestes",
+  "ven",
+  "cerca",
+  "hospital",
+  "abrirse",
+  "parte 2"
+ ],
+ "gancho": {
+  "cena": 4,
+  "evento": "acerca",
+  "mas": 0.35,
+  "dur": 0.8
+ },
+ "serie": "333",
+ "serie_titulo": "La regla de las 3:33 | Hora Muerta",
+ "parte": 1,
+ "partes": 2
+}

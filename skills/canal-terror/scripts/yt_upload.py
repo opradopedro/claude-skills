@@ -63,6 +63,27 @@ def publicados(token=None):
     return out
 
 
+def _post(path, token, corpo, **q):
+    url = f"{API}/{path}?" + urllib.parse.urlencode(q)
+    req = urllib.request.Request(url, json.dumps(corpo).encode(), method="POST", headers={
+        "Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=UTF-8"})
+    with urllib.request.urlopen(req) as r:
+        return json.load(r)
+
+
+def na_playlist(token, titulo, video_id):
+    """Poe o video na playlist da serie (cria se nao existir). Custa 50 unidades por escrita."""
+    pid = None
+    for pl in get("playlists", token, part="snippet", mine="true", maxResults=50).get("items", []):
+        if pl["snippet"]["title"] == titulo:
+            pid = pl["id"]
+    if not pid:
+        pid = _post("playlists", token, {"snippet": {"title": titulo, "defaultLanguage": "es"},
+                                          "status": {"privacyStatus": "public"}}, part="snippet,status")["id"]
+    _post("playlistItems", token, {"snippet": {"playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": video_id}}},
+          part="snippet")
+
+
 def subir(path):
     v = json.load(open(path, encoding="utf-8"))
     arquivo = v["arquivo"]
@@ -90,6 +111,11 @@ def subir(path):
             resp = json.load(r)
     except urllib.error.HTTPError as e:
         sys.exit(f"upload falhou: {e.code} {e.read().decode()[:500]}")
+    if v.get("serie_titulo"):
+        try:
+            na_playlist(token, v["serie_titulo"], resp["id"])
+        except Exception as e:
+            print("playlist falhou (o video subiu):", e, file=sys.stderr)
     st = resp.get("status", {})
     print(resp["id"], st.get("privacyStatus"), st.get("publishAt", ""))
     return resp

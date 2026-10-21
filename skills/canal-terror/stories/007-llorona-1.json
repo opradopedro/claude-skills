@@ -1,8 +1,8 @@
 {
- "codigo": "HM006",
+ "codigo": "HM007",
  "formato": "Leyenda",
- "titulo": "Le preguntó: ¿tú eres mi hijo? 😨 La Llorona #shorts",
- "descripcion": "La Llorona busca a sus hijos junto a los ríos desde hace siglos.\n\n¿Alguien de tu familia la escuchó?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #lallorona #leyendasmexicanas #mexico",
+ "titulo": "Le preguntó: ¿tú eres mi hijo? 😨 La Llorona Parte 1 #shorts",
+ "descripcion": "La Llorona busca a sus hijos junto a los ríos desde hace siglos.\n\n▶ Parte 2: mañana a las 9 pm.\n¿Alguien de tu familia la escuchó?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #lallorona #leyendasmexicanas #mexico",
  "tags": [
   "historias de terror",
   "relatos de terror",
@@ -22,15 +22,11 @@
    "vel": 0.86
   },
   {
-   "texto": "Es la Llorona. Busca a sus hijos desde hace más de cuatrocientos años.",
-   "pausa": 0.6
-  },
-  {
    "texto": "Mi prima acampó con sus amigos junto a un río. A medianoche, oyeron el llanto.",
    "pausa": 0.9
   },
   {
-   "texto": "Una mujer de blanco caminaba por la orilla, con el cabello cubriéndole la cara.",
+   "texto": "Una mujer de blanco caminaba por la orilla, con el cabello tapándole la cara.",
    "pausa": 0.6
   },
   {
@@ -48,9 +44,14 @@
    "vel": 0.78
   },
   {
-   "texto": "Él no volvió a hablar nunca más.",
-   "pausa": 0.3,
+   "texto": "Él no contestó. Y ella... empezó a sonreír.",
+   "pausa": 1.0,
    "vel": 0.82
+  },
+  {
+   "texto": "Parte dos, mañana a las nueve de la noche.",
+   "pausa": 0.3,
+   "vel": 0.88
   }
  ],
  "cenas": [
@@ -69,17 +70,6 @@
    "comp": "rio",
    "p": {
     "dist": [
-     0.95,
-     0.9
-    ],
-    "zoom": 0.04
-   }
-  },
-  {
-   "linea": 3,
-   "comp": "rio",
-   "p": {
-    "dist": [
      0.75,
      0.6
     ],
@@ -87,7 +77,7 @@
    }
   },
   {
-   "linea": 6,
+   "linea": 5,
    "comp": "rio",
    "p": {
     "dist": [
@@ -99,9 +89,12 @@
   },
   {
    "linea": 7,
-   "comp": "vela",
+   "comp": "texto",
    "p": {
-    "foto": true
+    "lineas": [
+     "PARTE 2",
+     "Mañana · 9 PM"
+    ]
    }
   }
  ],
@@ -114,44 +107,32 @@
   },
   {
    "tipo": "grito",
-   "linea": 2,
+   "linea": 1,
    "en": "fin",
    "mas": 0.1,
    "dur": 1.6
   },
   {
    "tipo": "grito",
-   "linea": 5,
+   "linea": 4,
    "en": 0.62,
    "dur": 1.0
   },
   {
    "tipo": "susto",
-   "linea": 5,
+   "linea": 4,
    "en": 0.62
   },
   {
    "tipo": "grito",
-   "linea": 6,
+   "linea": 5,
    "en": "inicio",
    "mas": -0.1,
    "dur": 0.4
   },
   {
-   "tipo": "foto",
-   "linea": 7,
-   "en": "fin",
-   "mas": 0.1
-  },
-  {
-   "tipo": "apaga",
-   "linea": 7,
-   "en": "fin",
-   "mas": 0.1
-  },
-  {
    "tipo": "susto",
-   "linea": 7,
+   "linea": 6,
    "en": "fin",
    "mas": 0.1
   }
@@ -160,12 +141,17 @@
   "ya está aquí",
   "frente a él",
   "mi hijo",
-  "nunca"
+  "sonreír",
+  "parte 2"
  ],
  "gancho": {
-  "cena": 2,
+  "cena": 1,
   "evento": "grito",
   "mas": 0.3,
   "dur": 0.8
- }
+ },
+ "serie": "llorona",
+ "serie_titulo": "La Llorona | Hora Muerta",
+ "parte": 1,
+ "partes": 2
 }

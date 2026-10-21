@@ -22,12 +22,16 @@ cd skills/canal-terror
 python3 scripts/produce.py --proximo --subir --saida /tmp/hm
 ```
 
-`--proximo` consulta o canal, pega o primeiro `stories/*.json` cujo código (ex. `HM008`) ainda não
-foi subido e agenda no próximo horário livre das 21h. A saída termina com
-`AGENDADO HM008 https://youtu.be/... publica em ...`.
+As histórias são **séries de 2 partes ou mais** (pedido do Pedro: prender o público e levar a mais vídeos).
+`--proximo` consulta o canal, pega a primeira série de `stories/` com parte ainda não subida e agenda
+**todas as partes de uma vez**, em dias seguidos às 21h (a parte 1 promete a 2 para "mañana", então
+elas não podem se separar). Cada parte sai com a tag do código (`HM009`) e entra na playlist da série;
+a descrição da parte 2 ganha o link da parte 1. A saída tem uma linha `AGENDADO HMxxx https://youtu.be/...`
+por parte.
 
-Se a saída for `SEM ROTEIRO`, escreva um roteiro novo (seção abaixo), confira os quadros com
-`--teste` e rode de novo. Nunca suba sem ter olhado os quadros de um roteiro novo.
+- `FILA CHEIA`: já há 2 ou mais vídeos agendados no futuro; não faz nada hoje (normal, dia sim dia não).
+- `SEM ROTEIRO`: escreva a próxima série (seção abaixo), confira os quadros com `--teste` e rode de novo.
+  Nunca suba sem ter olhado os quadros de um roteiro novo.
 
 Variáveis de ambiente (só no ambiente, nunca imprimir, nunca pedir no chat):
 `GEMINI_API_KEY`, `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN_ES`.
@@ -52,15 +56,28 @@ Erros comuns:
 | `scripts/yt_upload.py` | `subir video.json` e `publicados` (códigos HMxxx já no canal, pela tag) |
 | `scripts/comum.py` | Converte cenas e eventos do roteiro em segundos |
 
-## Escrever um roteiro novo
+## Escrever uma série nova
 
-Arquivo `stories/NNN-slug.json`, com o próximo código livre. Use o backlog de
-[references/temas.md](references/temas.md) e as regras de lá. Formato:
+Um arquivo por parte: `stories/NNN-slug-P.json` (NNN = número do código, P = parte), códigos seguidos.
+Use o backlog de [references/temas.md](references/temas.md) e as regras de lá.
+
+- Parte 1 (40 a 55 s): gancho forte, a história cresce e **para no pior momento**. Penúltima frase é o
+  cliffhanger; a última é sempre `"Parte dos, mañana a las nueve de la noche."` com a cena
+  `{"comp": "texto", "p": {"lineas": ["PARTE 2", "Mañana · 9 PM"]}}`. Na descrição: `▶ Parte 2: mañana a las 9 pm.`
+- Parte 2 (e seguintes): começa com `"Parte dos."` + uma frase que relembra onde parou, e o `gancho` mostra
+  o susto da própria parte. A última parte fecha a história com uma reviravolta **explicada** (quem assiste
+  só uma vez tem que entender) e uma frase de regra ou loop no fim.
+- Campos de série em todas as partes: `"serie": "slug"`, `"serie_titulo": "Nome | Hora Muerta"` (vira playlist),
+  `"parte": 1`, `"partes": 2`; da parte 2 em diante, `"anterior": "HM009"` (código da parte anterior).
+- Título com `Parte 1` / `Parte 2`.
+
+Formato de cada parte:
 
 ```json
 {
-  "codigo": "HM008", "formato": "Leyenda",
-  "titulo": "Gancho curto com emoji 😨 #terror #shorts",
+  "codigo": "HM009", "formato": "Leyenda",
+  "serie": "sayona", "serie_titulo": "La Sayona | Hora Muerta", "parte": 1, "partes": 2,
+  "titulo": "Gancho curto com emoji 😨 Parte 1 #terror #shorts",
   "descripcion": "1 frase de gancho\n\nPergunta para comentarios\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror ...",
   "tags": ["historias de terror", "..."],
   "lineas": [{"texto": "Frase falada", "pausa": 0.6, "vel": 0.9}],
@@ -71,7 +88,7 @@ Arquivo `stories/NNN-slug.json`, com o próximo código livre. Use o backlog de
 }
 ```
 
-- `lineas`: 7 a 11 frases, 35 a 55 s no total. `pausa` é o silêncio depois da linha; `vel` só vale no Kokoro.
+- `lineas`: 7 a 9 frases curtas, no máximo 58 s (a voz do Gemini é lenta: ~5 s por frase). `pausa` é o silêncio depois da linha; `vel` só vale no Kokoro.
 - `cenas`: cada cena começa 0,25 s antes da linha indicada e vai até a próxima cena.
   `p.zoom` (aproximação lenta, padrão 0.06), `p.fy` (centro do zoom, 0 a 1), `p.niebla`, `p.temblor`.
 - `eventos`: momento = linha + `en` (`inicio`, `fin` ou fração 0 a 1) + `mas` segundos. `dur` opcional.
@@ -91,7 +108,7 @@ Componentes (`comp`) e o que cada um aceita:
 | `telefono` | celular no escuro | `hora`, `de`, `msg` [linhas] | `mensaje`, `vibra` |
 | `tela` | espelho coberto por pano | `mano` (marca de mão 0 a 1) | `golpe`, `revela` (olho e sorriso) |
 | `tres_espejos` | três espelhos cobertos e vela | | `descubre` |
-| `bano` | reflexo atrasado no espelho | `atraso` | `levanta`, `reflejo`, `sonrisa` |
+| `bano` | reflexo atrasado no espelho | `atraso` | `levanta`, `reflejo`, `sonrisa`, `raja` (vidro racha) |
 | `camino` | estrada de terra, lua, figura de chapéu | `dist`, `sombrero`, `ojos`, `figura` | `acerca` |
 | `autobus` | ônibus vazio à noite | `figura` (passageiro no fundo), `lado` | `aparece`, `voltea` |
 | `ojos` | mata com olhos vermelhos | `n`, `cerca` [ini, fim], `perro`, `blanco`, `color` "r,g,b" | `acerca` |
@@ -107,7 +124,7 @@ ou -1). Confira com `--teste` e mande a mudança por PR.
 Conferir antes de subir:
 
 ```bash
-python3 scripts/produce.py stories/008-x.json --saida /tmp/hm --teste   # JPGs em /tmp/hm/HM008_*.jpg
+python3 scripts/produce.py stories/009-x-1.json stories/010-x-2.json --saida /tmp/hm --teste   # JPGs em /tmp/hm/HM009_*.jpg
 ```
 
 Olhe os JPGs: o susto aparece na tela? O primeiro quadro (gancho) assusta? A legenda não cobre o
@@ -123,4 +140,3 @@ essencial? Só então rode sem `--teste`.
 - Final com loop ou frase que puxa comentário; pergunta na descrição.
 - Cada vídeo é uma história completa: a reviravolta do final tem que ficar clara para quem assiste uma vez só
   (diga o que ela significa, não só insinue).
-- Ideia futura (não fazer ainda): histórias em partes com "Parte 2 mañana a las 9 pm".

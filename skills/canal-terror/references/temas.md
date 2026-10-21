@@ -2,9 +2,17 @@
 
 Ordem sugerida: alternar Leyenda, Regla e Testigo. Marque aqui o código quando virar roteiro.
 
-## Já roteirizados
-HM001 Espejo (Testigo) · HM002 3:33 (Regla) · HM003 El Silbón (Leyenda) · HM004 Último autobús (Testigo)
-HM005 El Cadejo (Leyenda) · HM006 La Llorona (Leyenda) · HM007 La ventana (Regla)
+## Já roteirizados (séries de 2 partes)
+HM001-002 El reflejo (Testigo) · HM003-004 La regla de las 3:33 (Regla) · HM005-006 El Silbón (Leyenda)
+HM007-008 La Llorona (Leyenda)
+
+## Próximas séries prontas para virar roteiro
+- El Cadejo: parte 1 para no cachorro negro de olhos vermelhos encarando o avô; parte 2 o cachorro branco aparece,
+  e de manhã a porta tem marcas de garra por dentro: o negro chegou antes. `ojos`, `camino`, `puerta`
+- El último autobús: parte 1 o chofer grita "¡bájate ya!"; parte 2 explica que algo sentou ao lado dele e ainda o
+  segue no reflexo da janela. `autobus`, `ventana`
+- La ventana (Regla): parte 1 para quando ele abre a cortina; parte 2 a cara está do lado de dentro do vidro e vem a
+  regla número dos. `texto`, `ventana`
 
 ## Lendas (com o componente que encaixa)
 - La Sayona (Venezuela): mulher de branco que seduz infiéis na estrada. `camino` + `rio`
@@ -37,8 +45,9 @@ HM005 El Cadejo (Leyenda) · HM006 La Llorona (Leyenda) · HM007 La ventana (Reg
 - O motorista de aplicativo que pergunta "você vai sozinho?" com alguém no banco de trás. `autobus`
 
 ## Regras de roteiro
-- 35 a 55 s. Primeira frase já é a regra ou o fato mais assustador.
+- Séries de 2 partes (ou 3 em história muito boa), 40 a 58 s cada. Primeira frase já é a regra ou o fato mais assustador.
+- Parte 1 termina no pior momento + "Parte dos, mañana a las nueve de la noche"; a última parte explica a reviravolta.
 - Susto visível na tela, com `susto` + evento do componente no mesmo instante, e `gancho` apontando para ele.
-- 1 a 2 sustos por vídeo; o último na frase final, com loop para a primeira.
+- 1 a 2 sustos por parte; o último da parte final na frase final, com loop para a primeira.
 - Espanhol neutro (sem gírias de um país só), frases curtas, reticências para criar pausa.
 - Sem sangue, sem morte explícita de criança, sem nome de pessoa real.
