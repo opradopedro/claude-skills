@@ -40,6 +40,14 @@ def get(path, token, **q):
         return json.load(r)
 
 
+def _vale_status(st):
+    return 2 if st.get("publishAt") else 1 if st.get("privacyStatus") == "public" else 0
+
+
+def _vale(v):
+    return _vale_status({"publishAt": v.get("publishAt"), "privacyStatus": v.get("privacidade")})
+
+
 def publicados(token=None):
     token = token or access_token()
     ch = get("channels", token, part="contentDetails", mine="true")["items"][0]
@@ -59,6 +67,8 @@ def publicados(token=None):
         for v in get("videos", token, part="snippet,status", id=",".join(ids[k:k + 50])).get("items", []):
             for tag in v["snippet"].get("tags", []):
                 if re.fullmatch(r"HM\d{3,}", tag):
+                    if tag in out and _vale(out[tag]) >= _vale_status(v["status"]):
+                        continue  # versao antiga refeita: vale a agendada ou publica
                     out[tag] = {"id": v["id"], "titulo": v["snippet"]["title"],
                                 "publishAt": v["status"].get("publishAt"), "privacidade": v["status"]["privacyStatus"]}
     return out
