@@ -71,6 +71,8 @@ O Pedro assiste, vota e pede mudanças em **https://claude.ai/artifact/MsfWrEjGF
 | `scripts/mix.py` | Voz limpa (sem eco), piano grave com reverb, drone e efeitos nos eventos, -15 LUFS |
 | `scripts/yt_upload.py` | `subir video.json` e `publicados` (códigos HMxxx já no canal, pela tag) |
 | `scripts/pagina.py` | Gera `itens.json` e a pasta `v/` da página de revisão |
+| `scripts/capa.py` | Thumbnail 1080x1920: quadro do gancho + texto do campo `capa` + selo da parte (enviada no upload) |
+| `scripts/marca.py` | Foto de perfil e banner do canal (relógio 3:33); o Pedro sobe no Studio, a API não troca a foto |
 | `scripts/comum.py` | Converte cenas e eventos do roteiro em segundos |
 
 ## Escrever uma série nova
@@ -89,6 +91,8 @@ Use o backlog de [references/temas.md](references/temas.md) e as regras de lá.
 - Campos de série em todas as partes: `"serie": "slug"`, `"serie_titulo": "Nome | Hora Muerta"` (vira playlist),
   `"parte": 1`, `"partes": 2`; da parte 2 em diante, `"anterior": "HM009"` (código da parte anterior).
 - Título com `Parte 1` / `Parte 2`.
+- `"capa"`: 2 a 5 palavras da thumbnail, próprias do conteúdo de **cada** parte (pedido do Pedro), em maiúsculas,
+  ex. `"NUNCA CONTESTES A LAS 3:33"`. A última linha sai em vermelho. Confira o JPG `HMxxx_capa.jpg` no `--teste`.
 
 Formato de cada parte:
 
@@ -97,6 +101,7 @@ Formato de cada parte:
   "codigo": "HM009", "formato": "Leyenda",
   "serie": "sayona", "serie_titulo": "La Sayona | Hora Muerta", "parte": 1, "partes": 2,
   "titulo": "Gancho curto com emoji 😨 Parte 1 #terror #shorts",
+  "capa": "TEXTO DA THUMBNAIL",
   "descripcion": "1 frase de gancho\n\nPergunta para comentarios\n\nHistoria de ficción narrada. Nueva historia todos los días.\n#terror #historiasdeterror ...",
   "tags": ["historias de terror", "..."],
   "lineas": [{"texto": "Frase falada", "pausa": 0.6, "vel": 0.9}],
