@@ -40,6 +40,8 @@ def serie_de(f):
 
 
 def produzir(historia, a, base):
+    if a.subir and a.motor != "kokoro":
+        os.environ["HM_SEM_KOKORO"] = "1"  # o Pedro reprovou a voz Kokoro: nunca publicar com ela
     tts = [sys.executable, f"{AQUI}/tts.py", historia, base + "_voz.wav", base + "_tempos.json"]
     run(*(tts + (["--motor", a.motor] if a.motor else [])))
     if a.teste:
