@@ -152,7 +152,7 @@ python3 scripts/produce.py stories/009-x-1.json stories/010-x-2.json --saida /tm
 ```
 
 Olhe os JPGs: o susto aparece na tela? O primeiro quadro (gancho) assusta? A legenda não cobre o
-essencial? Só então rode sem `--teste`.
+essencial? (Ela fica em 62% da altura, puxada para a esquerda: abaixo de ~72% e na coluna da direita a interface do Shorts cobre tudo.) Só então rode sem `--teste`.
 
 ## Regras do canal
 
