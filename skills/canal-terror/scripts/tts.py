@@ -146,6 +146,24 @@ def cortar(audio, linhas, guia=None):
     """Corta o audio continuo em len(linhas) pedacos nos silencios entre as linhas.
 
     guia: segundo em que cada linha comeca (marcas do Gemini), se houver."""
+    r = limites(audio, linhas, guia)
+    if not r:
+        return None
+    fr = int(SR * 0.02)
+    # folga de 80 ms antes e 160 ms depois para nao comer o fim das palavras (silencio tem >= 250 ms)
+    pedacos = [audio[max(0, i - 4) * fr: (j + 8) * fr] for i, j in r]
+    # confere: duracao de cada pedaco proporcional ao tamanho do texto
+    chars = np.array([len(re.sub(r"[^\w]", "", l)) + 0.5 * len(l.split()) for l in linhas], float)
+    durs = np.array([len(p) / SR for p in pedacos])
+    razao = (durs / durs.sum()) / (chars / chars.sum())
+    if razao.min() < 0.35 or razao.max() > 2.8:
+        print("corte suspeito:", np.round(razao, 2).tolist(), file=sys.stderr)
+        return None
+    return pedacos
+
+
+def limites(audio, linhas, guia=None, minimo=0.25):
+    """(inicio, fim) de cada linha, em quadros de 20 ms, escolhendo os silencios que separam as linhas."""
     fr = int(SR * 0.02)
     rms = np.sqrt(np.convolve(audio ** 2, np.ones(fr) / fr, mode="same")[::fr] + 1e-12)
     silencio = rms < max(0.004, np.percentile(rms, 30) * 0.6)
@@ -159,7 +177,7 @@ def cortar(audio, linhas, guia=None):
     if len(voz) == 0:
         return None
     a, b = voz[0], voz[-1]
-    trechos = [(i, j) for i, j in trechos if i > a and j < b and (j - i) * 0.02 >= 0.25]
+    trechos = [(i, j) for i, j in trechos if i > a and j < b and (j - i) * 0.02 >= minimo]
     n = len(linhas) - 1
     if len(trechos) < n:
         return None
@@ -193,48 +211,47 @@ def cortar(audio, linhas, guia=None):
     for k in range(n + 1, 1, -1):
         j = de[k, j]; idx.append(j)
     cortes = [trechos[j - 1] for j in reversed(idx)]
-    chars = pesos
     bordas = [a] + [k for i, j in cortes for k in (i, j)] + [b + 1]
-    # folga de 80 ms antes e 160 ms depois para nao comer o fim das palavras (silencio tem >= 250 ms)
-    pedacos = [audio[max(0, bordas[2 * k] - 4) * fr: (bordas[2 * k + 1] + 8) * fr] for k in range(len(linhas))]
-    # confere: duracao de cada pedaco proporcional ao tamanho do texto
-    durs = np.array([len(p) / SR for p in pedacos])
-    razao = (durs / durs.sum()) / (chars / chars.sum())
-    if razao.min() < 0.35 or razao.max() > 2.8:
-        print("corte suspeito:", np.round(razao, 2).tolist(), file=sys.stderr)
-        return None
-    return pedacos
+    return [(bordas[2 * k], bordas[2 * k + 1]) for k in range(len(linhas))]
 
 
 def palavras(pedaco, texto):
     """Inicio de cada palavra (segundos desde o inicio do pedaco), contando so o tempo com voz.
 
     A legenda antes andava proporcional ao texto pelo pedaco inteiro, entao as pausas internas
-    ("Y luego... sonrio", virgulas, voz lenta) deixavam a legenda atrasada em relacao a voz.
-    Aqui o texto e distribuido so nos trechos com voz, pulando as pausas."""
+    ("Parte dos. [2 s] Mi reflejo...", reticencias, voz lenta) deixavam a legenda fora da voz.
+    Aqui cada frase (separada por pontuacao) cai no trecho de voz dela e as palavras se distribuem
+    so no tempo com voz."""
     fr = int(SR * 0.02)
+    ws = texto.split()
+    # frases: corta depois de palavra terminada em . , ; : ? ! ou reticencias
+    grupos, atual = [], []
+    for w in ws:
+        atual.append(w)
+        if re.search(r"[.,;:?!…»]$", w):
+            grupos.append(atual); atual = []
+    if atual:
+        grupos.append(atual)
     rms = np.sqrt(np.convolve(pedaco ** 2, np.ones(fr) / fr, mode="same")[::fr] + 1e-12)
     voz = rms > max(0.004, np.percentile(rms, 90) * 0.12)
-    # pausas curtas (< 120 ms) fazem parte da fala
-    i = 0
-    while i < len(voz):
-        if not voz[i]:
-            j = i
-            while j < len(voz) and not voz[j]:
-                j += 1
-            if 0 < i and j < len(voz) and j - i < 6:
-                voz[i:j] = True
-            i = j
-        else:
-            i += 1
-    if not voz.any():
-        return None
-    acum = np.concatenate([[0], np.cumsum(voz)]).astype(float)  # frames com voz ate cada frame
-    ws = texto.split()
-    pesos = np.array([len(re.sub(r"[^\w]", "", w)) + 1 for w in ws], float)
-    ini = np.concatenate([[0], np.cumsum(pesos)[:-1]]) / pesos.sum() * acum[-1]
-    # primeiro frame em que o tempo de voz acumulado chega no inicio da palavra
-    return [round(float(np.searchsorted(acum, v + 0.5, side="left") - 1) * 0.02, 3) for v in ini]
+    faixas = None
+    if len(grupos) > 1:
+        faixas = limites(pedaco, [" ".join(g) for g in grupos], minimo=0.3)
+    if not faixas:
+        grupos = [ws]; idx = np.where(voz)[0]
+        if len(idx) == 0:
+            return None
+        faixas = [(idx[0], idx[-1] + 1)]
+    out = []
+    for g, (i, j) in zip(grupos, faixas):
+        v = voz[i:j].copy()
+        if not v.any():
+            v[:] = True
+        acum = np.concatenate([[0], np.cumsum(v)]).astype(float)
+        pesos = np.array([len(re.sub(r"[^\w]", "", w)) + 1 for w in g], float)
+        ini = np.concatenate([[0], np.cumsum(pesos)[:-1]]) / pesos.sum() * acum[-1]
+        out += [round((i + float(np.searchsorted(acum, x + 0.5)) - 1) * 0.02, 3) for x in ini]
+    return out
 
 
 def kokoro_dir():
@@ -310,7 +327,7 @@ def main():
         seg = {"t0": round(t, 3), "t1": round(t + d, 3), "text": txt}
         w = palavras(p, txt)
         if w:
-            seg["w"] = [round(t + x, 3) for x in w]
+            seg["w"] = [round(t + float(x), 3) for x in w]
         segs.append(seg)
         out += [p, np.zeros(int(pz * SR), np.float32)]; t += d + pz
     t += 1.2

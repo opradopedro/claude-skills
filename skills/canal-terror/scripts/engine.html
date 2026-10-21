@@ -460,7 +460,7 @@ function subtitle(t) {
   const s = ST.segs.find(s => t >= s.t0 - 0.05 && t <= s.t1 + 0.25);
   if (!s) return;
   const words = s.text.split(' ').filter(Boolean), chunks = [], ini = [];
-  for (let i = 0; i < words.length;) { let n = 0, len = 0; while (i + n < words.length && (n < 2 || len < 16) && n < 5) { len += words[i + n].length + 1; n++; } chunks.push(words.slice(i, i + n).join(' ')); ini.push(i); i += n; }
+  for (let i = 0; i < words.length;) { let n = 0, len = 0; while (i + n < words.length && (n < 2 || len < 16) && n < 5) { len += words[i + n].length + 1; n++; if (/[.?!…:]$/.test(words[i + n - 1])) break; } chunks.push(words.slice(i, i + n).join(' ')); ini.push(i); i += n; }
   let cur = chunks[chunks.length - 1];
   if (s.w && s.w.length === words.length) {
     // tempo de cada palavra medido na voz (tts.py): o bloco aparece 0,1 s antes da primeira palavra dele
