@@ -6,7 +6,8 @@ Uso:
   python3 produce.py --proximo --subir --saida /tmp/hm                 # agenda a proxima serie inteira
 Com --proximo, pega a primeira serie (campo "serie") com parte ainda nao subida e agenda todas as partes em
 dias seguidos as 21h. Se ja houver --fila (padrao 2) videos agendados no futuro, nao faz nada (FILA CHEIA).
-Opcoes: --publicar 2026-10-23T00:00:00Z (UTC) | --publicar auto (padrao: proximo horario livre das 21h de Brasilia)
+Opcoes: --publicar 2026-10-23T00:00:00Z (UTC, so a primeira parte; as outras vao para as 21h livres seguintes)
+        | --publicar auto (padrao: proximo horario livre das 21h de Brasilia)
         --motor gemini|kokoro (padrao: gemini se houver GEMINI_API_KEY) | --teste (so quadros JPG de conferencia)
 Saida: <codigo>.mp4, <codigo>_upload.json e, com --subir, o id do video.
 """
@@ -54,6 +55,29 @@ def produzir(historia, a, base):
         os.remove(base + s)
 
 
+DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+
+
+def dia_local(slot):
+    """Dia da semana e do mes de um horario UTC, no fuso de Brasilia (o publico e quase todo da America)."""
+    d = dt.datetime.strptime(slot, "%Y-%m-%dT%H:%M:%SZ") - dt.timedelta(hours=3)
+    return DIAS[d.weekday()], d.day
+
+
+def preencher(historia, slot_seguinte, saida):
+    """Troca {dia_siguiente} e {fecha_siguiente} pelo dia em que sai a proxima parte e grava uma copia."""
+    if not slot_seguinte:
+        return historia
+    dia, n = dia_local(slot_seguinte)
+    txt = open(historia, encoding="utf-8").read()
+    if "{dia_siguiente}" not in txt and "{fecha_siguiente}" not in txt:
+        return historia
+    txt = txt.replace("{dia_siguiente}", dia).replace("{fecha_siguiente}", f"{dia} {n}")
+    out = os.path.join(saida, os.path.basename(historia))
+    open(out, "w", encoding="utf-8").write(txt)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("historia", nargs="*"); ap.add_argument("--proximo", action="store_true")
@@ -85,11 +109,24 @@ def main():
         historias = sorted(pend[0], key=lambda f: serie_de(f)[1])
     ocupados = {v["publishAt"][:13] for v in ja.values() if v.get("publishAt")}
     ids = {c: v["id"] for c, v in ja.items()}
+    # horarios decididos antes de narrar: a parte 1 fala o dia em que sai a parte 2
+    pend = [f for f in historias if not (a.subir and carregar(f)["codigo"] in ja)]
+    slots = []
+    for i, _ in enumerate(pend):
+        if i == 0 and a.publicar != "auto":
+            slots.append(a.publicar)  # so a primeira parte; as seguintes vao para as proximas 21h livres
+        else:
+            slots.append(proximo_horario(ocupados))
+        ocupados.add(slots[-1][:13])
     for historia in historias:
+        if historia not in pend:
+            print(f"{carregar(historia)['codigo']} ja esta no canal"); continue
+        k = pend.index(historia)
+        seguinte = slots[k + 1] if k + 1 < len(slots) else (
+            (dt.datetime.strptime(slots[k], "%Y-%m-%dT%H:%M:%SZ") + dt.timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ"))
+        historia = preencher(historia, seguinte, a.saida)
         h = carregar(historia)
         cod = h["codigo"]
-        if a.subir and cod in ja:
-            print(f"{cod} ja esta no canal ({ja[cod]['id']})"); continue
         base = os.path.join(a.saida, cod)
         produzir(historia, a, base)
         if a.teste:
@@ -102,8 +139,7 @@ def main():
         up = {"arquivo": os.path.abspath(base + ".mp4"), "titulo": h["titulo"], "descripcion": desc,
               "tags": tags, "categoria": "24", "sintetico": False, "serie_titulo": h.get("serie_titulo")}
         if a.subir:
-            up["publicar_em"] = proximo_horario(ocupados) if a.publicar == "auto" else a.publicar
-            ocupados.add(up["publicar_em"][:13])
+            up["publicar_em"] = slots[k]
         json.dump(up, open(base + "_upload.json", "w"), ensure_ascii=False, indent=1)
         print("video:", base + ".mp4", flush=True)
         if a.subir:
