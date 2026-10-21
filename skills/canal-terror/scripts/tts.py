@@ -124,7 +124,13 @@ def marcas(audio, linhas, key):
                  f"Responde solo con una lista JSON de {len(linhas)} números."}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
     try:
-        r = _get(f"{API}/models/{modelo_texto(key)}:generateContent", key, corpo)
+        for tent in range(3):
+            try:
+                r = _get(f"{API}/models/{modelo_texto(key)}:generateContent", key, corpo); break
+            except urllib.error.HTTPError as e:
+                if e.code not in (429, 500, 503) or tent == 2:
+                    raise
+                time.sleep(10 * (tent + 1))
         v = json.loads(r["candidates"][0]["content"]["parts"][0]["text"])
         v = [float(x) for x in v]
         if len(v) == len(linhas) and all(b >= a for a, b in zip(v, v[1:])):
