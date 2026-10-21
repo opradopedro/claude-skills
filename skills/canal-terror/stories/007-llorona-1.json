@@ -2,7 +2,7 @@
  "codigo": "HM007",
  "formato": "Leyenda",
  "titulo": "Le preguntó: ¿tú eres mi hijo? 😨 La Llorona Parte 1 #shorts",
- "descripcion": "La Llorona busca a sus hijos junto a los ríos desde hace siglos.\n\n▶ Parte 2: mañana a las 9 pm.\n¿Alguien de tu familia la escuchó?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #lallorona #leyendasmexicanas #mexico",
+ "descripcion": "La Llorona busca a sus hijos junto a los ríos desde hace siglos.\n\n▶ Parte 2: mañana, {fecha_siguiente}.\n¿Alguien de tu familia la escuchó?\n\nHistoria de ficción narrada. Nueva historia todos los días.\n#terror #historiasdeterror #relatosdeterror #lallorona #leyendasmexicanas #mexico",
  "tags": [
   "historias de terror",
   "relatos de terror",
@@ -49,7 +49,7 @@
    "vel": 0.82
   },
   {
-   "texto": "Parte dos, mañana a las nueve de la noche.",
+   "texto": "Parte dos, mañana, {dia_siguiente}.",
    "pausa": 0.3,
    "vel": 0.88
   }
@@ -93,7 +93,7 @@
    "p": {
     "lineas": [
      "PARTE 2",
-     "Mañana · 9 PM"
+     "Mañana · {fecha_siguiente}"
     ]
    }
   }

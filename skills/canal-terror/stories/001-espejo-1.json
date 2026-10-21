@@ -2,7 +2,7 @@
  "codigo": "HM001",
  "formato": "Testigo",
  "titulo": "Mi reflejo tardó un segundo en moverse 😨 Parte 1 #terror #shorts",
- "descripcion": "Mi abuela cubría todos los espejos a medianoche. Ahora sé por qué.\n\n▶ Parte 2: mañana a las 9 pm.\n¿Tú cubres los espejos de tu casa?\n\nHistoria de ficción narrada. Nueva historia todos los días a las 9 pm.\n#terror #historiasdeterror #relatosdeterror #espejo",
+ "descripcion": "Mi abuela cubría todos los espejos a medianoche. Ahora sé por qué.\n\n▶ Parte 2: mañana, {fecha_siguiente}.\n¿Tú cubres los espejos de tu casa?\n\nHistoria de ficción narrada. Nueva historia todos los días.\n#terror #historiasdeterror #relatosdeterror #espejo",
  "tags": [
   "historias de terror",
   "relatos de terror",
@@ -52,7 +52,7 @@
    "vel": 0.8
   },
   {
-   "texto": "Parte dos, mañana a las nueve de la noche.",
+   "texto": "Parte dos, mañana, {dia_siguiente}.",
    "pausa": 0.3,
    "vel": 0.88
   }
@@ -98,7 +98,7 @@
    "p": {
     "lineas": [
      "PARTE 2",
-     "Mañana · 9 PM"
+     "Mañana · {fecha_siguiente}"
     ]
    }
   }
