@@ -9,7 +9,7 @@ dias seguidos as 21h. Se ja houver --fila (padrao 2) videos agendados no futuro,
 Opcoes: --publicar 2026-10-23T00:00:00Z (UTC, so a primeira parte; as outras vao para as 21h livres seguintes)
         | --publicar auto (padrao: proximo horario livre das 21h de Brasilia)
         --motor gemini|kokoro (padrao: gemini se houver GEMINI_API_KEY) | --teste (so quadros JPG de conferencia)
-Saida: <codigo>.mp4, <codigo>_upload.json e, com --subir, o id do video.
+Saida: <codigo>.mp4, <codigo>_capa.jpg (thumbnail), <codigo>_upload.json e, com --subir, o id do video.
 """
 import argparse, datetime as dt, glob, json, os, subprocess, sys
 
@@ -48,8 +48,10 @@ def produzir(historia, a, base):
         h = carregar(historia); tm = json.load(open(base + "_tempos.json")); r = resolver(h, tm)
         pontos = [0.3] + [round(c["t0"] + 1.2, 1) for c in r["cenas"][1:]] + [round(e["t"] + 0.25, 1) for e in r["eventos"] if e["tipo"] == "susto"]
         run(sys.executable, f"{AQUI}/render.py", historia, base + "_tempos.json", base + ".mp4", "--teste", ",".join(map(str, pontos[:12])))
+        run(sys.executable, f"{AQUI}/capa.py", historia, base + "_tempos.json", base + "_capa.jpg")
         return
     run(sys.executable, f"{AQUI}/render.py", historia, base + "_tempos.json", base + "_video.mp4")
+    run(sys.executable, f"{AQUI}/capa.py", historia, base + "_tempos.json", base + "_capa.jpg")
     run(sys.executable, f"{AQUI}/mix.py", historia, base + "_voz.wav", base + "_tempos.json", base + "_trilha.m4a")
     run("ffmpeg", "-v", "error", "-y", "-i", base + "_video.mp4", "-i", base + "_trilha.m4a", "-c:v", "libx264",
         "-crf", "26", "-preset", "slow", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", "-shortest", base + ".mp4")
@@ -139,7 +141,8 @@ def main():
             desc = f"▶ Parte anterior: https://youtube.com/shorts/{ids[ant]}\n\n" + desc
         tags = list(dict.fromkeys(h.get("tags", []) + [cod]))
         up = {"arquivo": os.path.abspath(base + ".mp4"), "titulo": h["titulo"], "descripcion": desc,
-              "tags": tags, "categoria": "24", "sintetico": False, "serie_titulo": h.get("serie_titulo")}
+              "tags": tags, "categoria": "24", "sintetico": False,
+              "miniatura": os.path.abspath(base + "_capa.jpg"), "serie_titulo": h.get("serie_titulo")}
         if a.subir:
             up["publicar_em"] = slots[k]
         json.dump(up, open(base + "_upload.json", "w"), ensure_ascii=False, indent=1)
@@ -160,8 +163,7 @@ def guardar(cod, base, up, vid):
     os.makedirs(pasta, exist_ok=True)
     import shutil
     shutil.copy(base + ".mp4", os.path.join(pasta, cod + ".mp4"))
-    run("ffmpeg", "-v", "error", "-y", "-ss", "2", "-i", base + ".mp4", "-frames:v", "1", "-vf", "scale=360:-1",
-        os.path.join(pasta, cod + ".jpg"))
+    run("ffmpeg", "-v", "error", "-y", "-i", base + "_capa.jpg", "-vf", "scale=360:-1", os.path.join(pasta, cod + ".jpg"))
     meta = {"codigo": cod, "titulo": up["titulo"], "motor_voz": json.load(open(base + "_tempos.json")).get("motor")}
     if vid:
         meta.update(url=f"https://youtube.com/shorts/{vid}", publishAt=up["publicar_em"])

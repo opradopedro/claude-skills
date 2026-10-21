@@ -3,8 +3,9 @@
 
 Uso:
   python3 yt_upload.py subir video.json      # sobe e imprime "id privacidade publishAt"
+  python3 yt_upload.py capa VIDEO_ID capa.jpg  # troca a thumbnail de um video ja subido
   python3 yt_upload.py publicados            # JSON com {codigo: {id, titulo, publishAt, privacidade}}
-video.json: {"arquivo", "titulo", "descripcion", "tags", "publicar_em" (UTC ISO, opcional), "sintetico"}
+video.json: {"arquivo", "titulo", "descripcion", "tags", "publicar_em" (UTC ISO, opcional), "sintetico", "miniatura" (JPG)}
 
 Credenciais so nas variaveis de ambiente (nunca no repositorio nem no chat):
 YT_CLIENT_ID, YT_CLIENT_SECRET e YT_REFRESH_TOKEN_ES (YT_TOKEN_VAR muda o nome da ultima, ex. YT_REFRESH_TOKEN_EN).
@@ -84,6 +85,15 @@ def na_playlist(token, titulo, video_id):
           part="snippet")
 
 
+def miniatura(token, video_id, imagem):
+    """Thumbnail personalizada (canal verificado por telefone). JPG ate 2 MB. Custa 50 unidades."""
+    url = f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}"
+    req = urllib.request.Request(url, open(imagem, "rb").read(), method="POST",
+                                 headers={"Authorization": f"Bearer {token}", "Content-Type": "image/jpeg"})
+    with urllib.request.urlopen(req) as r:
+        return json.load(r)
+
+
 def subir(path):
     v = json.load(open(path, encoding="utf-8"))
     arquivo = v["arquivo"]
@@ -116,6 +126,11 @@ def subir(path):
             na_playlist(token, v["serie_titulo"], resp["id"])
         except Exception as e:
             print("playlist falhou (o video subiu):", e, file=sys.stderr)
+    if v.get("miniatura"):
+        try:
+            miniatura(token, resp["id"], v["miniatura"])
+        except urllib.error.HTTPError as e:
+            print("miniatura falhou (o video subiu):", e.code, e.read().decode()[:300], file=sys.stderr)
     st = resp.get("status", {})
     print(resp["id"], st.get("privacyStatus"), st.get("publishAt", ""))
     return resp
@@ -126,5 +141,7 @@ if __name__ == "__main__":
         print(json.dumps(publicados(), ensure_ascii=False, indent=1))
     elif sys.argv[1] == "subir":
         subir(sys.argv[2])
+    elif sys.argv[1] == "capa":
+        print(miniatura(access_token(), sys.argv[2], sys.argv[3]).get("kind", "ok"))
     else:
         sys.exit(__doc__)
