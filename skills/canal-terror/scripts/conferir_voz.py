@@ -24,11 +24,15 @@ def main(historia, bruto):
     pedacos = tts.cortar(audio, linhas, guia)
     if not pedacos:
         sys.exit("corte falhou")
-    gap = np.zeros(int(1.0 * tts.SR), np.float32)
-    juntos = np.concatenate([x for p in pedacos for x in (p, gap)])
+    # separador = bipe: a narracao tem pausas internas de mais de 1 s, entao silencio nao serve
+    tb = np.arange(int(0.35 * tts.SR)) / tts.SR
+    bipe = (0.3 * np.sin(2 * np.pi * 1000 * tb)).astype(np.float32)
+    pausa = np.zeros(int(0.3 * tts.SR), np.float32)
+    juntos = np.concatenate([x for p in pedacos for x in (p, pausa, bipe, pausa)])
     corpo = {"contents": [{"parts": [
         {"inlineData": {"mimeType": "audio/wav", "data": tts.wav_b64(juntos)}},
-        {"text": f"El audio tiene {len(pedacos)} fragmentos separados por un segundo de silencio. "
+        {"text": f"El audio tiene {len(pedacos)} fragmentos; cada fragmento termina con un pitido agudo. "
+                 "Dentro de un fragmento puede haber pausas largas: no lo dividas por las pausas, solo por el pitido. "
                  "Transcribe cada fragmento palabra por palabra. Responde solo con una lista JSON de textos."}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0}}
     r = tts._get(f"{tts.API}/models/{tts.modelo_texto(key)}:generateContent", key, corpo)
