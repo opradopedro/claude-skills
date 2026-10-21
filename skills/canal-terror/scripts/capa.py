@@ -60,7 +60,10 @@ def main(historia, tempos, saida):
     t = 0.3 if estado.get("gancho") else 2.0
     selo = f"PARTE {h['parte']}" if h.get("partes", 1) > 1 else ""
     with sync_playwright() as p:
-        b = p.chromium.launch()
+        try:
+            b = p.chromium.launch()
+        except Exception:  # playwright do pip mais novo que o Chromium da maquina: usa o instalado
+            b = p.chromium.launch(executable_path=os.environ.get("HM_CHROMIUM", "/opt/pw-browsers/chromium"))
         pg = b.new_page(viewport={"width": 1080, "height": 1920})
         pg.goto("file://" + ENGINE)
         pg.evaluate("h => setup(h)", estado)
