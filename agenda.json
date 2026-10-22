@@ -633,7 +633,7 @@
     {
       "data": "2026-10-22",
       "hora": "12:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v31_comercial_tv_nba.mp4",
       "tema": "Comercial de TV de GTA 6 na NBA (chuveiro cortado)",
       "formato": "corte",
@@ -645,7 +645,8 @@
         "origem": "Kotaku 21/10"
       },
       "capa": "Comercial na TV americana",
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/DezPc0kEQ0t/"
     }
   ]
 }
