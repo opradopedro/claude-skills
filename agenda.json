@@ -647,6 +647,24 @@
       "capa": "Comercial na TV americana",
       "capa_embutida": true,
       "link": "https://www.instagram.com/reel/DezPc0kEQ0t/"
+    },
+    {
+      "data": "2026-10-22",
+      "hora": "18:00",
+      "status": "pendente",
+      "arquivo": "radar_v32_personagens.mp4",
+      "tema": "Os 8 personagens principais de GTA 6",
+      "formato": "corte",
+      "legenda": "GTA 6 tem 8 personagens principais, e cada um é mais doido que o outro 🔥\n\n🪖 Jason: serviu no exército e hoje vive de crime\n⛓️ Lucia: já foi presa na penitenciária de Leonida\n🛋️ Cal: o parceiro do Jason que faz tudo do sofá\n🏢 Boobie: saiu do crime pequeno e virou dono de imóveis, boate e estúdio\n🎤 Dre'Quan: tem uma gravadora e contratou a dupla Real Dimez\n🏦 Raul: o assaltante de banco que nunca para\n⛵ Brian: contrabandeia pela marina dele e nem suja mais as mãos\n\nAlgum deles vai trair o Jason e a Lucia? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #personagens #gta6brasil",
+      "capa": "Os 8 personagens",
+      "capa_t": 0.5,
+      "ficha": {
+        "formato": "corte",
+        "tema": "lista/personagens",
+        "gancho": "lista",
+        "origem": "site oficial da Rockstar (via Push Square)"
+      },
+      "capa_embutida": true
     }
   ]
 }
