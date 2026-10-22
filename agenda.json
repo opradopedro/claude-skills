@@ -651,7 +651,7 @@
     {
       "data": "2026-10-22",
       "hora": "18:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v32_personagens.mp4",
       "tema": "Os 8 personagens principais de GTA 6",
       "formato": "corte",
@@ -664,7 +664,8 @@
         "gancho": "lista",
         "origem": "site oficial da Rockstar (via Push Square)"
       },
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/Dez4k1_jEoY/"
     }
   ]
 }
