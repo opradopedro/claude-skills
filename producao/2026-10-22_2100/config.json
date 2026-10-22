@@ -1,0 +1,482 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v33_falta_trabalho.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+   "start": 0.0,
+   "end": 1.733,
+   "layout": "full",
+   "cx": 0.239,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 1.733,
+   "end": 3.465,
+   "layout": "full",
+   "cx": 0.457,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+   "start": 3.465,
+   "end": 5.198,
+   "layout": "full",
+   "cx": 0.489,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_255.mp4",
+   "start": 5.198,
+   "end": 6.93,
+   "layout": "full",
+   "cx": 0.388,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_089.mp4",
+   "start": 6.93,
+   "end": 8.184,
+   "layout": "full",
+   "cx": 0.907,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_116.mp4",
+   "start": 8.184,
+   "end": 9.437,
+   "layout": "full",
+   "cx": 0.084,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+   "start": 9.437,
+   "end": 10.691,
+   "layout": "full",
+   "cx": 0.489,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_284.mp4",
+   "start": 10.691,
+   "end": 12.302,
+   "layout": "full",
+   "cx": 0.698,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.302,
+   "end": 13.018,
+   "layout": "full",
+   "cx": 0.243,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 13.018,
+   "end": 14.63,
+   "layout": "full",
+   "cx": 0.175,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_250.mp4",
+   "start": 14.63,
+   "end": 16.242,
+   "layout": "full",
+   "cx": 0.813,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_122.mp4",
+   "start": 16.242,
+   "end": 17.853,
+   "layout": "full",
+   "cx": 0.402,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_285.mp4",
+   "start": 17.853,
+   "end": 19.215,
+   "layout": "full",
+   "cx": 0.846,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 19.215,
+   "end": 19.782,
+   "layout": "full",
+   "cx": 0.196,
+   "ss": 46.25
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_150.mp4",
+   "start": 19.782,
+   "end": 21.143,
+   "layout": "full",
+   "cx": 0.671,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_109.mp4",
+   "start": 21.143,
+   "end": 22.631,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_110.mp4",
+   "start": 22.631,
+   "end": 24.118,
+   "layout": "full",
+   "cx": 0.569,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_143.mp4",
+   "start": 24.118,
+   "end": 25.727,
+   "layout": "full",
+   "cx": 0.645,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_192.mp4",
+   "start": 25.727,
+   "end": 27.336,
+   "layout": "full",
+   "cx": 0.246,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_193.mp4",
+   "start": 27.336,
+   "end": 28.945,
+   "layout": "full",
+   "cx": 0.287,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+   "start": 28.945,
+   "end": 30.554,
+   "layout": "full",
+   "cx": 0.086,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_169.mp4",
+   "start": 30.554,
+   "end": 32.346,
+   "layout": "full",
+   "cx": 0.587,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_212.mp4",
+   "start": 32.346,
+   "end": 34.138,
+   "layout": "full",
+   "cx": 0.821,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 34.138,
+   "end": 34.835,
+   "layout": "full",
+   "cx": 0.6,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_147.mp4",
+   "start": 34.835,
+   "end": 35.323,
+   "layout": "full",
+   "cx": 0.619,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_170.mp4",
+   "start": 35.323,
+   "end": 36.136,
+   "layout": "full",
+   "cx": 0.534,
+   "ss": 0
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.356,
+   "text": "GTA 6 PODE CUSTAR",
+   "hl": true
+  },
+  {
+   "start": 1.356,
+   "end": 2.186,
+   "text": "UM BILHÃO DE",
+   "hl": false
+  },
+  {
+   "start": 2.186,
+   "end": 3.373,
+   "text": "DÓLARES PROS ESTADOS",
+   "hl": false
+  },
+  {
+   "start": 3.373,
+   "end": 4.096,
+   "text": "UNIDOS",
+   "hl": false
+  },
+  {
+   "start": 4.096,
+   "end": 4.929,
+   "text": "E O MOTIVO",
+   "hl": false
+  },
+  {
+   "start": 4.929,
+   "end": 5.929,
+   "text": "É GENTE FALTANDO",
+   "hl": false
+  },
+  {
+   "start": 5.929,
+   "end": 6.93,
+   "text": "NO TRABALHO",
+   "hl": false
+  },
+  {
+   "start": 6.93,
+   "end": 7.672,
+   "text": "UM PROFESSOR DE",
+   "hl": false
+  },
+  {
+   "start": 7.672,
+   "end": 9.303,
+   "text": "ECONOMIA DA UNIVERSIDADE",
+   "hl": false
+  },
+  {
+   "start": 9.303,
+   "end": 10.127,
+   "text": "POMPEU FABRA",
+   "hl": false
+  },
+  {
+   "start": 10.127,
+   "end": 10.691,
+   "text": "NA ESPANHA",
+   "hl": false
+  },
+  {
+   "start": 10.691,
+   "end": 11.467,
+   "text": "CALCULOU QUE UM",
+   "hl": false
+  },
+  {
+   "start": 11.467,
+   "end": 12.087,
+   "text": "MILHÃO E MEIO",
+   "hl": false
+  },
+  {
+   "start": 12.087,
+   "end": 13.174,
+   "text": "DE AMERICANOS VÃO",
+   "hl": false
+  },
+  {
+   "start": 13.174,
+   "end": 14.009,
+   "text": "FALTAR NO DIA",
+   "hl": false
+  },
+  {
+   "start": 14.009,
+   "end": 15.207,
+   "text": "DO LANÇAMENTO",
+   "hl": false
+  },
+  {
+   "start": 15.207,
+   "end": 17.853,
+   "text": "19 DE NOVEMBRO",
+   "hl": true
+  },
+  {
+   "start": 17.853,
+   "end": 18.666,
+   "text": "A MAIORIA É",
+   "hl": false
+  },
+  {
+   "start": 18.666,
+   "end": 19.681,
+   "text": "HOMEM DE 18",
+   "hl": true
+  },
+  {
+   "start": 19.681,
+   "end": 21.143,
+   "text": "A 30 ANOS",
+   "hl": true
+  },
+  {
+   "start": 21.143,
+   "end": 21.917,
+   "text": "TEM ENGENHEIRO QUE",
+   "hl": false
+  },
+  {
+   "start": 21.917,
+   "end": 22.829,
+   "text": "JÁ AVISOU QUE",
+   "hl": false
+  },
+  {
+   "start": 22.829,
+   "end": 23.474,
+   "text": "VAI TIRAR CINCO",
+   "hl": false
+  },
+  {
+   "start": 23.474,
+   "end": 24.118,
+   "text": "DIAS DE FOLGA",
+   "hl": false
+  },
+  {
+   "start": 24.118,
+   "end": 24.581,
+   "text": "E ISSO NÃO",
+   "hl": false
+  },
+  {
+   "start": 24.581,
+   "end": 25.16,
+   "text": "É NOVIDADE",
+   "hl": false
+  },
+  {
+   "start": 25.16,
+   "end": 25.854,
+   "text": "NO LANÇAMENTO DO",
+   "hl": false
+  },
+  {
+   "start": 25.854,
+   "end": 26.317,
+   "text": "GTA 5",
+   "hl": true
+  },
+  {
+   "start": 26.317,
+   "end": 26.97,
+   "text": "ATÉ SEIS POR",
+   "hl": false
+  },
+  {
+   "start": 26.97,
+   "end": 28.232,
+   "text": "CENTO DOS JOVENS",
+   "hl": false
+  },
+  {
+   "start": 28.232,
+   "end": 29.049,
+   "text": "DE LOS ANGELES",
+   "hl": false
+  },
+  {
+   "start": 29.049,
+   "end": 29.702,
+   "text": "E NOVA YORK",
+   "hl": false
+  },
+  {
+   "start": 29.702,
+   "end": 30.554,
+   "text": "FALTARAM",
+   "hl": false
+  },
+  {
+   "start": 30.554,
+   "end": 30.991,
+   "text": "VOCÊ VAI FALTAR",
+   "hl": false
+  },
+  {
+   "start": 30.991,
+   "end": 31.428,
+   "text": "NO TRABALHO OU",
+   "hl": false
+  },
+  {
+   "start": 31.428,
+   "end": 32.006,
+   "text": "NA ESCOLA PRA",
+   "hl": false
+  },
+  {
+   "start": 32.006,
+   "end": 32.563,
+   "text": "JOGAR?",
+   "hl": false
+  },
+  {
+   "start": 32.563,
+   "end": 33.053,
+   "text": "COMENTA 1 PRA",
+   "hl": true
+  },
+  {
+   "start": 33.053,
+   "end": 33.151,
+   "text": "SIM",
+   "hl": false
+  },
+  {
+   "start": 33.151,
+   "end": 34.835,
+   "text": "2 PRA NÃO",
+   "hl": true
+  },
+  {
+   "start": 34.835,
+   "end": 35.015,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 35.015,
+   "end": 35.331,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 35.331,
+   "end": 35.511,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 35.511,
+   "end": 35.736,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
