@@ -670,7 +670,7 @@
     {
       "data": "2026-10-22",
       "hora": "21:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v33_falta_trabalho.mp4",
       "tema": "GTA 6 pode custar US$ 1 bilhão aos EUA com faltas no lançamento",
       "formato": "corte",
@@ -683,7 +683,8 @@
         "gancho": "numero chocante",
         "origem": "IBTimes UK (José García Montalvo, Universidade Pompeu Fabra)"
       },
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/De0NOukCfyi/"
     }
   ]
 }
