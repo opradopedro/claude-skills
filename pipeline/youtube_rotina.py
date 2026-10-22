@@ -2,12 +2,14 @@
 
 1. Reels novos: todo item "postado" no agenda.json a partir de 21/10 que ainda não está em youtube/publicados.json.
 2. Fila de antigos: itens de youtube/plano.json com data e hora já vencidas (Brasília) e ainda não postados.
+3. Capas: Shorts já publicados sem "capa": true recebem capas/<video>.jpg (thumbnails.set). Enquanto o canal
+   não estiver verificado o YouTube recusa; a rotina tenta 1 vez por rodada e para no primeiro 403.
 No máximo 2 envios por rodada; o Reel de 21/10 21h foi para a fila (Pedro pediu só 2 Shorts no primeiro dia). Grava os links em youtube/publicados.json (o commit e o push ficam com quem chama).
 Uso: python3 pipeline/youtube_rotina.py [--dry]
 """
 import datetime, json, os, sys, tempfile
 sys.path.insert(0, os.path.dirname(__file__))
-from youtube_publicar import publicar
+from youtube_publicar import capa_de, por_capa, publicar, token
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INICIO_NOVOS = "2026-10-22"
@@ -54,6 +56,24 @@ def main(dry):
         print("postado:", arq, link)
     if len(fila) > 2:
         print(f"ficaram {len(fila) - 2} para a próxima rodada")
+    capas(feitos, dry)
+
+
+def capas(feitos, dry):
+    pend = [(a, i) for a, i in feitos.items() if "shorts/" in i.get("link", "") and not i.get("capa")
+            and capa_de(os.path.join(RAIZ, a))]
+    if dry or not pend:
+        print(f"capas pendentes no YouTube: {len(pend)}")
+        return
+    tk = token()
+    for arq, info in pend:
+        if not por_capa(info["link"].rsplit("/", 1)[-1], capa_de(os.path.join(RAIZ, arq)), tk):
+            print("capas no YouTube: canal ainda não liberado (youtube.com/verify)")
+            return
+        info["capa"] = True
+        with open(os.path.join(RAIZ, "youtube/publicados.json"), "w", encoding="utf-8") as f:
+            json.dump(feitos, f, ensure_ascii=False, indent=1)
+        print("capa aplicada:", arq)
 
 
 if __name__ == "__main__":
