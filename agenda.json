@@ -16,7 +16,8 @@
         "tema": "noticias",
         "gancho": "lista",
         "origem": "autoral"
-      }
+      },
+      "capa": "As notícias da semana"
     },
     {
       "data": "2026-10-11",
@@ -30,7 +31,8 @@
         "tema": "console_tecnico",
         "gancho": "alerta",
         "origem": "autoral"
-      }
+      },
+      "capa": "PS5 desbloqueado vai sofrer"
     },
     {
       "data": "2026-10-11",
@@ -44,7 +46,8 @@
         "tema": "mito",
         "gancho": "mentira_verdade",
         "origem": "autoral"
-      }
+      },
+      "capa": "Jogar na nuvem? MENTIRA"
     },
     {
       "data": "2026-10-12",
@@ -59,7 +62,8 @@
         "gancho": "comparacao",
         "origem": "autoral"
       },
-      "obs": "versão tela cheia (estilo corte com imagens paradas). Fica no ar: foi o Reel de melhor retenção dos primeiros 4 (Pedro, 12/10)."
+      "obs": "versão tela cheia (estilo corte com imagens paradas). Fica no ar: foi o Reel de melhor retenção dos primeiros 4 (Pedro, 12/10).",
+      "capa": "Ultimate ou Padrão?"
     },
     {
       "data": "2026-10-12",
@@ -118,7 +122,8 @@
         "origem": "gringa"
       },
       "obs": "versão aprovada pelo Pedro (clipes do Extended Look, abre com o Jason andando); publicada às 19h25",
-      "link": "https://www.instagram.com/reel/DeaTN8uj8pd/"
+      "link": "https://www.instagram.com/reel/DeaTN8uj8pd/",
+      "capa": "O Jason é autista?"
     },
     {
       "data": "2026-10-12",
@@ -133,7 +138,8 @@
         "gancho": "revelacao",
         "origem": "autoral"
       },
-      "link": "https://www.instagram.com/reel/DeadIlEmV0_/"
+      "link": "https://www.instagram.com/reel/DeadIlEmV0_/",
+      "capa": "A caixa vem SEM disco"
     },
     {
       "data": "2026-10-13",
@@ -162,7 +168,8 @@
         "gancho": "comparacao",
         "origem": "autoral"
       },
-      "link": "https://www.instagram.com/reel/DectbiBAgte/"
+      "link": "https://www.instagram.com/reel/DectbiBAgte/",
+      "capa": "Cara de San Andreas"
     },
     {
       "data": "2026-10-13",
@@ -204,7 +211,9 @@
         "origem": "Kotaku 12/10"
       },
       "legenda": "CyberLeak quer vazar GTA 6 inteiro, mas a moeda dele caiu 50% em 24h 📉\n\nEle cobra em cripto pra soltar vídeo vazado. Segundo o Kotaku, o token despencou e muita gente já tá cansada de spoiler antes do jogo sair em 19/11.\n\nVotação valendo:\n1️⃣ a favor dos vazamentos\n2️⃣ contra os vazamentos\n\nDigita 1 ou 2 nos comentários 👇\n\n#gta6 #gta6brasil #gtavi #cyberleak",
-      "link": "https://www.instagram.com/reel/DefSM3xFcrX/"
+      "link": "https://www.instagram.com/reel/DefSM3xFcrX/",
+      "capa": "Querem vazar o jogo inteiro",
+      "capa_t": 3.9
     },
     {
       "data": "2026-10-14",
@@ -261,7 +270,9 @@
         "origem": "Forbes/GamesBeat 13/10"
       },
       "legenda": "GTA 6 no PC pode sair entre janeiro e março de 2027 💻\n\nÉ o que diz uma reportagem do GamesBeat, repercutida pela Forbes. Seriam 2 a 4 meses depois do console (19/11). No GTA 5 a espera foi de 19 meses.\n\nA Rockstar ainda não confirmou. Até lá, qualquer site vendendo GTA 6 pra PC é golpe.\n\nVocê espera o PC ou compra no console?\n\n#gta6 #gta6pc #gta6brasil #gtavi",
-      "link": "https://www.instagram.com/reel/Deh27W5AUHm/"
+      "link": "https://www.instagram.com/reel/Deh27W5AUHm/",
+      "capa": "No PC só em 2027?",
+      "capa_t": 19.6
     },
     {
       "data": "2026-10-15",
@@ -301,7 +312,9 @@
         "gancho": "lista",
         "origem": "Rockstar (site oficial)"
       },
-      "link": "https://www.instagram.com/reel/DejyjUvD27e/"
+      "link": "https://www.instagram.com/reel/DejyjUvD27e/",
+      "capa": "As 6 regiões de Leonida",
+      "capa_t": 1.6
     },
     {
       "data": "2026-10-16",
@@ -317,7 +330,8 @@
         "gancho": "noticia",
         "origem": "Mezha/Gfinity 14/10"
       },
-      "link": "https://www.instagram.com/reel/DekbyAanDQL/"
+      "link": "https://www.instagram.com/reel/DekbyAanDQL/",
+      "capa": "O CyberLeak desistiu"
     },
     {
       "data": "2026-10-16",
@@ -333,7 +347,8 @@
         "gancho": "curiosidade",
         "origem": "Eurogamer via comicshoplocator 16/10"
       },
-      "link": "https://www.instagram.com/reel/DekwckRj0_9/"
+      "link": "https://www.instagram.com/reel/DekwckRj0_9/",
+      "capa": "3 detalhes que ninguém viu"
     },
     {
       "data": "2026-10-17",
@@ -349,7 +364,8 @@
         "gancho": "noticia",
         "origem": "GamesRadar 16/10"
       },
-      "link": "https://www.instagram.com/reel/DemXZASj3oQ/"
+      "link": "https://www.instagram.com/reel/DemXZASj3oQ/",
+      "capa": "A Rockstar ainda tá mudando"
     },
     {
       "data": "2026-10-17",
@@ -365,7 +381,8 @@
         "gancho": "enquete",
         "origem": "Kotaku 15/10 (FAQ do The Game Awards)"
       },
-      "link": "https://www.instagram.com/reel/DenAhZZCOCA/"
+      "link": "https://www.instagram.com/reel/DenAhZZCOCA/",
+      "capa": "Quase fora do Game Awards"
     },
     {
       "data": "2026-10-17",
@@ -381,7 +398,8 @@
         "gancho": "curiosidade",
         "origem": "Push Square/GameRant 16/10 (posts de fãs)"
       },
-      "link": "https://www.instagram.com/reel/DenVRLvAWnp/"
+      "link": "https://www.instagram.com/reel/DenVRLvAWnp/",
+      "capa": "Os carros estão em Miami"
     },
     {
       "data": "2026-10-13",
@@ -403,7 +421,8 @@
         "gancho": "noticia",
         "origem": "Rockstar, trailer de lançamento 15/10"
       },
-      "link": "https://www.instagram.com/reel/DehKLJggYHT/"
+      "link": "https://www.instagram.com/reel/DehKLJggYHT/",
+      "capa": "Saiu o trailer final"
     },
     {
       "data": "2026-10-18",
@@ -419,7 +438,8 @@
         "gancho": "polemica",
         "origem": "Notebookcheck 24/09 + GTAIntel (Miami-Dade)"
       },
-      "link": "https://www.instagram.com/reel/Deo8P5CD2Ob/"
+      "link": "https://www.instagram.com/reel/Deo8P5CD2Ob/",
+      "capa": "US$ 975 mil num letreiro"
     },
     {
       "data": "2026-10-18",
@@ -435,7 +455,8 @@
         "gancho": "enquete",
         "origem": "Kotaku 16/10"
       },
-      "link": "https://www.instagram.com/reel/DeplZ4bk8TX/"
+      "link": "https://www.instagram.com/reel/DeplZ4bk8TX/",
+      "capa": "Não atrasa mais"
     },
     {
       "data": "2026-10-18",
@@ -451,7 +472,8 @@
         "gancho": "enquete",
         "origem": "Bloomberg via Notebookcheck 18/10"
       },
-      "link": "https://www.instagram.com/reel/Dep6MPzlVqQ/"
+      "link": "https://www.instagram.com/reel/Dep6MPzlVqQ/",
+      "capa": "História estilo Red Dead"
     },
     {
       "data": "2026-10-19",
@@ -467,7 +489,8 @@
         "gancho": "enquete",
         "origem": "The Game Business via Beebom 16/10"
       },
-      "link": "https://www.instagram.com/reel/DerhBaEAqHr/"
+      "link": "https://www.instagram.com/reel/DerhBaEAqHr/",
+      "capa": "O maior jogo de 2026"
     },
     {
       "data": "2026-10-19",
@@ -483,7 +506,8 @@
         "gancho": "pergunta",
         "origem": "Rockstar (pre-load 12/11) via Khel Now/Shacknews 19/10"
       },
-      "link": "https://www.instagram.com/reel/DesKRnHFMj5/"
+      "link": "https://www.instagram.com/reel/DesKRnHFMj5/",
+      "capa": "Falta só 1 mês"
     },
     {
       "data": "2026-10-19",
@@ -499,7 +523,8 @@
         "gancho": "enquete",
         "origem": "TalkEsport/The Scotsman 16/10"
       },
-      "link": "https://www.instagram.com/reel/DeseuwKD_89/"
+      "link": "https://www.instagram.com/reel/DeseuwKD_89/",
+      "capa": "Rockstar no tribunal"
     },
     {
       "data": "2026-10-20",
@@ -515,7 +540,8 @@
         "gancho": "enquete",
         "origem": "PS Store FAQ via Beebom; The Game Haus 19/10"
       },
-      "link": "https://www.instagram.com/reel/DeuFyvkjU1q/"
+      "link": "https://www.instagram.com/reel/DeuFyvkjU1q/",
+      "capa": "Vai chegar sem online"
     },
     {
       "data": "2026-10-20",
@@ -531,7 +557,8 @@
         "gancho": "pergunta",
         "origem": "Jason Schreier via Gameranx 20/10"
       },
-      "link": "https://www.instagram.com/reel/Deuu91Skz6q/"
+      "link": "https://www.instagram.com/reel/Deuu91Skz6q/",
+      "capa": "Confessaram crimes pra Rockstar"
     },
     {
       "data": "2026-10-20",
@@ -547,7 +574,8 @@
         "gancho": "pergunta",
         "origem": "Game Informer via Dexerto 29/09"
       },
-      "link": "https://www.instagram.com/reel/DevDjNqkdcV/"
+      "link": "https://www.instagram.com/reel/DevDjNqkdcV/",
+      "capa": "Vai ter furacão"
     },
     {
       "data": "2026-10-21",
@@ -563,7 +591,8 @@
       },
       "tema": "Jason e Lucia podem terminar (romance opcional)",
       "formato": "corte",
-      "link": "https://www.instagram.com/reel/DewqpXtD8qE/"
+      "link": "https://www.instagram.com/reel/DewqpXtD8qE/",
+      "capa": "Jason e Lucia vão terminar?"
     },
     {
       "data": "2026-10-21",
@@ -579,7 +608,9 @@
         "gancho": "revelacao",
         "origem": "Rockstar Newswire 08/10 via endgametools/ghacks"
       },
-      "link": "https://www.instagram.com/reel/DexT2DJDFHW/"
+      "link": "https://www.instagram.com/reel/DexT2DJDFHW/",
+      "capa": "Bad Bunny na rádio",
+      "capa_t": 26.4
     },
     {
       "data": "2026-10-21",
@@ -595,7 +626,9 @@
         "gancho": "alerta",
         "origem": "gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download)"
       },
-      "link": "https://www.instagram.com/reel/DexoWsUjXNi/"
+      "link": "https://www.instagram.com/reel/DexoWsUjXNi/",
+      "capa": "Libera 120 GB",
+      "capa_t": 26.4
     },
     {
       "data": "2026-10-22",
@@ -610,7 +643,9 @@
         "tema": "noticia/polemica",
         "gancho": "revelacao",
         "origem": "Kotaku 21/10"
-      }
+      },
+      "capa": "Comercial na TV americana",
+      "capa_embutida": true
     }
   ]
 }
