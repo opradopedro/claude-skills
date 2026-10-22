@@ -1,0 +1,484 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v31_comercial_tv_nba.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_107.mp4",
+   "start": 0.0,
+   "end": 1.8,
+   "layout": "full",
+   "cx": 0.546,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 1.8,
+   "end": 2.9,
+   "layout": "full",
+   "cx": 0.309,
+   "ss": 47.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_109.mp4",
+   "start": 2.9,
+   "end": 4.969,
+   "layout": "full",
+   "cx": 0.5,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+   "start": 4.969,
+   "end": 6.322,
+   "layout": "full",
+   "cx": 0.959,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_191.mp4",
+   "start": 6.322,
+   "end": 7.675,
+   "layout": "full",
+   "cx": 0.406,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 7.675,
+   "end": 9.541,
+   "layout": "full",
+   "cx": 0.524,
+   "ss": 2.0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 9.541,
+   "end": 10.196,
+   "layout": "full",
+   "cx": 0.572,
+   "ss": 61.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_086.mp4",
+   "start": 10.196,
+   "end": 11.18,
+   "layout": "full",
+   "cx": 0.555,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 11.18,
+   "end": 11.88,
+   "layout": "full",
+   "cx": 0.6,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_085.mp4",
+   "start": 11.88,
+   "end": 13.68,
+   "layout": "full",
+   "cx": 0.534,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_206.mp4",
+   "start": 13.68,
+   "end": 15.503,
+   "layout": "full",
+   "cx": 1.0,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 15.503,
+   "end": 16.127,
+   "layout": "full",
+   "cx": 0.636,
+   "ss": 52.3
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_376.mp4",
+   "start": 16.127,
+   "end": 17.149,
+   "layout": "full",
+   "cx": 0.617,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 17.149,
+   "end": 17.716,
+   "layout": "full",
+   "cx": 0.604,
+   "ss": 72.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_380.mp4",
+   "start": 17.716,
+   "end": 18.738,
+   "layout": "full",
+   "cx": 0.425,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 18.738,
+   "end": 20.13,
+   "layout": "full",
+   "cx": 0.528,
+   "ss": 38.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 20.13,
+   "end": 21.025,
+   "layout": "full",
+   "cx": 0.428,
+   "ss": 14.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_305.mp4",
+   "start": 21.025,
+   "end": 22.814,
+   "layout": "full",
+   "cx": 0.441,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 22.814,
+   "end": 23.614,
+   "layout": "full",
+   "cx": 0.237,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 23.614,
+   "end": 25.414,
+   "layout": "full",
+   "cx": 0.457,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_143.mp4",
+   "start": 25.414,
+   "end": 27.399,
+   "layout": "full",
+   "cx": 0.195,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 27.399,
+   "end": 29.218,
+   "layout": "full",
+   "cx": 0.332,
+   "ss": 40.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+   "start": 29.218,
+   "end": 30.942,
+   "layout": "full",
+   "cx": 0.698,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 30.942,
+   "end": 32.091,
+   "layout": "full",
+   "cx": 0.652,
+   "ss": 66.5
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_315.mp4",
+   "start": 32.091,
+   "end": 33.127,
+   "layout": "full",
+   "cx": 0.713,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_196.mp4",
+   "start": 33.127,
+   "end": 34.164,
+   "layout": "full",
+   "cx": 0.603,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_204.mp4",
+   "start": 34.164,
+   "end": 35.2,
+   "layout": "full",
+   "cx": 0.435,
+   "ss": 0
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.693,
+   "text": "GTA 6 GANHOU COMERCIAL",
+   "hl": true
+  },
+  {
+   "start": 1.693,
+   "end": 3.319,
+   "text": "NA TV AMERICANA",
+   "hl": false
+  },
+  {
+   "start": 3.319,
+   "end": 4.069,
+   "text": "E CORTARAM AS",
+   "hl": false
+  },
+  {
+   "start": 4.069,
+   "end": 4.969,
+   "text": "CENAS DO CHUVEIRO",
+   "hl": false
+  },
+  {
+   "start": 4.969,
+   "end": 5.821,
+   "text": "O COMERCIAL PASSOU",
+   "hl": false
+  },
+  {
+   "start": 5.821,
+   "end": 6.673,
+   "text": "NA ABERTURA DA",
+   "hl": false
+  },
+  {
+   "start": 6.673,
+   "end": 7.07,
+   "text": "NBA",
+   "hl": false
+  },
+  {
+   "start": 7.07,
+   "end": 7.769,
+   "text": "NO JOGO DOS",
+   "hl": false
+  },
+  {
+   "start": 7.769,
+   "end": 8.468,
+   "text": "KNICKS CONTRA OS",
+   "hl": false
+  },
+  {
+   "start": 8.468,
+   "end": 9.104,
+   "text": "SIXERS",
+   "hl": false
+  },
+  {
+   "start": 9.104,
+   "end": 9.606,
+   "text": "É O TRAILER",
+   "hl": false
+  },
+  {
+   "start": 9.606,
+   "end": 10.36,
+   "text": "DE LANÇAMENTO UM",
+   "hl": false
+  },
+  {
+   "start": 10.36,
+   "end": 11.18,
+   "text": "POUCO MEXIDO",
+   "hl": false
+  },
+  {
+   "start": 11.18,
+   "end": 11.687,
+   "text": "DUAS DAS TRÊS",
+   "hl": false
+  },
+  {
+   "start": 11.687,
+   "end": 12.532,
+   "text": "CENAS DA LUCIA",
+   "hl": false
+  },
+  {
+   "start": 12.532,
+   "end": 13.746,
+   "text": "NO CHUVEIRO SAÍRAM",
+   "hl": false
+  },
+  {
+   "start": 13.746,
+   "end": 14.601,
+   "text": "PESADO DEMAIS PRA",
+   "hl": false
+  },
+  {
+   "start": 14.601,
+   "end": 15.503,
+   "text": "TV ABERTA",
+   "hl": false
+  },
+  {
+   "start": 15.503,
+   "end": 15.954,
+   "text": "MAS T1R0",
+   "hl": false
+  },
+  {
+   "start": 15.954,
+   "end": 17.423,
+   "text": "EXPLOSÃO E PERSEGUIÇÃO",
+   "hl": false
+  },
+  {
+   "start": 17.423,
+   "end": 18.738,
+   "text": "FICARAM TODOS LÁ",
+   "hl": false
+  },
+  {
+   "start": 18.738,
+   "end": 19.758,
+   "text": "ALGUNS TAKES FICARAM",
+   "hl": false
+  },
+  {
+   "start": 19.758,
+   "end": 20.196,
+   "text": "MAIS LONGOS",
+   "hl": false
+  },
+  {
+   "start": 20.196,
+   "end": 20.756,
+   "text": "COMO O DO",
+   "hl": false
+  },
+  {
+   "start": 20.756,
+   "end": 21.244,
+   "text": "AVIÃO",
+   "hl": false
+  },
+  {
+   "start": 21.244,
+   "end": 21.723,
+   "text": "E O LOGO",
+   "hl": false
+  },
+  {
+   "start": 21.723,
+   "end": 22.814,
+   "text": "DO XBOX SUMIU",
+   "hl": false
+  },
+  {
+   "start": 22.814,
+   "end": 23.563,
+   "text": "E O COMERCIAL",
+   "hl": false
+  },
+  {
+   "start": 23.563,
+   "end": 24.462,
+   "text": "AINDA DEVE PASSAR",
+   "hl": false
+  },
+  {
+   "start": 24.462,
+   "end": 25.061,
+   "text": "NO JOGO DO",
+   "hl": false
+  },
+  {
+   "start": 25.061,
+   "end": 25.51,
+   "text": "MIAMI HEAT",
+   "hl": false
+  },
+  {
+   "start": 25.51,
+   "end": 26.553,
+   "text": "QUE É PATROCINADO",
+   "hl": false
+  },
+  {
+   "start": 26.553,
+   "end": 27.399,
+   "text": "POR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 27.399,
+   "end": 28.197,
+   "text": "FAZ SENTIDO CORTAR",
+   "hl": false
+  },
+  {
+   "start": 28.197,
+   "end": 28.862,
+   "text": "O CHUVEIRO E",
+   "hl": false
+  },
+  {
+   "start": 28.862,
+   "end": 29.947,
+   "text": "DEIXAR O TIROTEIO?",
+   "hl": false
+  },
+  {
+   "start": 29.947,
+   "end": 30.747,
+   "text": "COMENTA 1 PRA",
+   "hl": true
+  },
+  {
+   "start": 30.747,
+   "end": 30.906,
+   "text": "SIM",
+   "hl": false
+  },
+  {
+   "start": 30.906,
+   "end": 32.091,
+   "text": "2 PRA NÃO",
+   "hl": true
+  },
+  {
+   "start": 32.091,
+   "end": 32.633,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 32.633,
+   "end": 33.581,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 33.581,
+   "end": 34.123,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 34.123,
+   "end": 34.8,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+"""Reel comercial de TV na NBA (cenas do chuveiro cortadas): cenas de todos os trailers, sem o chuveiro."""
+import json, os, sys
+sys.path.insert(0, "../../pipeline")
+from align2 import align
+from auto_short import chunks, CENSOR, duration
+from enquadrar import cx_auto
+
+SRC = "/home/claude/trailer/launch_crop.mp4"  # trailer oficial sem as faixas pretas (1920x960)
+TEXT = open("roteiro.txt").read().strip()
+# (primeira palavra do trecho, [(inicio, fim, cx), ...]) em segundos do trailer
+L = "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/"
+# (fonte, inicio, fim) ou (inicio, fim) do trailer de lançamento; o cx sai do enquadrar.py (rosto ou detalhe)
+SEG = [("ganhou comercial", [(L + "tJbzMqJGH4k_107.mp4", 0, 1.8), (47.0, 48.1), (L + "tJbzMqJGH4k_109.mp4", 0, 1.8)]),
+       ("O comercial passou", [(L + "tJbzMqJGH4k_388.mp4", 0, 1.8), (L + "tJbzMqJGH4k_191.mp4", 0, 1.8), (2.0, 3.9)]),
+       ("É o trailer", [(59.3, 60.1), (61.0, 62.2), (L + "tJbzMqJGH4k_086.mp4", 0, 1.8)]),
+       ("duas das", [(62.5, 63.2), (L + "tJbzMqJGH4k_085.mp4", 0, 1.8), (L + "tJbzMqJGH4k_206.mp4", 0, 1.8)]),
+       ("Mas tiro", [(52.3, 53.4), (L + "tJbzMqJGH4k_376.mp4", 0, 1.8), (72.0, 73.0), (L + "tJbzMqJGH4k_380.mp4", 0, 1.8)]),
+       ("Alguns takes", [(38.3, 39.7), (14.0, 14.9), (L + "tJbzMqJGH4k_305.mp4", 0, 1.8)]),
+       ("E o comercial", [(25.2, 26.0), (L + "tJbzMqJGH4k_254.mp4", 0, 1.8), (L + "tJbzMqJGH4k_143.mp4", 0, 1.8)]),
+       ("Faz sentido", [(40.0, 41.9), (L + "tJbzMqJGH4k_258.mp4", 0, 1.8), (66.5, 67.7)]),
+       ("Manda", [(L + "tJbzMqJGH4k_315.mp4", 0, 1.8), (L + "tJbzMqJGH4k_196.mp4", 0, 1.8), (L + "tJbzMqJGH4k_204.mp4", 0, 1.8)])]
+SEG = [(k, [r if isinstance(r[0], str) else (SRC,) + r for r in rs]) for k, rs in SEG]
+
+words = align("voz.mp3", TEXT, {"GTA 6": "GTA 6"})
+total = duration("voz.mp3") + 0.4
+seq = [w for w, s, e in words]
+starts = []
+for chave, _ in SEG:
+    ks = chave.split()
+    i = next(i for i in range(len(seq)) if [x.strip(",.!?:\"").lower() for x in seq[i:i + len(ks)]] == [k.lower() for k in ks]
+             and (not starts or i > starts[-1][0]))
+    starts.append((i, words[i][1]))
+scenes = []
+for n, (chave, rngs) in enumerate(SEG):
+    t0 = 0.0 if n == 0 else starts[n][1]
+    t1 = starts[n + 1][1] if n + 1 < len(SEG) else total
+    Lt, M = t1 - t0, sum(b - a for _, a, b in rngs)
+    # cada cena do trecho entra na ordem; se sobra material, corta proporcional; se falta, repete do inicio
+    pecas, k = [], 0
+    if M >= Lt:
+        for src, a, b in rngs:
+            pecas.append((src, a, (b - a) * Lt / M))
+    else:
+        resto = Lt
+        while resto > 0.05:
+            src, a, b = rngs[k % len(rngs)]
+            d = min(b - a, resto); pecas.append((src, a, d)); resto -= d; k += 1
+    t = t0
+    for src, a, d in pecas:
+        while d > 0.05:  # corta pecas longas em pedacos de ate 2,2 s
+            p = d if d <= 2.2 else (d / 2 if d < 4.4 else 2.2)
+            scenes.append({"src": src, "start": round(t, 3), "end": round(t + p, 3), "layout": "full",
+                           "cx": round(cx_auto(src, round(a, 2), round(p, 2)), 3), "ss": round(a, 2)})
+            t += p; a += p; d -= p
+    scenes[-1]["end"] = round(t1, 3)
+FIXO = {}  # cx manual por clipe, quando o detector errar
+for sc in scenes:
+    sc["cx"] = FIXO.get(os.path.basename(sc["src"]), sc["cx"])
+# pedaco muito curto vira parte do anterior (sem piscada)
+limpo = []
+for sc in scenes:
+    if limpo and sc["end"] - sc["start"] < 0.45:
+        limpo[-1]["end"] = sc["end"]
+    else:
+        limpo.append(sc)
+scenes = limpo
+cfg = {"audio": "voz.mp3", "out": "radar_v31_comercial_tv_nba.mp4", "font": "../../assets/fonts/Anton.ttf",
+       "handle": "@radar.gta6br", "scenes": scenes, "captions": chunks(words, CENSOR)}
+json.dump(cfg, open("config.json", "w"), ensure_ascii=False, indent=1)
+for s in scenes:
+    print(s["start"], s["end"], os.path.basename(s["src"]), s["ss"], s["cx"])
