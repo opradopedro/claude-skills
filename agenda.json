@@ -685,6 +685,24 @@
       },
       "capa_embutida": true,
       "link": "https://www.instagram.com/reel/De0NOukCfyi/"
+    },
+    {
+      "data": "2026-10-23",
+      "hora": "12:00",
+      "status": "pendente",
+      "arquivo": "radar_v34_burger_shot.mp4",
+      "tema": "Burger Shot e Cluckin' Bell de verdade no ginásio do Miami Heat",
+      "formato": "corte",
+      "capa": "Burger Shot de verdade",
+      "capa_t": 0.8,
+      "legenda": "GTA 6 virou lanchonete de verdade, e o lanche custa uns R$ 150 🍔\n\n🍟 O Burger Shot e o Cluckin' Bell, os fast foods do jogo, abriram no Kaseya Center, o ginásio do Miami Heat\n💸 O combo mais simples (cheeseburger, batata e refri) sai por US$ 28,50\n🧢 Os funcionários usam boné e camisa do Burger Shot\n📻 Até os elevadores têm propaganda da Vice City FM\n🏀 Em 18 de novembro, véspera do lançamento, o Miami Heat joga com uniforme de GTA 6\n\nVocê pagaria R$ 150 num lanche do Burger Shot? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #burgershot #gta6brasil",
+      "ficha": {
+        "formato": "corte",
+        "tema": "marketing/mundo real",
+        "gancho": "curiosidade + preço",
+        "origem": "GameSpot (22/10)"
+      },
+      "capa_embutida": true
     }
   ]
 }
