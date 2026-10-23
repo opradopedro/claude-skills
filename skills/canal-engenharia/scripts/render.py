@@ -11,8 +11,21 @@ from playwright.sync_api import sync_playwright
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comum import carregar, resolver
 
-ENGINE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "engine.html")
+ENGINE = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.environ.get("YB_ENGINE", "engine3d.html"))
 GRAB = "t => { render(t); return document.getElementById('c').toDataURL('image/jpeg', 0.9).split(',')[1]; }"
+
+
+def three():
+    """Three.js 0.170 embrulhado numa funcao (o build cjs declara nomes globais como clamp): vendor/three.js."""
+    d = os.path.join(os.path.dirname(ENGINE), "vendor"); alvo = os.path.join(d, "three.js")
+    if os.path.exists(alvo):
+        return
+    os.makedirs(d, exist_ok=True)
+    cjs = os.path.join(d, "three.cjs")
+    if not os.path.exists(cjs):
+        subprocess.run(["curl", "-sSL", "-o", cjs, "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.cjs"], check=True)
+    src = open(cjs, encoding="utf-8").read()
+    open(alvo, "w", encoding="utf-8").write("(function(){var module={exports:{}},exports=module.exports;\n" + src + "\nwindow.T3=module.exports;})();\n")
 
 
 def main():
@@ -20,13 +33,15 @@ def main():
     ap.add_argument("historia"); ap.add_argument("tempos"); ap.add_argument("video")
     ap.add_argument("--teste"); ap.add_argument("--fps", type=int, default=30)
     a = ap.parse_args()
+    three()
     estado = resolver(carregar(a.historia), json.load(open(a.tempos)))
     with sync_playwright() as p:
         try:
-            b = p.chromium.launch()
+            b = p.chromium.launch(args=["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"])
         except Exception:  # playwright do pip mais novo que o Chromium da maquina: usa o instalado
-            b = p.chromium.launch(executable_path=os.environ.get("HM_CHROMIUM", "/opt/pw-browsers/chromium"))
+            b = p.chromium.launch(executable_path=os.environ.get("HM_CHROMIUM", "/opt/pw-browsers/chromium"), args=["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"])
         pg = b.new_page(viewport={"width": 1080, "height": 1920})
+        pg.on("console", lambda m: print("js:", m.text, file=sys.stderr)); pg.on("pageerror", lambda e: print("js erro:", e, file=sys.stderr))
         pg.goto("file://" + ENGINE)
         pg.evaluate("h => setup(h)", estado)
         if a.teste:

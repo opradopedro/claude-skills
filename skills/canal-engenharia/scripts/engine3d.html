@@ -1,0 +1,384 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#000}canvas{display:block}#gl{position:absolute;left:-9999px}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="vendor/three.js"></script>
+<script>
+// Motor 3D do canal de engenharia: diorama low-poly em corte (Three.js, luz e sombra suaves),
+// mais uma camada 2D por cima (legenda, selos de etapa, rotulos, cheiro, confete).
+// render.py chama setup(historia) e depois render(t) quadro a quadro, como no engine.html 2D.
+const T3 = window.T3;
+const W = 1080, H = 1920;
+const c = document.getElementById('c'), x = c.getContext('2d');
+let ST = { segs: [], cenas: [], eventos: [], destaque: [], gancho: null, dur: 1 };
+let RX = null;
+
+function rnd(seed) { const s = Math.sin(seed * 12.9898) * 43758.5453; return s - Math.floor(s); }
+const clamp = v => v < 0 ? 0 : v > 1 ? 1 : v;
+const ease = t => { t = clamp(t); return t * t * (3 - 2 * t); };
+const back = t => { t = clamp(t); const s = 1.7; return 1 + (s + 1) * Math.pow(t - 1, 3) + s * Math.pow(t - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+
+const E = {
+  list: tipo => ST.eventos.filter(e => e.tipo === tipo),
+  at: tipo => { const e = ST.eventos.find(e => e.tipo === tipo && e.t >= E.cena0 - 0.5); return e ? e.t : Infinity; },
+  pulse: (t, tipo, len = 0.35) => { let k = 0; for (const e of E.list(tipo)) { const d = t - e.t; if (d >= 0 && d < len) k = Math.max(k, 1 - d / len); } return k; },
+  since: (t, tipo) => { const a = E.at(tipo); return t >= a ? t - a : -1; },
+  cena0: 0, cena1: 0,
+};
+const FONT = '"Inter", "Arial Black", system-ui, sans-serif';
+const COL = { ink: '#1d2430', red: '#ff4b3e', green: '#2fcf6a', yellow: '#ffd23a' };
+
+// ---------------- Three.js: palco ----------------
+const gl = new T3.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+gl.setPixelRatio(1); gl.setSize(W, H);
+gl.shadowMap.enabled = true; gl.shadowMap.type = T3.PCFSoftShadowMap;
+gl.outputColorSpace = T3.SRGBColorSpace; gl.toneMapping = T3.ACESFilmicToneMapping; gl.toneMappingExposure = 1.05;
+const scene = new T3.Scene();
+{
+  const bg = document.createElement('canvas'); bg.width = 4; bg.height = 256;
+  const b = bg.getContext('2d'), g = b.createLinearGradient(0, 0, 0, 256);
+  g.addColorStop(0, '#5fb4ea'); g.addColorStop(0.55, '#bfe6fb'); g.addColorStop(1, '#f6e7c9');
+  b.fillStyle = g; b.fillRect(0, 0, 4, 256);
+  const tx = new T3.CanvasTexture(bg); tx.colorSpace = T3.SRGBColorSpace; scene.background = tx;
+}
+scene.fog = new T3.Fog(0xcfe9f7, 45, 90);
+const cam = new T3.PerspectiveCamera(32, W / H, 0.1, 200);
+scene.add(new T3.HemisphereLight(0xdff1ff, 0x8a6a4a, 1.3));
+const sun = new T3.DirectionalLight(0xfff1dc, 2.6);
+sun.position.set(-8, 16, 12); sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+Object.assign(sun.shadow.camera, { left: -14, right: 14, top: 14, bottom: -14, near: 1, far: 60 });
+sun.shadow.bias = -0.0004; sun.shadow.radius = 4;
+scene.add(sun);
+const fill = new T3.DirectionalLight(0xbfd9ff, 0.6); fill.position.set(10, 4, 14); scene.add(fill);
+
+const MAT = {};
+function mat(cor, o = {}) { return new T3.MeshStandardMaterial({ color: cor, roughness: 0.85, metalness: 0, flatShading: true, ...o }); }
+function box(w, h, d, m, px = 0, py = 0, pz = 0, parent = scene) {
+  const me = new T3.Mesh(new T3.BoxGeometry(w, h, d), m); me.position.set(px, py, pz);
+  me.castShadow = me.receiveShadow = true; parent.add(me); return me;
+}
+function solid(x0, x1, y0, y1, z0, z1, m) { if (x1 - x0 < 1e-3 || y1 - y0 < 1e-3 || z1 - z0 < 1e-3) return; return box(x1 - x0, y1 - y0, z1 - z0, m, (x0 + x1) / 2, (y0 + y1) / 2, (z0 + z1) / 2); }
+function cyl(r0, r1, h, m, seg = 16, parent = scene) {
+  const me = new T3.Mesh(new T3.CylinderGeometry(r0, r1, h, seg), m); me.castShadow = me.receiveShadow = true; parent.add(me); return me;
+}
+function grupo(parent = scene) { const g = new T3.Group(); parent.add(g); return g; }
+
+// ---------------- mundo da fossa ----------------
+// diorama: x -6..6, z -2.5..2.5 (z = 2.5 e o corte virado para a camera), chao em y = 0
+const X0 = -6, X1 = 6, Z0 = -2.5, Z1 = 2.5;
+const HOLE = { x0: -1.4, x1: 1.6, y0: -3.2, z0: -1.6 };   // buraco da fossa, aberto no corte
+const WELL = { x0: 4.3, x1: 4.9 };                        // poco, aberto no corte
+const WT = -4.6, ROCK = -5.4, BOT = -7.2;                  // lencol freatico, rocha, fundo
+const W3 = {};
+function montaFossa() {
+  const grass = mat(0x67c25b), top = mat(0x9a6440), sub = mat(0xb47a4c), water = mat(0x3f9fe3, { roughness: 0.3 }), rock = mat(0x5b4d45);
+  const camadas = [[-0.22, 0, grass], [-2.0, -0.22, top], [WT, -2.0, sub], [ROCK, WT, water], [BOT, ROCK, rock]];
+  const furos = [[HOLE.x0, HOLE.x1, HOLE.y0, HOLE.z0], [WELL.x0, WELL.x1, WT + 0.2, 1.9]];
+  for (const [ya, yb, m] of camadas) {
+    // corta a camada nas faixas de y que cruzam os furos
+    const cortes = new Set([ya, yb]);
+    for (const f of furos) for (const v of [f[2], 0]) if (v > ya && v < yb) cortes.add(v);
+    const ys = [...cortes].sort((a, b) => a - b);
+    for (let i = 0; i + 1 < ys.length; i++) {
+      const y0 = ys[i], y1 = ys[i + 1], mid = (y0 + y1) / 2;
+      const ativos = furos.filter(f => mid > f[2] && mid < 0.01).sort((a, b) => a[0] - b[0]);
+      let cx = X0;
+      for (const f of ativos) { solid(cx, f[0], y0, y1, Z0, Z1, m); solid(f[0], f[1], y0, y1, Z0, f[3], m); cx = f[1]; }
+      solid(cx, X1, y0, y1, Z0, Z1, m);
+    }
+  }
+  // pedrinhas no corte
+  const ped = mat(0x7e5236);
+  for (let i = 0; i < 40; i++) {
+    const px = lerp(X0 + 0.3, X1 - 0.3, rnd(i * 3.1)), py = lerp(-0.5, WT + 0.3, rnd(i * 7.7));
+    if (px > HOLE.x0 - 0.2 && px < HOLE.x1 + 0.2 && py > HOLE.y0 - 0.2) continue;
+    if (px > WELL.x0 - 0.2 && px < WELL.x1 + 0.2) continue;
+    const s = 0.08 + rnd(i) * 0.12, me = new T3.Mesh(new T3.DodecahedronGeometry(s), ped); me.position.set(px, py, Z1); scene.add(me);
+  }
+  for (let i = 0; i < 18; i++) {
+    const me = new T3.Mesh(new T3.DodecahedronGeometry(0.2 + rnd(i * 5) * 0.25), mat(0x4a3e37));
+    me.position.set(lerp(X0 + 0.4, X1 - 0.4, rnd(i * 2.3)), lerp(ROCK - 0.3, BOT + 0.3, rnd(i * 4.4)), Z1 - 0.05); scene.add(me);
+  }
+  // casa
+  const casa = grupo(); casa.position.set(-4.3, 0, -0.6);
+  box(2.4, 1.8, 2.0, mat(0xfff1dc), 0, 0.9, 0, casa);
+  const tri = new T3.Shape(); tri.moveTo(-1.45, 0); tri.lineTo(1.45, 0); tri.lineTo(0, 1.1); tri.closePath();
+  const telhado = new T3.Mesh(new T3.ExtrudeGeometry(tri, { depth: 2.3, bevelEnabled: false }), mat(0xe2574a));
+  telhado.position.set(0, 1.8, -1.15); telhado.castShadow = true; casa.add(telhado);
+  box(0.55, 1.0, 0.05, mat(0x7a4a2e), -0.5, 0.5, 1.02, casa);
+  box(0.6, 0.5, 0.05, mat(0x9fd8ff, { roughness: 0.2 }), 0.55, 1.15, 1.02, casa);
+  // arvores
+  for (const [px, pz, s] of [[-5.3, -1.9, 1], [2.9, -1.9, 0.8], [5.4, -1.8, 1.1], [-2.6, -2.0, 0.7]]) {
+    const g = grupo(); g.position.set(px, 0, pz); g.scale.setScalar(s);
+    cyl(0.12, 0.16, 0.8, mat(0x7a4a2e), 6, g).position.y = 0.4;
+    const copa = new T3.Mesh(new T3.IcosahedronGeometry(0.75, 0), mat(0x3f9a46)); copa.position.y = 1.35; copa.castShadow = true; g.add(copa);
+  }
+  // poco: mureta e telhadinho
+  const poco = grupo(); poco.position.set((WELL.x0 + WELL.x1) / 2, 0, 1.4);
+  cyl(0.55, 0.55, 0.5, mat(0x9aa0a6), 10, poco).position.y = 0.25;
+  box(0.08, 1.2, 0.08, mat(0x7a4a2e), -0.45, 0.8, 0, poco); box(0.08, 1.2, 0.08, mat(0x7a4a2e), 0.45, 0.8, 0, poco);
+  const tet = new T3.Mesh(new T3.ConeGeometry(0.85, 0.6, 4), mat(0xc0583f)); tet.position.y = 1.65; tet.rotation.y = Math.PI / 4; tet.castShadow = true; poco.add(tet);
+  W3.wellWater = solid(WELL.x0, WELL.x1, WT, WT + 0.9, 1.9, Z1 - 0.01, mat(0x3f9fe3, { roughness: 0.25 }));
+  solid(WELL.x0, WELL.x1, WT + 0.9, 0, 1.9, 1.95, mat(0x2b2622));
+
+  // terra que sai do buraco (escavacao)
+  W3.terra = solid(HOLE.x0, HOLE.x1, HOLE.y0, 0, HOLE.z0, Z1 - 0.01, top);
+  W3.monte = new T3.Mesh(new T3.SphereGeometry(1, 10, 6, 0, Math.PI * 2, 0, Math.PI / 2), mat(0x8a5a38)); W3.monte.position.set(2.6, 0, 0.2); W3.monte.castShadow = true; scene.add(W3.monte);
+  // concreto (paredes, fundo e tampa)
+  const conc = mat(0xb4b8bd), w = 0.18;
+  W3.concreto = grupo();
+  box(w, -HOLE.y0, Z1 - HOLE.z0, conc, HOLE.x0 + w / 2, HOLE.y0 / 2, (HOLE.z0 + Z1) / 2, W3.concreto);
+  box(w, -HOLE.y0, Z1 - HOLE.z0, conc, HOLE.x1 - w / 2, HOLE.y0 / 2, (HOLE.z0 + Z1) / 2, W3.concreto);
+  box(HOLE.x1 - HOLE.x0, w, Z1 - HOLE.z0, conc, (HOLE.x0 + HOLE.x1) / 2, HOLE.y0 + w / 2, (HOLE.z0 + Z1) / 2, W3.concreto);
+  box(HOLE.x1 - HOLE.x0, -HOLE.y0, w, conc, (HOLE.x0 + HOLE.x1) / 2, HOLE.y0 / 2, HOLE.z0 + w / 2, W3.concreto);
+  W3.tampa = grupo();
+  box(HOLE.x1 - HOLE.x0 + 0.3, 0.2, Z1 - HOLE.z0 + 0.05, mat(0x9ea3a9), 0, 0.1, 0, W3.tampa);
+  cyl(0.38, 0.38, 0.12, mat(0x7c8189), 18, W3.tampa).position.set(-0.3, 0.26, 0);
+  W3.tampa.position.set((HOLE.x0 + HOLE.x1) / 2, 0, (HOLE.z0 + Z1) / 2 + 0.02);
+  // conteudo
+  const ix0 = HOLE.x0 + w, ix1 = HOLE.x1 - w, iz0 = HOLE.z0 + w;
+  W3.in = { x0: ix0, x1: ix1, y0: HOLE.y0 + w, z0: iz0 };
+  const liq = (cor, o) => mat(cor, { roughness: 0.35, ...o });
+  W3.esgoto = solid(ix0, ix1, 0, 1, iz0, Z1 - 0.02, liq(0x6b4a2b));
+  W3.lodo = solid(ix0, ix1, 0, 1, iz0, Z1 - 0.02, liq(0x4a321e, { roughness: 0.9 }));
+  W3.agua = solid(ix0, ix1, 0, 1, iz0, Z1 - 0.02, liq(0x7eaa96, { transparent: true, opacity: 0.92 }));
+  W3.gordura = solid(ix0, ix1, 0, 1, iz0, Z1 - 0.02, liq(0xd8bb5c));
+  for (const m of [W3.esgoto, W3.lodo, W3.agua, W3.gordura]) { m.geometry.translate(0, -m.position.y + 0.5, 0); m.position.y = 0; }
+  W3.parede = box(0.14, 1, Z1 - iz0, conc, lerp(ix0, ix1, 0.62), 0, (iz0 + Z1) / 2);
+  W3.parede2 = box(0.14, 1, Z1 - iz0, conc, lerp(ix0, ix1, 0.62), 0, (iz0 + Z1) / 2);
+  // canos
+  const pvc = mat(0xeef2f5, { roughness: 0.4 });
+  const tubo = (pts, r) => {
+    const curva = new T3.CurvePath(); for (let i = 1; i < pts.length; i++) curva.add(new T3.LineCurve3(new T3.Vector3(...pts[i - 1]), new T3.Vector3(...pts[i])));
+    const me = new T3.Mesh(new T3.TubeGeometry(curva, 80, r, 12, false), pvc); me.castShadow = true; scene.add(me); return { me, curva };
+  };
+  W3.canoIn = tubo([[-3.4, 0.25, Z1 - 0.12], [-3.4, -0.7, Z1 - 0.12], [HOLE.x0 + 0.1, -0.7, Z1 - 0.12]], 0.16);
+  W3.canoOut = tubo([[HOLE.x1 - 0.1, -1.0, Z1 - 0.12], [2.2, -1.0, Z1 - 0.12], [4.0, -1.0, Z1 - 0.12]], 0.13);
+  W3.brita = grupo();
+  const bm = [mat(0xc9c2b6), mat(0x9b9387), mat(0xe0dad0)];
+  for (let i = 0; i < 70; i++) {
+    const me = new T3.Mesh(new T3.DodecahedronGeometry(0.09 + rnd(i) * 0.06), bm[i % 3]);
+    me.position.set(lerp(2.15, 4.05, rnd(i * 2.3)), lerp(-1.35, -0.7, rnd(i * 6.1)), Z1 - 0.02 - rnd(i * 9) * 0.12); W3.brita.add(me);
+  }
+  // gotas, bolhas e bacterias
+  const gm = mat(0x7eaa96, { roughness: 0.2 }), sm = mat(0x6b4a2b, { roughness: 0.3 });
+  W3.gotas = [...Array(16)].map(() => { const m = new T3.Mesh(new T3.SphereGeometry(0.07, 8, 6), gm); m.scale.y = 1.4; scene.add(m); return m; });
+  W3.bolas = [...Array(5)].map(() => { const m = new T3.Mesh(new T3.SphereGeometry(0.11, 8, 6), sm); scene.add(m); return m; });
+  W3.bolas2 = [...Array(4)].map(() => { const m = new T3.Mesh(new T3.SphereGeometry(0.08, 8, 6), gm); scene.add(m); return m; });
+  W3.bact = [...Array(14)].map((_, i) => {
+    const g = grupo(); const corpo = new T3.Mesh(new T3.CapsuleGeometry(0.07, 0.16, 4, 8), mat(0x7ee05a, { roughness: 0.5 })); corpo.rotation.z = Math.PI / 2; g.add(corpo);
+    for (const s of [-1, 1]) { const o = new T3.Mesh(new T3.SphereGeometry(0.025, 6, 4), mat(0x111111)); o.position.set(s * 0.045, 0.02, 0.07); g.add(o); }
+    g.userData = { px: lerp(2.3, 3.9, rnd(i * 1.7)), py: lerp(-1.6, -3.4, rnd(i * 8.1)) }; return g;
+  });
+  // vazamento (mancha na face do corte) e transbordo
+  const mc = document.createElement('canvas'); mc.width = mc.height = 256; const mx = mc.getContext('2d');
+  const rg = mx.createRadialGradient(128, 128, 5, 128, 128, 128); rg.addColorStop(0, 'rgba(60,38,14,0.95)'); rg.addColorStop(0.6, 'rgba(70,45,18,0.7)'); rg.addColorStop(1, 'rgba(70,45,18,0)');
+  mx.fillStyle = rg; mx.fillRect(0, 0, 256, 256);
+  const mtx = new T3.CanvasTexture(mc); mtx.colorSpace = T3.SRGBColorSpace;
+  W3.mancha = new T3.Mesh(new T3.PlaneGeometry(1, 1), new T3.MeshBasicMaterial({ map: mtx, transparent: true, depthWrite: false }));
+  W3.mancha.position.set((HOLE.x0 + HOLE.x1) / 2, HOLE.y0, Z1 + 0.02); scene.add(W3.mancha);
+  W3.poca = new T3.Mesh(new T3.CylinderGeometry(1, 1, 0.06, 24), mat(0x5e3f22, { roughness: 0.3 })); W3.poca.position.set(0.1, 0.03, 0.4); W3.poca.receiveShadow = true; scene.add(W3.poca);
+  // caminhao limpa-fossa
+  W3.truck = grupo();
+  box(2.2, 0.25, 1.1, mat(0x333a40), 0, 0.45, 0, W3.truck);
+  const tq = cyl(0.55, 0.55, 1.7, mat(0xf2b632, { roughness: 0.5 }), 20, W3.truck); tq.rotation.z = Math.PI / 2; tq.position.set(-0.25, 1.05, 0);
+  box(0.75, 0.95, 1.05, mat(0x2f6fd1), 0.95, 0.95, 0, W3.truck);
+  box(0.05, 0.38, 0.8, mat(0xbfe6ff, { roughness: 0.1 }), 1.33, 1.15, 0, W3.truck);
+  for (const [px, pz] of [[-0.7, 0.55], [0.85, 0.55], [-0.7, -0.55], [0.85, -0.55]]) { const r = cyl(0.25, 0.25, 0.18, mat(0x222222), 14, W3.truck); r.rotation.x = Math.PI / 2; r.position.set(px, 0.25, pz); }
+  W3.truck.position.set(14, 0, 0.6);
+  W3.mang = new T3.Mesh(new T3.TubeGeometry(new T3.QuadraticBezierCurve3(new T3.Vector3(), new T3.Vector3(), new T3.Vector3()), 20, 0.07, 8), mat(0x222222)); scene.add(W3.mang);
+  // nuvens
+  W3.nuvens = [...Array(4)].map((_, i) => {
+    const g = grupo(); const m = mat(0xffffff, { roughness: 1 });
+    for (const [dx, dy, r] of [[0, 0, 0.7], [0.7, 0.2, 0.9], [1.5, 0, 0.65], [0.75, -0.1, 0.7]]) { const s = new T3.Mesh(new T3.IcosahedronGeometry(r, 1), m); s.position.set(dx, dy, 0); g.add(s); }
+    g.userData = { y: 6.5 + i * 1.3, z: -6 - i * 2, off: i * 7 }; return g;
+  });
+}
+
+const ETAPAS = ['buraco', 'vaza', 'concreto', 'cheia', 'camadas', 'dreno', 'bacteria', 'caminhao', 'final'];
+function estado(s, k) {
+  const at = (i, f) => s < i ? 0 : s > i ? 1 : ease(f(k));
+  return {
+    s, k,
+    dig: at(0, k => k * 3.2),
+    pipeIn: at(0, k => k * 3 - 0.4),
+    plume: s === 1 ? ease(k * 1.5) : s === 2 ? 1 - ease(k * 2.5) : 0,
+    well: s === 1 ? ease((k - 0.25) * 2.2) : s === 2 ? 1 - ease(k * 2) : 0,
+    concrete: at(2, k => k * 2.5),
+    fill: s <= 2 ? 0.1 + 0.12 * (s === 0 ? ease(k) : 1) : s === 3 ? 0.22 + 0.78 * ease(k * 1.4) : 0.88,
+    overflow: s === 3 ? ease((k - 0.62) * 4) : s === 4 ? 1 - ease(k * 3) : 0,
+    stink: s === 1 ? 0.5 * ease(k * 2) : s === 3 ? ease((k - 0.4) * 2) : s === 4 ? 1 - ease(k * 3) : 0,
+    layers: at(4, k => k * 2.2),
+    baffle: at(4, k => k * 3),
+    outlet: at(4, k => k * 2.5 - 1.2),
+    labels: s === 4 ? k : 0,
+    drain: at(5, k => k * 2.5),
+    drops: s < 5 ? 0 : s === 5 ? ease(k * 3 - 1.3) : 1,
+    cleanDrops: at(6, k => k * 2),
+    bact: s === 6 ? ease(k * 2) : s > 6 ? 0.7 : 0,
+    truck: at(7, k => k * 2.2),
+    hose: at(7, k => k * 3 - 1.4),
+    sludge: s < 7 ? 0.3 : s === 7 ? lerp(0.3, 0.06, ease(k * 2 - 0.9)) : 0.06,
+    final: s === 8 ? ease(k * 2) : 0,
+  };
+}
+// camera por etapa: [alvo x, alvo y, distancia, angulo]
+const CAM = { buraco: [-1.0, -1.2, 25, -0.10], vaza: [1.2, -2.6, 30, 0.06], concreto: [0, -1.5, 23, -0.05], cheia: [0, -0.9, 21, 0.08],
+  camadas: [0.1, -1.6, 18, -0.04], dreno: [1.8, -1.6, 21, 0.10], bacteria: [2.4, -2.2, 19, 0.06], caminhao: [0.6, -0.5, 23, -0.08], final: [0, -1.6, 31, 0.0] };
+function camera(t, i) {
+  const at = j => CAM[(ST.cenas[j].p || {}).etapa] || CAM.final;
+  const sc = ST.cenas[i], prev = i > 0 ? at(i - 1) : at(i), cur = at(i);
+  const k = ease((t - sc.t0) / 1.2), v = cur.map((c, j) => lerp(prev[j], c, k));
+  const ang = v[3] + Math.sin(t * 0.25) * 0.05, d = v[2];
+  cam.position.set(v[0] + Math.sin(ang) * d, v[1] + d * 0.36, Math.cos(ang) * d);
+  cam.lookAt(v[0], v[1] - 1.2, 0);
+  cam.updateMatrixWorld();
+}
+function fossa3d(t, S) {
+  const hy = HOLE.y0, inn = W3.in, h = -inn.y0, w = 0.18;
+  W3.terra.scale.y = Math.max(0.001, 1 - S.dig); W3.terra.position.y = hy + (-hy) * (1 - S.dig) / 2; W3.terra.visible = S.dig < 1;
+  W3.monte.scale.set(1.1 * S.dig, 0.6 * S.dig * (1 - S.concrete * 0.9) + 0.001, 0.9 * S.dig); W3.monte.visible = S.dig > 0.02 && S.concrete < 1;
+  W3.concreto.visible = S.concrete > 0; W3.concreto.scale.set(1, Math.max(0.01, S.concrete), 1);
+  W3.tampa.visible = S.concrete > 0.3; W3.tampa.position.y = lerp(3, 0, ease((S.concrete - 0.3) / 0.7));
+  // nivel do conteudo
+  const base = S.concrete > 0 ? inn.y0 : hy, topo = base + (0 - base) * S.fill;
+  const setH = (m, y0, y1) => { m.visible = y1 - y0 > 0.01; m.position.y = y0; m.scale.y = Math.max(0.001, y1 - y0); };
+  const sl = base + h * S.sludge, sc = topo - 0.22;
+  W3.esgoto.material.opacity = 1; setH(W3.esgoto, base, topo); W3.esgoto.visible = S.layers < 1 && topo > base + 0.01;
+  W3.esgoto.scale.x = S.concrete > 0 ? 1 : 1.12;
+  for (const m of [W3.lodo, W3.agua, W3.gordura]) { m.material.transparent = true; m.material.opacity = S.layers * (m === W3.agua ? 0.92 : 1); }
+  setH(W3.lodo, base, sl); setH(W3.agua, sl, sc); setH(W3.gordura, sc, topo);
+  for (const m of [W3.lodo, W3.agua, W3.gordura]) m.visible = S.layers > 0.01;
+  // parede divisoria com passagem no meio
+  const pb = lerp(base, 0, 0.42), pt = lerp(base, 0, 0.6);
+  W3.parede.visible = W3.parede2.visible = S.baffle > 0;
+  W3.parede.position.y = pt + (0.12 - pt) * (1 - S.baffle) * 0; W3.parede.scale.y = Math.max(0.01, (0 - pt) * S.baffle); W3.parede.position.y = pt + (0 - pt) * S.baffle / 2;
+  W3.parede2.scale.y = Math.max(0.01, (pb - base) * S.baffle); W3.parede2.position.y = base + (pb - base) * S.baffle / 2;
+  // canos e fluxo
+  W3.canoIn.me.geometry.setDrawRange(0, Math.floor(W3.canoIn.me.geometry.index.count * S.pipeIn / 6) * 6);
+  W3.canoOut.me.geometry.setDrawRange(0, Math.floor(W3.canoOut.me.geometry.index.count * S.outlet / 6) * 6);
+  W3.bolas.forEach((b, i) => { b.visible = S.pipeIn >= 1; const p = W3.canoIn.curva.getPointAt((t * 0.45 + i / 5) % 1); b.position.set(p.x, p.y, p.z + 0.12); });
+  W3.bolas2.forEach((b, i) => { b.visible = S.outlet >= 1; const p = W3.canoOut.curva.getPointAt((t * 0.4 + i / 4) % 1); b.position.set(p.x, p.y, p.z + 0.12); });
+  W3.brita.visible = S.drain > 0; W3.brita.position.y = (1 - S.drain) * 2.5;
+  const gc = new T3.Color(0x7eaa96).lerp(new T3.Color(0x3fa4f0), S.cleanDrops);
+  W3.gotas.forEach((g, i) => {
+    const u = (t * 0.45 + rnd(i * 3.3)) % 1; g.visible = S.drops > 0.05;
+    g.material.color.copy(gc); g.position.set(2.3 + (i % 8) * 0.23 + Math.sin(u * 8 + i) * 0.05, lerp(-1.3, WT + 0.05, u), Z1 + 0.02); g.scale.setScalar(S.drops * (u < 0.92 ? 1 : (1 - u) * 12)); g.scale.y *= 1.4;
+  });
+  W3.bact.forEach((b, i) => {
+    const k = back(S.bact * 1.3 - rnd(i) * 0.3); b.visible = k > 0.01; b.scale.setScalar(Math.max(0.001, k) * 1.2);
+    b.position.set(b.userData.px + Math.sin(t * 2 + i) * 0.06, b.userData.py + Math.cos(t * 1.7 + i) * 0.06, Z1 + 0.06); b.rotation.z = Math.sin(t * 3 + i) * 0.4 + i;
+  });
+  // vazamento, poco e transbordo
+  W3.mancha.visible = S.plume > 0; W3.mancha.scale.set(1 + 11 * S.plume, 1 + 6 * S.plume, 1);
+  W3.wellWater.material.color.set(0x3f9fe3).lerp(new T3.Color(0x6b4a2b), S.well);
+  W3.poca.visible = S.overflow > 0; W3.poca.scale.set(2.4 * S.overflow + 0.01, 1, 1.6 * S.overflow + 0.01);
+  // caminhao e mangueira
+  W3.truck.visible = S.truck > 0; W3.truck.position.x = lerp(14, 1.1, S.truck);
+  W3.mang.visible = S.hose > 0;
+  if (S.hose > 0) {
+    const a = new T3.Vector3(W3.truck.position.x - 1.0, 1.0, 0.6), b = new T3.Vector3(lerp(a.x, -0.25, S.hose), lerp(1.0, 0.3, S.hose), lerp(0.6, 0.45, S.hose));
+    W3.mang.geometry.dispose(); W3.mang.geometry = new T3.TubeGeometry(new T3.QuadraticBezierCurve3(a, new T3.Vector3((a.x + b.x) / 2, 1.6, 0.6), b), 20, 0.07, 8);
+  }
+  W3.nuvens.forEach(g => { const u = g.userData; g.position.set(((t * 0.35 + u.off) % 26) - 13, u.y, u.z); });
+}
+
+// ---------------- camada 2D ----------------
+function proj(px, py, pz) { const v = new T3.Vector3(px, py, pz).project(cam); return [(v.x + 1) / 2 * W, (1 - v.y) / 2 * H]; }
+function rr(x0, y0, w, h, r) { x.beginPath(); x.roundRect(x0, y0, w, h, r); }
+function pill(cx, cy, txt, bg, fg, size = 40, s = 1) {
+  if (s <= 0.01) return;
+  x.save(); x.translate(cx, cy); x.scale(s, s);
+  x.font = `900 ${size}px ${FONT}`; x.textAlign = 'center'; x.textBaseline = 'middle';
+  const w = x.measureText(txt).width + size * 1.1, h = size * 1.6;
+  x.fillStyle = 'rgba(0,0,0,0.28)'; rr(-w / 2 + 4, -h / 2 + 7, w, h, h / 2); x.fill();
+  x.fillStyle = bg; rr(-w / 2, -h / 2, w, h, h / 2); x.fill();
+  x.fillStyle = fg; x.fillText(txt, 0, 2);
+  x.restore();
+}
+function stink(t, k) {
+  if (k <= 0) return;
+  const [cx, cy] = proj(0.1, 0.4, 0.6);
+  x.save(); x.lineWidth = 10; x.lineCap = 'round';
+  for (let i = 0; i < 4; i++) {
+    const u = (t * 0.6 + i / 4) % 1, bx = cx + (i - 1.5) * 70;
+    x.strokeStyle = `rgba(130,210,60,${k * (1 - u) * 0.95})`; x.beginPath();
+    for (let j = 0; j <= 12; j++) x.lineTo(bx + Math.sin(j * 0.9 + t * 4 + i) * 16, cy - u * 200 - j * 11);
+    x.stroke();
+  }
+  x.restore();
+}
+function labels(S) {
+  if (S.labels <= 0) return;
+  const inn = W3.in, h = -inn.y0, base = inn.y0, topo = base + -base * S.fill, sl = base + h * S.sludge, cx = (inn.x0 + inn.x1) / 2 - 0.35;
+  const L = [['GREASE', topo - 0.11, COL.yellow], ['LIQUID', (sl + topo - 0.22) / 2, '#ffffff'], ['SOLIDS', (base + sl) / 2, '#f0c8a0']];
+  L.forEach(([txt, y, bg], i) => { const [px, py] = proj(cx, y, Z1); pill(px, py, txt, bg, COL.ink, 30, back((S.labels - 0.3 - i * 0.12) * 5)); });
+}
+function skull(S) { if (S.well > 0.6) { const [px, py] = proj((WELL.x0 + WELL.x1) / 2, WT + 1.3, Z1); pill(px, py, '☠', COL.red, '#fff', 34, back((S.well - 0.6) * 3)); } }
+function confetti(t) {
+  const d = E.since(t, 'tada'); if (d < 0 || d > 3) return;
+  for (let i = 0; i < 90; i++) {
+    const vx = (rnd(i * 2.2) - 0.5) * 900, vy = -500 - rnd(i * 5.5) * 700, px = W / 2 + vx * d, py = 460 + vy * d + 700 * d * d;
+    x.save(); x.translate(px, py); x.rotate(d * 8 + i); x.fillStyle = [COL.yellow, COL.red, COL.green, '#3a9be0', '#ff8ad8'][i % 5]; x.fillRect(-9, -5, 18, 10); x.restore();
+  }
+}
+function hud(t, p, S) {
+  if (p.titulo) {
+    const k = back(S.final * 1.2);
+    x.save(); x.translate(W / 2, 300); x.scale(k, k);
+    x.font = `900 92px ${FONT}`; x.textAlign = 'center'; x.textBaseline = 'middle'; x.lineWidth = 18; x.strokeStyle = COL.ink; x.lineJoin = 'round';
+    x.strokeText(p.titulo[0], 0, -60); x.fillStyle = '#fff'; x.fillText(p.titulo[0], 0, -60);
+    x.font = `900 112px ${FONT}`; x.strokeText(p.titulo[1], 0, 50); x.fillStyle = COL.yellow; x.fillText(p.titulo[1], 0, 50);
+    x.restore(); return;
+  }
+  if (p.passo) pill(W / 2, 170, `STEP ${p.passo}`, COL.ink, '#fff', 46, 1 + 0.15 * Math.max(0, 1 - (t - E.cena0) * 4));
+  const verd = (tipo, txt, bg, ico) => { const d = E.since(t, tipo); if (d < 0 || t > E.cena1 + 0.1) return; pill(W / 2, 272, `${ico} ${txt}`, bg, '#fff', 40, back(d * 4)); };
+  if (p.ruim) verd('erro', p.ruim, COL.red, '✗');
+  if (p.bom) verd('certo', p.bom, COL.green, '✓');
+}
+function subtitle(t) {
+  const s = ST.segs.find(s => t >= s.t0 - 0.05 && t <= s.t1 + 0.25);
+  if (!s) return;
+  const words = s.text.split(' ').filter(Boolean), chunks = [], ini = [];
+  for (let i = 0; i < words.length;) { let n = 0, len = 0; while (i + n < words.length && (n < 2 || len < 14) && n < 4) { len += words[i + n].length + 1; n++; if (/[.?!…:,]$/.test(words[i + n - 1])) break; } chunks.push(words.slice(i, i + n).join(' ')); ini.push(i); i += n; }
+  let cur = chunks[chunks.length - 1];
+  if (s.w && s.w.length === words.length) {
+    let k = 0; for (let i = 0; i < words.length; i++) if (s.w[i] <= t + 0.1) k = i;
+    for (let c = 0; c < chunks.length; c++) if (ini[c] <= k) cur = chunks[c];
+  } else { const total = chunks.reduce((a, b) => a + b.length, 0), pp = (t - s.t0) / (s.t1 - s.t0) * total; let acc = 0; for (const ch of chunks) { acc += ch.length; if (pp <= acc) { cur = ch; break; } } }
+  x.font = `900 82px ${FONT}`; x.textAlign = 'center'; x.textBaseline = 'middle';
+  const lines = []; let line = '';
+  for (const w of cur.split(' ')) { const test = line ? line + ' ' + w : w; if (x.measureText(test).width > W - 300 && line) { lines.push(line); line = w; } else line = test; }
+  lines.push(line);
+  lines.forEach((l, i) => {
+    const y = H * 0.63 + i * 96, cx = W / 2 - 50;
+    x.lineWidth = 16; x.strokeStyle = '#000'; x.lineJoin = 'round'; x.strokeText(l.toUpperCase(), cx, y);
+    x.fillStyle = RX && RX.test(l) ? COL.yellow : '#ffffff'; x.fillText(l.toUpperCase(), cx, y);
+  });
+}
+
+// ---------------- quadro ----------------
+function sceneAt(t) { let i = 0; for (let k = 0; k < ST.cenas.length; k++) if (t >= ST.cenas[k].t0) i = k; return i; }
+window.render = function (t) {
+  const i = sceneAt(t), sc = ST.cenas[i], p = sc.p || {}, t1 = i + 1 < ST.cenas.length ? ST.cenas[i + 1].t0 : ST.dur;
+  const lt = clamp((t - sc.t0) / Math.max(0.1, t1 - sc.t0));
+  E.cena0 = sc.t0; E.cena1 = t1;
+  const S = estado(Math.max(0, ETAPAS.indexOf(p.etapa)), lt);
+  fossa3d(t, S); camera(t, i);
+  const sh = E.pulse(t, 'erro', 0.4) * 0.12; cam.position.x += (rnd(t * 97) - 0.5) * sh * 3; cam.position.y += (rnd(t * 71) - 0.5) * sh * 3;
+  gl.render(scene, cam);
+  x.setTransform(1, 0, 0, 1, 0, 0); x.globalAlpha = 1;
+  x.drawImage(gl.domElement, 0, 0);
+  const er = E.pulse(t, 'erro', 0.25); if (er > 0) { x.fillStyle = `rgba(255,60,40,${0.28 * er})`; x.fillRect(0, 0, W, H); }
+  const ok = E.pulse(t, 'certo', 0.25); if (ok > 0) { x.fillStyle = `rgba(60,220,110,${0.16 * ok})`; x.fillRect(0, 0, W, H); }
+  stink(t, S.stink); skull(S); labels(S);
+  hud(t, p, S); confetti(t); subtitle(t);
+  if (t > ST.dur - 0.5) { x.fillStyle = `rgba(0,0,0,${clamp((t - ST.dur + 0.5) / 0.5)})`; x.fillRect(0, 0, W, H); }
+};
+window.setup = h => {
+  ST = h; RX = h.destaque && h.destaque.length ? new RegExp(h.destaque.join('|'), 'i') : null;
+  montaFossa();
+};
+</script></body></html>
