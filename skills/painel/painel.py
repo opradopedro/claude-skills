@@ -19,7 +19,7 @@ Depois do upload, grave S/urls.json ({"caminho local": "url do asset"}) e rode d
 import argparse, glob, hashlib, json, os, re, subprocess
 from datetime import datetime, timezone
 
-POSTADOS_GTA = 30  # Reels mais recentes que aparecem no painel
+POSTADOS_GTA = 1000  # todos os Reels postados (o Pedro quer o histórico inteiro no painel)
 
 
 def sha(path):
