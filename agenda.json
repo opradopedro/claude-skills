@@ -689,7 +689,7 @@
     {
       "data": "2026-10-23",
       "hora": "12:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v34_burger_shot.mp4",
       "tema": "Burger Shot e Cluckin' Bell de verdade no ginásio do Miami Heat",
       "formato": "corte",
@@ -702,7 +702,8 @@
         "gancho": "curiosidade + preço",
         "origem": "GameSpot (22/10)"
       },
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/De10O6vgais/"
     }
   ]
 }
