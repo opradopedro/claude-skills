@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Trilha do canal de engenharia: voz + base leve (marimba e baixo, 112 bpm) + efeitos nas trocas de etapa.
+"""Trilha do canal de engenharia: voz + efeitos nas trocas de etapa (sem musica de fundo: o Pedro nao gostou, 23/10).
+YB_MUSICA=1 volta a base de marimba e baixo (112 bpm).
 
 Uso: python3 mix.py historia.json voz.wav tempos.json trilha.m4a
 Efeitos: "whoosh" em cada cena nova, buzina curta em "erro", sino em "certo", acorde em "tada".
@@ -69,7 +70,8 @@ def main(historia, voz, tempos, saida):
     mix = np.zeros(n)
     mix[:len(v)] += v / max(1e-6, np.abs(v).max()) * 0.9
     t = np.arange(n) / SR
-    mix += base(dur) * 0.16 * np.clip(t / 1.0, 0, 1) * np.clip((dur - t) / 1.5, 0, 1)
+    if os.environ.get("YB_MUSICA") == "1":
+        mix += base(dur) * 0.16 * np.clip(t / 1.0, 0, 1) * np.clip((dur - t) / 1.5, 0, 1)
 
     def por(som, em, g=1.0):
         i = int(max(0, em) * SR); mix[i:i + len(som)] += (som * g)[:n - i]

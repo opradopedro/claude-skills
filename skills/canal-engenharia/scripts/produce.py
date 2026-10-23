@@ -20,7 +20,7 @@ STORIES = os.path.join(SKILL, "stories")
 sys.path.insert(0, AQUI)
 from comum import carregar, resolver
 
-HORA_UTC = {"Evolucao": 16, "Curiosidade": 23}  # 12h e 19h em Nova York (EDT); no inverno caem 1 h antes
+HORA_UTC = {"Curiosidade": 21, "Evolucao": 23}  # 17h e 19h em Nova York (EDT), pico do publico de lingua inglesa; no inverno caem 1 h antes
 
 # voz e ritmo do canal (o tts.py veio do Hora Muerta, que usa voz sussurrada e lenta)
 VOZ = {"GEMINI_TTS_VOICE": "Charon", "GEMINI_TTS_ESTILO": "", "HM_VOZ_TEMPO": "1.0", "HM_PAUSA_FATOR": "1.0",

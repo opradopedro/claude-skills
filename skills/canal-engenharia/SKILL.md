@@ -8,12 +8,12 @@ description: Produz e agenda no YouTube os Shorts do canal So You Built It (@SoY
 Canal faceless de Shorts em inglês, **nunca** marcado como feito para crianças. Dois formatos, um vídeo de cada por dia:
 
 - **Evolucao** ("You built a septic tank"): o espectador "constrói" algo do jeito errado, dá problema, e cada cena
-  resolve um problema até chegar no sistema de verdade. Sai às 16h UTC (12h de Nova York).
+  resolve um problema até chegar no sistema de verdade. Sai às 23h UTC (19h de Nova York), 2 h depois da Curiosidade.
 - **Curiosidade** ("How does an eraser actually erase?"): como uma coisa do dia a dia funciona por dentro.
-  Sai às 23h UTC (19h de Nova York).
+  Sai às 21h UTC (17h de Nova York), pico do público de língua inglesa.
 
 Estilo (referência do Pedro, 23/10): 3D semirrealista em corte (terra com textura, camadas, lençol freático),
-sobrado e quintal ao fundo, câmera que passeia, **uma palavra de legenda por vez no centro**, trilha leve de marimba.
+sobrado e quintal ao fundo, câmera que passeia, **uma palavra de legenda por vez no centro**, sem música de fundo (só voz e efeitos; o Pedro não gostou da marimba).
 Custo zero: Three.js no Chromium, voz Gemini TTS grátis, YouTube Data API.
 
 ## Rodar (rotina diária)
@@ -52,7 +52,7 @@ Tempo: o render em CPU leva uns 15 a 25 min por vídeo de 40 s. Cota do YouTube:
 | `scripts/mundos/<nome>.js` | Um mundo 3D por tema (`fossa`, `borracha`); o roteiro escolhe com `"mundo"` |
 | `scripts/render.py` | Chromium (swiftshader) quadro a quadro para FFmpeg, 30 fps; `--teste 1,5,9` salva JPGs |
 | `scripts/tts.py` | Gemini TTS com tempo de cada palavra; reserva Kokoro (`KOKORO_LANG=en`) |
-| `scripts/mix.py` | Voz, marimba e baixo, whoosh nas trocas de cena, efeitos `erro`, `certo`, `tada`, -14 LUFS |
+| `scripts/mix.py` | Voz sem música (`YB_MUSICA=1` volta a marimba), whoosh nas trocas de cena, efeitos `erro`, `certo`, `tada`, -14 LUFS |
 | `scripts/yt_upload.py` | `subir`, `publicados` (códigos YBxxx pela tag) e `canal` (de quem é o token) |
 | `scripts/comum.py` | Converte cenas e eventos do roteiro em segundos |
 
