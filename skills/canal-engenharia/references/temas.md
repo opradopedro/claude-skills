@@ -28,7 +28,7 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [ ] How a ballpoint pen writes (esfera, tinta viscosa, capilaridade)
 - [ ] How a zipper locks (dentes, cursor em Y)
 - [ ] How a toilet flushes (sifão, bóia, válvula)
-- [ ] How a lock and key work (pinos, linha de corte)
+- [x] How a lock and key work (YB003)
 - [ ] How a microwave heats food (ondas, moléculas de água girando)
 - [ ] How a fridge makes cold (gás comprime, condensa, expande)
 - [ ] How a match lights (fósforo vermelho, atrito, cabeça)
