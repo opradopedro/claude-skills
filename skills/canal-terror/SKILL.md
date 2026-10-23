@@ -14,6 +14,24 @@ no plano grátis e o upload usa a YouTube Data API.
 - Publicação: 1 Short por dia às 21h de Brasília (00h UTC), agendado como privado com `publishAt`.
   O Pedro pode vetar no YouTube Studio antes do horário.
 
+## Padrão de qualidade (esforço alto, pedido do Pedro em 23/10)
+
+O Pedro quer vídeos bonitos de ver e temas criativos e pouco batidos. Pesquisa de tema e motor gráfico são as
+duas partes onde **não se economiza raciocínio nem tempo**:
+
+- **Pesquisa de tema:** antes de escrever, use WebSearch para achar lendas, casos e creepypastas latino-americanos pouco explorados em Shorts
+  (Reddit r/Paranormal, r/LetsNotMeet, r/latinoamerica, fóruns e folclore regional, Shorts virais de terror em
+  espanhol para ver o que já está saturado). Liste pelo menos 8 candidatos com nota de 1 a 5 em
+  originalidade (pouco contado em Shorts), gancho nos 2 primeiros segundos, potencial visual nas cenas em
+  código e se rende uma série de 2 partes ou mais. Fuja do que já foi muito usado por outros canais e do que já está em `stories/`; anote os bons que
+  sobrarem no backlog (`references/temas.md`). Confira os fatos que o roteiro afirma.
+- **Motor gráfico:** cada cena precisa ser bonita sozinha: composição, luz e sombra, textura, profundidade, movimento
+  com intenção e leitura clara do que está acontecendo. Melhore o motor quando um tema pedir. Renderize quadros de
+  teste em vários pontos, **olhe cada JPG** e faça pelo menos duas rodadas de ajuste antes do render final. Se um
+  quadro estiver feio, vazio, confuso ou repetido, conserte antes de subir.
+- O Pedro não precisa aprovar antes de subir ("Nunca espere minha aprovação pra subir"), então a conferência dos
+  quadros é a única revisão: trate-a como a de um editor exigente.
+
 ## Rodar (rotina diária)
 
 ```bash
