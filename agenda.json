@@ -724,6 +724,24 @@
       "capa_embutida": true,
       "link": "https://www.instagram.com/reel/De2iVxUACb4/",
       "obs": "publicado às 18h36 (BRT) com legenda curta, fora desta rotina"
+    },
+    {
+      "data": "2026-10-23",
+      "hora": "21:00",
+      "status": "pendente",
+      "arquivo": "radar_v36_daft_punk_justice.mp4",
+      "tema": "Rumor Daft Punk em GTA 6 + trilha oficial do Justice",
+      "formato": "corte",
+      "capa": "Daft Punk em GTA 6?",
+      "capa_t": 5.8,
+      "legenda": "GTA 6 quase teve a volta do Daft Punk 🎧\n\n🤫 Segundo o perfil Has It Leaked, a Rockstar procurou o empresário da dupla com orçamento \"praticamente ilimitado\" pra um último retorno\n⚠️ É rumor: nem a Rockstar nem o Daft Punk confirmaram, e a dupla acabou em 2021\n✅ Oficial: a trilha original de GTA 6 é do Justice, outra dupla francesa\n🌀 Eles já lançaram \"Flower in a Hurricane\", com Tame Impala e SZA\n\nVocê queria ouvir Daft Punk em GTA 6? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #daftpunk #gta6brasil",
+      "ficha": {
+        "formato": "corte",
+        "tema": "musica/trilha",
+        "gancho": "rumor + oficial",
+        "origem": "Dexerto (Has It Leaked) + Shacknews (Rockstar)"
+      },
+      "capa_embutida": true
     }
   ]
 }
