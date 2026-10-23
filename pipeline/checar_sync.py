@@ -14,7 +14,7 @@ pasta = sys.argv[1]
 voz, texto = os.path.join(pasta, "voz.mp3"), open(os.path.join(pasta, "roteiro.txt")).read().strip()
 words = align(voz, texto, {"GTA 6": "GTA 6"})
 sil, total = silences(voz)
-pausas = [(a, b) for a, b in sil if b - a >= 0.25 and a > 0.1 and b < total - 0.1]
+pausas = [(a, b) for a, b in sil if b - a >= 0.2 and a > 0.1 and b < total - 0.1]
 
 frases, cur = [], []
 for w in words:

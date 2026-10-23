@@ -1,0 +1,504 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v37_roda_de_armas.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_277.mp4",
+   "start": 0.0,
+   "end": 1.428,
+   "layout": "full",
+   "cx": 0.596,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_218.mp4",
+   "start": 1.428,
+   "end": 2.857,
+   "layout": "full",
+   "cx": 0.493,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_069.mp4",
+   "start": 2.857,
+   "end": 4.417,
+   "layout": "full",
+   "cx": 0.283,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_071.mp4",
+   "start": 4.417,
+   "end": 5.977,
+   "layout": "full",
+   "cx": 0.397,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_073.mp4",
+   "start": 5.977,
+   "end": 7.536,
+   "layout": "full",
+   "cx": 0.521,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_070.mp4",
+   "start": 7.536,
+   "end": 9.096,
+   "layout": "full",
+   "cx": 0.404,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_175.mp4",
+   "start": 9.096,
+   "end": 10.247,
+   "layout": "full",
+   "cx": 0.799,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 10.247,
+   "end": 11.461,
+   "layout": "full",
+   "cx": 0.333,
+   "ss": 40.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_176.mp4",
+   "start": 11.461,
+   "end": 12.611,
+   "layout": "full",
+   "cx": 0.614,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_288.mp4",
+   "start": 12.611,
+   "end": 14.411,
+   "layout": "full",
+   "cx": 0.58,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_221.mp4",
+   "start": 14.411,
+   "end": 16.211,
+   "layout": "full",
+   "cx": 0.637,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_135.mp4",
+   "start": 16.211,
+   "end": 18.244,
+   "layout": "full",
+   "cx": 0.708,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_380.mp4",
+   "start": 18.244,
+   "end": 19.389,
+   "layout": "full",
+   "cx": 0.447,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_383.mp4",
+   "start": 19.389,
+   "end": 20.534,
+   "layout": "full",
+   "cx": 0.765,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_182.mp4",
+   "start": 20.534,
+   "end": 22.092,
+   "layout": "full",
+   "cx": 0.893,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 22.092,
+   "end": 22.958,
+   "layout": "full",
+   "cx": 0.576,
+   "ss": 72.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_216.mp4",
+   "start": 22.958,
+   "end": 24.582,
+   "layout": "full",
+   "cx": 0.597,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_354.mp4",
+   "start": 24.582,
+   "end": 26.206,
+   "layout": "full",
+   "cx": 0.489,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_178.mp4",
+   "start": 26.206,
+   "end": 27.697,
+   "layout": "full",
+   "cx": 0.045,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_179.mp4",
+   "start": 27.697,
+   "end": 29.187,
+   "layout": "full",
+   "cx": 0.795,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_180.mp4",
+   "start": 29.187,
+   "end": 30.678,
+   "layout": "full",
+   "cx": 0.532,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_183.mp4",
+   "start": 30.678,
+   "end": 32.169,
+   "layout": "full",
+   "cx": 0.523,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_160.mp4",
+   "start": 32.169,
+   "end": 33.342,
+   "layout": "full",
+   "cx": 0.149,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_166.mp4",
+   "start": 33.342,
+   "end": 34.514,
+   "layout": "full",
+   "cx": 0.582,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 34.514,
+   "end": 35.296,
+   "layout": "full",
+   "cx": 0.652,
+   "ss": 66.5
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.396,
+   "text": "GTA 6 QUASE FICOU",
+   "hl": true
+  },
+  {
+   "start": 1.396,
+   "end": 2.094,
+   "text": "SEM A RODA",
+   "hl": false
+  },
+  {
+   "start": 2.094,
+   "end": 2.857,
+   "text": "DE @RM@S",
+   "hl": false
+  },
+  {
+   "start": 2.857,
+   "end": 3.349,
+   "text": "JASON SCHREIER",
+   "hl": false
+  },
+  {
+   "start": 3.349,
+   "end": 3.842,
+   "text": "DA BLOOMBERG",
+   "hl": false
+  },
+  {
+   "start": 3.842,
+   "end": 4.953,
+   "text": "VISITOU A ROCKSTAR",
+   "hl": false
+  },
+  {
+   "start": 4.953,
+   "end": 5.84,
+   "text": "NORTH E CONTOU",
+   "hl": false
+  },
+  {
+   "start": 5.84,
+   "end": 6.66,
+   "text": "QUE A EQUIPE",
+   "hl": false
+  },
+  {
+   "start": 6.66,
+   "end": 7.645,
+   "text": "QUERIA UM SISTEMA",
+   "hl": false
+  },
+  {
+   "start": 7.645,
+   "end": 8.302,
+   "text": "IGUAL AO DE",
+   "hl": false
+  },
+  {
+   "start": 8.302,
+   "end": 9.096,
+   "text": "RED DEAD 2",
+   "hl": true
+  },
+  {
+   "start": 9.096,
+   "end": 9.866,
+   "text": "VOCÊ ANDA COM",
+   "hl": false
+  },
+  {
+   "start": 9.866,
+   "end": 10.632,
+   "text": "POUCAS @RM@S",
+   "hl": false
+  },
+  {
+   "start": 10.632,
+   "end": 11.132,
+   "text": "E O RESTO",
+   "hl": false
+  },
+  {
+   "start": 11.132,
+   "end": 11.883,
+   "text": "FICA GUARDADO NO",
+   "hl": false
+  },
+  {
+   "start": 11.883,
+   "end": 12.611,
+   "text": "CARRO",
+   "hl": false
+  },
+  {
+   "start": 12.611,
+   "end": 13.073,
+   "text": "PRA ISSO",
+   "hl": false
+  },
+  {
+   "start": 13.073,
+   "end": 14.14,
+   "text": "ELES TESTARAM DE",
+   "hl": false
+  },
+  {
+   "start": 14.14,
+   "end": 15.15,
+   "text": "TUDO NO LUGAR",
+   "hl": false
+  },
+  {
+   "start": 15.15,
+   "end": 15.611,
+   "text": "DA RODA",
+   "hl": false
+  },
+  {
+   "start": 15.611,
+   "end": 16.073,
+   "text": "BANDEJAS",
+   "hl": false
+  },
+  {
+   "start": 16.073,
+   "end": 16.425,
+   "text": "TEIAS",
+   "hl": false
+  },
+  {
+   "start": 16.425,
+   "end": 17.093,
+   "text": "E ATÉ JOGAR",
+   "hl": false
+  },
+  {
+   "start": 17.093,
+   "end": 18.244,
+   "text": "SEM RODA NENHUMA",
+   "hl": false
+  },
+  {
+   "start": 18.244,
+   "end": 18.974,
+   "text": "FORAM MESES",
+   "hl": false
+  },
+  {
+   "start": 18.974,
+   "end": 19.887,
+   "text": "TALVEZ ANOS DE",
+   "hl": false
+  },
+  {
+   "start": 19.887,
+   "end": 20.534,
+   "text": "TESTES",
+   "hl": false
+  },
+  {
+   "start": 20.534,
+   "end": 21.141,
+   "text": "E NO FIM",
+   "hl": false
+  },
+  {
+   "start": 21.141,
+   "end": 22.003,
+   "text": "VOLTARAM PRA RODA",
+   "hl": false
+  },
+  {
+   "start": 22.003,
+   "end": 22.958,
+   "text": "DE @RM@S",
+   "hl": false
+  },
+  {
+   "start": 22.958,
+   "end": 23.632,
+   "text": "A ROCKSTAR AINDA",
+   "hl": false
+  },
+  {
+   "start": 23.632,
+   "end": 24.17,
+   "text": "NÃO MOSTROU SE",
+   "hl": false
+  },
+  {
+   "start": 24.17,
+   "end": 24.844,
+   "text": "O LIMITE DE",
+   "hl": false
+  },
+  {
+   "start": 24.844,
+   "end": 25.517,
+   "text": "@RM@S FICOU NO",
+   "hl": false
+  },
+  {
+   "start": 25.517,
+   "end": 26.206,
+   "text": "JOGO",
+   "hl": false
+  },
+  {
+   "start": 26.206,
+   "end": 27.212,
+   "text": "VOCÊ PREFERE ANDAR",
+   "hl": false
+  },
+  {
+   "start": 27.212,
+   "end": 27.787,
+   "text": "COM TODAS AS",
+   "hl": false
+  },
+  {
+   "start": 27.787,
+   "end": 28.074,
+   "text": "@RM@S",
+   "hl": false
+  },
+  {
+   "start": 28.074,
+   "end": 28.506,
+   "text": "OU SÓ COM",
+   "hl": false
+  },
+  {
+   "start": 28.506,
+   "end": 28.937,
+   "text": "ALGUMAS",
+   "hl": false
+  },
+  {
+   "start": 28.937,
+   "end": 29.512,
+   "text": "COMO NO RED",
+   "hl": false
+  },
+  {
+   "start": 29.512,
+   "end": 30.021,
+   "text": "DEAD?",
+   "hl": false
+  },
+  {
+   "start": 30.021,
+   "end": 30.813,
+   "text": "COMENTA 1 PRA",
+   "hl": true
+  },
+  {
+   "start": 30.813,
+   "end": 31.129,
+   "text": "TODAS",
+   "hl": false
+  },
+  {
+   "start": 31.129,
+   "end": 32.169,
+   "text": "2 PRA ALGUMAS",
+   "hl": true
+  },
+  {
+   "start": 32.169,
+   "end": 32.714,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 32.714,
+   "end": 33.669,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 33.669,
+   "end": 34.214,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 34.214,
+   "end": 34.896,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
