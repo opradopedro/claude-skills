@@ -1,0 +1,313 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="vendor/three.js"></script>
+<script>
+// Motor 3D do canal de engenharia, estilo "maquete semirrealista em corte": texturas geradas por codigo
+// (terra, concreto, grama, agua, madeira, fachada), luz do sol com sombra suave e legenda de uma palavra por vez.
+// Cada tema e um "mundo" em mundos/<nome>.js que registra MUNDO = {monta, atualiza, camera, overlay}.
+// render.py chama setup(historia) (espera o mundo carregar) e depois render(t) quadro a quadro.
+const W = 1080, H = 1920;
+const c = document.getElementById('c'), x = c.getContext('2d');
+let ST = { segs: [], cenas: [], eventos: [], destaque: [], gancho: null, dur: 1 };
+let MUNDO = null;
+
+function rnd(seed) { const s = Math.sin(seed * 12.9898) * 43758.5453; return s - Math.floor(s); }
+const clamp = v => v < 0 ? 0 : v > 1 ? 1 : v;
+const ease = t => { t = clamp(t); return t * t * (3 - 2 * t); };
+const back = t => { t = clamp(t); const s = 1.7; return 1 + (s + 1) * Math.pow(t - 1, 3) + s * Math.pow(t - 1, 2); };
+const lerp = (a, b, k) => a + (b - a) * k;
+
+const E = {
+  list: tipo => ST.eventos.filter(e => e.tipo === tipo),
+  at: tipo => { const e = ST.eventos.find(e => e.tipo === tipo && e.t >= E.cena0 - 0.5); return e ? e.t : Infinity; },
+  pulse: (t, tipo, len = 0.35) => { let k = 0; for (const e of E.list(tipo)) { const d = t - e.t; if (d >= 0 && d < len) k = Math.max(k, 1 - d / len); } return k; },
+  since: (t, tipo) => { const a = E.at(tipo); return t >= a ? t - a : -1; },
+  cena0: 0, cena1: 0,
+};
+const FONT = '"Inter", "Arial Black", system-ui, sans-serif';
+const COL = { ink: '#1d2430', red: '#ff4b3e', green: '#2fcf6a', yellow: '#ffd23a' };
+
+// ---------------- palco ----------------
+const gl = new T3.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+gl.setPixelRatio(1); gl.setSize(W, H);
+gl.shadowMap.enabled = true; gl.shadowMap.type = T3.PCFSoftShadowMap;
+gl.outputColorSpace = T3.SRGBColorSpace; gl.toneMapping = T3.ACESFilmicToneMapping; gl.toneMappingExposure = 1.0;
+const scene = new T3.Scene();
+const cam = new T3.PerspectiveCamera(46, W / H, 0.1, 400);
+const hemi = new T3.HemisphereLight(0xe4f1ff, 0x6b5440, 1.05); scene.add(hemi);
+const sun = new T3.DirectionalLight(0xfff0d8, 2.8);
+sun.position.set(-10, 18, 14); sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048);
+Object.assign(sun.shadow.camera, { left: -16, right: 16, top: 16, bottom: -16, near: 1, far: 80 });
+sun.shadow.bias = -0.0005; sun.shadow.normalBias = 0.02;
+scene.add(sun);
+const fillL = new T3.DirectionalLight(0xcfe0ff, 0.55); fillL.position.set(8, 3, 16); scene.add(fillL);
+
+// ---------------- ruido e texturas geradas ----------------
+function ruido(seed, P) {  // value noise periodico (periodo P), para a textura repetir sem emenda
+  const g = new Float32Array(P * P); for (let i = 0; i < P * P; i++) g[i] = rnd(i * 1.317 + seed * 91.7);
+  return (u, v) => {
+    const xf = u * P, yf = v * P, x0 = Math.floor(xf), y0 = Math.floor(yf), fx = xf - x0, fy = yf - y0;
+    const sx = fx * fx * (3 - 2 * fx), sy = fy * fy * (3 - 2 * fy), m = k => ((k % P) + P) % P;
+    const a = g[m(y0) * P + m(x0)], b = g[m(y0) * P + m(x0 + 1)], cc = g[m(y0 + 1) * P + m(x0)], d = g[m(y0 + 1) * P + m(x0 + 1)];
+    return lerp(lerp(a, b, sx), lerp(cc, d, sx), sy);
+  };
+}
+function fbm(seed, P0, oct = 5) {
+  const ns = [...Array(oct)].map((_, o) => ruido(seed + o * 13, P0 << o));
+  return (u, v) => { let s = 0, a = 0.5, n = 0; for (const f of ns) { s += f(u, v) * a; n += a; a *= 0.5; } return s / n; };
+}
+function pixels(size, fn) {
+  const cv = document.createElement('canvas'); cv.width = cv.height = size;
+  const cx = cv.getContext('2d'), id = cx.createImageData(size, size);
+  for (let j = 0; j < size; j++) for (let i = 0; i < size; i++) {
+    const [r, g, b] = fn(i / size, j / size), k = (j * size + i) * 4;
+    id.data[k] = r; id.data[k + 1] = g; id.data[k + 2] = b; id.data[k + 3] = 255;
+  }
+  cx.putImageData(id, 0, 0); return cv;
+}
+const hex = h => [(h >> 16) & 255, (h >> 8) & 255, h & 255];
+const TXC = {};
+function textura(nome, gera) {
+  if (TXC[nome]) return TXC[nome];
+  const cv = gera(), tx = new T3.CanvasTexture(cv);
+  tx.wrapS = tx.wrapT = T3.RepeatWrapping; tx.colorSpace = T3.SRGBColorSpace; tx.anisotropy = 4;
+  const bump = new T3.CanvasTexture(cv); bump.wrapS = bump.wrapT = T3.RepeatWrapping;
+  return (TXC[nome] = { tx, bump });
+}
+// terra: manchas grandes, grao fino, pedrinhas com brilho e sombra
+function geraTerra(cor, seed, pedras = 140, tons = [0.62, 1.25]) {
+  const n1 = fbm(seed, 4), n2 = fbm(seed + 5, 32, 3), base = hex(cor);
+  const cv = pixels(512, (u, v) => {
+    const k = lerp(tons[0], tons[1], n1(u, v) * 0.6 + n2(u, v) * 0.4) * (0.92 + rnd(u * 913 + v * 7771) * 0.16);
+    return base.map(ch => Math.min(255, ch * k));
+  });
+  const cx = cv.getContext('2d');
+  for (let i = 0; i < pedras; i++) {
+    const px = rnd(i * 3.1 + seed) * 512, py = rnd(i * 7.3 + seed) * 512, r = 2 + Math.pow(rnd(i * 1.7 + seed), 3) * 11;
+    const l = 0.55 + rnd(i * 5.5) * 0.7, cc = base.map(ch => Math.min(255, ch * l + 18));
+    for (const [ox, oy] of [[0, 0], [512, 0], [-512, 0], [0, 512], [0, -512]]) {
+      cx.fillStyle = 'rgba(0,0,0,0.35)'; cx.beginPath(); cx.ellipse(px + ox + 1.5, py + oy + 2, r, r * 0.75, i, 0, 7); cx.fill();
+      cx.fillStyle = `rgb(${cc})`; cx.beginPath(); cx.ellipse(px + ox, py + oy, r, r * 0.75, i, 0, 7); cx.fill();
+      cx.fillStyle = 'rgba(255,255,255,0.18)'; cx.beginPath(); cx.ellipse(px + ox - r * 0.3, py + oy - r * 0.3, r * 0.4, r * 0.3, i, 0, 7); cx.fill();
+    }
+  }
+  return cv;
+}
+function geraConcreto(seed = 3) {
+  const n1 = fbm(seed, 6), n2 = fbm(seed + 9, 64, 2);
+  const cv = pixels(512, (u, v) => { const k = 0.78 + n1(u, v) * 0.3 + n2(u, v) * 0.12 + rnd(u * 733 + v * 9133) * 0.06; return [176 * k, 172 * k, 164 * k]; });
+  const cx = cv.getContext('2d');
+  for (let i = 0; i < 260; i++) { cx.fillStyle = `rgba(60,55,50,${0.25 + rnd(i) * 0.4})`; cx.beginPath(); cx.arc(rnd(i * 2.1) * 512, rnd(i * 4.3) * 512, 0.6 + rnd(i * 8.8) * 1.8, 0, 7); cx.fill(); }
+  return cv;
+}
+function geraGrama(seed = 7) {
+  const n1 = fbm(seed, 8);
+  const cv = pixels(512, (u, v) => { const k = 0.7 + n1(u, v) * 0.55; return [62 * k, 138 * k, 44 * k]; });
+  const cx = cv.getContext('2d'); cx.lineWidth = 1.4;
+  for (let i = 0; i < 5000; i++) {
+    const px = rnd(i * 1.1) * 512, py = rnd(i * 2.9) * 512, l = 5 + rnd(i * 4.4) * 9, a = -Math.PI / 2 + (rnd(i * 6.6) - 0.5) * 0.9, k = 0.6 + rnd(i * 9.9) * 0.9;
+    cx.strokeStyle = `rgb(${70 * k},${150 * k},${48 * k})`; cx.beginPath(); cx.moveTo(px, py); cx.lineTo(px + Math.cos(a) * l, py + Math.sin(a) * l); cx.stroke();
+  }
+  return cv;
+}
+function geraMadeira(cor = 0x9a6a42, seed = 4) {
+  const n1 = fbm(seed, 4), base = hex(cor);
+  return pixels(256, (u, v) => {
+    const tabua = Math.floor(u * 6), fu = u * 6 - tabua, gr = Math.sin((v * 40 + n1(u * 0.3, v) * 6 + tabua * 3)) * 0.5 + 0.5;
+    const k = (0.8 + gr * 0.18 + rnd(tabua * 7) * 0.15) * (fu < 0.04 ? 0.45 : 1);
+    return base.map(ch => Math.min(255, ch * k));
+  });
+}
+function geraTelhado() {
+  const cv = document.createElement('canvas'); cv.width = cv.height = 256; const cx = cv.getContext('2d');
+  cx.fillStyle = '#7d3a26'; cx.fillRect(0, 0, 256, 256);
+  for (let r = 0; r < 16; r++) for (let i = -1; i < 17; i++) {
+    const px = i * 16 + (r % 2) * 8, py = r * 16, k = 0.8 + rnd(r * 31 + i) * 0.35;
+    const g = cx.createLinearGradient(0, py, 0, py + 16); g.addColorStop(0, `rgb(${190 * k},${85 * k},${55 * k})`); g.addColorStop(1, `rgb(${120 * k},${50 * k},${32 * k})`);
+    cx.fillStyle = g; cx.beginPath(); cx.roundRect(px + 1, py, 14, 15, [0, 0, 7, 7]); cx.fill();
+  }
+  return cv;
+}
+function geraFachada() {
+  // fachada de sobrado americano: siding creme, janelas com venezianas azuis, porta de vidro
+  const cv = document.createElement('canvas'); cv.width = 1024; cv.height = 640; const cx = cv.getContext('2d');
+  cx.fillStyle = '#efe6d2'; cx.fillRect(0, 0, 1024, 640);
+  for (let y = 0; y < 640; y += 9) { cx.fillStyle = 'rgba(120,100,70,0.13)'; cx.fillRect(0, y, 1024, 1.5); cx.fillStyle = 'rgba(255,255,255,0.25)'; cx.fillRect(0, y + 2, 1024, 1); }
+  cx.fillStyle = 'rgba(0,0,0,0.12)'; cx.fillRect(0, 300, 1024, 10);
+  const janela = (px, py, w, h, persiana = true) => {
+    if (persiana) { cx.fillStyle = '#2f4f86'; cx.fillRect(px - w * 0.42, py, w * 0.36, h); cx.fillRect(px + w * 1.06, py, w * 0.36, h);
+      cx.fillStyle = 'rgba(255,255,255,0.18)'; for (let yy = py + 4; yy < py + h; yy += 7) { cx.fillRect(px - w * 0.4, yy, w * 0.32, 1.5); cx.fillRect(px + w * 1.08, yy, w * 0.32, 1.5); } }
+    cx.fillStyle = '#fbfaf6'; cx.fillRect(px - 6, py - 6, w + 12, h + 12);
+    const g = cx.createLinearGradient(px, py, px + w, py + h); g.addColorStop(0, '#9cc3e6'); g.addColorStop(0.45, '#6d97c4'); g.addColorStop(0.5, '#a9cdee'); g.addColorStop(1, '#4f78a8');
+    cx.fillStyle = g; cx.fillRect(px, py, w, h);
+    cx.fillStyle = '#fbfaf6'; cx.fillRect(px + w / 2 - 2, py, 4, h); cx.fillRect(px, py + h / 2 - 2, w, 4);
+    cx.fillStyle = 'rgba(0,0,0,0.15)'; cx.fillRect(px - 6, py + h + 6, w + 12, 5);
+  };
+  for (let i = 0; i < 8; i++) janela(70 + i * 118, 70, 64, 150);
+  janela(70, 390, 64, 150); janela(188, 390, 64, 150); janela(772, 390, 64, 150); janela(890, 390, 64, 150);
+  // porta de correr
+  cx.fillStyle = '#fbfaf6'; cx.fillRect(380, 360, 264, 280);
+  const g = cx.createLinearGradient(390, 370, 634, 640); g.addColorStop(0, '#8fb6dc'); g.addColorStop(0.5, '#5d87b6'); g.addColorStop(1, '#3f638f');
+  cx.fillStyle = g; cx.fillRect(392, 372, 240, 268); cx.fillStyle = '#fbfaf6'; cx.fillRect(509, 372, 6, 268);
+  return cv;
+}
+function geraCeu() {
+  const n1 = fbm(11, 4, 6);
+  return pixels(512, (u, v) => {
+    const sky = [lerp(78, 196, Math.pow(v, 1.3)), lerp(138, 222, Math.pow(v, 1.2)), lerp(214, 238, v)];
+    let nuv = clamp((n1(u, v * 2.2) - 0.48) * 3.2) * clamp(1.2 - v * 1.1);
+    const sombra = 0.82 + 0.18 * clamp((n1(u + 0.01, v * 2.2 - 0.02) - 0.45) * 4);
+    return sky.map(ch => lerp(ch, 250 * sombra, nuv));
+  });
+}
+function geraFolhas() {
+  const n1 = fbm(21, 8);
+  const cv = pixels(256, (u, v) => { const k = 0.55 + n1(u, v) * 0.7; return [52 * k, 98 * k, 38 * k]; });
+  const cx = cv.getContext('2d');
+  for (let i = 0; i < 900; i++) { const k = 0.6 + rnd(i * 3.3) * 0.9; cx.fillStyle = `rgb(${60 * k},${120 * k},${44 * k})`; cx.beginPath(); cx.ellipse(rnd(i) * 256, rnd(i * 7.1) * 256, 3, 1.6, rnd(i * 2) * 3, 0, 7); cx.fill(); }
+  return cv;
+}
+function geraAgua() {
+  const n1 = fbm(31, 6), n2 = fbm(37, 12, 3);
+  return pixels(256, (u, v) => { const ca = Math.pow(clamp(1 - Math.abs(n1(u, v) - n2(u, v)) * 2.4), 10), g = 0.9 + rnd(u * 517 + v * 3301) * 0.1; return [(88 + 60 * ca) * g, (150 + 50 * ca) * g, (214 + 30 * ca) * g]; });
+}
+const GERA = {
+  terra: () => geraTerra(0x6e4a30, 1), terra2: () => geraTerra(0x8a6440, 2, 110), argila: () => geraTerra(0xa4774c, 4, 60, [0.75, 1.15]),
+  rocha: () => geraTerra(0x5e5650, 5, 220, [0.5, 1.3]), cascalho: () => geraTerra(0xa8a094, 6, 600, [0.6, 1.3]),
+  concreto: geraConcreto, grama: geraGrama, madeira: () => geraMadeira(), cerca: () => geraMadeira(0xa0704a, 9), telhado: geraTelhado,
+  fachada: geraFachada, ceu: geraCeu, folhas: geraFolhas, agua: geraAgua,
+};
+// material com textura; as UVs vem da posicao no mundo (uvMundo), entao a textura tem tamanho fixo em metros
+function tmat(nome, o = {}) {
+  const t = textura(nome, GERA[nome]), { semRelevo, relevo, ...resto } = o;
+  return new T3.MeshStandardMaterial({ map: t.tx, bumpMap: semRelevo ? null : t.bump, bumpScale: relevo ?? 2.5, roughness: 0.92, metalness: 0, ...resto });
+}
+function mat(cor, o = {}) { return new T3.MeshStandardMaterial({ color: cor, roughness: 0.85, metalness: 0, ...o }); }
+function uvMundo(me, escala = 2) {
+  const g = me.geometry, p = g.attributes.position, n = g.attributes.normal, uv = g.attributes.uv, v = new T3.Vector3();
+  me.updateMatrixWorld();
+  for (let i = 0; i < p.count; i++) {
+    v.fromBufferAttribute(p, i).applyMatrix4(me.matrixWorld);
+    const ax = Math.abs(n.getX(i)), ay = Math.abs(n.getY(i));
+    if (ay > 0.5) uv.setXY(i, v.x / escala, v.z / escala); else if (ax > 0.5) uv.setXY(i, v.z / escala, v.y / escala); else uv.setXY(i, v.x / escala, v.y / escala);
+  }
+  uv.needsUpdate = true; return me;
+}
+function box(w, h, d, m, px = 0, py = 0, pz = 0, parent = scene) {
+  const me = new T3.Mesh(new T3.BoxGeometry(w, h, d), m); me.position.set(px, py, pz);
+  me.castShadow = me.receiveShadow = true; parent.add(me); return me;
+}
+function solid(x0, x1, y0, y1, z0, z1, m, escala) {
+  if (x1 - x0 < 1e-3 || y1 - y0 < 1e-3 || z1 - z0 < 1e-3) return;
+  const me = box(x1 - x0, y1 - y0, z1 - z0, m, (x0 + x1) / 2, (y0 + y1) / 2, (z0 + z1) / 2);
+  return escala ? uvMundo(me, escala) : me;
+}
+function cyl(r0, r1, h, m, seg = 16, parent = scene) {
+  const me = new T3.Mesh(new T3.CylinderGeometry(r0, r1, h, seg), m); me.castShadow = me.receiveShadow = true; parent.add(me); return me;
+}
+function grupo(parent = scene) { const g = new T3.Group(); parent.add(g); return g; }
+
+// ---------------- cenario reaproveitavel: quintal com sobrado ao fundo ----------------
+function quintal(o = {}) {
+  const zFundo = o.zFundo ?? -3, zCasa = o.zCasa ?? -28;
+  const ceu = new T3.Mesh(new T3.SphereGeometry(180, 32, 16, 0, Math.PI * 2, 0, Math.PI / 2), new T3.MeshBasicMaterial({ map: textura('ceu', GERA.ceu).tx, side: T3.BackSide, fog: false }));
+  ceu.material.map.repeat.set(3, 1); scene.add(ceu);
+  scene.fog = new T3.Fog(0xcfe0ee, 40, 160);
+  const gramado = new T3.Mesh(new T3.PlaneGeometry(400, 200), tmat('grama', { relevo: 1 })); gramado.rotation.x = -Math.PI / 2; gramado.position.set(0, 0, zFundo - 100); gramado.receiveShadow = true; scene.add(gramado);
+  uvMundo(gramado, 3);
+  const casa = grupo(); casa.position.set(o.xCasa ?? 0, 0, zCasa); casa.scale.setScalar(o.escalaCasa ?? 1.25);
+  const fach = new T3.MeshStandardMaterial({ map: textura('fachada', GERA.fachada).tx, roughness: 0.8 }), lado = mat(0xe8dcc4);
+  box(12, 6.2, 6, [lado, lado, lado, lado, fach, lado], 0, 3.1, 0, casa);
+  const tm = new T3.MeshStandardMaterial({ map: textura('telhado', GERA.telhado).tx, roughness: 0.75 });
+  const tri = new T3.Shape(); tri.moveTo(-6.6, 0); tri.lineTo(6.6, 0); tri.lineTo(0, 2.4); tri.closePath();
+  const roof = new T3.Mesh(new T3.ExtrudeGeometry(tri, { depth: 7.0, bevelEnabled: false }), tm); roof.position.set(0, 6.2, -3.5); roof.castShadow = true; casa.add(roof);
+  { const g = roof.geometry, p = g.attributes.position, uv = g.attributes.uv; for (let i = 0; i < p.count; i++) uv.setXY(i, p.getX(i) / 2.2, (p.getY(i) + p.getZ(i)) / 2.2); }
+  box(0.9, 2.2, 0.9, mat(0x8a4a34), 3.2, 8.2, -1, casa);
+  box(12.4, 0.25, 0.4, mat(0xf4efe4), 0, 6.15, 3.1, casa);
+  uvMundo(box(9, 0.25, 2.2, tmat('madeira', { relevo: 1 }), 0, 0.12, 4.1, casa), 2.5);
+  for (const s of [-1, 1]) uvMundo(box(14, 2.2, 0.15, tmat('cerca', { relevo: 1 }), s * 13, 1.1, zCasa + 2), 2.2);
+  for (const [px, pz, sc] of (o.arvores || [[-9.5, zCasa + 1, 1.3], [9.5, zCasa + 0.5, 1.5], [-12, zCasa - 2, 1.1], [13, zCasa - 3, 1.2]])) arvore(px, pz, sc);
+  const branco = mat(0xf4f4f0, { roughness: 0.6 });
+  box(1.0, 0.06, 1.0, mat(0x6b4a2e), -2.5, 1.0, zCasa + 4.2); box(0.08, 0.75, 0.08, mat(0x333333), -2.5, 0.62, zCasa + 4.2);
+  for (const dx of [-3.3, -1.7]) { box(0.55, 0.06, 0.55, branco, dx, 0.7, zCasa + 4.3); box(0.55, 0.6, 0.06, branco, dx, 1.0, zCasa + 4.0); }
+  for (const dx of [-4.2, 4.2]) { cyl(0.28, 0.2, 0.5, mat(0xb5653e), 12).position.set(dx, 0.5, zCasa + 3.6); const f = new T3.Mesh(new T3.IcosahedronGeometry(0.42, 1), tmat('folhas', { semRelevo: true })); f.position.set(dx, 1.05, zCasa + 3.6); f.castShadow = true; scene.add(f); }
+  return casa;
+}
+function arvore(px, pz, sc = 1) {
+  const g = grupo(); g.position.set(px, 0, pz); g.scale.setScalar(sc);
+  cyl(0.18, 0.28, 2.6, mat(0x5a3e28), 7, g).position.y = 1.3;
+  const fm = tmat('folhas', { relevo: 3 });
+  for (let i = 0; i < 7; i++) { const f = new T3.Mesh(new T3.IcosahedronGeometry(0.9 + rnd(i * 3 + px) * 0.6, 1), fm); f.position.set((rnd(i * 5 + px) - 0.5) * 2, 3 + rnd(i * 7 + pz) * 1.8, (rnd(i * 9) - 0.5) * 1.6); f.castShadow = true; g.add(f); }
+  return g;
+}
+
+// ---------------- camada 2D ----------------
+function proj(px, py, pz) { const v = new T3.Vector3(px, py, pz).project(cam); return [(v.x + 1) / 2 * W, (1 - v.y) / 2 * H]; }
+function rr(x0, y0, w, h, r) { x.beginPath(); x.roundRect(x0, y0, w, h, r); }
+function pill(cx, cy, txt, bg, fg, size = 40, s = 1) {
+  if (s <= 0.01) return;
+  x.save(); x.translate(cx, cy); x.scale(s, s);
+  x.font = `900 ${size}px ${FONT}`; x.textAlign = 'center'; x.textBaseline = 'middle';
+  const w = x.measureText(txt).width + size * 1.1, h = size * 1.6;
+  x.fillStyle = 'rgba(0,0,0,0.28)'; rr(-w / 2 + 4, -h / 2 + 7, w, h, h / 2); x.fill();
+  x.fillStyle = bg; rr(-w / 2, -h / 2, w, h, h / 2); x.fill();
+  x.fillStyle = fg; x.fillText(txt, 0, 2);
+  x.restore();
+}
+// legenda de uma palavra por vez, no meio da tela (estilo do canal de referencia)
+function legenda(t) {
+  if (ST.semLegenda) return;
+  const s = ST.segs.find(s => t >= s.t0 - 0.05 && t <= s.t1 + 0.15);
+  if (!s) return;
+  const words = s.text.split(' ').filter(Boolean), temW = s.w && s.w.length === words.length;
+  let k = 0;
+  if (temW) { for (let i = 0; i < words.length; i++) if (s.w[i] <= t + 0.04) k = i; }
+  else k = Math.min(words.length - 1, Math.floor((t - s.t0) / Math.max(0.1, s.t1 - s.t0) * words.length));
+  const pal = words[k].replace(/[.,!?;:"“”]/g, ''), cap = pal.charAt(0).toUpperCase() + pal.slice(1);
+  const ini = temW ? s.w[k] : s.t0, pop = 1 + 0.08 * Math.max(0, 1 - (t - ini) * 8);
+  x.save(); x.translate(W / 2, H * (ST.legendaY ?? 0.5)); x.scale(pop, pop);
+  x.font = `800 92px ${FONT}`; x.textAlign = 'center'; x.textBaseline = 'middle';
+  x.shadowColor = 'rgba(0,0,0,0.75)'; x.shadowBlur = 18; x.shadowOffsetY = 4;
+  x.lineWidth = 10; x.strokeStyle = 'rgba(0,0,0,0.85)'; x.lineJoin = 'round'; x.strokeText(cap, 0, 0);
+  x.shadowBlur = 0; x.shadowOffsetY = 0; x.fillStyle = '#fff'; x.fillText(cap, 0, 0);
+  x.restore();
+}
+
+// ---------------- quadro ----------------
+function sceneAt(t) { let i = 0; for (let k = 0; k < ST.cenas.length; k++) if (t >= ST.cenas[k].t0) i = k; return i; }
+function ctxCena(t) {
+  const i = sceneAt(t), sc = ST.cenas[i], p = sc.p || {}, t1 = i + 1 < ST.cenas.length ? ST.cenas[i + 1].t0 : ST.dur;
+  E.cena0 = sc.t0; E.cena1 = t1;
+  return { i, sc, p, t0: sc.t0, t1, lt: clamp((t - sc.t0) / Math.max(0.1, t1 - sc.t0)) };
+}
+// camera: cada mundo da um enquadramento padrao {x, y, d, a, h} e cada cena pode sobrescrever com p.camera
+function cameraPadrao(t, ctx, padrao, porCena = () => ({})) {
+  const de = j => { const p = ST.cenas[j].p || {}; return { ...padrao, ...porCena(p), ...(p.camera || {}) }; }, arr = o => [o.x, o.y, o.d, o.a, o.h];
+  const prev = arr(de(Math.max(0, ctx.i - 1))), cur = arr(de(ctx.i)), k = ease((t - ctx.t0) / 1.4);
+  const v = cur.map((c, j) => lerp(prev[j], c, k)), ang = v[3] + Math.sin(t * 0.2) * 0.012, d = v[2] * (1 - 0.02 * ctx.lt);
+  cam.position.set(v[0] + Math.sin(ang) * d, v[1] + v[4], Math.cos(ang) * d + (padrao.zFoco || 0));
+  cam.lookAt(v[0], v[1], padrao.zFoco || 0); cam.updateMatrixWorld();
+}
+window.render = function (t) {
+  const ctx = ctxCena(t);
+  MUNDO.atualiza(t, ctx);
+  MUNDO.camera(t, ctx);
+  const sh = E.pulse(t, 'erro', 0.35) * 0.08; cam.position.x += (rnd(t * 97) - 0.5) * sh; cam.position.y += (rnd(t * 71) - 0.5) * sh;
+  gl.render(scene, cam);
+  x.setTransform(1, 0, 0, 1, 0, 0); x.globalAlpha = 1;
+  x.drawImage(gl.domElement, 0, 0);
+  if (MUNDO.overlay) MUNDO.overlay(t, ctx);
+  legenda(t);
+  if (t > ST.dur - 0.5) { x.fillStyle = `rgba(0,0,0,${clamp((t - ST.dur + 0.5) / 0.5)})`; x.fillRect(0, 0, W, H); }
+};
+window.setup = h => new Promise((ok, falha) => {
+  ST = h;
+  const s = document.createElement('script'); s.src = `mundos/${h.mundo || 'fossa'}.js`;
+  s.onload = () => { try { MUNDO.monta(h); ok(true); } catch (e) { falha(String(e.stack || e)); } };
+  s.onerror = () => falha('mundo nao encontrado: ' + s.src);
+  document.body.appendChild(s);
+});
+</script></body></html>
