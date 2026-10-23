@@ -704,6 +704,24 @@
       },
       "capa_embutida": true,
       "link": "https://www.instagram.com/reel/De10O6vgais/"
+    },
+    {
+      "data": "2026-10-23",
+      "hora": "18:00",
+      "status": "pendente",
+      "arquivo": "radar_v35_pre_venda.mp4",
+      "tema": "GTA 6 já faturou US$ 630 milhões na pré-venda (Sensor Tower)",
+      "formato": "corte",
+      "capa": "US$ 630 milhões",
+      "capa_t": 0.8,
+      "legenda": "GTA 6 já faturou mais de US$ 600 milhões, e o jogo nem lançou 🤑\n\n📊 Segundo a Sensor Tower, são 6,45 milhões de cópias digitais vendidas na pré-venda, uns US$ 630 milhões\n🎮 PS5 domina: 74% das reservas (4,8 milhões de cópias, US$ 468 milhões)\n🟢 Xbox: 1,66 milhão de cópias e US$ 162 milhões\n🚀 A Newzoo estima até US$ 5,2 bilhões só na semana de lançamento\n\nVocê já garantiu o seu na pré-venda? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #ps5",
+      "ficha": {
+        "formato": "corte",
+        "tema": "vendas/numeros",
+        "gancho": "numero chocante",
+        "origem": "Insider Gaming / Sensor Tower (20/10)"
+      },
+      "capa_embutida": true
     }
   ]
 }
