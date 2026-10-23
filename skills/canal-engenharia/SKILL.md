@@ -54,7 +54,8 @@ python3 scripts/produce.py --proximo --subir --saida /tmp/yb
 
 Variáveis de ambiente (só no ambiente, nunca imprimir, nunca pedir no chat):
 `GEMINI_API_KEY`, `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN_EN` (mesmo cliente OAuth do Hora Muerta).
-Voz: Gemini `Charon`, ritmo normal. Sem Gemini cai no Kokoro inglês (am_michael), só para teste;
+Voz: Gemini `Puck` com as tags `[excited] [energetic]` e 6% mais rápida: animada, como quem conta uma descoberta
+(o Pedro achou a `Charon` sem energia, 23/10). Sem Gemini cai no Kokoro inglês (am_michael), só para teste;
 com `--subir` o script para com `VOZ FALHOU`. Sessão ligada ao computador do Pedro não alcança as APIs do Google:
 produza e suba numa sessão sem dispositivo (a rotina).
 
@@ -105,9 +106,14 @@ código `YBNNN` seguido. Exemplos completos: `stories/001-septic.json` e `storie
 }
 ```
 
-- 9 a 11 frases curtas, 35 a 50 s. Evolucao: abre com "So you ...", alterna problema (`erro`) e solução (`certo`),
-  fecha com o sistema completo (`tada`) e uma pergunta para comentários. Curiosidade: abre com a pergunta,
-  derruba um mito, mostra o mecanismo por dentro e fecha com "Now you know".
+- 9 a 11 frases curtas, 35 a 50 s. Curiosidade: abre com a pergunta, derruba um mito, mostra o mecanismo por
+  dentro e fecha com "Now you know".
+- **Evolucao: sempre o problema ANTES da solução** (regra do Pedro, 23/10). A primeira frase diz a necessidade
+  ("Your house needs somewhere to send its sewage."), só então vem a solução simples e "Problem solved!".
+  Cada etapa seguinte abre com o problema novo ("But after a few days...", evento `erro`) e só depois a correção
+  ("So you...", evento `certo`). Nunca uma solução sem o problema que ela resolve ter aparecido antes.
+  Fecha com "Congratulations! You just built a ..." (`tada`) e uma pergunta para comentários.
+  Modelo: `stories/001-septic.json`.
 - Uma cena por frase, cada uma com `p.etapa`. O mundo decide o que aparece em cada etapa.
 - Nada de conteúdo infantil: tom de documentário curto, humor leve, sem personagens fofos.
 

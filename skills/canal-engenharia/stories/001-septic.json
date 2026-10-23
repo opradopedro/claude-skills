@@ -4,36 +4,177 @@
  "titulo": "You built a septic tank 🚽 #engineering #shorts",
  "capa": "YOU BUILT A SEPTIC TANK",
  "descripcion": "From a hole in the yard to a real septic system, one problem at a time.\n\nWhat should we build next?\n\n#engineering #howitworks #septictank #shorts",
- "tags": ["engineering", "how it works", "septic tank", "plumbing", "civil engineering", "you built it", "shorts"],
+ "tags": [
+  "engineering",
+  "how it works",
+  "septic tank",
+  "plumbing",
+  "civil engineering",
+  "you built it",
+  "shorts"
+ ],
  "lineas": [
-  {"texto": "You dig a hole in your backyard and run your toilet pipe straight into it.", "pausa": 0.3},
-  {"texto": "Problem solved. Until the dirt soaks it up, and it reaches your drinking well.", "pausa": 0.3},
-  {"texto": "So you line the hole with concrete. Nothing leaks anymore.", "pausa": 0.3},
-  {"texto": "But now it fills up in two weeks, and the whole yard smells.", "pausa": 0.3},
-  {"texto": "So you split the tank. Solids sink, grease floats, and only the liquid in the middle flows out.", "pausa": 0.3},
-  {"texto": "You send that liquid into perforated pipes, buried in gravel.", "pausa": 0.3},
-  {"texto": "Bacteria in the soil eat what's left, and clean water returns to the ground.", "pausa": 0.3},
-  {"texto": "Every few years, a truck pumps out the sludge.", "pausa": 0.3},
-  {"texto": "Congratulations. You just built a septic tank. What should we build next?", "pausa": 0.2}
+  {
+   "texto": "Your house needs somewhere to send its sewage. So you dig a hole and pipe it straight in. Problem solved!",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But after a few days, the dirt soaks it up, and it reaches your drinking well.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you line the hole with concrete. No more leaks!",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But two weeks later, it's full, and the whole yard stinks.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you split the tank. Solids sink, grease floats, and only the liquid in the middle flows out.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But that liquid still needs somewhere to go. So you send it into perforated pipes, buried in gravel.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "Bacteria in the soil eat what's left, and clean water returns to the ground.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "And the sludge at the bottom? Every few years, a truck pumps it out.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "Congratulations! You just built a septic tank. What should we build next?",
+   "pausa": 0.2
+  }
  ],
  "cenas": [
-  {"linea": 0, "comp": "fossa", "p": {"etapa": "buraco", "passo": 1}},
-  {"linea": 1, "comp": "fossa", "p": {"etapa": "vaza", "passo": 1, "ruim": "CONTAMINATED WELL"}},
-  {"linea": 2, "comp": "fossa", "p": {"etapa": "concreto", "passo": 2, "bom": "NO LEAKS"}},
-  {"linea": 3, "comp": "fossa", "p": {"etapa": "cheia", "passo": 2, "ruim": "FULL IN 2 WEEKS"}},
-  {"linea": 4, "comp": "fossa", "p": {"etapa": "camadas", "passo": 3, "bom": "ONLY LIQUID LEAVES"}},
-  {"linea": 5, "comp": "fossa", "p": {"etapa": "dreno", "passo": 4}},
-  {"linea": 6, "comp": "fossa", "p": {"etapa": "bacteria", "passo": 4, "bom": "CLEAN WATER"}},
-  {"linea": 7, "comp": "fossa", "p": {"etapa": "caminhao", "passo": 5}},
-  {"linea": 8, "comp": "fossa", "p": {"etapa": "final", "passo": 5, "titulo": ["YOU BUILT A", "SEPTIC TANK"]}}
+  {
+   "linea": 0,
+   "comp": "fossa",
+   "p": {
+    "etapa": "buraco",
+    "passo": 1
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "fossa",
+   "p": {
+    "etapa": "vaza",
+    "passo": 1,
+    "ruim": "CONTAMINATED WELL"
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "fossa",
+   "p": {
+    "etapa": "concreto",
+    "passo": 2,
+    "bom": "NO LEAKS"
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "fossa",
+   "p": {
+    "etapa": "cheia",
+    "passo": 2,
+    "ruim": "FULL IN 2 WEEKS"
+   }
+  },
+  {
+   "linea": 4,
+   "comp": "fossa",
+   "p": {
+    "etapa": "camadas",
+    "passo": 3,
+    "bom": "ONLY LIQUID LEAVES"
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "fossa",
+   "p": {
+    "etapa": "dreno",
+    "passo": 4
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "fossa",
+   "p": {
+    "etapa": "bacteria",
+    "passo": 4,
+    "bom": "CLEAN WATER"
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "fossa",
+   "p": {
+    "etapa": "caminhao",
+    "passo": 5
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "fossa",
+   "p": {
+    "etapa": "final",
+    "passo": 5,
+    "titulo": [
+     "YOU BUILT A",
+     "SEPTIC TANK"
+    ]
+   }
+  }
  ],
  "eventos": [
-  {"tipo": "erro", "linea": 1, "en": 0.55},
-  {"tipo": "erro", "linea": 3, "en": 0.5},
-  {"tipo": "certo", "linea": 2, "en": 0.6},
-  {"tipo": "certo", "linea": 4, "en": 0.75},
-  {"tipo": "certo", "linea": 6, "en": 0.7},
-  {"tipo": "tada", "linea": 8, "en": 0.25}
+  {
+   "tipo": "erro",
+   "linea": 1,
+   "en": 0.55
+  },
+  {
+   "tipo": "erro",
+   "linea": 3,
+   "en": 0.5
+  },
+  {
+   "tipo": "certo",
+   "linea": 2,
+   "en": 0.6
+  },
+  {
+   "tipo": "certo",
+   "linea": 4,
+   "en": 0.75
+  },
+  {
+   "tipo": "certo",
+   "linea": 6,
+   "en": 0.7
+  },
+  {
+   "tipo": "tada",
+   "linea": 8,
+   "en": 0.25
+  }
  ],
- "destaque": ["problem", "leaks", "smells", "solids", "grease", "liquid", "bacteria", "clean", "septic"]
+ "destaque": [
+  "problem",
+  "leaks",
+  "smells",
+  "solids",
+  "grease",
+  "liquid",
+  "bacteria",
+  "clean",
+  "septic"
+ ]
 }

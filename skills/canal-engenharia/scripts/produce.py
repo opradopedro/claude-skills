@@ -22,8 +22,8 @@ from comum import carregar, resolver
 
 HORA_UTC = {"Curiosidade": 21, "Evolucao": 23}  # 17h e 19h em Nova York (EDT), pico do publico de lingua inglesa; no inverno caem 1 h antes
 
-# voz e ritmo do canal (o tts.py veio do Hora Muerta, que usa voz sussurrada e lenta)
-VOZ = {"GEMINI_TTS_VOICE": "Charon", "GEMINI_TTS_ESTILO": "", "HM_VOZ_TEMPO": "1.0", "HM_PAUSA_FATOR": "1.0",
+# voz e ritmo do canal: animada (pedido do Pedro, 23/10: a Charon ficou sem energia) (o tts.py veio do Hora Muerta, que usa voz sussurrada e lenta)
+VOZ = {"GEMINI_TTS_VOICE": "Puck", "GEMINI_TTS_ESTILO": "[excited] [energetic] ", "HM_VOZ_TEMPO": "1.06", "HM_PAUSA_FATOR": "1.0",
        "KOKORO_LANG": "en", "KOKORO_SID": "16", "KOKORO_VEL": "1.15"}
 
 
