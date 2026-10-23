@@ -708,7 +708,7 @@
     {
       "data": "2026-10-23",
       "hora": "18:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v35_pre_venda.mp4",
       "tema": "GTA 6 já faturou US$ 630 milhões na pré-venda (Sensor Tower)",
       "formato": "corte",
@@ -721,7 +721,9 @@
         "gancho": "numero chocante",
         "origem": "Insider Gaming / Sensor Tower (20/10)"
       },
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/De2iVxUACb4/",
+      "obs": "publicado às 18h36 (BRT) com legenda curta, fora desta rotina"
     }
   ]
 }
