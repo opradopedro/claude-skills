@@ -45,20 +45,16 @@ Erros comuns:
   e, se nada der, usa o Kokoro.
 - Cota do YouTube: cada upload gasta 1.600 de 10.000 unidades por dia (no máximo 6 vídeos/dia).
 
-## Página de revisão (depois de cada execução)
+## Painel dos canais (antes e depois de cada execução)
 
-O Pedro assiste, vota e pede mudanças em **https://claude.ai/artifact/MsfWrEjGFq19E9VEAUMzQF**
-("Vídeos do Hora Muerta"). Banco da página: `pedidos` ({codigo, texto, status "aberto"|"feito", resposta}) e
-`avaliacoes` ({codigo, nota "sim"|"nao"}).
+O Pedro assiste, vota, pede mudanças e manda ideias no **Painel dos canais**
+(https://claude.ai/artifact/2SptRCzSbXHuKHPzct4Tu2), conta `hm`. A página antiga "Vídeos do Hora Muerta" não é mais usada.
+Siga o passo a passo de [../painel/README.md](../painel/README.md) com `C = hm`:
 
-1. **Antes de produzir**, leia os pedidos abertos (ArtifactData `list` em `pedidos` com esse url). Pedido de um
-   roteiro ainda não subido: edite o JSON em `stories/` antes. Pedido de algo do motor (voz, cena, susto): aplique
-   e mande por PR. Ao aplicar, marque `status: "feito"` e `resposta` com uma frase do que mudou.
-   Pedido de vídeo já agendado: se dá para refazer antes das 21h, refaça; senão aplique nos próximos e responda isso.
-2. **Depois de subir**: o `produce.py` já copia MP4, capa e `HMxxx.json` ({codigo, titulo, url, publishAt, motor_voz})
-   para `/mnt/project-files/canal-terror/videos/` (`HM_VIDEOS` muda a pasta). Rode `python3 scripts/pagina.py --saida /tmp/pagina` e
-   republique a página com o Artifact tool: `url` acima, `file_path` = a página (leia antes com `action: read`) e
-   `files` = `itens.json` e cada `v/HMxxx.mp4` e `v/HMxxx.jpg` de `/tmp/pagina` (o script já reduz para 720p, abaixo do limite de 15 MB).
+1. **Antes de produzir**: pedidos abertos e ideias novas do canal `hm`. Ideia boa vira o próximo roteiro novo
+   (quando a saída disser SEM ROTEIRO), seguindo a regra de 2 partes.
+2. **Depois de subir**: o `produce.py` já copia MP4, capa e `HMxxx.json` para `/mnt/project-files/canal-terror/videos/`
+   (`HM_VIDEOS` muda a pasta). Atualize o documento `canais/hm` com `skills/painel/painel.py` como o README explica.
 
 ## Peças
 
@@ -70,7 +66,7 @@ O Pedro assiste, vota e pede mudanças em **https://claude.ai/artifact/MsfWrEjGF
 | `scripts/render.py` | Chromium (Playwright) quadro a quadro para FFmpeg, 30 fps; `--teste` salva JPGs |
 | `scripts/mix.py` | Voz limpa (sem eco), piano grave com reverb, drone e efeitos nos eventos, -15 LUFS |
 | `scripts/yt_upload.py` | `subir video.json` e `publicados` (códigos HMxxx já no canal, pela tag) |
-| `scripts/pagina.py` | Gera `itens.json` e a pasta `v/` da página de revisão |
+| `scripts/pagina.py` | (antigo) dados da página de revisão anterior; use `skills/painel/painel.py` |
 | `scripts/capa.py` | Thumbnail 1080x1920: quadro do gancho + texto do campo `capa` + selo da parte (enviada no upload) |
 | `scripts/marca.py` | Foto de perfil e banner do canal (relógio 3:33); o Pedro sobe no Studio, a API não troca a foto |
 | `scripts/conferir_voz.py` | Corta a narração e transcreve cada pedaço (Gemini texto) para provar que cada linha caiu no lugar certo |
