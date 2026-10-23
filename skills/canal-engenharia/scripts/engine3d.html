@@ -259,6 +259,7 @@ function pill(cx, cy, txt, bg, fg, size = 40, s = 1) {
 }
 // legenda de uma palavra por vez, no meio da tela (estilo do canal de referencia)
 function legenda(t) {
+  if (ST.semLegenda) return;
   const s = ST.segs.find(s => t >= s.t0 - 0.05 && t <= s.t1 + 0.15);
   if (!s) return;
   const words = s.text.split(' ').filter(Boolean), temW = s.w && s.w.length === words.length;

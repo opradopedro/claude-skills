@@ -44,6 +44,8 @@ def main():
         pg.on("console", lambda m: print("js:", m.text, file=sys.stderr)); pg.on("pageerror", lambda e: print("js erro:", e, file=sys.stderr))
         pg.goto("file://" + ENGINE)
         pg.evaluate("h => setup(h)", estado)
+        if os.environ.get("YB_SEM_LEGENDA"):  # quadros limpos para capa, perfil e banner
+            pg.evaluate("() => { ST.semLegenda = true; }")
         if a.teste:
             base = os.path.splitext(a.video)[0]
             for t in [float(v) for v in a.teste.split(",")]:
