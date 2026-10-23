@@ -3,7 +3,7 @@
 YB_MUSICA=1 volta a base de marimba e baixo (112 bpm).
 
 Uso: python3 mix.py historia.json voz.wav tempos.json trilha.m4a
-Efeitos: "whoosh" em cada cena nova, buzina curta em "erro", sino em "certo", acorde em "tada".
+Efeitos: "whoosh" em cada cena nova, buzina curta em "erro", "piririm" curto em "certo" e longo em "tada".
 Tudo sintetizado aqui (custo zero, sem licenca de musica).
 """
 import json, os, subprocess, sys
@@ -37,12 +37,30 @@ def erro():
     return 0.22 * np.sign(np.sin(2 * np.pi * 140 * t)) * np.exp(-t * 4) * (t < 0.3)
 
 
-def certo():
-    return 0.35 * (np.pad(marimba(1318, 0.5), (0, int(0.1 * SR))) + np.pad(marimba(1760, 0.5), (int(0.1 * SR), 0)))
+def sino(f, dur=1.1):
+    """Sininho brilhante: parciais de sino (inarmonicos) com ataque rapido e cauda longa."""
+    t = np.arange(int(dur * SR)) / SR
+    s = sum(a * np.sin(2 * np.pi * f * h * t) * np.exp(-t * q) for h, a, q in ((1, 1.0, 4), (2.76, 0.35, 7), (5.4, 0.15, 12), (8.9, 0.06, 18)))
+    return s * np.minimum(1, t / 0.004)
 
 
-def tada():
-    return 0.3 * sum(np.pad(marimba(f, 1.2), (int(i * 0.07 * SR), int((3 - i) * 0.07 * SR))) for i, f in enumerate([523, 659, 784, 1046]))
+def piririm(notas, passo=0.055, dur=1.1):
+    """Arpejo subindo rapido ("piririm"), o som de conquista que o Pedro pediu (23/10)."""
+    n = int((passo * len(notas) + dur) * SR); out = np.zeros(n)
+    for i, f in enumerate(notas):
+        j = int(i * passo * SR); s = sino(f, dur) * (0.7 + 0.3 * i / len(notas)); out[j:j + len(s)] += s
+    return out / np.abs(out).max()
+
+
+def certo():  # problema resolvido: piririm curto
+    return 0.42 * piririm([1046, 1318, 1568, 2093])
+
+
+def tada():  # "Congratulations!": piririm longo, subindo duas oitavas, com brilho por cima
+    p = piririm([784, 988, 1175, 1568, 1976, 2349, 3136], passo=0.05, dur=1.6)
+    t = np.arange(len(p)) / SR
+    brilho = sum(np.sin(2 * np.pi * f * t) for f in (4186, 4699, 5274)) * np.exp(-((t - 0.45) / 0.25) ** 2) * 0.12
+    return 0.5 * (p + brilho * np.sin(2 * np.pi * 9 * t) ** 2)
 
 
 def base(dur):
