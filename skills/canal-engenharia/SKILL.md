@@ -112,7 +112,9 @@ código `YBNNN` seguido. Exemplos completos: `stories/001-septic.json` e `storie
   ("Your house needs somewhere to send its sewage."), só então vem a solução simples e "Problem solved!".
   Cada etapa seguinte abre com o problema novo ("But after a few days...", evento `erro`) e só depois a correção
   ("So you...", evento `certo`). Nunca uma solução sem o problema que ela resolve ter aparecido antes.
-  Fecha com "Congratulations! You just built a ..." (`tada`) e uma pergunta para comentários.
+  Fecha com "Congratulations! You just built a ..." e uma pergunta para comentários.
+- Efeitos: `erro` (buzina) em cada problema, `certo` (piririm curto) em cada solução e `tada` (piririm longo)
+  logo no começo do "Congratulations" (`"en": 0.05`). O Pedro pediu o piririm (23/10): não esqueça nenhum.
   Modelo: `stories/001-septic.json`.
 - Uma cena por frase, cada uma com `p.etapa`. O mundo decide o que aparece em cada etapa.
 - Nada de conteúdo infantil: tom de documentário curto, humor leve, sem personagens fofos.
