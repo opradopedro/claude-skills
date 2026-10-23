@@ -98,6 +98,16 @@ textarea { width: 100%; box-sizing: border-box; min-height: 56px; resize: vertic
 .clip { flex: none; width: 44px; min-height: 44px; font-size: 18px; }
 .drop { outline: 2px dashed var(--acc); outline-offset: 4px; }
 [hidden] { display: none !important; }
+/* Celular: abas viram barra de app embaixo */
+@media (max-width: 700px) {
+  nav { position: fixed; top: auto; bottom: 0; left: 0; right: 0; z-index: 20; margin: 0; gap: 4px; border-bottom: 0; border-top: 1px solid var(--line);
+    padding: 6px max(8px, env(safe-area-inset-right, 0px)) calc(6px + env(safe-area-inset-bottom, 0px)) max(8px, env(safe-area-inset-left, 0px)); }
+  nav button { flex: 1; border: 0; border-radius: 10px; padding: 9px 2px; font-size: 13px; white-space: normal; line-height: 1.15; }
+  .wrap { padding-block-end: calc(90px + env(safe-area-inset-bottom, 0px)); }
+  .compor { bottom: calc(56px + env(safe-area-inset-bottom, 0px)); }
+  .grade { grid-template-columns: 1fr; }
+  .media { max-height: 70vh; }
+}
 @media (max-width: 560px) { .contas { grid-template-columns: 1fr 1fr 1fr; gap: 6px; } .conta { padding: 10px; } .conta span { display: none; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
 </style>
