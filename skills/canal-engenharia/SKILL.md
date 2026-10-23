@@ -43,6 +43,17 @@ produza e suba numa sessão sem dispositivo (a rotina).
 
 Tempo: o render em CPU leva uns 15 a 25 min por vídeo de 40 s. Cota do YouTube: 1.600 unidades por upload.
 
+## Painel dos canais (antes e depois de cada execução)
+
+O Pedro acompanha, vota, pede mudanças e manda ideias em **https://claude.ai/artifact/2SptRCzSbXHuKHPzct4Tu2**
+(conta `yb`). Siga o passo a passo de `skills/painel/README.md` (branch main):
+
+1. **Antes de produzir:** leia `pedidos` abertos e `ideias` novas com `canal == "yb"`, aplique e responda cada um
+   (ideia boa vira roteiro no backlog ou o próximo vídeo).
+2. **Depois de subir:** `python3 skills/painel/painel.py --canal yb --stories skills/canal-engenharia/stories
+   --videos /mnt/project-files/canal-engenharia/videos --atual /tmp/painel/atual/canais/yb.json --saida /tmp/painel/yb`
+   e grave o doc `canais/yb`, como o README explica.
+
 ## Peças
 
 | Script | Faz |
