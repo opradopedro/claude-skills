@@ -728,7 +728,7 @@
     {
       "data": "2026-10-23",
       "hora": "21:00",
-      "status": "pendente",
+      "status": "postado",
       "arquivo": "radar_v36_daft_punk_justice.mp4",
       "tema": "Rumor Daft Punk em GTA 6 + trilha oficial do Justice",
       "formato": "corte",
@@ -741,7 +741,8 @@
         "gancho": "rumor + oficial",
         "origem": "Dexerto (Has It Leaked) + Shacknews (Rockstar)"
       },
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/De2xCB-lPHz/"
     }
   ]
 }
