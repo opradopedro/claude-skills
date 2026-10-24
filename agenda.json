@@ -1,806 +1,806 @@
 {
-  "conta": {
-    "username": "radar.gta6br",
-    "platformAccountId": "39284372604541437"
+ "conta": {
+  "username": "radar.gta6br",
+  "platformAccountId": "39284372604541437"
+ },
+ "horario": "12h, 18h e 21h (America/Sao_Paulo), 3 Reels por dia",
+ "posts": [
+  {
+   "data": "2026-10-11",
+   "arquivo": "radar_v2_noticias.mp4",
+   "status": "postado",
+   "link": "https://www.instagram.com/reel/DeWv5ONFR3W/",
+   "hora": "10:22",
+   "ficha": {
+    "formato": "painel",
+    "tema": "noticias",
+    "gancho": "lista",
+    "origem": "autoral"
+   },
+   "capa": "As notícias da semana"
   },
-  "horario": "12h, 18h e 21h (America/Sao_Paulo), 3 Reels por dia",
-  "posts": [
-    {
-      "data": "2026-10-11",
-      "arquivo": "radar_v2_noticias.mp4",
-      "status": "postado",
-      "link": "https://www.instagram.com/reel/DeWv5ONFR3W/",
-      "hora": "10:22",
-      "ficha": {
-        "formato": "painel",
-        "tema": "noticias",
-        "gancho": "lista",
-        "origem": "autoral"
-      },
-      "capa": "As notícias da semana"
-    },
-    {
-      "data": "2026-10-11",
-      "hora": "18:00",
-      "arquivo": "radar_v7_ps5_desbloqueado.mp4",
-      "status": "postado",
-      "legenda": "Se o seu PS5 é desbloqueado, GTA 6 vai te dar dor de cabeça 😬\n\nO jogo vai exigir o sistema 14.10 do PS5, e o desbloqueio só funciona até a 13.60. Atualizou pra jogar, perdeu o desbloqueio.\n\nTem PS5 desbloqueado aí? Comenta o que você vai fazer 👇\nSegue o @radar.gta6br pra não perder nada até 19/11.\n\n#gta6 #gtavi #gta6brasil #ps5 #playstation #rockstargames #noticiasgames",
-      "link": "https://www.instagram.com/reel/DeXjx6Djoxl/",
-      "ficha": {
-        "formato": "painel",
-        "tema": "console_tecnico",
-        "gancho": "alerta",
-        "origem": "autoral"
-      },
-      "capa": "PS5 desbloqueado vai sofrer"
-    },
-    {
-      "data": "2026-10-11",
-      "hora": "21:00",
-      "arquivo": "radar_v8_pc_nuvem_mentira.mp4",
-      "status": "postado",
-      "legenda": "\"Dá pra jogar GTA 6 no PC pela nuvem no lançamento\" ❌ MENTIRA\n\nO próprio Xbox desmentiu: GTA 6 não sai por streaming exclusivo nem como jeito de jogar no PC. Em 19/11 é só PS5 e Xbox Series.\n\nManda pro amigo que caiu nessa 👇\n\n#gta6 #gtavi #gta6brasil #xbox #pcgamer #rockstargames #noticiasgames",
-      "link": "https://www.instagram.com/reel/DeX4Vhuj49m/",
-      "ficha": {
-        "formato": "painel",
-        "tema": "mito",
-        "gancho": "mentira_verdade",
-        "origem": "autoral"
-      },
-      "capa": "Jogar na nuvem? MENTIRA"
-    },
-    {
-      "data": "2026-10-12",
-      "hora": "12:00",
-      "arquivo": "radar_v3_ultimate_full.mp4",
-      "status": "postado",
-      "legenda": "Ultimate ou Padrão? A diferença é de R$ 100 💸\n\nPadrão (R$ 449,90): o jogo + pacote Vintage Vice City na pré-venda\nUltimate (R$ 549,90): tudo isso + Grotti Cheetah, revólver Hawk & Little Morgan, roupas, tatuagens e lojas extras\n\nQual você vai pegar? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity #ps5 #xboxseriesx",
-      "link": "https://www.instagram.com/reel/DeZjgTSD3Aw/",
-      "ficha": {
-        "formato": "corte",
-        "tema": "preco_compra",
-        "gancho": "comparacao",
-        "origem": "autoral"
-      },
-      "obs": "versão tela cheia (estilo corte com imagens paradas). Fica no ar: foi o Reel de melhor retenção dos primeiros 4 (Pedro, 12/10).",
-      "capa": "Ultimate ou Padrão?"
-    },
-    {
-      "data": "2026-10-12",
-      "hora": "12:00",
-      "arquivo": "radar_v3_ultimate_v2.mp4",
-      "status": "cancelado",
-      "legenda": "Ultimate ou Padrão? A diferença é de R$ 100 💸\n\nPadrão (R$ 449,90): o jogo + pacote Vintage Vice City na pré-venda\nUltimate (R$ 549,90): tudo isso + Grotti Cheetah, revólver Hawk & Little Morgan, roupas, tatuagens e lojas extras\n\nQual você vai pegar? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity #ps5 #xboxseriesx",
-      "obs": "não publicar: o mesmo conteúdo já está no ar em DeZjgTSD3Aw (tela cheia), que o Pedro decidiu manter por ter o melhor engajamento.",
-      "ficha": {
-        "formato": "painel",
-        "tema": "preco_compra",
-        "gancho": "comparacao",
-        "origem": "autoral"
-      }
-    },
-    {
-      "data": "2026-10-12",
-      "hora": "18:00",
-      "arquivo": "radar_v9_teoria_jason.mp4",
-      "status": "removido",
-      "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6",
-      "ficha": {
-        "formato": "painel",
-        "tema": "teoria",
-        "gancho": "pergunta",
-        "origem": "gringa"
-      },
-      "link": "https://www.instagram.com/reel/DeaIpLXAav5/",
-      "obs": "publicado às 18h04 e apagado pelo Pedro; substituído pela versão demo (estilo corte)"
-    },
-    {
-      "data": "2026-10-12",
-      "hora": "18:00",
-      "arquivo": "demo_short/demo_estilo_corte.mp4",
-      "status": "removido",
-      "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6",
-      "link": "https://www.instagram.com/reel/DeaJ3ciEfn_/",
-      "ficha": {
-        "formato": "demo",
-        "tema": "teoria",
-        "gancho": "pergunta",
-        "origem": "gringa"
-      },
-      "obs": "versão errada (Pedro não gostou); Pedro apagou. Formato demo descartado."
-    },
-    {
-      "data": "2026-10-12",
-      "hora": "18:00",
-      "arquivo": "aprovados/jason_extended_look_APROVADO.mp4",
-      "status": "postado",
-      "legenda": "O Jason de GTA 6 é autista? Essa teoria tá bombando lá fora 🤔\n\nO chefe de narrativa da Rockstar contou à revista LOVE que é o jogador quem decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nFaz sentido pra você? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6 #extendedlook",
-      "ficha": {
-        "formato": "corte",
-        "tema": "teoria",
-        "gancho": "pergunta",
-        "origem": "gringa"
-      },
-      "obs": "versão aprovada pelo Pedro (clipes do Extended Look, abre com o Jason andando); publicada às 19h25",
-      "link": "https://www.instagram.com/reel/DeaTN8uj8pd/",
-      "capa": "O Jason é autista?"
-    },
-    {
-      "data": "2026-10-12",
-      "hora": "21:00",
-      "arquivo": "radar_v4_midia_fisica_v4.mp4",
-      "status": "postado",
-      "legenda": "A caixa de GTA 6 não vem com disco 📦\n\nNo lançamento vem só um código pra baixar. Segundo o suporte da Rockstar, o disco chega nos meses seguintes.\n\nDisco ou digital? Comenta 👇\nSalva e manda pro amigo que ia comprar a caixa.\n\n#gta6 #gtavi #gta6brasil #rockstargames #ps5 #xboxseriesx #midiafisica",
-      "obs": "v4: imagens trocadas por frames oficiais do Extended Look e Trailer 1, deslizando (pedido do Pedro, 12/10)",
-      "ficha": {
-        "formato": "corte",
-        "tema": "preco_compra",
-        "gancho": "revelacao",
-        "origem": "autoral"
-      },
-      "link": "https://www.instagram.com/reel/DeadIlEmV0_/",
-      "capa": "A caixa vem SEM disco"
-    },
-    {
-      "data": "2026-10-13",
-      "hora": "12:00",
-      "arquivo": "radar_v6_golpe_pc_v3.mp4",
-      "status": "cancelado",
-      "legenda": "⚠️ GTA 6 pra PC é GOLPE\n\nNão existe versão oficial pra computador. Os instaladores que estão circulando vêm com vírus. Até agora: só PS5 e Xbox Series.\n\nManda pro amigo que baixa tudo 👇\n\n#gta6 #gtavi #gta6pc #golpe #gta6brasil #rockstargames",
-      "obs": "Pedro (12/10): tema de PC já saiu (v8, PC pela nuvem); não postar. Slot vira produzir.",
-      "ficha": {
-        "formato": "corte",
-        "tema": "golpe",
-        "gancho": "alerta",
-        "origem": "autoral"
-      }
-    },
-    {
-      "data": "2026-10-13",
-      "hora": "18:00",
-      "arquivo": "radar_v5_mecanicas_v4.mp4",
-      "status": "postado",
-      "legenda": "GTA 6 tá com cara de San Andreas 💪\n\nComer, treinar e dormir mudam o corpo do Jason e da Lucia. E ainda tem caiaque, zoológico, sinuca, mini-golfe, luta livre e corrida de rua.\n\nQual você faz primeiro? Comenta 👇\n\n#gta6 #gtavi #gtasanandreas #gta6brasil #rockstargames #vicecity",
-      "obs": "v4: imagens trocadas por frames oficiais do Extended Look e Trailer 1, deslizando (pedido do Pedro, 12/10)",
-      "ficha": {
-        "formato": "corte",
-        "tema": "gameplay",
-        "gancho": "comparacao",
-        "origem": "autoral"
-      },
-      "link": "https://www.instagram.com/reel/DectbiBAgte/",
-      "capa": "Cara de San Andreas"
-    },
-    {
-      "data": "2026-10-13",
-      "hora": "21:00",
-      "arquivo": null,
-      "status": "cancelado",
-      "tema": "Radar da gringa: o post de GTA 6 que mais bombou nos EUA nos últimos 3 dias, traduzido",
-      "formato": "gringa",
-      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
-    },
-    {
-      "data": "2026-10-14",
-      "hora": "12:00",
-      "arquivo": null,
-      "status": "cancelado",
-      "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
-      "formato": "gringa",
-      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
-    },
-    {
-      "data": "2026-10-14",
-      "hora": "18:00",
-      "arquivo": "radar_v10_cyberleak.mp4",
-      "status": "postado",
-      "tema": "Corte: GTA 6 em primeira pessoa? (vazamento Cyberleek, 8/10)",
-      "headline": "GTA 6 EM PRIMEIRA PESSOA?",
-      "roteiro": "Mano, o hacker voltou. O tal do Cyberleek soltou mais 25 minutos de GTA 6, e tem uma parte que deixou todo mundo doido: o Jason dirigindo e andando pela cidade em primeira pessoa. Calma que tem um detalhe: isso é versão de desenvolvedor, e a Rockstar não confirmou nada. Mas pensa comigo: o GTA 5 ganhou primeira pessoa no PS4 e foi um sucesso. Não faz sentido nenhum a Rockstar tirar isso do 6. Eu aposto que vem. E você, joga em primeira ou terceira pessoa?",
-      "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
-      "tags": [
-        "jason",
-        "carro",
-        "cidade"
-      ],
-      "formato": "corte",
-      "ficha": {
-        "formato": "corte",
-        "tema": "vazamentos",
-        "gancho": "votacao",
-        "origem": "Kotaku 12/10"
-      },
-      "legenda": "CyberLeak quer vazar GTA 6 inteiro, mas a moeda dele caiu 50% em 24h 📉\n\nEle cobra em cripto pra soltar vídeo vazado. Segundo o Kotaku, o token despencou e muita gente já tá cansada de spoiler antes do jogo sair em 19/11.\n\nVotação valendo:\n1️⃣ a favor dos vazamentos\n2️⃣ contra os vazamentos\n\nDigita 1 ou 2 nos comentários 👇\n\n#gta6 #gta6brasil #gtavi #cyberleak",
-      "link": "https://www.instagram.com/reel/DefSM3xFcrX/",
-      "capa": "Querem vazar o jogo inteiro",
-      "capa_t": 3.9
-    },
-    {
-      "data": "2026-10-14",
-      "hora": "21:00",
-      "arquivo": null,
-      "status": "cancelado",
-      "tema": "Corte: Jason pelado no vazamento, vai pro jogo final?",
-      "headline": "VAI TER ISSO NO GTA 6?",
-      "roteiro": "Gente, o vazamento novo de GTA 6 botou o Jason pelado andando na rua, e a internet surtou. Muita gente falando que os NPCs nem reagem. Só que isso aí é versão de desenvolvedor, onde o pessoal testa tudo, inclusive o boneco sem roupa. A Rockstar vive falando de imersão. Já imaginou andar pelado em Vice City e a polícia não vir atrás de você? Não tem lógica nenhuma. Eu duvido muito que isso vá pra versão final. Vai ter ou não vai ter? Comenta aí.",
-      "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
-      "tags": [
-        "jason",
-        "policia",
-        "cidade",
-        "praia"
-      ],
-      "formato": "corte",
-      "ficha": {
-        "formato": "corte",
-        "tema": "vazamento",
-        "gancho": "pergunta",
-        "origem": "autoral"
-      },
-      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
-    },
-    {
-      "data": "2026-10-15",
-      "hora": "12:00",
-      "arquivo": null,
-      "status": "cancelado",
-      "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
-      "formato": "gringa",
-      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
-    },
-    {
-      "data": "2026-10-15",
-      "hora": "18:00",
-      "arquivo": "radar_v11_pc_2027.mp4",
-      "status": "postado",
-      "tema": "Corte: o que acontece com quem vaza GTA (Kurtaj 2022 x Cyberleek)",
-      "headline": "O QUE ACONTECE COM QUEM VAZA GTA",
-      "roteiro": "Sabe o que aconteceu com o último cara que vazou GTA? Em 2022, um hacker de 18 anos invadiu a Rockstar e soltou mais de 90 vídeos de GTA 6. Ele foi preso, e a justiça inglesa mandou ele ficar internado num hospital psiquiátrico sem data pra sair. Agora tem um novo vazador, o Cyberleek, que já soltou dezenas de minutos de gameplay. E a Take-Two já foi na justiça pra descobrir quem é. Pelo histórico, esse cara tá muito encrencado. Você acha que pegam ele antes do lançamento?",
-      "fontes": "Fontes: BBC, Dexerto e Push Square | Imagens: Rockstar Games",
-      "tags": [
-        "policia",
-        "noite",
-        "cidade"
-      ],
-      "formato": "corte",
-      "ficha": {
-        "formato": "corte",
-        "tema": "pc",
-        "gancho": "noticia",
-        "origem": "Forbes/GamesBeat 13/10"
-      },
-      "legenda": "GTA 6 no PC pode sair entre janeiro e março de 2027 💻\n\nÉ o que diz uma reportagem do GamesBeat, repercutida pela Forbes. Seriam 2 a 4 meses depois do console (19/11). No GTA 5 a espera foi de 19 meses.\n\nA Rockstar ainda não confirmou. Até lá, qualquer site vendendo GTA 6 pra PC é golpe.\n\nVocê espera o PC ou compra no console?\n\n#gta6 #gta6pc #gta6brasil #gtavi",
-      "link": "https://www.instagram.com/reel/Deh27W5AUHm/",
-      "capa": "No PC só em 2027?",
-      "capa_t": 19.6
-    },
-    {
-      "data": "2026-10-15",
-      "hora": "21:00",
-      "arquivo": null,
-      "status": "cancelado",
-      "tema": "Corte: moto de trilha e o interior de Leonida",
-      "headline": "GTA 6 VAI TER CORRIDA NA LAMA?",
-      "roteiro": "Olha que coisa: no vazamento novo de GTA 6 aparece o Jason numa moto de trilha, descendo morro de terra, com corrida e tudo. Ainda não é oficial, é versão de teste. Mas se vier, imagina o que vai ser o mapa fora de Vice City: mato, lama, pântano, o pessoal lá do interior. Lembra que no trailer já aparece um monte de gente fazendo festa na lama? Pra mim o interior de Leonida vai ser o lugar mais divertido do jogo. Você vai ficar na cidade ou vai pro mato?",
-      "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
-      "tags": [
-        "interior",
-        "lama",
-        "moto",
-        "natureza"
-      ],
-      "formato": "corte",
-      "ficha": {
-        "formato": "corte",
-        "tema": "gameplay",
-        "gancho": "pergunta",
-        "origem": "autoral"
-      },
-      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
-    },
-    {
-      "data": "2026-10-16",
-      "hora": "12:00",
-      "arquivo": "radar_v12_regioes_leonida.mp4",
-      "status": "postado",
-      "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
-      "formato": "gringa",
-      "legenda": "As 6 regiões de Leonida em GTA 6 🗺️ salva pra não se perder\n\n1. Vice City\n2. Leonida Keys\n3. Grassrivers\n4. Port Gellhorn\n5. Ambrosia\n6. Monte Kalaga\n\nQual você vai explorar primeiro?\n\n#gta6 #leonida #vicecity #gta6brasil #gtavi",
-      "ficha": {
-        "formato": "corte",
-        "tema": "mapa",
-        "gancho": "lista",
-        "origem": "Rockstar (site oficial)"
-      },
-      "link": "https://www.instagram.com/reel/DejyjUvD27e/",
-      "capa": "As 6 regiões de Leonida",
-      "capa_t": 1.6
-    },
-    {
-      "data": "2026-10-16",
-      "hora": "18:00",
-      "arquivo": "radar_v14_cyberleak_desistiu.mp4",
-      "status": "postado",
-      "tema": "CyberLeak desistiu dos vazamentos",
-      "formato": "corte",
-      "legenda": "O CyberLeak desistiu: os vazamentos de GTA 6 acabaram (por enquanto) 🛑\n\nDepois de dias soltando informações, a moeda dele despencou pra cerca de US$ 1,2 milhão e ele parou de vazar. Sem spoiler do final aqui.\n\nE aí, você votou 1 (a favor) ou 2 (contra os vazamentos)? Comenta!\n\n#gta6 #gtavi #gta6brasil #rockstargames",
-      "ficha": {
-        "formato": "corte",
-        "tema": "vazamentos",
-        "gancho": "noticia",
-        "origem": "Mezha/Gfinity 14/10"
-      },
-      "link": "https://www.instagram.com/reel/DekbyAanDQL/",
-      "capa": "O CyberLeak desistiu"
-    },
-    {
-      "data": "2026-10-16",
-      "hora": "21:00",
-      "arquivo": "radar_v15_detalhes_trailer.mp4",
-      "status": "postado",
-      "tema": "Detalhes do trailer de lançamento",
-      "formato": "corte",
-      "legenda": "3 detalhes do trailer de lançamento de GTA 6 que quase ninguém reparou 👀\n\n🎵 A música é Flower in a Hurricane, do Justice com Tame Impala, SZA e King Gizzard\n🏝️ O trailer abre nas Keys\n⛓️ A Lucia aparece de tornozeleira: condicional?\n\nQual detalhe você não tinha visto?\n\n#gta6 #gtavi #gta6trailer #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "trailer",
-        "gancho": "curiosidade",
-        "origem": "Eurogamer via comicshoplocator 16/10"
-      },
-      "link": "https://www.instagram.com/reel/DekwckRj0_9/",
-      "capa": "3 detalhes que ninguém viu"
-    },
-    {
-      "data": "2026-10-17",
-      "hora": "12:00",
-      "arquivo": "radar_v16_rockstar_ainda_muda.mp4",
-      "status": "postado",
-      "tema": "Rockstar ainda mexendo em GTA 6",
-      "formato": "corte",
-      "legenda": "A um mês do lançamento, a Rockstar ainda está mudando coisas em GTA 6 🛠️\n\n\"O jogo nunca fica totalmente fechado\", disse Phil Hooker, diretor de tecnologia da Rockstar. E segundo Jason Schreier, da Bloomberg, os adiamentos não tiveram um grande motivo: o jogo só não estava pronto.\n\nVocê prefere um jogo bem polido ou queria ter jogado antes?\n\n#gta6 #gtavi #rockstargames #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "bastidores",
-        "gancho": "noticia",
-        "origem": "GamesRadar 16/10"
-      },
-      "link": "https://www.instagram.com/reel/DemXZASj3oQ/",
-      "capa": "A Rockstar ainda tá mudando"
-    },
-    {
-      "data": "2026-10-17",
-      "hora": "18:00",
-      "arquivo": "radar_v17_game_awards.mp4",
-      "status": "postado",
-      "tema": "GTA 6 elegível no The Game Awards",
-      "formato": "corte",
-      "legenda": "GTA 6 escapou por 1 dia de ficar fora do The Game Awards 🏆\n\nA regra diz que o jogo precisa estar à venda até 20 de novembro. GTA 6 sai no dia 19. Ou seja: pode disputar o Jogo do Ano de 2026, mas os jurados vão ter pouquíssimo tempo pra jogar.\n\nGTA 6 leva o GOTY? Comenta sim ou não 👇\n\n#gta6 #gtavi #thegameawards #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "premiacao",
-        "gancho": "enquete",
-        "origem": "Kotaku 15/10 (FAQ do The Game Awards)"
-      },
-      "link": "https://www.instagram.com/reel/DenAhZZCOCA/",
-      "capa": "Quase fora do Game Awards"
-    },
-    {
-      "data": "2026-10-17",
-      "hora": "21:00",
-      "arquivo": "radar_v18_carros_miami.mp4",
-      "status": "postado",
-      "tema": "Carros de GTA 6 nas ruas de Miami",
-      "formato": "corte",
-      "legenda": "Carros de GTA 6 estão rodando de verdade pelas ruas de Miami 🚓\n\nFãs flagraram uma Lamborghini com pintura da polícia de Vice Beach, carros com kit no estilo do jogo e placas de Vice City. Teve até dirigível com a logo e avião puxando faixa. A Rockstar não confirmou oficialmente.\n\nSe visse um na rua: tirava foto ou roubava? 👇\n\n#gta6 #gtavi #vicecity #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "marketing",
-        "gancho": "curiosidade",
-        "origem": "Push Square/GameRant 16/10 (posts de fãs)"
-      },
-      "link": "https://www.instagram.com/reel/DenVRLvAWnp/",
-      "capa": "Os carros estão em Miami"
-    },
-    {
-      "data": "2026-10-13",
-      "hora": "12:00",
-      "status": "cancelado",
-      "obs": "substitui o v6 (golpe PC), cancelado pelo Pedro por repetir tema de PC",
-      "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
-    },
-    {
-      "data": "2026-10-15",
-      "hora": "11:30",
-      "status": "postado",
-      "arquivo": "radar_v13_trailer_lancamento.mp4",
-      "extra": "pedido urgente do Pedro 15/10 (trailer de lançamento)",
-      "legenda": "Saiu o trailer de lançamento de GTA 6 e é ação do começo ao fim 🔥\n\nPerseguição na avenida estilo Ocean Drive, Jason voando de moto, Lucia de tornozeleira eletrônica, assalto ao cofre de um banco e Lucia pulando do carro pra um avião em movimento.\n\nLança 19/11. Qual cena foi a melhor? 👇\n\n#gta6 #gta6trailer #gta6brasil #gtavi",
-      "ficha": {
-        "formato": "corte",
-        "tema": "trailer",
-        "gancho": "noticia",
-        "origem": "Rockstar, trailer de lançamento 15/10"
-      },
-      "link": "https://www.instagram.com/reel/DehKLJggYHT/",
-      "capa": "Saiu o trailer final"
-    },
-    {
-      "data": "2026-10-18",
-      "hora": "12:00",
-      "arquivo": "radar_v19_letreiro_vice_city.mp4",
-      "status": "postado",
-      "tema": "Letreiro Welcome to Vice City na arena do Miami Heat",
-      "formato": "corte",
-      "legenda": "A Rockstar pagou US$ 975 mil pra escrever \"Welcome to Vice City\" no teto da arena do Miami Heat 💸\n\nSão uns 400 m² de letreiro em cima do Kaseya Center, pagos ao condado de Miami-Dade. O acordo foi revelado de madrugada numa reunião de orçamento, e tem gente dizendo que nem dá pra ver direito da rua.\n\nValeu o investimento ou foi dinheiro jogado fora? 👇\n\n#gta6 #gtavi #vicecity #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "marketing",
-        "gancho": "polemica",
-        "origem": "Notebookcheck 24/09 + GTAIntel (Miami-Dade)"
-      },
-      "link": "https://www.instagram.com/reel/Deo8P5CD2Ob/",
-      "capa": "US$ 975 mil num letreiro"
-    },
-    {
-      "data": "2026-10-18",
-      "hora": "18:00",
-      "arquivo": "radar_v20_narrador_trailer.mp4",
-      "status": "postado",
-      "tema": "Narrador do trailer: sinal de que não atrasa",
-      "formato": "corte",
-      "legenda": "GTA 6 não atrasa mais, e esse é o sinal 🎙️\n\nA voz grave que fala \"Grand Theft Auto\" no fim do trailer de lançamento é o mesmo narrador desde San Andreas, passando por GTA 4, GTA 5 e os dois Red Dead. E a Rockstar só chama ele quando o jogo está pronto. 19 de novembro é pra valer.\n\nVocê confia ou acha que ainda atrasa? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #rockstargames #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "trailer",
-        "gancho": "enquete",
-        "origem": "Kotaku 16/10"
-      },
-      "link": "https://www.instagram.com/reel/DeplZ4bk8TX/",
-      "capa": "Não atrasa mais"
-    },
-    {
-      "data": "2026-10-18",
-      "hora": "21:00",
-      "arquivo": "radar_v21_historia_red_dead.mp4",
-      "status": "postado",
-      "tema": "História de GTA 6 mais parecida com Red Dead 2",
-      "formato": "corte",
-      "legenda": "GTA 6 vai ter uma história mais parecida com Red Dead 2 do que com GTA 5 🤠\n\nJason Schreier, da Bloomberg, viu o jogo rodando na Rockstar: o centro é a relação do Jason com a Lucia, duas pessoas que realmente gostam de estar juntas, com foco em lealdade.\n\nVocê prefere assim ou sente falta do caos do GTA 5? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #reddeadredemption2 #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "historia",
-        "gancho": "enquete",
-        "origem": "Bloomberg via Notebookcheck 18/10"
-      },
-      "link": "https://www.instagram.com/reel/Dep6MPzlVqQ/",
-      "capa": "História estilo Red Dead"
-    },
-    {
-      "data": "2026-10-19",
-      "hora": "12:00",
-      "arquivo": "radar_v22_activision_maiores_jogos.mp4",
-      "status": "postado",
-      "tema": "Activision: GTA 6 e CoD são os maiores jogos de 2026",
-      "formato": "corte",
-      "legenda": "GTA 6 e Call of Duty são os 2 maiores jogos de 2026, segundo a própria Activision 🎮\n\n\"Sem querer ofender Zelda, mas são os dois maiores jogos do ano\", disse o diretor de marketing da Activision ao The Game Business. Modern Warfare 4 sai dia 23 de outubro, quatro semanas antes de GTA 6 (19 de novembro).\n\nVocê vai jogar os dois ou guardar o dinheiro só pro GTA 6? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #callofduty #modernwarfare4 #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "noticias",
-        "gancho": "enquete",
-        "origem": "The Game Business via Beebom 16/10"
-      },
-      "link": "https://www.instagram.com/reel/DerhBaEAqHr/",
-      "capa": "O maior jogo de 2026"
-    },
-    {
-      "data": "2026-10-19",
-      "hora": "18:00",
-      "status": "postado",
-      "arquivo": "radar_v23_falta_um_mes.mp4",
-      "tema": "Falta 1 mês pra GTA 6",
-      "formato": "corte",
-      "legenda": "GTA 6 chega daqui a exatamente 1 mês ⏳\n\n19 de novembro, no PS5 e no Xbox Series. Quem comprou digital já pode baixar a partir de 12 de novembro, uma semana antes. E no dia do lançamento ainda sai o álbum oficial com a trilha do jogo.\n\nVocê já garantiu o seu? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
-      "ficha": {
-        "formato": "corte",
-        "tema": "noticias",
-        "gancho": "pergunta",
-        "origem": "Rockstar (pre-load 12/11) via Khel Now/Shacknews 19/10"
-      },
-      "link": "https://www.instagram.com/reel/DesKRnHFMj5/",
-      "capa": "Falta só 1 mês"
-    },
-    {
-      "data": "2026-10-19",
-      "hora": "21:00",
-      "status": "postado",
-      "arquivo": "radar_v24_julgamento_demitidos.mp4",
-      "tema": "Rockstar julgada por demitir 34 devs de GTA 6",
-      "formato": "corte",
-      "legenda": "GTA 6: a Rockstar está sendo julgada por demitir 34 desenvolvedores do jogo ⚖️\n\nO caso corre num tribunal trabalhista em Glasgow, na Escócia. A Rockstar diz que eles vazaram informações confidenciais num servidor do Discord. O sindicato IWGB diz que foram demitidos por se organizar. No julgamento, apareceu que o RH teria oferecido uma hora de folga a um informante que passava prints do grupo. A Rockstar nega ligação com o sindicato, e a audiência deve terminar em 18 de novembro, véspera do lançamento.\n\nVocê acha que a Rockstar errou? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #rockstargames #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "bastidores",
-        "gancho": "enquete",
-        "origem": "TalkEsport/The Scotsman 16/10"
-      },
-      "link": "https://www.instagram.com/reel/DeseuwKD_89/",
-      "capa": "Rockstar no tribunal"
-    },
-    {
-      "data": "2026-10-20",
-      "hora": "12:00",
-      "status": "postado",
-      "arquivo": "radar_v25_sem_online.mp4",
-      "tema": "GTA 6 chega sem modo online",
-      "formato": "corte",
-      "legenda": "GTA 6 vai chegar sem modo online 🎮\n\nA página do jogo na PlayStation Store chama GTA 6 de \"experiência para um jogador\", e a Rockstar ainda não anunciou data pro multiplayer. No GTA 5, o GTA Online chegou duas semanas depois do jogo. Agora, com um mapa muito maior, pode demorar mais.\n\nVocê vai jogar mesmo sem online? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gtaonline #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "noticias",
-        "gancho": "enquete",
-        "origem": "PS Store FAQ via Beebom; The Game Haus 19/10"
-      },
-      "link": "https://www.instagram.com/reel/DeuFyvkjU1q/",
-      "capa": "Vai chegar sem online"
-    },
-    {
-      "data": "2026-10-20",
-      "hora": "18:00",
-      "status": "postado",
-      "arquivo": "radar_v26_crimes_miami.mp4",
-      "tema": "Moradores de Miami confessavam crimes à equipe de GTA 6",
-      "formato": "corte",
-      "legenda": "GTA 6: quando a Rockstar foi pesquisar em Miami, o povo começou a confessar crimes 😳\n\nSegundo Jason Schreier, da Bloomberg, a equipe viajava pra Miami desde 2015 e quase abriu um escritório na cidade. \"Era só saberem de onde você vinha que queriam contar todo crime que já tinham feito\", contou um diretor da Rockstar: guerra de gangue, assalto à mão armada.\n\nVocê acha que isso deixa o jogo mais realista? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #vicecity #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "bastidores",
-        "gancho": "pergunta",
-        "origem": "Jason Schreier via Gameranx 20/10"
-      },
-      "link": "https://www.instagram.com/reel/Deuu91Skz6q/",
-      "capa": "Confessaram crimes pra Rockstar"
-    },
-    {
-      "data": "2026-10-20",
-      "hora": "21:00",
-      "status": "postado",
-      "arquivo": "radar_v27_furacao_clima.mp4",
-      "tema": "Furacões e o novo sistema de clima de GTA 6",
-      "formato": "corte",
-      "legenda": "GTA 6 vai ter furacão e tempestade tropical 🌀\n\nA Rockstar refez o sistema de clima: a chuva é localizada (dá pra estar no sol com temporal no bairro do lado), as nuvens andam por Leonida, as poças ficam depois da chuva e aparece até arco-íris. O vento é simulado e mexe cabelo, água e o mato do pântano. Ainda não se sabe se o furacão destrói prédio.\n\nVocê quer pegar um furacão no meio de uma fuga? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #leonida #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "gameplay",
-        "gancho": "pergunta",
-        "origem": "Game Informer via Dexerto 29/09"
-      },
-      "link": "https://www.instagram.com/reel/DevDjNqkdcV/",
-      "capa": "Vai ter furacão"
-    },
-    {
-      "data": "2026-10-21",
-      "hora": "12:00",
-      "status": "postado",
-      "arquivo": "radar_v28_jason_lucia_terminar.mp4",
-      "legenda": "GTA 6 vai deixar o Jason e a Lucia terminarem 💔\n\nRob Nelson, chefe da Rockstar North, confirmou: o romance é opcional. Você decide se eles viram casal ou ficam só como parceiros de crime, e a história segue do mesmo jeito. Se ignorar o parceiro, ele fica menos apegado. E tem escolha tóxica: contar ou esconder as coisas, e esconder pode dar problema maior depois.\n\nLá fora já tem gente dizendo que namorar a Lucia no jogo é traição. Jogar GTA 6 é trair? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #jasonelucia #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "bastidores",
-        "gancho": "pergunta",
-        "origem": "noticia (Rob Nelson via IGN/Insider Gaming)"
-      },
-      "tema": "Jason e Lucia podem terminar (romance opcional)",
-      "formato": "corte",
-      "link": "https://www.instagram.com/reel/DewqpXtD8qE/",
-      "capa": "Jason e Lucia vão terminar?"
-    },
-    {
-      "data": "2026-10-21",
-      "hora": "18:00",
-      "status": "postado",
-      "arquivo": "radar_v29_radios_bad_bunny.mp4",
-      "tema": "Rádios de GTA 6 (Bad Bunny, Slayer, Lana Del Rey)",
-      "formato": "corte",
-      "legenda": "GTA 6 vai ter o Bad Bunny como locutor de rádio 📻\n\nA Rockstar mostrou as 6 primeiras rádios de Leonida:\n🎶 Cocoteo FM: Bad Bunny vira o El Martillo, com reggaeton e bachata\n🤠 Back Country: Morgan Wallen e Lana Del Rey no country\n🤘 The Chamber 106.6: os caras do Slayer no metal\n✨ Flash FM: pop com a Robyn\n🎤 Dirty South Classics: rap com Trick Daddy e Trina\n🌍 AfroBank FM: amapiano com Burna Boy\n\nE pela primeira vez a rádio sai do carro: dá pra ouvir andando, no fone do celular, e tem até podcast.\n\nVai deixar o reggaeton ligado? Comenta 1 pra sim, 2 pra metal e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #badbunny #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "novidade oficial",
-        "gancho": "revelacao",
-        "origem": "Rockstar Newswire 08/10 via endgametools/ghacks"
-      },
-      "link": "https://www.instagram.com/reel/DexT2DJDFHW/",
-      "capa": "Bad Bunny na rádio",
-      "capa_t": 26.4
-    },
-    {
-      "data": "2026-10-21",
-      "hora": "21:00",
-      "status": "postado",
-      "arquivo": "radar_v30_espaco_console.mp4",
-      "tema": "Tamanho de GTA 6 (120 GB+) e pré-download",
-      "formato": "corte",
-      "legenda": "GTA 6 pode passar de 120 GB no seu console 💾 já vai liberando espaço\n\nA Rockstar ainda não divulgou o tamanho oficial, mas a estimativa da GamesRadar é de 120 a 130 GB. Pra comparar: GTA 5 no PS5 tem uns 87 GB e Red Dead 2 passa dos 105 GB.\n\n⚠️ Aquele \"arquivo de GTA 6 com 113 GB\" que tá rodando por aí é vírus.\n📥 O pré-download começa em 12 de novembro pra quem comprou digital.\n🎮 Xbox Series S de 512 GB tem só uns 364 GB livres.\n\nSeu console tem espaço pro GTA 6? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #ps5 #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "alerta/utilidade",
-        "gancho": "alerta",
-        "origem": "gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download)"
-      },
-      "link": "https://www.instagram.com/reel/DexoWsUjXNi/",
-      "capa": "Libera 120 GB",
-      "capa_t": 26.4
-    },
-    {
-      "data": "2026-10-22",
-      "hora": "12:00",
-      "status": "postado",
-      "arquivo": "radar_v31_comercial_tv_nba.mp4",
-      "tema": "Comercial de TV de GTA 6 na NBA (chuveiro cortado)",
-      "formato": "corte",
-      "legenda": "GTA 6 ganhou comercial na TV americana, e cortaram as cenas do chuveiro 📺\n\nO comercial passou na abertura da NBA, no jogo Knicks x 76ers. É o trailer de lançamento um pouco mexido: duas das três cenas da Lucia no chuveiro saíram. Mas tiro, explosão e perseguição ficaram todos lá. Alguns takes ficaram mais longos e o logo do Xbox sumiu. E ainda deve passar no jogo do Miami Heat, patrocinado por GTA 6.\n\nFaz sentido cortar o chuveiro e deixar o tiroteio? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #nba #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "noticia/polemica",
-        "gancho": "revelacao",
-        "origem": "Kotaku 21/10"
-      },
-      "capa": "Comercial na TV americana",
-      "capa_embutida": true,
-      "link": "https://www.instagram.com/reel/DezPc0kEQ0t/"
-    },
-    {
-      "data": "2026-10-22",
-      "hora": "18:00",
-      "status": "postado",
-      "arquivo": "radar_v32_personagens.mp4",
-      "tema": "Os 8 personagens principais de GTA 6",
-      "formato": "corte",
-      "legenda": "GTA 6 tem 8 personagens principais, e cada um é mais doido que o outro 🔥\n\n🪖 Jason: serviu no exército e hoje vive de crime\n⛓️ Lucia: já foi presa na penitenciária de Leonida\n🛋️ Cal: o parceiro do Jason que faz tudo do sofá\n🏢 Boobie: saiu do crime pequeno e virou dono de imóveis, boate e estúdio\n🎤 Dre'Quan: tem uma gravadora e contratou a dupla Real Dimez\n🏦 Raul: o assaltante de banco que nunca para\n⛵ Brian: contrabandeia pela marina dele e nem suja mais as mãos\n\nAlgum deles vai trair o Jason e a Lucia? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #personagens #gta6brasil",
-      "capa": "Os 8 personagens",
-      "capa_t": 0.5,
-      "ficha": {
-        "formato": "corte",
-        "tema": "lista/personagens",
-        "gancho": "lista",
-        "origem": "site oficial da Rockstar (via Push Square)"
-      },
-      "capa_embutida": true,
-      "link": "https://www.instagram.com/reel/Dez4k1_jEoY/"
-    },
-    {
-      "data": "2026-10-22",
-      "hora": "21:00",
-      "status": "postado",
-      "arquivo": "radar_v33_falta_trabalho.mp4",
-      "tema": "GTA 6 pode custar US$ 1 bilhão aos EUA com faltas no lançamento",
-      "formato": "corte",
-      "capa": "Vai faltar no trabalho?",
-      "capa_t": 13.8,
-      "legenda": "GTA 6 pode custar 1 bilhão de dólares pros EUA, só com gente faltando no trabalho 💸\n\n📊 José García Montalvo, professor de economia da Universidade Pompeu Fabra, calculou que 1,5 milhão de americanos vão faltar no dia 19 de novembro\n👨 A maioria são homens de 18 a 30 anos\n🏖️ Tem engenheiro que já avisou que vai tirar 5 dias de folga\n🕹️ No GTA 5, até 6% dos jovens de Los Angeles e Nova York faltaram no lançamento\n\nE você, vai faltar no trabalho ou na escola pra jogar? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
-      "ficha": {
-        "formato": "corte",
-        "tema": "curiosidade/economia",
-        "gancho": "numero chocante",
-        "origem": "IBTimes UK (José García Montalvo, Universidade Pompeu Fabra)"
-      },
-      "capa_embutida": true,
-      "link": "https://www.instagram.com/reel/De0NOukCfyi/"
-    },
-    {
-      "data": "2026-10-23",
-      "hora": "12:00",
-      "status": "postado",
-      "arquivo": "radar_v34_burger_shot.mp4",
-      "tema": "Burger Shot e Cluckin' Bell de verdade no ginásio do Miami Heat",
-      "formato": "corte",
-      "capa": "Burger Shot de verdade",
-      "capa_t": 0.8,
-      "legenda": "GTA 6 virou lanchonete de verdade, e o lanche custa uns R$ 150 🍔\n\n🍟 O Burger Shot e o Cluckin' Bell, os fast foods do jogo, abriram no Kaseya Center, o ginásio do Miami Heat\n💸 O combo mais simples (cheeseburger, batata e refri) sai por US$ 28,50\n🧢 Os funcionários usam boné e camisa do Burger Shot\n📻 Até os elevadores têm propaganda da Vice City FM\n🏀 Em 18 de novembro, véspera do lançamento, o Miami Heat joga com uniforme de GTA 6\n\nVocê pagaria R$ 150 num lanche do Burger Shot? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #burgershot #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "marketing/mundo real",
-        "gancho": "curiosidade + preço",
-        "origem": "GameSpot (22/10)"
-      },
-      "capa_embutida": true,
-      "link": "https://www.instagram.com/reel/De10O6vgais/"
-    },
-    {
-      "data": "2026-10-23",
-      "hora": "18:00",
-      "status": "postado",
-      "arquivo": "radar_v35_pre_venda.mp4",
-      "tema": "GTA 6 já faturou US$ 630 milhões na pré-venda (Sensor Tower)",
-      "formato": "corte",
-      "capa": "US$ 630 milhões",
-      "capa_t": 0.8,
-      "legenda": "GTA 6 já faturou mais de US$ 600 milhões, e o jogo nem lançou 🤑\n\n📊 Segundo a Sensor Tower, são 6,45 milhões de cópias digitais vendidas na pré-venda, uns US$ 630 milhões\n🎮 PS5 domina: 74% das reservas (4,8 milhões de cópias, US$ 468 milhões)\n🟢 Xbox: 1,66 milhão de cópias e US$ 162 milhões\n🚀 A Newzoo estima até US$ 5,2 bilhões só na semana de lançamento\n\nVocê já garantiu o seu na pré-venda? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #ps5",
-      "ficha": {
-        "formato": "corte",
-        "tema": "vendas/numeros",
-        "gancho": "numero chocante",
-        "origem": "Insider Gaming / Sensor Tower (20/10)"
-      },
-      "capa_embutida": true,
-      "link": "https://www.instagram.com/reel/De2iVxUACb4/",
-      "obs": "publicado às 18h36 (BRT) com legenda curta, fora desta rotina"
-    },
-    {
-      "data": "2026-10-23",
-      "hora": "21:00",
-      "status": "postado",
-      "arquivo": "radar_v36_daft_punk_justice.mp4",
-      "tema": "Rumor Daft Punk em GTA 6 + trilha oficial do Justice",
-      "formato": "corte",
-      "capa": "Daft Punk em GTA 6?",
-      "capa_t": 5.8,
-      "legenda": "GTA 6 quase teve a volta do Daft Punk 🎧\n\n🤫 Segundo o perfil Has It Leaked, a Rockstar procurou o empresário da dupla com orçamento \"praticamente ilimitado\" pra um último retorno\n⚠️ É rumor: nem a Rockstar nem o Daft Punk confirmaram, e a dupla acabou em 2021\n✅ Oficial: a trilha original de GTA 6 é do Justice, outra dupla francesa\n🌀 Eles já lançaram \"Flower in a Hurricane\", com Tame Impala e SZA\n\nVocê queria ouvir Daft Punk em GTA 6? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #daftpunk #gta6brasil",
-      "ficha": {
-        "formato": "corte",
-        "tema": "musica/trilha",
-        "gancho": "rumor + oficial",
-        "origem": "Dexerto (Has It Leaked) + Shacknews (Rockstar)"
-      },
-      "capa_embutida": true,
-      "link": "https://www.instagram.com/reel/De2xCB-lPHz/"
-    },
-    {
-      "data": "2026-10-24",
-      "hora": "12:00",
-      "status": "postado",
-      "arquivo": "radar_v37_roda_de_armas.mp4",
-      "tema": "Roda de armas quase saiu de GTA 6 (Jason Schreier na Rockstar North)",
-      "formato": "corte",
-      "capa": "Quase sem roda de armas",
-      "capa_t": 11.5,
-      "legenda": "GTA 6 quase ficou sem a roda de armas 🔫\n\n📰 Jason Schreier, da Bloomberg, visitou a Rockstar North e contou que a equipe queria um sistema igual ao de Red Dead 2: poucas armas com você e o resto guardado no carro\n🧪 Testaram bandejas, teias e até jogar sem roda nenhuma, por meses\n🔁 No fim, a roda de armas voltou\n❓ A Rockstar ainda não mostrou se o limite de armas ficou no jogo\n\nVocê prefere andar com todas as armas ou só com algumas? Comenta 1 pra todas, 2 pra algumas e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
-      "ficha": {
-        "formato": "corte",
-        "tema": "gameplay/bastidores",
-        "gancho": "curiosidade",
-        "origem": "TechRadar (Jason Schreier/Bloomberg) 20/10"
-      },
-      "capa_embutida": true,
-      "link": "https://www.instagram.com/reel/De4Y-b1iLlh/",
-      "obs": "substituído pelo v37b (voz Orus regravada, Pedro 24/10); Pedro apaga este Reel e o Short PNrZ7ExwJ2E à mão"
-    },
-    {
-      "data": "2026-10-24",
-      "hora": "18:00",
-      "status": "postado",
-      "arquivo": "radar_v38_cervejas.mp4",
-      "tema": "Rótulos de cerveja de GTA 6 aprovados nos EUA (Pißwasser, Patriot, No Mames Vice City)",
-      "formato": "corte",
-      "capa": "Cerveja de GTA 6 de verdade?",
-      "capa_t": 0.5,
-      "capa_embutida": true,
-      "legenda": "GTA 6 pode ganhar cerveja de verdade 🍺\n\n📄 O governo dos EUA aprovou 3 rótulos ligados ao jogo: Pißwasser, Patriot e a nova No Mames Vice City\n🏭 Quem pediu foi a Tripping Animals, cervejaria de Doral, do lado de Miami\n📅 Pißwasser aprovada em 29/9, No Mames em 9/10 e Patriot em 15/10\n⚠️ Nem a Rockstar nem a cervejaria confirmaram parceria, e ainda não tem data, preço nem onde vai vender\n\nVocê compraria uma cerveja de GTA 6? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
-      "ficha": {
-        "formato": "corte",
-        "tema": "curiosidade/marketing",
-        "gancho": "vida real",
-        "origem": "Dexerto (iGrandTheftAuto) 20/10"
-      },
-      "link": "https://www.instagram.com/reel/De5CXvGlF4f/",
-      "postado_em": "2026-10-24T20:56Z"
-    },
-    {
-      "data": "2026-10-24",
-      "hora": "19:30",
-      "status": "pendente",
-      "arquivo": "radar_v37b_roda_de_armas.mp4",
-      "tema": "Roda de armas quase saiu de GTA 6 (Jason Schreier na Rockstar North)",
-      "formato": "corte",
-      "capa": "Quase sem roda de armas",
-      "capa_t": 17.0,
-      "legenda": "GTA 6 quase ficou sem a roda de armas 🔫\n\n📰 Jason Schreier, da Bloomberg, visitou a Rockstar North e contou que a equipe queria um sistema igual ao de Red Dead 2: poucas armas com você e o resto guardado no carro\n🧪 Testaram bandejas, teias e até jogar sem roda nenhuma, por meses\n🔁 No fim, a roda de armas voltou\n❓ A Rockstar ainda não mostrou se o limite de armas ficou no jogo\n\nVocê prefere andar com todas as armas ou só com algumas? Comenta 1 pra todas, 2 pra algumas e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
-      "ficha": {
-        "formato": "corte",
-        "tema": "gameplay/bastidores",
-        "gancho": "curiosidade",
-        "origem": "TechRadar (Jason Schreier/Bloomberg) 20/10"
-      },
-      "capa_embutida": true
-    }
-  ]
+  {
+   "data": "2026-10-11",
+   "hora": "18:00",
+   "arquivo": "radar_v7_ps5_desbloqueado.mp4",
+   "status": "postado",
+   "legenda": "Se o seu PS5 é desbloqueado, GTA 6 vai te dar dor de cabeça 😬\n\nO jogo vai exigir o sistema 14.10 do PS5, e o desbloqueio só funciona até a 13.60. Atualizou pra jogar, perdeu o desbloqueio.\n\nTem PS5 desbloqueado aí? Comenta o que você vai fazer 👇\nSegue o @radar.gta6br pra não perder nada até 19/11.\n\n#gta6 #gtavi #gta6brasil #ps5 #playstation #rockstargames #noticiasgames",
+   "link": "https://www.instagram.com/reel/DeXjx6Djoxl/",
+   "ficha": {
+    "formato": "painel",
+    "tema": "console_tecnico",
+    "gancho": "alerta",
+    "origem": "autoral"
+   },
+   "capa": "PS5 desbloqueado vai sofrer"
+  },
+  {
+   "data": "2026-10-11",
+   "hora": "21:00",
+   "arquivo": "radar_v8_pc_nuvem_mentira.mp4",
+   "status": "postado",
+   "legenda": "\"Dá pra jogar GTA 6 no PC pela nuvem no lançamento\" ❌ MENTIRA\n\nO próprio Xbox desmentiu: GTA 6 não sai por streaming exclusivo nem como jeito de jogar no PC. Em 19/11 é só PS5 e Xbox Series.\n\nManda pro amigo que caiu nessa 👇\n\n#gta6 #gtavi #gta6brasil #xbox #pcgamer #rockstargames #noticiasgames",
+   "link": "https://www.instagram.com/reel/DeX4Vhuj49m/",
+   "ficha": {
+    "formato": "painel",
+    "tema": "mito",
+    "gancho": "mentira_verdade",
+    "origem": "autoral"
+   },
+   "capa": "Jogar na nuvem? MENTIRA"
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "12:00",
+   "arquivo": "radar_v3_ultimate_full.mp4",
+   "status": "postado",
+   "legenda": "Ultimate ou Padrão? A diferença é de R$ 100 💸\n\nPadrão (R$ 449,90): o jogo + pacote Vintage Vice City na pré-venda\nUltimate (R$ 549,90): tudo isso + Grotti Cheetah, revólver Hawk & Little Morgan, roupas, tatuagens e lojas extras\n\nQual você vai pegar? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity #ps5 #xboxseriesx",
+   "link": "https://www.instagram.com/reel/DeZjgTSD3Aw/",
+   "ficha": {
+    "formato": "corte",
+    "tema": "preco_compra",
+    "gancho": "comparacao",
+    "origem": "autoral"
+   },
+   "obs": "versão tela cheia (estilo corte com imagens paradas). Fica no ar: foi o Reel de melhor retenção dos primeiros 4 (Pedro, 12/10).",
+   "capa": "Ultimate ou Padrão?"
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "12:00",
+   "arquivo": "radar_v3_ultimate_v2.mp4",
+   "status": "cancelado",
+   "legenda": "Ultimate ou Padrão? A diferença é de R$ 100 💸\n\nPadrão (R$ 449,90): o jogo + pacote Vintage Vice City na pré-venda\nUltimate (R$ 549,90): tudo isso + Grotti Cheetah, revólver Hawk & Little Morgan, roupas, tatuagens e lojas extras\n\nQual você vai pegar? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity #ps5 #xboxseriesx",
+   "obs": "não publicar: o mesmo conteúdo já está no ar em DeZjgTSD3Aw (tela cheia), que o Pedro decidiu manter por ter o melhor engajamento.",
+   "ficha": {
+    "formato": "painel",
+    "tema": "preco_compra",
+    "gancho": "comparacao",
+    "origem": "autoral"
+   }
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "18:00",
+   "arquivo": "radar_v9_teoria_jason.mp4",
+   "status": "removido",
+   "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6",
+   "ficha": {
+    "formato": "painel",
+    "tema": "teoria",
+    "gancho": "pergunta",
+    "origem": "gringa"
+   },
+   "link": "https://www.instagram.com/reel/DeaIpLXAav5/",
+   "obs": "publicado às 18h04 e apagado pelo Pedro; substituído pela versão demo (estilo corte)"
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "18:00",
+   "arquivo": "demo_short/demo_estilo_corte.mp4",
+   "status": "removido",
+   "legenda": "Teoria que está bombando lá fora: o Jason de GTA 6 é autista? 🤔\n\nO chefe de narrativa da Rockstar disse à revista LOVE que o jogador decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nVocê acredita nessa teoria? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6",
+   "link": "https://www.instagram.com/reel/DeaJ3ciEfn_/",
+   "ficha": {
+    "formato": "demo",
+    "tema": "teoria",
+    "gancho": "pergunta",
+    "origem": "gringa"
+   },
+   "obs": "versão errada (Pedro não gostou); Pedro apagou. Formato demo descartado."
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "18:00",
+   "arquivo": "aprovados/jason_extended_look_APROVADO.mp4",
+   "status": "postado",
+   "legenda": "O Jason de GTA 6 é autista? Essa teoria tá bombando lá fora 🤔\n\nO chefe de narrativa da Rockstar contou à revista LOVE que é o jogador quem decide se o Jason entrou pro crime pela vida que teve ou porque ele é \"programado diferente das outras pessoas\". A Rockstar não confirmou nada.\n\nFaz sentido pra você? Comenta 👇\n\n#gta6 #gtavi #gta6brasil #jasongta6 #rockstargames #teoriagta6 #extendedlook",
+   "ficha": {
+    "formato": "corte",
+    "tema": "teoria",
+    "gancho": "pergunta",
+    "origem": "gringa"
+   },
+   "obs": "versão aprovada pelo Pedro (clipes do Extended Look, abre com o Jason andando); publicada às 19h25",
+   "link": "https://www.instagram.com/reel/DeaTN8uj8pd/",
+   "capa": "O Jason é autista?"
+  },
+  {
+   "data": "2026-10-12",
+   "hora": "21:00",
+   "arquivo": "radar_v4_midia_fisica_v4.mp4",
+   "status": "postado",
+   "legenda": "A caixa de GTA 6 não vem com disco 📦\n\nNo lançamento vem só um código pra baixar. Segundo o suporte da Rockstar, o disco chega nos meses seguintes.\n\nDisco ou digital? Comenta 👇\nSalva e manda pro amigo que ia comprar a caixa.\n\n#gta6 #gtavi #gta6brasil #rockstargames #ps5 #xboxseriesx #midiafisica",
+   "obs": "v4: imagens trocadas por frames oficiais do Extended Look e Trailer 1, deslizando (pedido do Pedro, 12/10)",
+   "ficha": {
+    "formato": "corte",
+    "tema": "preco_compra",
+    "gancho": "revelacao",
+    "origem": "autoral"
+   },
+   "link": "https://www.instagram.com/reel/DeadIlEmV0_/",
+   "capa": "A caixa vem SEM disco"
+  },
+  {
+   "data": "2026-10-13",
+   "hora": "12:00",
+   "arquivo": "radar_v6_golpe_pc_v3.mp4",
+   "status": "cancelado",
+   "legenda": "⚠️ GTA 6 pra PC é GOLPE\n\nNão existe versão oficial pra computador. Os instaladores que estão circulando vêm com vírus. Até agora: só PS5 e Xbox Series.\n\nManda pro amigo que baixa tudo 👇\n\n#gta6 #gtavi #gta6pc #golpe #gta6brasil #rockstargames",
+   "obs": "Pedro (12/10): tema de PC já saiu (v8, PC pela nuvem); não postar. Slot vira produzir.",
+   "ficha": {
+    "formato": "corte",
+    "tema": "golpe",
+    "gancho": "alerta",
+    "origem": "autoral"
+   }
+  },
+  {
+   "data": "2026-10-13",
+   "hora": "18:00",
+   "arquivo": "radar_v5_mecanicas_v4.mp4",
+   "status": "postado",
+   "legenda": "GTA 6 tá com cara de San Andreas 💪\n\nComer, treinar e dormir mudam o corpo do Jason e da Lucia. E ainda tem caiaque, zoológico, sinuca, mini-golfe, luta livre e corrida de rua.\n\nQual você faz primeiro? Comenta 👇\n\n#gta6 #gtavi #gtasanandreas #gta6brasil #rockstargames #vicecity",
+   "obs": "v4: imagens trocadas por frames oficiais do Extended Look e Trailer 1, deslizando (pedido do Pedro, 12/10)",
+   "ficha": {
+    "formato": "corte",
+    "tema": "gameplay",
+    "gancho": "comparacao",
+    "origem": "autoral"
+   },
+   "link": "https://www.instagram.com/reel/DectbiBAgte/",
+   "capa": "Cara de San Andreas"
+  },
+  {
+   "data": "2026-10-13",
+   "hora": "21:00",
+   "arquivo": null,
+   "status": "cancelado",
+   "tema": "Radar da gringa: o post de GTA 6 que mais bombou nos EUA nos últimos 3 dias, traduzido",
+   "formato": "gringa",
+   "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
+  },
+  {
+   "data": "2026-10-14",
+   "hora": "12:00",
+   "arquivo": null,
+   "status": "cancelado",
+   "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
+   "formato": "gringa",
+   "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
+  },
+  {
+   "data": "2026-10-14",
+   "hora": "18:00",
+   "arquivo": "radar_v10_cyberleak.mp4",
+   "status": "postado",
+   "tema": "Corte: GTA 6 em primeira pessoa? (vazamento Cyberleek, 8/10)",
+   "headline": "GTA 6 EM PRIMEIRA PESSOA?",
+   "roteiro": "Mano, o hacker voltou. O tal do Cyberleek soltou mais 25 minutos de GTA 6, e tem uma parte que deixou todo mundo doido: o Jason dirigindo e andando pela cidade em primeira pessoa. Calma que tem um detalhe: isso é versão de desenvolvedor, e a Rockstar não confirmou nada. Mas pensa comigo: o GTA 5 ganhou primeira pessoa no PS4 e foi um sucesso. Não faz sentido nenhum a Rockstar tirar isso do 6. Eu aposto que vem. E você, joga em primeira ou terceira pessoa?",
+   "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
+   "tags": [
+    "jason",
+    "carro",
+    "cidade"
+   ],
+   "formato": "corte",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vazamentos",
+    "gancho": "votacao",
+    "origem": "Kotaku 12/10"
+   },
+   "legenda": "CyberLeak quer vazar GTA 6 inteiro, mas a moeda dele caiu 50% em 24h 📉\n\nEle cobra em cripto pra soltar vídeo vazado. Segundo o Kotaku, o token despencou e muita gente já tá cansada de spoiler antes do jogo sair em 19/11.\n\nVotação valendo:\n1️⃣ a favor dos vazamentos\n2️⃣ contra os vazamentos\n\nDigita 1 ou 2 nos comentários 👇\n\n#gta6 #gta6brasil #gtavi #cyberleak",
+   "link": "https://www.instagram.com/reel/DefSM3xFcrX/",
+   "capa": "Querem vazar o jogo inteiro",
+   "capa_t": 3.9
+  },
+  {
+   "data": "2026-10-14",
+   "hora": "21:00",
+   "arquivo": null,
+   "status": "cancelado",
+   "tema": "Corte: Jason pelado no vazamento, vai pro jogo final?",
+   "headline": "VAI TER ISSO NO GTA 6?",
+   "roteiro": "Gente, o vazamento novo de GTA 6 botou o Jason pelado andando na rua, e a internet surtou. Muita gente falando que os NPCs nem reagem. Só que isso aí é versão de desenvolvedor, onde o pessoal testa tudo, inclusive o boneco sem roupa. A Rockstar vive falando de imersão. Já imaginou andar pelado em Vice City e a polícia não vir atrás de você? Não tem lógica nenhuma. Eu duvido muito que isso vá pra versão final. Vai ter ou não vai ter? Comenta aí.",
+   "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
+   "tags": [
+    "jason",
+    "policia",
+    "cidade",
+    "praia"
+   ],
+   "formato": "corte",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vazamento",
+    "gancho": "pergunta",
+    "origem": "autoral"
+   },
+   "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
+  },
+  {
+   "data": "2026-10-15",
+   "hora": "12:00",
+   "arquivo": null,
+   "status": "cancelado",
+   "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
+   "formato": "gringa",
+   "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
+  },
+  {
+   "data": "2026-10-15",
+   "hora": "18:00",
+   "arquivo": "radar_v11_pc_2027.mp4",
+   "status": "postado",
+   "tema": "Corte: o que acontece com quem vaza GTA (Kurtaj 2022 x Cyberleek)",
+   "headline": "O QUE ACONTECE COM QUEM VAZA GTA",
+   "roteiro": "Sabe o que aconteceu com o último cara que vazou GTA? Em 2022, um hacker de 18 anos invadiu a Rockstar e soltou mais de 90 vídeos de GTA 6. Ele foi preso, e a justiça inglesa mandou ele ficar internado num hospital psiquiátrico sem data pra sair. Agora tem um novo vazador, o Cyberleek, que já soltou dezenas de minutos de gameplay. E a Take-Two já foi na justiça pra descobrir quem é. Pelo histórico, esse cara tá muito encrencado. Você acha que pegam ele antes do lançamento?",
+   "fontes": "Fontes: BBC, Dexerto e Push Square | Imagens: Rockstar Games",
+   "tags": [
+    "policia",
+    "noite",
+    "cidade"
+   ],
+   "formato": "corte",
+   "ficha": {
+    "formato": "corte",
+    "tema": "pc",
+    "gancho": "noticia",
+    "origem": "Forbes/GamesBeat 13/10"
+   },
+   "legenda": "GTA 6 no PC pode sair entre janeiro e março de 2027 💻\n\nÉ o que diz uma reportagem do GamesBeat, repercutida pela Forbes. Seriam 2 a 4 meses depois do console (19/11). No GTA 5 a espera foi de 19 meses.\n\nA Rockstar ainda não confirmou. Até lá, qualquer site vendendo GTA 6 pra PC é golpe.\n\nVocê espera o PC ou compra no console?\n\n#gta6 #gta6pc #gta6brasil #gtavi",
+   "link": "https://www.instagram.com/reel/Deh27W5AUHm/",
+   "capa": "No PC só em 2027?",
+   "capa_t": 19.6
+  },
+  {
+   "data": "2026-10-15",
+   "hora": "21:00",
+   "arquivo": null,
+   "status": "cancelado",
+   "tema": "Corte: moto de trilha e o interior de Leonida",
+   "headline": "GTA 6 VAI TER CORRIDA NA LAMA?",
+   "roteiro": "Olha que coisa: no vazamento novo de GTA 6 aparece o Jason numa moto de trilha, descendo morro de terra, com corrida e tudo. Ainda não é oficial, é versão de teste. Mas se vier, imagina o que vai ser o mapa fora de Vice City: mato, lama, pântano, o pessoal lá do interior. Lembra que no trailer já aparece um monte de gente fazendo festa na lama? Pra mim o interior de Leonida vai ser o lugar mais divertido do jogo. Você vai ficar na cidade ou vai pro mato?",
+   "fontes": "Fontes: Push Square e Dexerto | Imagens: Rockstar Games",
+   "tags": [
+    "interior",
+    "lama",
+    "moto",
+    "natureza"
+   ],
+   "formato": "corte",
+   "ficha": {
+    "formato": "corte",
+    "tema": "gameplay",
+    "gancho": "pergunta",
+    "origem": "autoral"
+   },
+   "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
+  },
+  {
+   "data": "2026-10-16",
+   "hora": "12:00",
+   "arquivo": "radar_v12_regioes_leonida.mp4",
+   "status": "postado",
+   "tema": "Radar da gringa (post gringo que mais bombou, traduzido)",
+   "formato": "gringa",
+   "legenda": "As 6 regiões de Leonida em GTA 6 🗺️ salva pra não se perder\n\n1. Vice City\n2. Leonida Keys\n3. Grassrivers\n4. Port Gellhorn\n5. Ambrosia\n6. Monte Kalaga\n\nQual você vai explorar primeiro?\n\n#gta6 #leonida #vicecity #gta6brasil #gtavi",
+   "ficha": {
+    "formato": "corte",
+    "tema": "mapa",
+    "gancho": "lista",
+    "origem": "Rockstar (site oficial)"
+   },
+   "link": "https://www.instagram.com/reel/DejyjUvD27e/",
+   "capa": "As 6 regiões de Leonida",
+   "capa_t": 1.6
+  },
+  {
+   "data": "2026-10-16",
+   "hora": "18:00",
+   "arquivo": "radar_v14_cyberleak_desistiu.mp4",
+   "status": "postado",
+   "tema": "CyberLeak desistiu dos vazamentos",
+   "formato": "corte",
+   "legenda": "O CyberLeak desistiu: os vazamentos de GTA 6 acabaram (por enquanto) 🛑\n\nDepois de dias soltando informações, a moeda dele despencou pra cerca de US$ 1,2 milhão e ele parou de vazar. Sem spoiler do final aqui.\n\nE aí, você votou 1 (a favor) ou 2 (contra os vazamentos)? Comenta!\n\n#gta6 #gtavi #gta6brasil #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vazamentos",
+    "gancho": "noticia",
+    "origem": "Mezha/Gfinity 14/10"
+   },
+   "link": "https://www.instagram.com/reel/DekbyAanDQL/",
+   "capa": "O CyberLeak desistiu"
+  },
+  {
+   "data": "2026-10-16",
+   "hora": "21:00",
+   "arquivo": "radar_v15_detalhes_trailer.mp4",
+   "status": "postado",
+   "tema": "Detalhes do trailer de lançamento",
+   "formato": "corte",
+   "legenda": "3 detalhes do trailer de lançamento de GTA 6 que quase ninguém reparou 👀\n\n🎵 A música é Flower in a Hurricane, do Justice com Tame Impala, SZA e King Gizzard\n🏝️ O trailer abre nas Keys\n⛓️ A Lucia aparece de tornozeleira: condicional?\n\nQual detalhe você não tinha visto?\n\n#gta6 #gtavi #gta6trailer #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "trailer",
+    "gancho": "curiosidade",
+    "origem": "Eurogamer via comicshoplocator 16/10"
+   },
+   "link": "https://www.instagram.com/reel/DekwckRj0_9/",
+   "capa": "3 detalhes que ninguém viu"
+  },
+  {
+   "data": "2026-10-17",
+   "hora": "12:00",
+   "arquivo": "radar_v16_rockstar_ainda_muda.mp4",
+   "status": "postado",
+   "tema": "Rockstar ainda mexendo em GTA 6",
+   "formato": "corte",
+   "legenda": "A um mês do lançamento, a Rockstar ainda está mudando coisas em GTA 6 🛠️\n\n\"O jogo nunca fica totalmente fechado\", disse Phil Hooker, diretor de tecnologia da Rockstar. E segundo Jason Schreier, da Bloomberg, os adiamentos não tiveram um grande motivo: o jogo só não estava pronto.\n\nVocê prefere um jogo bem polido ou queria ter jogado antes?\n\n#gta6 #gtavi #rockstargames #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "bastidores",
+    "gancho": "noticia",
+    "origem": "GamesRadar 16/10"
+   },
+   "link": "https://www.instagram.com/reel/DemXZASj3oQ/",
+   "capa": "A Rockstar ainda tá mudando"
+  },
+  {
+   "data": "2026-10-17",
+   "hora": "18:00",
+   "arquivo": "radar_v17_game_awards.mp4",
+   "status": "postado",
+   "tema": "GTA 6 elegível no The Game Awards",
+   "formato": "corte",
+   "legenda": "GTA 6 escapou por 1 dia de ficar fora do The Game Awards 🏆\n\nA regra diz que o jogo precisa estar à venda até 20 de novembro. GTA 6 sai no dia 19. Ou seja: pode disputar o Jogo do Ano de 2026, mas os jurados vão ter pouquíssimo tempo pra jogar.\n\nGTA 6 leva o GOTY? Comenta sim ou não 👇\n\n#gta6 #gtavi #thegameawards #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "premiacao",
+    "gancho": "enquete",
+    "origem": "Kotaku 15/10 (FAQ do The Game Awards)"
+   },
+   "link": "https://www.instagram.com/reel/DenAhZZCOCA/",
+   "capa": "Quase fora do Game Awards"
+  },
+  {
+   "data": "2026-10-17",
+   "hora": "21:00",
+   "arquivo": "radar_v18_carros_miami.mp4",
+   "status": "postado",
+   "tema": "Carros de GTA 6 nas ruas de Miami",
+   "formato": "corte",
+   "legenda": "Carros de GTA 6 estão rodando de verdade pelas ruas de Miami 🚓\n\nFãs flagraram uma Lamborghini com pintura da polícia de Vice Beach, carros com kit no estilo do jogo e placas de Vice City. Teve até dirigível com a logo e avião puxando faixa. A Rockstar não confirmou oficialmente.\n\nSe visse um na rua: tirava foto ou roubava? 👇\n\n#gta6 #gtavi #vicecity #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "marketing",
+    "gancho": "curiosidade",
+    "origem": "Push Square/GameRant 16/10 (posts de fãs)"
+   },
+   "link": "https://www.instagram.com/reel/DenVRLvAWnp/",
+   "capa": "Os carros estão em Miami"
+  },
+  {
+   "data": "2026-10-13",
+   "hora": "12:00",
+   "status": "cancelado",
+   "obs": "substitui o v6 (golpe PC), cancelado pelo Pedro por repetir tema de PC",
+   "motivo": "Pedro 13/10: 1 vídeo por dia (18h) até quinta; créditos voltam sexta 16h"
+  },
+  {
+   "data": "2026-10-15",
+   "hora": "11:30",
+   "status": "postado",
+   "arquivo": "radar_v13_trailer_lancamento.mp4",
+   "extra": "pedido urgente do Pedro 15/10 (trailer de lançamento)",
+   "legenda": "Saiu o trailer de lançamento de GTA 6 e é ação do começo ao fim 🔥\n\nPerseguição na avenida estilo Ocean Drive, Jason voando de moto, Lucia de tornozeleira eletrônica, assalto ao cofre de um banco e Lucia pulando do carro pra um avião em movimento.\n\nLança 19/11. Qual cena foi a melhor? 👇\n\n#gta6 #gta6trailer #gta6brasil #gtavi",
+   "ficha": {
+    "formato": "corte",
+    "tema": "trailer",
+    "gancho": "noticia",
+    "origem": "Rockstar, trailer de lançamento 15/10"
+   },
+   "link": "https://www.instagram.com/reel/DehKLJggYHT/",
+   "capa": "Saiu o trailer final"
+  },
+  {
+   "data": "2026-10-18",
+   "hora": "12:00",
+   "arquivo": "radar_v19_letreiro_vice_city.mp4",
+   "status": "postado",
+   "tema": "Letreiro Welcome to Vice City na arena do Miami Heat",
+   "formato": "corte",
+   "legenda": "A Rockstar pagou US$ 975 mil pra escrever \"Welcome to Vice City\" no teto da arena do Miami Heat 💸\n\nSão uns 400 m² de letreiro em cima do Kaseya Center, pagos ao condado de Miami-Dade. O acordo foi revelado de madrugada numa reunião de orçamento, e tem gente dizendo que nem dá pra ver direito da rua.\n\nValeu o investimento ou foi dinheiro jogado fora? 👇\n\n#gta6 #gtavi #vicecity #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "marketing",
+    "gancho": "polemica",
+    "origem": "Notebookcheck 24/09 + GTAIntel (Miami-Dade)"
+   },
+   "link": "https://www.instagram.com/reel/Deo8P5CD2Ob/",
+   "capa": "US$ 975 mil num letreiro"
+  },
+  {
+   "data": "2026-10-18",
+   "hora": "18:00",
+   "arquivo": "radar_v20_narrador_trailer.mp4",
+   "status": "postado",
+   "tema": "Narrador do trailer: sinal de que não atrasa",
+   "formato": "corte",
+   "legenda": "GTA 6 não atrasa mais, e esse é o sinal 🎙️\n\nA voz grave que fala \"Grand Theft Auto\" no fim do trailer de lançamento é o mesmo narrador desde San Andreas, passando por GTA 4, GTA 5 e os dois Red Dead. E a Rockstar só chama ele quando o jogo está pronto. 19 de novembro é pra valer.\n\nVocê confia ou acha que ainda atrasa? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #rockstargames #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "trailer",
+    "gancho": "enquete",
+    "origem": "Kotaku 16/10"
+   },
+   "link": "https://www.instagram.com/reel/DeplZ4bk8TX/",
+   "capa": "Não atrasa mais"
+  },
+  {
+   "data": "2026-10-18",
+   "hora": "21:00",
+   "arquivo": "radar_v21_historia_red_dead.mp4",
+   "status": "postado",
+   "tema": "História de GTA 6 mais parecida com Red Dead 2",
+   "formato": "corte",
+   "legenda": "GTA 6 vai ter uma história mais parecida com Red Dead 2 do que com GTA 5 🤠\n\nJason Schreier, da Bloomberg, viu o jogo rodando na Rockstar: o centro é a relação do Jason com a Lucia, duas pessoas que realmente gostam de estar juntas, com foco em lealdade.\n\nVocê prefere assim ou sente falta do caos do GTA 5? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #reddeadredemption2 #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "historia",
+    "gancho": "enquete",
+    "origem": "Bloomberg via Notebookcheck 18/10"
+   },
+   "link": "https://www.instagram.com/reel/Dep6MPzlVqQ/",
+   "capa": "História estilo Red Dead"
+  },
+  {
+   "data": "2026-10-19",
+   "hora": "12:00",
+   "arquivo": "radar_v22_activision_maiores_jogos.mp4",
+   "status": "postado",
+   "tema": "Activision: GTA 6 e CoD são os maiores jogos de 2026",
+   "formato": "corte",
+   "legenda": "GTA 6 e Call of Duty são os 2 maiores jogos de 2026, segundo a própria Activision 🎮\n\n\"Sem querer ofender Zelda, mas são os dois maiores jogos do ano\", disse o diretor de marketing da Activision ao The Game Business. Modern Warfare 4 sai dia 23 de outubro, quatro semanas antes de GTA 6 (19 de novembro).\n\nVocê vai jogar os dois ou guardar o dinheiro só pro GTA 6? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #callofduty #modernwarfare4 #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "noticias",
+    "gancho": "enquete",
+    "origem": "The Game Business via Beebom 16/10"
+   },
+   "link": "https://www.instagram.com/reel/DerhBaEAqHr/",
+   "capa": "O maior jogo de 2026"
+  },
+  {
+   "data": "2026-10-19",
+   "hora": "18:00",
+   "status": "postado",
+   "arquivo": "radar_v23_falta_um_mes.mp4",
+   "tema": "Falta 1 mês pra GTA 6",
+   "formato": "corte",
+   "legenda": "GTA 6 chega daqui a exatamente 1 mês ⏳\n\n19 de novembro, no PS5 e no Xbox Series. Quem comprou digital já pode baixar a partir de 12 de novembro, uma semana antes. E no dia do lançamento ainda sai o álbum oficial com a trilha do jogo.\n\nVocê já garantiu o seu? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "noticias",
+    "gancho": "pergunta",
+    "origem": "Rockstar (pre-load 12/11) via Khel Now/Shacknews 19/10"
+   },
+   "link": "https://www.instagram.com/reel/DesKRnHFMj5/",
+   "capa": "Falta só 1 mês"
+  },
+  {
+   "data": "2026-10-19",
+   "hora": "21:00",
+   "status": "postado",
+   "arquivo": "radar_v24_julgamento_demitidos.mp4",
+   "tema": "Rockstar julgada por demitir 34 devs de GTA 6",
+   "formato": "corte",
+   "legenda": "GTA 6: a Rockstar está sendo julgada por demitir 34 desenvolvedores do jogo ⚖️\n\nO caso corre num tribunal trabalhista em Glasgow, na Escócia. A Rockstar diz que eles vazaram informações confidenciais num servidor do Discord. O sindicato IWGB diz que foram demitidos por se organizar. No julgamento, apareceu que o RH teria oferecido uma hora de folga a um informante que passava prints do grupo. A Rockstar nega ligação com o sindicato, e a audiência deve terminar em 18 de novembro, véspera do lançamento.\n\nVocê acha que a Rockstar errou? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #rockstargames #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "bastidores",
+    "gancho": "enquete",
+    "origem": "TalkEsport/The Scotsman 16/10"
+   },
+   "link": "https://www.instagram.com/reel/DeseuwKD_89/",
+   "capa": "Rockstar no tribunal"
+  },
+  {
+   "data": "2026-10-20",
+   "hora": "12:00",
+   "status": "postado",
+   "arquivo": "radar_v25_sem_online.mp4",
+   "tema": "GTA 6 chega sem modo online",
+   "formato": "corte",
+   "legenda": "GTA 6 vai chegar sem modo online 🎮\n\nA página do jogo na PlayStation Store chama GTA 6 de \"experiência para um jogador\", e a Rockstar ainda não anunciou data pro multiplayer. No GTA 5, o GTA Online chegou duas semanas depois do jogo. Agora, com um mapa muito maior, pode demorar mais.\n\nVocê vai jogar mesmo sem online? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gtaonline #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "noticias",
+    "gancho": "enquete",
+    "origem": "PS Store FAQ via Beebom; The Game Haus 19/10"
+   },
+   "link": "https://www.instagram.com/reel/DeuFyvkjU1q/",
+   "capa": "Vai chegar sem online"
+  },
+  {
+   "data": "2026-10-20",
+   "hora": "18:00",
+   "status": "postado",
+   "arquivo": "radar_v26_crimes_miami.mp4",
+   "tema": "Moradores de Miami confessavam crimes à equipe de GTA 6",
+   "formato": "corte",
+   "legenda": "GTA 6: quando a Rockstar foi pesquisar em Miami, o povo começou a confessar crimes 😳\n\nSegundo Jason Schreier, da Bloomberg, a equipe viajava pra Miami desde 2015 e quase abriu um escritório na cidade. \"Era só saberem de onde você vinha que queriam contar todo crime que já tinham feito\", contou um diretor da Rockstar: guerra de gangue, assalto à mão armada.\n\nVocê acha que isso deixa o jogo mais realista? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #vicecity #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "bastidores",
+    "gancho": "pergunta",
+    "origem": "Jason Schreier via Gameranx 20/10"
+   },
+   "link": "https://www.instagram.com/reel/Deuu91Skz6q/",
+   "capa": "Confessaram crimes pra Rockstar"
+  },
+  {
+   "data": "2026-10-20",
+   "hora": "21:00",
+   "status": "postado",
+   "arquivo": "radar_v27_furacao_clima.mp4",
+   "tema": "Furacões e o novo sistema de clima de GTA 6",
+   "formato": "corte",
+   "legenda": "GTA 6 vai ter furacão e tempestade tropical 🌀\n\nA Rockstar refez o sistema de clima: a chuva é localizada (dá pra estar no sol com temporal no bairro do lado), as nuvens andam por Leonida, as poças ficam depois da chuva e aparece até arco-íris. O vento é simulado e mexe cabelo, água e o mato do pântano. Ainda não se sabe se o furacão destrói prédio.\n\nVocê quer pegar um furacão no meio de uma fuga? Manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #leonida #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "gameplay",
+    "gancho": "pergunta",
+    "origem": "Game Informer via Dexerto 29/09"
+   },
+   "link": "https://www.instagram.com/reel/DevDjNqkdcV/",
+   "capa": "Vai ter furacão"
+  },
+  {
+   "data": "2026-10-21",
+   "hora": "12:00",
+   "status": "postado",
+   "arquivo": "radar_v28_jason_lucia_terminar.mp4",
+   "legenda": "GTA 6 vai deixar o Jason e a Lucia terminarem 💔\n\nRob Nelson, chefe da Rockstar North, confirmou: o romance é opcional. Você decide se eles viram casal ou ficam só como parceiros de crime, e a história segue do mesmo jeito. Se ignorar o parceiro, ele fica menos apegado. E tem escolha tóxica: contar ou esconder as coisas, e esconder pode dar problema maior depois.\n\nLá fora já tem gente dizendo que namorar a Lucia no jogo é traição. Jogar GTA 6 é trair? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #jasonelucia #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "bastidores",
+    "gancho": "pergunta",
+    "origem": "noticia (Rob Nelson via IGN/Insider Gaming)"
+   },
+   "tema": "Jason e Lucia podem terminar (romance opcional)",
+   "formato": "corte",
+   "link": "https://www.instagram.com/reel/DewqpXtD8qE/",
+   "capa": "Jason e Lucia vão terminar?"
+  },
+  {
+   "data": "2026-10-21",
+   "hora": "18:00",
+   "status": "postado",
+   "arquivo": "radar_v29_radios_bad_bunny.mp4",
+   "tema": "Rádios de GTA 6 (Bad Bunny, Slayer, Lana Del Rey)",
+   "formato": "corte",
+   "legenda": "GTA 6 vai ter o Bad Bunny como locutor de rádio 📻\n\nA Rockstar mostrou as 6 primeiras rádios de Leonida:\n🎶 Cocoteo FM: Bad Bunny vira o El Martillo, com reggaeton e bachata\n🤠 Back Country: Morgan Wallen e Lana Del Rey no country\n🤘 The Chamber 106.6: os caras do Slayer no metal\n✨ Flash FM: pop com a Robyn\n🎤 Dirty South Classics: rap com Trick Daddy e Trina\n🌍 AfroBank FM: amapiano com Burna Boy\n\nE pela primeira vez a rádio sai do carro: dá pra ouvir andando, no fone do celular, e tem até podcast.\n\nVai deixar o reggaeton ligado? Comenta 1 pra sim, 2 pra metal e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #badbunny #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "novidade oficial",
+    "gancho": "revelacao",
+    "origem": "Rockstar Newswire 08/10 via endgametools/ghacks"
+   },
+   "link": "https://www.instagram.com/reel/DexT2DJDFHW/",
+   "capa": "Bad Bunny na rádio",
+   "capa_t": 26.4
+  },
+  {
+   "data": "2026-10-21",
+   "hora": "21:00",
+   "status": "postado",
+   "arquivo": "radar_v30_espaco_console.mp4",
+   "tema": "Tamanho de GTA 6 (120 GB+) e pré-download",
+   "formato": "corte",
+   "legenda": "GTA 6 pode passar de 120 GB no seu console 💾 já vai liberando espaço\n\nA Rockstar ainda não divulgou o tamanho oficial, mas a estimativa da GamesRadar é de 120 a 130 GB. Pra comparar: GTA 5 no PS5 tem uns 87 GB e Red Dead 2 passa dos 105 GB.\n\n⚠️ Aquele \"arquivo de GTA 6 com 113 GB\" que tá rodando por aí é vírus.\n📥 O pré-download começa em 12 de novembro pra quem comprou digital.\n🎮 Xbox Series S de 512 GB tem só uns 364 GB livres.\n\nSeu console tem espaço pro GTA 6? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #ps5 #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "alerta/utilidade",
+    "gancho": "alerta",
+    "origem": "gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download)"
+   },
+   "link": "https://www.instagram.com/reel/DexoWsUjXNi/",
+   "capa": "Libera 120 GB",
+   "capa_t": 26.4
+  },
+  {
+   "data": "2026-10-22",
+   "hora": "12:00",
+   "status": "postado",
+   "arquivo": "radar_v31_comercial_tv_nba.mp4",
+   "tema": "Comercial de TV de GTA 6 na NBA (chuveiro cortado)",
+   "formato": "corte",
+   "legenda": "GTA 6 ganhou comercial na TV americana, e cortaram as cenas do chuveiro 📺\n\nO comercial passou na abertura da NBA, no jogo Knicks x 76ers. É o trailer de lançamento um pouco mexido: duas das três cenas da Lucia no chuveiro saíram. Mas tiro, explosão e perseguição ficaram todos lá. Alguns takes ficaram mais longos e o logo do Xbox sumiu. E ainda deve passar no jogo do Miami Heat, patrocinado por GTA 6.\n\nFaz sentido cortar o chuveiro e deixar o tiroteio? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #nba #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "noticia/polemica",
+    "gancho": "revelacao",
+    "origem": "Kotaku 21/10"
+   },
+   "capa": "Comercial na TV americana",
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DezPc0kEQ0t/"
+  },
+  {
+   "data": "2026-10-22",
+   "hora": "18:00",
+   "status": "postado",
+   "arquivo": "radar_v32_personagens.mp4",
+   "tema": "Os 8 personagens principais de GTA 6",
+   "formato": "corte",
+   "legenda": "GTA 6 tem 8 personagens principais, e cada um é mais doido que o outro 🔥\n\n🪖 Jason: serviu no exército e hoje vive de crime\n⛓️ Lucia: já foi presa na penitenciária de Leonida\n🛋️ Cal: o parceiro do Jason que faz tudo do sofá\n🏢 Boobie: saiu do crime pequeno e virou dono de imóveis, boate e estúdio\n🎤 Dre'Quan: tem uma gravadora e contratou a dupla Real Dimez\n🏦 Raul: o assaltante de banco que nunca para\n⛵ Brian: contrabandeia pela marina dele e nem suja mais as mãos\n\nAlgum deles vai trair o Jason e a Lucia? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #personagens #gta6brasil",
+   "capa": "Os 8 personagens",
+   "capa_t": 0.5,
+   "ficha": {
+    "formato": "corte",
+    "tema": "lista/personagens",
+    "gancho": "lista",
+    "origem": "site oficial da Rockstar (via Push Square)"
+   },
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Dez4k1_jEoY/"
+  },
+  {
+   "data": "2026-10-22",
+   "hora": "21:00",
+   "status": "postado",
+   "arquivo": "radar_v33_falta_trabalho.mp4",
+   "tema": "GTA 6 pode custar US$ 1 bilhão aos EUA com faltas no lançamento",
+   "formato": "corte",
+   "capa": "Vai faltar no trabalho?",
+   "capa_t": 13.8,
+   "legenda": "GTA 6 pode custar 1 bilhão de dólares pros EUA, só com gente faltando no trabalho 💸\n\n📊 José García Montalvo, professor de economia da Universidade Pompeu Fabra, calculou que 1,5 milhão de americanos vão faltar no dia 19 de novembro\n👨 A maioria são homens de 18 a 30 anos\n🏖️ Tem engenheiro que já avisou que vai tirar 5 dias de folga\n🕹️ No GTA 5, até 6% dos jovens de Los Angeles e Nova York faltaram no lançamento\n\nE você, vai faltar no trabalho ou na escola pra jogar? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "curiosidade/economia",
+    "gancho": "numero chocante",
+    "origem": "IBTimes UK (José García Montalvo, Universidade Pompeu Fabra)"
+   },
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De0NOukCfyi/"
+  },
+  {
+   "data": "2026-10-23",
+   "hora": "12:00",
+   "status": "postado",
+   "arquivo": "radar_v34_burger_shot.mp4",
+   "tema": "Burger Shot e Cluckin' Bell de verdade no ginásio do Miami Heat",
+   "formato": "corte",
+   "capa": "Burger Shot de verdade",
+   "capa_t": 0.8,
+   "legenda": "GTA 6 virou lanchonete de verdade, e o lanche custa uns R$ 150 🍔\n\n🍟 O Burger Shot e o Cluckin' Bell, os fast foods do jogo, abriram no Kaseya Center, o ginásio do Miami Heat\n💸 O combo mais simples (cheeseburger, batata e refri) sai por US$ 28,50\n🧢 Os funcionários usam boné e camisa do Burger Shot\n📻 Até os elevadores têm propaganda da Vice City FM\n🏀 Em 18 de novembro, véspera do lançamento, o Miami Heat joga com uniforme de GTA 6\n\nVocê pagaria R$ 150 num lanche do Burger Shot? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #burgershot #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "marketing/mundo real",
+    "gancho": "curiosidade + preço",
+    "origem": "GameSpot (22/10)"
+   },
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De10O6vgais/"
+  },
+  {
+   "data": "2026-10-23",
+   "hora": "18:00",
+   "status": "postado",
+   "arquivo": "radar_v35_pre_venda.mp4",
+   "tema": "GTA 6 já faturou US$ 630 milhões na pré-venda (Sensor Tower)",
+   "formato": "corte",
+   "capa": "US$ 630 milhões",
+   "capa_t": 0.8,
+   "legenda": "GTA 6 já faturou mais de US$ 600 milhões, e o jogo nem lançou 🤑\n\n📊 Segundo a Sensor Tower, são 6,45 milhões de cópias digitais vendidas na pré-venda, uns US$ 630 milhões\n🎮 PS5 domina: 74% das reservas (4,8 milhões de cópias, US$ 468 milhões)\n🟢 Xbox: 1,66 milhão de cópias e US$ 162 milhões\n🚀 A Newzoo estima até US$ 5,2 bilhões só na semana de lançamento\n\nVocê já garantiu o seu na pré-venda? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #ps5",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vendas/numeros",
+    "gancho": "numero chocante",
+    "origem": "Insider Gaming / Sensor Tower (20/10)"
+   },
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De2iVxUACb4/",
+   "obs": "publicado às 18h36 (BRT) com legenda curta, fora desta rotina"
+  },
+  {
+   "data": "2026-10-23",
+   "hora": "21:00",
+   "status": "postado",
+   "arquivo": "radar_v36_daft_punk_justice.mp4",
+   "tema": "Rumor Daft Punk em GTA 6 + trilha oficial do Justice",
+   "formato": "corte",
+   "capa": "Daft Punk em GTA 6?",
+   "capa_t": 5.8,
+   "legenda": "GTA 6 quase teve a volta do Daft Punk 🎧\n\n🤫 Segundo o perfil Has It Leaked, a Rockstar procurou o empresário da dupla com orçamento \"praticamente ilimitado\" pra um último retorno\n⚠️ É rumor: nem a Rockstar nem o Daft Punk confirmaram, e a dupla acabou em 2021\n✅ Oficial: a trilha original de GTA 6 é do Justice, outra dupla francesa\n🌀 Eles já lançaram \"Flower in a Hurricane\", com Tame Impala e SZA\n\nVocê queria ouvir Daft Punk em GTA 6? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #daftpunk #gta6brasil",
+   "ficha": {
+    "formato": "corte",
+    "tema": "musica/trilha",
+    "gancho": "rumor + oficial",
+    "origem": "Dexerto (Has It Leaked) + Shacknews (Rockstar)"
+   },
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De2xCB-lPHz/"
+  },
+  {
+   "data": "2026-10-24",
+   "hora": "12:00",
+   "status": "postado",
+   "arquivo": "radar_v37_roda_de_armas.mp4",
+   "tema": "Roda de armas quase saiu de GTA 6 (Jason Schreier na Rockstar North)",
+   "formato": "corte",
+   "capa": "Quase sem roda de armas",
+   "capa_t": 11.5,
+   "legenda": "GTA 6 quase ficou sem a roda de armas 🔫\n\n📰 Jason Schreier, da Bloomberg, visitou a Rockstar North e contou que a equipe queria um sistema igual ao de Red Dead 2: poucas armas com você e o resto guardado no carro\n🧪 Testaram bandejas, teias e até jogar sem roda nenhuma, por meses\n🔁 No fim, a roda de armas voltou\n❓ A Rockstar ainda não mostrou se o limite de armas ficou no jogo\n\nVocê prefere andar com todas as armas ou só com algumas? Comenta 1 pra todas, 2 pra algumas e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "gameplay/bastidores",
+    "gancho": "curiosidade",
+    "origem": "TechRadar (Jason Schreier/Bloomberg) 20/10"
+   },
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De4Y-b1iLlh/",
+   "obs": "substituído pelo v37b (voz Orus regravada, Pedro 24/10); Pedro apaga este Reel e o Short PNrZ7ExwJ2E à mão"
+  },
+  {
+   "data": "2026-10-24",
+   "hora": "18:00",
+   "status": "postado",
+   "arquivo": "radar_v38_cervejas.mp4",
+   "tema": "Rótulos de cerveja de GTA 6 aprovados nos EUA (Pißwasser, Patriot, No Mames Vice City)",
+   "formato": "corte",
+   "capa": "Cerveja de GTA 6 de verdade?",
+   "capa_t": 0.5,
+   "capa_embutida": true,
+   "legenda": "GTA 6 pode ganhar cerveja de verdade 🍺\n\n📄 O governo dos EUA aprovou 3 rótulos ligados ao jogo: Pißwasser, Patriot e a nova No Mames Vice City\n🏭 Quem pediu foi a Tripping Animals, cervejaria de Doral, do lado de Miami\n📅 Pißwasser aprovada em 29/9, No Mames em 9/10 e Patriot em 15/10\n⚠️ Nem a Rockstar nem a cervejaria confirmaram parceria, e ainda não tem data, preço nem onde vai vender\n\nVocê compraria uma cerveja de GTA 6? Comenta 1 pra sim, 2 pra não e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "curiosidade/marketing",
+    "gancho": "vida real",
+    "origem": "Dexerto (iGrandTheftAuto) 20/10"
+   },
+   "link": "https://www.instagram.com/reel/De5CXvGlF4f/",
+   "postado_em": "2026-10-24T20:56Z"
+  },
+  {
+   "data": "2026-10-24",
+   "hora": "19:30",
+   "status": "pendente",
+   "arquivo": "radar_v37b_roda_de_armas.mp4",
+   "tema": "Roda de armas quase saiu de GTA 6 (Jason Schreier na Rockstar North)",
+   "formato": "corte",
+   "capa": "Quase sem roda de armas",
+   "capa_t": 17.0,
+   "legenda": "GTA 6 quase ficou sem a roda de armas 🔫\n\n📰 Jason Schreier, da Bloomberg, visitou a Rockstar North e contou que a equipe queria um sistema igual ao de Red Dead 2: poucas armas com você e o resto guardado no carro\n🧪 Testaram bandejas, teias e até jogar sem roda nenhuma, por meses\n🔁 No fim, a roda de armas voltou\n❓ A Rockstar ainda não mostrou se o limite de armas ficou no jogo\n\nVocê prefere andar com todas as armas ou só com algumas? Comenta 1 pra todas, 2 pra algumas e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "gameplay/bastidores",
+    "gancho": "curiosidade",
+    "origem": "TechRadar (Jason Schreier/Bloomberg) 20/10"
+   },
+   "capa_embutida": true
+  }
+ ]
 }
