@@ -79,6 +79,28 @@ def gemini(linhas, key):
     raise RuntimeError(erro)
 
 
+def tags_faladas(audio, linhas):
+    """O Gemini as vezes le as tags de estilo em voz alta ("Excited, energetic, your backyard...", YB009 24/10):
+    a voz sai com palavras a mais e o corte das linhas desanda. O Whisper ouve o comeco e procura as tags."""
+    tags = {legenda_norm(w) for t in re.findall(r"\[([^\]]+)\]", ESTILO) for w in t.split()}
+    roteiro = {legenda_norm(w) for w in linhas[0].split()}
+    try:
+        import legenda_whisper
+        ouvidas = legenda_whisper.ouvir(audio[: int(SR * 8)], os.environ.get("LEGENDA_IDIOMA", "en"))
+    except Exception as e:
+        print("tags: whisper indisponivel (%s)" % e, file=sys.stderr)
+        return False
+    inicio = [legenda_norm(w) for w, _, _ in ouvidas[:6]]
+    falou = [w for w in inicio if w in tags - roteiro]
+    if falou:
+        print("tags faladas pelo Gemini:", falou, file=sys.stderr)
+    return bool(falou)
+
+
+def legenda_norm(w):
+    return re.sub(r"[^a-z0-9]", "", w.lower())
+
+
 def esticar(a, tempo):
     if abs(tempo - 1) < 0.01:
         return a
@@ -295,7 +317,7 @@ def main():
     motor = a.motor or ("gemini" if os.environ.get("GEMINI_API_KEY") else "kokoro")
     pedacos = None
     if motor == "gemini":
-        for tent in range(2):
+        for tent in range(3):
             try:
                 # guarda a narracao bruta: se o corte falhar, a proxima rodada nao gasta outra das 10 diarias
                 bruto = os.path.splitext(a.wav)[0] + "_bruto.wav"
@@ -304,6 +326,8 @@ def main():
                 else:
                     audio = gemini(linhas, os.environ["GEMINI_API_KEY"])
                     sf.write(bruto, audio, SR)
+                if tags_faladas(audio, linhas):  # narracao com "Excited, energetic..." no comeco: grava de novo
+                    os.remove(bruto); continue
                 audio = esticar(audio, TEMPO)
                 pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]))
             except Exception as e:
