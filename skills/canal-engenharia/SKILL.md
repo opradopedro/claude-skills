@@ -72,6 +72,9 @@ Tempo: o render em CPU leva uns 15 a 25 min por vídeo de 40 s. Cota do YouTube:
   de silêncio, segura os sibilantes (de-esser acima de 5 kHz), faz um fade depois da última palavra e normaliza em 2
   passadas (o loudnorm dinâmico realçava chiado no silêncio). `mix.conferir_audio` procura clip e estalo isolado no
   fim; se achar, `AUDIO COM PROBLEMA` e não sobe.
+- Início de frase dentro da linha (depois de `.` `?` `!`): o Whisper marca essa palavra cedo e instável, dentro da pausa
+  (o YB004 foi barrado por 0,5 s). `legenda_whisper.py` acerta essas palavras pela energia real da voz (`_ataque`) tanto
+  no ajuste quanto na conferência.
 - Rodar só a conferência: `python3 scripts/legenda_whisper.py conferir /tmp/yb/YB004.mp4 /tmp/yb/YB004_tempos.json --idioma en`.
 
 ## Painel dos canais (antes e depois de cada execução)
@@ -91,7 +94,7 @@ O Pedro acompanha, vota, pede mudanças e manda ideias em **https://claude.ai/ar
 |---|---|
 | `scripts/produce.py` | Orquestra: voz, vídeo, trilha, MP4 final e upload agendado |
 | `scripts/engine3d.html` | Motor: Three.js, luz, texturas por código, quintal com sobrado, legenda, câmera |
-| `scripts/mundos/<nome>.js` | Um mundo 3D por tema (`fossa`, `borracha`); o roteiro escolhe com `"mundo"` |
+| `scripts/mundos/<nome>.js` | Um mundo 3D por tema (`fossa`, `borracha`, `ponte` = rio em corte com pilar); o roteiro escolhe com `"mundo"` |
 | `scripts/render.py` | Chromium (swiftshader) quadro a quadro para FFmpeg, 30 fps; `--teste 1,5,9` salva JPGs |
 | `scripts/tts.py` | Gemini TTS com tempo de cada palavra; reserva Kokoro (`KOKORO_LANG=en`) |
 | `scripts/mix.py` | Voz sem música (`YB_MUSICA=1` volta a marimba), whoosh nas trocas de cena, efeitos `erro`, `certo`, `tada`, -14 LUFS |

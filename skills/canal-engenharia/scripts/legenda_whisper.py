@@ -71,6 +71,28 @@ def casar(roteiro, ouvidas):
     return out
 
 
+def _ataque(audio, t, janela=0.8):
+    """Inicio real da voz a partir de t: o Whisper marca a palavra depois de uma pausa cedo demais e de forma
+    instavel (cai no silencio). Procura o 1o quadro de 20 ms com energia de fala em [t, t + janela]."""
+    q = int(0.02 * SR)
+    if not len(audio):
+        return t
+    if "ref" not in _M or _M["ref"][0] is not audio:
+        rms = np.sqrt(np.convolve(audio.astype(np.float64) ** 2, np.ones(q) / q, mode="valid"))[::q]
+        _M["ref"] = (audio, rms, 0.12 * np.percentile(rms, 95))
+    _, rms, lim = _M["ref"]
+    i0, i1 = int(t / 0.02), min(len(rms), int((t + janela) / 0.02))
+    for i in range(i0, i1):
+        if rms[i] > lim:
+            return i * 0.02
+    return t
+
+
+def _pos_pausa(tela):
+    """Palavras que comecam frase dentro da linha (depois de . ? ! :), onde a voz faz pausa."""
+    return [i > 0 and tela[i - 1][2] == tela[i][2] and tela[i - 1][0][-1:] in ".?!:" for i in range(len(tela))]
+
+
 def _tela(tempos):
     """Lista (palavra, inicio na tela, indice do seg) na ordem do video."""
     out = []
@@ -86,8 +108,10 @@ def ajustar(wav, tempos_path, idioma, inicio=0.0):
     """Reescreve seg["w"] com os inicios ouvidos; palavras nao ouvidas ficam entre as vizinhas (pelo tamanho)."""
     tempos = json.load(open(tempos_path))
     tela = _tela(tempos)
-    ouvidas = ouvir(ler(wav, inicio), idioma)
+    au = ler(wav, inicio)
+    ouvidas = ouvir(au, idioma)
     achado = casar([w for w, _, _ in tela], ouvidas)
+    achado = [_ataque(au, a) if a is not None and pp else a for a, pp in zip(achado, _pos_pausa(tela))]
     n_ok = sum(t is not None for t in achado)
     if n_ok < 0.6 * len(tela):
         return {"ok": False, "casadas": n_ok, "total": len(tela), "motivo": "o Whisper nao reconheceu o roteiro na voz"}
@@ -122,8 +146,10 @@ def conferir(arquivo, tempos_path, idioma, tol=TOL):
     dentro do silencio anterior, entao ela so reprova se a legenda chegar mais de 0,3 s DEPOIS da voz."""
     tempos = json.load(open(tempos_path)) if isinstance(tempos_path, str) else tempos_path
     tela = _tela(tempos)
-    ouvidas = ouvir(ler(arquivo), idioma)
+    au = ler(arquivo)
+    ouvidas = ouvir(au, idioma)
     achado = casar([w for w, _, _ in tela], ouvidas)
+    achado = [_ataque(au, a) if a is not None and pp else a for a, pp in zip(achado, _pos_pausa(tela))]
     primeira = [i == 0 or tela[i - 1][2] != tela[i][2] for i in range(len(tela))]
     desvios = []
     for (w, t, _), a, p1 in zip(tela, achado, primeira):
