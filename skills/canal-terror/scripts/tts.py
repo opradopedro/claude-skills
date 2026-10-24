@@ -110,7 +110,7 @@ def tags_faladas(audio, linhas):
         if n in tags or not n:
             continue
         if j == 0 and n in roteiro[:3]:
-            return None
+            return som_antes(audio, a)
     if ini is None:  # nao achou o comeco do roteiro: so corta se o que ouviu for tag mesmo (como no engenharia)
         fim = None
         for n, a, b in ouv[:6]:
@@ -122,13 +122,37 @@ def tags_faladas(audio, linhas):
             return None
         prox = next((a for n, a, b in ouv if a >= fim and n not in tags), fim + 0.3)
     elif ini == 0:
-        return None
+        return som_antes(audio, ouv[0][1])
     else:
         fim, prox = ouv[ini - 1][2], ouv[ini][1]
     if fim - ouv[0][1] < 0.8:  # "whispering slow deep voice" dura mais de 1 s; menos que isso e respiro ou erro do Whisper
-        return None
+        return som_antes(audio, ouv[ini][1] if ini is not None else prox)
     corte = (fim + prox) / 2
     print("tags faladas pelo Gemini (%s): corto ate %.2f s" % (" ".join(w for w, a, b in ouvidas if b <= fim), corte), file=sys.stderr)
+    return corte
+
+
+def som_antes(audio, a0):
+    """Tag falada que o Whisper nem transcreve (24/10, HM007: ~1 s de sussurro, um estalo e 1,5 s de silencio antes
+    do "Si"): a 1a palavra ouvida ja e o roteiro, mas ha voz antes dela. Corta no meio do silencio que precede a fala."""
+    if a0 < 1.5:
+        return None
+    q = int(SR * 0.05)
+    n = min(len(audio), int(SR * (a0 + 1.0))) // q
+    rms = np.sqrt((audio[: n * q].reshape(n, q) ** 2).mean(1))
+    alto, mudo = rms > 0.01, rms < 0.003
+    ini = fim = None
+    for i in range(n + 1):  # silencios de 0,5 s ou mais que terminam perto da 1a palavra
+        if i < n and mudo[i]:
+            ini = i if ini is None else ini
+            continue
+        if ini is not None and (i - ini) * 0.05 >= 0.5 and a0 - 0.8 <= i * 0.05 <= a0 + 1.0 and alto[:ini].any():
+            fim = (ini, i)
+        ini = None
+    if not fim:
+        return None
+    corte = (fim[0] + fim[1]) * 0.05 / 2
+    print("som antes do roteiro (tag sussurrada?): corto ate %.2f s" % corte, file=sys.stderr)
     return corte
 
 
