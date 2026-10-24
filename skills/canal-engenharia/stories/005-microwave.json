@@ -1,0 +1,39 @@
+{
+ "codigo": "YB005",
+ "mundo": "microondas",
+ "formato": "Curiosidade",
+ "titulo": "Does a microwave cook from the inside out? 🍲 #howitworks #shorts",
+ "capa": "INSIDE OUT? NOPE",
+ "descripcion": "Microwaves don't cook from the inside out. They make water molecules spin billions of times a second, and only about an inch deep.\n\nWhat should we explain next?\n\n#howitworks #microwave #science #engineering #physics #shorts",
+ "tags": ["how it works", "microwave", "microwave oven", "magnetron", "science", "physics", "engineering", "kitchen", "shorts"],
+ "lineas": [
+  {"texto": "Does your microwave really cook food from the inside out?", "pausa": 0.3},
+  {"texto": "Nope. What it actually does is way weirder.", "pausa": 0.3},
+  {"texto": "Hidden on the side, a part called a magnetron fires invisible waves into the box.", "pausa": 0.3},
+  {"texto": "They bounce off the metal walls, back and forth, straight through your food.", "pausa": 0.3},
+  {"texto": "Every water molecule has a positive end and a negative end, so it lines up with the wave.", "pausa": 0.3},
+  {"texto": "But the wave flips direction billions of times a second, so the water keeps spinning back and forth.", "pausa": 0.3},
+  {"texto": "All that spinning and bumping is heat.", "pausa": 0.3},
+  {"texto": "And the waves only reach about an inch in. The middle cooks from heat spreading inward.", "pausa": 0.3},
+  {"texto": "The holes in the door are way smaller than the waves, so they can't escape. But light can, so you can watch.", "pausa": 0.3},
+  {"texto": "Now you know. What should we explain next?", "pausa": 0.2}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "microondas", "p": {"etapa": "cozinha"}},
+  {"linea": 1, "comp": "microondas", "p": {"etapa": "abre"}},
+  {"linea": 2, "comp": "microondas", "p": {"etapa": "magnetron"}},
+  {"linea": 3, "comp": "microondas", "p": {"etapa": "ondas"}},
+  {"linea": 4, "comp": "microondas", "p": {"etapa": "molecula"}},
+  {"linea": 5, "comp": "microondas", "p": {"etapa": "gira"}},
+  {"linea": 6, "comp": "microondas", "p": {"etapa": "calor"}},
+  {"linea": 7, "comp": "microondas", "p": {"etapa": "batata"}},
+  {"linea": 8, "comp": "microondas", "p": {"etapa": "porta"}},
+  {"linea": 9, "comp": "microondas", "p": {"etapa": "final"}}
+ ],
+ "eventos": [
+  {"tipo": "erro", "linea": 1, "en": 0.1},
+  {"tipo": "certo", "linea": 6, "en": 0.6},
+  {"tipo": "tada", "linea": 8, "en": 0.85}
+ ],
+ "destaque": []
+}

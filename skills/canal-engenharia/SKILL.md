@@ -36,7 +36,7 @@ duas partes onde **não se economiza raciocínio nem tempo**:
 ## Rodar (rotina diária)
 
 ```bash
-pip install -q numpy soundfile playwright sherpa-onnx
+pip install -q numpy soundfile playwright sherpa-onnx faster-whisper
 cd skills/canal-engenharia
 python3 scripts/produce.py --proximo --subir --saida /tmp/yb
 ```
@@ -48,7 +48,7 @@ python3 scripts/produce.py --proximo --subir --saida /tmp/yb
   `/mnt/project-files/canal-engenharia/videos/`) e espere. Crie `APROVADO` só depois da aprovação escrita dele.
 - Antes do primeiro upload, rode `python3 scripts/yt_upload.py canal` e confira que o token é de
   **So You Built It** (o canal fica na mesma conta do Radar GTA VI: um token do canal errado postaria lá).
-- `FILA CHEIA`: já há 4 ou mais vídeos agendados; nada a fazer hoje.
+- `FILA CHEIA <formato>`: já há 4 ou mais vídeos daquele formato agendados; o outro formato segue normalmente.
 - `SEM ROTEIRO <formato>`: escreva o próximo (seção abaixo), confira os quadros com `--teste` e rode de novo.
   Nunca suba roteiro ou mundo novo sem ter olhado os quadros.
 
@@ -60,6 +60,19 @@ com `--subir` o script para com `VOZ FALHOU`. Sessão ligada ao computador do Pe
 produza e suba numa sessão sem dispositivo (a rotina).
 
 Tempo: o render em CPU leva uns 15 a 25 min por vídeo de 40 s. Cota do YouTube: 1.600 unidades por upload.
+
+## Conferência obrigatória antes de subir (pedidos do Pedro, 23/10)
+
+- **Legenda presa na voz:** o `tts.py` passa a narração pelo Whisper (`scripts/legenda_whisper.py`, faster-whisper
+  no CPU, grátis) e grava o início real de cada palavra em `seg["w"]`. Depois do MP4 pronto, o `produce.py` ouve o
+  arquivo final de novo e compara com a legenda: precisa reconhecer 85% das palavras e nenhuma pode escorregar
+  mais de 0,3 s (o fim do vídeo é conferido à parte). Se falhar, imprime `LEGENDA FORA DA VOZ` e **não sobe**.
+- **Áudio sem estalo:** o Gemini solta o "t" do "next?" sozinho, 0,3 s depois da palavra, tão alto quanto a voz
+  (era o "áudio estourado no final" do YB002). O `mix.py` abaixa em 18 dB toda ilha de som curta, aguda e cercada
+  de silêncio, segura os sibilantes (de-esser acima de 5 kHz), faz um fade depois da última palavra e normaliza em 2
+  passadas (o loudnorm dinâmico realçava chiado no silêncio). `mix.conferir_audio` procura clip e estalo isolado no
+  fim; se achar, `AUDIO COM PROBLEMA` e não sobe.
+- Rodar só a conferência: `python3 scripts/legenda_whisper.py conferir /tmp/yb/YB004.mp4 /tmp/yb/YB004_tempos.json --idioma en`.
 
 ## Painel dos canais (antes e depois de cada execução)
 
@@ -82,6 +95,7 @@ O Pedro acompanha, vota, pede mudanças e manda ideias em **https://claude.ai/ar
 | `scripts/render.py` | Chromium (swiftshader) quadro a quadro para FFmpeg, 30 fps; `--teste 1,5,9` salva JPGs |
 | `scripts/tts.py` | Gemini TTS com tempo de cada palavra; reserva Kokoro (`KOKORO_LANG=en`) |
 | `scripts/mix.py` | Voz sem música (`YB_MUSICA=1` volta a marimba), whoosh nas trocas de cena, efeitos `erro`, `certo`, `tada`, -14 LUFS |
+| `scripts/legenda_whisper.py` | Whisper acerta e confere a legenda palavra por palavra (`ajustar`, `conferir`) |
 | `scripts/yt_upload.py` | `subir`, `publicados` (códigos YBxxx pela tag) e `canal` (de quem é o token) |
 | `scripts/comum.py` | Converte cenas e eventos do roteiro em segundos |
 

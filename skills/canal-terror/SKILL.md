@@ -35,7 +35,7 @@ duas partes onde **não se economiza raciocínio nem tempo**:
 ## Rodar (rotina diária)
 
 ```bash
-pip install -q numpy soundfile playwright sherpa-onnx
+pip install -q numpy soundfile playwright sherpa-onnx faster-whisper
 cd skills/canal-terror
 python3 scripts/produce.py --proximo --subir --saida /tmp/hm
 ```
@@ -50,6 +50,10 @@ por parte.
 - `FILA CHEIA`: já há 2 ou mais vídeos agendados no futuro; não faz nada hoje (normal, dia sim dia não).
 - `SEM ROTEIRO`: escreva a próxima série (seção abaixo), confira os quadros com `--teste` e rode de novo.
   Nunca suba sem ter olhado os quadros de um roteiro novo.
+- `LEGENDA FORA DA VOZ` / `NAO SUBIU`: pedido do Pedro (23/10, para todas as páginas): a legenda tem que
+  acompanhar o áudio. O `tts.py` acerta cada palavra com o Whisper (`scripts/legenda_whisper.py`, faster-whisper,
+  espanhol) e o `produce.py` ouve o MP4 final e compara antes de subir (85% das palavras reconhecidas, nenhuma
+  fora mais de 0,3 s). Se reprovar, veja as `piores` palavras impressas, conserte (roteiro ou corte da voz) e rode de novo.
 
 Variáveis de ambiente (só no ambiente, nunca imprimir, nunca pedir no chat):
 `GEMINI_API_KEY`, `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN_ES`.

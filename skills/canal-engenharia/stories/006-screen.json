@@ -1,0 +1,40 @@
+{
+ "codigo": "YB006",
+ "mundo": "tela",
+ "formato": "Curiosidade",
+ "titulo": "There's no white pixel on your phone 📱 #howitworks #shorts",
+ "capa": "NO WHITE PIXEL",
+ "descripcion": "Every color on your phone is just red, green and blue. And the touch? An invisible grid of wires that feels your finger steal a bit of charge.\n\nWhat should we explain next?\n\n#howitworks #smartphone #touchscreen #pixels #technology #shorts",
+ "tags": ["how it works", "touchscreen", "phone screen", "pixels", "rgb", "subpixels", "capacitive touch", "technology", "shorts"],
+ "lineas": [
+  {"texto": "Zoom into your phone screen, and you won't find a single white pixel.", "pausa": 0.3},
+  {"texto": "Every pixel is just three tiny lights. Red, green and blue.", "pausa": 0.3},
+  {"texto": "Turn on red and green together, and your brain sees yellow.", "pausa": 0.3},
+  {"texto": "All three at full power, and you see white. Every color on your screen is a mix of these three.", "pausa": 0.3},
+  {"texto": "But how does it know where your finger is?", "pausa": 0.3},
+  {"texto": "Under the glass sits an invisible grid of wires, each one holding a tiny electric charge.", "pausa": 0.3},
+  {"texto": "Your finger conducts electricity, so when it touches, it pulls away some of that charge.", "pausa": 0.3},
+  {"texto": "The phone checks which row and which column lost charge, over a hundred times a second.", "pausa": 0.3},
+  {"texto": "That's why regular gloves don't work. The fabric doesn't conduct, so the grid feels nothing.", "pausa": 0.3},
+  {"texto": "Now you know. What should we explain next?", "pausa": 0.2}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "tela", "p": {"etapa": "mesa"}},
+  {"linea": 1, "comp": "tela", "p": {"etapa": "pixel"}},
+  {"linea": 2, "comp": "tela", "p": {"etapa": "amarelo"}},
+  {"linea": 3, "comp": "tela", "p": {"etapa": "branco"}},
+  {"linea": 4, "comp": "tela", "p": {"etapa": "dedo"}},
+  {"linea": 5, "comp": "tela", "p": {"etapa": "grade"}},
+  {"linea": 6, "comp": "tela", "p": {"etapa": "rouba"}},
+  {"linea": 7, "comp": "tela", "p": {"etapa": "cruza"}},
+  {"linea": 8, "comp": "tela", "p": {"etapa": "luva"}},
+  {"linea": 9, "comp": "tela", "p": {"etapa": "final"}}
+ ],
+ "eventos": [
+  {"tipo": "certo", "linea": 3, "en": 0.25},
+  {"tipo": "certo", "linea": 7, "en": 0.3},
+  {"tipo": "erro", "linea": 8, "en": 0.35},
+  {"tipo": "tada", "linea": 9, "en": 0.05}
+ ],
+ "destaque": []
+}
