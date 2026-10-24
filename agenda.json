@@ -761,7 +761,8 @@
     "origem": "TechRadar (Jason Schreier/Bloomberg) 20/10"
    },
    "capa_embutida": true,
-   "link": "https://www.instagram.com/reel/De4Y-b1iLlh/"
+   "link": "https://www.instagram.com/reel/De4Y-b1iLlh/",
+   "obs": "substituído pelo v37b (voz Orus regravada, Pedro 24/10); Pedro apaga este Reel e o Short PNrZ7ExwJ2E à mão"
   },
   {
    "data": "2026-10-24",
@@ -780,6 +781,24 @@
     "gancho": "vida real",
     "origem": "Dexerto (iGrandTheftAuto) 20/10"
    }
+  },
+  {
+   "data": "2026-10-24",
+   "hora": "19:30",
+   "status": "pendente",
+   "arquivo": "radar_v37b_roda_de_armas.mp4",
+   "tema": "Roda de armas quase saiu de GTA 6 (Jason Schreier na Rockstar North)",
+   "formato": "corte",
+   "capa": "Quase sem roda de armas",
+   "capa_t": 17.0,
+   "legenda": "GTA 6 quase ficou sem a roda de armas 🔫\n\n📰 Jason Schreier, da Bloomberg, visitou a Rockstar North e contou que a equipe queria um sistema igual ao de Red Dead 2: poucas armas com você e o resto guardado no carro\n🧪 Testaram bandejas, teias e até jogar sem roda nenhuma, por meses\n🔁 No fim, a roda de armas voltou\n❓ A Rockstar ainda não mostrou se o limite de armas ficou no jogo\n\nVocê prefere andar com todas as armas ou só com algumas? Comenta 1 pra todas, 2 pra algumas e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "gameplay/bastidores",
+    "gancho": "curiosidade",
+    "origem": "TechRadar (Jason Schreier/Bloomberg) 20/10"
+   },
+   "capa_embutida": true
   }
  ]
 }

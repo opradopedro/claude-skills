@@ -9,16 +9,17 @@ SRC = "/home/claude/trailer/launch_crop.mp4"  # trailer oficial sem as faixas pr
 TEXT = open("roteiro.txt").read().strip()
 # (primeira palavra do trecho, [(inicio, fim, cx), ...]) em segundos do trailer
 L = "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/"
+# v37b (24/10): voz Orus regravada; trechos do trailer de lancamento trocados por clipes do banco (trailer ausente na nuvem)
 # (fonte, inicio, fim) ou (inicio, fim) do trailer de lançamento; o cx sai do enquadrar.py (rosto ou detalhe)
 SEG = [("quase ficou", [(L + "tJbzMqJGH4k_277.mp4", 0, 1.8), (L + "tJbzMqJGH4k_218.mp4", 0, 1.8)]),
        ("Jason Schreier", [(L + "tJbzMqJGH4k_069.mp4", 0, 1.8), (L + "tJbzMqJGH4k_071.mp4", 0, 1.8), (L + "tJbzMqJGH4k_073.mp4", 0, 1.8), (L + "tJbzMqJGH4k_070.mp4", 0, 1.8)]),
-       ("você anda", [(L + "tJbzMqJGH4k_175.mp4", 0, 1.8), (40.0, 41.9), (L + "tJbzMqJGH4k_176.mp4", 0, 1.8)]),
+       ("você anda", [(L + "tJbzMqJGH4k_175.mp4", 0, 1.8), (L + "tJbzMqJGH4k_184.mp4", 0, 1.9), (L + "tJbzMqJGH4k_176.mp4", 0, 1.8)]),
        ("Pra isso", [(L + "tJbzMqJGH4k_288.mp4", 0, 1.8), (L + "tJbzMqJGH4k_221.mp4", 0, 1.8), (L + "tJbzMqJGH4k_135.mp4", 0, 1.8)]),
        ("Foram meses", [(L + "tJbzMqJGH4k_380.mp4", 0, 1.8), (L + "tJbzMqJGH4k_383.mp4", 0, 1.8)]),
-       ("E no", [(L + "tJbzMqJGH4k_182.mp4", 0, 1.8), (72.0, 73.0)]),
+       ("E no", [(L + "tJbzMqJGH4k_182.mp4", 0, 1.8), (L + "tJbzMqJGH4k_181.mp4", 0, 1.0)]),
        ("A Rockstar", [(L + "tJbzMqJGH4k_216.mp4", 0, 1.8), (L + "tJbzMqJGH4k_354.mp4", 0, 1.8)]),
        ("Você prefere", [(L + "tJbzMqJGH4k_178.mp4", 0, 1.8), (L + "tJbzMqJGH4k_179.mp4", 0, 1.8), (L + "tJbzMqJGH4k_180.mp4", 0, 1.8), (L + "tJbzMqJGH4k_183.mp4", 0, 1.8)]),
-       ("Manda", [(L + "tJbzMqJGH4k_160.mp4", 0, 1.8), (L + "tJbzMqJGH4k_166.mp4", 0, 1.8), (66.5, 67.7)])]
+       ("Manda", [(L + "tJbzMqJGH4k_160.mp4", 0, 1.8), (L + "tJbzMqJGH4k_166.mp4", 0, 1.8), (L + "tJbzMqJGH4k_165.mp4", 0, 1.2)])]
 SEG = [(k, [r if isinstance(r[0], str) else (SRC,) + r for r in rs]) for k, rs in SEG]
 
 words = align("voz.mp3", TEXT, {"GTA 6": "GTA 6"})
@@ -53,7 +54,7 @@ for n, (chave, rngs) in enumerate(SEG):
                            "cx": round(cx_auto(src, round(a, 2), round(p, 2)), 3), "ss": round(a, 2)})
             t += p; a += p; d -= p
     scenes[-1]["end"] = round(t1, 3)
-FIXO = {}  # cx manual por clipe, quando o detector errar
+FIXO = {"tJbzMqJGH4k_184.mp4": 0.3}  # cx manual por clipe, quando o detector errar
 for sc in scenes:
     sc["cx"] = FIXO.get(os.path.basename(sc["src"]), sc["cx"])
 # pedaco muito curto vira parte do anterior (sem piscada)
@@ -64,7 +65,7 @@ for sc in scenes:
     else:
         limpo.append(sc)
 scenes = limpo
-cfg = {"audio": "voz.mp3", "out": "radar_v37_roda_de_armas.mp4", "font": "../../assets/fonts/Anton.ttf",
+cfg = {"audio": "voz.mp3", "out": "radar_v37b_roda_de_armas.mp4", "font": "../../assets/fonts/Anton.ttf",
        "handle": "@radar.gta6br", "scenes": scenes, "captions": chunks(words, CENSOR)}
 json.dump(cfg, open("config.json", "w"), ensure_ascii=False, indent=1)
 for s in scenes:
