@@ -24,7 +24,11 @@ _M = {}
 def modelo():
     if "m" in _M:
         return _M["m"]
-    from faster_whisper import WhisperModel
+    try:
+        from faster_whisper import WhisperModel
+    except ImportError:  # rotina antiga sem o pacote no pip install: instala aqui (a conferencia e obrigatoria)
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "faster-whisper"], check=True)
+        from faster_whisper import WhisperModel
     nome = os.environ.get("LEGENDA_MODELO", "base")
     try:
         m = WhisperModel(nome, device="cpu", compute_type="int8")
