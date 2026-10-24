@@ -1,0 +1,44 @@
+{
+ "codigo": "YB009",
+ "mundo": "piscina",
+ "formato": "Evolucao",
+ "titulo": "You built a swimming pool 🏊 #engineering #shorts",
+ "capa": "YOU BUILT A POOL",
+ "descripcion": "From a hole full of hose water to a real in-ground pool: shotcrete shell, sand filter, and the valve that stops an empty pool from floating out of the ground.\n\nWhat should we build next?\n\n#engineering #swimmingpool #howitworks #construction #shorts",
+ "tags": ["engineering", "swimming pool", "how pools are built", "pool construction", "shotcrete", "sand filter", "hydrostatic relief valve", "pool pop out", "buoyancy", "civil engineering", "how it works", "you built it", "shorts"],
+ "lineas": [
+  {"texto": "Your backyard needs somewhere to cool off.", "pausa": 0.3},
+  {"texto": "So you dig a hole and fill it with the hose. Problem solved!", "pausa": 0.3},
+  {"texto": "But by morning, the water is gone. The dirt drank it.", "pausa": 0.3},
+  {"texto": "So you build a steel cage and spray concrete over it. No more leaks!", "pausa": 0.3},
+  {"texto": "But a week later, it's green and smells like a swamp.", "pausa": 0.3},
+  {"texto": "So you add a pump that pushes the water through a sand filter, and a little chlorine.", "pausa": 0.3},
+  {"texto": "Then you drain it for winter, it rains for a week, and the whole pool pops out of the ground!", "pausa": 0.3},
+  {"texto": "An empty pool is basically a concrete boat, and the rising groundwater pushes it up.", "pausa": 0.3},
+  {"texto": "So you add a relief valve in the floor. It lets the groundwater in, instead of letting it lift the pool.", "pausa": 0.3},
+  {"texto": "Congratulations! You just built a swimming pool. What should we build next?", "pausa": 0.2}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "piscina", "p": {"etapa": "quintal"}},
+  {"linea": 1, "comp": "piscina", "p": {"etapa": "buraco"}},
+  {"linea": 2, "comp": "piscina", "p": {"etapa": "vaza", "ruim": "THE DIRT DRANK IT"}},
+  {"linea": 3, "comp": "piscina", "p": {"etapa": "concreto", "bom": "NO MORE LEAKS"}},
+  {"linea": 4, "comp": "piscina", "p": {"etapa": "verde", "ruim": "ALGAE"}},
+  {"linea": 5, "comp": "piscina", "p": {"etapa": "filtro", "bom": "CLEAN WATER"}},
+  {"linea": 6, "comp": "piscina", "p": {"etapa": "flutua", "ruim": "THE POOL FLOATS"}},
+  {"linea": 7, "comp": "piscina", "p": {"etapa": "boia"}},
+  {"linea": 8, "comp": "piscina", "p": {"etapa": "valvula", "bom": "IT STAYS PUT"}},
+  {"linea": 9, "comp": "piscina", "p": {"etapa": "final"}}
+ ],
+ "eventos": [
+  {"tipo": "certo", "linea": 1, "en": 0.78},
+  {"tipo": "erro", "linea": 2, "en": 0.15},
+  {"tipo": "certo", "linea": 3, "en": 0.78},
+  {"tipo": "erro", "linea": 4, "en": 0.2},
+  {"tipo": "certo", "linea": 5, "en": 0.85},
+  {"tipo": "erro", "linea": 6, "en": 0.72},
+  {"tipo": "certo", "linea": 8, "en": 0.6},
+  {"tipo": "tada", "linea": 9, "en": 0.05}
+ ],
+ "destaque": ["problem", "gone", "concrete", "leaks", "green", "filter", "chlorine", "pops", "boat", "groundwater", "valve", "pool"]
+}
