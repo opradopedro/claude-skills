@@ -40,7 +40,7 @@ for i, (f, r) in enumerate(zip(frases, taxas)):
     if dentro:
         marca += f"  <-- pausa longa no meio ({dentro[0][0]:.2f}-{dentro[0][1]:.2f})"
     if i < len(frases) - 1 and re.search(r"[.?!:]$", f[-1][0]):
-        if not any(abs(p[0] - fim) < 0.12 for p in pausas):
+        if not any(abs(p[0] - fim) < 0.12 for p in sil):  # qualquer silêncio detectado serve de âncora
             marca += "  <-- fim de frase fora de pausa"
     if marca:
         problemas.append(i)

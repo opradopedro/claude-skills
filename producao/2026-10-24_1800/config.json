@@ -1,0 +1,448 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v38_cervejas.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/tmp/claude-0/-home-claude/15a5bdbc-f26c-5cc4-bfe1-6ebcf791a426/scratchpad/clips/VQRLujxTm3c_018.mp4",
+   "start": 0.0,
+   "end": 1.48,
+   "layout": "full",
+   "cx": 0.467,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_152.mp4",
+   "start": 1.48,
+   "end": 3.145,
+   "layout": "full",
+   "cx": 0.37,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 3.145,
+   "end": 4.945,
+   "layout": "full",
+   "cx": 0.197,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 4.945,
+   "end": 5.745,
+   "layout": "full",
+   "cx": 0.237,
+   "ss": 25.2
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 5.745,
+   "end": 6.688,
+   "layout": "full",
+   "cx": 0.257,
+   "ss": 46.25
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_150.mp4",
+   "start": 6.688,
+   "end": 7.55,
+   "layout": "full",
+   "cx": 0.692,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_153.mp4",
+   "start": 7.55,
+   "end": 8.413,
+   "layout": "full",
+   "cx": 0.589,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_163.mp4",
+   "start": 8.413,
+   "end": 9.705,
+   "layout": "full",
+   "cx": 0.598,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_168.mp4",
+   "start": 9.705,
+   "end": 10.998,
+   "layout": "full",
+   "cx": 0.462,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_174.mp4",
+   "start": 10.998,
+   "end": 12.798,
+   "layout": "full",
+   "cx": 0.683,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 12.798,
+   "end": 14.198,
+   "layout": "full",
+   "cx": 0.528,
+   "ss": 38.3
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 14.198,
+   "end": 14.898,
+   "layout": "full",
+   "cx": 0.6,
+   "ss": 62.5
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_174.mp4",
+   "start": 14.898,
+   "end": 15.385,
+   "layout": "full",
+   "cx": 0.662,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_147.mp4",
+   "start": 15.385,
+   "end": 17.185,
+   "layout": "full",
+   "cx": 0.855,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_166.mp4",
+   "start": 17.185,
+   "end": 19.298,
+   "layout": "full",
+   "cx": 0.551,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_216.mp4",
+   "start": 19.298,
+   "end": 21.037,
+   "layout": "full",
+   "cx": 0.386,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 21.037,
+   "end": 22.196,
+   "layout": "full",
+   "cx": 0.346,
+   "ss": 68.0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_162.mp4",
+   "start": 22.196,
+   "end": 23.934,
+   "layout": "full",
+   "cx": 0.028,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_288.mp4",
+   "start": 23.934,
+   "end": 25.673,
+   "layout": "full",
+   "cx": 0.58,
+   "ss": 0
+  },
+  {
+   "src": "/tmp/claude-0/-home-claude/15a5bdbc-f26c-5cc4-bfe1-6ebcf791a426/scratchpad/clips/VQRLujxTm3c_021.mp4",
+   "start": 25.673,
+   "end": 27.623,
+   "layout": "full",
+   "cx": 0.496,
+   "ss": 0
+  },
+  {
+   "src": "/tmp/claude-0/-home-claude/15a5bdbc-f26c-5cc4-bfe1-6ebcf791a426/scratchpad/clips/VQRLujxTm3c_021.mp4",
+   "start": 27.623,
+   "end": 29.624,
+   "layout": "full",
+   "cx": 0.446,
+   "ss": 1.95
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_160.mp4",
+   "start": 29.624,
+   "end": 30.806,
+   "layout": "full",
+   "cx": 0.149,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_161.mp4",
+   "start": 30.806,
+   "end": 31.988,
+   "layout": "full",
+   "cx": 0.521,
+   "ss": 0
+  },
+  {
+   "src": "/home/claude/trailer/launch_crop.mp4",
+   "start": 31.988,
+   "end": 32.776,
+   "layout": "full",
+   "cx": 0.652,
+   "ss": 66.5
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.853,
+   "text": "AS CERVEJAS DE",
+   "hl": false
+  },
+  {
+   "start": 0.853,
+   "end": 2.218,
+   "text": "GTA 6 PODEM VIRAR",
+   "hl": true
+  },
+  {
+   "start": 2.218,
+   "end": 3.145,
+   "text": "DE VERDADE",
+   "hl": false
+  },
+  {
+   "start": 3.145,
+   "end": 3.855,
+   "text": "O GOVERNO DOS",
+   "hl": false
+  },
+  {
+   "start": 3.855,
+   "end": 5.131,
+   "text": "ESTADOS UNIDOS APROVOU",
+   "hl": false
+  },
+  {
+   "start": 5.131,
+   "end": 6.125,
+   "text": "TRÊS RÓTULOS LIGADOS",
+   "hl": false
+  },
+  {
+   "start": 6.125,
+   "end": 6.688,
+   "text": "AO JOGO",
+   "hl": false
+  },
+  {
+   "start": 6.688,
+   "end": 7.473,
+   "text": "A PISSWASSER",
+   "hl": false
+  },
+  {
+   "start": 7.473,
+   "end": 8.413,
+   "text": "A PATRIOT",
+   "hl": false
+  },
+  {
+   "start": 8.413,
+   "end": 9.302,
+   "text": "E UMA NOVA",
+   "hl": false
+  },
+  {
+   "start": 9.302,
+   "end": 10.014,
+   "text": "A NO MAMES",
+   "hl": false
+  },
+  {
+   "start": 10.014,
+   "end": 10.998,
+   "text": "VICE CITY",
+   "hl": false
+  },
+  {
+   "start": 10.998,
+   "end": 11.65,
+   "text": "QUEM PEDIU FOI",
+   "hl": false
+  },
+  {
+   "start": 11.65,
+   "end": 12.796,
+   "text": "A TRIPPING ANIMALS",
+   "hl": false
+  },
+  {
+   "start": 12.796,
+   "end": 13.747,
+   "text": "UMA CERVEJARIA DE",
+   "hl": false
+  },
+  {
+   "start": 13.747,
+   "end": 14.211,
+   "text": "DORAL",
+   "hl": false
+  },
+  {
+   "start": 14.211,
+   "end": 14.764,
+   "text": "DO LADO DE",
+   "hl": false
+  },
+  {
+   "start": 14.764,
+   "end": 15.385,
+   "text": "MIAMI",
+   "hl": false
+  },
+  {
+   "start": 15.385,
+   "end": 16.07,
+   "text": "A PISSWASSER FOI",
+   "hl": false
+  },
+  {
+   "start": 16.07,
+   "end": 17.325,
+   "text": "APROVADA EM SETEMBRO",
+   "hl": false
+  },
+  {
+   "start": 17.325,
+   "end": 18.011,
+   "text": "E A PATRIOT",
+   "hl": false
+  },
+  {
+   "start": 18.011,
+   "end": 18.559,
+   "text": "NO DIA QUINZE",
+   "hl": false
+  },
+  {
+   "start": 18.559,
+   "end": 19.298,
+   "text": "DE OUTUBRO",
+   "hl": false
+  },
+  {
+   "start": 19.298,
+   "end": 20.248,
+   "text": "MAS ATENÇÃO",
+   "hl": false
+  },
+  {
+   "start": 20.248,
+   "end": 20.867,
+   "text": "NEM A ROCKSTAR",
+   "hl": false
+  },
+  {
+   "start": 20.867,
+   "end": 21.795,
+   "text": "NEM A CERVEJARIA",
+   "hl": false
+  },
+  {
+   "start": 21.795,
+   "end": 23.094,
+   "text": "CONFIRMARAM PARCERIA",
+   "hl": false
+  },
+  {
+   "start": 23.094,
+   "end": 23.689,
+   "text": "E AINDA NÃO",
+   "hl": false
+  },
+  {
+   "start": 23.689,
+   "end": 24.134,
+   "text": "TEM DATA",
+   "hl": false
+  },
+  {
+   "start": 24.134,
+   "end": 24.431,
+   "text": "PREÇO",
+   "hl": false
+  },
+  {
+   "start": 24.431,
+   "end": 25.026,
+   "text": "NEM ONDE VAI",
+   "hl": false
+  },
+  {
+   "start": 25.026,
+   "end": 25.673,
+   "text": "VENDER",
+   "hl": false
+  },
+  {
+   "start": 25.673,
+   "end": 26.531,
+   "text": "VOCÊ COMPRARIA UMA",
+   "hl": false
+  },
+  {
+   "start": 26.531,
+   "end": 27.749,
+   "text": "CERVEJA DE GTA 6?",
+   "hl": true
+  },
+  {
+   "start": 27.749,
+   "end": 28.515,
+   "text": "COMENTA 1 PRA",
+   "hl": true
+  },
+  {
+   "start": 28.515,
+   "end": 28.828,
+   "text": "SIM",
+   "hl": false
+  },
+  {
+   "start": 28.828,
+   "end": 29.624,
+   "text": "2 PRA NÃO",
+   "hl": true
+  },
+  {
+   "start": 29.624,
+   "end": 30.175,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 30.175,
+   "end": 31.138,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 31.138,
+   "end": 31.688,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 31.688,
+   "end": 32.376,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
