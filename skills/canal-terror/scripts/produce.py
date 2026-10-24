@@ -147,12 +147,34 @@ def main():
             up["publicar_em"] = slots[k]
         json.dump(up, open(base + "_upload.json", "w"), ensure_ascii=False, indent=1)
         print("video:", base + ".mp4", flush=True)
+        if not revisar(base, "es") and a.subir:
+            sys.exit(f"NAO SUBIU {cod}: legenda fora da voz ou audio com problema (ver acima); conserte e rode de novo")
         if a.subir:
             import yt_upload
             r = yt_upload.subir(base + "_upload.json")
             ids[cod] = r["id"]
             print(f"AGENDADO {cod} https://youtu.be/{r['id']} publica em {up['publicar_em']} (UTC)", flush=True)
         guardar(cod, base, up, ids.get(cod) if a.subir else None)
+
+
+def revisar(base, idioma):
+    """Conferencia final do MP4, obrigatoria antes de subir (pedido do Pedro, 23/10): legenda acompanha a voz
+    (Whisper ouve o arquivo final) e o audio nao tem estalo nem corte."""
+    import legenda_whisper
+    ok = True
+    try:
+        rel = legenda_whisper.conferir(base + ".mp4", base + "_tempos.json", idioma)
+    except Exception as e:
+        rel = {"ok": False, "erro": str(e)[:200]}
+    print(("LEGENDA OK " if rel["ok"] else "LEGENDA FORA DA VOZ ") + json.dumps(rel, ensure_ascii=False), flush=True)
+    ok &= rel["ok"]
+    if os.path.exists(os.path.join(AQUI, "mix.py")):
+        import mix
+        if hasattr(mix, "conferir_audio"):
+            prob = mix.conferir_audio(base + ".mp4")
+            print("AUDIO OK" if not prob else "AUDIO COM PROBLEMA: " + "; ".join(prob), flush=True)
+            ok &= not prob
+    return ok
 
 
 def guardar(cod, base, up, vid):

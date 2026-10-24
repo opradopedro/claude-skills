@@ -85,11 +85,14 @@ def main():
     if a.proximo:
         agora = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         fila = [c for c, v in ja.items() if (v.get("publishAt") or "") > agora]
-        if a.subir and len(fila) >= a.fila:
-            print(f"FILA CHEIA: {len(fila)} videos ja agendados ({', '.join(sorted(fila))}); nada a fazer hoje")
-            return
+        formato_de = {carregar(f)["codigo"]: carregar(f).get("formato") for f in glob.glob(os.path.join(STORIES, "*.json"))}
         historias = []
         for formato in HORA_UTC:
+            # fila por formato: 4 Curiosidades agendadas nao podem travar a Evolucao do dia
+            ff = [c for c in fila if formato_de.get(c) == formato]
+            if a.subir and len(ff) >= a.fila:
+                print(f"FILA CHEIA {formato}: {len(ff)} ja agendados ({', '.join(sorted(ff))})", flush=True)
+                continue
             pend = [f for f in sorted(glob.glob(os.path.join(STORIES, "*.json")))
                     if carregar(f).get("formato") == formato and carregar(f)["codigo"] not in ja]
             if pend:
@@ -97,6 +100,8 @@ def main():
             else:
                 print(f"SEM ROTEIRO {formato}: escreva o proximo (ver SKILL.md)", flush=True)
         if not historias:
+            if a.subir and fila:
+                print("FILA CHEIA: nada a fazer hoje"); return
             sys.exit("SEM ROTEIRO: nenhum roteiro pendente em stories/")
     ocupados = {v["publishAt"][:13] for v in ja.values() if v.get("publishAt")}
     for historia in historias:
@@ -115,12 +120,34 @@ def main():
             ocupados.add(up["publicar_em"][:13])
         json.dump(up, open(base + "_upload.json", "w"), ensure_ascii=False, indent=1)
         print("video:", base + ".mp4", flush=True)
+        if not revisar(base, "en") and a.subir:
+            sys.exit(f"NAO SUBIU {cod}: legenda fora da voz ou audio com problema (ver acima); conserte e rode de novo")
         vid = None
         if a.subir:
             import yt_upload
             vid = yt_upload.subir(base + "_upload.json")["id"]
             print(f"AGENDADO {cod} https://youtu.be/{vid} publica em {up['publicar_em']} (UTC)", flush=True)
         guardar(cod, base, up, vid)
+
+
+def revisar(base, idioma):
+    """Conferencia final do MP4, obrigatoria antes de subir (pedido do Pedro, 23/10): legenda acompanha a voz
+    (Whisper ouve o arquivo final) e o audio nao tem estalo nem corte."""
+    import legenda_whisper
+    ok = True
+    try:
+        rel = legenda_whisper.conferir(base + ".mp4", base + "_tempos.json", idioma)
+    except Exception as e:
+        rel = {"ok": False, "erro": str(e)[:200]}
+    print(("LEGENDA OK " if rel["ok"] else "LEGENDA FORA DA VOZ ") + json.dumps(rel, ensure_ascii=False), flush=True)
+    ok &= rel["ok"]
+    if os.path.exists(os.path.join(AQUI, "mix.py")):
+        import mix
+        if hasattr(mix, "conferir_audio"):
+            prob = mix.conferir_audio(base + ".mp4")
+            print("AUDIO OK" if not prob else "AUDIO COM PROBLEMA: " + "; ".join(prob), flush=True)
+            ok &= not prob
+    return ok
 
 
 def guardar(cod, base, up, vid):

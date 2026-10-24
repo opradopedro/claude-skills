@@ -334,6 +334,12 @@ def main():
     out.append(np.zeros(int(1.2 * SR), np.float32))
     sf.write(a.wav, np.concatenate(out), SR)
     json.dump({"dur": round(t, 3), "motor": motor, "segs": segs}, open(a.tempos, "w"), ensure_ascii=False, indent=1)
+    # legenda presa na voz de verdade (pedido do Pedro, 23/10): o Whisper ouve a narracao e acerta cada palavra
+    try:
+        import legenda_whisper
+        print("legenda:", legenda_whisper.ajustar(a.wav, a.tempos, os.environ.get("LEGENDA_IDIOMA", "es")), flush=True)
+    except Exception as e:
+        print("legenda: whisper indisponivel (%s); fica a estimativa e o produce.py confere" % e, file=sys.stderr)
     print(motor, round(t, 1), "s")
 
 

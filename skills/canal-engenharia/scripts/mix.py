@@ -63,6 +63,46 @@ def tada():  # "Congratulations!": piririm longo, subindo duas oitavas, com bril
     return 0.5 * (p + brilho * np.sin(2 * np.pi * 9 * t) ** 2)
 
 
+def limpar_voz(v, sr=SR):
+    """Tira o estalo do fim (pedido do Pedro, 23/10: "audio estourado no final" do YB002).
+    O Gemini solta o "t" de "next?" sozinho, 0,3 s depois da palavra: um chiado de 0,13 s tao alto quanto a voz.
+    Toda ilha de som curta (< 0,25 s), aguda (centroide > 3,5 kHz) e cercada de silencio cai 18 dB."""
+    fr = int(0.02 * sr); n = len(v) // fr
+    rms = np.sqrt((v[:n * fr].reshape(n, fr) ** 2).mean(1))
+    on = rms > max(0.01, np.percentile(rms, 95) * 0.05)
+    ilhas, i = [], 0
+    while i < n:
+        if on[i]:
+            j = i
+            while j < n and on[j]:
+                j += 1
+            ilhas.append((i, j)); i = j
+        else:
+            i += 1
+    g = np.ones(len(v))
+    for k, (a, b) in enumerate(ilhas):
+        antes = (a - ilhas[k - 1][1]) * 0.02 if k else 9
+        depois = (ilhas[k + 1][0] - b) * 0.02 if k + 1 < len(ilhas) else 9
+        seg = v[a * fr:b * fr]
+        S = np.abs(np.fft.rfft(seg)) + 1e-9; f = np.fft.rfftfreq(len(seg), 1 / sr)
+        if (b - a) * 0.02 < 0.25 and antes >= 0.15 and depois >= 0.15 and (S * f).sum() / S.sum() > 3500:
+            x0, x1 = max(0, a * fr - fr), min(len(v), b * fr + fr)
+            env = np.full(x1 - x0, 0.125); r = min(fr, (x1 - x0) // 2)
+            env[:r] = np.linspace(1, 0.125, r); env[-r:] = np.linspace(0.125, 1, r)
+            g[x0:x1] = np.minimum(g[x0:x1], env)
+    return v * g
+
+
+def deesser(v, sr=SR, corte=5000, teto=0.35):
+    """Segura os sibilantes: a faixa acima de 5 kHz nunca passa de 35% do pico da voz (janela de 10 ms)."""
+    V = np.fft.rfft(v); f = np.fft.rfftfreq(len(v), 1 / sr)
+    alto = np.fft.irfft(V * (f >= corte), len(v)); baixo = v - alto
+    w = int(0.01 * sr)
+    env = np.sqrt(np.convolve(alto ** 2, np.ones(w) / w, "same")) * 1.414
+    lim = teto * np.abs(v).max()
+    return baixo + alto * np.minimum(1, lim / np.maximum(env, 1e-9))
+
+
 def base(dur):
     """Loop de 4 compassos: baixo em semínimas e marimba sincopada, volume baixo atras da voz."""
     n = int(dur * SR); out = np.zeros(n + SR)
@@ -86,6 +126,7 @@ def main(historia, voz, tempos, saida):
     v, vsr = sf.read(voz, dtype="float32")
     v = np.interp(np.arange(int(len(v) * SR / vsr)) * vsr / SR, np.arange(len(v)), v)[:n]
     mix = np.zeros(n)
+    v = deesser(limpar_voz(v))
     mix[:len(v)] += v / max(1e-6, np.abs(v).max()) * 0.9
     t = np.arange(n) / SR
     if os.environ.get("YB_MUSICA") == "1":
@@ -99,12 +140,42 @@ def main(historia, voz, tempos, saida):
     for e in r["eventos"]:
         if e["tipo"] in fx:
             por(fx[e["tipo"]](), e["t"])
+    fim = r["segs"][-1]["t1"] + 0.25  # silencio limpo depois da ultima palavra (o tada pode soar ate o fim)
+    if not any(e["t"] > fim - 1.5 for e in r["eventos"]):
+        mix *= np.clip((fim + 0.15 - t) / 0.15, 0, 1)
     mix /= max(1.0, np.abs(mix).max() / 0.95)
     wav = os.path.splitext(saida)[0] + "_tmp.wav"
     sf.write(wav, mix.astype(np.float32), SR)
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", wav, "-af", "loudnorm=I=-14:TP=-1.5", "-c:a", "aac", "-b:a", "160k", saida], check=True)
+    # loudnorm em 2 passadas (linear): no modo dinamico ele subia o ganho nos silencios e realcava chiado no fim
+    med = subprocess.run(["ffmpeg", "-hide_banner", "-i", wav, "-af", "loudnorm=I=-14:TP=-1.5:print_format=json", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    m = json.loads(med[med.rindex("{"):med.rindex("}") + 1])
+    af = ("loudnorm=I=-14:TP=-1.5:LRA=20:linear=true:measured_I={input_i}:measured_TP={input_tp}:measured_LRA={input_lra}:"
+          "measured_thresh={input_thresh}:offset={target_offset},alimiter=limit=0.84:attack=2:release=50:level=disabled").format(**m)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", wav, "-af", af, "-ar", str(SR), "-c:a", "aac", "-b:a", "160k", saida], check=True)
     os.remove(wav)
     print("ok", saida)
+
+
+def conferir_audio(arquivo):
+    """Problemas que o ouvido do publico pega: corte digital e estalo isolado (o "audio estourado no final")."""
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", arquivo, "-vn", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+                         capture_output=True, check=True).stdout
+    x = np.frombuffer(raw, np.float32).astype(float)
+    prob = []
+    if (np.abs(x) > 0.995).sum() > 10:
+        prob.append("audio clipado (%d amostras no teto)" % int((np.abs(x) > 0.995).sum()))
+    fr = int(0.02 * SR); n = len(x) // fr
+    rms = np.sqrt((x[:n * fr].reshape(n, fr) ** 2).mean(1)); on = rms > 0.01
+    ult = np.where(on)[0]
+    if len(ult):
+        j = ult[-1] + 1; i = j
+        while i > 0 and on[i - 1]:
+            i -= 1
+        antes = i - (np.where(on[:i])[0][-1] + 1 if on[:i].any() else 0)
+        if (j - i) * 0.02 < 0.25 and antes * 0.02 >= 0.2 and np.abs(x[i * fr:j * fr]).max() > 0.3:
+            prob.append(f"estalo isolado no fim ({i * 0.02:.2f}s)")
+    return prob
 
 
 if __name__ == "__main__":

@@ -1,0 +1,39 @@
+{
+ "codigo": "YB004",
+ "mundo": "geladeira",
+ "formato": "Curiosidade",
+ "titulo": "Your fridge doesn't make cold 🧊 #howitworks #shorts",
+ "capa": "YOUR FRIDGE DOESN'T MAKE COLD",
+ "descripcion": "A fridge never makes cold. It pumps the heat out of your food and dumps it into your kitchen.\n\nWhat should we explain next?\n\n#howitworks #engineering #fridge #refrigerator #science #shorts",
+ "tags": ["how it works", "engineering", "fridge", "refrigerator", "refrigerant", "compressor", "heat pump", "science", "shorts"],
+ "lineas": [
+  {"texto": "Your fridge doesn't make cold. Not even a little bit.", "pausa": 0.3},
+  {"texto": "It pulls the heat out of your food, and dumps it into your kitchen.", "pausa": 0.3},
+  {"texto": "Here's the trick. A sealed pipe loop runs all around it, filled with a fluid called refrigerant.", "pausa": 0.3},
+  {"texto": "First, the compressor squeezes that gas. And squeezed gas gets hot. Way hotter than your kitchen.", "pausa": 0.3},
+  {"texto": "So it flows through the coils on the back, and gives that heat away to the room.", "pausa": 0.3},
+  {"texto": "Then it's forced through a tiny tube. The pressure drops, and it turns ice cold.", "pausa": 0.3},
+  {"texto": "Inside the walls, that cold fluid boils and soaks up the heat from your food.", "pausa": 0.3},
+  {"texto": "Then it goes back to the compressor, and the loop runs again and again.", "pausa": 0.3},
+  {"texto": "That's why the back of your fridge feels warm. That's your food's heat.", "pausa": 0.3},
+  {"texto": "Now you know. What should we explain next?", "pausa": 0.2}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "geladeira", "p": {"etapa": "cozinha"}},
+  {"linea": 1, "comp": "geladeira", "p": {"etapa": "calor"}},
+  {"linea": 2, "comp": "geladeira", "p": {"etapa": "circuito"}},
+  {"linea": 3, "comp": "geladeira", "p": {"etapa": "compressor"}},
+  {"linea": 4, "comp": "geladeira", "p": {"etapa": "serpentina"}},
+  {"linea": 5, "comp": "geladeira", "p": {"etapa": "valvula"}},
+  {"linea": 6, "comp": "geladeira", "p": {"etapa": "evapora"}},
+  {"linea": 7, "comp": "geladeira", "p": {"etapa": "ciclo"}},
+  {"linea": 8, "comp": "geladeira", "p": {"etapa": "atras"}},
+  {"linea": 9, "comp": "geladeira", "p": {"etapa": "final"}}
+ ],
+ "eventos": [
+  {"tipo": "erro", "linea": 0, "en": 0.45},
+  {"tipo": "certo", "linea": 6, "en": 0.5},
+  {"tipo": "tada", "linea": 8, "en": 0.7}
+ ],
+ "destaque": []
+}
