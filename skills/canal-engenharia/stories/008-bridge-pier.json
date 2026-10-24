@@ -1,0 +1,208 @@
+{
+ "codigo": "YB008",
+ "mundo": "ponte",
+ "formato": "Evolucao",
+ "titulo": "You built a bridge in a river 🌉 #engineering #shorts",
+ "capa": "YOU BUILT A BRIDGE PIER",
+ "descripcion": "How do you build a bridge pillar in the middle of a river? Cofferdam, piles to bedrock and riprap against scour, one problem at a time.\n\nWhat should we build next?\n\n#engineering #civilengineering #bridge #howitworks #shorts",
+ "tags": [
+  "engineering",
+  "civil engineering",
+  "bridge",
+  "how bridges are built",
+  "cofferdam",
+  "bridge pier",
+  "scour",
+  "riprap",
+  "how it works",
+  "you built it",
+  "shorts"
+ ],
+ "lineas": [
+  {
+   "texto": "Your road has to cross a river, and the bridge needs a pillar right in the middle.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you pour concrete straight into the water. Problem solved!",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But the current washes the wet cement away before it can harden.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you hammer steel walls around the spot and pump the water out. That's a cofferdam.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "Now you can work in the dry, right on the riverbed.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But the riverbed is soft mud, and your pier starts to sink.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you drive steel piles down through the mud, all the way to solid rock.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "Then you pull the steel walls out and let the river back in.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But water swirling around the pier digs a hole at its base. That's scour, the number one killer of bridges.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you armor the riverbed with heavy rocks, called riprap.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "Congratulations! You just built a bridge pier. What should we build next?",
+   "pausa": 0.2
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "ponte",
+   "p": {
+    "etapa": "rio"
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "ponte",
+   "p": {
+    "etapa": "despejo"
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "ponte",
+   "p": {
+    "etapa": "lavado",
+    "ruim": "WASHED AWAY"
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "ponte",
+   "p": {
+    "etapa": "ensecadeira",
+    "bom": "COFFERDAM"
+   }
+  },
+  {
+   "linea": 4,
+   "comp": "ponte",
+   "p": {
+    "etapa": "seco"
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "ponte",
+   "p": {
+    "etapa": "afunda",
+    "ruim": "SINKING"
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "ponte",
+   "p": {
+    "etapa": "estacas",
+    "bom": "SOLID ROCK"
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "ponte",
+   "p": {
+    "etapa": "remove"
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "ponte",
+   "p": {
+    "etapa": "erosao",
+    "ruim": "SCOUR"
+   }
+  },
+  {
+   "linea": 9,
+   "comp": "ponte",
+   "p": {
+    "etapa": "riprap",
+    "bom": "RIPRAP"
+   }
+  },
+  {
+   "linea": 10,
+   "comp": "ponte",
+   "p": {
+    "etapa": "final"
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "certo",
+   "linea": 1,
+   "en": 0.8
+  },
+  {
+   "tipo": "erro",
+   "linea": 2,
+   "en": 0.45
+  },
+  {
+   "tipo": "certo",
+   "linea": 3,
+   "en": 0.85
+  },
+  {
+   "tipo": "erro",
+   "linea": 5,
+   "en": 0.6
+  },
+  {
+   "tipo": "certo",
+   "linea": 6,
+   "en": 0.8
+  },
+  {
+   "tipo": "erro",
+   "linea": 8,
+   "en": 0.4
+  },
+  {
+   "tipo": "certo",
+   "linea": 9,
+   "en": 0.6
+  },
+  {
+   "tipo": "tada",
+   "linea": 10,
+   "en": 0.05
+  }
+ ],
+ "destaque": [
+  "river",
+  "concrete",
+  "current",
+  "cofferdam",
+  "dry",
+  "mud",
+  "sink",
+  "piles",
+  "rock",
+  "scour",
+  "riprap",
+  "bridge"
+ ]
+}
