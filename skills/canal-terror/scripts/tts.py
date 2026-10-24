@@ -110,7 +110,7 @@ def tags_faladas(audio, linhas):
         if n in tags or not n:
             continue
         if j == 0 and n in roteiro[:3]:
-            return None
+            return som_antes(audio, a)
     if ini is None:  # nao achou o comeco do roteiro: so corta se o que ouviu for tag mesmo (como no engenharia)
         fim = None
         for n, a, b in ouv[:6]:
@@ -122,13 +122,37 @@ def tags_faladas(audio, linhas):
             return None
         prox = next((a for n, a, b in ouv if a >= fim and n not in tags), fim + 0.3)
     elif ini == 0:
-        return None
+        return som_antes(audio, ouv[0][1])
     else:
         fim, prox = ouv[ini - 1][2], ouv[ini][1]
     if fim - ouv[0][1] < 0.8:  # "whispering slow deep voice" dura mais de 1 s; menos que isso e respiro ou erro do Whisper
-        return None
+        return som_antes(audio, ouv[ini][1] if ini is not None else prox)
     corte = (fim + prox) / 2
     print("tags faladas pelo Gemini (%s): corto ate %.2f s" % (" ".join(w for w, a, b in ouvidas if b <= fim), corte), file=sys.stderr)
+    return corte
+
+
+def som_antes(audio, a0):
+    """Tag falada que o Whisper nem transcreve (24/10, HM007: ~1 s de sussurro, um estalo e 1,5 s de silencio antes
+    do "Si"): a 1a palavra ouvida ja e o roteiro, mas ha voz antes dela. Corta no meio do silencio que precede a fala."""
+    if a0 < 1.5:
+        return None
+    q = int(SR * 0.05)
+    n = min(len(audio), int(SR * (a0 + 1.0))) // q
+    rms = np.sqrt((audio[: n * q].reshape(n, q) ** 2).mean(1))
+    alto, mudo = rms > 0.01, rms < 0.003
+    ini = fim = None
+    for i in range(n + 1):  # silencios de 0,5 s ou mais que terminam perto da 1a palavra
+        if i < n and mudo[i]:
+            ini = i if ini is None else ini
+            continue
+        if ini is not None and (i - ini) * 0.05 >= 0.5 and a0 - 0.8 <= i * 0.05 <= a0 + 1.0 and alto[:ini].any():
+            fim = (ini, i)
+        ini = None
+    if not fim:
+        return None
+    corte = (fim[0] + fim[1]) * 0.05 / 2
+    print("som antes do roteiro (tag sussurrada?): corto ate %.2f s" % corte, file=sys.stderr)
     return corte
 
 
@@ -197,6 +221,29 @@ def marcas(audio, linhas, key):
         print("marcas invalidas:", v, file=sys.stderr)
     except Exception as e:
         print("marcas falharam:", e, file=sys.stderr)
+    return None
+
+
+def marcas_whisper(audio, linhas):
+    """Reserva das marcas sem cota (24/10: o modelo de texto do Gemini deu 429 e o corte as cegas jogou
+    "ya esta aqui" na linha seguinte): o Whisper ouve tudo e cada linha comeca na 1a palavra dela que ele achou."""
+    try:
+        import legenda_whisper as L
+        n16 = int(len(audio) * L.SR / SR)
+        a16 = np.interp(np.linspace(0, len(audio) - 1, n16), np.arange(len(audio)), audio).astype(np.float32)
+        ws = [(k, w) for k, l in enumerate(linhas) for w in l.split()]
+        achado = L.casar([w for _, w in ws], L.ouvir(a16, os.environ.get("LEGENDA_IDIOMA", "es")))
+        v = []
+        for k in range(len(linhas)):
+            ts = [t for (kk, _), t in zip(ws, achado) if kk == k and t is not None]
+            if not ts:
+                return None
+            v.append(round(ts[0], 1))
+        if all(b >= a for a, b in zip(v, v[1:])):
+            print("marcas whisper:", v, file=sys.stderr)
+            return v
+    except Exception as e:
+        print("marcas whisper falharam:", e, file=sys.stderr)
     return None
 
 
@@ -366,7 +413,7 @@ def main():
                 if corte:
                     audio = audio[int(corte * SR):]
                 audio = esticar(audio, TEMPO)
-                pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]))
+                pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]) or marcas_whisper(audio, linhas))
             except Exception as e:
                 print("gemini falhou:", e, file=sys.stderr)
                 break

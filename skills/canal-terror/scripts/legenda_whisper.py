@@ -86,8 +86,12 @@ def ajustar(wav, tempos_path, idioma, inicio=0.0):
     """Reescreve seg["w"] com os inicios ouvidos; palavras nao ouvidas ficam entre as vizinhas (pelo tamanho)."""
     tempos = json.load(open(tempos_path))
     tela = _tela(tempos)
-    ouvidas = ouvir(ler(wav, inicio), idioma)
+    voz = ler(wav, inicio)
+    ouvidas = ouvir(voz, idioma)
     achado = casar([w for w, _, _ in tela], ouvidas)
+    # palavra cujo trecho ouvido engole uma pausa ("y" de 13,34 a 14,46 s, HM008): ela comeca depois da pausa
+    fins = {a: b for _, a, b in ouvidas}
+    achado = [t if t is None or t not in fins else _fim_da_pausa(voz, t, fins[t]) for t in achado]
     n_ok = sum(t is not None for t in achado)
     if n_ok < 0.6 * len(tela):
         return {"ok": False, "casadas": n_ok, "total": len(tela), "motivo": "o Whisper nao reconheceu o roteiro na voz"}
@@ -105,6 +109,9 @@ def ajustar(wav, tempos_path, idioma, inicio=0.0):
                 fim = ts[j] if j is not None else s["t1"] - 0.15
                 pesos = [len(norm(w)) + 1 for w in ws[i - 1:(j if j is not None else len(ts))]]
                 ts[i] = ts[i - 1] + (fim - ts[i - 1]) * pesos[0] / max(1, sum(pesos))
+        for i in range(len(ts)):  # palavra depois de pausa: o Whisper poe o inicio no silencio (HM007 "ya", "Y")
+            fim = ts[i + 1] if i + 1 < len(ts) else s["t1"]
+            ts[i] = _depois_do_silencio(voz, ts[i] - inicio, fim - inicio) + inicio
         for i in range(1, len(ts)):  # sempre em ordem, com pelo menos 2 quadros por palavra
             ts[i] = max(ts[i], ts[i - 1] + 0.066)
         s["w"] = [round(t, 3) for t in ts]
@@ -115,20 +122,68 @@ def ajustar(wav, tempos_path, idioma, inicio=0.0):
     return {"ok": True, "casadas": n_ok, "total": len(tela)}
 
 
-def conferir(arquivo, tempos_path, idioma, tol=TOL):
+def _inicio_voz(voz, a, t):
+    """Whisper no MP4 final (com trilha) marca palavra depois de pausa ate 1,6 s cedo, dentro do silencio (HM007, 24/10).
+    Com a voz limpa em maos: se nao ha voz entre o inicio ouvido e a legenda, a voz comeca no 1o trecho com som."""
+    if voz is None or a >= t - 0.1:
+        return a
+    q = int(SR * 0.05)
+    i0, i1 = int(a * SR), min(len(voz), int((t + 1.5) * SR))
+    mudo, ini = 0, a
+    for i in range(i0, i1 - q, q):  # o inicio ouvido pode cair no rabo da palavra anterior: vale o som depois do silencio
+        if np.sqrt((voz[i:i + q] ** 2).mean()) > 0.01:
+            if mudo >= 6:  # 0,3 s de silencio antes
+                return i / SR
+            mudo = 0
+        else:
+            mudo += 1
+    return a
+
+
+def _depois_do_silencio(voz, x, fim):
+    """Se a voz esta muda em x (0,25 s seguidos), devolve o comeco do som seguinte antes de fim; senao x."""
+    q = int(SR * 0.05)
+    mudo = lambda i: np.sqrt((voz[i:i + q] ** 2).mean()) <= 0.01 if i + q <= len(voz) else True
+    i = int(x * SR)
+    if not all(mudo(i + k * q) for k in range(5)):
+        return x
+    for j in range(i, min(len(voz), int(fim * SR)) - q, q):
+        if not mudo(j):
+            return max(x, j / SR - 0.03)
+    return x
+
+
+def _fim_da_pausa(voz, a, b):
+    """Fim (menos 30 ms) da ultima pausa de 0,3 s ou mais entre a e b; a se nao houver."""
+    q = int(SR * 0.05)
+    mudo, fim = 0, a
+    for j in range(int(a * SR), min(len(voz), int(b * SR)) - q, q):
+        if np.sqrt((voz[j:j + q] ** 2).mean()) <= 0.01:
+            mudo += 1
+        else:
+            if mudo >= 6:
+                fim = j / SR - 0.03
+            mudo = 0
+    return fim
+
+
+def conferir(arquivo, tempos_path, idioma, tol=TOL, voz=None):
     """Ouve o arquivo final e compara com a legenda.
     ok = 85% das palavras ouvidas, 90% delas a ate 0,2 s e nenhuma fora mais que tol (0,45 s).
     A 1a palavra de cada frase vem do corte da voz (que e preciso); o Whisper costuma marcar o inicio dela cedo demais,
-    dentro do silencio anterior, entao ela so reprova se a legenda chegar mais de 0,3 s DEPOIS da voz."""
+    dentro do silencio anterior, entao ela so reprova se a legenda chegar mais de 0,3 s DEPOIS da voz.
+    voz: a narracao limpa (wav, mesmo relogio do video); com ela, inicio ouvido dentro de silencio e corrigido."""
     tempos = json.load(open(tempos_path)) if isinstance(tempos_path, str) else tempos_path
     tela = _tela(tempos)
     ouvidas = ouvir(ler(arquivo), idioma)
+    voz_a = ler(voz) if voz else None
     achado = casar([w for w, _, _ in tela], ouvidas)
     primeira = [i == 0 or tela[i - 1][2] != tela[i][2] for i in range(len(tela))]
     desvios = []
     for (w, t, _), a, p1 in zip(tela, achado, primeira):
         if a is None:
             continue
+        a = _inicio_voz(voz_a, a, t)
         d = max(0.0, t - a - 0.3) if p1 else abs(t - a)
         desvios.append((d, w, a, t))
     ds = sorted(d for d, *_ in desvios)
