@@ -93,6 +93,31 @@ def limpar_voz(v, sr=SR):
     return v * g
 
 
+def cauda(v, desde, sr=SR):
+    """Depois do inicio da ultima palavra, toda ilha curta (< 0,25 s) depois de >= 0,15 s de silencio e o "t" solto
+    do "next?" e sai inteira, aguda ou nao (YB006 de 24/10 passou pelo limpar_voz e a conferencia barrou)."""
+    fr = int(0.02 * sr); n = len(v) // fr
+    rms = np.sqrt((v[:n * fr].reshape(n, fr) ** 2).mean(1))
+    on = rms > max(0.01, np.percentile(rms, 95) * 0.05)
+    i, k0, ult = int(desde / 0.02), int(desde / 0.02), None
+    g = np.ones(len(v))
+    while i < n:
+        if on[i]:
+            j = i
+            while j < n and on[j]:
+                j += 1
+            if ult is not None and (i - ult) * 0.02 >= 0.15 and (j - i) * 0.02 < 0.25 and i > k0:
+                x0, x1 = max(0, i * fr - fr), min(len(v), j * fr + fr)
+                g[x0:x1] = 0; r = min(fr // 2, x0)
+                g[x0 - r:x0] = np.linspace(1, 0, r) if r else g[x0 - r:x0]
+            else:
+                ult = j
+            i = j
+        else:
+            i += 1
+    return v * g
+
+
 def deesser(v, sr=SR, corte=5000, teto=0.35):
     """Segura os sibilantes: a faixa acima de 5 kHz nunca passa de 35% do pico da voz (janela de 10 ms)."""
     V = np.fft.rfft(v); f = np.fft.rfftfreq(len(v), 1 / sr)
@@ -126,7 +151,9 @@ def main(historia, voz, tempos, saida):
     v, vsr = sf.read(voz, dtype="float32")
     v = np.interp(np.arange(int(len(v) * SR / vsr)) * vsr / SR, np.arange(len(v)), v)[:n]
     mix = np.zeros(n)
-    v = deesser(limpar_voz(v))
+    v = limpar_voz(v)
+    ws = r["segs"][-1].get("w") or [r["segs"][-1]["t0"]]
+    v = deesser(cauda(v, ws[-1]))
     mix[:len(v)] += v / max(1e-6, np.abs(v).max()) * 0.9
     t = np.arange(n) / SR
     if os.environ.get("YB_MUSICA") == "1":
