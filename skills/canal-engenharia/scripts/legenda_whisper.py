@@ -112,20 +112,29 @@ def ajustar(wav, tempos_path, idioma, inicio=0.0):
 
 
 def conferir(arquivo, tempos_path, idioma, tol=TOL):
-    """Ouve o arquivo final e compara com a legenda. ok = 85% das palavras ouvidas e nenhuma escorregando mais que tol."""
+    """Ouve o arquivo final e compara com a legenda.
+    ok = 85% das palavras ouvidas, 90% delas a ate 0,2 s e nenhuma fora mais que tol (0,45 s).
+    A 1a palavra de cada frase vem do corte da voz (que e preciso); o Whisper costuma marcar o inicio dela cedo demais,
+    dentro do silencio anterior, entao ela so reprova se a legenda chegar mais de 0,3 s DEPOIS da voz."""
     tempos = json.load(open(tempos_path)) if isinstance(tempos_path, str) else tempos_path
     tela = _tela(tempos)
     ouvidas = ouvir(ler(arquivo), idioma)
     achado = casar([w for w, _, _ in tela], ouvidas)
-    desvios = [(abs(t - a), w, a, t) for (w, t, _), a in zip(tela, achado) if a is not None]
+    primeira = [i == 0 or tela[i - 1][2] != tela[i][2] for i in range(len(tela))]
+    desvios = []
+    for (w, t, _), a, p1 in zip(tela, achado, primeira):
+        if a is None:
+            continue
+        d = max(0.0, t - a - 0.3) if p1 else abs(t - a)
+        desvios.append((d, w, a, t))
+    ds = sorted(d for d, *_ in desvios)
     piores = sorted(desvios, reverse=True)[:5]
     casadas = len(desvios) / max(1, len(tela))
-    fim = [d for d, *_ in desvios[-6:]]  # o fim do video e onde costumava escorregar
-    ok = casadas >= 0.85 and (not desvios or piores[0][0] <= tol) and (not fim or max(fim) <= tol)
-    rel = {"ok": ok, "casadas": round(casadas, 2), "max": round(piores[0][0], 2) if piores else None,
-           "media": round(float(np.mean([d for d, *_ in desvios])), 3) if desvios else None,
-           "piores": [f"{w} tela {t:.2f}s voz {a:.2f}s" for d, w, a, t in piores]}
-    return rel
+    p90 = ds[int(0.9 * (len(ds) - 1))] if ds else 0
+    ok = casadas >= 0.85 and p90 <= 0.2 and (not ds or ds[-1] <= max(tol, 0.45))
+    return {"ok": ok, "casadas": round(casadas, 2), "p90": round(p90, 2), "max": round(ds[-1], 2) if ds else None,
+            "media": round(float(np.mean(ds)), 3) if ds else None,
+            "piores": [f"{w} tela {t:.2f}s voz {a:.2f}s" for d, w, a, t in piores]}
 
 
 def main():

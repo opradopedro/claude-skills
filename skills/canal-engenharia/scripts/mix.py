@@ -133,7 +133,7 @@ def main(historia, voz, tempos, saida):
                          capture_output=True, text=True).stderr
     m = json.loads(med[med.rindex("{"):med.rindex("}") + 1])
     af = ("loudnorm=I=-14:TP=-1.5:LRA=20:linear=true:measured_I={input_i}:measured_TP={input_tp}:measured_LRA={input_lra}:"
-          "measured_thresh={input_thresh}:offset={target_offset},alimiter=limit=0.84:attack=2:release=50").format(**m)
+          "measured_thresh={input_thresh}:offset={target_offset},alimiter=limit=0.84:attack=2:release=50:level=disabled").format(**m)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", wav, "-af", af, "-ar", str(SR), "-c:a", "aac", "-b:a", "160k", saida], check=True)
     os.remove(wav)
     print("ok", saida)
