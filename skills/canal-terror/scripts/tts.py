@@ -12,7 +12,7 @@ GEMINI_TTS_VOICE (padrao Algenib, voz grave e rouca).
 Kokoro (reserva, gratis e local): sherpa-onnx + kokoro-multi-lang-v1_0, voz em_alex (sid 29) em espanhol.
 O modelo e baixado do GitHub releases para ~/.cache/hora-muerta na primeira vez (KOKORO_DIR muda o lugar).
 """
-import argparse, base64, json, os, re, subprocess, sys, tarfile, time, urllib.error, urllib.request
+import argparse, base64, difflib, json, os, re, subprocess, sys, tarfile, time, unicodedata, urllib.error, urllib.request
 import numpy as np
 import soundfile as sf
 
@@ -77,6 +77,64 @@ def gemini(linhas, key):
                 erro = f"{modelo} resposta sem audio: {e}"
                 break
     raise RuntimeError(erro)
+
+
+def tags_faladas(audio, linhas):
+    """O Gemini (3.8 flash tts, 24/10) as vezes le as tags de estilo em voz alta ("Whispering, slow, deep voice...")
+    antes do roteiro: a voz sai com palavras a mais e o corte das linhas desanda. O Whisper ouve os primeiros 8 s;
+    se o comeco nao for o roteiro, devolve o segundo onde cortar (no meio do silencio entre a ultima tag e a
+    1a palavra do roteiro). None se limpo. Porte do canal-engenharia (PR #31/#32)."""
+    tags = {legenda_norm(w) for t in re.findall(r"\[([^\]]+)\]", ESTILO) for w in t.split()}
+    roteiro = [legenda_norm(w) for w in linhas[0].split() if legenda_norm(w)]
+    try:
+        import legenda_whisper
+        trecho = audio[: int(SR * 8)]  # o Whisper quer 16 kHz
+        n16 = int(len(trecho) * legenda_whisper.SR / SR)
+        trecho = np.interp(np.linspace(0, len(trecho) - 1, n16), np.arange(len(trecho)), trecho).astype(np.float32)
+        ouvidas = legenda_whisper.ouvir(trecho, os.environ.get("LEGENDA_IDIOMA", "es"))
+    except Exception as e:
+        print("tags: whisper indisponivel (%s)" % e, file=sys.stderr)
+        return None
+    ouv = [(legenda_norm(w), a, b) for w, a, b in ouvidas]
+    # 1a palavra ouvida que comeca o roteiro (duas seguidas batendo, ou a 1a parecida): tudo antes dela e tag.
+    # Em espanhol o Whisper escreve as tags em ingles de qualquer jeito ("Güisperin"), entao nao basta casar o texto.
+    parece = lambda x, y: x == y or (len(x) > 2 and difflib.SequenceMatcher(None, x, y).ratio() >= 0.75)
+    ini = None
+    for j, (n, a, b) in enumerate(ouv[:10]):
+        if roteiro and parece(n, roteiro[0]) and (len(roteiro) < 2 or j + 1 >= len(ouv) or parece(ouv[j + 1][0], roteiro[1])):
+            ini = j
+            break
+        if roteiro and j + 1 < len(ouv) and parece(n + ouv[j + 1][0], roteiro[0]):  # "Anoche" ouvido como "A noche"
+            ini = j
+            break
+        if n in tags or not n:
+            continue
+        if j == 0 and n in roteiro[:3]:
+            return None
+    if ini is None:  # nao achou o comeco do roteiro: so corta se o que ouviu for tag mesmo (como no engenharia)
+        fim = None
+        for n, a, b in ouv[:6]:
+            if n in tags and n not in roteiro:
+                fim = b
+            elif n:
+                break
+        if fim is None:
+            return None
+        prox = next((a for n, a, b in ouv if a >= fim and n not in tags), fim + 0.3)
+    elif ini == 0:
+        return None
+    else:
+        fim, prox = ouv[ini - 1][2], ouv[ini][1]
+    if fim - ouv[0][1] < 0.8:  # "whispering slow deep voice" dura mais de 1 s; menos que isso e respiro ou erro do Whisper
+        return None
+    corte = (fim + prox) / 2
+    print("tags faladas pelo Gemini (%s): corto ate %.2f s" % (" ".join(w for w, a, b in ouvidas if b <= fim), corte), file=sys.stderr)
+    return corte
+
+
+def legenda_norm(w):
+    w = unicodedata.normalize("NFKD", w.lower())
+    return re.sub(r"[^a-z0-9]", "", "".join(c for c in w if not unicodedata.combining(c)))
 
 
 def esticar(a, tempo):
@@ -295,7 +353,7 @@ def main():
     motor = a.motor or ("gemini" if os.environ.get("GEMINI_API_KEY") else "kokoro")
     pedacos = None
     if motor == "gemini":
-        for tent in range(2):
+        for tent in range(3):
             try:
                 # guarda a narracao bruta: se o corte falhar, a proxima rodada nao gasta outra das 10 diarias
                 bruto = os.path.splitext(a.wav)[0] + "_bruto.wav"
@@ -304,6 +362,9 @@ def main():
                 else:
                     audio = gemini(linhas, os.environ["GEMINI_API_KEY"])
                     sf.write(bruto, audio, SR)
+                corte = tags_faladas(audio, linhas)  # narracao com "Whispering, slow, deep voice..." no comeco: corta fora
+                if corte:
+                    audio = audio[int(corte * SR):]
                 audio = esticar(audio, TEMPO)
                 pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]))
             except Exception as e:
