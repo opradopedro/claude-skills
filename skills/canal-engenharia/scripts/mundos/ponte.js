@@ -360,7 +360,7 @@ function overlay(t, ctx) {
   const ev = tipo => { const e = ST.eventos.find(e => e.tipo === tipo && e.t >= ctx.t0 - 0.3 && e.t < ctx.t1); return e ? clamp((t - e.t) * 3) : clamp((k - 0.55) * 3); };
   if (p.ruim) pill(W / 2, H * 0.2, p.ruim, COL.red, '#fff', 58, back(ev('erro')));
   if (p.bom) pill(W / 2, H * 0.2, p.bom, COL.green, '#fff', 58, back(ev('certo')));
-  if (S.s === 0) { rot(0, BED + 3.2, Z1, 'PILLAR GOES HERE', clamp((k - 0.5) * 4)); }
+  if (S.s === 0) { rot(0, WS + 1.9, Z1 - 1.2, 'PILLAR GOES HERE', clamp((k - 0.5) * 4)); }
   if (S.s === 2) rot(1.2, BED + 0.9, Z1, 'WET CEMENT', clamp((k - 0.2) * 4) * (1 - clamp((k - 0.9) * 8)));
   if (S.s === 4) rot(0, BED + 1.6, Z1, 'DRY RIVERBED', clamp((k - 0.35) * 4));
   if (S.s === 5) rot(-2.6, -5.4, Z1, 'SOFT MUD', clamp((k - 0.5) * 4), 'rgba(255,255,255,0.93)', COL.ink, 32);

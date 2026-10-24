@@ -72,6 +72,9 @@ Tempo: o render em CPU leva uns 15 a 25 min por vídeo de 40 s. Cota do YouTube:
   de silêncio, segura os sibilantes (de-esser acima de 5 kHz), faz um fade depois da última palavra e normaliza em 2
   passadas (o loudnorm dinâmico realçava chiado no silêncio). `mix.conferir_audio` procura clip e estalo isolado no
   fim; se achar, `AUDIO COM PROBLEMA` e não sobe.
+- Início de frase dentro da linha (depois de `.` `?` `!`): o Whisper marca essa palavra cedo e instável, dentro da pausa
+  (o YB004 foi barrado por 0,5 s). `legenda_whisper.py` acerta essas palavras pela energia real da voz (`_ataque`) tanto
+  no ajuste quanto na conferência.
 - Rodar só a conferência: `python3 scripts/legenda_whisper.py conferir /tmp/yb/YB004.mp4 /tmp/yb/YB004_tempos.json --idioma en`.
 
 ## Painel dos canais (antes e depois de cada execução)
