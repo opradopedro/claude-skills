@@ -224,6 +224,29 @@ def marcas(audio, linhas, key):
     return None
 
 
+def marcas_whisper(audio, linhas):
+    """Reserva das marcas sem cota (24/10: o modelo de texto do Gemini deu 429 e o corte as cegas jogou
+    "ya esta aqui" na linha seguinte): o Whisper ouve tudo e cada linha comeca na 1a palavra dela que ele achou."""
+    try:
+        import legenda_whisper as L
+        n16 = int(len(audio) * L.SR / SR)
+        a16 = np.interp(np.linspace(0, len(audio) - 1, n16), np.arange(len(audio)), audio).astype(np.float32)
+        ws = [(k, w) for k, l in enumerate(linhas) for w in l.split()]
+        achado = L.casar([w for _, w in ws], L.ouvir(a16, os.environ.get("LEGENDA_IDIOMA", "es")))
+        v = []
+        for k in range(len(linhas)):
+            ts = [t for (kk, _), t in zip(ws, achado) if kk == k and t is not None]
+            if not ts:
+                return None
+            v.append(round(ts[0], 1))
+        if all(b >= a for a, b in zip(v, v[1:])):
+            print("marcas whisper:", v, file=sys.stderr)
+            return v
+    except Exception as e:
+        print("marcas whisper falharam:", e, file=sys.stderr)
+    return None
+
+
 def cortar(audio, linhas, guia=None):
     """Corta o audio continuo em len(linhas) pedacos nos silencios entre as linhas.
 
@@ -390,7 +413,7 @@ def main():
                 if corte:
                     audio = audio[int(corte * SR):]
                 audio = esticar(audio, TEMPO)
-                pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]))
+                pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]) or marcas_whisper(audio, linhas))
             except Exception as e:
                 print("gemini falhou:", e, file=sys.stderr)
                 break

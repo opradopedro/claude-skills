@@ -55,8 +55,7 @@ def produzir(historia, a, base):
     run(sys.executable, f"{AQUI}/mix.py", historia, base + "_voz.wav", base + "_tempos.json", base + "_trilha.m4a")
     run("ffmpeg", "-v", "error", "-y", "-i", base + "_video.mp4", "-i", base + "_trilha.m4a", "-c:v", "libx264",
         "-crf", "26", "-preset", "slow", "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", "-shortest", base + ".mp4")
-    for s in ("_video.mp4", "_voz.wav"):
-        os.remove(base + s)
+    os.remove(base + "_video.mp4")  # a voz limpa fica para a conferencia da legenda (revisar) e sai depois
 
 
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
@@ -100,13 +99,16 @@ def main():
     if a.proximo:
         agora = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         fila = [c for c, v in ja.items() if (v.get("publishAt") or "") > agora]
-        if a.subir and len(fila) >= a.fila:
-            print(f"FILA CHEIA: {len(fila)} videos ja agendados ({', '.join(sorted(fila))}); nada a fazer hoje")
-            return
         series = {}
         for f in sorted(glob.glob(os.path.join(STORIES, "*.json"))):
             series.setdefault(serie_de(f)[0], []).append(f)
         pend = [fs for fs in series.values() if any(carregar(f)["codigo"] not in ja for f in fs)]
+        # serie pela metade (parte 1 subiu, a 2 travou numa execucao anterior) termina hoje mesmo com a fila cheia:
+        # a parte 1 promete a 2 para "manana"
+        meio = bool(pend) and any(carregar(f)["codigo"] in ja for f in pend[0])
+        if a.subir and len(fila) >= a.fila and not meio:
+            print(f"FILA CHEIA: {len(fila)} videos ja agendados ({', '.join(sorted(fila))}); nada a fazer hoje")
+            return
         if not pend:
             sys.exit("SEM ROTEIRO: todas as series de stories/ ja foram subidas; escreva uma nova (ver SKILL.md)")
         # a serie inteira de uma vez, partes em dias seguidos (a parte 1 promete a 2 para "manana")
@@ -147,7 +149,10 @@ def main():
             up["publicar_em"] = slots[k]
         json.dump(up, open(base + "_upload.json", "w"), ensure_ascii=False, indent=1)
         print("video:", base + ".mp4", flush=True)
-        if not revisar(base, "es") and a.subir:
+        ok = revisar(base, "es")
+        if os.path.exists(base + "_voz.wav"):
+            os.remove(base + "_voz.wav")
+        if not ok and a.subir:
             sys.exit(f"NAO SUBIU {cod}: legenda fora da voz ou audio com problema (ver acima); conserte e rode de novo")
         if a.subir:
             import yt_upload
@@ -163,7 +168,8 @@ def revisar(base, idioma):
     import legenda_whisper
     ok = True
     try:
-        rel = legenda_whisper.conferir(base + ".mp4", base + "_tempos.json", idioma)
+        voz = base + "_voz.wav"
+        rel = legenda_whisper.conferir(base + ".mp4", base + "_tempos.json", idioma, voz=voz if os.path.exists(voz) else None)
     except Exception as e:
         rel = {"ok": False, "erro": str(e)[:200]}
     print(("LEGENDA OK " if rel["ok"] else "LEGENDA FORA DA VOZ ") + json.dumps(rel, ensure_ascii=False), flush=True)
