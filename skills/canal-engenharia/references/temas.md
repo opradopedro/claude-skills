@@ -6,7 +6,7 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 
 - [x] Septic tank (YB001)
 - [ ] Water well (buraco, desmorona, revestimento, bomba manual, bomba elétrica, filtro)
-- [ ] Swimming pool (buraco, vaza, concreto, bomba, filtro, aquecimento)
+- [x] Swimming pool (YB009: buraco, vaza, casca projetada, algas, filtro de areia, piscina vazia boia com o lencol, valvula de alivio)
 - [ ] House foundation (casa afunda, sapata, estaca, viga baldrame, impermeabilização)
 - [ ] Retaining wall (barranco cai, muro tomba, drenagem, gabião, terra armada)
 - [x] Bridge pier in a river (YB008: concreto na água, ensecadeira, estacas até a rocha, erosão, enrocamento)
@@ -24,6 +24,8 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [ ] Dam (monte de terra, transborda, núcleo de argila, vertedouro)
 - [ ] Wood stove chimney (fumaça na casa, tubo, tiragem, chapéu)
 - [ ] Composting toilet / outhouse (buraco, cheiro, ventilação, serragem)
+- [ ] Basement that doesn't flood (pesquisa 24/10: pressão hidrostática, dreno francês interno, poço com bomba de boia e válvula de retenção; nota 17/20)
+- [ ] Road that doesn't get potholes (pesquisa 24/10: abaulamento de 4 a 6%, base drenante, gelo e degelo abre o buraco; nota 16/20)
 
 ## Curiosidade ("How does X actually work?")
 
