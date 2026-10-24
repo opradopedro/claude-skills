@@ -170,6 +170,7 @@ def main(historia, voz, tempos, saida):
     fim = r["segs"][-1]["t1"] + 0.25  # silencio limpo depois da ultima palavra (o tada pode soar ate o fim)
     if not any(e["t"] > fim - 1.5 for e in r["eventos"]):
         mix *= np.clip((fim + 0.15 - t) / 0.15, 0, 1)
+    mix = tirar_ilhas_finais(mix, desde=ws[-1])  # trava final: nada solto depois da ultima palavra
     mix /= max(1.0, np.abs(mix).max() / 0.95)
     wav = os.path.splitext(saida)[0] + "_tmp.wav"
     sf.write(wav, mix.astype(np.float32), SR)
@@ -184,26 +185,70 @@ def main(historia, voz, tempos, saida):
     print("ok", saida)
 
 
+def ilha_final(x, sr=SR, desde=0.0):
+    """Ultima ilha de som se ela for o chiado solto do fim (24/10, publico reclamou de "chiado alto no ultimo segundo"):
+    curta (< 0,3 s) e depois de >= 0,12 s de quase silencio (< -46 dB). Devolve (inicio, fim) em amostras ou None.
+    A conferencia antiga so pegava pico > 0,3 e deixou passar o "t" do YB004/YB005 (pico 0,27)."""
+    fr = int(0.02 * sr); n = len(x) // fr
+    if not n:
+        return None
+    rms = np.sqrt((x[:n * fr].reshape(n, fr) ** 2).mean(1)); on = rms > 0.005
+    ult = np.where(on)[0]
+    if not len(ult):
+        return None
+    j = ult[-1] + 1; i = j
+    while i > 0 and on[i - 1]:
+        i -= 1
+    k = i
+    while k > 0 and not on[k - 1]:
+        k -= 1
+    if k == 0 or i * 0.02 < desde or (j - i) * 0.02 >= 0.3 or (i - k) * 0.02 < 0.12:
+        return None
+    return i * fr, min(len(x), j * fr + fr)
+
+
+def tirar_ilhas_finais(x, sr=SR, desde=0.0):
+    """Zera (com rampa de 10 ms) toda ilha solta do fim, ate sobrar so a ultima palavra."""
+    x = np.array(x, dtype=float)
+    for _ in range(4):
+        il = ilha_final(x, sr, desde)
+        if not il:
+            break
+        a, b = il; r = int(0.01 * sr)
+        x[a - r:a] *= np.linspace(1, 0, r); x[a:] = 0
+    return x
+
+
 def conferir_audio(arquivo):
-    """Problemas que o ouvido do publico pega: corte digital e estalo isolado (o "audio estourado no final")."""
+    """Problemas que o ouvido do publico pega: corte digital e chiado solto no fim (o "audio estourado no final")."""
     raw = subprocess.run(["ffmpeg", "-v", "error", "-i", arquivo, "-vn", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
                          capture_output=True, check=True).stdout
     x = np.frombuffer(raw, np.float32).astype(float)
     prob = []
     if (np.abs(x) > 0.995).sum() > 10:
         prob.append("audio clipado (%d amostras no teto)" % int((np.abs(x) > 0.995).sum()))
-    fr = int(0.02 * SR); n = len(x) // fr
-    rms = np.sqrt((x[:n * fr].reshape(n, fr) ** 2).mean(1)); on = rms > 0.01
-    ult = np.where(on)[0]
-    if len(ult):
-        j = ult[-1] + 1; i = j
-        while i > 0 and on[i - 1]:
-            i -= 1
-        antes = i - (np.where(on[:i])[0][-1] + 1 if on[:i].any() else 0)
-        if (j - i) * 0.02 < 0.25 and antes * 0.02 >= 0.2 and np.abs(x[i * fr:j * fr]).max() > 0.3:
-            prob.append(f"estalo isolado no fim ({i * 0.02:.2f}s)")
+    il = ilha_final(x)
+    if il and np.abs(x[il[0]:il[1]]).max() > 0.03:
+        prob.append(f"chiado solto no fim ({il[0] / SR:.2f}s, pico {np.abs(x[il[0]:il[1]]).max():.2f})")
     return prob
 
 
+def limpar_mp4(entrada, saida):
+    """Conserta um MP4 ja pronto sem renderizar de novo: tira o chiado solto do fim e troca so a trilha (video copiado)."""
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", entrada, "-vn", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+                         capture_output=True, check=True).stdout
+    x = tirar_ilhas_finais(np.frombuffer(raw, np.float32))
+    wav = os.path.splitext(saida)[0] + "_tmp.wav"
+    sf.write(wav, x.astype(np.float32), SR)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", entrada, "-i", wav, "-map", "0:v", "-map", "1:a", "-c:v", "copy",
+                    "-c:a", "aac", "-b:a", "160k", "-ar", str(SR), "-movflags", "+faststart", saida], check=True)
+    os.remove(wav)
+    prob = conferir_audio(saida)
+    print("ok" if not prob else "AUDIO COM PROBLEMA: " + "; ".join(prob), saida)
+
+
 if __name__ == "__main__":
-    main(*sys.argv[1:5])
+    if sys.argv[1] == "limpar":  # python3 mix.py limpar video.mp4 saida.mp4
+        limpar_mp4(sys.argv[2], sys.argv[3])
+    else:
+        main(*sys.argv[1:5])
