@@ -747,7 +747,7 @@
   {
    "data": "2026-10-24",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v37_roda_de_armas.mp4",
    "tema": "Roda de armas quase saiu de GTA 6 (Jason Schreier na Rockstar North)",
    "formato": "corte",
@@ -760,7 +760,8 @@
     "gancho": "curiosidade",
     "origem": "TechRadar (Jason Schreier/Bloomberg) 20/10"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De4Y-b1iLlh/"
   }
  ]
 }

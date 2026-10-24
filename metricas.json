@@ -583,8 +583,8 @@
    "avgWatchedPct": 29.8,
    "skipRate": 46.2,
    "durationSeconds": 28,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 128.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 144.0
   },
   "h24": {
    "playCount": 165,
@@ -626,8 +626,8 @@
    "avgWatchedPct": 29.0,
    "skipRate": 43.8,
    "durationSeconds": 31,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 119.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 135.0
   },
   "h24": {
    "playCount": 159,
@@ -669,8 +669,8 @@
    "avgWatchedPct": 41.9,
    "skipRate": 31.5,
    "durationSeconds": 27,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 122.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 138.0
   },
   "h24": {
    "playCount": 150,
@@ -712,8 +712,8 @@
    "avgWatchedPct": 33.8,
    "skipRate": 29.9,
    "durationSeconds": 31,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 104.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 120.0
   },
   "h24": {
    "playCount": 178,
@@ -755,8 +755,8 @@
    "avgWatchedPct": 25.0,
    "skipRate": 65.1,
    "durationSeconds": 30,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 98.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 114.0
   },
   "h24": {
    "playCount": 130,
@@ -798,8 +798,8 @@
    "avgWatchedPct": 33.7,
    "skipRate": 45.2,
    "durationSeconds": 33,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 95.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 111.0
   },
   "h24": {
    "playCount": 148,
@@ -841,8 +841,8 @@
    "avgWatchedPct": 28.7,
    "skipRate": 37.1,
    "durationSeconds": 35,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 80.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 96.0
   },
   "h24": {
    "playCount": 136,
@@ -884,8 +884,8 @@
    "avgWatchedPct": 39.9,
    "skipRate": 43.8,
    "durationSeconds": 30,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 74.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 90.0
   },
   "h24": {
    "playCount": 146,
@@ -927,8 +927,8 @@
    "avgWatchedPct": 35.8,
    "skipRate": 44,
    "durationSeconds": 31,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 71.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 87.0
   },
   "h24": {
    "playCount": 1214,
@@ -942,6 +942,19 @@
    "durationSeconds": 31,
    "coletado": "2026-10-22T14:52Z",
    "horas": 39.0
+  },
+  "h72": {
+   "playCount": 1220,
+   "likeCount": 48,
+   "commentCount": 0,
+   "shares": 4,
+   "saves": 0,
+   "avgWatchTimeMs": 11104,
+   "avgWatchedPct": 35.8,
+   "skipRate": 44,
+   "durationSeconds": 31,
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 87.0
   }
  },
  "DewqpXtD8qE": {
@@ -957,8 +970,8 @@
    "avgWatchedPct": 38.5,
    "skipRate": 33.5,
    "durationSeconds": 37,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 56.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 72.0
   },
   "h24": {
    "playCount": 1305,
@@ -987,8 +1000,8 @@
    "avgWatchedPct": 26.5,
    "skipRate": 45.6,
    "durationSeconds": 39,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 50.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 66.0
   },
   "h24": {
    "playCount": 140,
@@ -1017,8 +1030,8 @@
    "avgWatchedPct": 28.8,
    "skipRate": 41.3,
    "durationSeconds": 39,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 47.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 63.0
   },
   "h24": {
    "playCount": 1536,
@@ -1038,17 +1051,17 @@
   "publicado": "2026-10-22T14:53:41.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 147,
+   "playCount": 148,
    "likeCount": 7,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 15320,
-   "avgWatchedPct": 43.8,
-   "skipRate": 37,
+   "avgWatchTimeMs": 15224,
+   "avgWatchedPct": 43.5,
+   "skipRate": 36.7,
    "durationSeconds": 35,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 32.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 48.0
   },
   "h24": {
    "playCount": 147,
@@ -1073,12 +1086,12 @@
    "commentCount": 0,
    "shares": 1,
    "saves": 1,
-   "avgWatchTimeMs": 16393,
-   "avgWatchedPct": 42.0,
+   "avgWatchTimeMs": 16267,
+   "avgWatchedPct": 41.71,
    "skipRate": 27.6,
    "durationSeconds": 39,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 26.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 42.0
   },
   "h24": {
    "playCount": 136,
@@ -1098,34 +1111,47 @@
   "publicado": "2026-10-22T23:53:33.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1438,
+   "playCount": 1444,
    "likeCount": 44,
    "commentCount": 1,
    "shares": 6,
    "saves": 0,
-   "avgWatchTimeMs": 13476,
-   "avgWatchedPct": 37.4,
+   "avgWatchTimeMs": 13441,
+   "avgWatchedPct": 37.34,
    "skipRate": 38.8,
    "durationSeconds": 36,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 23.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 39.0
+  },
+  "h24": {
+   "playCount": 1444,
+   "likeCount": 44,
+   "commentCount": 1,
+   "shares": 6,
+   "saves": 0,
+   "avgWatchTimeMs": 13441,
+   "avgWatchedPct": 37.34,
+   "skipRate": 38.8,
+   "durationSeconds": 36,
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 39.0
   }
  },
  "De2iVxUACb4": {
   "publicado": "2026-10-23T21:36:41.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 115,
+   "playCount": 116,
    "likeCount": 6,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 7156,
-   "avgWatchedPct": 21.7,
-   "skipRate": 57.7,
+   "avgWatchTimeMs": 7098,
+   "avgWatchedPct": 21.51,
+   "skipRate": 58.1,
    "durationSeconds": 33,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 2.0
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 17.3
   }
  },
  "De10O6vgais": {
@@ -1138,11 +1164,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 11981,
-   "avgWatchedPct": 29.2,
+   "avgWatchedPct": 29.22,
    "skipRate": 41.6,
    "durationSeconds": 41,
-   "coletado": "2026-10-23T23:36Z",
-   "horas": 8.7
+   "coletado": "2026-10-24T14:51Z",
+   "horas": 24.0
   }
  }
 }
