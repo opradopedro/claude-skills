@@ -154,6 +154,19 @@ def subir(path):
     return resp
 
 
+def apagar(video_id, token=None):
+    """Apaga um video ainda nao publicado (so privado/agendado), para refazer um upload com defeito."""
+    token = token or access_token()
+    v = get("videos", token, part="status", id=video_id)["items"]
+    if not v:
+        sys.exit(f"{video_id} nao encontrado")
+    if v[0]["status"].get("privacyStatus") == "public":
+        sys.exit(f"{video_id} ja esta publico: nao apago")
+    req = urllib.request.Request(f"{API}/videos?id={video_id}", method="DELETE", headers={"Authorization": f"Bearer {token}"})
+    urllib.request.urlopen(req).read()
+    print("apagado", video_id)
+
+
 if __name__ == "__main__":
     if sys.argv[1] == "publicados":
         print(json.dumps(publicados(), ensure_ascii=False, indent=1))
@@ -163,5 +176,7 @@ if __name__ == "__main__":
         subir(sys.argv[2])
     elif sys.argv[1] == "capa":
         print(miniatura(access_token(), sys.argv[2], sys.argv[3]).get("kind", "ok"))
+    elif sys.argv[1] == "apagar":
+        apagar(sys.argv[2])
     else:
         sys.exit(__doc__)

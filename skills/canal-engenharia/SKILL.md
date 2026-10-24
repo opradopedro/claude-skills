@@ -76,8 +76,10 @@ Tempo: o render em CPU leva uns 15 a 25 min por vídeo de 40 s. Cota do YouTube:
   (o YB004 foi barrado por 0,5 s). `legenda_whisper.py` acerta essas palavras pela energia real da voz (`_ataque`) tanto
   no ajuste quanto na conferência.
 - **Tags lidas em voz alta:** o Gemini às vezes fala as tags de estilo ("Excited, energetic, your backyard...", YB009 em 24/10), o que
-  bota palavras a mais na voz e desanda o corte das linhas. O `tts.py` ouve os primeiros segundos com o Whisper e, se ouvir as tags,
-  apaga a narração bruta e pede outra (até 3 tentativas).
+  bota palavras a mais na voz e desanda o corte das linhas. O modelo 3.8 faz isso quase sempre (YB006 e YB008 chegaram a ser
+  agendados assim). O `tts.py` ouve os primeiros segundos com o Whisper e corta o áudio no silêncio depois da última tag.
+- Vídeo agendado com defeito: `python3 scripts/yt_upload.py apagar <id>` (só apaga se ainda não estiver público) e rode o
+  `produce.py --proximo --subir` de novo; ele refaz o código que sumiu do canal e reaproveita o horário livre.
 - Rodar só a conferência: `python3 scripts/legenda_whisper.py conferir /tmp/yb/YB004.mp4 /tmp/yb/YB004_tempos.json --idioma en`.
 
 ## Painel dos canais (antes e depois de cada execução)

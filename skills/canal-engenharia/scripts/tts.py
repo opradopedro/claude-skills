@@ -80,21 +80,33 @@ def gemini(linhas, key):
 
 
 def tags_faladas(audio, linhas):
-    """O Gemini as vezes le as tags de estilo em voz alta ("Excited, energetic, your backyard...", YB009 24/10):
-    a voz sai com palavras a mais e o corte das linhas desanda. O Whisper ouve o comeco e procura as tags."""
+    """O Gemini (3.8 flash tts, 24/10) le as tags de estilo em voz alta ("Excited, energetic, your backyard..."):
+    a voz sai com palavras a mais e o corte das linhas desanda. O Whisper ouve o comeco; se ouvir as tags,
+    devolve o segundo onde cortar (no meio do silencio entre a ultima tag e a 1a palavra do roteiro). None se limpo."""
     tags = {legenda_norm(w) for t in re.findall(r"\[([^\]]+)\]", ESTILO) for w in t.split()}
     roteiro = {legenda_norm(w) for w in linhas[0].split()}
     try:
         import legenda_whisper
-        ouvidas = legenda_whisper.ouvir(audio[: int(SR * 8)], os.environ.get("LEGENDA_IDIOMA", "en"))
+        trecho = audio[: int(SR * 8)]  # o Whisper quer 16 kHz
+        n16 = int(len(trecho) * legenda_whisper.SR / SR)
+        trecho = np.interp(np.linspace(0, len(trecho) - 1, n16), np.arange(len(trecho)), trecho).astype(np.float32)
+        ouvidas = legenda_whisper.ouvir(trecho, os.environ.get("LEGENDA_IDIOMA", "en"))
     except Exception as e:
         print("tags: whisper indisponivel (%s)" % e, file=sys.stderr)
-        return False
-    inicio = [legenda_norm(w) for w, _, _ in ouvidas[:6]]
-    falou = [w for w in inicio if w in tags - roteiro]
-    if falou:
-        print("tags faladas pelo Gemini:", falou, file=sys.stderr)
-    return bool(falou)
+        return None
+    fim = None
+    for w, a, b in ouvidas[:6]:
+        n = legenda_norm(w)
+        if n in tags and n not in roteiro:
+            fim = b
+        elif n:
+            break
+    if fim is None:
+        return None
+    prox = next((a for w, a, b in ouvidas if a >= fim and legenda_norm(w) not in tags), fim + 0.3)
+    corte = (fim + prox) / 2
+    print("tags faladas pelo Gemini: corto ate %.2f s" % corte, file=sys.stderr)
+    return corte
 
 
 def legenda_norm(w):
@@ -326,8 +338,9 @@ def main():
                 else:
                     audio = gemini(linhas, os.environ["GEMINI_API_KEY"])
                     sf.write(bruto, audio, SR)
-                if tags_faladas(audio, linhas):  # narracao com "Excited, energetic..." no comeco: grava de novo
-                    os.remove(bruto); continue
+                corte = tags_faladas(audio, linhas)  # narracao com "Excited, energetic..." no comeco: corta fora
+                if corte:
+                    audio = audio[int(corte * SR):]
                 audio = esticar(audio, TEMPO)
                 pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]))
             except Exception as e:
