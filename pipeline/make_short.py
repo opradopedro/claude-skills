@@ -196,7 +196,8 @@ def main(path):
     enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
                             "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", cfg["audio"],
                             *SAIDA_VIDEO,
-                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-af", "apad", "-t", f"{dur:.2f}",
+                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{dur:.2f}",
+                            "-af", f"apad,afade=t=out:st={max(0, dur - 0.25):.2f}:d=0.25",
                             "-movflags", "+faststart", cfg["out"]], stdin=subprocess.PIPE)
     cache, i, fs = {}, 0, W * H * 3
     while True:
