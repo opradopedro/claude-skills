@@ -82,6 +82,17 @@ def _ataque(audio, t, janela=0.8):
         _M["ref"] = (audio, rms, 0.12 * np.percentile(rms, 95))
     _, rms, lim = _M["ref"]
     i0, i1 = int(t / 0.02), min(len(rms), int((t + janela) / 0.02))
+    if i0 >= len(rms):
+        return t
+    # marca caiu na cauda da palavra anterior (voz ate aqui, sem pausa logo antes): pula ate a pausa (YB008, 24/10)
+    # (pausa = 3 quadros seguidos de 20 ms sem voz; um vale de 1 quadro dentro da palavra nao conta)
+    pausa = lambda k: k >= 3 and (rms[k - 3:k] <= lim).all()
+    if not any(pausa(k) for k in range(max(3, i0 - 2), i0 + 1)):
+        k = i0
+        while k < min(i1, i0 + 30) and not pausa(k):
+            k += 1
+        if pausa(k):
+            i0 = k
     for i in range(i0, i1):
         if rms[i] > lim:
             return i * 0.02
