@@ -846,7 +846,7 @@
   {
    "data": "2026-10-25",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v41_rockstar_paga_comediante.mp4",
    "formato": "corte",
    "tema": "Rockstar patrocina episódio do Druski com Ali G pra vender GTA 6 (campanha de 5 meses)",
@@ -859,7 +859,9 @@
     "gancho": "revelacao",
     "origem": "GTA BOOM 25/10 + vídeo yHLNoTKOO4A (Druski)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De7oXfrik3d/",
+   "postado_em": "2026-10-25T21:05Z"
   }
  ]
 }
