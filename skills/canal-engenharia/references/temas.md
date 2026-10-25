@@ -15,7 +15,7 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [ ] Rainwater cistern (balde, calha, filtro de folhas, cisterna enterrada, bomba)
 - [ ] Basement (escava, inunda, parede de concreto, manta, dreno francês, bomba de recalque)
 - [ ] Fence post that doesn't lean (enterrado, apodrece, concreto, cascalho no fundo)
-- [ ] Underground bunker (buraco, teto cai, laje, ventilação, porta, filtro de ar)
+- [x] Underground bunker (YB010, ideia do Pedro no painel: Reel de 1M likes. Container esmagado, tubo corrugado, 3 pés de terra = 10 meias espessuras, entrada com curva de 90°, bomba de ar manual)
 - [ ] Driveway in a slope (lama, rampa, degraus de contenção, concreto com junta)
 - [ ] Pond with fish (buraco, vaza, manta, bomba, filtro biológico, plantas)
 - [ ] Tunnel under a river (vala, água entra, escudo, anéis de concreto)
@@ -25,6 +25,7 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [ ] Wood stove chimney (fumaça na casa, tubo, tiragem, chapéu)
 - [ ] Composting toilet / outhouse (buraco, cheiro, ventilação, serragem)
 - [ ] Basement that doesn't flood (pesquisa 24/10: pressão hidrostática, dreno francês interno, poço com bomba de boia e válvula de retenção; nota 17/20)
+- [ ] Tower crane (ideia do Pedro no painel, Reel de 92K: corda num galho, roldana, talha, contrapeso, guindaste que sobe sozinho pela torre; nota 18/20)
 - [ ] Road that doesn't get potholes (pesquisa 24/10: abaulamento de 4 a 6%, base drenante, gelo e degelo abre o buraco; nota 16/20)
 
 ## Curiosidade ("How does X actually work?")
@@ -47,4 +48,11 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [ ] How soap removes grease (micela, cabeça e cauda)
 - [ ] How a mechanical watch keeps time (mola, escape, balanço)
 - [ ] How a can opener cuts (roda dentada, lâmina giratória)
+- [ ] How a pressure cooker cooks faster (ideia do Pedro no painel: água ferve a ~120 °C sob pressão, válvula de peso; nota 17/20)
+- [ ] How a plane actually stays up (ideia do Pedro no painel: asa desvia o ar para baixo, ângulo de ataque; cuidado com o mito do "caminho mais longo"; nota 16/20)
 - [ ] How a stapler bends the staple (bigorna, ranhuras)
+
+## Pesquisa de 25/10 (Evolucao, nota curiosidade+surpresa+visual+cabe em 50 s, máx. 20)
+
+- Bunker nuclear 18 (escolhido: YB010) · Guindaste de torre 18 · Poço artesiano 17 · Porão que não alaga 17 · Fundação de casa 16 · Rua sem buraco 16 · Muro de arrimo 15 · Barragem 15
+- Fatos conferidos do YB010: terra compactada corta o gama pela metade a cada ~9 cm (3,6 pol.), 10 meias espessuras = 1/1024 (hps.org, Nuclear War Survival Skills); container só aguenta carga nos cantos, teto e paredes corrugados cedem com terra em cima (conexwest, survivalblog); entradas de abrigo com curva de 90° (relatórios DTIC de dutos com duas pernas); ventilação manual tipo Kearny Air Pump porque o abrigo esquenta e umedece com o calor do corpo.
