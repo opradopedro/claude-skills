@@ -970,8 +970,8 @@
    "avgWatchedPct": 38.39,
    "skipRate": 33.5,
    "durationSeconds": 37,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 78.0
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 81.0
   },
   "h24": {
    "playCount": 1305,
@@ -1013,8 +1013,8 @@
    "avgWatchedPct": 26.31,
    "skipRate": 46.1,
    "durationSeconds": 39,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 72.0
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 75.0
   },
   "h24": {
    "playCount": 140,
@@ -1028,6 +1028,19 @@
    "durationSeconds": 39,
    "coletado": "2026-10-22T23:51Z",
    "horas": 27.0
+  },
+  "h72": {
+   "playCount": 141,
+   "likeCount": 9,
+   "commentCount": 0,
+   "shares": 2,
+   "saves": 1,
+   "avgWatchTimeMs": 10261,
+   "avgWatchedPct": 26.31,
+   "skipRate": 46.1,
+   "durationSeconds": 39,
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 75.0
   }
  },
  "DexoWsUjXNi": {
@@ -1043,8 +1056,8 @@
    "avgWatchedPct": 28.78,
    "skipRate": 41.4,
    "durationSeconds": 39,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 69.0
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 72.0
   },
   "h24": {
    "playCount": 1536,
@@ -1058,6 +1071,19 @@
    "durationSeconds": 39,
    "coletado": "2026-10-23T14:52Z",
    "horas": 39.0
+  },
+  "h72": {
+   "playCount": 1552,
+   "likeCount": 49,
+   "commentCount": 2,
+   "shares": 13,
+   "saves": 3,
+   "avgWatchTimeMs": 11225,
+   "avgWatchedPct": 28.78,
+   "skipRate": 41.4,
+   "durationSeconds": 39,
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 72.0
   }
  },
  "DezPc0kEQ0t": {
@@ -1073,8 +1099,8 @@
    "avgWatchedPct": 43.5,
    "skipRate": 36.7,
    "durationSeconds": 35,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 54.0
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 57.0
   },
   "h24": {
    "playCount": 147,
@@ -1103,8 +1129,8 @@
    "avgWatchedPct": 41.71,
    "skipRate": 27.6,
    "durationSeconds": 39,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 48.0
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 51.0
   },
   "h24": {
    "playCount": 136,
@@ -1124,17 +1150,17 @@
   "publicado": "2026-10-22T23:53:33.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1446,
-   "likeCount": 44,
+   "playCount": 1448,
+   "likeCount": 43,
    "commentCount": 1,
    "shares": 6,
    "saves": 0,
-   "avgWatchTimeMs": 13420,
-   "avgWatchedPct": 37.28,
+   "avgWatchTimeMs": 13439,
+   "avgWatchedPct": 37.33,
    "skipRate": 38.9,
    "durationSeconds": 36,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 45.0
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 48.0
   },
   "h24": {
    "playCount": 1444,
@@ -1163,8 +1189,21 @@
    "avgWatchedPct": 21.51,
    "skipRate": 58.1,
    "durationSeconds": 33,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 23.3
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 26.3
+  },
+  "h24": {
+   "playCount": 116,
+   "likeCount": 6,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 7098,
+   "avgWatchedPct": 21.51,
+   "skipRate": 58.1,
+   "durationSeconds": 33,
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 26.3
   }
  },
  "De10O6vgais": {
@@ -1180,8 +1219,8 @@
    "avgWatchedPct": 29.22,
    "skipRate": 41.6,
    "durationSeconds": 41,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 30.0
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 33.0
   },
   "h24": {
    "playCount": 148,
@@ -1201,34 +1240,81 @@
   "publicado": "2026-10-24T14:52:58.000Z",
   "legenda": "GTA 6 quase ficou sem a roda de armas",
   "atual": {
-   "playCount": 167,
+   "playCount": 177,
    "likeCount": 7,
    "commentCount": 0,
    "shares": 1,
    "saves": 0,
-   "avgWatchTimeMs": 15043,
-   "avgWatchedPct": 42.98,
-   "skipRate": 38,
+   "avgWatchTimeMs": 15075,
+   "avgWatchedPct": 43.07,
+   "skipRate": 37.7,
    "durationSeconds": 35,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 6.0
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 9.0
   }
  },
  "De2xCB-lPHz": {
   "publicado": "2026-10-23T23:44:51.000Z",
   "legenda": "GTA 6 quase teve a volta do Daft Punk",
   "atual": {
-   "playCount": 722,
-   "likeCount": 18,
+   "playCount": 850,
+   "likeCount": 22,
    "commentCount": 0,
    "shares": 0,
    "saves": 3,
-   "avgWatchTimeMs": 9450,
-   "avgWatchedPct": 24.87,
-   "skipRate": 40.9,
+   "avgWatchTimeMs": 9815,
+   "avgWatchedPct": 25.83,
+   "skipRate": 40.3,
    "durationSeconds": 38,
-   "coletado": "2026-10-24T20:53Z",
-   "horas": 21.1
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 24.1
+  },
+  "h24": {
+   "playCount": 850,
+   "likeCount": 22,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 3,
+   "avgWatchTimeMs": 9815,
+   "avgWatchedPct": 25.83,
+   "skipRate": 40.3,
+   "durationSeconds": 38,
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 24.1
+  }
+ },
+ "De5Ng6lgFmD": {
+  "publicado": "2026-10-24T22:31:42.000Z",
+  "legenda": "GTA 6 quase ficou sem a roda de armas 🔫 (v37b)",
+  "atual": {
+   "playCount": 110,
+   "likeCount": 0,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 9480,
+   "avgWatchedPct": 26.33,
+   "skipRate": 40.2,
+   "durationSeconds": 36,
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 1.4
+  }
+ },
+ "De5CXvGlF4f": {
+  "publicado": "2026-10-24T20:54:21.000Z",
+  "legenda": "GTA 6 pode ganhar cerveja de verdade 🍺",
+  "atual": {
+   "playCount": 210,
+   "likeCount": 3,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 8816,
+   "avgWatchedPct": 27.55,
+   "skipRate": 45.7,
+   "durationSeconds": 32,
+   "coletado": "2026-10-24T23:53Z",
+   "horas": 3.0
   }
  }
 }
