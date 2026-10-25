@@ -1249,8 +1249,21 @@
    "avgWatchedPct": 43,
    "skipRate": 38,
    "durationSeconds": 35,
-   "coletado": "2026-10-25T14:52Z",
-   "horas": 24.0
+   "coletado": "2026-10-25T20:53Z",
+   "horas": 30.0
+  },
+  "h24": {
+   "playCount": 185,
+   "likeCount": 7,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 15050,
+   "avgWatchedPct": 43,
+   "skipRate": 38,
+   "durationSeconds": 35,
+   "coletado": "2026-10-25T20:53Z",
+   "horas": 30.0
   }
  },
  "De2xCB-lPHz": {
@@ -1293,45 +1306,62 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 10200,
-   "avgWatchedPct": 28.33,
+   "avgWatchedPct": 28.333333333333332,
    "skipRate": 46.7,
    "durationSeconds": 36,
-   "coletado": "2026-10-25T14:52Z",
-   "horas": 16.4
+   "coletado": "2026-10-25T20:53Z",
+   "horas": 22.4
   }
  },
  "De5CXvGlF4f": {
   "publicado": "2026-10-24T20:54:21.000Z",
   "legenda": "GTA 6 pode ganhar cerveja de verdade 🍺",
   "atual": {
-   "playCount": 1207,
-   "likeCount": 30,
+   "playCount": 1234,
+   "likeCount": 32,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 10039,
-   "avgWatchedPct": 31.37,
-   "skipRate": 41.1,
+   "avgWatchTimeMs": 10012,
+   "avgWatchedPct": 31.2875,
+   "skipRate": 41.5,
    "durationSeconds": 32,
-   "coletado": "2026-10-25T14:52Z",
-   "horas": 18.0
+   "coletado": "2026-10-25T20:53Z",
+   "horas": 24.0
   }
  },
  "De5YjsmD6Qp": {
   "publicado": "2026-10-25T00:08:11.000Z",
   "legenda": "GTA 5 e Red Dead 2 vão sair da PS Plus 2 dias antes de GTA 6",
   "atual": {
-   "playCount": 1179,
+   "playCount": 1200,
    "likeCount": 25,
    "commentCount": 0,
    "shares": 6,
    "saves": 1,
-   "avgWatchTimeMs": 9943,
-   "avgWatchedPct": 26.87,
+   "avgWatchTimeMs": 9892,
+   "avgWatchedPct": 26.735135135135135,
    "skipRate": 48.3,
    "durationSeconds": 37,
-   "coletado": "2026-10-25T14:52Z",
-   "horas": 14.7
+   "coletado": "2026-10-25T20:53Z",
+   "horas": 20.8
+  }
+ },
+ "De6_moQjxny": {
+  "publicado": "2026-10-25T15:08:38.000Z",
+  "legenda": "GTA 6 vai ter nota antes de chegar na sua mão 🎮 📰 Segundo o insider NateTheHate,",
+  "atual": {
+   "playCount": 141,
+   "likeCount": 3,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 8203,
+   "avgWatchedPct": 22.17027027027027,
+   "skipRate": 57.8,
+   "durationSeconds": 37,
+   "coletado": "2026-10-25T20:53Z",
+   "horas": 5.7
   }
  }
 }
