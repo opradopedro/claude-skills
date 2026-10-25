@@ -826,7 +826,7 @@
   {
    "data": "2026-10-25",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v40_notas_antes.mp4",
    "formato": "corte",
    "tema": "Notas de GTA 6 saem antes do lançamento (cópias pra imprensa até o fim de outubro)",
@@ -839,7 +839,9 @@
     "gancho": "enquete",
     "origem": "Notebookcheck 14/10 (NateTheHate/Insider Gaming) + precedentes GTA 5/RDR2"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De6_moQjxny/",
+   "postado_em": "2026-10-25T15:08Z"
   }
  ]
 }
