@@ -176,11 +176,37 @@ def marcas(audio, linhas, key):
     return None
 
 
+def marcas_whisper(audio, linhas):
+    """Inicio de cada linha pelo Whisper local (sem cota e sem rede): casa as palavras ouvidas com o roteiro.
+    Reserva das marcas do Gemini, que deram timeout duas vezes no YB009 (25/10)."""
+    try:
+        import legenda_whisper
+        n16 = int(len(audio) * legenda_whisper.SR / SR)
+        a16 = np.interp(np.linspace(0, len(audio) - 1, n16), np.arange(len(audio)), audio).astype(np.float32)
+        ouvidas = legenda_whisper.ouvir(a16, os.environ.get("LEGENDA_IDIOMA", "en"))
+        palavras_ = [l.split() for l in linhas]
+        ini = legenda_whisper.casar([w for p in palavras_ for w in p], ouvidas)
+        v, k = [], 0
+        for p in palavras_:
+            achou = next((t for t in ini[k:k + len(p)] if t is not None), None)
+            v.append(achou); k += len(p)
+        if any(x is None for x in v) or any(b < a for a, b in zip(v, v[1:])):
+            print("marcas whisper incompletas:", v, file=sys.stderr)
+            return None
+        print("marcas whisper:", [round(x, 1) for x in v], file=sys.stderr)
+        return v
+    except Exception as e:
+        print("marcas whisper falharam:", e, file=sys.stderr)
+        return None
+
+
 def cortar(audio, linhas, guia=None):
     """Corta o audio continuo em len(linhas) pedacos nos silencios entre as linhas.
 
     guia: segundo em que cada linha comeca (marcas do Gemini), se houver."""
-    r = limites(audio, linhas, guia)
+    # com as marcas do Gemini, aceita pausas curtas: o Puck as vezes emenda linhas com so 0,18 s de respiro
+    # (YB009, 25/10: sem esse corte a linha 2 virou parte da 1 e a legenda ficou 2,4 s atrasada)
+    r = limites(audio, linhas, guia, minimo=0.12 if guia else 0.25)
     if not r:
         return None
     fr = int(SR * 0.02)
@@ -342,7 +368,7 @@ def main():
                 if corte:
                     audio = audio[int(corte * SR):]
                 audio = esticar(audio, TEMPO)
-                pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]))
+                pedacos = cortar(audio, linhas, marcas(audio, linhas, os.environ["GEMINI_API_KEY"]) or marcas_whisper(audio, linhas))
             except Exception as e:
                 print("gemini falhou:", e, file=sys.stderr)
                 break
