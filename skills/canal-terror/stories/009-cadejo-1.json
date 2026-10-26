@@ -22,8 +22,8 @@
  ],
  "lineas": [
   {
-   "texto": "Si un perro negro te sigue de noche, no corras. Y nunca lo mires a los ojos.",
-   "pausa": 0.9,
+   "texto": "Si un perro negro te sigue de noche, nunca lo mires a los ojos.",
+   "pausa": 0.8,
    "vel": 0.86
   },
   {
@@ -39,12 +39,12 @@
    "pausa": 0.7
   },
   {
-   "texto": "Se dio vuelta. Un perro negro, enorme, con ojos rojos como brasas.",
-   "pausa": 0.8,
+   "texto": "Se dio vuelta. Un perro negro, enorme, de ojos rojos.",
+   "pausa": 0.7,
    "vel": 0.84
   },
   {
-   "texto": "Entonces el perro habló... con la voz de mi abuela, muerta hace diez años.",
+   "texto": "Y el perro habló... con la voz de mi abuela muerta.",
    "pausa": 0.8,
    "vel": 0.82
   },
@@ -194,7 +194,7 @@
   "nunca",
   "cadenas",
   "ojos rojos",
-  "mi abuela",
+  "abuela muerta",
   "ábreme",
   "parte 2"
  ],
