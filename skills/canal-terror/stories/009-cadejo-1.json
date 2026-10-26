@@ -22,34 +22,30 @@
  ],
  "lineas": [
   {
-   "texto": "Si de noche un perro negro te sigue por el camino, no corras. Y nunca lo mires a los ojos.",
-   "pausa": 1.0,
+   "texto": "Si un perro negro te sigue de noche, no corras. Y nunca lo mires a los ojos.",
+   "pausa": 0.9,
    "vel": 0.86
   },
   {
-   "texto": "Mi abuelo volvía a su casa por un camino de tierra, pasada la medianoche.",
+   "texto": "Mi abuelo volvía a casa por un camino de tierra, a medianoche.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "Detrás de él sonaban cadenas. Pero no había nadie.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "En la puerta, sintió un aliento caliente en la nuca.",
    "pausa": 0.7
   },
   {
-   "texto": "Detrás de él se oían cadenas arrastrándose. Pero no había nadie.",
-   "pausa": 0.9
-  },
-  {
-   "texto": "Al llegar a la puerta, sintió un aliento caliente en la nuca.",
-   "pausa": 0.8
-  },
-  {
-   "texto": "Se dio vuelta... y lo vio. Un perro negro, enorme, con ojos rojos como brasas.",
-   "pausa": 0.9,
+   "texto": "Se dio vuelta. Un perro negro, enorme, con ojos rojos como brasas.",
+   "pausa": 0.8,
    "vel": 0.84
   },
   {
-   "texto": "Mi abuelo cerró los ojos y empezó a rezar.",
-   "pausa": 0.8
-  },
-  {
-   "texto": "Entonces el perro habló... con la voz de mi abuela, muerta hacía diez años.",
-   "pausa": 0.9,
+   "texto": "Entonces el perro habló... con la voz de mi abuela, muerta hace diez años.",
+   "pausa": 0.8,
    "vel": 0.82
   },
   {
@@ -118,7 +114,7 @@
    }
   },
   {
-   "linea": 7,
+   "linea": 6,
    "comp": "ojos",
    "p": {
     "n": 1,
@@ -131,7 +127,7 @@
    }
   },
   {
-   "linea": 8,
+   "linea": 7,
    "comp": "texto",
    "p": {
     "lineas": [
@@ -153,43 +149,43 @@
    "linea": 2,
    "en": "inicio",
    "mas": 0.1,
-   "dur": 3.2
+   "dur": 3.0
   },
   {
    "tipo": "cadenas",
    "linea": 3,
    "en": 0.5,
-   "dur": 1.6
+   "dur": 1.5
   },
   {
    "tipo": "susto",
    "linea": 4,
-   "en": 0.3
+   "en": 0.25
   },
   {
    "tipo": "acerca",
    "linea": 4,
-   "en": 0.3
+   "en": 0.25
   },
   {
    "tipo": "foto",
-   "linea": 6,
+   "linea": 5,
    "en": 0.45
   },
   {
    "tipo": "golpe",
-   "linea": 6,
+   "linea": 5,
    "en": 0.45
   },
   {
    "tipo": "susto",
-   "linea": 7,
+   "linea": 6,
    "en": "fin",
    "mas": 0.1
   },
   {
    "tipo": "acerca",
-   "linea": 7,
+   "linea": 6,
    "en": "fin",
    "mas": 0.1
   }
