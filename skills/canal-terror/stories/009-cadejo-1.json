@@ -1,0 +1,211 @@
+{
+ "codigo": "HM009",
+ "formato": "Leyenda",
+ "serie": "cadejo",
+ "serie_titulo": "El Cadejo | Hora Muerta",
+ "parte": 1,
+ "partes": 2,
+ "titulo": "El perro habló con la voz de mi abuela 😨 El Cadejo Parte 1 #shorts",
+ "capa": "EL PERRO HABLÓ",
+ "descripcion": "En Centroamérica dicen que, de noche, un perro negro de ojos rojos sigue a quien camina solo.\n\n▶ Parte 2: mañana, {fecha_siguiente}.\n¿En tu país también cuentan la leyenda del Cadejo?\n\nHistoria de ficción narrada. Nueva historia todos los días.\n#terror #historiasdeterror #relatosdeterror #elcadejo #leyendas #centroamerica",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "el cadejo",
+  "leyendas de guatemala",
+  "leyendas centroamericanas"
+ ],
+ "lineas": [
+  {
+   "texto": "Si de noche un perro negro te sigue por el camino, no corras. Y nunca lo mires a los ojos.",
+   "pausa": 1.0,
+   "vel": 0.86
+  },
+  {
+   "texto": "Mi abuelo volvía a su casa por un camino de tierra, pasada la medianoche.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Detrás de él se oían cadenas arrastrándose. Pero no había nadie.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "Al llegar a la puerta, sintió un aliento caliente en la nuca.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Se dio vuelta... y lo vio. Un perro negro, enorme, con ojos rojos como brasas.",
+   "pausa": 0.9,
+   "vel": 0.84
+  },
+  {
+   "texto": "Mi abuelo cerró los ojos y empezó a rezar.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Entonces el perro habló... con la voz de mi abuela, muerta hacía diez años.",
+   "pausa": 0.9,
+   "vel": 0.82
+  },
+  {
+   "texto": "Ábreme la puerta, hijo.",
+   "pausa": 1.0,
+   "vel": 0.76
+  },
+  {
+   "texto": "Parte dos, mañana, {dia_siguiente}.",
+   "pausa": 0.3,
+   "vel": 0.88
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "ojos",
+   "p": {
+    "n": 1,
+    "perro": true,
+    "cerca": [
+     0.45,
+     0.6
+    ],
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "camino",
+   "p": {
+    "figura": false,
+    "zoom": 0.1
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0
+    ],
+    "zoom": 0.1
+   }
+  },
+  {
+   "linea": 4,
+   "comp": "ojos",
+   "p": {
+    "n": 1,
+    "perro": true,
+    "cerca": [
+     0.6,
+     0.85
+    ],
+    "zoom": 0.06
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "vela",
+   "p": {
+    "foto": true,
+    "zoom": 0.1
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "ojos",
+   "p": {
+    "n": 1,
+    "perro": true,
+    "cerca": [
+     0.9,
+     1
+    ],
+    "zoom": 0.1
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "PARTE 2",
+     "Mañana · {fecha_siguiente}"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "aullido",
+   "linea": 0,
+   "en": 0.55,
+   "dur": 2.2
+  },
+  {
+   "tipo": "cadenas",
+   "linea": 2,
+   "en": "inicio",
+   "mas": 0.1,
+   "dur": 3.2
+  },
+  {
+   "tipo": "cadenas",
+   "linea": 3,
+   "en": 0.5,
+   "dur": 1.6
+  },
+  {
+   "tipo": "susto",
+   "linea": 4,
+   "en": 0.3
+  },
+  {
+   "tipo": "acerca",
+   "linea": 4,
+   "en": 0.3
+  },
+  {
+   "tipo": "foto",
+   "linea": 6,
+   "en": 0.45
+  },
+  {
+   "tipo": "golpe",
+   "linea": 6,
+   "en": 0.45
+  },
+  {
+   "tipo": "susto",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.1
+  },
+  {
+   "tipo": "acerca",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.1
+  }
+ ],
+ "destaque": [
+  "nunca",
+  "cadenas",
+  "ojos rojos",
+  "mi abuela",
+  "ábreme",
+  "parte 2"
+ ],
+ "gancho": {
+  "cena": 3,
+  "evento": "susto",
+  "mas": 0.3,
+  "dur": 0.8
+ }
+}

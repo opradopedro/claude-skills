@@ -1,0 +1,225 @@
+{
+ "codigo": "HM010",
+ "formato": "Leyenda",
+ "serie": "cadejo",
+ "serie_titulo": "El Cadejo | Hora Muerta",
+ "parte": 2,
+ "partes": 2,
+ "anterior": "HM009",
+ "titulo": "Los arañazos estaban por dentro 😨 El Cadejo Parte 2 #shorts",
+ "capa": "ARAÑAZOS POR DENTRO",
+ "descripcion": "Final de la historia del Cadejo negro y el Cadejo blanco.\n\n¿Qué habrías hecho tú: abrir o no abrir?\n\nHistoria de ficción narrada. Nueva historia todos los días.\n#terror #historiasdeterror #relatosdeterror #elcadejo #leyendas #centroamerica",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "el cadejo",
+  "leyendas de guatemala",
+  "leyendas centroamericanas"
+ ],
+ "lineas": [
+  {
+   "texto": "Parte dos. El perro negro le pedía: ábreme la puerta.",
+   "pausa": 0.8,
+   "vel": 0.86
+  },
+  {
+   "texto": "Del monte salió otro perro. Blanco, con ojos azules.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Se puso entre los dos, y el negro desapareció.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Mi abuelo trancó la puerta. Afuera, el blanco aulló toda la noche.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "En la mañana, la puerta tenía arañazos... por dentro.",
+   "pausa": 1.0,
+   "vel": 0.82
+  },
+  {
+   "texto": "El perro negro entró con él cuando abrió la puerta.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "El blanco no aullaba para entrar. Aullaba para que él saliera.",
+   "pausa": 1.0,
+   "vel": 0.84
+  },
+  {
+   "texto": "Si escuchas cadenas dentro de tu casa... sal. Y no mires atrás.",
+   "pausa": 0.3,
+   "vel": 0.8
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "ojos",
+   "p": {
+    "n": 1,
+    "perro": true,
+    "cerca": [
+     0.95,
+     0.9
+    ],
+    "zoom": 0.06
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "ojos",
+   "p": {
+    "n": 1,
+    "perro": true,
+    "blanco": true,
+    "color": "140,190,255",
+    "cerca": [
+     0.45,
+     0.75
+    ],
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "camino",
+   "p": {
+    "figura": false,
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0
+    ],
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "ojos",
+   "p": {
+    "n": 1,
+    "perro": true,
+    "cerca": [
+     0.7,
+     0.95
+    ],
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "ojos",
+   "p": {
+    "n": 1,
+    "perro": true,
+    "blanco": true,
+    "color": "140,190,255",
+    "cerca": [
+     0.75,
+     0.85
+    ]
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "ojos",
+   "p": {
+    "n": 1,
+    "perro": true,
+    "cerca": [
+     0.55,
+     0.75
+    ],
+    "zoom": 0.08
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "golpe",
+   "linea": 0,
+   "en": "inicio",
+   "mas": -0.2
+  },
+  {
+   "tipo": "aullido",
+   "linea": 1,
+   "en": 0.3,
+   "dur": 2.0
+  },
+  {
+   "tipo": "cadenas",
+   "linea": 2,
+   "en": 0.5,
+   "dur": 2.0
+  },
+  {
+   "tipo": "aullido",
+   "linea": 3,
+   "en": 0.6,
+   "dur": 2.6
+  },
+  {
+   "tipo": "garras",
+   "linea": 4,
+   "en": 0.7
+  },
+  {
+   "tipo": "susto",
+   "linea": 4,
+   "en": 0.7
+  },
+  {
+   "tipo": "cadenas",
+   "linea": 7,
+   "en": "inicio",
+   "dur": 2.0
+  },
+  {
+   "tipo": "acerca",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "susto",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "negro",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.8,
+   "dur": 1.0
+  }
+ ],
+ "destaque": [
+  "ojos azules",
+  "por dentro",
+  "entró con él",
+  "saliera",
+  "no mires atrás"
+ ],
+ "gancho": {
+  "cena": 6,
+  "evento": "susto",
+  "mas": 0.3,
+  "dur": 0.8
+ }
+}

@@ -4,17 +4,17 @@ Ordem sugerida: alternar Leyenda, Regla e Testigo. Marque aqui o código quando 
 
 ## Já roteirizados (séries de 2 partes)
 HM001-002 El reflejo (Testigo) · HM003-004 La regla de las 3:33 (Regla) · HM005-006 El Silbón (Leyenda)
-HM007-008 La Llorona (Leyenda)
+HM007-008 La Llorona (Leyenda) · HM009-010 El Cadejo (Leyenda)
 
 ## Próximas séries prontas para virar roteiro
-- El Cadejo: parte 1 para no cachorro negro de olhos vermelhos encarando o avô; parte 2 o cachorro branco aparece,
-  e de manhã a porta tem marcas de garra por dentro: o negro chegou antes. `ojos`, `camino`, `puerta`
 - El último autobús: parte 1 o chofer grita "¡bájate ya!"; parte 2 explica que algo sentou ao lado dele e ainda o
   segue no reflexo da janela. `autobus`, `ventana`
 - La ventana (Regla): parte 1 para quando ele abre a cortina; parte 2 a cara está do lado de dentro do vidro e vem a
   regla número dos. `texto`, `ventana`
 
 ## Lendas (com o componente que encaixa)
+- La Patasola (Colômbia): mulher de uma perna só que chama homens mata adentro com canto. `ojos`, `camino`
+- La Tulivieja (Panamá): espírito do rio que procura o filho; parente da Llorona, pouco contada. `rio`
 - La Sayona (Venezuela): mulher de branco que seduz infiéis na estrada. `camino` + `rio`
 - El Sombrerón (Guatemala): homem baixinho de chapéu que trança o cabelo das moças. `ventana`, `camino`
 - La Siguanaba (Centroamérica): de costas é linda, de frente tem cara de cavalo. `rio`, susto no virar
