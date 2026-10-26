@@ -353,6 +353,57 @@ COMP.autobus = (t, lt, p) => {
 };
 
 // mata escura com pares de olhos vermelhos (Cadejo)
+// cachorro de frente (Cadejo): cabeca canina com orelhas em pe, focinho, ombros; contraluz para o negro aparecer no escuro
+function dogPath() {
+  x.beginPath(); x.moveTo(0, -92);
+  x.quadraticCurveTo(38, -96, 56, -78); x.lineTo(96, -188); x.quadraticCurveTo(124, -96, 110, -28);
+  x.quadraticCurveTo(116, 30, 72, 72); x.quadraticCurveTo(54, 142, 26, 156); x.quadraticCurveTo(0, 166, -26, 156);
+  x.quadraticCurveTo(-54, 142, -72, 72); x.quadraticCurveTo(-116, 30, -110, -28); x.quadraticCurveTo(-124, -96, -96, -188);
+  x.lineTo(-56, -78); x.quadraticCurveTo(-38, -96, 0, -92); x.closePath();
+}
+function dog(ex, ey, s, t, blanco) {
+  x.save(); x.translate(ex, ey); x.scale(s, s);
+  const g = x.createRadialGradient(0, -20, 40, 0, -20, 420);
+  g.addColorStop(0, blanco ? 'rgba(150,190,255,0.32)' : 'rgba(120,130,150,0.30)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+  x.fillStyle = g; x.fillRect(-460, -460, 920, 920);
+  const pelo = blanco ? 'rgba(232,238,246,0.92)' : 'rgba(7,7,8,1)', borda = blanco ? 'rgba(190,215,255,0.9)' : 'rgba(150,160,180,0.55)';
+  // ombros e peito
+  // o corpo some no escuro para baixo (degrade), so a cabeca fica nitida
+  const cg = x.createLinearGradient(0, 60, 0, 460); cg.addColorStop(0, pelo); cg.addColorStop(0.55, blanco ? 'rgba(200,215,235,0.35)' : 'rgba(7,7,8,0.9)'); cg.addColorStop(1, 'rgba(0,0,0,0)');
+  x.fillStyle = cg; x.beginPath(); x.moveTo(-84, 60); x.quadraticCurveTo(-210, 170, -300, 460); x.lineTo(300, 460); x.quadraticCurveTo(210, 170, 84, 60); x.fill();
+  const sg = x.createLinearGradient(0, 60, 0, 420); sg.addColorStop(0, borda); sg.addColorStop(1, 'rgba(0,0,0,0)');
+  x.strokeStyle = sg; x.lineWidth = 3; x.beginPath(); x.moveTo(-84, 60); x.quadraticCurveTo(-210, 170, -300, 460); x.moveTo(84, 60); x.quadraticCurveTo(210, 170, 300, 460); x.stroke();
+  // tufos de pelo curtos nas bochechas (juba)
+  for (let f = 0; f < 12; f++) {
+    const sd = f % 2 ? 1 : -1, k = (f >> 1) / 6, bx = sd * (96 + k * 70), by = 10 + k * 120, L = 16 + rnd(f + 3) * 14;
+    x.fillStyle = pelo; x.beginPath(); x.moveTo(bx - sd * 24, by - 16); x.lineTo(bx + sd * L, by + 4); x.lineTo(bx - sd * 24, by + 18); x.fill();
+    x.strokeStyle = borda; x.lineWidth = 2; x.beginPath(); x.moveTo(bx - sd * 4, by - 8); x.lineTo(bx + sd * L, by + 4); x.stroke();
+  }
+  if (blanco) { x.shadowColor = 'rgba(170,205,255,0.9)'; x.shadowBlur = 60; }
+  x.fillStyle = pelo; dogPath(); x.fill(); x.shadowBlur = 0;
+  x.strokeStyle = borda; x.lineWidth = 3.5; dogPath(); x.stroke();
+  // dentro das orelhas, ponte do focinho, sobrancelhas
+  x.fillStyle = blanco ? 'rgba(200,170,175,0.5)' : 'rgba(40,14,12,0.9)';
+  for (const sd of [-1, 1]) { x.beginPath(); x.moveTo(sd * 64, -86); x.lineTo(sd * 92, -160); x.lineTo(sd * 102, -60); x.fill(); }
+  x.strokeStyle = blanco ? 'rgba(150,165,190,0.5)' : 'rgba(110,118,135,0.35)'; x.lineWidth = 3;
+  x.beginPath(); x.moveTo(-14, -40); x.quadraticCurveTo(-10, 60, -18, 118); x.moveTo(14, -40); x.quadraticCurveTo(10, 60, 18, 118); x.stroke();
+  x.lineWidth = 5; x.beginPath(); x.moveTo(-82, -30); x.quadraticCurveTo(-50, -44, -22, -22); x.moveTo(82, -30); x.quadraticCurveTo(50, -44, 22, -22); x.stroke();
+  // nariz brilhante
+  x.fillStyle = blanco ? 'rgba(35,35,42,0.95)' : 'rgba(18,6,5,1)'; x.beginPath(); x.ellipse(0, 128, 26, 17, 0, 0, 7); x.fill();
+  x.fillStyle = 'rgba(220,225,235,0.45)'; x.beginPath(); x.ellipse(-8, 121, 8, 4, -0.3, 0, 7); x.fill();
+  if (!blanco) {
+    // presas e bafo quente subindo
+    x.fillStyle = 'rgba(225,215,195,0.95)';
+    for (const sd of [-1, 1]) { x.beginPath(); x.moveTo(sd * 16, 150); x.lineTo(sd * 22, 192); x.lineTo(sd * 30, 148); x.fill(); }
+    for (let b = 0; b < 5; b++) {
+      const ph = (t * 0.6 + b / 5) % 1, bx = Math.sin(b * 2 + t) * 30, by = 150 + ph * 110, r = 30 + ph * 80;
+      const bg = x.createRadialGradient(bx, by, 0, bx, by, r); bg.addColorStop(0, `rgba(190,195,205,${0.09 * Math.sin(Math.PI * ph)})`); bg.addColorStop(1, 'rgba(190,195,205,0)');
+      x.fillStyle = bg; x.beginPath(); x.arc(bx, by, r, 0, 7); x.fill();
+    }
+  }
+  x.restore();
+}
+
 COMP.ojos = (t, lt, p) => {
   x.fillStyle = '#020303'; x.fillRect(0, 0, W, H); glow(W / 2, H * 0.3, 900, 'rgba(60,80,90,0.18)');
   for (let i = 0; i < 14; i++) { const tx = rnd(i + 3) * W, w = 30 + rnd(i + 9) * 90; x.fillStyle = i % 3 ? '#050707' : '#080a0a'; x.fillRect(tx - w / 2, 0, w, H); }
@@ -361,18 +412,7 @@ COMP.ojos = (t, lt, p) => {
   for (let i = 0; i < n; i++) {
     const ex = W * (n === 1 ? 0.5 : 0.25 + 0.5 * i / Math.max(1, n - 1)) + Math.sin(t * 0.6 + i) * 20, ey = H * (0.55 - near * 0.05) + i * 30;
     const s = lerp(0.6, 3.2, near) * (1 - i * 0.15), blink = rnd(Math.floor(t * 3 + i * 7)) > 0.93 ? 0.1 : 1;
-    if (p.perro && i === 0 && near > 0.4) {
-      const base = p.blanco ? 'rgba(215,220,226,0.4)' : 'rgba(6,6,6,0.98)';
-      x.save(); x.translate(ex, ey); x.scale(s, s);
-      x.fillStyle = base; x.strokeStyle = p.blanco ? 'rgba(255,255,255,0.4)' : 'rgba(150,40,25,0.55)'; x.lineWidth = 4 / s * 1.5;
-      x.beginPath(); x.ellipse(0, 230, 230, 150, 0, Math.PI, 0); x.lineTo(230, 400); x.lineTo(-230, 400); x.fill();
-      x.beginPath(); x.ellipse(0, 10, 95, 80, 0, 0, 7); x.fill(); x.stroke();
-      x.beginPath(); x.ellipse(0, 85, 52, 60, 0, 0, 7); x.fill(); x.stroke();
-      for (const sd of [-1, 1]) { x.beginPath(); x.moveTo(sd * 55, -50); x.quadraticCurveTo(sd * 120, -150, sd * 105, -10); x.quadraticCurveTo(sd * 95, -30, sd * 70, -20); x.fill(); x.stroke(); }
-      x.fillStyle = p.blanco ? 'rgba(40,40,45,0.9)' : 'rgba(30,8,6,1)'; x.beginPath(); x.ellipse(0, 115, 18, 12, 0, 0, 7); x.fill();
-      if (!p.blanco) { x.fillStyle = 'rgba(220,210,190,0.9)'; for (const sd of [-1, 1]) { x.beginPath(); x.moveTo(sd * 22, 130); x.lineTo(sd * 28, 160); x.lineTo(sd * 34, 130); x.fill(); } }
-      x.restore();
-    }
+    if (p.perro && i === 0 && near > 0.4) dog(ex, ey, s, t, !!p.blanco);
     const col = p.color || '255,40,20'; x.fillStyle = `rgba(${col},${0.95 * blink})`; x.shadowColor = `rgb(${col})`; x.shadowBlur = 40 * s;
     x.beginPath(); x.ellipse(ex - 46 * s, ey, 13 * s, 8 * s * blink, 0.2, 0, 7); x.ellipse(ex + 46 * s, ey, 13 * s, 8 * s * blink, -0.2, 0, 7); x.fill(); x.shadowBlur = 0;
   }
@@ -431,6 +471,19 @@ COMP.puerta = (t, lt, p) => {
   x.fillStyle = '#2a1e18'; x.fillRect(dx - dw / 2, dy - dh / 2, ow, dh);
   x.fillStyle = '#1e1511'; x.fillRect(dx - dw / 2 + 40, dy - dh / 2 + 50, ow - 80, dh * 0.38); x.fillRect(dx - dw / 2 + 40, dy + 20, ow - 80, dh * 0.38);
   x.fillStyle = '#b39b62'; x.beginPath(); x.arc(dx - dw / 2 + ow - 40, dy + 20, 14, 0, 7); x.fill();
+  const gr = E.since(t, 'garras'), gk = p.garras ? 1 : gr >= 0 ? ease(gr / 0.6) : 0;
+  if (gk > 0 && ow > 120) {
+    // arranhoes fundos na face de dentro da porta (Cadejo): dois grupos de 4 riscos com lasca clara
+    for (const [gx, gy, ang] of [[dx - dw / 2 + ow * 0.42, dy - 260, 0.18], [dx - dw / 2 + ow * 0.62, dy + 40, -0.12]]) {
+      for (let f = 0; f < 4; f++) {
+        const sx = gx + f * 34, len = 300 * gk;
+        x.save(); x.translate(sx, gy); x.rotate(ang);
+        x.fillStyle = 'rgba(8,4,3,0.95)'; x.beginPath(); x.moveTo(-7, 0); x.quadraticCurveTo(-9, len * 0.5, -2, len); x.lineTo(2, len); x.quadraticCurveTo(7, len * 0.5, 7, 0); x.fill();
+        x.strokeStyle = 'rgba(150,115,80,0.55)'; x.lineWidth = 2.5; x.beginPath(); x.moveTo(8, 4); x.quadraticCurveTo(9, len * 0.5, 3, len); x.stroke();
+        x.restore();
+      }
+    }
+  }
   const m = E.since(t, 'mano');
   if (m >= 0) {
     const k = ease(m / 0.5), ex = dx - dw / 2 + ow;

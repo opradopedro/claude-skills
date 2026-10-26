@@ -71,6 +71,29 @@ def apaga():
     return (r - r.mean()) * env(n, 0.05, 0.15) * 0.3
 
 
+def cadenas(dur):
+    # elos de corrente arrastando: batidinhas metalicas inarmonicas em ritmo de passo (Cadejo)
+    n = int(dur * SR); s = np.zeros(n); k = int(0.09 * SR); tk = np.arange(k) / SR
+    pos = 0.0
+    while pos < dur - 0.1:
+        f0 = rng.uniform(1900, 3400)
+        clink = sum(np.sin(2 * np.pi * f0 * r * tk) for r in (1, 1.47, 2.31)) / 3 * env(k, 0.001, 0.025)
+        i = int(pos * SR); s[i:i + k] += clink[:n - i] * rng.uniform(0.5, 1)
+        pos += rng.uniform(0.07, 0.16) + (0.25 if rng.random() < 0.15 else 0)
+    t = np.arange(n) / SR
+    arrasto = rng.normal(0, 1, n) * 0.04 * (0.6 + 0.4 * np.sin(2 * np.pi * 1.6 * t))
+    return (s * 0.22 + arrasto) * env(n, 0.1) * np.minimum(1, (dur - t) / 0.3)
+
+
+def aullido(dur):
+    # uivo de cachorro: sobe, segura e cai, com vibrato
+    n = int(dur * SR); t = np.arange(n) / SR; u = t / dur
+    f = (380 + 260 * np.sin(np.pi * np.minimum(1, u * 1.4)) - 120 * np.maximum(0, u - 0.7)) * (1 + 0.015 * np.sin(2 * np.pi * 5 * t))
+    ph = np.cumsum(f) / SR
+    s = np.sin(2 * np.pi * ph) + 0.35 * np.sin(4 * np.pi * ph) + 0.12 * np.sin(6 * np.pi * ph)
+    return (s * 0.12 + rng.normal(0, 0.01, n)) * env(n, 0.25) * np.minimum(1, (dur - t) / 0.6)
+
+
 def piano(f, dur=4.0):
     """Nota de piano grave: parciais levemente desafinadas (inarmonicidade), martelo e queda longa."""
     n = int(dur * SR); t = np.arange(n) / SR
@@ -116,7 +139,8 @@ def trilha_piano(n, sustos, dur):
 
 SONS = {"golpe": lambda e: golpe(), "vibra": lambda e: vibra(e.get("dur") or 1.6), "susto": lambda e: susto(),
         "silbido": lambda e: silbido(e.get("dur") or 2.8), "grito": lambda e: grito(e.get("dur") or 1.8),
-        "apagon": lambda e: apagon(e.get("dur") or 1.5), "apaga": lambda e: apaga()}
+        "apagon": lambda e: apagon(e.get("dur") or 1.5), "apaga": lambda e: apaga(),
+        "cadenas": lambda e: cadenas(e.get("dur") or 2.0), "aullido": lambda e: aullido(e.get("dur") or 2.5)}
 
 
 def main(historia, voz, tempos, saida):
