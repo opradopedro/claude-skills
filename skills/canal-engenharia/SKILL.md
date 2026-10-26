@@ -98,8 +98,8 @@ O Pedro acompanha, vota, pede mudanças e manda ideias em **https://claude.ai/ar
 | Script | Faz |
 |---|---|
 | `scripts/produce.py` | Orquestra: voz, vídeo, trilha, MP4 final e upload agendado |
-| `scripts/engine3d.html` | Motor: Three.js, luz, texturas por código, quintal com sobrado, legenda, câmera |
-| `scripts/mundos/<nome>.js` | Um mundo 3D por tema (`fossa`, `borracha`, `ponte` = rio em corte com pilar, `bunker` = vala reaterrada com objeto trocável e raios gama na camada 2D); o roteiro escolhe com `"mundo"` |
+| `scripts/engine3d.html` | Motor: Three.js, luz, texturas por código (terra, concreto, asfalto, cobre...), `reflexos()` para tinta e metal, quintal com sobrado, legenda, câmera |
+| `scripts/mundos/<nome>.js` | Um mundo 3D por tema (`fossa`, `borracha`, `ponte` = rio em corte com pilar, `bunker` = vala reaterrada com objeto trocável e raios gama na camada 2D, `eletrico` = carro na rua com raio-x, bateria e inversor na bancada, motor em corte com campo girante e engrenagem 9:1); o roteiro escolhe com `"mundo"` |
 | `scripts/render.py` | Chromium (swiftshader) quadro a quadro para FFmpeg, 30 fps; `--teste 1,5,9` salva JPGs |
 | `scripts/tts.py` | Gemini TTS com tempo de cada palavra; reserva Kokoro (`KOKORO_LANG=en`) |
 | `scripts/mix.py` | Voz sem música (`YB_MUSICA=1` volta a marimba), whoosh nas trocas de cena, efeitos `erro`, `certo`, `tada`, -14 LUFS |

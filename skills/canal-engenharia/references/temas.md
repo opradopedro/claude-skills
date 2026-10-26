@@ -51,8 +51,17 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [ ] How a pressure cooker cooks faster (ideia do Pedro no painel: água ferve a ~120 °C sob pressão, válvula de peso; nota 17/20)
 - [ ] How a plane actually stays up (ideia do Pedro no painel: asa desvia o ar para baixo, ângulo de ataque; cuidado com o mito do "caminho mais longo"; nota 16/20)
 - [ ] How a stapler bends the staple (bigorna, ranhuras)
+- [x] What moves an electric car (YB011, ideia do Pedro no painel: Reel "Assim que o carro elétrico funciona". Bateria de 4.416 células, inversor DC->AC trifásico, campo girante, engrenagem fixa 9:1, regeneração)
+- [ ] How a bucket-wheel excavator digs nonstop (ideia do Pedro no painel, Short "Essa máquina nunca é desligada" sobre a Bagger 288; roda de caçambas, esteira de km, 24 h por dia; nota 17/20)
+- [ ] How a smoke detector senses smoke (pesquisa 26/10: câmara de ionização com amerício, fumaça corta a corrente; nota 18/20)
+- [ ] How a toilet flushes without a pump (sifão que se esvazia sozinho; nota 18/20)
 
 ## Pesquisa de 25/10 (Evolucao, nota curiosidade+surpresa+visual+cabe em 50 s, máx. 20)
 
 - Bunker nuclear 18 (escolhido: YB010) · Guindaste de torre 18 · Poço artesiano 17 · Porão que não alaga 17 · Fundação de casa 16 · Rua sem buraco 16 · Muro de arrimo 15 · Barragem 15
 - Fatos conferidos do YB010: terra compactada corta o gama pela metade a cada ~9 cm (3,6 pol.), 10 meias espessuras = 1/1024 (hps.org, Nuclear War Survival Skills); container só aguenta carga nos cantos, teto e paredes corrugados cedem com terra em cima (conexwest, survivalblog); entradas de abrigo com curva de 90° (relatórios DTIC de dutos com duas pernas); ventilação manual tipo Kearny Air Pump porque o abrigo esquenta e umedece com o calor do corpo.
+
+## Pesquisa de 26/10 (Curiosidade, nota curiosidade+surpresa+visual+cabe em 50 s, máx. 20)
+
+- Carro elétrico 19 (ideia do Pedro, escolhido: YB011) · Detector de fumaça 18 · Descarga do vaso 18 · Escavadeira de roda de caçambas 17 · Panela de pressão 17 · Garrafa térmica 17 · Relógio mecânico 16 · Caneta esferográfica 15
+- Fatos conferidos do YB011: Model 3 Long Range 2020 tem 4.416 células 2170 e redução final 9,04:1 (teardown do Argonne National Laboratory, anl.gov/taps/d3-2020-tesla-model-3); o inversor chaveia a vários kHz (patentes citam 4 a 8 kHz) e a frequência do campo girante define a rotação; na regeneração o motor vira gerador e o inversor manda AC de volta como DC para a bateria (Motor1). Quase todo EV tem uma marcha só (exceção: Porsche Taycan com 2).
