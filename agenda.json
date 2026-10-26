@@ -886,7 +886,7 @@
   {
    "data": "2026-10-26",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v43_interiores_centenas.mp4",
    "formato": "corte",
    "tema": "Centenas de interiores em GTA 6 (Rob Nelson à Bloomberg; GTA 5 tinha uns 70)",
@@ -899,7 +899,9 @@
     "gancho": "comparacao",
     "origem": "Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De9kza7D09n/",
+   "postado_em": "2026-10-26T15:12Z"
   }
  ]
 }
