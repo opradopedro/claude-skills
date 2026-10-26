@@ -174,11 +174,37 @@ function geraAgua() {
   const n1 = fbm(31, 6), n2 = fbm(37, 12, 3);
   return pixels(256, (u, v) => { const ca = Math.pow(clamp(1 - Math.abs(n1(u, v) - n2(u, v)) * 2.4), 10), g = 0.9 + rnd(u * 517 + v * 3301) * 0.1; return [(88 + 60 * ca) * g, (150 + 50 * ca) * g, (214 + 30 * ca) * g]; });
 }
+// asfalto: base escura com brita clara e escura espalhada
+function geraAsfalto(seed = 12) {
+  const n1 = fbm(seed, 8), n2 = fbm(seed + 3, 64, 2);
+  const cv = pixels(512, (u, v) => { const k = 0.72 + n1(u, v) * 0.38 + n2(u, v) * 0.16 + rnd(u * 911 + v * 7333) * 0.14; return [56 * k, 58 * k, 62 * k]; });
+  const cx = cv.getContext('2d');
+  for (let i = 0; i < 2200; i++) {
+    const claro = rnd(i * 1.9) > 0.72;
+    cx.fillStyle = claro ? `rgba(196,194,188,${0.22 + rnd(i) * 0.3})` : `rgba(18,18,20,${0.3 + rnd(i * 3) * 0.4})`;
+    cx.fillRect(rnd(i * 2.3) * 512, rnd(i * 5.7) * 512, 1 + rnd(i * 7) * 2.2, 1 + rnd(i * 9) * 2.2);
+  }
+  return cv;
+}
+// enrolamento de cobre: fios lado a lado (listras ao longo de v), cada fio com brilho no meio
+function geraCobre() {
+  return pixels(256, (u, v) => {
+    const f = (v * 40) % 1, fio = Math.sin(f * Math.PI), k = 0.42 + 0.78 * Math.pow(fio, 0.6) + rnd(Math.floor(v * 40) * 3.1) * 0.1 + rnd(u * 517 + v * 3301) * 0.04;
+    return [Math.min(255, 214 * k), Math.min(255, 120 * k), Math.min(255, 64 * k)];
+  });
+}
+// reflexos: mapa de ambiente com o ceu do motor, para tinta de carro e metal (opcional, cada mundo chama se quiser)
+function reflexos(intens = 0.7) {
+  const pm = new T3.PMREMGenerator(gl), s = new T3.Scene();
+  s.add(new T3.Mesh(new T3.SphereGeometry(50, 32, 16), new T3.MeshBasicMaterial({ map: textura('ceu', GERA.ceu).tx, side: T3.BackSide })));
+  const chao = new T3.Mesh(new T3.CircleGeometry(49, 32), new T3.MeshBasicMaterial({ color: 0x55604a })); chao.rotation.x = -Math.PI / 2; chao.position.y = -1; s.add(chao);
+  scene.environment = pm.fromScene(s, 0.03).texture; scene.environmentIntensity = intens;
+}
 const GERA = {
   terra: () => geraTerra(0x6e4a30, 1), terra2: () => geraTerra(0x8a6440, 2, 110), argila: () => geraTerra(0xa4774c, 4, 60, [0.75, 1.15]),
   rocha: () => geraTerra(0x5e5650, 5, 220, [0.5, 1.3]), cascalho: () => geraTerra(0xa8a094, 6, 600, [0.6, 1.3]),
   concreto: geraConcreto, grama: geraGrama, madeira: () => geraMadeira(), cerca: () => geraMadeira(0xa0704a, 9), telhado: geraTelhado,
-  fachada: geraFachada, ceu: geraCeu, folhas: geraFolhas, agua: geraAgua,
+  fachada: geraFachada, ceu: geraCeu, folhas: geraFolhas, agua: geraAgua, asfalto: geraAsfalto, cobre: geraCobre,
 };
 // material com textura; as UVs vem da posicao no mundo (uvMundo), entao a textura tem tamanho fixo em metros
 function tmat(nome, o = {}) {
