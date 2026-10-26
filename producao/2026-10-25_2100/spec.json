@@ -1,0 +1,28 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v42_npcs_rockstar_dobrou.mp4",
+ "text": "A Rockstar quase dobrou de tamanho por causa de GTA 6. Quando Red Dead 2 saiu, em 2018, eram uns dois mil e quatrocentos funcionários. Agora são mais de quatro mil e setecentos, em doze escritórios. E ela montou um time inteiro em Los Angeles, com roteiristas, produtores e diretores, só pra criar os NPCs. Cada pedestre tem rotina, comportamento e fala própria. Pensa comigo: aquele cara aleatório na praia de Vice City foi escrito por alguém. E o chefe Rob Nelson admitiu que a conta de NPCs deu medo. Você vai reparar nos NPCs ou sair atropelando? Comenta 1 pra reparar, 2 pra atropelar. Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Red Dead 2": "Red Dead 2",
+  "dois mil e quatrocentos": "2.400",
+  "quatro mil e setecentos": "4.700",
+  "doze escritórios": "12 escritórios",
+  "Los Angeles": "Los Angeles",
+  "Vice City": "Vice City",
+  "Rob Nelson": "Rob Nelson"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "rua",
+  "festa",
+  "cidade",
+  "bar",
+  "boate",
+  "praia",
+  "escritorio",
+  "dia"
+ ],
+ "seed": 42,
+ "font": "../../assets/fonts/Anton.ttf"
+}

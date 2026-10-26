@@ -1,0 +1,475 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v42_npcs_rockstar_dobrou.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_155.mp4",
+   "start": 0.0,
+   "end": 2.565,
+   "layout": "full",
+   "cx": 0.285,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_126.mp4",
+   "start": 2.565,
+   "end": 4.136,
+   "layout": "full",
+   "cx": 0.612,
+   "pan": -1,
+   "ss": 0.12
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_220.mp4",
+   "start": 4.136,
+   "end": 6.68,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 1,
+   "ss": 1.12
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_316.mp4",
+   "start": 6.68,
+   "end": 8.042,
+   "layout": "full",
+   "cx": 0.388,
+   "pan": -1,
+   "ss": 0.85
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_236.mp4",
+   "start": 8.042,
+   "end": 10.38,
+   "layout": "full",
+   "cx": 0.202,
+   "pan": 1,
+   "ss": 1.53
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_153.mp4",
+   "start": 10.38,
+   "end": 11.71,
+   "layout": "full",
+   "cx": 0.343,
+   "pan": -1,
+   "ss": 1.12
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_381.mp4",
+   "start": 11.71,
+   "end": 13.433,
+   "layout": "full",
+   "cx": 0.507,
+   "pan": 1,
+   "ss": 1.22
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_292.mp4",
+   "start": 13.433,
+   "end": 15.481,
+   "layout": "full",
+   "cx": 0.054,
+   "pan": -1,
+   "ss": 1.72
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_318.mp4",
+   "start": 15.481,
+   "end": 17.342,
+   "layout": "full",
+   "cx": 0.413,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_143.mp4",
+   "start": 17.342,
+   "end": 19.19,
+   "layout": "full",
+   "cx": 0.382,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_329.mp4",
+   "start": 19.19,
+   "end": 21.447,
+   "layout": "full",
+   "cx": 0.641,
+   "pan": 1,
+   "ss": 0.69
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_377.mp4",
+   "start": 21.447,
+   "end": 23.406,
+   "layout": "full",
+   "cx": 0.205,
+   "pan": -1,
+   "ss": 0.71
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_132.mp4",
+   "start": 23.406,
+   "end": 24.927,
+   "layout": "full",
+   "cx": 0.15,
+   "pan": 1,
+   "ss": 2.31
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_169.mp4",
+   "start": 24.927,
+   "end": 26.307,
+   "layout": "full",
+   "cx": 0.594,
+   "pan": -1,
+   "ss": 0.9
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+   "start": 26.307,
+   "end": 27.993,
+   "layout": "full",
+   "cx": 0.525,
+   "pan": 1,
+   "ss": 1.48
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+   "start": 27.993,
+   "end": 29.407,
+   "layout": "full",
+   "cx": 0.094,
+   "pan": -1,
+   "ss": 0.46
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_171.mp4",
+   "start": 29.407,
+   "end": 31.345,
+   "layout": "full",
+   "cx": 0.274,
+   "pan": 1,
+   "ss": 1.91
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_323.mp4",
+   "start": 31.345,
+   "end": 33.706,
+   "layout": "full",
+   "cx": 0.0,
+   "pan": -1,
+   "ss": 1.42
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_293.mp4",
+   "start": 33.706,
+   "end": 35.695,
+   "layout": "full",
+   "cx": 0.493,
+   "pan": 1,
+   "ss": 0.31
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_199.mp4",
+   "start": 35.695,
+   "end": 37.215,
+   "layout": "full",
+   "cx": 0.514,
+   "pan": -1,
+   "ss": 0.42
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+   "start": 37.215,
+   "end": 38.525,
+   "layout": "full",
+   "cx": 0.957,
+   "pan": 1,
+   "ss": 0.28
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_118.mp4",
+   "start": 38.525,
+   "end": 40.154,
+   "layout": "full",
+   "cx": 0.249,
+   "pan": -1,
+   "ss": 1.78
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 40.154,
+   "end": 42.112,
+   "layout": "full",
+   "cx": 0.495,
+   "pan": 1,
+   "ss": 1.3
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.251,
+   "text": "A ROCKSTAR QUASE",
+   "hl": false
+  },
+  {
+   "start": 1.251,
+   "end": 2.565,
+   "text": "DOBROU DE TAMANHO",
+   "hl": false
+  },
+  {
+   "start": 2.565,
+   "end": 3.441,
+   "text": "POR CAUSA DE",
+   "hl": false
+  },
+  {
+   "start": 3.441,
+   "end": 4.136,
+   "text": "GTA 6",
+   "hl": true
+  },
+  {
+   "start": 4.136,
+   "end": 5.2,
+   "text": "QUANDO RED DEAD 2",
+   "hl": true
+  },
+  {
+   "start": 5.2,
+   "end": 5.413,
+   "text": "SAIU",
+   "hl": false
+  },
+  {
+   "start": 5.413,
+   "end": 6.68,
+   "text": "EM 2018",
+   "hl": true
+  },
+  {
+   "start": 6.68,
+   "end": 8.042,
+   "text": "ERAM UNS 2.400",
+   "hl": true
+  },
+  {
+   "start": 8.042,
+   "end": 9.038,
+   "text": "FUNCIONÁRIOS",
+   "hl": false
+  },
+  {
+   "start": 9.038,
+   "end": 10.38,
+   "text": "AGORA SÃO MAIS",
+   "hl": false
+  },
+  {
+   "start": 10.38,
+   "end": 11.71,
+   "text": "DE 4.700",
+   "hl": true
+  },
+  {
+   "start": 11.71,
+   "end": 13.433,
+   "text": "EM 12 ESCRITÓRIOS",
+   "hl": true
+  },
+  {
+   "start": 13.433,
+   "end": 14.364,
+   "text": "E ELA MONTOU",
+   "hl": false
+  },
+  {
+   "start": 14.364,
+   "end": 15.481,
+   "text": "UM TIME INTEIRO",
+   "hl": false
+  },
+  {
+   "start": 15.481,
+   "end": 16.412,
+   "text": "EM LOS ANGELES",
+   "hl": false
+  },
+  {
+   "start": 16.412,
+   "end": 17.342,
+   "text": "COM ROTEIRISTAS",
+   "hl": false
+  },
+  {
+   "start": 17.342,
+   "end": 19.19,
+   "text": "PRODUTORES E DIRETORES",
+   "hl": false
+  },
+  {
+   "start": 19.19,
+   "end": 19.748,
+   "text": "SÓ PRA CRIAR",
+   "hl": false
+  },
+  {
+   "start": 19.748,
+   "end": 20.378,
+   "text": "OS NPCS",
+   "hl": false
+  },
+  {
+   "start": 20.378,
+   "end": 21.447,
+   "text": "CADA PEDESTRE TEM",
+   "hl": false
+  },
+  {
+   "start": 21.447,
+   "end": 21.981,
+   "text": "ROTINA",
+   "hl": false
+  },
+  {
+   "start": 21.981,
+   "end": 23.406,
+   "text": "COMPORTAMENTO E FALA",
+   "hl": false
+  },
+  {
+   "start": 23.406,
+   "end": 24.078,
+   "text": "PRÓPRIA",
+   "hl": false
+  },
+  {
+   "start": 24.078,
+   "end": 24.927,
+   "text": "PENSA COMIGO",
+   "hl": false
+  },
+  {
+   "start": 24.927,
+   "end": 26.307,
+   "text": "AQUELE CARA ALEATÓRIO",
+   "hl": false
+  },
+  {
+   "start": 26.307,
+   "end": 26.767,
+   "text": "NA PRAIA DE",
+   "hl": false
+  },
+  {
+   "start": 26.767,
+   "end": 27.993,
+   "text": "VICE CITY FOI ESCRITO",
+   "hl": false
+  },
+  {
+   "start": 27.993,
+   "end": 28.632,
+   "text": "POR ALGUÉM",
+   "hl": false
+  },
+  {
+   "start": 28.632,
+   "end": 29.407,
+   "text": "E O CHEFE",
+   "hl": false
+  },
+  {
+   "start": 29.407,
+   "end": 30.57,
+   "text": "ROB NELSON ADMITIU",
+   "hl": false
+  },
+  {
+   "start": 30.57,
+   "end": 31.345,
+   "text": "QUE A CONTA",
+   "hl": false
+  },
+  {
+   "start": 31.345,
+   "end": 31.926,
+   "text": "DE NPCS DEU",
+   "hl": false
+  },
+  {
+   "start": 31.926,
+   "end": 32.562,
+   "text": "MEDO",
+   "hl": false
+  },
+  {
+   "start": 32.562,
+   "end": 33.706,
+   "text": "VOCÊ VAI REPARAR",
+   "hl": false
+  },
+  {
+   "start": 33.706,
+   "end": 34.278,
+   "text": "NOS NPCS OU",
+   "hl": false
+  },
+  {
+   "start": 34.278,
+   "end": 35.695,
+   "text": "SAIR ATROPELANDO?",
+   "hl": false
+  },
+  {
+   "start": 35.695,
+   "end": 36.53,
+   "text": "COMENTA 1 PRA",
+   "hl": true
+  },
+  {
+   "start": 36.53,
+   "end": 37.215,
+   "text": "REPARAR",
+   "hl": false
+  },
+  {
+   "start": 37.215,
+   "end": 38.525,
+   "text": "2 PRA ATROPELAR",
+   "hl": true
+  },
+  {
+   "start": 38.525,
+   "end": 39.118,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 39.118,
+   "end": 40.154,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 40.154,
+   "end": 40.972,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 40.972,
+   "end": 41.712,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}

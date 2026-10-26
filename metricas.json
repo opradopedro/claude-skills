@@ -1309,42 +1309,68 @@
    "avgWatchedPct": 28.333333333333332,
    "skipRate": 46.7,
    "durationSeconds": 36,
-   "coletado": "2026-10-25T20:53Z",
-   "horas": 22.4
+   "coletado": "2026-10-25T23:53Z",
+   "horas": 25.4
+  },
+  "h24": {
+   "playCount": 118,
+   "likeCount": 1,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 10200,
+   "avgWatchedPct": 28.333333333333332,
+   "skipRate": 46.7,
+   "durationSeconds": 36,
+   "coletado": "2026-10-25T23:53Z",
+   "horas": 25.4
   }
  },
  "De5CXvGlF4f": {
   "publicado": "2026-10-24T20:54:21.000Z",
   "legenda": "GTA 6 pode ganhar cerveja de verdade 🍺",
   "atual": {
-   "playCount": 1234,
+   "playCount": 1235,
    "likeCount": 32,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 10012,
-   "avgWatchedPct": 31.2875,
-   "skipRate": 41.5,
+   "avgWatchTimeMs": 10004,
+   "avgWatchedPct": 31.2625,
+   "skipRate": 41.6,
    "durationSeconds": 32,
-   "coletado": "2026-10-25T20:53Z",
-   "horas": 24.0
+   "coletado": "2026-10-25T23:53Z",
+   "horas": 27.0
+  },
+  "h24": {
+   "playCount": 1235,
+   "likeCount": 32,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 10004,
+   "avgWatchedPct": 31.2625,
+   "skipRate": 41.6,
+   "durationSeconds": 32,
+   "coletado": "2026-10-25T23:53Z",
+   "horas": 27.0
   }
  },
  "De5YjsmD6Qp": {
   "publicado": "2026-10-25T00:08:11.000Z",
   "legenda": "GTA 5 e Red Dead 2 vão sair da PS Plus 2 dias antes de GTA 6",
   "atual": {
-   "playCount": 1200,
+   "playCount": 1202,
    "likeCount": 25,
    "commentCount": 0,
    "shares": 6,
    "saves": 1,
-   "avgWatchTimeMs": 9892,
-   "avgWatchedPct": 26.735135135135135,
-   "skipRate": 48.3,
+   "avgWatchTimeMs": 9889,
+   "avgWatchedPct": 26.727027027027027,
+   "skipRate": 48.5,
    "durationSeconds": 37,
-   "coletado": "2026-10-25T20:53Z",
-   "horas": 20.8
+   "coletado": "2026-10-25T23:53Z",
+   "horas": 23.8
   }
  },
  "De6_moQjxny": {
@@ -1360,8 +1386,25 @@
    "avgWatchedPct": 22.17027027027027,
    "skipRate": 57.8,
    "durationSeconds": 37,
-   "coletado": "2026-10-25T20:53Z",
-   "horas": 5.7
+   "coletado": "2026-10-25T23:53Z",
+   "horas": 8.8
+  }
+ },
+ "De7oXfrik3d": {
+  "publicado": "2026-10-25T21:05:23.000Z",
+  "legenda": "GTA 6 agora tá até em programa de comédia",
+  "atual": {
+   "playCount": 125,
+   "likeCount": 1,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 6014,
+   "avgWatchedPct": 14.668292682926829,
+   "skipRate": 55.4,
+   "durationSeconds": 41,
+   "coletado": "2026-10-25T23:53Z",
+   "horas": 2.8
   }
  }
 }
