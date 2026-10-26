@@ -882,6 +882,24 @@
    "capa_embutida": true,
    "link": "https://www.instagram.com/reel/De787TrEaru/",
    "postado_em": "2026-10-26T00:13Z"
+  },
+  {
+   "data": "2026-10-26",
+   "hora": "12:00",
+   "status": "pendente",
+   "arquivo": "radar_v43_interiores_centenas.mp4",
+   "formato": "corte",
+   "tema": "Centenas de interiores em GTA 6 (Rob Nelson à Bloomberg; GTA 5 tinha uns 70)",
+   "capa": "Centenas de prédios pra entrar",
+   "capa_t": 2.5,
+   "legenda": "GTA 6 vai ter muito mais prédio pra entrar que o GTA 5 🏢\n\n🔑 Na visita da Bloomberg à Rockstar North, o Rob Nelson disse que dá pra entrar num \"número enorme\" de prédios\n📊 No GTA 5 eram uns 70 interiores. No Vice City antigo, uns 20\n🗺️ A imprensa já fala em centenas, mas a Rockstar ainda não deu número oficial\n🏦 O mapa pode nem ser tão maior: a cidade cresce pra dentro, com loja, bar, posto e banco virando esconderijo ou assalto\n\nVocê prefere mapa gigante ou cidade cheia de lugar pra entrar? Comenta 1 pro mapa, 2 pros prédios e manda pra quem vai jogar com você 👇\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity",
+   "ficha": {
+    "formato": "corte",
+    "tema": "gameplay/mapa",
+    "gancho": "comparacao",
+    "origem": "Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10"
+   },
+   "capa_embutida": true
   }
  ]
 }

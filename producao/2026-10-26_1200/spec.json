@@ -1,0 +1,27 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v43_interiores_centenas.mp4",
+ "text": "Mano, GTA 6 vai ter muito mais prédio pra entrar do que o GTA 5. Na visita da Bloomberg à Rockstar North, o Rob Nelson, um dos chefes do estúdio, disse que dá pra entrar num número enorme de prédios. No GTA 5 eram uns setenta interiores. No Vice City antigo, uns vinte. Agora a imprensa já fala em centenas. Pensa comigo: o mapa pode nem ser tão maior, mas a cidade cresce pra dentro. Loja, bar, posto, banco, tudo pode virar esconderijo ou assalto. Você prefere mapa gigante ou cidade cheia de lugar pra entrar? Comenta 1 pro mapa, 2 pros prédios. Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "GTA 5": "GTA 5",
+  "Rockstar North": "Rockstar North",
+  "Rob Nelson": "Rob Nelson",
+  "Vice City": "Vice City",
+  "setenta interiores": "70 interiores",
+  "uns vinte": "uns 20"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "interior",
+  "loja",
+  "assalto",
+  "bar",
+  "apartamento",
+  "boate",
+  "predio",
+  "cidade"
+ ],
+ "seed": 43,
+ "font": "../../assets/fonts/Anton.ttf"
+}
