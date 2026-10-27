@@ -1444,11 +1444,11 @@
    "shares": 6,
    "saves": 1,
    "avgWatchTimeMs": 9892,
-   "avgWatchedPct": 26.735135135135135,
+   "avgWatchedPct": 26.74,
    "skipRate": 48.6,
    "durationSeconds": 37,
-   "coletado": "2026-10-27T14:54Z",
-   "horas": 62.8
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 68.8
   },
   "h24": {
    "playCount": 1207,
@@ -1474,11 +1474,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 8276,
-   "avgWatchedPct": 22.367567567567566,
+   "avgWatchedPct": 22.37,
    "skipRate": 57.4,
    "durationSeconds": 37,
-   "coletado": "2026-10-27T14:54Z",
-   "horas": 47.8
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 53.8
   },
   "h24": {
    "playCount": 142,
@@ -1504,11 +1504,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 6136,
-   "avgWatchedPct": 14.965853658536584,
+   "avgWatchedPct": 14.97,
    "skipRate": 54.3,
    "durationSeconds": 41,
-   "coletado": "2026-10-27T14:54Z",
-   "horas": 41.8
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 134,
@@ -1528,17 +1528,17 @@
   "publicado": "2026-10-26T00:04:48.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1281,
+   "playCount": 1282,
    "likeCount": 39,
    "commentCount": 1,
    "shares": 1,
    "saves": 3,
-   "avgWatchTimeMs": 17865,
-   "avgWatchedPct": 42.535714285714285,
+   "avgWatchTimeMs": 17850,
+   "avgWatchedPct": 42.5,
    "skipRate": 38.8,
    "durationSeconds": 42,
-   "coletado": "2026-10-27T14:54Z",
-   "horas": 38.8
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 44.8
   },
   "h24": {
    "playCount": 1281,
@@ -1558,51 +1558,81 @@
   "publicado": "2026-10-26T15:12:32.000Z",
   "legenda": "GTA 6 vai ter muito mais prédio pra entrar que o GTA 5",
   "atual": {
-   "playCount": 772,
-   "likeCount": 22,
+   "playCount": 826,
+   "likeCount": 26,
    "commentCount": 0,
-   "shares": 2,
+   "shares": 4,
    "saves": 3,
-   "avgWatchTimeMs": 11846,
-   "avgWatchedPct": 30.374358974358973,
-   "skipRate": 39.3,
+   "avgWatchTimeMs": 12211,
+   "avgWatchedPct": 31.31,
+   "skipRate": 39.6,
    "durationSeconds": 39,
-   "coletado": "2026-10-27T14:54Z",
-   "horas": 23.7
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 29.7
+  },
+  "h24": {
+   "playCount": 826,
+   "likeCount": 26,
+   "commentCount": 0,
+   "shares": 4,
+   "saves": 3,
+   "avgWatchTimeMs": 12211,
+   "avgWatchedPct": 31.31,
+   "skipRate": 39.6,
+   "durationSeconds": 39,
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 29.7
   }
  },
  "De-OrZegc5E": {
   "publicado": "2026-10-26T21:18:16.000Z",
   "legenda": "GTA 6 já tá na mão da imprensa, e as notas têm data 🎮",
   "atual": {
-   "playCount": 1297,
-   "likeCount": 58,
+   "playCount": 1305,
+   "likeCount": 60,
    "commentCount": 0,
    "shares": 7,
-   "saves": 1,
-   "avgWatchTimeMs": 22326,
-   "avgWatchedPct": 60.340540540540545,
-   "skipRate": 35.6,
+   "saves": 2,
+   "avgWatchTimeMs": 22238,
+   "avgWatchedPct": 60.1,
+   "skipRate": 35.8,
    "durationSeconds": 37,
-   "coletado": "2026-10-27T14:54Z",
-   "horas": 17.6
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 23.6
   }
  },
  "De-iSVCgMpg": {
   "publicado": "2026-10-27T00:09:34.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1318,
-   "likeCount": 26,
+   "playCount": 1331,
+   "likeCount": 27,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 15006,
-   "avgWatchedPct": 48.406451612903226,
-   "skipRate": 31.3,
+   "avgWatchTimeMs": 14985,
+   "avgWatchedPct": 48.34,
+   "skipRate": 31.4,
    "durationSeconds": 31,
-   "coletado": "2026-10-27T14:54Z",
-   "horas": 14.7
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 20.8
+  }
+ },
+ "DfAJwl_AlTW": {
+  "publicado": "2026-10-27T15:13:35.000Z",
+  "legenda": "GTA 6 nem lançou e já tá fazendo outros jogos fugirem",
+  "atual": {
+   "playCount": 1253,
+   "likeCount": 42,
+   "commentCount": 0,
+   "shares": 5,
+   "saves": 0,
+   "avgWatchTimeMs": 13041,
+   "avgWatchedPct": 33.44,
+   "skipRate": 34.3,
+   "durationSeconds": 39,
+   "coletado": "2026-10-27T20:55Z",
+   "horas": 5.7
   }
  }
 }
