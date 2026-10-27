@@ -99,7 +99,7 @@ O Pedro acompanha, vota, pede mudanças e manda ideias em **https://claude.ai/ar
 |---|---|
 | `scripts/produce.py` | Orquestra: voz, vídeo, trilha, MP4 final e upload agendado |
 | `scripts/engine3d.html` | Motor: Three.js, luz, texturas por código (terra, concreto, asfalto, cobre...), `reflexos()` para tinta e metal, quintal com sobrado, legenda, câmera |
-| `scripts/mundos/<nome>.js` | Um mundo 3D por tema (`fossa`, `borracha`, `ponte` = rio em corte com pilar, `bunker` = vala reaterrada com objeto trocável e raios gama na camada 2D, `eletrico` = carro na rua com raio-x, bateria e inversor na bancada, motor em corte com campo girante e engrenagem 9:1); o roteiro escolhe com `"mundo"` |
+| `scripts/mundos/<nome>.js` | Um mundo 3D por tema (`fossa`, `borracha`, `ponte` = rio em corte com pilar, `bunker` = vala reaterrada com objeto trocável e raios gama na camada 2D, `eletrico` = carro na rua com raio-x, bateria e inversor na bancada, motor em corte com campo girante e engrenagem 9:1, `guindaste` = canteiro com prédio que cresce, poste com talha e guindaste de torre em treliça que tomba, ganha contrapeso e sobe sozinho com gaiola e macacos, `vaso` = vaso sanitário cortado por um plano que varre (clipping), sifão em S com água calculada por quadro, caixa com flapper e boia, partículas de água em raio-x); o roteiro escolhe com `"mundo"` |
 | `scripts/render.py` | Chromium (swiftshader) quadro a quadro para FFmpeg, 30 fps; `--teste 1,5,9` salva JPGs |
 | `scripts/tts.py` | Gemini TTS com tempo de cada palavra; reserva Kokoro (`KOKORO_LANG=en`) |
 | `scripts/mix.py` | Voz sem música (`YB_MUSICA=1` volta a marimba), whoosh nas trocas de cena, efeitos `erro`, `certo`, `tada`, -14 LUFS |
@@ -153,6 +153,8 @@ Quase todo tema pede um mundo: `scripts/mundos/<nome>.js`, uma IIFE que termina 
 - `camera(t, ctx)`: `cameraPadrao(t, ctx, {x, y, d, a, h}, p => CAM[p.etapa])`.
 - `overlay(t, ctx)`: rótulos 2D com `pill` e `proj` (posição 3D na tela).
 
-Use `fossa.js` (corte de terreno) ou `borracha.js` (vários lugares na mesma cena com corte e zoom) de modelo.
+Use `fossa.js` (corte de terreno) ou `borracha.js` (vários lugares na mesma cena com corte e zoom) de modelo. Para corte de objeto
+(louça, máquina), `vaso.js`: plano de clipping nos materiais do objeto inteiro + as peças da seção como `ShapeGeometry` em z = 0.
+Enquadramento vertical: a largura visível é só ~0,45 x a distância da câmera; planeje o `d` pela largura do que precisa aparecer.
 Confira sempre com `python3 scripts/render.py stories/X.json tempos.json /tmp/x.mp4 --teste 2,8,14,20,26,32`
 (com `YB_SEM_LEGENDA=1` para quadros limpos) e olhe cada JPG antes de renderizar o vídeo inteiro.

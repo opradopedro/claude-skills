@@ -25,7 +25,7 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [ ] Wood stove chimney (fumaça na casa, tubo, tiragem, chapéu)
 - [ ] Composting toilet / outhouse (buraco, cheiro, ventilação, serragem)
 - [ ] Basement that doesn't flood (pesquisa 24/10: pressão hidrostática, dreno francês interno, poço com bomba de boia e válvula de retenção; nota 17/20)
-- [ ] Tower crane (ideia do Pedro no painel, Reel de 92K: corda num galho, roldana, talha, contrapeso, guindaste que sobe sozinho pela torre; nota 18/20)
+- [x] Tower crane (YB012, ideia do Pedro no painel, Reel de 92K: poste com roldana, talha de 4 cabos, torre com lanca e carrinho, tomba com carga na ponta, contrapeso, gaiola de ascensao com macacos hidraulicos)
 - [ ] Road that doesn't get potholes (pesquisa 24/10: abaulamento de 4 a 6%, base drenante, gelo e degelo abre o buraco; nota 16/20)
 
 ## Curiosidade ("How does X actually work?")
@@ -33,7 +33,7 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [x] How an eraser removes pencil (YB002)
 - [ ] How a ballpoint pen writes (esfera, tinta viscosa, capilaridade)
 - [ ] How a zipper locks (dentes, cursor em Y)
-- [ ] How a toilet flushes (sifão, bóia, válvula)
+- [x] How a toilet flushes (YB013: sifão, bóia, válvula)
 - [x] How a lock and key work (YB003)
 - [x] How a microwave heats food (YB005, ideia do Pedro no painel)
 - [x] How a fridge makes cold (YB004, ideia do Pedro no painel)
@@ -54,7 +54,9 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [x] What moves an electric car (YB011, ideia do Pedro no painel: Reel "Assim que o carro elétrico funciona". Bateria de 4.416 células, inversor DC->AC trifásico, campo girante, engrenagem fixa 9:1, regeneração)
 - [ ] How a bucket-wheel excavator digs nonstop (ideia do Pedro no painel, Short "Essa máquina nunca é desligada" sobre a Bagger 288; roda de caçambas, esteira de km, 24 h por dia; nota 17/20)
 - [ ] How a smoke detector senses smoke (pesquisa 26/10: câmara de ionização com amerício, fumaça corta a corrente; nota 18/20)
-- [ ] How a toilet flushes without a pump (sifão que se esvazia sozinho; nota 18/20)
+- [x] How a toilet flushes without a pump (YB013; nota 19/20)
+- [ ] How a traffic light knows a car is waiting (pesquisa 27/10: laço indutivo no asfalto, o metal do carro muda a indutância; moto e bicicleta às vezes não acionam; nota 17/20)
+- [ ] How escalator steps flatten at the top (pesquisa 27/10: cada degrau tem 2 pares de rodas em 2 trilhos; os trilhos se aproximam no topo e o degrau vira piso; nota 17/20)
 
 ## Pesquisa de 25/10 (Evolucao, nota curiosidade+surpresa+visual+cabe em 50 s, máx. 20)
 
@@ -65,3 +67,10 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 
 - Carro elétrico 19 (ideia do Pedro, escolhido: YB011) · Detector de fumaça 18 · Descarga do vaso 18 · Escavadeira de roda de caçambas 17 · Panela de pressão 17 · Garrafa térmica 17 · Relógio mecânico 16 · Caneta esferográfica 15
 - Fatos conferidos do YB011: Model 3 Long Range 2020 tem 4.416 células 2170 e redução final 9,04:1 (teardown do Argonne National Laboratory, anl.gov/taps/d3-2020-tesla-model-3); o inversor chaveia a vários kHz (patentes citam 4 a 8 kHz) e a frequência do campo girante define a rotação; na regeneração o motor vira gerador e o inversor manda AC de volta como DC para a bateria (Motor1). Quase todo EV tem uma marcha só (exceção: Porsche Taycan com 2).
+
+## Pesquisa de 27/10 (nota curiosidade+surpresa+visual+cabe em 50 s, máx. 20)
+
+- Evolucao: Guindaste de torre 18 (ideia do Pedro, escolhido: YB012) · Porão que não alaga 17 · Poço artesiano 17 · Fundação de casa 16 · Rua sem buraco 16
+- Curiosidade: Descarga do vaso 19 (escolhido: YB013) · Detector de fumaça 18 · Semáforo que "sabe" que tem carro 17 · Degrau da escada rolante 17 · Panela de pressão 17 · Garrafa térmica 17 · Relógio mecânico 16 · Caneta esferográfica 15
+- Fatos conferidos do YB012: vantagem mecânica de uma talha = número de cabos que seguram a carga (4 cabos, 1/4 da força, sem atrito); contrapeso de blocos de concreto na contralança; o guindaste sobe sozinho: a gaiola de ascensão presa no topo levanta tudo com macacos hidráulicos, abre um vão e um módulo novo de torre (trazido pelo próprio guindaste) entra no vão (scienceabc.com/innovation/how-do-tower-cranes-work, guia da Safe Work Australia).
+- Fatos conferidos do YB013: a caixa despeja tudo em cerca de 3 s; a água sobe pelo sifão em S até passar da crista e a gravidade no ramo de descida puxa o resto da bacia (sifão); o gorgolejo é o ar entrando e quebrando o sifão; um balde de uns 2 galões despejado rápido dá descarga sem caixa (howstuffworks toilet2/toilet3, Kohler, thisoldhouse); a água que fica no fecho hídrico barra o gás do esgoto.
