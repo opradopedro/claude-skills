@@ -1,0 +1,23 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v46_jogos_fogem_gta6.mp4",
+ "text": "Mano, GTA 6 nem lançou e já tá fazendo outros jogos fugirem. O Emberville adiou o lançamento um dia antes de sair, lá pra janeiro. O estúdio nem citou o GTA, mas a imprensa gringa já chama isso de maldição do GTA 6. E ele não tá sozinho. O Fable, da Microsoft, pulou pra fevereiro de dois mil e vinte e sete. Lords of the Fallen dois foi pro começo de dois mil e vinte e sete. E o Squadron quarenta e dois assumiu: não quer lançar no meio da tempestade do GTA. Pensa comigo: ninguém quer brigar com o maior lançamento da história. Eles fizeram certo? Comenta sim ou não. Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "dois mil e vinte e sete": "2027",
+  "Lords of the Fallen dois": "Lords of the Fallen 2",
+  "Squadron quarenta e dois": "Squadron 42"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "gameplay",
+  "acao",
+  "carro",
+  "noite",
+  "jason",
+  "lucia",
+  "cidade"
+ ],
+ "seed": 46,
+ "font": "../../assets/fonts/Anton.ttf"
+}
