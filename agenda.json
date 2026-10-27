@@ -965,14 +965,21 @@
   {
    "data": "2026-10-27",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v47_210gb_ps5.mp4",
    "formato": "corte",
    "tema": "GTA 6 vai pedir 210 GB livres no PS5 (PlayStation Game Size via VGTimes 27/10; antes estimavam 120-130 GB)",
    "capa": "210 GB no PS5",
    "capa_t": 5.6,
    "legenda": "GTA 6 vai pedir 210 GB livres no PS5 💾 quase o dobro do que se esperava\n\n🔎 O número apareceu no banco de dados da PSN, achado pelo perfil PlayStation Game Size\n⚠️ A Rockstar ainda não confirmou, então trata como forte indício\n📊 Antes a estimativa era de 120 a 130 GB. O GTA 5 no PS5 tem uns 87 GB\n🎮 O PS5 de lançamento tem uns 667 GB livres: só o GTA come quase um terço\n📥 O pré-download começa dia 12/11, uma semana antes do lançamento em 19/11\n\nSeu console vai dar conta? Comenta sim ou não e manda pra quem vai jogar GTA 6 com você 👇\n\n#gta6 #gtavi #ps5 #gta6brasil",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfA0VzqASHS/",
+   "ficha": {
+    "formato": "corte",
+    "tema": "alerta/utilidade",
+    "gancho": "numero chocante",
+    "origem": "VGTimes 27/10 (PlayStation Game Size, banco da PSN)"
+   }
   }
  ]
 }
