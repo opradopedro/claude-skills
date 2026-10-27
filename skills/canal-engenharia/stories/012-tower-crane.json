@@ -1,0 +1,222 @@
+{
+ "codigo": "YB012",
+ "mundo": "guindaste",
+ "formato": "Evolucao",
+ "titulo": "You built a tower crane 🏗️ #engineering #shorts",
+ "capa": "YOU BUILT A CRANE",
+ "descripcion": "From a rope over a pole to a real tower crane: why more pulleys mean less force, why the concrete blocks at the back keep it standing, and how the crane makes itself taller.\n\nWhat should we build next?\n\n#engineering #towercrane #construction #howitworks #shorts",
+ "tags": [
+  "engineering",
+  "tower crane",
+  "crane",
+  "how cranes work",
+  "how do cranes get taller",
+  "self climbing crane",
+  "counterweight",
+  "block and tackle",
+  "pulley",
+  "construction",
+  "you built it",
+  "civil engineering",
+  "shorts"
+ ],
+ "lineas": [
+  {
+   "texto": "Your new building needs steel beams lifted to the top.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you hang a pulley from a pole and pull. Problem solved!",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But a steel beam weighs over a ton. Nobody can pull that.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you add more pulleys. Four ropes share the load, so you pull a quarter.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But a pole only lifts straight up, and the beam needs to go sideways.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you build a steel tower with a long arm, and a trolley rolls the beam over.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But hang a heavy load at the tip, and the crane tips over.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So you stack concrete blocks on a short back arm. Now it balances.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "But the building keeps growing, until it's taller than the crane.",
+   "pausa": 0.3
+  },
+  {
+   "texto": "So the crane jacks up its own top and slides in a new tower piece. It builds itself!",
+   "pausa": 0.3
+  },
+  {
+   "texto": "Congratulations! You just built a tower crane. What should we build next?",
+   "pausa": 0.2
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "obra"
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "mastro"
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "pesado",
+    "ruim": "TOO HEAVY"
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "talha",
+    "bom": "¼ THE FORCE"
+   }
+  },
+  {
+   "linea": 4,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "reto",
+    "ruim": "ONLY STRAIGHT UP"
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "lanca",
+    "bom": "TOWER + JIB"
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "tomba",
+    "ruim": "TIPPING!"
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "contrapeso",
+    "bom": "COUNTERWEIGHT"
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "cresce",
+    "ruim": "TOO SHORT"
+   }
+  },
+  {
+   "linea": 9,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "sobe",
+    "bom": "IT BUILDS ITSELF"
+   }
+  },
+  {
+   "linea": 10,
+   "comp": "guindaste",
+   "p": {
+    "etapa": "final"
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "certo",
+   "linea": 1,
+   "en": 0.8
+  },
+  {
+   "tipo": "erro",
+   "linea": 2,
+   "en": 0.45
+  },
+  {
+   "tipo": "certo",
+   "linea": 3,
+   "en": 0.45
+  },
+  {
+   "tipo": "erro",
+   "linea": 4,
+   "en": 0.45
+  },
+  {
+   "tipo": "certo",
+   "linea": 5,
+   "en": 0.55
+  },
+  {
+   "tipo": "erro",
+   "linea": 6,
+   "en": 0.6
+  },
+  {
+   "tipo": "certo",
+   "linea": 7,
+   "en": 0.6
+  },
+  {
+   "tipo": "erro",
+   "linea": 8,
+   "en": 0.6
+  },
+  {
+   "tipo": "certo",
+   "linea": 9,
+   "en": 0.75
+  },
+  {
+   "tipo": "tada",
+   "linea": 10,
+   "en": 0.05
+  }
+ ],
+ "destaque": [
+  "beams",
+  "pulley",
+  "ton",
+  "quarter",
+  "straight",
+  "trolley",
+  "tips",
+  "counterweight",
+  "concrete",
+  "taller",
+  "itself",
+  "crane"
+ ]
+}
