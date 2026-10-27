@@ -1215,8 +1215,8 @@
    "avgWatchedPct": 21.59,
    "skipRate": 57.5,
    "durationSeconds": 33,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 71.3
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 74.3
   },
   "h24": {
    "playCount": 116,
@@ -1230,23 +1230,36 @@
    "durationSeconds": 33,
    "coletado": "2026-10-24T23:53Z",
    "horas": 26.3
+  },
+  "h72": {
+   "playCount": 117,
+   "likeCount": 6,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 7124,
+   "avgWatchedPct": 21.59,
+   "skipRate": 57.5,
+   "durationSeconds": 33,
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 74.3
   }
  },
  "De10O6vgais": {
   "publicado": "2026-10-23T14:53:43.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 149,
+   "playCount": 150,
    "likeCount": 4,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 11934,
-   "avgWatchedPct": 29.11,
-   "skipRate": 42.1,
+   "avgWatchTimeMs": 11893,
+   "avgWatchedPct": 29.01,
+   "skipRate": 41.7,
    "durationSeconds": 41,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 78.0
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 81.0
   },
   "h24": {
    "playCount": 148,
@@ -1288,8 +1301,8 @@
    "avgWatchedPct": 42.84,
    "skipRate": 37.7,
    "durationSeconds": 35,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 54.0
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 57.0
   },
   "h24": {
    "playCount": 185,
@@ -1309,17 +1322,17 @@
   "publicado": "2026-10-23T23:44:51.000Z",
   "legenda": "GTA 6 quase teve a volta do Daft Punk",
   "atual": {
-   "playCount": 869,
+   "playCount": 870,
    "likeCount": 23,
    "commentCount": 0,
    "shares": 0,
    "saves": 3,
-   "avgWatchTimeMs": 9863,
-   "avgWatchedPct": 25.96,
+   "avgWatchTimeMs": 9851,
+   "avgWatchedPct": 25.92,
    "skipRate": 40.3,
    "durationSeconds": 38,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 69.2
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 72.2
   },
   "h24": {
    "playCount": 850,
@@ -1333,6 +1346,19 @@
    "durationSeconds": 38,
    "coletado": "2026-10-24T23:53Z",
    "horas": 24.1
+  },
+  "h72": {
+   "playCount": 870,
+   "likeCount": 23,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 3,
+   "avgWatchTimeMs": 9851,
+   "avgWatchedPct": 25.92,
+   "skipRate": 40.3,
+   "durationSeconds": 38,
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 72.2
   }
  },
  "De5Ng6lgFmD": {
@@ -1348,8 +1374,8 @@
    "avgWatchedPct": 28.59,
    "skipRate": 46.2,
    "durationSeconds": 36,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 46.4
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 49.4
   },
   "h24": {
    "playCount": 118,
@@ -1378,8 +1404,8 @@
    "avgWatchedPct": 31.26,
    "skipRate": 41.5,
    "durationSeconds": 32,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 48.0
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 51.0
   },
   "h24": {
    "playCount": 1235,
@@ -1408,8 +1434,8 @@
    "avgWatchedPct": 26.74,
    "skipRate": 48.6,
    "durationSeconds": 37,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 44.8
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 1207,
@@ -1438,8 +1464,8 @@
    "avgWatchedPct": 22.37,
    "skipRate": 57.4,
    "durationSeconds": 37,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 29.8
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 32.8
   },
   "h24": {
    "playCount": 142,
@@ -1468,42 +1494,72 @@
    "avgWatchedPct": 14.97,
    "skipRate": 54.3,
    "durationSeconds": 41,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 23.8
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 26.8
+  },
+  "h24": {
+   "playCount": 134,
+   "likeCount": 1,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 6136,
+   "avgWatchedPct": 14.97,
+   "skipRate": 54.3,
+   "durationSeconds": 41,
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 26.8
   }
  },
  "De787TrEaru": {
   "publicado": "2026-10-26T00:04:48.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1270,
+   "playCount": 1277,
    "likeCount": 39,
    "commentCount": 1,
    "shares": 1,
    "saves": 3,
-   "avgWatchTimeMs": 17904,
-   "avgWatchedPct": 42.63,
-   "skipRate": 38.7,
+   "avgWatchTimeMs": 17892,
+   "avgWatchedPct": 42.6,
+   "skipRate": 38.9,
    "durationSeconds": 42,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 20.8
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 23.8
   }
  },
  "De9kza7D09n": {
   "publicado": "2026-10-26T15:12:32.000Z",
   "legenda": "GTA 6 vai ter muito mais prédio pra entrar que o GTA 5",
   "atual": {
-   "playCount": 239,
+   "playCount": 307,
    "likeCount": 7,
    "commentCount": 0,
    "shares": 1,
    "saves": 0,
-   "avgWatchTimeMs": 10239,
-   "avgWatchedPct": 26.25,
-   "skipRate": 46.1,
+   "avgWatchTimeMs": 10712,
+   "avgWatchedPct": 27.47,
+   "skipRate": 45.5,
    "durationSeconds": 39,
-   "coletado": "2026-10-26T20:54Z",
-   "horas": 5.7
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 8.7
+  }
+ },
+ "De-OrZegc5E": {
+  "publicado": "2026-10-26T21:18:16.000Z",
+  "legenda": "GTA 6 já tá na mão da imprensa, e as notas têm data 🎮",
+  "atual": {
+   "playCount": 194,
+   "likeCount": 7,
+   "commentCount": 0,
+   "shares": 3,
+   "saves": 0,
+   "avgWatchTimeMs": 17617,
+   "avgWatchedPct": 47.61,
+   "skipRate": 40.5,
+   "durationSeconds": 37,
+   "coletado": "2026-10-26T23:54Z",
+   "horas": 2.6
   }
  }
 }

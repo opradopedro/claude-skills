@@ -1,0 +1,409 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v45_atriz_lucia_live.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+   "start": 0.0,
+   "end": 1.966,
+   "layout": "full",
+   "cx": 0.651,
+   "pan": 1,
+   "ss": 0.94
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+   "start": 1.966,
+   "end": 3.445,
+   "layout": "full",
+   "cx": 0.429,
+   "pan": -1,
+   "ss": 0.81
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_094.mp4",
+   "start": 3.445,
+   "end": 5.191,
+   "layout": "full",
+   "cx": 0.297,
+   "pan": 1,
+   "ss": 0.02
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+   "start": 5.191,
+   "end": 6.968,
+   "layout": "full",
+   "cx": 0.309,
+   "pan": -1,
+   "ss": 0.25
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_117.mp4",
+   "start": 6.968,
+   "end": 9.295,
+   "layout": "full",
+   "cx": 0.379,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_100.mp4",
+   "start": 9.295,
+   "end": 11.031,
+   "layout": "full",
+   "cx": 0.4,
+   "pan": 0,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+   "start": 11.031,
+   "end": 13.041,
+   "layout": "full",
+   "cx": 0.696,
+   "pan": 1,
+   "ss": 1.48
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_150.mp4",
+   "start": 13.041,
+   "end": 15.233,
+   "layout": "full",
+   "cx": 0.708,
+   "pan": -1,
+   "ss": 0.35
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_181.mp4",
+   "start": 15.233,
+   "end": 16.949,
+   "layout": "full",
+   "cx": 0.425,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_166.mp4",
+   "start": 16.949,
+   "end": 18.959,
+   "layout": "full",
+   "cx": 0.681,
+   "pan": -1,
+   "ss": 0.54
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+   "start": 18.959,
+   "end": 21.044,
+   "layout": "full",
+   "cx": 0.549,
+   "pan": 1,
+   "ss": 1.68
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+   "start": 21.044,
+   "end": 23.102,
+   "layout": "full",
+   "cx": 0.505,
+   "pan": -1,
+   "ss": 0.46
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+   "start": 23.102,
+   "end": 24.872,
+   "layout": "full",
+   "cx": 0.335,
+   "pan": 1,
+   "ss": 2.05
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_077.mp4",
+   "start": 24.872,
+   "end": 26.543,
+   "layout": "full",
+   "cx": 0.775,
+   "pan": -1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_178.mp4",
+   "start": 26.543,
+   "end": 27.972,
+   "layout": "full",
+   "cx": 0.047,
+   "pan": 1,
+   "ss": 0.78
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_074.mp4",
+   "start": 27.972,
+   "end": 30.07,
+   "layout": "full",
+   "cx": 0.672,
+   "pan": -1,
+   "ss": 1.55
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_001.mp4",
+   "start": 30.07,
+   "end": 31.936,
+   "layout": "full",
+   "cx": 0.95,
+   "pan": 1,
+   "ss": 1.34
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.488,
+   "text": "MANO",
+   "hl": false
+  },
+  {
+   "start": 0.488,
+   "end": 1.079,
+   "text": "A ATRIZ QUE",
+   "hl": false
+  },
+  {
+   "start": 1.079,
+   "end": 1.966,
+   "text": "TODO MUNDO JURA",
+   "hl": false
+  },
+  {
+   "start": 1.966,
+   "end": 2.41,
+   "text": "QUE É A",
+   "hl": false
+  },
+  {
+   "start": 2.41,
+   "end": 3.445,
+   "text": "LUCIA DE GTA 6",
+   "hl": true
+  },
+  {
+   "start": 3.445,
+   "end": 4.184,
+   "text": "FEZ A PRIMEIRA",
+   "hl": false
+  },
+  {
+   "start": 4.184,
+   "end": 4.612,
+   "text": "LIVE",
+   "hl": false
+  },
+  {
+   "start": 4.612,
+   "end": 5.191,
+   "text": "E FUGIU DO",
+   "hl": false
+  },
+  {
+   "start": 5.191,
+   "end": 5.964,
+   "text": "ASSUNTO",
+   "hl": false
+  },
+  {
+   "start": 5.964,
+   "end": 6.968,
+   "text": "A MANNI PEREZ FICOU",
+   "hl": false
+  },
+  {
+   "start": 6.968,
+   "end": 8.115,
+   "text": "12 MINUTOS AO VIVO",
+   "hl": true
+  },
+  {
+   "start": 8.115,
+   "end": 9.295,
+   "text": "FALANDO DE COMIDA",
+   "hl": false
+  },
+  {
+   "start": 9.295,
+   "end": 9.915,
+   "text": "DO CACHORRO E",
+   "hl": false
+  },
+  {
+   "start": 9.915,
+   "end": 11.031,
+   "text": "DO APARTAMENTO PEQUENO",
+   "hl": false
+  },
+  {
+   "start": 11.031,
+   "end": 11.595,
+   "text": "DELA",
+   "hl": false
+  },
+  {
+   "start": 11.595,
+   "end": 12.252,
+   "text": "AÍ A GALERA",
+   "hl": false
+  },
+  {
+   "start": 12.252,
+   "end": 13.041,
+   "text": "PERGUNTOU SE ELA",
+   "hl": false
+  },
+  {
+   "start": 13.041,
+   "end": 13.699,
+   "text": "TAVA PRONTA PRA",
+   "hl": false
+  },
+  {
+   "start": 13.699,
+   "end": 14.325,
+   "text": "NOVEMBRO",
+   "hl": false
+  },
+  {
+   "start": 14.325,
+   "end": 15.233,
+   "text": "E ELA SIMPLESMENTE",
+   "hl": false
+  },
+  {
+   "start": 15.233,
+   "end": 16.012,
+   "text": "IGNOROU E MUDOU",
+   "hl": false
+  },
+  {
+   "start": 16.012,
+   "end": 16.949,
+   "text": "DE ASSUNTO",
+   "hl": false
+  },
+  {
+   "start": 16.949,
+   "end": 17.69,
+   "text": "NEM A ROCKSTAR",
+   "hl": false
+  },
+  {
+   "start": 17.69,
+   "end": 18.959,
+   "text": "NEM ELA CONFIRMAM",
+   "hl": false
+  },
+  {
+   "start": 18.959,
+   "end": 19.555,
+   "text": "MAS O ROSTO",
+   "hl": false
+  },
+  {
+   "start": 19.555,
+   "end": 20.002,
+   "text": "E A VOZ",
+   "hl": false
+  },
+  {
+   "start": 20.002,
+   "end": 21.044,
+   "text": "SÃO MUITO PARECIDOS",
+   "hl": false
+  },
+  {
+   "start": 21.044,
+   "end": 21.491,
+   "text": "COM OS DA",
+   "hl": false
+  },
+  {
+   "start": 21.491,
+   "end": 22.227,
+   "text": "LUCIA",
+   "hl": false
+  },
+  {
+   "start": 22.227,
+   "end": 23.102,
+   "text": "PENSA COMIGO",
+   "hl": false
+  },
+  {
+   "start": 23.102,
+   "end": 24.228,
+   "text": "CONTRATO DE SIGILO",
+   "hl": false
+  },
+  {
+   "start": 24.228,
+   "end": 24.872,
+   "text": "DA ROCKSTAR NÃO",
+   "hl": false
+  },
+  {
+   "start": 24.872,
+   "end": 25.985,
+   "text": "É BRINCADEIRA",
+   "hl": false
+  },
+  {
+   "start": 25.985,
+   "end": 26.543,
+   "text": "VOCÊ ACHA QUE",
+   "hl": false
+  },
+  {
+   "start": 26.543,
+   "end": 27.146,
+   "text": "É ELA?",
+   "hl": false
+  },
+  {
+   "start": 27.146,
+   "end": 27.972,
+   "text": "RESPONDE SIM OU",
+   "hl": false
+  },
+  {
+   "start": 27.972,
+   "end": 28.492,
+   "text": "NÃO",
+   "hl": false
+  },
+  {
+   "start": 28.492,
+   "end": 29.066,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 29.066,
+   "end": 30.07,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 30.07,
+   "end": 30.818,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 30.818,
+   "end": 31.536,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}

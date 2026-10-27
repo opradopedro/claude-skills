@@ -1,0 +1,41 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v45_atriz_lucia_live.mp4",
+ "text": "Mano, a atriz que todo mundo jura que é a Lucia de GTA 6 fez a primeira live, e fugiu do assunto. A Manni Perez ficou doze minutos ao vivo falando de comida, do cachorro e do apartamento pequeno dela. Aí a galera perguntou se ela tava pronta pra novembro, e ela simplesmente ignorou e mudou de assunto. Nem a Rockstar nem ela confirmam, mas o rosto e a voz são muito parecidos com os da Lucia. Pensa comigo: contrato de sigilo da Rockstar não é brincadeira. Você acha que é ela? Responde sim ou não. Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Manni Perez": "Manni Perez",
+  "doze minutos": "12 minutos"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "lucia",
+  "jason",
+  "gameplay",
+  "noite",
+  "acao",
+  "carro",
+  "redes-sociais"
+ ],
+ "seed": 45,
+ "font": "../../assets/fonts/Anton.ttf",
+ "broll": [
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_094.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_117.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_100.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_150.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_181.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_166.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_077.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_178.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_074.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_001.mp4"
+ ]
+}
