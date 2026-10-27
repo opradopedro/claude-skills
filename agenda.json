@@ -926,7 +926,7 @@
   {
    "data": "2026-10-26",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v45_atriz_lucia_live.mp4",
    "formato": "corte",
    "tema": "Suposta atriz da Lucia (Manni L. Perez) faz 1ª live e ignora perguntas sobre GTA 6 (rumor, VGTimes 26/10)",
@@ -939,7 +939,9 @@
     "gancho": "polemica",
     "origem": "VGTimes 26/10 (live de Manni L. Perez)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/De-iSVCgMpg/",
+   "postado_em": "2026-10-27T00:09Z"
   }
  ]
 }
