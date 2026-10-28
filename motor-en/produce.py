@@ -18,8 +18,11 @@ import argparse, datetime as dt, glob, json, os, subprocess, sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MOTOR = os.path.join(RAIZ, "skills", "canal-terror", "scripts")  # motor testado, nunca alterado
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# ORDEM IMPORTA: a pasta motor-en vem ANTES do motor do canal-terror, senao o "import yt_upload"
+# acharia o yt_upload do Hora Muerta (codigo HM, idioma es, token ES) em vez deste daqui.
+# comum, tts, mix e legenda_whisper nao existem em motor-en, entao continuam vindo do motor.
 sys.path.insert(0, MOTOR)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comum import carregar, resolver  # noqa: E402  (vem do motor do canal-terror)
 
 DIAS_EN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
@@ -233,8 +236,9 @@ def main():
     if a.fila is None:
         a.fila = int(c["fila"])
     os.makedirs(a.saida, exist_ok=True)
+    horas = "h, ".join(str(h) for h in c["horas_locais"]) + "h"
     print(f"canal: {c.get('nome', c['prefixo'])} | codigo {c['prefixo']} | "
-          f"{c['hora_local']}h {c['fuso']} | idioma {c['idioma']}", flush=True)
+          f"{horas} {c['fuso']} | idioma {c['idioma']}", flush=True)
 
     import yt_upload
     yt_upload.configurar(c["prefixo"], c["idioma"])
@@ -247,6 +251,17 @@ def main():
         print("ja no canal:", ", ".join(sorted(ja)) or "nada", flush=True)
 
     historias = list(a.historia)
+    if not historias and not a.proximo:
+        # sem roteiro indicado e sem --proximo: pega o primeiro de stories/ (uso tipico do --teste).
+        # Sem isso o programa nao fazia nada e saia em silencio.
+        todos = sorted(glob.glob(os.path.join(c["stories"], "*.json")))
+        if not todos:
+            sys.exit(f"SEM ROTEIRO: a pasta {c['stories']} esta vazia. "
+                     f"Escreva a primeira historia (ver SKILL.md) ou use outro canal.")
+        historias = [todos[0]]
+        print(f"nenhum roteiro indicado: usando {os.path.basename(historias[0])} "
+              f"(para escolher outro, passe o caminho do arquivo; para a serie inteira, use --proximo)",
+              flush=True)
     if a.proximo:
         agora = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         fila = [k for k, v in ja.items() if (v.get("publishAt") or "") > agora]
