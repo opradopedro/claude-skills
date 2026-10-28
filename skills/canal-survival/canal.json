@@ -9,8 +9,8 @@
  "_canal_titulo_obs": "TRAVA DE SEGURANCA: escreva aqui o nome EXATO do canal no YouTube. Enquanto estiver vazio, o programa avisa mas nao confere. Com o nome preenchido, ele se recusa a subir se o token for de outro canal.",
 
  "fuso": "America/New_York",
- "hora_local": 19,
- "_hora_obs": "19h de Nova York, ajustado sozinho no horario de verao.",
+ "horas_locais": [12, 19],
+ "_horas_obs": "DOIS videos por dia: meio-dia e 19h de Nova York. Ajusta sozinho no horario de verao. Para voltar a 1 por dia, deixe so uma hora na lista.",
 
  "token_var": "YT_REFRESH_TOKEN_SURVIVAL",
  "voz": "Algenib",
@@ -19,8 +19,8 @@
 
  "categoria": "24",
  "crf": "26",
- "fila": 2,
- "_fila_obs": "Se ja houver 2 videos agendados no futuro, nao produz nada hoje.",
+ "fila": 4,
+ "_fila_obs": "Se ja houver 4 videos agendados no futuro (= 2 dias de conteudo), nao produz nada hoje.",
 
  "pasta_videos_var": "SV_VIDEOS",
  "pasta_videos": ""

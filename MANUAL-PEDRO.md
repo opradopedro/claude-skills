@@ -7,12 +7,32 @@ sozinhos todos os dias.
 |---|---|---|
 | Nome sugerido | **Signal Lost** | **Old Tales Retold** |
 | Assunto | terror realista de sobrevivencia, em series de 3 a 4 partes | historias classicas (Shakespeare, Poe, Odisseia) narradas |
-| Hora de publicar | 19h de Nova York | meio-dia de Nova York |
+| Hora de publicar | meio-dia **e** 19h de Nova York | meio-dia **e** 19h de Nova York |
+| Quantos por dia | 2 | 2 |
 | Pasta | `skills/canal-survival` | `skills/canal-classics` |
 | Codigo dos videos | SV001, SV002... | CL001, CL002... |
 
+**São 4 vídeos por dia no total.** Uma série de 4 partes sai em 2 dias (duas partes por dia).
+
 Os dois reaproveitam o motor **ja testado** do seu canal Hora Muerta. **Nenhum arquivo dos seus
 canais atuais foi alterado** — eles continuam funcionando exatamente como antes.
+
+---
+
+## O Crew nao tem esta conversa (e normal)
+
+O chat do navegador e o Crew no seu PC sao **dois lugares diferentes**. O Crew acabou de ser instalado:
+ele nao conhece nada do que a gente combinou, e nao da para "mudar" esta conversa para la.
+
+O que passa de um para o outro sao os **arquivos**, pelo GitHub. Toda a combinacao esta escrita neste
+manual e nos arquivos da branch `canais-teste-en` — e o Crew le tudo isso.
+
+Para colocar o Crew a par, cole isto no chat dele:
+
+> Leia o arquivo MANUAL-PEDRO.md e os SKILL.md das pastas skills/canal-survival e
+> skills/canal-classics na branch canais-teste-en do repositorio C:\claude-skills.
+> Eles explicam dois canais de YouTube em ingles que postam sozinhos. Me diga em que etapa
+> do manual eu estou e qual e o proximo passo.
 
 ---
 
@@ -142,14 +162,16 @@ Quando o teste estiver bom, a gente liga o despertador. Cole no chat do Crew:
 
 > Copie o arquivo C:\claude-skills\crew\rodar_canal.py para a pasta de receitas do Crew
 > (%USERPROFILE%\.kiro\crew\crons\). Depois crie duas tarefas agendadas do tipo script:
-> uma chamada "survival" rodando rodar_canal.py:run_survival todo dia as 14h no fuso America/New_York,
-> e outra chamada "classics" rodando rodar_canal.py:run_classics todo dia as 7h no mesmo fuso.
-> As duas com contexto minimo, sessao nao persistente e prazo de 5400 segundos.
+> uma chamada "survival" rodando rodar_canal.py:run_survival todo dia as 2h no fuso America/New_York,
+> e outra chamada "classics" rodando rodar_canal.py:run_classics todo dia as 6h no mesmo fuso.
+> As duas com contexto minimo, sessao nao persistente e prazo de 10800 segundos.
 > Depois me mostre a lista de tarefas agendadas.
 
-**Por que produzir de manha e publicar de tarde?** Porque fazer o video demora. O programa produz com
-varias horas de antecedencia e deixa o video **agendado** no YouTube para a hora certa. Assim, se der
-algum problema, ha tempo de consertar antes de ir ao ar.
+**Por que produzir de madrugada e publicar de dia?** Porque fazer o video demora. Cada parte leva de 15
+a 25 minutos, e o programa produz a serie **inteira** de uma vez — uma serie de 4 partes passa de uma
+hora de computador. Produzindo as 2h e as 6h de Nova York, os dois canais nao se atropelam e sobra
+folga ate a primeira publicacao do meio-dia. O video entra **agendado** no YouTube para a hora certa,
+entao se der problema ha tempo de consertar antes de ir ao ar.
 
 **Trava de seguranca:** o video entra no YouTube como **privado com hora marcada**. Voce pode entrar no
 YouTube Studio e apagar antes da hora se nao gostar. Voce tem a palavra final sempre.
@@ -207,6 +229,23 @@ uma unica vez.
 corredor, relogio, olhos, janela, vela, espelho, estrada, onibus, rio, e mais). Enquanto as historias
 usarem so essas, cada video novo e quase gratis. Foi assim que eu escrevi a serie do elevador: zero
 codigo novo.
+
+### A conta de 4 videos por dia (leia antes de ligar)
+
+Quatro videos por dia sao **28 por semana**. Em series de 4 partes, isso da **7 series novas por
+semana** — umas 3 ou 4 em cada canal. E a unica parte que custa credito, e e bastante escrita.
+
+Minha sugestao: **comece com 1 por dia em cada canal** nas duas primeiras semanas, veja o que o
+publico responde, e so entao dobre. Para voltar para 1 por dia, e uma linha: no `canal.json`, troque
+
+```
+"horas_locais": [12, 19]     para     "horas_locais": [19]
+```
+
+E tem um limite tecnico a vigiar: a voz do Gemini no plano gratis da **10 narracoes por dia**. Uma
+serie de 4 partes gasta 4. Se os dois canais produzirem series de 4 partes no mesmo dia, sao 8 — perto
+do teto. Se estourar, o programa **para sem publicar** e avisa `VOZ FALHOU`; no dia seguinte funciona.
+Nao perde nada, so atrasa. Foi por isso que separei a producao dos dois canais em horarios diferentes.
 
 ---
 

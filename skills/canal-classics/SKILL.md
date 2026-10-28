@@ -9,7 +9,8 @@ Canal faceless de Shorts em ingles que conta **historias que ja existem**: trage
 cantos da Odisseia, contos de Poe, mitos gregos e nordicos, lendas arturianas. A historia nao e
 inventada — o trabalho e **cortar ao essencial, narrar bem e animar a cena**.
 
-- Publicacao: 1 parte por dia ao **meio-dia de Nova York** (o motor acerta o horario de verao sozinho).
+- Publicacao: **2 partes por dia**, ao **meio-dia** e as **19h de Nova York** (o motor acerta o horario
+  de verao sozinho). Uma obra em 4 partes sai em 2 dias.
 - Vantagem sobre inventar historia: o roteiro e **adaptacao**, nao criacao. Sai mais rapido, erra menos
   e os temas nunca acabam. Obra em dominio publico: sem problema de direito autoral.
 - Nunca marcado como feito para criancas. Categoria 24, idioma `en`.
@@ -46,8 +47,9 @@ Nao comece pela Odisseia: ela e a que exige mais codigo novo. Comece por Macbeth
 
 ## Escrever um roteiro novo
 
-Mesmo formato do `canal-survival` (ver o SKILL.md dele para os campos, as pecas de cena e os efeitos).
-Diferencas deste canal:
+Mesmo formato do `canal-survival` (ver o SKILL.md dele para os campos, as pecas de cena, os efeitos e
+o marcador `{when_next}` — use sempre ele, nunca escreva "tomorrow" na mao, porque com duas
+publicacoes por dia a parte seguinte pode sair no mesmo dia). Diferencas deste canal:
 
 - **Serie de 2 a 4 partes** por obra. Uma tragedia inteira nao cabe em 50 s: corte em atos.
   Ex.: Macbeth em 3 partes (a profecia / o assassinato / a queda).

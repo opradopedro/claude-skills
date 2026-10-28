@@ -10,8 +10,9 @@ Canal faceless de Shorts em ingles. **Nao** e terror sobrenatural de lenda: e te
 plausivel. Cada historia e uma **serie de 3 a 4 partes** contada em primeira pessoa por um
 sobrevivente, como se fosse um relato gravado.
 
-- Publicacao: 1 parte por dia as **19h de Nova York** (o motor converte para UTC e acerta sozinho
-  no horario de verao). Agendado como privado com `publishAt`: o Pedro pode vetar no YouTube Studio antes da hora.
+- Publicacao: **2 partes por dia**, ao **meio-dia** e as **19h de Nova York** (o motor converte para UTC
+  e acerta sozinho no horario de verao). Agendado como privado com `publishAt`: o Pedro pode vetar no
+  YouTube Studio antes da hora. Uma serie de 4 partes sai em 2 dias.
 - Nunca marcado como feito para criancas. Publico 16+. Sem sangue, sem gore.
 - Custo zero de ferramenta: cenas desenhadas em codigo, voz Gemini TTS no plano gratis, YouTube Data API.
 
@@ -89,11 +90,23 @@ Um arquivo por parte: `stories/NNN-slug-P.json` (NNN = numero seguido, P = parte
 Modelo completo e testado: a serie `elevator` (`001` a `004`).
 
 - **Parte 1** (40 a 55 s): gancho forte na primeira frase, a situacao cresce e **para no pior momento**.
-  A ultima frase e sempre `"Part two, tomorrow, {next_day}."` com a cena
-  `{"comp": "texto", "p": {"lineas": ["PART 2", "Tomorrow \u00b7 {next_date}"]}}`.
-  Na descricao: `> Part 2: tomorrow, {next_date}.`
-  O motor troca `{next_day}` ("Thursday") e `{next_date}` ("Thursday, October 29") pelo dia em que a
-  proxima parte sai. **Nunca falar horario** (o publico esta em vários fusos).
+  A ultima frase e sempre `"Part two, {when_next}."` com a cena
+  `{"comp": "texto", "p": {"lineas": ["PART 2", "{next_card}"]}}`.
+  Na descricao: `> Part 2: {when_next}.`
+
+  **Use sempre `{when_next}`, nunca escreva "tomorrow" na mao.** O canal publica duas vezes por dia
+  (meio-dia e 19h), entao a parte seguinte pode sair no MESMO dia — "tomorrow" seria mentira.
+  O motor calcula a frase certa sozinho:
+
+  | Quando a proxima parte sai | `{when_next}` | `{next_card}` |
+  |---|---|---|
+  | mais tarde no mesmo dia, de noite | `tonight` | `TONIGHT` |
+  | mais tarde no mesmo dia, de dia | `later today` | `LATER TODAY` |
+  | no dia seguinte | `tomorrow, Thursday` | `TOMORROW` |
+  | depois disso | `on Thursday, November 5` | `THURSDAY` |
+
+  Tambem existem `{next_day}` ("Thursday") e `{next_date}` ("Thursday, October 29") se precisar da
+  data pura. **Nunca falar hora do dia** (o publico esta em varios fusos).
 - **Partes 2 em diante:** comecam com `"Part two."` + uma frase que relembra onde parou.
   A ultima parte fecha com a reviravolta explicada e a regra.
 - Campos de serie em todas as partes: `"serie"`, `"serie_titulo"` (vira playlist), `"parte"`,

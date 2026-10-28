@@ -8,7 +8,7 @@
  "anterior": "SV002",
  "titulo": "It knocked exactly like my sister 😰 Part 3 #horror #shorts",
  "capa": "IT USED HER VOICE",
- "descripcion": "The broadcast said: not even for a voice you know. On the third night, I found out why.\n\n> Part 4: tomorrow, {next_date}.\nHow do you think it learned her voice?\n\nNarrated fiction. New part every day.\n#horror #horrorstories #scarystories #survival #creepypasta",
+ "descripcion": "The broadcast said: not even for a voice you know. On the third night, I found out why.\n\n> Part 4: {when_next}.\nHow do you think it learned her voice?\n\nNarrated fiction. New part twice a day.\n#horror #horrorstories #scarystories #survival #creepypasta",
  "tags": [
   "horror stories",
   "scary stories",
@@ -60,7 +60,7 @@
    "vel": 0.82
   },
   {
-   "texto": "Part four, tomorrow, {next_day}.",
+   "texto": "Part four, {when_next}.",
    "pausa": 0.3,
    "vel": 0.88
   }
@@ -130,7 +130,7 @@
    "p": {
     "lineas": [
      "PART 4",
-     "Tomorrow \u00b7 {next_date}"
+     "{next_card}"
     ]
    }
   }

@@ -7,7 +7,7 @@
  "partes": 4,
  "titulo": "Something knocked on the elevator door 😨 Part 1 #horror #shorts",
  "capa": "SIX HOURS IN THE DARK",
- "descripcion": "The power died at 9:40. Six hours later, something knocked three times.\n\n> Part 2: tomorrow, {next_date}.\nWould you have opened the door?\n\nNarrated fiction. New part every day.\n#horror #horrorstories #scarystories #survival #creepypasta",
+ "descripcion": "The power died at 9:40. Six hours later, something knocked three times.\n\n> Part 2: {when_next}.\nWould you have opened the door?\n\nNarrated fiction. New part twice a day.\n#horror #horrorstories #scarystories #survival #creepypasta",
  "tags": [
   "horror stories",
   "scary stories",
@@ -57,7 +57,7 @@
    "vel": 0.8
   },
   {
-   "texto": "Part two, tomorrow, {next_day}.",
+   "texto": "Part two, {when_next}.",
    "pausa": 0.3,
    "vel": 0.88
   }
@@ -114,7 +114,7 @@
    "p": {
     "lineas": [
      "PART 2",
-     "Tomorrow \u00b7 {next_date}"
+     "{next_card}"
     ]
    }
   }

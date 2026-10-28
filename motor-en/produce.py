@@ -48,9 +48,12 @@ def ler_canal(pasta):
     c["stories"] = os.path.join(pasta, "stories")
     c.setdefault("idioma", "en")
     c.setdefault("fuso", "America/New_York")
-    c.setdefault("hora_local", 19)
+    # horas de publicacao no dia (lista). Aceita "hora_local" antigo (uma hora so).
+    if not c.get("horas_locais"):
+        c["horas_locais"] = [int(c.get("hora_local", 19))]
+    c["horas_locais"] = sorted(int(h) for h in c["horas_locais"])
     c.setdefault("categoria", "24")
-    c.setdefault("fila", 2)
+    c.setdefault("fila", 2 * len(c["horas_locais"]))
     c.setdefault("crf", "26")
     c.setdefault("voz_tempo", "0.9")
     for k in ("prefixo", "token_var"):
@@ -76,22 +79,54 @@ def run(*cmd):
 
 
 def proximo_horario(c, ocupados):
-    """Proximo dia livre na hora local do canal, devolvido em UTC (como a API do YouTube quer)."""
+    """Proximo horario livre do canal, devolvido em UTC (como a API do YouTube quer).
+
+    O canal pode ter mais de uma hora de publicacao por dia (ex. 12h e 19h): percorre
+    dia por dia, hora por hora, e devolve o primeiro vago com pelo menos 2h de folga.
+    """
     tz = fuso(c["fuso"])
     agora = dt.datetime.now(dt.timezone.utc)
-    local = agora.astimezone(tz).replace(hour=int(c["hora_local"]), minute=0, second=0, microsecond=0)
-    while True:
-        utc = local.astimezone(dt.timezone.utc)
-        if utc > agora + dt.timedelta(hours=2) and utc.strftime("%Y-%m-%dT%H") not in ocupados:
-            return utc.strftime("%Y-%m-%dT%H:%M:%SZ")
-        local += dt.timedelta(days=1)
+    dia = agora.astimezone(tz).replace(hour=0, minute=0, second=0, microsecond=0)
+    for _ in range(366):
+        for h in c["horas_locais"]:
+            utc = dia.replace(hour=h).astimezone(dt.timezone.utc)
+            if utc > agora + dt.timedelta(hours=2) and utc.strftime("%Y-%m-%dT%H") not in ocupados:
+                return utc.strftime("%Y-%m-%dT%H:%M:%SZ")
+        dia += dt.timedelta(days=1)
+    sys.exit("SEM HORARIO LIVRE no proximo ano (fila muito cheia?)")
+
+
+def hora_local_de(c, slot):
+    """Converte um horario UTC para o fuso do canal."""
+    return dt.datetime.strptime(slot, "%Y-%m-%dT%H:%M:%SZ").replace(
+        tzinfo=dt.timezone.utc).astimezone(fuso(c["fuso"]))
 
 
 def dia_local(c, slot):
     """Dia da semana e data de um horario UTC, no fuso do canal."""
-    tz = fuso(c["fuso"])
-    d = dt.datetime.strptime(slot, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc).astimezone(tz)
+    d = hora_local_de(c, slot)
     return DIAS_EN[d.weekday()], d.day, MESES_EN[d.month - 1]
+
+
+def quando_sai(c, slot_atual, slot_seguinte):
+    """Como a parte atual deve se referir a parte seguinte.
+
+    Com duas publicacoes por dia, a parte 2 pode sair NO MESMO DIA da parte 1: dizer
+    "tomorrow" seria mentira. Devolve a frase certa para cada caso.
+    """
+    prox = hora_local_de(c, slot_seguinte)
+    dia_sem, n, mes = DIAS_EN[prox.weekday()], prox.day, MESES_EN[prox.month - 1]
+    dif = (prox.date() - hora_local_de(c, slot_atual).date()).days
+    if dif <= 0:
+        frase, cartao = ("tonight", "TONIGHT") if prox.hour >= 17 else ("later today", "LATER TODAY")
+    elif dif == 1:
+        frase, cartao = f"tomorrow, {dia_sem}", "TOMORROW"
+    else:
+        frase, cartao = f"on {dia_sem}, {mes} {n}", dia_sem.upper()
+    return {"{when_next}": frase, "{next_card}": cartao, "{next_day}": dia_sem,
+            "{next_date}": f"{dia_sem}, {mes} {n}",
+            # compatibilidade com os marcadores em espanhol do canal-terror
+            "{dia_siguiente}": dia_sem, "{fecha_siguiente}": f"{dia_sem}, {mes} {n}"}
 
 
 def serie_de(f):
@@ -99,14 +134,12 @@ def serie_de(f):
     return h.get("serie", h["codigo"]), h.get("parte", 1)
 
 
-def preencher(c, historia, slot_seguinte, saida):
-    """Troca os marcadores do dia da proxima parte e grava uma copia (nunca mexe no original)."""
+def preencher(c, historia, slot_atual, slot_seguinte, saida):
+    """Troca os marcadores da proxima parte e grava uma copia (nunca mexe no original)."""
     if not slot_seguinte:
         return historia
-    dia, n, mes = dia_local(c, slot_seguinte)
+    trocas = quando_sai(c, slot_atual, slot_seguinte)
     txt = open(historia, encoding="utf-8").read()
-    trocas = {"{next_day}": dia, "{next_date}": f"{dia}, {mes} {n}",
-              "{dia_siguiente}": dia, "{fecha_siguiente}": f"{dia}, {mes} {n}"}
     if not any(k in txt for k in trocas):
         return historia
     for k, v in trocas.items():
@@ -245,7 +278,7 @@ def main():
         seguinte = slots[k + 1] if k + 1 < len(slots) else (
             dt.datetime.strptime(slots[k], "%Y-%m-%dT%H:%M:%SZ") + dt.timedelta(days=1)
         ).strftime("%Y-%m-%dT%H:%M:%SZ")
-        historia = preencher(c, historia, seguinte, a.saida)
+        historia = preencher(c, historia, slots[k], seguinte, a.saida)
         h = carregar(historia)
         cod = h["codigo"]
         if not cod.startswith(c["prefixo"]):

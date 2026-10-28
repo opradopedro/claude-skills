@@ -8,7 +8,7 @@
  "anterior": "SV001",
  "titulo": "The government told me not to open it 📵 Part 2 #horror #shorts",
  "capa": "DO NOT OPEN IT",
- "descripcion": "My hand was on the latch. Then my phone found one bar of signal.\n\n> Part 3: tomorrow, {next_date}.\nWhy do you think the crying stopped?\n\nNarrated fiction. New part every day.\n#horror #horrorstories #scarystories #survival #creepypasta",
+ "descripcion": "My hand was on the latch. Then my phone found one bar of signal.\n\n> Part 3: {when_next}.\nWhy do you think the crying stopped?\n\nNarrated fiction. New part twice a day.\n#horror #horrorstories #scarystories #survival #creepypasta",
  "tags": [
   "horror stories",
   "scary stories",
@@ -59,7 +59,7 @@
    "vel": 0.8
   },
   {
-   "texto": "Part three, tomorrow, {next_day}.",
+   "texto": "Part three, {when_next}.",
    "pausa": 0.3,
    "vel": 0.88
   }
@@ -128,7 +128,7 @@
    "p": {
     "lineas": [
      "PART 3",
-     "Tomorrow \u00b7 {next_date}"
+     "{next_card}"
     ]
    }
   }
