@@ -1,0 +1,397 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v50_trilha_justice_50_faixas.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+   "start": 0.0,
+   "end": 2.324,
+   "layout": "full",
+   "cx": 0.585,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_025.mp4",
+   "start": 2.324,
+   "end": 3.648,
+   "layout": "full",
+   "cx": 0.598,
+   "pan": -1,
+   "ss": 1.99
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_005.mp4",
+   "start": 3.648,
+   "end": 6.106,
+   "layout": "full",
+   "cx": 0.516,
+   "pan": 1,
+   "ss": 0.53
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_151.mp4",
+   "start": 6.106,
+   "end": 7.554,
+   "layout": "full",
+   "cx": 0.729,
+   "pan": -1,
+   "ss": 0.15
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_346.mp4",
+   "start": 7.554,
+   "end": 10.679,
+   "layout": "full",
+   "cx": 0.749,
+   "pan": 1,
+   "ss": 0.29
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+   "start": 10.679,
+   "end": 12.503,
+   "layout": "full",
+   "cx": 0.309,
+   "pan": -1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+   "start": 12.503,
+   "end": 14.413,
+   "layout": "full",
+   "cx": 0.735,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_206.mp4",
+   "start": 14.413,
+   "end": 16.636,
+   "layout": "full",
+   "cx": 0.605,
+   "pan": -1,
+   "ss": 0.92
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+   "start": 16.636,
+   "end": 18.459,
+   "layout": "full",
+   "cx": 0.805,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 18.459,
+   "end": 20.399,
+   "layout": "full",
+   "cx": 0.178,
+   "pan": -1,
+   "ss": 0.01
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_040.mp4",
+   "start": 20.399,
+   "end": 22.135,
+   "layout": "full",
+   "cx": 0.651,
+   "pan": 1,
+   "ss": 0.27
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_227.mp4",
+   "start": 22.135,
+   "end": 23.999,
+   "layout": "full",
+   "cx": 0.707,
+   "pan": -1,
+   "ss": 1.51
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_167.mp4",
+   "start": 23.999,
+   "end": 25.439,
+   "layout": "full",
+   "cx": 0.566,
+   "pan": 1,
+   "ss": 1.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_330.mp4",
+   "start": 25.439,
+   "end": 27.615,
+   "layout": "full",
+   "cx": 0.438,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_042.mp4",
+   "start": 27.615,
+   "end": 30.406,
+   "layout": "full",
+   "cx": 0.356,
+   "pan": 1,
+   "ss": 0.06
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+   "start": 30.406,
+   "end": 31.728,
+   "layout": "full",
+   "cx": 0.697,
+   "pan": -1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_103.mp4",
+   "start": 31.728,
+   "end": 33.189,
+   "layout": "full",
+   "cx": 0.29,
+   "pan": 1,
+   "ss": 0.86
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_209.mp4",
+   "start": 33.189,
+   "end": 34.734,
+   "layout": "full",
+   "cx": 0.937,
+   "pan": -1,
+   "ss": 0.08
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_364.mp4",
+   "start": 34.734,
+   "end": 36.616,
+   "layout": "full",
+   "cx": 0.436,
+   "pan": 1,
+   "ss": 1.25
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.4,
+   "text": "MANO",
+   "hl": false
+  },
+  {
+   "start": 0.4,
+   "end": 2.324,
+   "text": "APARECEU NA APPLE MUSIC",
+   "hl": false
+  },
+  {
+   "start": 2.324,
+   "end": 3.648,
+   "text": "A TRILHA ORIGINAL",
+   "hl": false
+  },
+  {
+   "start": 3.648,
+   "end": 4.593,
+   "text": "DE GTA 6",
+   "hl": true
+  },
+  {
+   "start": 4.593,
+   "end": 6.106,
+   "text": "FEITA PELO JUSTICE",
+   "hl": false
+  },
+  {
+   "start": 6.106,
+   "end": 7.554,
+   "text": "VAI TER 50 FAIXAS",
+   "hl": true
+  },
+  {
+   "start": 7.554,
+   "end": 8.429,
+   "text": "O ÁLBUM CHEGA",
+   "hl": false
+  },
+  {
+   "start": 8.429,
+   "end": 10.679,
+   "text": "NAS PLATAFORMAS 11 DE DEZEMBRO",
+   "hl": true
+  },
+  {
+   "start": 10.679,
+   "end": 11.601,
+   "text": "TRÊS SEMANAS DEPOIS",
+   "hl": false
+  },
+  {
+   "start": 11.601,
+   "end": 12.503,
+   "text": "DO JOGO",
+   "hl": false
+  },
+  {
+   "start": 12.503,
+   "end": 13.419,
+   "text": "E TEM MAIS",
+   "hl": false
+  },
+  {
+   "start": 13.419,
+   "end": 14.413,
+   "text": "NA VIRADA PRA",
+   "hl": false
+  },
+  {
+   "start": 14.413,
+   "end": 14.811,
+   "text": "QUINTA",
+   "hl": false
+  },
+  {
+   "start": 14.811,
+   "end": 15.535,
+   "text": "DIA 29",
+   "hl": true
+  },
+  {
+   "start": 15.535,
+   "end": 16.636,
+   "text": "SAI PUSHER",
+   "hl": false
+  },
+  {
+   "start": 16.636,
+   "end": 17.434,
+   "text": "UMA FAIXA DO",
+   "hl": false
+  },
+  {
+   "start": 17.434,
+   "end": 18.459,
+   "text": "JUSTICE COM O",
+   "hl": false
+  },
+  {
+   "start": 18.459,
+   "end": 19.347,
+   "text": "GESAFFELSTEIN",
+   "hl": false
+  },
+  {
+   "start": 19.347,
+   "end": 20.399,
+   "text": "AQUELE FRANCÊS DO",
+   "hl": false
+  },
+  {
+   "start": 20.399,
+   "end": 21.276,
+   "text": "SOM PESADO E",
+   "hl": false
+  },
+  {
+   "start": 21.276,
+   "end": 22.135,
+   "text": "SOMBRIO",
+   "hl": false
+  },
+  {
+   "start": 22.135,
+   "end": 23.209,
+   "text": "PENSA COMIGO",
+   "hl": false
+  },
+  {
+   "start": 23.209,
+   "end": 23.999,
+   "text": "ESSA É A",
+   "hl": false
+  },
+  {
+   "start": 23.999,
+   "end": 25.439,
+   "text": "MÚSICA DAS MISSÕES",
+   "hl": false
+  },
+  {
+   "start": 25.439,
+   "end": 26.603,
+   "text": "NÃO DAS RÁDIOS",
+   "hl": false
+  },
+  {
+   "start": 26.603,
+   "end": 27.615,
+   "text": "AS RÁDIOS GANHARAM",
+   "hl": false
+  },
+  {
+   "start": 27.615,
+   "end": 28.535,
+   "text": "OUTRO ÁLBUM",
+   "hl": false
+  },
+  {
+   "start": 28.535,
+   "end": 30.406,
+   "text": "DE 34 FAIXAS",
+   "hl": true
+  },
+  {
+   "start": 30.406,
+   "end": 30.972,
+   "text": "E AÍ",
+   "hl": false
+  },
+  {
+   "start": 30.972,
+   "end": 31.728,
+   "text": "VOCÊ VAI OUVIR",
+   "hl": false
+  },
+  {
+   "start": 31.728,
+   "end": 32.334,
+   "text": "ANTES OU SÓ",
+   "hl": false
+  },
+  {
+   "start": 32.334,
+   "end": 33.189,
+   "text": "JOGANDO?",
+   "hl": false
+  },
+  {
+   "start": 33.189,
+   "end": 33.751,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 33.751,
+   "end": 34.734,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 34.734,
+   "end": 35.514,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 35.514,
+   "end": 36.216,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}

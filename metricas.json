@@ -1657,17 +1657,17 @@
   "publicado": "2026-10-27T00:09:34.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1339,
+   "playCount": 1343,
    "likeCount": 28,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 14955,
-   "avgWatchedPct": 48.24,
+   "avgWatchTimeMs": 14962,
+   "avgWatchedPct": 48.26451612903226,
    "skipRate": 31.6,
    "durationSeconds": 31,
-   "coletado": "2026-10-28T15:00Z",
-   "horas": 38.8
+   "coletado": "2026-10-28T20:55Z",
+   "horas": 44.8
   },
   "h24": {
    "playCount": 1339,
@@ -1687,51 +1687,81 @@
   "publicado": "2026-10-27T15:13:35.000Z",
   "legenda": "GTA 6 nem lançou e já tá fazendo outros jogos fugirem",
   "atual": {
-   "playCount": 1297,
+   "playCount": 1299,
    "likeCount": 43,
    "commentCount": 0,
    "shares": 6,
    "saves": 0,
-   "avgWatchTimeMs": 12956,
-   "avgWatchedPct": 33.22,
+   "avgWatchTimeMs": 12947,
+   "avgWatchedPct": 33.197435897435895,
    "skipRate": 35,
    "durationSeconds": 39,
-   "coletado": "2026-10-28T15:00Z",
-   "horas": 23.8
+   "coletado": "2026-10-28T20:55Z",
+   "horas": 29.7
+  },
+  "h24": {
+   "playCount": 1299,
+   "likeCount": 43,
+   "commentCount": 0,
+   "shares": 6,
+   "saves": 0,
+   "avgWatchTimeMs": 12947,
+   "avgWatchedPct": 33.197435897435895,
+   "skipRate": 35,
+   "durationSeconds": 39,
+   "coletado": "2026-10-28T20:55Z",
+   "horas": 29.7
   }
  },
  "DfA0VzqASHS": {
   "publicado": "2026-10-27T21:26:36.000Z",
   "legenda": "GTA 6 vai pedir 210 GB livres no PS5",
   "atual": {
-   "playCount": 1440,
+   "playCount": 1457,
    "likeCount": 53,
    "commentCount": 0,
    "shares": 17,
    "saves": 3,
-   "avgWatchTimeMs": 13679,
-   "avgWatchedPct": 35.997,
-   "skipRate": 37.6,
+   "avgWatchTimeMs": 13644,
+   "avgWatchedPct": 35.90526315789474,
+   "skipRate": 37.8,
    "durationSeconds": 38,
-   "coletado": "2026-10-28T15:00Z",
-   "horas": 17.6
+   "coletado": "2026-10-28T20:55Z",
+   "horas": 23.5
   }
  },
  "DfBGKv3IIsZ": {
   "publicado": "2026-10-28T00:01:31.000Z",
   "legenda": "GTA 6 no PC pode chegar bem antes do que você imagina 🖥️",
   "atual": {
-   "playCount": 385,
-   "likeCount": 12,
+   "playCount": 458,
+   "likeCount": 17,
    "commentCount": 0,
    "shares": 3,
-   "saves": 0,
-   "avgWatchTimeMs": 9067,
-   "avgWatchedPct": 22.6675,
-   "skipRate": 49,
+   "saves": 2,
+   "avgWatchTimeMs": 9155,
+   "avgWatchedPct": 22.8875,
+   "skipRate": 49.3,
    "durationSeconds": 40,
-   "coletado": "2026-10-28T15:00Z",
-   "horas": 15.0
+   "coletado": "2026-10-28T20:55Z",
+   "horas": 20.9
+  }
+ },
+ "DfCwKjElOi0": {
+  "publicado": "2026-10-28T15:28:02.000Z",
+  "legenda": "GTA 6 tá tão blindado que cada cópia da imprensa vem com o nome do jornalista na",
+  "atual": {
+   "playCount": 1309,
+   "likeCount": 40,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 3,
+   "avgWatchTimeMs": 14505,
+   "avgWatchedPct": 40.291666666666664,
+   "skipRate": 33.7,
+   "durationSeconds": 36,
+   "coletado": "2026-10-28T20:55Z",
+   "horas": 5.5
   }
  }
 }

@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 28/10/2026 12:00 (Brasília) com 47 Reels com nota. Média geral: 59.8/100.
+Atualizado em 28/10/2026 17:55 (Brasília) com 47 Reels com nota. Média geral: 59.8/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -19,10 +19,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | gameplay | 2 | 68.8 | 64.3 |  |
 | premiacao | 1 | 73.2 | 64.3 |  |
-| alerta/utilidade | 3 | 67.3 | 64.3 |  |
+| alerta/utilidade | 3 | 67.2 | 64.3 |  |
 | bastidores/desenvolvimento | 1 | 72.1 | 63.9 |  |
 | preco_compra | 2 | 67.6 | 63.7 |  |
-| noticia/mercado | 1 | 71.1 | 63.6 |  |
+| noticia/mercado | 1 | 71.0 | 63.5 |  |
 | curiosidade/economia | 1 | 70.7 | 63.4 |  |
 | gameplay/mapa | 1 | 69.0 | 62.9 |  |
 | lista/personagens | 1 | 68.9 | 62.8 |  |
@@ -55,7 +55,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | comparacao | 3 | 70.4 | 66.1 |  |
 | noticia | 5 | 66.0 | 64.2 |  |
-| numero chocante | 3 | 65.0 | 62.9 |  |
+| numero chocante | 3 | 64.9 | 62.9 |  |
 | pergunta | 5 | 63.4 | 62.4 |  |
 | votacao | 1 | 66.5 | 62.0 |  |
 | rumor + oficial | 1 | 65.0 | 61.5 |  |
@@ -79,9 +79,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Kotaku 15/10 (FAQ do The Game Awards) | 1 | 73.2 | 64.3 |  |
 | noticia (Rob Nelson via IGN/Insider Gaming) | 1 | 72.9 | 64.2 |  |
 | GTA BOOM 22/10 (Rob Nelson, Jennifer Kolbe) | 1 | 72.1 | 63.9 |  |
-| GamingBible 27/10 (Emberville), MP1st (Fable fev/2027), Lords of the Fallen II e Squadron 42 adiados p/ 2027 | 1 | 71.1 | 63.6 |  |
-| VGTimes 27/10 (PlayStation Game Size, banco da PSN) | 1 | 70.8 | 63.5 |  |
+| GamingBible 27/10 (Emberville), MP1st (Fable fev/2027), Lords of the Fallen II e Squadron 42 adiados p/ 2027 | 1 | 71.0 | 63.5 |  |
 | IBTimes UK (José García Montalvo, Universidade Pompeu Fabra) | 1 | 70.7 | 63.4 |  |
+| VGTimes 27/10 (PlayStation Game Size, banco da PSN) | 1 | 70.7 | 63.4 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 69.0 | 62.9 |  |
 | site oficial da Rockstar (via Push Square) | 1 | 68.9 | 62.8 |  |
 | Game Informer via Dexerto 29/09 | 1 | 68.5 | 62.7 |  |
@@ -122,7 +122,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | 12h | 15 | 61.2 | 61.0 |  |
 | 21h | 14 | 60.7 | 60.6 |  |
-| 18h | 18 | 58.0 | 58.1 |  |
+| 18h | 18 | 57.9 | 58.1 |  |
 
 ## Reels
 
@@ -134,9 +134,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-12 | [DeZjgTSD3Aw](https://www.instagram.com/reel/DeZjgTSD3Aw/) | corte | preco_compra | comparacao | 1237 | 35.7% | 42% | 44 | 0 | 2 | 1 | 72.9 (h24) |
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
 | 2026-10-25 | [De787TrEaru](https://www.instagram.com/reel/De787TrEaru/) | corte | bastidores/desenvolvimento | revelacao | 1281 | 38.8% | 43% | 39 | 1 | 3 | 1 | 72.1 (h24) |
-| 2026-10-27 | [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/) | corte | noticia/mercado | revelacao | 1297 | 35% | 33% | 43 | 0 | 0 | 6 | 71.1 (provisória) |
-| 2026-10-27 | [DfA0VzqASHS](https://www.instagram.com/reel/DfA0VzqASHS/) | corte | alerta/utilidade | numero chocante | 1440 | 37.6% | 36% | 53 | 0 | 3 | 17 | 70.8 (provisória) |
+| 2026-10-27 | [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/) | corte | noticia/mercado | revelacao | 1299 | 35% | 33% | 43 | 0 | 0 | 6 | 71.0 (h24) |
 | 2026-10-22 | [De0NOukCfyi](https://www.instagram.com/reel/De0NOukCfyi/) | corte | curiosidade/economia | numero chocante | 1450 | 38.9% | 37% | 43 | 1 | 0 | 6 | 70.7 (h72) |
+| 2026-10-27 | [DfA0VzqASHS](https://www.instagram.com/reel/DfA0VzqASHS/) | corte | alerta/utilidade | numero chocante | 1457 | 37.8% | 36% | 53 | 0 | 3 | 17 | 70.7 (provisória) |
 | 2026-10-13 | [DectbiBAgte](https://www.instagram.com/reel/DectbiBAgte/) | corte | gameplay | comparacao | 1329 | 38.3% | 33% | 52 | 0 | 0 | 0 | 69.2 (h24) |
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 826 | 39.6% | 31% | 26 | 0 | 3 | 4 | 69.0 (h24) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 68.9 (h72) |
@@ -150,7 +150,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-14 | [DefSM3xFcrX](https://www.instagram.com/reel/DefSM3xFcrX/) | corte | vazamentos | votacao | 1453 | 30.6% | 49% | 25 | 7 | 0 | 0 | 66.5 (h72) |
 | 2026-10-23 | [De2xCB-lPHz](https://www.instagram.com/reel/De2xCB-lPHz/) | corte | musica/trilha | rumor + oficial | 870 | 40.3% | 26% | 23 | 0 | 3 | 0 | 65.0 (h72) |
 | 2026-10-20 | [Deuu91Skz6q](https://www.instagram.com/reel/Deuu91Skz6q/) | corte | bastidores | pergunta | 146 | 43.8% | 40% | 5 | 0 | 0 | 1 | 63.6 (h72) |
-| 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 385 | 49% | 23% | 12 | 0 | 0 | 3 | 63.5 (provisória) |
+| 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 458 | 49.3% | 23% | 17 | 0 | 2 | 3 | 63.5 (provisória) |
 | 2026-10-26 | [De-iSVCgMpg](https://www.instagram.com/reel/De-iSVCgMpg/) | corte | rumor/elenco | polemica | 1339 | 31.6% | 48% | 28 | 0 | 1 | 0 | 63.4 (h24) |
 | 2026-10-18 | [DeplZ4bk8TX](https://www.instagram.com/reel/DeplZ4bk8TX/) | corte | trailer | enquete | 151 | 31.5% | 42% | 5 | 0 | 0 | 0 | 63.3 (h72) |
 | 2026-10-24 | [De5YjsmD6Qp](https://www.instagram.com/reel/De5YjsmD6Qp/) | corte | alerta/utilidade | alerta | 1207 | 48.6% | 27% | 25 | 0 | 1 | 6 | 63.3 (h72) |
@@ -175,3 +175,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 35.5 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 32.1 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 28.9 (h24) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DfCwKjElOi0](https://www.instagram.com/reel/DfCwKjElOi0/): 5.5 h no ar, 1309 views, 33.7% pularam, 40% assistido, 40 curtidas
