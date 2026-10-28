@@ -18,7 +18,7 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [x] Underground bunker (YB010, ideia do Pedro no painel: Reel de 1M likes. Container esmagado, tubo corrugado, 3 pés de terra = 10 meias espessuras, entrada com curva de 90°, bomba de ar manual)
 - [ ] Driveway in a slope (lama, rampa, degraus de contenção, concreto com junta)
 - [ ] Pond with fish (buraco, vaza, manta, bomba, filtro biológico, plantas)
-- [ ] Tunnel under a river (vala, água entra, escudo, anéis de concreto)
+- [x] Tunnel under a river (YB016: túnel cavado alaga, escudo de Brunel com anéis, ar comprimido segura a água, operários com doença descompressiva, tuneladora com lama pressurizada na frente, anéis de concreto com borracha EPDM)
 - [ ] Skyscraper foundation in soft ground (afunda, radier, estacas, prédio flutua no lençol: âncoras)
 - [ ] Underwater tunnel by immersed tubes (vala dragada, tubo afunda, lastro, junta de borracha)
 - [ ] Dam (monte de terra, transborda, núcleo de argila, vertedouro)
@@ -58,6 +58,7 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 - [x] How a toilet flushes without a pump (YB013; nota 19/20)
 - [ ] How a traffic light knows a car is waiting (pesquisa 27/10: laço indutivo no asfalto, o metal do carro muda a indutância; moto e bicicleta às vezes não acionam; nota 17/20)
 - [x] Why containers don't fall off ships in a storm (YB014, pedido do Pedro 27/10: twist lock nas 4 quinas, barras de peação em X, pesados embaixo, rolagem de 30°, peso declarado errado)
+- [ ] How a TV remote talks to the TV (ideia do Pedro no painel 28/10: LED infravermelho pisca um código de pulsos, o sensor da TV decodifica, a câmera do celular mostra a luz invisível; nota 18/20, PRÓXIMA Curiosidade)
 - [ ] How escalator steps flatten at the top (pesquisa 27/10: cada degrau tem 2 pares de rodas em 2 trilhos; os trilhos se aproximam no topo e o degrau vira piso; nota 17/20)
 
 ## Pesquisa de 25/10 (Evolucao, nota curiosidade+surpresa+visual+cabe em 50 s, máx. 20)
@@ -81,3 +82,8 @@ Marque `[x]` quando o roteiro entrar em `stories/`. Um tema por roteiro, sem rep
 
 - Fatos conferidos do YB014: cada quina do conteiner tem uma cantoneira (corner casting) com furo oval; o twist lock entra no furo, gira 90° e prende as duas caixas; nas camadas de baixo, barras de peação (lashing rods) com esticadores vão da ponte de peação às quinas; os pesados ficam embaixo pela tabela de peso de pilha; peso declarado errado (VGM) e travas mal fechadas aparecem nas investigações de perdas (MAIB/Ever Smart, London P&I Club, Skuld, World Shipping Council). Navios rolam 30° ou mais em mar grosso (rolagem paramétrica).
 - Fatos conferidos do YB015: estabilidade depende de G (centro de gravidade) abaixo de M (metacentro); casco largo desloca o centro de empuxo B para o lado que afunda e cria o braço de endireitamento (GZ ~ GM·sen θ); lastro no fundo duplo abaixa G; tanque anti-rolagem em U (asas ligadas por duto) tem a água atrasada em relação à rolagem e amortece o balanço (Britannica, naval architecture/metacentric stability).
+
+## Pesquisa de 28/10 (Evolucao, nota curiosidade+surpresa+visual+cabe em 50 s, máx. 20)
+
+- Túnel sob o rio 18 (escolhido: YB016) · Arranha-céu em solo mole 17 (Torre Latinoamericana em 361 estacas de 33 m; Millennium Tower de SF afundou 40 cm) · Barragem 15 · Muro de arrimo 15 (água atrás do muro chega a dobrar o empuxo; barbacã e brita) · Rua sem buraco 15 · Poço artesiano 14 · Porão que não alaga 14 · Fundação de casa 14
+- Fatos conferidos do YB016: o Thames Tunnel de Brunel (1825-1843) usou o primeiro escudo de escavação e alagou em maio de 1827 e janeiro de 1828 (6 mortos) quando a escavação chegou a um trecho fino sob o leito (Wikipedia/Thames Tunnel, SS Great Britain Trust); o túnel do Hudson usou ar comprimido para segurar a água e em 1889 a doença descompressiva ("the bends") matou vários operários, até Moir instalar câmaras de recompressão (Wikipedia/Hudson tunnel, Grace's Guide); tuneladoras de lama (slurry/EPB) equilibram a pressão da água e do solo na frente com a pressão da câmara (relatório Enbridge Line 5); os anéis de segmentos de concreto vedam com gaxetas de EPDM, estanques até ~10 bar, e bombas ficam instaladas para sempre (TunnelTalk, ITA).

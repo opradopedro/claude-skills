@@ -1,0 +1,48 @@
+{
+ "codigo": "YB016",
+ "mundo": "tunel",
+ "formato": "Evolucao",
+ "titulo": "You built a tunnel under a river 🚇 #engineering #shorts",
+ "capa": "YOU BUILT A RIVER TUNNEL",
+ "descripcion": "From a hole that floods to a real underwater tunnel: the tunnelling shield, why workers breathed compressed air (and got the bends), and how a modern boring machine pushes back the river with pressurized mud.\n\nWhat should we build next?\n\n#engineering #tunnel #tbm #howitworks #shorts",
+ "tags": ["engineering", "tunnel", "underwater tunnel", "how are tunnels built under rivers", "tunnel boring machine", "tbm", "tunnelling shield", "compressed air", "the bends", "thames tunnel", "civil engineering", "how it works", "you built it", "shorts"],
+ "lineas": [
+  {"texto": "Your city needs a road across the river, but ships need the water clear.", "pausa": 0.3},
+  {"texto": "So you dig a tunnel right under it. Problem solved!", "pausa": 0.3},
+  {"texto": "But the riverbed is soft mud, and the whole river pours in.", "pausa": 0.3},
+  {"texto": "So you push a steel shield ahead, and dig only inside it.", "pausa": 0.3},
+  {"texto": "But water still squeezes through the mud at the front.", "pausa": 0.3},
+  {"texto": "So you pump air into the tunnel. The pressure holds the river back!", "pausa": 0.3},
+  {"texto": "But breathing that air gave workers the bends, just like deep sea divers.", "pausa": 0.3},
+  {"texto": "So now a machine digs alone, pushing pressurized mud against the front.", "pausa": 0.3},
+  {"texto": "But every gap between the concrete rings can still leak.", "pausa": 0.3},
+  {"texto": "So each ring gets a rubber gasket, squeezed watertight.", "pausa": 0.3},
+  {"texto": "Congratulations! You just built a tunnel under a river. What should we build next?", "pausa": 0.2}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "tunel", "p": {"etapa": "rio"}},
+  {"linea": 1, "comp": "tunel", "p": {"etapa": "cava"}},
+  {"linea": 2, "comp": "tunel", "p": {"etapa": "inunda", "ruim": "FLOODED!"}},
+  {"linea": 3, "comp": "tunel", "p": {"etapa": "escudo", "bom": "TUNNELLING SHIELD"}},
+  {"linea": 4, "comp": "tunel", "p": {"etapa": "vaza", "ruim": "LEAKING"}},
+  {"linea": 5, "comp": "tunel", "p": {"etapa": "ar", "bom": "COMPRESSED AIR"}},
+  {"linea": 6, "comp": "tunel", "p": {"etapa": "bends", "ruim": "THE BENDS"}},
+  {"linea": 7, "comp": "tunel", "p": {"etapa": "tbm", "bom": "BORING MACHINE"}},
+  {"linea": 8, "comp": "tunel", "p": {"etapa": "juntas", "ruim": "LEAKY JOINTS"}},
+  {"linea": 9, "comp": "tunel", "p": {"etapa": "gaxeta", "bom": "RUBBER GASKETS"}},
+  {"linea": 10, "comp": "tunel", "p": {"etapa": "final"}}
+ ],
+ "eventos": [
+  {"tipo": "certo", "linea": 1, "en": 0.7},
+  {"tipo": "erro", "linea": 2, "en": 0.6},
+  {"tipo": "certo", "linea": 3, "en": 0.45},
+  {"tipo": "erro", "linea": 4, "en": 0.45},
+  {"tipo": "certo", "linea": 5, "en": 0.5},
+  {"tipo": "erro", "linea": 6, "en": 0.45},
+  {"tipo": "certo", "linea": 7, "en": 0.5},
+  {"tipo": "erro", "linea": 8, "en": 0.6},
+  {"tipo": "certo", "linea": 9, "en": 0.6},
+  {"tipo": "tada", "linea": 10, "en": 0.05}
+ ],
+ "destaque": ["river", "ships", "tunnel", "mud", "pours", "shield", "squeezes", "air", "pressure", "bends", "divers", "machine", "pressurized", "leak", "gasket", "watertight"]
+}
