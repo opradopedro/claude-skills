@@ -984,13 +984,22 @@
   {
    "data": "2026-10-27",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v48_pc_pachter_bbc.mp4",
    "formato": "corte",
    "tema": "Michael Pachter na BBC: GTA 6 no PC uns 6 a 7 meses depois do console (maio/junho de 2027); GTA 5 levou 19 meses e RDR2 13 (GTA BOOM 27/10; sem anúncio oficial)",
    "capa": "PC já em 2027?",
    "capa_t": 0.6,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfBGKv3IIsZ/",
+   "legenda": "GTA 6 no PC pode chegar bem antes do que você imagina 🖥️\n\n📺 O analista Michael Pachter disse na BBC que a versão de PC sai uns 6 ou 7 meses depois do console, lá por maio ou junho de 2027\n⏳ Pra comparar: o GTA 5 levou 19 meses pra chegar no PC, e o Red Dead 2, 13\n⚠️ A Rockstar ainda não anunciou versão de PC, então é estimativa, não data oficial\n🎮 Confirmado mesmo só 19/11, no PS5 e no Xbox Series\n\nVocê espera o PC ou vai de console? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\nFonte: Michael Pachter (Wedbush) na BBC, via GTA BOOM\n\n#gta6 #gtavi #gta6pc #rockstargames #radargta6",
+   "ficha": {
+    "formato": "corte",
+    "tema": "GTA 6 no PC em 6-7 meses segundo Pachter",
+    "gancho": "GTA 6 no PC pode chegar bem mais rápido do que você imagina",
+    "origem": "notícia GTA BOOM 27/10 (BBC Business Today)"
+   },
+   "postado_em": "2026-10-28T00:07Z"
   }
  ]
 }

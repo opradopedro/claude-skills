@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 27/10/2026 17:55 (Brasília) com 44 Reels com nota. Média geral: 59.4/100.
+Atualizado em 27/10/2026 21:01 (Brasília) com 44 Reels com nota. Média geral: 59.4/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -29,8 +29,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | teoria | 1 | 67.3 | 62.0 |  |
 | noticia/polemica | 1 | 67.2 | 62.0 |  |
 | musica/trilha | 1 | 65.0 | 61.2 |  |
+| rumor/elenco | 1 | 63.4 | 60.7 |  |
 | trailer | 3 | 61.4 | 60.6 |  |
-| rumor/elenco | 1 | 63.0 | 60.6 |  |
 | pc | 1 | 62.8 | 60.5 |  |
 | historia | 1 | 61.5 | 60.1 |  |
 | novidade oficial | 1 | 59.5 | 59.4 |  |
@@ -41,7 +41,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | mapa | 1 | 52.1 | 56.9 |  |
 | marketing/mundo real | 1 | 51.9 | 56.9 |  |
 | marketing | 2 | 52.0 | 55.7 |  |
-| gameplay/bastidores | 2 | 51.6 | 55.5 |  |
+| gameplay/bastidores | 2 | 51.8 | 55.6 |  |
 | noticias | 4 | 53.2 | 55.3 |  |
 | mito | 1 | 38.0 | 52.2 |  |
 | console_tecnico | 1 | 32.4 | 50.4 |  |
@@ -61,9 +61,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | enquete | 7 | 58.8 | 59.0 |  |
 | revelacao | 5 | 58.1 | 58.5 |  |
 | curiosidade + preço | 1 | 51.9 | 56.9 |  |
-| polemica | 2 | 53.8 | 56.6 |  |
+| polemica | 2 | 54.0 | 56.7 |  |
 | alerta | 3 | 54.5 | 56.4 |  |
-| curiosidade | 4 | 54.0 | 55.8 |  |
+| curiosidade | 4 | 54.1 | 55.9 |  |
 | lista | 3 | 52.5 | 55.3 |  |
 | mentira_verdade | 1 | 38.0 | 52.2 |  |
 
@@ -90,8 +90,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Kotaku 16/10 | 1 | 63.6 | 60.8 |  |
 | Jason Schreier via Gameranx 20/10 | 1 | 63.8 | 60.8 |  |
 | Push Square / GodisaGeek 24/10 (aviso no PS5) | 1 | 63.3 | 60.7 |  |
+| VGTimes 26/10 (live de Manni L. Perez) | 1 | 63.4 | 60.7 |  |
 | PS Store FAQ via Beebom; The Game Haus 19/10 | 1 | 63.1 | 60.6 |  |
-| VGTimes 26/10 (live de Manni L. Perez) | 1 | 63.0 | 60.6 |  |
 | Forbes/GamesBeat 13/10 | 1 | 62.8 | 60.5 |  |
 | Bloomberg via Notebookcheck 18/10 | 1 | 61.5 | 60.1 |  |
 | Push Square/GameRant 16/10 (posts de fãs) | 1 | 59.5 | 59.4 |  |
@@ -101,7 +101,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Insider Gaming / Sensor Tower (20/10) | 1 | 53.6 | 57.4 |  |
 | Rockstar (site oficial) | 1 | 52.1 | 56.9 |  |
 | GameSpot (22/10) | 1 | 51.9 | 56.9 |  |
-| TechRadar (Jason Schreier/Bloomberg) 20/10 | 2 | 51.6 | 55.5 |  |
+| TechRadar (Jason Schreier/Bloomberg) 20/10 | 2 | 51.8 | 55.6 |  |
 | Mezha/Gfinity 14/10 | 1 | 47.1 | 55.3 |  |
 | Rockstar (pre-load 12/11) via Khel Now/Shacknews 19/10 | 1 | 45.3 | 54.7 |  |
 | Notebookcheck 24/09 + GTAIntel (Miami-Dade) | 1 | 44.5 | 54.4 |  |
@@ -122,7 +122,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Data | Reel | Formato | Tema | Gancho | Views | Pularam | Assistido | Curt. | Coment. | Salv. | Comp. | Nota |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1305 | 35.8% | 60% | 60 | 0 | 2 | 7 | 77.5 (provisória) |
+| 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1312 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h24) |
 | 2026-10-17 | [DemXZASj3oQ](https://www.instagram.com/reel/DemXZASj3oQ/) | corte | bastidores | noticia | 1463 | 31.3% | 48% | 52 | 0 | 2 | 1 | 76.0 (h72) |
 | 2026-10-17 | [DenAhZZCOCA](https://www.instagram.com/reel/DenAhZZCOCA/) | corte | premiacao | enquete | 1871 | 36.9% | 44% | 49 | 0 | 3 | 15 | 73.2 (h72) |
 | 2026-10-12 | [DeZjgTSD3Aw](https://www.instagram.com/reel/DeZjgTSD3Aw/) | corte | preco_compra | comparacao | 1237 | 35.7% | 42% | 44 | 0 | 2 | 1 | 72.9 (h24) |
@@ -143,15 +143,15 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-23 | [De2xCB-lPHz](https://www.instagram.com/reel/De2xCB-lPHz/) | corte | musica/trilha | rumor + oficial | 870 | 40.3% | 26% | 23 | 0 | 3 | 0 | 65.0 (h72) |
 | 2026-10-20 | [Deuu91Skz6q](https://www.instagram.com/reel/Deuu91Skz6q/) | corte | bastidores | pergunta | 146 | 43.8% | 40% | 5 | 0 | 0 | 1 | 63.8 (h72) |
 | 2026-10-18 | [DeplZ4bk8TX](https://www.instagram.com/reel/DeplZ4bk8TX/) | corte | trailer | enquete | 151 | 31.5% | 42% | 5 | 0 | 0 | 0 | 63.6 (h72) |
+| 2026-10-26 | [De-iSVCgMpg](https://www.instagram.com/reel/De-iSVCgMpg/) | corte | rumor/elenco | polemica | 1336 | 31.5% | 48% | 28 | 0 | 1 | 0 | 63.4 (provisória) |
 | 2026-10-24 | [De5YjsmD6Qp](https://www.instagram.com/reel/De5YjsmD6Qp/) | corte | alerta/utilidade | alerta | 1207 | 48.6% | 27% | 25 | 0 | 1 | 6 | 63.3 (h24) |
 | 2026-10-20 | [DeuFyvkjU1q](https://www.instagram.com/reel/DeuFyvkjU1q/) | corte | noticias | enquete | 136 | 37.1% | 29% | 5 | 0 | 1 | 1 | 63.1 (h72) |
-| 2026-10-26 | [De-iSVCgMpg](https://www.instagram.com/reel/De-iSVCgMpg/) | corte | rumor/elenco | polemica | 1331 | 31.4% | 48% | 27 | 0 | 1 | 0 | 63.0 (provisória) |
 | 2026-10-15 | [Deh27W5AUHm](https://www.instagram.com/reel/Deh27W5AUHm/) | corte | pc | noticia | 1181 | 42.5% | 32% | 28 | 1 | 0 | 3 | 62.8 (h72) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 62.5 (h24) |
 | 2026-10-18 | [Dep6MPzlVqQ](https://www.instagram.com/reel/Dep6MPzlVqQ/) | corte | historia | enquete | 160 | 43.8% | 29% | 10 | 0 | 0 | 0 | 61.5 (h72) |
 | 2026-10-17 | [DenVRLvAWnp](https://www.instagram.com/reel/DenVRLvAWnp/) | corte | marketing | curiosidade | 391 | 52.1% | 31% | 10 | 0 | 0 | 1 | 59.5 (h72) |
 | 2026-10-21 | [DexT2DJDFHW](https://www.instagram.com/reel/DexT2DJDFHW/) | corte | novidade oficial | revelacao | 141 | 46.1% | 26% | 9 | 0 | 1 | 2 | 59.5 (h72) |
-| 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1235 | 41.6% | 31% | 32 | 0 | 1 | 0 | 59.5 (h24) |
+| 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 59.5 (h72) |
 | 2026-10-23 | [De2iVxUACb4](https://www.instagram.com/reel/De2iVxUACb4/) | corte | vendas/numeros | numero chocante | 117 | 57.5% | 22% | 6 | 0 | 0 | 0 | 53.6 (h72) |
 | 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 53.4 (h72) |
 | 2026-10-16 | [DejyjUvD27e](https://www.instagram.com/reel/DejyjUvD27e/) | corte | mapa | lista | 126 | 64.3% | 25% | 5 | 0 | 0 | 0 | 52.1 (h72) |
@@ -163,10 +163,11 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-25 | [De6_moQjxny](https://www.instagram.com/reel/De6_moQjxny/) | corte | noticia/review | enquete | 142 | 57.4% | 22% | 3 | 0 | 0 | 0 | 40.4 (h24) |
 | 2026-10-11 | [DeX4Vhuj49m](https://www.instagram.com/reel/DeX4Vhuj49m/) | painel | mito | mentira_verdade | 132 | 49.6% | 21% | 2 | 0 | 0 | 0 | 38.0 (provisória) |
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 36.3 (h24) |
-| 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 118 | 46.7% | 28% | 1 | 0 | 0 | 0 | 35.5 (h24) |
+| 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 35.7 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 32.4 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 29.2 (h24) |
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/): 5.7 h no ar, 1253 views, 34.3% pularam, 33% assistido, 42 curtidas
+- [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/): 8.8 h no ar, 1288 views, 34.9% pularam, 33% assistido, 43 curtidas
+- [DfA0VzqASHS](https://www.instagram.com/reel/DfA0VzqASHS/): 2.6 h no ar, 348 views, 33.3% pularam, 26% assistido, 14 curtidas
