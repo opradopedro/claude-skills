@@ -57,6 +57,9 @@ def ler_canal(pasta):
     c["horas_locais"] = sorted(int(h) for h in c["horas_locais"])
     c.setdefault("categoria", "24")
     c.setdefault("fila", 2 * len(c["horas_locais"]))
+    # quantas partes produzir por execucao. 1 = uma por noite (poupa cota de voz e memoria);
+    # 0 ou ausente = a serie inteira de uma vez (comportamento antigo).
+    c["partes_por_vez"] = int(c.get("partes_por_vez", 0) or 0)
     c.setdefault("crf", "26")
     c.setdefault("voz_tempo", "0.9")
     for k in ("prefixo", "token_var"):
@@ -280,8 +283,19 @@ def main():
     ocupados = {v["publishAt"][:13] for v in ja.values() if v.get("publishAt")}
     ids = {k: v["id"] for k, v in ja.items()}
     pend = [f for f in historias if not (a.subir and carregar(f)["codigo"] in ja)]
+    # Produz so as N primeiras partes pendentes. Uma por noite poupa cota de voz do Gemini
+    # (plano gratis da ~10 narracoes por dia, somadas a TODOS os canais que usam a mesma chave)
+    # e memoria RAM (um render de 20 min em vez de quatro seguidos).
+    if a.proximo and c["partes_por_vez"] > 0 and len(pend) > c["partes_por_vez"]:
+        faltam = len(pend) - c["partes_por_vez"]
+        pend = pend[:c["partes_por_vez"]]
+        historias = list(pend)
+        print(f"produzindo {len(pend)} parte(s) agora; faltam {faltam} para as proximas execucoes",
+              flush=True)
     slots = []
-    for i, _ in enumerate(pend):
+    # Um horario A MAIS do que o numero de partes: a ultima parte produzida precisa saber
+    # quando sai a seguinte, para dizer "tomorrow, Thursday" sem errar.
+    for i in range(len(pend) + 1):
         slots.append(a.publicar if (i == 0 and a.publicar != "auto") else proximo_horario(c, ocupados))
         ocupados.add(slots[-1][:13])
 
@@ -290,10 +304,7 @@ def main():
             print(f"{carregar(historia)['codigo']} ja esta no canal")
             continue
         k = pend.index(historia)
-        seguinte = slots[k + 1] if k + 1 < len(slots) else (
-            dt.datetime.strptime(slots[k], "%Y-%m-%dT%H:%M:%SZ") + dt.timedelta(days=1)
-        ).strftime("%Y-%m-%dT%H:%M:%SZ")
-        historia = preencher(c, historia, slots[k], seguinte, a.saida)
+        historia = preencher(c, historia, slots[k], slots[k + 1], a.saida)
         h = carregar(historia)
         cod = h["codigo"]
         if not cod.startswith(c["prefixo"]):

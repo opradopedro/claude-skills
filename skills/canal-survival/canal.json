@@ -22,6 +22,9 @@
  "fila": 2,
  "_fila_obs": "Se ja houver 2 videos agendados no futuro (= 2 dias de conteudo), nao produz nada hoje.",
 
+ "partes_por_vez": 1,
+ "_partes_obs": "Produz UMA parte por execucao, nao a serie inteira. Poupa cota de voz do Gemini (o plano gratis da ~10 narracoes por dia, somando TODOS os canais que usam a mesma chave) e poupa memoria RAM (um render de 20 min em vez de quatro seguidos). Serie pela metade sempre continua, mesmo com a fila cheia. Para voltar a produzir a serie toda de uma vez, use 0.",
+
  "pasta_videos_var": "SV_VIDEOS",
  "pasta_videos": ""
 }

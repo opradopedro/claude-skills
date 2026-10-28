@@ -21,6 +21,9 @@
  "crf": "26",
  "fila": 2,
 
+ "partes_por_vez": 1,
+ "_partes_obs": "Produz UMA parte por execucao, nao a obra inteira. Poupa cota de voz do Gemini e memoria RAM. Para voltar a produzir tudo de uma vez, use 0.",
+
  "pasta_videos_var": "CL_VIDEOS",
  "pasta_videos": ""
 }

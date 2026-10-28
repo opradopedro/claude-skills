@@ -108,10 +108,50 @@ no GitHub, nunca no chat.
 
 | Chave | Onde conseguir |
 |---|---|
-| `GEMINI_API_KEY` | aistudio.google.com → "Get API key". E a voz da narracao. De graca. |
-| `YT_CLIENT_ID` e `YT_CLIENT_SECRET` | console.cloud.google.com → novo projeto → ative a "YouTube Data API v3" → crie uma credencial OAuth do tipo "Aplicativo da Web". **Um par só, serve para os dois canais.** |
+| `GEMINI_API_KEY` | **Reaproveite a que voce ja usa** nos canais atuais |
+| `YT_CLIENT_ID` e `YT_CLIENT_SECRET` | **Reaproveite as que voce ja usa** (sao do projeto, nao do canal) |
 | `YT_REFRESH_TOKEN_SURVIVAL` | developers.google.com/oauthplayground, entrando com o **canal 1** |
 | `YT_REFRESH_TOKEN_CLASSICS` | o mesmo, entrando com o **canal 2** |
+
+### Por que reaproveitar (e nao criar projeto novo)
+
+Uma chave de API **nao tem vinculo nenhum com canal de YouTube**. Ela so autentica voce no servico do
+Google: o programa manda texto, recebe audio de volta. O Google nao sabe nem se importa em que canal
+aquele audio vai ser usado.
+
+O mesmo vale para o par `YT_CLIENT_ID` / `YT_CLIENT_SECRET`: eles identificam o **aplicativo**, nao o
+canal. O que separa um canal do outro e so o `YT_REFRESH_TOKEN_*` — e esse sim voce gera entrando com
+cada canal.
+
+Vantagem pratica: **voce nao precisa criar projeto novo no Google Cloud.** Projeto novo costuma pedir
+cadastro de pagamento, porque o Google vem restringindo o plano gratis para projetos recem-criados.
+Reaproveitando o projeto que ja funciona, esse problema desaparece.
+
+> Se o app OAuth estiver em modo "Teste", adicione o e-mail da conta nova como **usuario de teste** na
+> tela de permissao OAuth, senao o login dos canais novos e recusado.
+
+### O unico cuidado: a cota de voz e compartilhada
+
+A voz do Gemini no plano gratis da cerca de **10 narracoes por dia, por chave** — e essa conta passa a
+ser somada entre **todos** os canais que usam a mesma chave. Esta e a conta de hoje:
+
+| Canal | Narracoes por dia |
+|---|---|
+| Hora Muerta | 1 a 2 |
+| So You Built It | 2 |
+| Signal Lost | 1 |
+| Old Tales Retold | 1 |
+| **Total** | **5 a 6 de ~10** ✅ |
+
+Cabe com folga. **Mas isso so e verdade porque os canais novos produzem UMA parte por noite**, em vez
+da serie inteira de uma vez. Se produzissem 4 partes de uma vez, seriam 8 narracoes num dia so, e os
+seus canais que ja funcionam poderiam ficar sem cota e falhar.
+
+E isso que o campo `"partes_por_vez": 1` do `canal.json` garante. **Nao mude para 0 enquanto estiver
+usando a mesma chave dos canais antigos.**
+
+Se um dia a cota estourar, ninguem perde nada: o programa para sem publicar, avisa `VOZ FALHOU`, e no
+dia seguinte funciona.
 
 Se travar nessa etapa, me chame: eu te guio clique por clique. E a parte mais chata de todo o processo,
 e e so uma vez.
@@ -165,15 +205,18 @@ Quando o teste estiver bom, a gente liga o despertador. Cole no chat do Crew:
 > Copie o arquivo C:\claude-skills\crew\rodar_canal.py para a pasta de receitas do Crew
 > (%USERPROFILE%\.kiro\crew\crons\). Depois crie duas tarefas agendadas do tipo script:
 > uma chamada "survival" rodando rodar_canal.py:run_survival todo dia as 2h no fuso America/New_York,
-> e outra chamada "classics" rodando rodar_canal.py:run_classics todo dia as 6h no mesmo fuso.
-> As duas com contexto minimo, sessao nao persistente e prazo de 10800 segundos.
+> e outra chamada "classics" rodando rodar_canal.py:run_classics todo dia as 4h no mesmo fuso.
+> As duas com contexto minimo, sessao nao persistente e prazo de 3600 segundos.
 > Depois me mostre a lista de tarefas agendadas.
 
-**Por que produzir de madrugada e publicar de dia?** Porque fazer o video demora. Cada parte leva de 15
-a 25 minutos, e o programa produz a serie **inteira** de uma vez — uma serie de 4 partes passa de uma
-hora de computador. Produzindo as 2h e as 6h de Nova York, os dois canais nao se atropelam e sobra
-folga ate a primeira publicacao do meio-dia. O video entra **agendado** no YouTube para a hora certa,
-entao se der problema ha tempo de consertar antes de ir ao ar.
+**Por que produzir de madrugada e publicar de dia?** Porque fazer o video demora uns 20 a 25 minutos, e
+nessa hora voce nao esta usando o PC (memoria livre). O video entra **agendado** no YouTube para a hora
+certa, entao se der problema ha tempo de consertar antes de ir ao ar.
+
+**Uma parte por noite.** Cada execucao produz **uma** parte, nao a serie toda. Uma serie de 4 partes
+sai ao longo de 4 noites. Isso protege duas coisas escassas: a cota de voz do Gemini (compartilhada com
+seus canais antigos) e a memoria RAM do seu PC. Os dois canais produzem em horarios diferentes (2h e
+4h) para nao disputarem memoria.
 
 **Trava de seguranca:** o video entra no YouTube como **privado com hora marcada**. Voce pode entrar no
 YouTube Studio e apagar antes da hora se nao gostar. Voce tem a palavra final sempre.

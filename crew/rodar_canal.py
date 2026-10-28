@@ -8,20 +8,21 @@ Como registrar no Crew (uma vez cada):
 
   kirocrew cron add "survival" "" --cron "0 2 * * *" --timezone "America/New_York" ^
     --script %USERPROFILE%\\.kiro\\crew\\crons\\rodar_canal.py:run_survival ^
-    --no-persistent-session --minimal-context --timeout-secs 10800
+    --no-persistent-session --minimal-context --timeout-secs 3600
 
-  kirocrew cron add "classics" "" --cron "0 6 * * *" --timezone "America/New_York" ^
+  kirocrew cron add "classics" "" --cron "0 4 * * *" --timezone "America/New_York" ^
     --script %USERPROFILE%\\.kiro\\crew\\crons\\rodar_canal.py:run_classics ^
-    --no-persistent-session --minimal-context --timeout-secs 10800
+    --no-persistent-session --minimal-context --timeout-secs 3600
 
-Os horarios acima sao de PRODUCAO, nao de publicacao. Cada canal publica DUAS vezes por dia
-(meio-dia e 19h de Nova York), e o programa produz de madrugada e deixa tudo agendado no
-YouTube para a hora certa.
+Os horarios acima sao de PRODUCAO, nao de publicacao: o programa produz de madrugada e deixa o
+video agendado no YouTube para a hora certa (19h NY no survival, meio-dia NY no classics).
 
-Por que de madrugada: o render leva de 15 a 25 minutos por parte, e `--proximo` produz a serie
-inteira de uma vez (4 partes = mais de uma hora de computador). Produzindo as 2h e as 6h de
-Nova York, os dois canais nao se atropelam e sobra folga ate a primeira publicacao do meio-dia.
-Por isso tambem o prazo (--timeout-secs) de 3 horas.
+Cada execucao produz UMA parte (ver "partes_por_vez" no canal.json), nao a serie inteira. Sao
+uns 20 a 25 minutos, e por isso o prazo de 1 hora basta. Produzir uma parte por noite poupa
+duas coisas escassas: a cota de voz do Gemini (o plano gratis da ~10 narracoes por dia, somando
+todos os canais que usam a mesma chave) e a memoria RAM do PC (8 GB).
+
+Os dois canais produzem em horarios diferentes (2h e 4h) para nao disputarem memoria.
 
 Antes de registrar, copie este arquivo para a pasta de receitas do Crew:
   copy C:\\claude-skills\\crew\\rodar_canal.py %USERPROFILE%\\.kiro\\crew\\crons\\
