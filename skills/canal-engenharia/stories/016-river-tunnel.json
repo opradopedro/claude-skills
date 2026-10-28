@@ -33,7 +33,7 @@
   {"linea": 10, "comp": "tunel", "p": {"etapa": "final"}}
  ],
  "eventos": [
-  {"tipo": "certo", "linea": 1, "en": 0.8},
+  {"tipo": "certo", "linea": 1, "en": 0.7},
   {"tipo": "erro", "linea": 2, "en": 0.6},
   {"tipo": "certo", "linea": 3, "en": 0.45},
   {"tipo": "erro", "linea": 4, "en": 0.45},
