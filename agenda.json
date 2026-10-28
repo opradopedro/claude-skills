@@ -1004,14 +1004,21 @@
   {
    "data": "2026-10-28",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v49_marca_dagua_review.mp4",
    "formato": "corte",
    "tema": "Cópias de review de GTA 6 com marca d'água móvel com nome do crítico (Jeremy Conrad/ManaByte via VGTimes 28/10; não confirmado)",
    "capa": "Seu nome na tela",
    "capa_t": 10.2,
    "legenda": "GTA 6 tá tão blindado que cada cópia da imprensa vem com o nome do jornalista na tela 🔒\n\n🕵️ Segundo o insider Jeremy Conrad (ManaByte), cada versão de review tem uma marca d'água única, com o nome do crítico e do site\n🔄 E ela fica se mexendo pela tela: se vazar um vídeo, a Rockstar sabe de quem veio\n🚫 Quem vazar ainda pode perder acesso aos próximos jogos da Rockstar\n⚠️ A Rockstar não confirmou o sistema. Tom Henderson, do Insider Gaming, lembrou que marca d'água em review é prática comum\n📅 As notas saem dia 18/11 e o jogo chega 19/11 no PS5 e Xbox Series\n\nVocê espera as notas ou já comprou? Manda pra quem vai jogar com você 👇\n\nFonte: VGTimes 28/10\n\n#gta6 #gtavi #rockstargames #gta #vicecity",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfCwKjElOi0/",
+   "ficha": {
+    "formato": "corte",
+    "tema": "noticia/vazamentos",
+    "gancho": "revelacao",
+    "origem": "VGTimes 28/10 (Jeremy Conrad/ManaByte; Tom Henderson)"
+   }
   }
  ]
 }
