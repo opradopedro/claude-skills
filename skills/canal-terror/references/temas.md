@@ -4,7 +4,7 @@ Ordem sugerida: alternar Leyenda, Regla e Testigo. Marque aqui o código quando 
 
 ## Já roteirizados (séries de 2 partes)
 HM001-002 El reflejo (Testigo) · HM003-004 La regla de las 3:33 (Regla) · HM005-006 El Silbón (Leyenda)
-HM007-008 La Llorona (Leyenda) · HM009-010 El Cadejo (Leyenda)
+HM007-008 La Llorona (Leyenda) · HM009-010 El Cadejo (Leyenda) · HM011-012 La Tunda (Leyenda)
 
 ## Próximas séries prontas para virar roteiro
 - El último autobús: parte 1 o chofer grita "¡bájate ya!"; parte 2 explica que algo sentou ao lado dele e ainda o
@@ -13,7 +13,7 @@ HM007-008 La Llorona (Leyenda) · HM009-010 El Cadejo (Leyenda)
   regla número dos. `texto`, `ventana`
 
 ## Lendas (com o componente que encaixa)
-- La Patasola (Colômbia): mulher de uma perna só que chama homens mata adentro com canto. `ojos`, `camino`
+- La Patasola (Colômbia): mulher de uma perna só que chama homens mata adentro com canto. `manglar`, `pies` (já prontos desde a Tunda)
 - La Tulivieja (Panamá): espírito do rio que procura o filho; parente da Llorona, pouco contada. `rio`
 - La Sayona (Venezuela): mulher de branco que seduz infiéis na estrada. `camino` + `rio`
 - El Sombrerón (Guatemala): homem baixinho de chapéu que trança o cabelo das moças. `ventana`, `camino`
@@ -23,7 +23,6 @@ HM007-008 La Llorona (Leyenda) · HM009-010 El Cadejo (Leyenda)
 - El Tunche (Peru): assobio na selva, igual ao Silbón. `ojos`, `silbido`
 - La Mula Herrada / La Mula sin cabeza: cascos na rua de madrugada. `camino`, `golpe` em série
 - El Charro Negro (México): cavaleiro que oferece carona e dinheiro. `camino`
-- La Tunda (Colômbia): toma a forma de um parente para levar crianças para a mata. `ojos`, `pasillo`
 - La Pascualita (México): manequim de loja que seria uma noiva embalsamada. novo comp `vitrine`
 - El Nahual (México): pessoa que vira animal à noite. `ojos` com `perro`
 - La casa de la calle Matamoros, hotéis assombrados de cada país: `pasillo`, `puerta`
