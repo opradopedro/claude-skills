@@ -1,0 +1,25 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v48_pc_pachter_bbc.mp4",
+ "text": "GTA 6 no PC pode chegar bem mais rápido do que você imagina. O analista Michael Pachter falou na BBC, nesta terça, que a versão de PC sai uns seis ou sete meses depois do console. Ou seja, lá por maio ou junho de dois mil e vinte e sete. Pensa comigo: o GTA 5 demorou dezenove meses pra chegar no PC, e o Red Dead 2, treze. Mas atenção, mano: a Rockstar ainda não anunciou versão de PC, então isso é estimativa, não data oficial. Por enquanto, é dia dezenove de novembro, no PS5 e no Xbox. E aí, você espera o PC ou vai de console mesmo? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "dois mil e vinte e sete": "2027",
+  "dezenove meses": "19 meses",
+  "dia dezenove de novembro": "19 de novembro",
+  "seis ou sete meses": "6 ou 7 meses"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "gameplay",
+  "cidade",
+  "carro",
+  "noite",
+  "jason",
+  "lucia",
+  "acao",
+  "dirigindo"
+ ],
+ "seed": 48,
+ "font": "../../assets/fonts/Anton.ttf"
+}
