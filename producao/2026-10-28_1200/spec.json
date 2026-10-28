@@ -1,0 +1,23 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v49_marca_dagua_review.mp4",
+ "text": "GTA 6 tá tão blindado que cada cópia da imprensa vem com o nome do jornalista na tela. Segundo o insider Jeremy Conrad, cada versão de review tem uma marca d'água única, com o nome do crítico e do site, que fica se mexendo pela tela. Se vazar um vídeo, a Rockstar sabe na hora de quem veio. Pensa comigo: depois dos vazamentos, ela não quer correr risco. E quem vazar pode perder acesso aos próximos jogos da Rockstar. Ela ainda não confirmou nada disso, tá? As notas saem dia dezoito de novembro. E aí, você vai esperar as notas ou já comprou? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "dia dezoito de novembro": "18 de novembro",
+  "marca d'água": "marca d'água"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "cidade",
+  "noite",
+  "acao",
+  "dirigindo",
+  "policia",
+  "carro"
+ ],
+ "seed": 49,
+ "font": "../../assets/fonts/Anton.ttf"
+}
