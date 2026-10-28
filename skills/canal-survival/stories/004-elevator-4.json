@@ -1,0 +1,194 @@
+{
+ "codigo": "SV004",
+ "formato": "Survivor",
+ "serie": "elevator",
+ "serie_titulo": "Do Not Open The Door | Signal Lost",
+ "parte": 4,
+ "partes": 4,
+ "anterior": "SV003",
+ "titulo": "Real rescuers never ask you to open it 🚪 Part 4 #horror #shorts",
+ "capa": "THEY NEVER ASK",
+ "descripcion": "Day nine. The lights came back on, and I finally understood why I was still alive.\n\nWould you have opened it on the first night?\n\nNarrated fiction. New story every week.\n#horror #horrorstories #scarystories #survival #creepypasta",
+ "tags": [
+  "horror stories",
+  "scary stories",
+  "creepypasta",
+  "survival horror",
+  "horror shorts",
+  "narrated horror",
+  "elevator",
+  "twist ending",
+  "do not open the door"
+ ],
+ "lineas": [
+  {
+   "texto": "Part four. Day nine. I had not spoken out loud since it used my sister's voice.",
+   "pausa": 0.8,
+   "vel": 0.88
+  },
+  {
+   "texto": "This morning, the elevator lights came back on.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Boots in the stairwell. Radios. Heavy tools.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "A man shouted: rescue team. We are opening the door now.",
+   "pausa": 0.9,
+   "vel": 0.85
+  },
+  {
+   "texto": "And that is when I finally understood why I was still alive.",
+   "pausa": 0.8,
+   "vel": 0.84
+  },
+  {
+   "texto": "Real rescuers never ask you to open it. They open it themselves.",
+   "pausa": 1.0,
+   "vel": 0.82
+  },
+  {
+   "texto": "The thing outside had asked me. Every single night.",
+   "pausa": 1.0,
+   "vel": 0.8
+  },
+  {
+   "texto": "Going down, we passed every other elevator. All of them open. All of them empty.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "If you are hearing this from inside one: do not answer. Wait to be opened.",
+   "pausa": 0.5,
+   "vel": 0.84
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "reloj",
+   "p": {
+    "hora": "6:02",
+    "zoom": 0.07
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0
+    ],
+    "luz": true,
+    "zoom": 0.07
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "pasillo",
+   "p": {
+    "dist": [
+     1,
+     0.45
+    ],
+    "figura": true,
+    "marco": true,
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "THEY NEVER ASK",
+     "they just open it"
+    ]
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0.05
+    ],
+    "luz": true,
+    "zoom": 0.15,
+    "fy": 0.42
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "pasillo",
+   "p": {
+    "dist": [
+     0.6,
+     0.95
+    ],
+    "figura": false,
+    "zoom": 0.06
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "DO NOT ANSWER",
+     "wait to be opened"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "apagon",
+   "linea": 1,
+   "en": "inicio",
+   "mas": 0.1
+  },
+  {
+   "tipo": "acerca",
+   "linea": 3,
+   "en": "inicio"
+  },
+  {
+   "tipo": "flash",
+   "linea": 5,
+   "en": "inicio",
+   "mas": -0.1
+  },
+  {
+   "tipo": "susto",
+   "linea": 6,
+   "en": 0.45
+  },
+  {
+   "tipo": "negro",
+   "linea": 7,
+   "en": "inicio",
+   "mas": -0.15,
+   "dur": 0.35
+  }
+ ],
+ "destaque": [
+  "day nine",
+  "rescue team",
+  "still alive",
+  "never ask",
+  "asked me",
+  "every single night",
+  "all of them empty",
+  "do not answer"
+ ],
+ "gancho": {
+  "cena": 4,
+  "evento": "susto",
+  "mas": 0.35,
+  "dur": 0.8
+ }
+}

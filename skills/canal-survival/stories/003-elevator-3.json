@@ -1,0 +1,202 @@
+{
+ "codigo": "SV003",
+ "formato": "Survivor",
+ "serie": "elevator",
+ "serie_titulo": "Do Not Open The Door | Signal Lost",
+ "parte": 3,
+ "partes": 4,
+ "anterior": "SV002",
+ "titulo": "It knocked exactly like my sister 😰 Part 3 #horror #shorts",
+ "capa": "IT USED HER VOICE",
+ "descripcion": "The broadcast said: not even for a voice you know. On the third night, I found out why.\n\n> Part 4: tomorrow, {next_date}.\nHow do you think it learned her voice?\n\nNarrated fiction. New part every day.\n#horror #horrorstories #scarystories #survival #creepypasta",
+ "tags": [
+  "horror stories",
+  "scary stories",
+  "creepypasta",
+  "survival horror",
+  "horror shorts",
+  "narrated horror",
+  "elevator",
+  "mimic",
+  "do not open the door"
+ ],
+ "lineas": [
+  {
+   "texto": "Part three. The broadcast said: not even for a voice you know.",
+   "pausa": 0.8,
+   "vel": 0.88
+  },
+  {
+   "texto": "For two nights nothing knocked. I almost believed it had left.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Then it came back, and it knocked the way my sister knocks. Two fast, one slow.",
+   "pausa": 1.0,
+   "vel": 0.85
+  },
+  {
+   "texto": "And then it used her voice.",
+   "pausa": 0.9,
+   "vel": 0.82
+  },
+  {
+   "texto": "My sister died four years ago.",
+   "pausa": 1.0,
+   "vel": 0.8
+  },
+  {
+   "texto": "It said my name. Then it said the nickname only she ever used.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "It was not remembering her. It was remembering me.",
+   "pausa": 0.8,
+   "vel": 0.84
+  },
+  {
+   "texto": "Every word I had said out loud in nine days. So I stopped talking.",
+   "pausa": 1.0,
+   "vel": 0.82
+  },
+  {
+   "texto": "Part four, tomorrow, {next_day}.",
+   "pausa": 0.3,
+   "vel": 0.88
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "NOT EVEN FOR",
+     "a voice you know"
+    ]
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0
+    ],
+    "zoom": 0.06
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0.02
+    ],
+    "zoom": 0.11,
+    "fy": 0.45
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0.02,
+     0.06
+    ],
+    "luz": true,
+    "zoom": 0.15,
+    "fy": 0.4
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "ojos",
+   "p": {
+    "n": 2,
+    "cerca": [
+     0.75,
+     0.3
+    ],
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "PART 4",
+     "Tomorrow \u00b7 {next_date}"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "golpe",
+   "linea": 2,
+   "en": "fin",
+   "mas": 0.1
+  },
+  {
+   "tipo": "golpe",
+   "linea": 2,
+   "en": "fin",
+   "mas": 0.4
+  },
+  {
+   "tipo": "golpe",
+   "linea": 2,
+   "en": "fin",
+   "mas": 1.0
+  },
+  {
+   "tipo": "grito",
+   "linea": 3,
+   "en": "inicio",
+   "mas": 0.25
+  },
+  {
+   "tipo": "susto",
+   "linea": 4,
+   "en": 0.35
+  },
+  {
+   "tipo": "mano",
+   "linea": 5,
+   "en": 0.55
+  },
+  {
+   "tipo": "acerca",
+   "linea": 6,
+   "en": "inicio"
+  },
+  {
+   "tipo": "negro",
+   "linea": 7,
+   "en": "fin",
+   "mas": 0.1,
+   "dur": 0.45
+  }
+ ],
+ "destaque": [
+  "a voice you know",
+  "two fast, one slow",
+  "her voice",
+  "four years ago",
+  "my name",
+  "remembering me",
+  "stopped talking",
+  "part four"
+ ],
+ "gancho": {
+  "cena": 3,
+  "evento": "susto",
+  "mas": 0.35,
+  "dur": 0.8
+ }
+}

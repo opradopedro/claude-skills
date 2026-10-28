@@ -1,0 +1,26 @@
+{
+ "nome": "Old Tales Retold",
+ "_nome_obs": "SUGESTAO. Troque pelo nome real do canal depois de criar no YouTube.",
+
+ "prefixo": "CL",
+ "idioma": "en",
+
+ "canal_titulo": "",
+ "_canal_titulo_obs": "TRAVA DE SEGURANCA: escreva aqui o nome EXATO do canal no YouTube. Enquanto estiver vazio, o programa avisa mas nao confere. Com o nome preenchido, ele se recusa a subir se o token for de outro canal.",
+
+ "fuso": "America/New_York",
+ "hora_local": 12,
+ "_hora_obs": "Meio-dia de Nova York (horario de almoco), ajustado sozinho no horario de verao.",
+
+ "token_var": "YT_REFRESH_TOKEN_CLASSICS",
+ "voz": "Charon",
+ "_voz_obs": "Voz calma, de narrador. Combina com epico. Troque por Algenib (grave) ou Puck (animada) se quiser.",
+ "voz_tempo": "0.92",
+
+ "categoria": "24",
+ "crf": "26",
+ "fila": 2,
+
+ "pasta_videos_var": "CL_VIDEOS",
+ "pasta_videos": ""
+}

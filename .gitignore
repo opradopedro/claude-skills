@@ -1,2 +1,11 @@
 __pycache__/
 skills/canal-engenharia/scripts/vendor/
+
+# Chaves e senhas dos canais: NUNCA vao para o GitHub
+.env
+.env.local
+*.key
+
+# Saida de producao dos canais novos
+saida/
+/tmp/

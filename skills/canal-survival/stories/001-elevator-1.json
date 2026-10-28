@@ -1,0 +1,179 @@
+{
+ "codigo": "SV001",
+ "formato": "Survivor",
+ "serie": "elevator",
+ "serie_titulo": "Do Not Open The Door | Signal Lost",
+ "parte": 1,
+ "partes": 4,
+ "titulo": "Something knocked on the elevator door 😨 Part 1 #horror #shorts",
+ "capa": "SIX HOURS IN THE DARK",
+ "descripcion": "The power died at 9:40. Six hours later, something knocked three times.\n\n> Part 2: tomorrow, {next_date}.\nWould you have opened the door?\n\nNarrated fiction. New part every day.\n#horror #horrorstories #scarystories #survival #creepypasta",
+ "tags": [
+  "horror stories",
+  "scary stories",
+  "creepypasta",
+  "survival horror",
+  "horror shorts",
+  "narrated horror",
+  "elevator",
+  "apocalypse",
+  "do not open the door"
+ ],
+ "lineas": [
+  {
+   "texto": "The power died at 9:40 at night. I have been in this elevator for six hours.",
+   "pausa": 0.9,
+   "vel": 0.88
+  },
+  {
+   "texto": "At first I yelled for help. Then I started saving my voice.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "A little after midnight, something knocked. Three times. Slow.",
+   "pausa": 1.0,
+   "vel": 0.85
+  },
+  {
+   "texto": "I said hello. The knocking stopped immediately.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Then a woman started crying on the other side of the door.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "She said she was hurt. She said the stairwell was full of them.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "She begged me to open the door. Please. Just a little.",
+   "pausa": 0.9,
+   "vel": 0.84
+  },
+  {
+   "texto": "And my hand was already on the latch.",
+   "pausa": 1.0,
+   "vel": 0.8
+  },
+  {
+   "texto": "Part two, tomorrow, {next_day}.",
+   "pausa": 0.3,
+   "vel": 0.88
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "reloj",
+   "p": {
+    "hora": "9:40",
+    "parpadeo": true,
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0
+    ],
+    "zoom": 0.06
+   }
+  },
+  {
+   "linea": 4,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0,
+     0.02
+    ],
+    "zoom": 0.1,
+    "fy": 0.45
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0.02,
+     0.07
+    ],
+    "luz": true,
+    "zoom": 0.15,
+    "fy": 0.4
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "PART 2",
+     "Tomorrow \u00b7 {next_date}"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "apagon",
+   "linea": 0,
+   "en": "inicio",
+   "mas": 0.1
+  },
+  {
+   "tipo": "golpe",
+   "linea": 2,
+   "en": "fin",
+   "mas": 0.1
+  },
+  {
+   "tipo": "golpe",
+   "linea": 2,
+   "en": "fin",
+   "mas": 0.6
+  },
+  {
+   "tipo": "golpe",
+   "linea": 2,
+   "en": "fin",
+   "mas": 1.1
+  },
+  {
+   "tipo": "grito",
+   "linea": 4,
+   "en": "inicio",
+   "mas": 0.2
+  },
+  {
+   "tipo": "mano",
+   "linea": 5,
+   "en": 0.5
+  },
+  {
+   "tipo": "susto",
+   "linea": 7,
+   "en": 0.45
+  }
+ ],
+ "destaque": [
+  "six hours",
+  "three times",
+  "crying",
+  "full of them",
+  "open the door",
+  "latch",
+  "part two"
+ ],
+ "gancho": {
+  "cena": 3,
+  "evento": "susto",
+  "mas": 0.4,
+  "dur": 0.8
+ }
+}

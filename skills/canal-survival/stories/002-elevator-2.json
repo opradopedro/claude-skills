@@ -1,0 +1,182 @@
+{
+ "codigo": "SV002",
+ "formato": "Survivor",
+ "serie": "elevator",
+ "serie_titulo": "Do Not Open The Door | Signal Lost",
+ "parte": 2,
+ "partes": 4,
+ "anterior": "SV001",
+ "titulo": "The government told me not to open it 📵 Part 2 #horror #shorts",
+ "capa": "DO NOT OPEN IT",
+ "descripcion": "My hand was on the latch. Then my phone found one bar of signal.\n\n> Part 3: tomorrow, {next_date}.\nWhy do you think the crying stopped?\n\nNarrated fiction. New part every day.\n#horror #horrorstories #scarystories #survival #creepypasta",
+ "tags": [
+  "horror stories",
+  "scary stories",
+  "creepypasta",
+  "survival horror",
+  "horror shorts",
+  "narrated horror",
+  "elevator",
+  "emergency broadcast",
+  "do not open the door"
+ ],
+ "lineas": [
+  {
+   "texto": "Part two. My hand was on the latch, and the woman outside was begging.",
+   "pausa": 0.8,
+   "vel": 0.88
+  },
+  {
+   "texto": "Then my phone buzzed. One bar of signal, for the first time in six hours.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "It was an emergency broadcast. Every word in capital letters.",
+   "pausa": 0.9,
+   "vel": 0.85
+  },
+  {
+   "texto": "If you are inside a stopped elevator, you are alive because of it.",
+   "pausa": 0.8,
+   "vel": 0.84
+  },
+  {
+   "texto": "Sealed boxes were never breached. You are the only ones we can still reach.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Do not open the door. Not for anyone. Not even for a voice you know.",
+   "pausa": 1.0,
+   "vel": 0.82
+  },
+  {
+   "texto": "On the other side, the crying stopped the exact second I finished reading.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Like it had been reading over my shoulder.",
+   "pausa": 1.0,
+   "vel": 0.8
+  },
+  {
+   "texto": "Part three, tomorrow, {next_day}.",
+   "pausa": 0.3,
+   "vel": 0.88
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0.07,
+     0.04
+    ],
+    "luz": true,
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "telefono",
+   "p": {
+    "hora": "3:12",
+    "de": "EMERGENCY ALERT",
+    "msg": [
+     "DO NOT OPEN",
+     "ANY DOOR"
+    ],
+    "zoom": 0.07
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "SEALED BOXES",
+     "were never breached"
+    ]
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "NOT EVEN FOR",
+     "a voice you know"
+    ]
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0.04,
+     0
+    ],
+    "zoom": 0.13,
+    "fy": 0.45
+   }
+  },
+  {
+   "linea": 8,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "PART 3",
+     "Tomorrow \u00b7 {next_date}"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "vibra",
+   "linea": 1,
+   "en": "inicio",
+   "mas": 0.1
+  },
+  {
+   "tipo": "mensaje",
+   "linea": 2,
+   "en": "inicio"
+  },
+  {
+   "tipo": "flash",
+   "linea": 5,
+   "en": "inicio",
+   "mas": -0.1
+  },
+  {
+   "tipo": "negro",
+   "linea": 6,
+   "en": "inicio",
+   "mas": -0.15,
+   "dur": 0.35
+  },
+  {
+   "tipo": "susto",
+   "linea": 7,
+   "en": 0.4
+  }
+ ],
+ "destaque": [
+  "emergency broadcast",
+  "alive because of it",
+  "never breached",
+  "do not open",
+  "a voice you know",
+  "exact second",
+  "part three"
+ ],
+ "gancho": {
+  "cena": 4,
+  "evento": "susto",
+  "mas": 0.35,
+  "dur": 0.8
+ }
+}
