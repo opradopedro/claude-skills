@@ -1,0 +1,189 @@
+{
+ "codigo": "HM011",
+ "formato": "Leyenda",
+ "serie": "tunda",
+ "serie_titulo": "La Tunda | Hora Muerta",
+ "parte": 1,
+ "partes": 2,
+ "titulo": "Mi mamá me llamó desde dos lugares a la vez 😨 La Tunda Parte 1 #shorts",
+ "capa": "MI MAMÁ ME LLAMÓ DOS VECES",
+ "descripcion": "En el Pacífico colombiano dicen que la Tunda llama con la voz de quien más quieres.\n\n▶ Parte 2: mañana, {fecha_siguiente}.\n¿A cuál habrías ido tú: al manglar o a la casa?\n\nHistoria de ficción narrada. Nueva historia todos los días.\n#terror #historiasdeterror #relatosdeterror #latunda #leyendas #colombia",
+ "tags": [
+  "historias de terror",
+  "relatos de terror",
+  "terror",
+  "leyendas",
+  "creepypasta",
+  "shorts de terror",
+  "miedo",
+  "la tunda",
+  "leyendas de colombia",
+  "pacifico colombiano"
+ ],
+ "lineas": [
+  {
+   "texto": "Si tu mamá te llama de noche, primero mírale los pies.",
+   "pausa": 0.8
+  },
+  {
+   "texto": "Yo pescaba con mi tío, en un pueblo del Pacífico.",
+   "pausa": 0.6
+  },
+  {
+   "texto": "Una noche, desde el manglar, mi mamá gritó mi nombre.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Estaba de espaldas, entre las raíces, con su vestido de flores.",
+   "pausa": 0.7
+  },
+  {
+   "texto": "Caminé hacia ella, y mi mamá me llamó otra vez...",
+   "pausa": 0.6
+  },
+  {
+   "texto": "desde la puerta de mi casa, detrás de mí.",
+   "pausa": 0.9
+  },
+  {
+   "texto": "Las dos tenían su voz, y las dos decían: ven, hijo.",
+   "pausa": 1.0
+  },
+  {
+   "texto": "Parte dos, mañana, {dia_siguiente}.",
+   "pausa": 0.3
+  }
+ ],
+ "cenas": [
+  {
+   "linea": 0,
+   "comp": "pies",
+   "p": {
+    "tipo": "madera",
+    "zoom": 0.08,
+    "fy": 0.6
+   }
+  },
+  {
+   "linea": 1,
+   "comp": "manglar",
+   "p": {
+    "figura": false,
+    "zoom": 0.08
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "manglar",
+   "p": {
+    "dist": [
+     1,
+     0.85
+    ],
+    "zoom": 0.12,
+    "fy": 0.55
+   }
+  },
+  {
+   "linea": 3,
+   "comp": "manglar",
+   "p": {
+    "dist": [
+     0.7,
+     0.55
+    ],
+    "zoom": 0.08,
+    "fy": 0.6
+   }
+  },
+  {
+   "linea": 5,
+   "comp": "puerta",
+   "p": {
+    "abre": [
+     0.75,
+     0.8
+    ],
+    "luz": true,
+    "silueta": true,
+    "zoom": 0.1
+   }
+  },
+  {
+   "linea": 6,
+   "comp": "manglar",
+   "p": {
+    "dist": [
+     0.45,
+     0.35
+    ],
+    "zoom": 0.1,
+    "fy": 0.6
+   }
+  },
+  {
+   "linea": 7,
+   "comp": "texto",
+   "p": {
+    "lineas": [
+     "PARTE 2",
+     "Mañana · {fecha_siguiente}"
+    ]
+   }
+  }
+ ],
+ "eventos": [
+  {
+   "tipo": "toc",
+   "linea": 0,
+   "en": 0.55
+  },
+  {
+   "tipo": "golpe",
+   "linea": 0,
+   "en": 0.55
+  },
+  {
+   "tipo": "susto",
+   "linea": 5,
+   "en": 0.15
+  },
+  {
+   "tipo": "acerca",
+   "linea": 5,
+   "en": 0.15
+  },
+  {
+   "tipo": "golpe",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "acerca",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.05
+  },
+  {
+   "tipo": "susto",
+   "linea": 6,
+   "en": "fin",
+   "mas": 0.05
+  }
+ ],
+ "destaque": [
+  "los pies",
+  "mi nombre",
+  "otra vez",
+  "detrás de mí",
+  "las dos",
+  "parte 2"
+ ],
+ "gancho": {
+  "cena": 4,
+  "evento": "susto",
+  "mas": 0.3,
+  "dur": 0.8
+ }
+}

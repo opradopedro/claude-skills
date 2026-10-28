@@ -28,6 +28,14 @@ def golpe():
     return (corpo + estalo) * 0.9
 
 
+def toc():
+    # pata de palo no chao (Tunda): batida oca de madeira, ressonancias medias que somem rapido
+    n = int(0.3 * SR); t = np.arange(n) / SR
+    oco = sum(np.sin(2 * np.pi * f * t) * a for f, a in ((190, 1), (410, 0.6), (870, 0.3))) * env(n, 0.001, 0.035)
+    estalo = rng.normal(0, 1, n) * env(n, 0.0005, 0.004) * 0.5
+    return (oco / 1.9 + estalo) * 0.75
+
+
 def vibra(dur):
     n = int(dur * SR); t = np.arange(n) / SR
     s = np.sin(2 * np.pi * 150 * t) * (0.5 + 0.5 * np.sin(2 * np.pi * 30 * t))
@@ -140,7 +148,8 @@ def trilha_piano(n, sustos, dur):
 SONS = {"golpe": lambda e: golpe(), "vibra": lambda e: vibra(e.get("dur") or 1.6), "susto": lambda e: susto(),
         "silbido": lambda e: silbido(e.get("dur") or 2.8), "grito": lambda e: grito(e.get("dur") or 1.8),
         "apagon": lambda e: apagon(e.get("dur") or 1.5), "apaga": lambda e: apaga(),
-        "cadenas": lambda e: cadenas(e.get("dur") or 2.0), "aullido": lambda e: aullido(e.get("dur") or 2.5)}
+        "cadenas": lambda e: cadenas(e.get("dur") or 2.0), "aullido": lambda e: aullido(e.get("dur") or 2.5),
+        "toc": lambda e: toc()}
 
 
 def main(historia, voz, tempos, saida):

@@ -139,7 +139,7 @@ Formato de cada parte:
 
 Eventos globais: `susto` (flash vermelho, tranco de câmera, estrondo), `golpe` (batida, tremida),
 `flash`, `negro` (tela preta por `dur`), `apagon` (luz piscando com zumbido).
-Só som: `silbido` (assobio subindo notas), `grito` (lamento), `vibra` (celular), `apaga` (sopro), `cadenas` (corrente arrastando), `aullido` (uivo).
+Só som: `silbido` (assobio subindo notas), `grito` (lamento), `vibra` (celular), `apaga` (sopro), `cadenas` (corrente arrastando), `aullido` (uivo), `toc` (batida oca de madeira).
 
 Componentes (`comp`) e o que cada um aceita:
 
@@ -157,7 +157,9 @@ Componentes (`comp`) e o que cada um aceita:
 | `ojos` | mata com olhos vermelhos; com `perro` desenha um cachorro de frente (negro com contraluz, presas e bafo; `blanco` fantasma) | `n`, `cerca` [ini, fim], `perro`, `blanco`, `color` "r,g,b" | `acerca` |
 | `ventana` | janela vista de dentro | `cara` | `cara` (rosto e mãos no vidro) |
 | `rio` | rio ao luar, mulher de branco | `dist` | `grito` (avança e grita) |
-| `puerta` | porta abrindo | `abre` [ini, fim], `luz`, `garras` | `abre`, `mano` (dedos na borda), `susto` (olhos), `garras` (arranhões aparecem) |
+| `puerta` | porta abrindo | `abre` [ini, fim], `luz`, `garras`, `silueta` (vulto de vestido na luz; olhos vermelhos no `susto`) | `abre`, `mano` (dedos na borda), `susto` (olhos), `garras` (arranhões aparecem) |
+| `manglar` | manglar do Pacífico ao luar, raízes em arco, mulher de vestido florido na água (de costas) | `figura`, `dist` | `voltea` (vira com rosto sorrindo), `acerca` |
+| `pies` | close dos pés: um descalço e uma pata de palo em molinillo (Tunda) | `tipo` "madera"/"descalzos", `piso` "barro"/"tabla" | `toc` (a pata levanta e bate) |
 | `texto` | cartela de regra | `lineas` [título vermelho, subtítulo] | |
 
 Precisa de uma cena que não existe? Crie um `COMP.nome = (t, lt, p) => {...}` no `engine.html`
