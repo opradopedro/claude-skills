@@ -16,22 +16,13 @@ Estilo (referência do Pedro, 23/10): 3D semirrealista em corte (terra com textu
 sobrado e quintal ao fundo, câmera que passeia, **uma palavra de legenda por vez no centro**, sem música de fundo (só voz e efeitos; o Pedro não gostou da marimba).
 Custo zero: Three.js no Chromium, voz Gemini TTS grátis, YouTube Data API.
 
-## Padrão de qualidade (esforço alto, pedido do Pedro em 23/10)
+## Padrão de qualidade (esforço padrão, pedido do Pedro em 28/10)
 
-O Pedro quer vídeos bonitos de ver e temas criativos que as pessoas realmente têm dúvida de como funcionam. Pesquisa de tema e motor gráfico são as
-duas partes onde **não se economiza raciocínio nem tempo**:
+Use o esforço padrão recomendado, sem rodadas extras: o Pedro pediu para economizar tokens.
 
-- **Pesquisa de tema:** antes de escrever, use WebSearch para achar perguntas reais do público de língua inglesa (Reddit r/explainlikeimfive,
-  r/NoStupidQuestions, r/AskEngineers, buscas "how does" / "why does", Shorts virais de how-it-works). Liste pelo menos 8 candidatos com nota de 1 a 5 em
-  curiosidade (a pessoa já se perguntou isso?), surpresa da resposta, potencial visual em 3D em corte e se
-  cabe em 35 a 50 s. Fuja do que já foi muito usado por outros canais e do que já está em `stories/`; anote os bons que
-  sobrarem no backlog (`references/temas.md`). Confira os fatos que o roteiro afirma.
-- **Motor gráfico:** cada cena precisa ser bonita sozinha: composição, luz e sombra, textura, profundidade, movimento
-  com intenção e leitura clara do que está acontecendo. Melhore o motor quando um tema pedir. Renderize quadros de
-  teste em vários pontos, **olhe cada JPG** e faça pelo menos duas rodadas de ajuste antes do render final. Se um
-  quadro estiver feio, vazio, confuso ou repetido, conserte antes de subir.
-- O Pedro não precisa aprovar antes de subir ("Nunca espere minha aprovação pra subir"), então a conferência dos
-  quadros é a única revisão: trate-a como a de um editor exigente.
+- **Tema:** uma busca rápida por dúvidas reais do público de língua inglesa (r/explainlikeimfive, r/AskEngineers, buscas "how does"); fuja do que já está em `stories/` e confira os fatos do roteiro.
+- **Motor gráfico:** renderize alguns quadros de teste, olhe os JPGs uma vez e conserte só o que estiver feio, vazio ou confuso.
+- O Pedro não precisa aprovar antes de subir, então essa conferência dos quadros é a única revisão.
 
 ## Rodar (rotina diária)
 
