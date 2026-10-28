@@ -7,12 +7,14 @@ sozinhos todos os dias.
 |---|---|---|
 | Nome sugerido | **Signal Lost** | **Old Tales Retold** |
 | Assunto | terror realista de sobrevivencia, em series de 3 a 4 partes | historias classicas (Shakespeare, Poe, Odisseia) narradas |
-| Hora de publicar | meio-dia **e** 19h de Nova York | meio-dia **e** 19h de Nova York |
-| Quantos por dia | 2 | 2 |
+| Hora de publicar | **19h** de Nova York | **meio-dia** de Nova York |
+| Quantos por dia | 1 | 1 |
 | Pasta | `skills/canal-survival` | `skills/canal-classics` |
 | Codigo dos videos | SV001, SV002... | CL001, CL002... |
 
-**São 4 vídeos por dia no total.** Uma série de 4 partes sai em 2 dias (duas partes por dia).
+**Sao 2 videos por dia no total**, um de cada canal, em horarios diferentes (almoco e noite de Nova
+York). Uma serie de 4 partes sai ao longo de 4 dias. Dobrar para 2 por canal depois e uma linha de
+configuracao — tem como fazer na secao sobre credito, mais abaixo.
 
 Os dois reaproveitam o motor **ja testado** do seu canal Hora Muerta. **Nenhum arquivo dos seus
 canais atuais foi alterado** — eles continuam funcionando exatamente como antes.
@@ -230,22 +232,30 @@ corredor, relogio, olhos, janela, vela, espelho, estrada, onibus, rio, e mais). 
 usarem so essas, cada video novo e quase gratis. Foi assim que eu escrevi a serie do elevador: zero
 codigo novo.
 
-### A conta de 4 videos por dia (leia antes de ligar)
+### Quanto conteudo isso consome (e como dobrar depois)
 
-Quatro videos por dia sao **28 por semana**. Em series de 4 partes, isso da **7 series novas por
-semana** — umas 3 ou 4 em cada canal. E a unica parte que custa credito, e e bastante escrita.
+Do jeito que esta agora, **2 videos por dia** = 14 por semana. Em series de 4 partes, isso da umas
+**1 a 2 series novas por semana em cada canal**. Da conta tranquilo pedindo em lote uma vez por semana.
 
-Minha sugestao: **comece com 1 por dia em cada canal** nas duas primeiras semanas, veja o que o
-publico responde, e so entao dobre. Para voltar para 1 por dia, e uma linha: no `canal.json`, troque
+Se voce dobrar para 2 por canal (4 por dia), vira **28 por semana** = umas **7 series novas por
+semana**. E bem mais escrita, e escrita e a unica coisa que custa credito. Vale dobrar so depois de
+saber quais temas funcionam, para nao escrever muito do que o publico nao quer.
+
+**Para dobrar**, no `canal.json` do canal:
 
 ```
-"horas_locais": [12, 19]     para     "horas_locais": [19]
+"horas_locais": [19]          ->   "horas_locais": [12, 19]
+"fila": 2                     ->   "fila": 4
 ```
 
-E tem um limite tecnico a vigiar: a voz do Gemini no plano gratis da **10 narracoes por dia**. Uma
-serie de 4 partes gasta 4. Se os dois canais produzirem series de 4 partes no mesmo dia, sao 8 — perto
-do teto. Se estourar, o programa **para sem publicar** e avisa `VOZ FALHOU`; no dia seguinte funciona.
-Nao perde nada, so atrasa. Foi por isso que separei a producao dos dois canais em horarios diferentes.
+E um limite tecnico para vigiar quando dobrar: a voz do Gemini no plano gratis da **10 narracoes por
+dia, por chave**. Uma serie de 4 partes gasta 4 de uma vez. Com 1 video por dia em cada canal isso nao
+chega perto do teto; com 2 em cada, pode chegar. Se estourar, o programa **para sem publicar** e avisa
+`VOZ FALHOU`, e no dia seguinte funciona — nao perde nada, so atrasa.
+
+> ⚠️ Use a chave do Gemini da **conta Google nova**. Se reaproveitar a chave dos canais atuais, o
+> limite de 10 por dia passa a ser dividido entre todos eles, e os canais que ja funcionam podem
+> comecar a falhar. Contas separadas = limites separados.
 
 ---
 

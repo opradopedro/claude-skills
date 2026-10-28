@@ -10,9 +10,10 @@ Canal faceless de Shorts em ingles. **Nao** e terror sobrenatural de lenda: e te
 plausivel. Cada historia e uma **serie de 3 a 4 partes** contada em primeira pessoa por um
 sobrevivente, como se fosse um relato gravado.
 
-- Publicacao: **2 partes por dia**, ao **meio-dia** e as **19h de Nova York** (o motor converte para UTC
-  e acerta sozinho no horario de verao). Agendado como privado com `publishAt`: o Pedro pode vetar no
-  YouTube Studio antes da hora. Uma serie de 4 partes sai em 2 dias.
+- Publicacao: **1 parte por dia** as **19h de Nova York** (o motor converte para UTC e acerta sozinho
+  no horario de verao). Agendado como privado com `publishAt`: o Pedro pode vetar no YouTube Studio
+  antes da hora. Uma serie de 4 partes sai em 4 dias.
+  Para dobrar para 2 por dia depois, basta mudar `horas_locais` no `canal.json`.
 - Nunca marcado como feito para criancas. Publico 16+. Sem sangue, sem gore.
 - Custo zero de ferramenta: cenas desenhadas em codigo, voz Gemini TTS no plano gratis, YouTube Data API.
 
@@ -94,9 +95,9 @@ Modelo completo e testado: a serie `elevator` (`001` a `004`).
   `{"comp": "texto", "p": {"lineas": ["PART 2", "{next_card}"]}}`.
   Na descricao: `> Part 2: {when_next}.`
 
-  **Use sempre `{when_next}`, nunca escreva "tomorrow" na mao.** O canal publica duas vezes por dia
-  (meio-dia e 19h), entao a parte seguinte pode sair no MESMO dia — "tomorrow" seria mentira.
-  O motor calcula a frase certa sozinho:
+  **Use sempre `{when_next}`, nunca escreva "tomorrow" na mao.** Hoje o canal publica 1 vez por dia,
+  entao vai sair "tomorrow" mesmo — mas se um dia passar a 2 por dia, a parte seguinte pode cair no
+  MESMO dia e "tomorrow" seria mentira. Com o marcador, o motor calcula a frase certa sozinho:
 
   | Quando a proxima parte sai | `{when_next}` | `{next_card}` |
   |---|---|---|

@@ -9,8 +9,8 @@ Canal faceless de Shorts em ingles que conta **historias que ja existem**: trage
 cantos da Odisseia, contos de Poe, mitos gregos e nordicos, lendas arturianas. A historia nao e
 inventada — o trabalho e **cortar ao essencial, narrar bem e animar a cena**.
 
-- Publicacao: **2 partes por dia**, ao **meio-dia** e as **19h de Nova York** (o motor acerta o horario
-  de verao sozinho). Uma obra em 4 partes sai em 2 dias.
+- Publicacao: **1 parte por dia** ao **meio-dia de Nova York** (o motor acerta o horario de verao
+  sozinho). Uma obra em 4 partes sai em 4 dias.
 - Vantagem sobre inventar historia: o roteiro e **adaptacao**, nao criacao. Sai mais rapido, erra menos
   e os temas nunca acabam. Obra em dominio publico: sem problema de direito autoral.
 - Nunca marcado como feito para criancas. Categoria 24, idioma `en`.

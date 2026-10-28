@@ -9,8 +9,8 @@
  "_canal_titulo_obs": "TRAVA DE SEGURANCA: escreva aqui o nome EXATO do canal no YouTube. Enquanto estiver vazio, o programa avisa mas nao confere. Com o nome preenchido, ele se recusa a subir se o token for de outro canal.",
 
  "fuso": "America/New_York",
- "horas_locais": [12, 19],
- "_horas_obs": "DOIS videos por dia: meio-dia e 19h de Nova York. Ajusta sozinho no horario de verao. Para voltar a 1 por dia, deixe so uma hora na lista.",
+ "horas_locais": [12],
+ "_horas_obs": "UM video por dia, ao meio-dia de Nova York (horario de almoco). Ajusta sozinho no horario de verao. Para dobrar para 2 por dia, escreva [12, 19] aqui e troque 'fila' para 4.",
 
  "token_var": "YT_REFRESH_TOKEN_CLASSICS",
  "voz": "Charon",
@@ -19,7 +19,7 @@
 
  "categoria": "24",
  "crf": "26",
- "fila": 4,
+ "fila": 2,
 
  "pasta_videos_var": "CL_VIDEOS",
  "pasta_videos": ""
