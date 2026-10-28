@@ -34,6 +34,72 @@ import tempfile
 # Onde esta o repositorio no seu computador. Mude aqui, ou defina a variavel CANAIS_REPO.
 REPO_PADRAO = r"C:\claude-skills"
 
+# Memoria livre minima para comecar a produzir, em MB.
+# O PC do Pedro tem 8 GB. Fazer um video usa Chromium (desenha as cenas), Whisper (confere a
+# legenda) e FFmpeg (junta tudo): o pico passa de 2 GB. Sem essa folga, o Windows mata o
+# processo no meio e se perdem 20 minutos de trabalho sem nenhuma explicacao util.
+# Melhor nao comecar e dizer por que. Mude com a variavel CANAIS_MIN_RAM_MB.
+MIN_RAM_MB = int(os.environ.get("CANAIS_MIN_RAM_MB", "2500"))
+
+
+def memoria_livre_mb():
+    """Memoria RAM livre em MB. Nao precisa instalar nada. Devolve -1 se nao souber medir."""
+    if os.name == "nt":
+        try:
+            import ctypes
+
+            class MEMORYSTATUSEX(ctypes.Structure):
+                _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong),
+                            ("ullTotalPhys", ctypes.c_ulonglong), ("ullAvailPhys", ctypes.c_ulonglong),
+                            ("ullTotalPageFile", ctypes.c_ulonglong), ("ullAvailPageFile", ctypes.c_ulonglong),
+                            ("ullTotalVirtual", ctypes.c_ulonglong), ("ullAvailVirtual", ctypes.c_ulonglong),
+                            ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
+
+            m = MEMORYSTATUSEX()
+            m.dwLength = ctypes.sizeof(MEMORYSTATUSEX)
+            ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m))
+            return int(m.ullAvailPhys / (1024 * 1024))
+        except Exception:
+            return -1
+    try:
+        for linha in open("/proc/meminfo"):
+            if linha.startswith("MemAvailable:"):
+                return int(linha.split()[1]) // 1024
+    except Exception:
+        pass
+    return -1
+
+
+def maiores_processos(n=4):
+    """Nome e MB dos processos que mais usam memoria, para dizer o que fechar."""
+    if os.name != "nt":
+        return ""
+    try:
+        ps = ("Get-Process | Sort-Object WorkingSet -Descending | Select-Object -First %d "
+              "Name,@{n='MB';e={[int]($_.WorkingSet/1MB)}} | "
+              "ForEach-Object { \"$($_.Name) $($_.MB) MB\" }") % n
+        r = subprocess.run(["powershell", "-NoProfile", "-Command", ps],
+                           capture_output=True, text=True, timeout=30)
+        return "; ".join(x.strip() for x in (r.stdout or "").splitlines() if x.strip())
+    except Exception:
+        return ""
+
+
+def conferir_memoria():
+    """Para antes de comecar se nao houver folga de RAM. Devolve None se estiver tudo bem."""
+    livre = memoria_livre_mb()
+    if livre < 0 or livre >= MIN_RAM_MB:
+        return None
+    culpados = maiores_processos()
+    msg = (f"NAO RODEI: memoria insuficiente. Livre agora: {livre} MB; "
+           f"preciso de pelo menos {MIN_RAM_MB} MB.\n"
+           f"Fazer um video usa Chromium, Whisper e FFmpeg ao mesmo tempo. Com menos que isso o "
+           f"Windows mata o processo no meio e o trabalho se perde.\n"
+           f"O que fazer: feche os navegadores (Opera e Chrome costumam ser os maiores) e rode de novo.")
+    if culpados:
+        msg += f"\nMaiores agora: {culpados}"
+    return msg
+
 
 def _repo():
     repo = os.environ.get("CANAIS_REPO", REPO_PADRAO)
@@ -71,6 +137,9 @@ def _rodar(canal):
     """Produz e agenda a proxima serie do canal. Devolve um resumo curto em texto."""
     repo = _repo()
     _carregar_env(repo)
+    falta_memoria = conferir_memoria()
+    if falta_memoria:
+        return f"[{canal}] {falta_memoria}"
     saida = os.path.join(tempfile.gettempdir(), "canais", canal)
     os.makedirs(saida, exist_ok=True)
     cmd = [sys.executable, os.path.join(repo, "motor-en", "produce.py"),
@@ -88,8 +157,14 @@ def _rodar(canal):
     if r.returncode != 0:
         erro = (r.stderr or "").strip().splitlines()
         cauda = "\n".join(erro[-8:])
-        return f"[{canal}] FALHOU (codigo {r.returncode})\n{resumo}\n--- erro ---\n{cauda}"
-    return f"[{canal}] OK\n{resumo}"
+        # morte por falta de memoria nao deixa mensagem de erro util: avisa o que foi
+        agora = memoria_livre_mb()
+        pista = ""
+        if 0 <= agora < MIN_RAM_MB:
+            pista = (f"\nATENCAO: a memoria livre esta em {agora} MB. O processo provavelmente foi "
+                     f"morto por falta de memoria. Feche os navegadores e rode de novo.")
+        return f"[{canal}] FALHOU (codigo {r.returncode})\n{resumo}\n--- erro ---\n{cauda}{pista}"
+    return f"[{canal}] OK (memoria livre: {memoria_livre_mb()} MB)\n{resumo}"
 
 
 def run_survival(*_args, **_kwargs):

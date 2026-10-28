@@ -184,6 +184,45 @@ YouTube Studio e apagar antes da hora se nao gostar. Voce tem a palavra final se
 
 ---
 
+## Memoria RAM: a regra mais importante do dia a dia
+
+Seu PC tem **8 GB de RAM**. Isso da para fazer os videos, mas **com uma condicao: navegador fechado.**
+
+A conta, com os numeros medidos no seu PC:
+
+| | Memoria |
+|---|---|
+| Windows, antivirus, area de trabalho | ~2,5 GB |
+| Kiro Crew (precisa ficar ligado para o agendamento) | ~0,7 GB |
+| **Fazer um video** (Chromium + Whisper + FFmpeg) | **~2 GB** |
+| **Soma** | **~5,2 GB de 8 GB** ✅ sobra folga |
+| Opera + Chrome abertos | **+4,8 GB** ❌ nao cabe |
+
+Ou seja: **o problema nao e o seu PC, sao os navegadores.** Opera sozinho estava usando 3,3 GB.
+
+**A regra:** feche o Opera e o Chrome antes de dormir. A producao roda as 2h e as 6h da manha, quando
+voce nao esta usando o computador — mas navegador nao fecha sozinho. Se ficar aberto, ele continua
+ocupando a memoria a noite inteira.
+
+**Protecao automatica:** o programa agora **confere a memoria antes de comecar**. Se tiver menos de
+2,5 GB livres, ele nao comeca e escreve `NAO RODEI: memoria insuficiente`, dizendo quais programas
+fechar. Isso e melhor que a alternativa: antes, ele trabalharia 20 minutos e seria morto pelo Windows
+no meio, sem explicacao nenhuma.
+
+Se um dia quiser mudar esse limite: variavel de ambiente `CANAIS_MIN_RAM_MB`.
+
+### Se ainda faltar memoria
+
+Em ordem, do mais facil para o mais chato:
+
+1. **Fechar os navegadores** (resolve na maioria dos casos)
+2. **Desligar o NVIDIA Overlay** e outros programas de bandeja (uns 200 MB cada)
+3. **Produzir um canal por noite**, alternando (no `canal.json`, `"fila"` mais alto segura a producao)
+4. **Baixar a resolucao** de 1080x1920 para 720x1280 — corta quase metade da memoria do Chromium e
+   ainda serve para Shorts. Me peca e eu faco.
+5. **Comprar mais 8 GB de RAM.** Pouco romantico, mas e o melhor custo-beneficio: 16 GB resolveria de
+   vez e deixaria voce usar o PC normalmente enquanto os videos sao feitos.
+
 ## O que fazer quando aparecer uma mensagem
 
 | Mensagem | O que significa | O que fazer |
@@ -197,6 +236,7 @@ YouTube Studio e apagar antes da hora se nao gostar. Voce tem a palavra final se
 | `vencido ou revogado` | A chave do YouTube caducou (7 dias) | Gere outra, ou publique o aplicativo |
 | `FUSO NAO ENCONTRADO` | Falta a tabela de fusos | `pip install tzdata` |
 | `FALTA A VARIAVEL ...` | Uma chave do `.env` esta em branco | Preencha |
+| `NAO RODEI: memoria insuficiente` | Falta RAM livre para comecar | Feche Opera e Chrome e rode de novo |
 | `Nao achei o repositorio` | A pasta esta errada ou ainda e `.zip` | Volte ao topo deste manual |
 
 Em qualquer caso: **copie a mensagem e me manda**. Eu conserto.
