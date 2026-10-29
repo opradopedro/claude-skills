@@ -1,14 +1,16 @@
 # claude-skills
-Este repositório serve especificamente para disponibilizar skills para o claude.
 
-## Skills
-- `skills/radar-da-gringa`: traduz e refaz em português os posts gringos que mais bombaram e publica até 3 Reels por dia sem repetir (`radar-da-gringa.skill`).
-- `skills/pagina-gta6-conteudo`: linha editorial e padrão visual da página @radar.gta6br (`pagina-gta6-conteudo.skill`).
-- `skills/fabrica-de-paginas`: abrir, produzir e automatizar páginas de nicho de qualquer tema (`fabrica-de-paginas.skill`).
-- `skills/canal-dark-shorts`: canal dark (sem rosto) de YouTube Shorts no estilo Peter Jordan: validar nicho, modelar canais que explodiram, identidade, pauta, roteiro com gancho, narração, prompts de imagem, título, capa, agendamento e métricas, com um resumo do algoritmo de Shorts e da regra de conteúdo inautêntico (`canal-dark-shorts.skill`).
-- `skills/canal-terror`: produz e agenda sozinho os Shorts de terror do canal Hora Muerta (espanhol): roteiro em JSON, cenas animadas em código renderizadas no Chromium, narração Gemini grátis (reserva Kokoro local), trilha e efeitos sintetizados e upload agendado às 21h pela YouTube Data API, a custo zero (`canal-terror.skill`).
-- `skills/find-skills`: procura e recomenda skills prontas do ecossistema aberto (skills.sh) quando surge uma tarefa nova. Cópia da skill da Vercel ([vercel-labs/skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills)), licença MIT (`find-skills.skill`).
-- `skills/apify-ultimate-scraper`: coleta posts, métricas e links de mídia de Instagram, TikTok, YouTube e outras redes pela Apify (precisa de `APIFY_TOKEN` no ambiente). Cópia da skill da Apify ([apify/agent-skills](https://github.com/apify/agent-skills/tree/main/skills/apify-ultimate-scraper)), licença Apache-2.0 (`apify-ultimate-scraper.skill`).
-- `skills/instagram-skills`: pacote de 9 skills de Instagram (legenda com gancho nos primeiros 125 caracteres, carrossel slide a slide, extrair o gancho de Reels virais, hashtags, humanizar texto de IA, pauta semanal, reaproveitar conteúdo de outras redes, otimizar perfil e ler dados do nicho). Funciona só em rascunho sem configurar nada; publicar exige `PUBLORA_API_KEY`. Cópia da skill de Sergey Bulaev ([sergebulaev/instagram-skills](https://github.com/sergebulaev/instagram-skills)), licença MIT (`instagram-skills.skill`).
+Skills para usar nas conversas com o Claude. Os canais e páginas (Hora Muerta, So You Built It,
+GTA 6, Signal Lost, Old Tales e o painel) ficam no repositório
+[canais-dark](https://github.com/opradopedro/canais-dark), um canal por pasta.
 
-O branch `radar-gta6-midia` guarda os vídeos, a agenda e o playbook da publicação automática do @radar.gta6br.
+| Skill | Para que serve |
+|---|---|
+| `skills/radar-da-gringa` | traduz e refaz em português os posts gringos que mais bombaram e publica Reels (`radar-da-gringa.skill`) |
+| `skills/fabrica-de-paginas` | abrir, produzir e automatizar páginas de nicho de qualquer tema (`fabrica-de-paginas.skill`) |
+| `skills/canal-dark-shorts` | método para criar um canal dark de YouTube Shorts (`canal-dark-shorts.skill`) |
+| `skills/instagram-skills` | pacote de skills de Instagram (`instagram-skills.skill`) |
+| `skills/apify-ultimate-scraper` | buscar dados de redes sociais e sites com o Apify (`apify-ultimate-scraper.skill`) |
+| `skills/find-skills` | achar skills prontas (`find-skills.skill`) |
+| `skill-creator.skill` | criar skills novas |
+| `frontend-design-v1.zip` | design de páginas e interfaces |
