@@ -1,0 +1,382 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v51_pago_pra_jogar_irlanda.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+   "start": 0.0,
+   "end": 1.645,
+   "layout": "full",
+   "cx": 0.713,
+   "pan": 1,
+   "ss": 0.41
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_039.mp4",
+   "start": 1.645,
+   "end": 3.29,
+   "layout": "full",
+   "cx": 0.262,
+   "pan": -1,
+   "ss": 2.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_253.mp4",
+   "start": 3.29,
+   "end": 5.483,
+   "layout": "full",
+   "cx": 0.511,
+   "pan": 1,
+   "ss": 0.43
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_131.mp4",
+   "start": 5.483,
+   "end": 7.859,
+   "layout": "full",
+   "cx": 0.585,
+   "pan": -1,
+   "ss": 0.22
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_004.mp4",
+   "start": 7.859,
+   "end": 9.869,
+   "layout": "full",
+   "cx": 0.707,
+   "pan": 1,
+   "ss": 1.35
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_179.mp4",
+   "start": 9.869,
+   "end": 11.302,
+   "layout": "full",
+   "cx": 0.806,
+   "pan": -1,
+   "ss": 0.01
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_198.mp4",
+   "start": 11.302,
+   "end": 13.178,
+   "layout": "full",
+   "cx": 0.479,
+   "pan": 1,
+   "ss": 2.02
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_186.mp4",
+   "start": 13.178,
+   "end": 15.208,
+   "layout": "full",
+   "cx": 0.297,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_245.mp4",
+   "start": 15.208,
+   "end": 16.886,
+   "layout": "full",
+   "cx": 0.363,
+   "pan": 1,
+   "ss": 0.56
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_189.mp4",
+   "start": 16.886,
+   "end": 18.527,
+   "layout": "full",
+   "cx": 0.66,
+   "pan": -1,
+   "ss": 0.66
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+   "start": 18.527,
+   "end": 19.91,
+   "layout": "full",
+   "cx": 0.291,
+   "pan": 1,
+   "ss": 2.24
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_024.mp4",
+   "start": 19.91,
+   "end": 21.409,
+   "layout": "full",
+   "cx": 0.569,
+   "pan": -1,
+   "ss": 0.6
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_118.mp4",
+   "start": 21.409,
+   "end": 23.779,
+   "layout": "full",
+   "cx": 0.427,
+   "pan": 1,
+   "ss": 0.38
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_104.mp4",
+   "start": 23.779,
+   "end": 25.322,
+   "layout": "full",
+   "cx": 0.481,
+   "pan": -1,
+   "ss": 1.52
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_227.mp4",
+   "start": 25.322,
+   "end": 27.383,
+   "layout": "full",
+   "cx": 0.941,
+   "pan": 1,
+   "ss": 0.61
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_291.mp4",
+   "start": 27.383,
+   "end": 29.361,
+   "layout": "full",
+   "cx": 0.335,
+   "pan": -1,
+   "ss": 1.59
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_213.mp4",
+   "start": 29.361,
+   "end": 31.17,
+   "layout": "full",
+   "cx": 0.889,
+   "pan": 1,
+   "ss": 0.27
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_390.mp4",
+   "start": 31.17,
+   "end": 33.28,
+   "layout": "full",
+   "cx": 0.462,
+   "pan": -1,
+   "ss": 1.11
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.66,
+   "text": "MANO",
+   "hl": false
+  },
+  {
+   "start": 0.66,
+   "end": 1.58,
+   "text": "TEM EMPRESA PAGANDO",
+   "hl": false
+  },
+  {
+   "start": 1.58,
+   "end": 3.08,
+   "text": "100 EUROS POR HORA PRA",
+   "hl": true
+  },
+  {
+   "start": 3.08,
+   "end": 4.56,
+   "text": "JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 4.56,
+   "end": 5.56,
+   "text": "A VIRGIN MEDIA DA",
+   "hl": false
+  },
+  {
+   "start": 5.56,
+   "end": 6.3,
+   "text": "IRLANDA VAI DAR",
+   "hl": false
+  },
+  {
+   "start": 6.3,
+   "end": 7.78,
+   "text": "800 EUROS PRA UMA",
+   "hl": true
+  },
+  {
+   "start": 7.78,
+   "end": 9.22,
+   "text": "PESSOA JOGAR 8 HORAS",
+   "hl": true
+  },
+  {
+   "start": 9.22,
+   "end": 10.04,
+   "text": "E AINDA DÁ",
+   "hl": false
+  },
+  {
+   "start": 10.04,
+   "end": 10.52,
+   "text": "O JOGO DE",
+   "hl": false
+  },
+  {
+   "start": 10.52,
+   "end": 11.24,
+   "text": "GRAÇA",
+   "hl": false
+  },
+  {
+   "start": 11.24,
+   "end": 12.1,
+   "text": "O VENCEDOR TEM",
+   "hl": false
+  },
+  {
+   "start": 12.1,
+   "end": 12.96,
+   "text": "UMA SEMANA PRA",
+   "hl": false
+  },
+  {
+   "start": 12.96,
+   "end": 14.1,
+   "text": "FECHAR AS 8 HORAS",
+   "hl": true
+  },
+  {
+   "start": 14.1,
+   "end": 15.16,
+   "text": "NO RITMO DELE",
+   "hl": false
+  },
+  {
+   "start": 15.16,
+   "end": 15.86,
+   "text": "E DEPOIS SÓ",
+   "hl": false
+  },
+  {
+   "start": 15.86,
+   "end": 16.58,
+   "text": "POSTA UMA REVIEW",
+   "hl": false
+  },
+  {
+   "start": 16.58,
+   "end": 17.96,
+   "text": "SINCERA NAS REDES",
+   "hl": false
+  },
+  {
+   "start": 17.96,
+   "end": 18.57,
+   "text": "MAS TEM UM",
+   "hl": false
+  },
+  {
+   "start": 18.57,
+   "end": 19.18,
+   "text": "PORÉM",
+   "hl": false
+  },
+  {
+   "start": 19.18,
+   "end": 19.96,
+   "text": "SÓ VALE PRA",
+   "hl": false
+  },
+  {
+   "start": 19.96,
+   "end": 20.54,
+   "text": "QUEM MORA NA",
+   "hl": false
+  },
+  {
+   "start": 20.54,
+   "end": 21.36,
+   "text": "IRLANDA",
+   "hl": false
+  },
+  {
+   "start": 21.36,
+   "end": 22.28,
+   "text": "AS INSCRIÇÕES VÃO",
+   "hl": false
+  },
+  {
+   "start": 22.28,
+   "end": 23.54,
+   "text": "ATÉ 15 DE NOVEMBRO",
+   "hl": true
+  },
+  {
+   "start": 23.54,
+   "end": 24.3,
+   "text": "COM UM TEXTO",
+   "hl": false
+  },
+  {
+   "start": 24.3,
+   "end": 25.36,
+   "text": "EXPLICANDO POR QUE",
+   "hl": false
+  },
+  {
+   "start": 25.36,
+   "end": 26.02,
+   "text": "VOCÊ MERECE",
+   "hl": false
+  },
+  {
+   "start": 26.02,
+   "end": 27.42,
+   "text": "PENSA COMIGO",
+   "hl": false
+  },
+  {
+   "start": 27.42,
+   "end": 28.16,
+   "text": "VOCÊ LARGARIA O",
+   "hl": false
+  },
+  {
+   "start": 28.16,
+   "end": 29.32,
+   "text": "EMPREGO POR ESSE?",
+   "hl": false
+  },
+  {
+   "start": 29.32,
+   "end": 29.98,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 29.98,
+   "end": 31.14,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 31.14,
+   "end": 32.06,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 32.06,
+   "end": 32.88,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}

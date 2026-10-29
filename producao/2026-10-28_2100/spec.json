@@ -1,0 +1,26 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v51_pago_pra_jogar_irlanda.mp4",
+ "text": "Mano, tem empresa pagando cem euros por hora pra jogar GTA 6! A Virgin Media da Irlanda vai dar oitocentos euros pra uma pessoa jogar oito horas, e ainda dá o jogo de graça. O vencedor tem uma semana pra fechar as oito horas, no ritmo dele, e depois só posta uma review sincera nas redes. Mas tem um porém: só vale pra quem mora na Irlanda. As inscrições vão até quinze de novembro, com um texto explicando por que você merece. Pensa comigo: você largaria o emprego por esse? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "cem euros por hora": "100 euros por hora",
+  "oitocentos euros": "800 euros",
+  "oito horas": "8 horas",
+  "quinze de novembro": "15 de novembro",
+  "Virgin Media": "Virgin Media"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "cidade",
+  "praia",
+  "festa",
+  "carro",
+  "dirigindo",
+  "dinheiro"
+ ],
+ "seed": 51,
+ "font": "../../assets/fonts/Anton.ttf"
+}
