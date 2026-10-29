@@ -1687,17 +1687,17 @@
   "publicado": "2026-10-27T15:13:35.000Z",
   "legenda": "GTA 6 nem lançou e já tá fazendo outros jogos fugirem",
   "atual": {
-   "playCount": 1299,
+   "playCount": 1300,
    "likeCount": 43,
    "commentCount": 0,
    "shares": 6,
    "saves": 0,
-   "avgWatchTimeMs": 12947,
-   "avgWatchedPct": 33.197435897435895,
+   "avgWatchTimeMs": 12939,
+   "avgWatchedPct": 33.177,
    "skipRate": 35,
    "durationSeconds": 39,
-   "coletado": "2026-10-29T00:04Z",
-   "horas": 32.8
+   "coletado": "2026-10-29T15:16Z",
+   "horas": 48.0
   },
   "h24": {
    "playCount": 1299,
@@ -1717,17 +1717,17 @@
   "publicado": "2026-10-27T21:26:36.000Z",
   "legenda": "GTA 6 vai pedir 210 GB livres no PS5",
   "atual": {
-   "playCount": 1475,
+   "playCount": 1480,
    "likeCount": 53,
    "commentCount": 0,
    "shares": 17,
    "saves": 3,
-   "avgWatchTimeMs": 13562,
-   "avgWatchedPct": 35.689473684210526,
-   "skipRate": 38.2,
+   "avgWatchTimeMs": 13559,
+   "avgWatchedPct": 35.682,
+   "skipRate": 38.1,
    "durationSeconds": 38,
-   "coletado": "2026-10-29T00:04Z",
-   "horas": 26.6
+   "coletado": "2026-10-29T15:16Z",
+   "horas": 41.8
   },
   "h24": {
    "playCount": 1475,
@@ -1747,17 +1747,17 @@
   "publicado": "2026-10-28T00:01:31.000Z",
   "legenda": "GTA 6 no PC pode chegar bem antes do que você imagina 🖥️",
   "atual": {
-   "playCount": 480,
-   "likeCount": 17,
+   "playCount": 486,
+   "likeCount": 18,
    "commentCount": 0,
    "shares": 3,
    "saves": 2,
-   "avgWatchTimeMs": 9323,
-   "avgWatchedPct": 23.3075,
-   "skipRate": 48.8,
+   "avgWatchTimeMs": 9348,
+   "avgWatchedPct": 23.37,
+   "skipRate": 49,
    "durationSeconds": 40,
-   "coletado": "2026-10-29T00:04Z",
-   "horas": 24.0
+   "coletado": "2026-10-29T15:16Z",
+   "horas": 39.3
   },
   "h24": {
    "playCount": 480,
@@ -1777,34 +1777,51 @@
   "publicado": "2026-10-28T15:28:02.000Z",
   "legenda": "GTA 6 tá tão blindado que cada cópia da imprensa vem com o nome do jornalista na",
   "atual": {
-   "playCount": 1433,
-   "likeCount": 44,
+   "playCount": 1462,
+   "likeCount": 45,
    "commentCount": 0,
    "shares": 5,
    "saves": 3,
-   "avgWatchTimeMs": 14578,
-   "avgWatchedPct": 40.49444444444445,
-   "skipRate": 37.2,
+   "avgWatchTimeMs": 14629,
+   "avgWatchedPct": 40.636,
+   "skipRate": 36.8,
    "durationSeconds": 36,
-   "coletado": "2026-10-29T00:04Z",
-   "horas": 8.6
+   "coletado": "2026-10-29T15:16Z",
+   "horas": 23.8
   }
  },
  "DfDXVFojWfX": {
   "publicado": "2026-10-28T21:09:53.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 118,
+   "playCount": 120,
    "likeCount": 4,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 7997,
-   "avgWatchedPct": 22.21388888888889,
-   "skipRate": 43.9,
+   "avgWatchTimeMs": 7921,
+   "avgWatchedPct": 22.003,
+   "skipRate": 44,
    "durationSeconds": 36,
-   "coletado": "2026-10-29T00:04Z",
-   "horas": 2.9
+   "coletado": "2026-10-29T15:16Z",
+   "horas": 18.1
+  }
+ },
+ "DfDrYMklbDR": {
+  "publicado": "2026-10-29T00:05:03.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 625,
+   "likeCount": 16,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 12077,
+   "avgWatchedPct": 36.597,
+   "skipRate": 41.9,
+   "durationSeconds": 33,
+   "coletado": "2026-10-29T15:16Z",
+   "horas": 15.2
   }
  }
 }

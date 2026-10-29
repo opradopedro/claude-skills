@@ -1,0 +1,436 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v52_policia_descricao.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_239.mp4",
+   "start": 0.0,
+   "end": 1.691,
+   "layout": "full",
+   "cx": 0.441,
+   "pan": 1,
+   "ss": 0.12
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_216.mp4",
+   "start": 1.691,
+   "end": 3.171,
+   "layout": "full",
+   "cx": 0.507,
+   "pan": -1,
+   "ss": 1.17
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_234.mp4",
+   "start": 3.171,
+   "end": 5.534,
+   "layout": "full",
+   "cx": 0.495,
+   "pan": 1,
+   "ss": 0.63
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+   "start": 5.534,
+   "end": 7.375,
+   "layout": "full",
+   "cx": 0.666,
+   "pan": -1,
+   "ss": 0.11
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_220.mp4",
+   "start": 7.375,
+   "end": 9.624,
+   "layout": "full",
+   "cx": 0.459,
+   "pan": 1,
+   "ss": 0.68
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_236.mp4",
+   "start": 9.624,
+   "end": 11.055,
+   "layout": "full",
+   "cx": 0.514,
+   "pan": -1,
+   "ss": 0.85
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+   "start": 11.055,
+   "end": 12.998,
+   "layout": "full",
+   "cx": 0.454,
+   "pan": 1,
+   "ss": 0.07
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_241.mp4",
+   "start": 12.998,
+   "end": 14.604,
+   "layout": "full",
+   "cx": 0.413,
+   "pan": -1,
+   "ss": 0.03
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_223.mp4",
+   "start": 14.604,
+   "end": 15.985,
+   "layout": "full",
+   "cx": 0.975,
+   "pan": 1,
+   "ss": 0.43
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_228.mp4",
+   "start": 15.985,
+   "end": 18.056,
+   "layout": "full",
+   "cx": 0.19,
+   "pan": -1,
+   "ss": 0.49
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_290.mp4",
+   "start": 18.056,
+   "end": 19.709,
+   "layout": "full",
+   "cx": 0.413,
+   "pan": 1,
+   "ss": 0.5
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_240.mp4",
+   "start": 19.709,
+   "end": 22.191,
+   "layout": "full",
+   "cx": 0.684,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 22.191,
+   "end": 24.654,
+   "layout": "full",
+   "cx": 0.498,
+   "pan": 1,
+   "ss": 1.36
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+   "start": 24.654,
+   "end": 26.232,
+   "layout": "full",
+   "cx": 0.628,
+   "pan": -1,
+   "ss": 1.54
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_188.mp4",
+   "start": 26.232,
+   "end": 28.999,
+   "layout": "full",
+   "cx": 0.662,
+   "pan": 1,
+   "ss": 0.6
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+   "start": 28.999,
+   "end": 30.371,
+   "layout": "full",
+   "cx": 0.445,
+   "pan": -1,
+   "ss": 0.45
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_255.mp4",
+   "start": 30.371,
+   "end": 32.074,
+   "layout": "full",
+   "cx": 0.383,
+   "pan": 1,
+   "ss": 0.14
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_291.mp4",
+   "start": 32.074,
+   "end": 33.488,
+   "layout": "full",
+   "cx": 0.45,
+   "pan": -1,
+   "ss": 0.46
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_218.mp4",
+   "start": 33.488,
+   "end": 35.281,
+   "layout": "full",
+   "cx": 0.377,
+   "pan": 1,
+   "ss": 1.71
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_245.mp4",
+   "start": 35.281,
+   "end": 36.496,
+   "layout": "full",
+   "cx": 0.271,
+   "pan": -1,
+   "ss": 1.15
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.423,
+   "text": "MANO",
+   "hl": false
+  },
+  {
+   "start": 0.423,
+   "end": 1.691,
+   "text": "EM GTA 6 A",
+   "hl": true
+  },
+  {
+   "start": 1.691,
+   "end": 3.171,
+   "text": "POLÍCIA VAI DECORAR",
+   "hl": false
+  },
+  {
+   "start": 3.171,
+   "end": 4.307,
+   "text": "A SUA ROUPA",
+   "hl": false
+  },
+  {
+   "start": 4.307,
+   "end": 5.534,
+   "text": "JORNALISTAS VIRAM",
+   "hl": false
+  },
+  {
+   "start": 5.534,
+   "end": 7.375,
+   "text": "90 MINUTOS DE GAMEPLAY",
+   "hl": true
+  },
+  {
+   "start": 7.375,
+   "end": 8.193,
+   "text": "AO VIVO NA",
+   "hl": false
+  },
+  {
+   "start": 8.193,
+   "end": 8.602,
+   "text": "ROCKSTAR",
+   "hl": false
+  },
+  {
+   "start": 8.602,
+   "end": 9.624,
+   "text": "E OS POLICIAIS",
+   "hl": false
+  },
+  {
+   "start": 9.624,
+   "end": 11.055,
+   "text": "MONTAM UMA DESCRIÇÃO",
+   "hl": false
+  },
+  {
+   "start": 11.055,
+   "end": 11.4,
+   "text": "SUA",
+   "hl": false
+  },
+  {
+   "start": 11.4,
+   "end": 11.719,
+   "text": "ROUPA",
+   "hl": false
+  },
+  {
+   "start": 11.719,
+   "end": 12.039,
+   "text": "@RM@",
+   "hl": false
+  },
+  {
+   "start": 12.039,
+   "end": 12.998,
+   "text": "PARCEIRO E ATÉ",
+   "hl": false
+  },
+  {
+   "start": 12.998,
+   "end": 13.798,
+   "text": "AS CÂMERAS QUE",
+   "hl": false
+  },
+  {
+   "start": 13.798,
+   "end": 14.604,
+   "text": "TE FILMARAM",
+   "hl": false
+  },
+  {
+   "start": 14.604,
+   "end": 15.122,
+   "text": "PRA FUGIR",
+   "hl": false
+  },
+  {
+   "start": 15.122,
+   "end": 15.985,
+   "text": "VOCÊ TROCA DE",
+   "hl": false
+  },
+  {
+   "start": 15.985,
+   "end": 16.33,
+   "text": "ROUPA",
+   "hl": false
+  },
+  {
+   "start": 16.33,
+   "end": 17.193,
+   "text": "LARGA A @RM@",
+   "hl": false
+  },
+  {
+   "start": 17.193,
+   "end": 18.056,
+   "text": "OU SE SEPARA",
+   "hl": false
+  },
+  {
+   "start": 18.056,
+   "end": 18.696,
+   "text": "DA LUCIA",
+   "hl": false
+  },
+  {
+   "start": 18.696,
+   "end": 19.709,
+   "text": "E TEM MAIS",
+   "hl": false
+  },
+  {
+   "start": 19.709,
+   "end": 20.979,
+   "text": "CARRO CARO ROUBADO",
+   "hl": false
+  },
+  {
+   "start": 20.979,
+   "end": 22.191,
+   "text": "PODE TER RASTREADOR",
+   "hl": false
+  },
+  {
+   "start": 22.191,
+   "end": 22.959,
+   "text": "E O DONO",
+   "hl": false
+  },
+  {
+   "start": 22.959,
+   "end": 24.654,
+   "text": "CHAMA A POLÍCIA",
+   "hl": false
+  },
+  {
+   "start": 24.654,
+   "end": 24.83,
+   "text": "AH",
+   "hl": false
+  },
+  {
+   "start": 24.83,
+   "end": 25.531,
+   "text": "E O MAPA",
+   "hl": false
+  },
+  {
+   "start": 25.531,
+   "end": 26.232,
+   "text": "É QUASE DO",
+   "hl": false
+  },
+  {
+   "start": 26.232,
+   "end": 27.422,
+   "text": "TAMANHO DE GTA 4",
+   "hl": true
+  },
+  {
+   "start": 27.422,
+   "end": 28.999,
+   "text": "GTA 5 E RED DEAD 2",
+   "hl": true
+  },
+  {
+   "start": 28.999,
+   "end": 29.482,
+   "text": "JUNTOS",
+   "hl": false
+  },
+  {
+   "start": 29.482,
+   "end": 30.371,
+   "text": "PENSA COMIGO",
+   "hl": false
+  },
+  {
+   "start": 30.371,
+   "end": 31.13,
+   "text": "ISSO DEIXA O",
+   "hl": false
+  },
+  {
+   "start": 31.13,
+   "end": 32.074,
+   "text": "JOGO MELHOR OU",
+   "hl": false
+  },
+  {
+   "start": 32.074,
+   "end": 32.836,
+   "text": "MAIS CHATO?",
+   "hl": false
+  },
+  {
+   "start": 32.836,
+   "end": 33.488,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 33.488,
+   "end": 34.629,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 34.629,
+   "end": 35.281,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 35.281,
+   "end": 36.096,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
