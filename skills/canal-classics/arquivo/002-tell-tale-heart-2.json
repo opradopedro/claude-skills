@@ -1,0 +1,58 @@
+{
+ "codigo": "CL002",
+ "formato": "Classic",
+ "serie": "tell-tale-heart",
+ "serie_titulo": "The Tell-Tale Heart | Old Tales",
+ "parte": 2,
+ "partes": 2,
+ "anterior": "CL001",
+ "titulo": "The police sat right above the body 😨 Part 2 #horror #shorts",
+ "capa": "HIS HEART STILL BEAT",
+ "descripcion": "He hid the old man under the floor. Then the police came, and he sat right above the spot.\n\nWas he mad, or did the dead man's heart really beat?\n\nBased on \"The Tell-Tale Heart\" by Edgar Allan Poe (public domain).\n#edgarallanpoe #telltaleheart #horror #classicstories #shorts",
+ "tags": [
+  "edgar allan poe",
+  "the tell-tale heart",
+  "tell tale heart",
+  "classic horror",
+  "horror stories",
+  "narrated stories",
+  "gothic horror",
+  "short stories"
+ ],
+ "lineas": [
+  {"texto": "The old man was dead. Stone dead. His eye would trouble me no more.", "pausa": 0.9, "vel": 0.86},
+  {"texto": "I took up three planks from the floor, and placed him beneath.", "pausa": 0.8},
+  {"texto": "At four in the morning, someone knocked. Police. A neighbor had heard a shriek.", "pausa": 0.8},
+  {"texto": "I smiled. I had nothing to fear. I led them into his very room.", "pausa": 0.7},
+  {"texto": "And I set my chair right over the spot where he lay.", "pausa": 0.9, "vel": 0.85},
+  {"texto": "Then I heard it. A low, dull, quick sound.", "pausa": 0.8, "vel": 0.82},
+  {"texto": "Louder. Louder. Could they not hear it? They were mocking me.", "pausa": 0.6},
+  {"texto": "I screamed. Tear up the planks! Here, here! It is the beating of his hideous heart!", "pausa": 1.0, "vel": 0.9},
+  {"texto": "Was he mad? Or did the dead man's heart really beat?", "pausa": 0.4, "vel": 0.86}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "olho", "p": {"abre": 0, "raio": 0.2, "zoom": 0.05}},
+  {"linea": 1, "comp": "quarto", "p": {"vazia": true, "tabua": true, "zoom": 0.08, "niebla": 0.15}},
+  {"linea": 2, "comp": "quarto", "p": {"vazia": true, "visitas": 2, "porta": [0.3, 1], "zoom": 0.06}},
+  {"linea": 4, "comp": "quarto", "p": {"vazia": true, "visitas": 2, "tabua": true, "zoom": 0.1}},
+  {"linea": 6, "comp": "quarto", "p": {"vazia": true, "visitas": 2, "tabua": true, "zoom": 0.18, "fy": 0.6, "temblor": 6}},
+  {"linea": 7, "comp": "olho", "p": {"abre": 1, "raio": 1, "zoom": 0.14}},
+  {"linea": 8, "comp": "texto", "p": {"lineas": ["THE END", "MAD, OR NOT?"]}}
+ ],
+ "eventos": [
+  {"tipo": "golpe", "linea": 2, "en": 0.3},
+  {"tipo": "golpe", "linea": 2, "en": 0.36},
+  {"tipo": "golpe", "linea": 5, "en": 0.5},
+  {"tipo": "golpe", "linea": 5, "en": 0.75},
+  {"tipo": "golpe", "linea": 6, "en": 0.15},
+  {"tipo": "golpe", "linea": 6, "en": 0.35},
+  {"tipo": "golpe", "linea": 6, "en": 0.52},
+  {"tipo": "golpe", "linea": 6, "en": 0.66},
+  {"tipo": "golpe", "linea": 6, "en": 0.78},
+  {"tipo": "golpe", "linea": 6, "en": 0.88},
+  {"tipo": "susto", "linea": 7, "en": 0.7},
+  {"tipo": "grito", "linea": 7, "en": 0.1}
+ ],
+ "destaque": ["stone dead", "three planks", "police", "right over", "louder", "hideous heart", "mad"],
+ "gancho": {"cena": 5, "evento": "susto", "mas": 0.3, "dur": 0.8}
+}

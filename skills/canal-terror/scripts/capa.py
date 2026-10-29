@@ -14,7 +14,10 @@ from comum import carregar, resolver
 ENGINE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "engine.html")
 
 DESENHA = """([t, texto, selo]) => {
+  window.__semLegenda = true;  // a capa nunca leva a legenda do video por baixo do titulo
   render(t);
+  const calmo = typeof CALMO === 'function' && CALMO();
+  const cor1 = calmo ? '#f2c66d' : '#e0262b', fonte = calmo ? 'Georgia, "Times New Roman", serif' : '"DejaVu Sans", Impact, sans-serif';
   const c = document.getElementById('c'), g = c.getContext('2d'), W = c.width, H = c.height;
   const sombra = g.createLinearGradient(0, H * 0.55, 0, H);
   sombra.addColorStop(0, 'rgba(0,0,0,0)'); sombra.addColorStop(1, 'rgba(0,0,0,0.92)');
@@ -23,7 +26,7 @@ DESENHA = """([t, texto, selo]) => {
   g.textAlign = 'center'; g.textBaseline = 'alphabetic';
   let tam = 170, linhas;
   do {
-    g.font = `900 ${tam}px "DejaVu Sans", Impact, sans-serif`;
+    g.font = `900 ${tam}px ${fonte}`;
     linhas = []; let atual = '';
     for (const p of texto.split(' ')) {
       const teste = atual ? atual + ' ' + p : p;
@@ -35,12 +38,12 @@ DESENHA = """([t, texto, selo]) => {
   linhas.forEach((l, i) => {
     const y = y0 + i * alt;
     g.lineJoin = 'round'; g.lineWidth = tam * 0.16; g.strokeStyle = '#000'; g.strokeText(l, W / 2, y);
-    g.fillStyle = i === linhas.length - 1 ? '#e0262b' : '#f2ece6'; g.fillText(l, W / 2, y);
+    g.fillStyle = i === linhas.length - 1 ? cor1 : '#f2ece6'; g.fillText(l, W / 2, y);
   });
   if (selo) {
-    g.font = '800 64px "DejaVu Sans", sans-serif';
+    g.font = `800 64px ${fonte}`;
     const w = g.measureText(selo).width + 60;
-    g.fillStyle = '#e0262b'; g.fillRect((W - w) / 2, 150, w, 96);
+    g.fillStyle = calmo ? '#7a5520' : '#e0262b'; g.fillRect((W - w) / 2, 150, w, 96);
     g.fillStyle = '#fff'; g.fillText(selo, W / 2, 222);
   }
   return c.toDataURL('image/jpeg', 0.88).split(',')[1];
@@ -58,7 +61,7 @@ def main(historia, tempos, saida):
     h = carregar(historia)
     estado = resolver(h, json.load(open(tempos)))
     t = 0.3 if estado.get("gancho") else 2.0
-    selo = f"PARTE {h['parte']}" if h.get("partes", 1) > 1 else ""
+    selo = f"{os.environ.get('CAPA_SELO', 'PARTE')} {h['parte']}" if h.get("partes", 1) > 1 else ""
     with sync_playwright() as p:
         try:
             b = p.chromium.launch()

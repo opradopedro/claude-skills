@@ -14,7 +14,7 @@ Diferencas em relacao ao produce.py do canal-terror:
   - idioma, prefixo do codigo, voz e pasta de videos vem do canal.json
   - nomes dos dias da semana em ingles
 """
-import argparse, datetime as dt, glob, json, os, subprocess, sys
+import argparse, datetime as dt, glob, json, os, subprocess, sys, time
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MOTOR = os.path.join(RAIZ, "skills", "canal-terror", "scripts")  # motor testado, nunca alterado
@@ -76,12 +76,82 @@ def aplicar_ambiente(c):
         os.environ["GEMINI_TTS_VOICE"] = c["voz"]
     if c.get("modelo_tts"):
         os.environ["GEMINI_TTS_MODEL"] = c["modelo_tts"]
+    if c.get("estilo_voz"):
+        # tom da voz por canal; sem isto vale o sussurro de terror do motor ("[whispering] [slow] [deep voice]")
+        os.environ["GEMINI_TTS_ESTILO"] = c["estilo_voz"]
     os.environ.setdefault("KOKORO_LANG", c["idioma"])
+    # o tts.py do motor ouve a voz em LEGENDA_IDIOMA, que por padrao e "es" (canal Hora Muerta).
+    # Sem isto o Whisper ouvia a narracao em ingles como se fosse espanhol e a legenda escorregava.
+    os.environ["LEGENDA_IDIOMA"] = c["idioma"]
+    # selo da capa no idioma do canal (o motor usa "PARTE" do Hora Muerta por padrao)
+    os.environ["CAPA_SELO"] = c.get("selo_parte", "PART" if c["idioma"] == "en" else "PARTE")
+    # a voz sussurrada engana o Whisper "base" (casava 18-30 de 92 palavras); o "small" casa 90 de 91
+    os.environ.setdefault("LEGENDA_MODELO", c.get("legenda_modelo", "small"))
+
+
+def ram_livre_mb():
+    """RAM disponivel agora, em MB. None se nao der para medir (ai nao espera)."""
+    try:
+        if os.name == "nt":
+            import ctypes
+
+            class Mem(ctypes.Structure):
+                _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong),
+                            ("ullTotalPhys", ctypes.c_ulonglong), ("ullAvailPhys", ctypes.c_ulonglong),
+                            ("ullTotalPageFile", ctypes.c_ulonglong), ("ullAvailPageFile", ctypes.c_ulonglong),
+                            ("ullTotalVirtual", ctypes.c_ulonglong), ("ullAvailVirtual", ctypes.c_ulonglong),
+                            ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
+            m = Mem()
+            m.dwLength = ctypes.sizeof(Mem)
+            if not ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m)):
+                return None
+            return int(m.ullAvailPhys // (1024 * 1024))
+        with open("/proc/meminfo") as f:
+            for linha in f:
+                if linha.startswith("MemAvailable:"):
+                    return int(linha.split()[1]) // 1024
+    except Exception:
+        return None
+    return None
+
+
+# Blindagem de memoria: antes de cada etapa pesada, espera a RAM liberar; se a etapa cair
+# (falta de memoria, travamento), espera e repete. A narracao vem do banco (tts_guard.py),
+# entao repetir NUNCA gasta outra narracao do Gemini.
+RAM_MIN_MB = int(os.environ.get("CANAIS_RAM_MIN_MB", "1200"))
+RAM_ESPERA_S = int(os.environ.get("CANAIS_RAM_ESPERA_MIN", "30")) * 60
+TENTATIVAS = int(os.environ.get("CANAIS_TENTATIVAS", "3"))
+
+
+def esperar_memoria(etapa):
+    livre = ram_livre_mb()
+    if livre is None or livre >= RAM_MIN_MB:
+        return
+    print(f"POUCA MEMORIA: {livre} MB livres (quero {RAM_MIN_MB}). Esperando antes de {etapa}...", flush=True)
+    fim = time.time() + RAM_ESPERA_S
+    while time.time() < fim:
+        time.sleep(15)
+        livre = ram_livre_mb()
+        if livre is None or livre >= RAM_MIN_MB:
+            print(f"memoria liberou ({livre} MB): seguindo com {etapa}", flush=True)
+            return
+    print(f"memoria segue baixa ({livre} MB) apos {RAM_ESPERA_S // 60} min: tentando {etapa} assim mesmo", flush=True)
 
 
 def run(*cmd):
-    print("+", " ".join(os.path.basename(x) if os.path.isabs(x) else x for x in cmd), flush=True)
-    subprocess.run(cmd, check=True)
+    nome = " ".join(os.path.basename(x) if os.path.isabs(x) else x for x in cmd)
+    etapa = os.path.basename(cmd[1]) if len(cmd) > 1 and cmd[0] == sys.executable else os.path.basename(cmd[0])
+    for t in range(1, TENTATIVAS + 1):
+        esperar_memoria(etapa)
+        print("+", nome, flush=True)
+        r = subprocess.run(cmd)
+        if r.returncode == 0:
+            return
+        if t < TENTATIVAS:
+            print(f"ETAPA CAIU: {etapa} (codigo {r.returncode}), tentativa {t} de {TENTATIVAS}. "
+                  f"Espero 60 s e repito.", flush=True)
+            time.sleep(60)
+    raise subprocess.CalledProcessError(r.returncode, cmd)
 
 
 def proximo_horario(c, ocupados):
@@ -158,7 +228,9 @@ def preencher(c, historia, slot_atual, slot_seguinte, saida):
 def produzir(c, historia, a, base):
     if a.subir and a.motor != "kokoro":
         os.environ["HM_SEM_KOKORO"] = "1"  # nunca publicar com a voz de reserva
-    tts = [sys.executable, os.path.join(MOTOR, "tts.py"), historia, base + "_voz.wav", base + "_tempos.json"]
+    # tts_guard.py embrulha o tts.py do motor: grava a voz uma vez e reaproveita (ver o arquivo)
+    tts = [sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "tts_guard.py"),
+           historia, base + "_voz.wav", base + "_tempos.json"]
     run(*(tts + (["--motor", a.motor] if a.motor else [])))
     if a.teste:
         h = carregar(historia)
@@ -172,11 +244,15 @@ def produzir(c, historia, a, base):
         return
     run(sys.executable, os.path.join(MOTOR, "render.py"), historia, base + "_tempos.json", base + "_video.mp4")
     run(sys.executable, os.path.join(MOTOR, "capa.py"), historia, base + "_tempos.json", base + "_capa.jpg")
-    run(sys.executable, os.path.join(MOTOR, "mix.py"), historia, base + "_voz.wav",
+    # sons GRAVADOS (Freesound CC0) no lugar dos sintetizados: ver motor-en/mix_en.py e sons.py
+    run(sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "mix_en.py"), historia, base + "_voz.wav",
         base + "_tempos.json", base + "_trilha.m4a")
+    # segunda trava contra chiado no fim: o som some suave nos ultimos 0,8 s de TODO video
+    dur = float(json.load(open(base + "_tempos.json"))["dur"])
     run("ffmpeg", "-v", "error", "-y", "-i", base + "_video.mp4", "-i", base + "_trilha.m4a",
         "-c:v", "libx264", "-crf", str(c["crf"]), "-preset", "slow", "-pix_fmt", "yuv420p",
-        "-c:a", "copy", "-movflags", "+faststart", "-shortest", base + ".mp4")
+        "-af", f"afade=t=out:st={max(0.0, dur - 0.8):.2f}:d=0.8", "-c:a", "aac", "-b:a", "192k",
+        "-movflags", "+faststart", "-shortest", base + ".mp4")
     os.remove(base + "_video.mp4")
 
 
@@ -184,12 +260,18 @@ def revisar(base, idioma):
     """Conferencia obrigatoria antes de subir: legenda acompanha a voz e audio sem estalo."""
     import legenda_whisper
     ok = True
-    try:
-        voz = base + "_voz.wav"
-        rel = legenda_whisper.conferir(base + ".mp4", base + "_tempos.json", idioma,
-                                       voz=voz if os.path.exists(voz) else None)
-    except Exception as e:
-        rel = {"ok": False, "erro": str(e)[:200]}
+    voz = base + "_voz.wav"
+    for t in range(1, TENTATIVAS + 1):
+        esperar_memoria("conferencia da legenda")
+        try:
+            rel = legenda_whisper.conferir(base + ".mp4", base + "_tempos.json", idioma,
+                                           voz=voz if os.path.exists(voz) else None)
+            break
+        except Exception as e:  # MemoryError incluido: o Whisper e a parte que mais come RAM
+            rel = {"ok": False, "erro": str(e)[:200]}
+            if t < TENTATIVAS:
+                print(f"conferencia caiu ({rel['erro']}), tentativa {t} de {TENTATIVAS}: espero 60 s", flush=True)
+                time.sleep(60)
     print(("LEGENDA OK " if rel["ok"] else "LEGENDA FORA DA VOZ ") + json.dumps(rel, ensure_ascii=False), flush=True)
     ok &= bool(rel["ok"])
     import mix
@@ -232,6 +314,7 @@ def main():
     ap.add_argument("--motor")
     ap.add_argument("--teste", action="store_true")
     ap.add_argument("--fila", type=int, default=None)
+    ap.add_argument("--max-partes", type=int, default=0, help="com --proximo: produz no maximo N partes nesta rodada")
     a = ap.parse_args()
 
     c = ler_canal(a.canal)
@@ -279,6 +362,10 @@ def main():
         if not pend:
             sys.exit("SEM ROTEIRO: todas as series de stories/ ja foram subidas; escreva uma nova (ver SKILL.md)")
         historias = sorted(pend[0], key=lambda f: serie_de(f)[1])
+        if a.max_partes:
+            # o Crew da no maximo 1 h por tarefa: produz so as proximas N partes; o resto fica para o dia seguinte
+            novas = [f for f in historias if carregar(f)["codigo"] not in ja]
+            historias = [f for f in historias if carregar(f)["codigo"] in ja] + novas[:a.max_partes]
 
     ocupados = {v["publishAt"][:13] for v in ja.values() if v.get("publishAt")}
     ids = {k: v["id"] for k, v in ja.items()}

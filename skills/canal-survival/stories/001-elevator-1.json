@@ -74,38 +74,45 @@
   },
   {
    "linea": 1,
-   "comp": "puerta",
+   "comp": "elevator",
    "p": {
-    "abre": [
-     0,
-     0
-    ],
-    "zoom": 0.06
+    "abre": 0,
+    "luz_fuera": 0.25,
+    "zoom": 0.05,
+    "niebla": 0.2
+   }
+  },
+  {
+   "linea": 2,
+   "comp": "elevator",
+   "p": {
+    "abre": 0,
+    "luz_fuera": 0.4,
+    "zoom": 0.14,
+    "fy": 0.5
    }
   },
   {
    "linea": 4,
-   "comp": "puerta",
+   "comp": "elevator",
    "p": {
-    "abre": [
-     0,
-     0.02
-    ],
+    "abre": 0,
+    "luz_fuera": 0.7,
+    "sombra": 0.9,
     "zoom": 0.1,
-    "fy": 0.45
+    "niebla": 0.25
    }
   },
   {
    "linea": 6,
-   "comp": "puerta",
+   "comp": "elevator",
    "p": {
-    "abre": [
-     0.02,
-     0.07
-    ],
-    "luz": true,
-    "zoom": 0.15,
-    "fy": 0.4
+    "abre": 0.12,
+    "luz_fuera": 0.8,
+    "mano": 0,
+    "figura": true,
+    "zoom": 0.16,
+    "fy": 0.46
    }
   },
   {

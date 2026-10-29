@@ -1,0 +1,42 @@
+{
+ "codigo": "CL002",
+ "formato": "You Wake Up",
+ "tema": "calmo",
+ "piano": 0,
+ "serie": "medieval-village",
+ "serie_titulo": "You Wake Up in 1300 | Old Tales",
+ "parte": 2,
+ "partes": 3,
+ "anterior": "CL001",
+ "titulo": "Market day in the year 1300 🧺 Part 2 #history #shorts",
+ "capa": "MARKET DAY IN 1300",
+ "descripcion": "Tolls at the gate, pigs in the street, and a curfew bell at sunset. A market day in a medieval English town.\n\nPart 3: {when_next}, the harvest.\nWhat would you buy first?\n\n#history #medieval #middleages #historyfacts #shorts",
+ "tags": ["medieval life", "middle ages", "history", "history facts", "medieval market", "medieval town", "life in 1300", "you wake up in"],
+ "lineas": [
+  {"texto": "Part two. Today is market day, and the whole village walks to town.", "pausa": 0.8},
+  {"texto": "By law, a new market could not open within about seven miles of another one.", "pausa": 0.7},
+  {"texto": "At the town gate, you pay a small toll just to come in.", "pausa": 0.8},
+  {"texto": "The streets are loud and muddy. Pigs wander between the stalls.", "pausa": 0.7},
+  {"texto": "Above each shop hangs a picture: a boot, a loaf, a key. Most people cannot read.", "pausa": 0.8},
+  {"texto": "You sell your eggs and cheese, and buy the one thing you cannot make at home: salt.", "pausa": 0.8},
+  {"texto": "Be careful who you trust. A baker caught cheating could be locked in the pillory.", "pausa": 0.8},
+  {"texto": "Before dark, a bell rings the curfew. Cover your fire. The gates are closing.", "pausa": 0.9},
+  {"texto": "Part three, {when_next}: the harvest.", "pausa": 0.3}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "vila", "p": {"hora": "aurora", "zoom": 0.06}},
+  {"linea": 1, "comp": "vila", "p": {"hora": "dia", "castelo": true, "zoom": 0.05}},
+  {"linea": 2, "comp": "mercado", "p": {"portao": true, "multidao": 0.4, "zoom": 0.1, "fy": 0.42}},
+  {"linea": 3, "comp": "mercado", "p": {"porcos": true, "multidao": 1, "zoom": 0.06}},
+  {"linea": 4, "comp": "mercado", "p": {"placas": true, "multidao": 0.7, "zoom": 0.14, "fy": 0.3}},
+  {"linea": 5, "comp": "mercado", "p": {"placas": true, "multidao": 1, "zoom": 0.08}},
+  {"linea": 6, "comp": "mercado", "p": {"multidao": 0.8, "zoom": 0.1, "fy": 0.5}},
+  {"linea": 7, "comp": "mercado", "p": {"portao": true, "tarde": true, "multidao": 0.3, "zoom": 0.08, "fy": 0.42}},
+  {"linea": 8, "comp": "texto", "p": {"lineas": ["PART 3", "{next_card}"]}}
+ ],
+ "eventos": [
+  {"tipo": "galo", "linea": 0, "en": "inicio", "mas": 0.2},
+  {"tipo": "sino", "linea": 7, "en": 0.2}
+ ],
+ "destaque": ["market day", "seven miles", "toll", "pigs", "cannot read", "salt", "pillory", "curfew", "harvest"]
+}

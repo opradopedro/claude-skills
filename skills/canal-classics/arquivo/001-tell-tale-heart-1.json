@@ -1,0 +1,57 @@
+{
+ "codigo": "CL001",
+ "formato": "Classic",
+ "serie": "tell-tale-heart",
+ "serie_titulo": "The Tell-Tale Heart | Old Tales",
+ "parte": 1,
+ "partes": 2,
+ "titulo": "He watched the old man sleep for 7 nights 👁️ Part 1 #horror #shorts",
+ "capa": "THE EYE WAS OPEN",
+ "descripcion": "Seven nights at midnight, he opened the old man's door. On the eighth, the eye was open.\n\nPart 2: {when_next}.\nWas he mad, or was it the eye?\n\nBased on \"The Tell-Tale Heart\" by Edgar Allan Poe (public domain).\n#edgarallanpoe #telltaleheart #horror #classicstories #shorts",
+ "tags": [
+  "edgar allan poe",
+  "the tell-tale heart",
+  "tell tale heart",
+  "classic horror",
+  "horror stories",
+  "narrated stories",
+  "gothic horror",
+  "short stories"
+ ],
+ "lineas": [
+  {"texto": "I loved the old man. It was his eye I could not stand.", "pausa": 0.9, "vel": 0.88},
+  {"texto": "Pale blue, like a vulture's. When it looked at me, my blood ran cold.", "pausa": 0.7},
+  {"texto": "So for seven nights, at midnight, I opened his door. Slowly. So slowly.", "pausa": 0.8, "vel": 0.86},
+  {"texto": "And every night, the eye was closed.", "pausa": 0.9},
+  {"texto": "On the eighth night, my thumb slipped on the lantern.", "pausa": 0.6},
+  {"texto": "He sat up in bed and cried out. Who's there?", "pausa": 0.9, "vel": 0.85},
+  {"texto": "I did not move. I did not breathe. For one whole hour.", "pausa": 0.8},
+  {"texto": "Then I opened the lantern, just a crack. The light fell on the eye. It was open.", "pausa": 0.9, "vel": 0.84},
+  {"texto": "And I heard it. A low, dull, quick sound. His heart.", "pausa": 1.0, "vel": 0.8},
+  {"texto": "Part two, {when_next}.", "pausa": 0.3, "vel": 0.88}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "olho", "p": {"abre": 1, "raio": 0.6, "zoom": 0.06}},
+  {"linea": 2, "comp": "quarto", "p": {"porta": [0, 0.2], "senta": 0, "zoom": 0.08, "niebla": 0.15}},
+  {"linea": 3, "comp": "olho", "p": {"abre": 0, "raio": 0.3, "zoom": 0.05}},
+  {"linea": 5, "comp": "quarto", "p": {"senta": [0.3, 1], "zoom": 0.1, "niebla": 0.12}},
+  {"linea": 7, "comp": "olho", "p": {"abre": 0, "raio": 1, "zoom": 0.12}},
+  {"linea": 8, "comp": "quarto", "p": {"senta": 1, "feixe": [0.6, 1], "zoom": 0.15, "fy": 0.42}},
+  {"linea": 9, "comp": "texto", "p": {"lineas": ["PART 2", "{next_card}"]}}
+ ],
+ "eventos": [
+  {"tipo": "golpe", "linea": 4, "en": 0.6},
+  {"tipo": "grito", "linea": 5, "en": 0.5},
+  {"tipo": "abre", "linea": 7, "en": 0.78},
+  {"tipo": "susto", "linea": 7, "en": 0.9},
+  {"tipo": "golpe", "linea": 8, "en": 0.35},
+  {"tipo": "golpe", "linea": 8, "en": 0.5},
+  {"tipo": "golpe", "linea": 8, "en": 0.62},
+  {"tipo": "golpe", "linea": 8, "en": 0.72},
+  {"tipo": "golpe", "linea": 8, "en": 0.8},
+  {"tipo": "golpe", "linea": 8, "en": 0.87},
+  {"tipo": "golpe", "linea": 8, "en": 0.93}
+ ],
+ "destaque": ["vulture", "seven nights", "closed", "who's there", "open", "his heart", "part two"],
+ "gancho": {"cena": 4, "evento": "susto", "mas": 0.3, "dur": 0.8}
+}

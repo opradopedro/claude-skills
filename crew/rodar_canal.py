@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Receita que o Kiro Crew executa nos horarios marcados. NAO GASTA CREDITO.
 
 Isto e uma tarefa do tipo "script": o Crew so executa o passo a passo escrito aqui, sem
@@ -40,7 +40,9 @@ REPO_PADRAO = r"C:\claude-skills"
 # legenda) e FFmpeg (junta tudo): o pico passa de 2 GB. Sem essa folga, o Windows mata o
 # processo no meio e se perdem 20 minutos de trabalho sem nenhuma explicacao util.
 # Melhor nao comecar e dizer por que. Mude com a variavel CANAIS_MIN_RAM_MB.
-MIN_RAM_MB = int(os.environ.get("CANAIS_MIN_RAM_MB", "2500"))
+MIN_RAM_MB = int(os.environ.get("CANAIS_MIN_RAM_MB", "1200"))
+# 1200 e nao 2500: com so o Crew aberto o PC fica em ~2 GB livres, e 2500 faria a tarefa nunca rodar.
+# Abaixo disso o produce.py ainda espera a memoria liberar e repete a etapa que cair (motor-en/produce.py).
 
 
 def memoria_livre_mb():
@@ -145,14 +147,19 @@ def _rodar(canal):
     os.makedirs(saida, exist_ok=True)
     cmd = [sys.executable, os.path.join(repo, "motor-en", "produce.py"),
            os.path.join(repo, "skills", canal), "--proximo", "--subir", "--saida", saida]
-    r = subprocess.run(cmd, cwd=repo, capture_output=True, text=True)
+    try:
+        r = subprocess.run(cmd, cwd=repo, capture_output=True, text=True, encoding="utf-8", errors="replace",
+                           timeout=3300)
+    except subprocess.TimeoutExpired:
+        return (f"[{canal}] FALHOU: passou de 55 minutos (PC lento ou sem memoria). "
+                f"O que ja subiu esta salvo; a proxima execucao continua de onde parou.")
     linhas = (r.stdout or "").strip().splitlines()
 
     # resumo: so o que interessa no relatorio do Crew
     importantes = [x for x in linhas if any(
-        m in x for m in ("AGENDADO", "FILA CHEIA", "SEM ROTEIRO", "CANAL ERRADO", "CODIGO ERRADO",
-                         "NAO SUBIU", "LEGENDA FORA DA VOZ", "AUDIO COM PROBLEMA", "VOZ FALHOU",
-                         "canal confirmado", "FUSO NAO ENCONTRADO", "FALTA A VARIAVEL"))]
+        m in x for m in ("AGENDADO", "PUBLICADO", "FILA CHEIA", "SEM ROTEIRO", "CANAL ERRADO", "CODIGO ERRADO",
+                         "NAO SUBIU", "LEGENDA FORA DA VOZ", "AUDIO COM PROBLEMA", "VOZ FALHOU", "LIMITE DE NARRACOES",
+                         "canal confirmado", "FUSO NAO ENCONTRADO", "FALTA A VARIAVEL", "POUCA MEMORIA"))]
     resumo = "\n".join(importantes) or "\n".join(linhas[-8:]) or "(sem saida)"
 
     if r.returncode != 0:
@@ -168,19 +175,42 @@ def _rodar(canal):
     return f"[{canal}] OK (memoria livre: {memoria_livre_mb()} MB)\n{resumo}"
 
 
-def run_survival(*_args, **_kwargs):
-    return _rodar("canal-survival")
+def _entregar(ctx, texto):
+    """Avisa o Pedro pelo sininho do Crew (raise Report). Sem ctx (rodando na mao), so imprime."""
+    if ctx is None:
+        print(texto); return texto
+    from kiro_crew.cron_script import Report
+    ruim = any(m in texto for m in ("FALHOU", "NAO RODEI", "NAO SUBIU", "VOZ FALHOU", "CANAL ERRADO", "SEM ROTEIRO"))
+    raise Report(("⚠️ " if ruim else "✅ ") + texto)
 
 
-def run_classics(*_args, **_kwargs):
-    return _rodar("canal-classics")
+def run_survival(ctx=None, *_a, **_k):
+    return _entregar(ctx, _rodar("canal-survival"))
 
 
-def run(*_args, **_kwargs):
+def run_classics(ctx=None, *_a, **_k):
+    return _entregar(ctx, _rodar("canal-classics"))
+
+
+def run_metricas(ctx=None, *_a, **_k):
+    """Todo dia: guarda views/likes/comentarios dos dois canais em metricas/*.csv. Silencioso se der certo."""
+    repo = _repo(); _carregar_env(repo)
+    r = subprocess.run([sys.executable, os.path.join(repo, "motor-en", "metricas.py")], cwd=repo,
+                       capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=500)
+    if ctx is None:
+        print(r.stdout, r.stderr); return
+    if r.returncode != 0:
+        from kiro_crew.cron_script import Report
+        raise Report("⚠️ metricas falharam:\n" + "\n".join((r.stderr or r.stdout).splitlines()[-6:]))
+    from kiro_crew.cron_script import Skip
+    raise Skip()
+
+
+def run(ctx=None, *_a, **_k):
     """Roda os dois canais, um depois do outro. Use se preferir uma tarefa so."""
-    return run_survival() + "\n\n" + run_classics()
+    return _entregar(ctx, _rodar("canal-survival") + "\n\n" + _rodar("canal-classics"))
 
 
 if __name__ == "__main__":
     qual = sys.argv[1] if len(sys.argv) > 1 else "ambos"
-    print({"survival": run_survival, "classics": run_classics}.get(qual, run)())
+    {"survival": run_survival, "classics": run_classics, "metricas": run_metricas}.get(qual, run)()

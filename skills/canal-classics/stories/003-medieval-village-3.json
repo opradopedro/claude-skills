@@ -1,0 +1,39 @@
+{
+ "codigo": "CL003",
+ "formato": "You Wake Up",
+ "tema": "calmo",
+ "piano": 0,
+ "serie": "medieval-village",
+ "serie_titulo": "You Wake Up in 1300 | Old Tales",
+ "parte": 3,
+ "partes": 3,
+ "anterior": "CL002",
+ "titulo": "Harvest month in the year 1300 🌾 Part 3 #history #shorts",
+ "capa": "HARVEST IN 1300",
+ "descripcion": "If the harvest fails, there is no bread until next summer. The most important month of a medieval village.\n\nCould you live one whole year like this? Tell me in the comments.\n\n#history #medieval #middleages #historyfacts #shorts",
+ "tags": ["medieval life", "middle ages", "history", "history facts", "medieval harvest", "medieval village", "life in 1300", "you wake up in"],
+ "lineas": [
+  {"texto": "Part three. It is August, and the whole village is out in the fields.", "pausa": 0.8},
+  {"texto": "This is the most important month of the year. If the harvest fails, there is no bread until next summer.", "pausa": 0.8},
+  {"texto": "Everyone helps. Men cut the wheat with sickles. Women and children tie it into sheaves.", "pausa": 0.7},
+  {"texto": "The lord takes his share. The church takes a tenth, called the tithe.", "pausa": 0.8},
+  {"texto": "The poorest families may gather the grain left on the ground. This is called gleaning.", "pausa": 0.8},
+  {"texto": "On the days you work the lord's harvest, he must feed you. Bread, cheese, and ale.", "pausa": 0.8},
+  {"texto": "And when the work is done, there is music by the fire.", "pausa": 0.8},
+  {"texto": "You fall asleep tired, on your bed of straw. Tomorrow, it all starts again.", "pausa": 0.9},
+  {"texto": "Could you live one year like this?", "pausa": 0.4}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "vila", "p": {"hora": "dia", "colheita": true, "zoom": 0.06}},
+  {"linea": 2, "comp": "vila", "p": {"hora": "dia", "colheita": true, "zoom": 0.14, "fy": 0.75}},
+  {"linea": 3, "comp": "vila", "p": {"hora": "dia", "colheita": true, "castelo": true, "zoom": 0.06}},
+  {"linea": 5, "comp": "casa", "p": {"foco": "mesa", "zoom": 0.1, "fy": 0.68}},
+  {"linea": 6, "comp": "vila", "p": {"hora": "tarde", "fogueira": true, "zoom": 0.06}},
+  {"linea": 7, "comp": "casa", "p": {"foco": "cama", "zoom": 0.1, "fy": 0.62}},
+  {"linea": 8, "comp": "texto", "p": {"lineas": ["THE END", "one year like this?"]}}
+ ],
+ "eventos": [
+  {"tipo": "sino", "linea": 3, "en": 0.5}
+ ],
+ "destaque": ["august", "no bread", "sickles", "sheaves", "tithe", "gleaning", "feed you", "music", "one year"]
+}

@@ -1,0 +1,51 @@
+{
+ "codigo": "CL001",
+ "formato": "You Wake Up",
+ "tema": "calmo",
+ "piano": 0,
+ "serie": "medieval-village",
+ "serie_titulo": "You Wake Up in 1300 | Old Tales",
+ "parte": 1,
+ "partes": 3,
+ "titulo": "You wake up in the year 1300 🏰 Part 1 #history #shorts",
+ "capa": "YOU WAKE UP IN 1300",
+ "descripcion": "No clocks, no chimney, and ale for breakfast. This is one ordinary morning in a medieval English village.\n\nPart 2: {when_next}, market day in town.\nCould you live like this for one week?\n\n#history #medieval #middleages #historyfacts #shorts",
+ "tags": [
+  "medieval life",
+  "middle ages",
+  "history",
+  "history facts",
+  "medieval village",
+  "you wake up in",
+  "life in 1300",
+  "peasant life"
+ ],
+ "lineas": [
+  {"texto": "You wake up in the year 1300, in a small English village.", "pausa": 0.8},
+  {"texto": "Your bed is a sack stuffed with straw. It smells like hay, and it itches.", "pausa": 0.7},
+  {"texto": "There is no clock. The church bell tells you the day has begun.", "pausa": 0.8},
+  {"texto": "In the middle of the house, a fire is already burning. There is no chimney. The smoke slips out through the roof.", "pausa": 0.7},
+  {"texto": "Breakfast is dark bread and a cup of ale. It is weak, and everyone drinks it, even the children.", "pausa": 0.8},
+  {"texto": "Outside, the fields are waiting. Almost everyone you know is a farmer.", "pausa": 0.7},
+  {"texto": "And some days, you must work the lord's land for free.", "pausa": 0.8},
+  {"texto": "Candles cost money. So when the sun goes down, your day is over.", "pausa": 0.9},
+  {"texto": "Part two, {when_next}: market day in town.", "pausa": 0.3}
+ ],
+ "cenas": [
+  {"linea": 0, "comp": "vila", "p": {"hora": "aurora", "zoom": 0.06}},
+  {"linea": 1, "comp": "casa", "p": {"foco": "cama", "zoom": 0.08, "fy": 0.62}},
+  {"linea": 2, "comp": "vila", "p": {"hora": "aurora", "sino": true, "zoom": 0.1, "fy": 0.55}},
+  {"linea": 3, "comp": "casa", "p": {"foco": "fogo", "zoom": 0.07, "fy": 0.5}},
+  {"linea": 4, "comp": "casa", "p": {"foco": "mesa", "zoom": 0.12, "fy": 0.68}},
+  {"linea": 5, "comp": "vila", "p": {"hora": "dia", "zoom": 0.05}},
+  {"linea": 6, "comp": "vila", "p": {"hora": "dia", "castelo": true, "zoom": 0.08, "fy": 0.5}},
+  {"linea": 7, "comp": "vila", "p": {"hora": "tarde", "castelo": true, "zoom": 0.06}},
+  {"linea": 8, "comp": "texto", "p": {"lineas": ["PART 2", "{next_card}"]}}
+ ],
+ "eventos": [
+  {"tipo": "sino", "linea": 2, "en": 0.35},
+  {"tipo": "fogo", "linea": 3, "en": "inicio"},
+  {"tipo": "passaros", "linea": 5, "en": "inicio"}
+ ],
+ "destaque": ["1300", "straw", "no clock", "no chimney", "ale", "farmer", "for free", "day is over", "market day"]
+}

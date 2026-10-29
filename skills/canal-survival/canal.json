@@ -5,7 +5,7 @@
  "prefixo": "SV",
  "idioma": "en",
 
- "canal_titulo": "",
+ "canal_titulo": "Signal Lost",
  "_canal_titulo_obs": "TRAVA DE SEGURANCA: escreva aqui o nome EXATO do canal no YouTube. Enquanto estiver vazio, o programa avisa mas nao confere. Com o nome preenchido, ele se recusa a subir se o token for de outro canal.",
 
  "fuso": "America/New_York",

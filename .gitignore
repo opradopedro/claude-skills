@@ -4,8 +4,15 @@ skills/canal-engenharia/scripts/vendor/
 # Chaves e senhas dos canais: NUNCA vao para o GitHub
 .env
 .env.local
+.env.bak*
 *.key
 
 # Saida de producao dos canais novos
 saida/
 /tmp/
+
+# Banco de narracoes do Gemini (audio pesado, so neste PC)
+narracoes/
+
+# Sons baixados do Freesound (cache; baixam de novo sozinhos se faltar)
+sons/

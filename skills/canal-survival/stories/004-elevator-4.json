@@ -75,14 +75,12 @@
   },
   {
    "linea": 1,
-   "comp": "puerta",
+   "comp": "elevator",
    "p": {
-    "abre": [
-     0,
-     0
-    ],
-    "luz": true,
-    "zoom": 0.07
+    "abre": 0.0,
+    "luz_fuera": 0.75,
+    "zoom": 0.07,
+    "niebla": 0.2
    }
   },
   {
@@ -110,14 +108,12 @@
   },
   {
    "linea": 6,
-   "comp": "puerta",
+   "comp": "elevator",
    "p": {
-    "abre": [
-     0,
-     0.05
-    ],
-    "luz": true,
+    "abre": 0.075,
+    "luz_fuera": 0.75,
     "zoom": 0.15,
+    "niebla": 0.2,
     "fy": 0.42
    }
   },

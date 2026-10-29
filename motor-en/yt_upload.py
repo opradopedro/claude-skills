@@ -152,7 +152,10 @@ def subir(path, esperado=None):
     if v.get("publicar_em"):
         status["privacyStatus"] = "private"
         status["publishAt"] = v["publicar_em"]
-    corpo = {"snippet": {"title": v["titulo"][:100], "description": v.get("descripcion", "")[:4900],
+    # o YouTube recusa descricao com < ou > (erro 400 invalidDescription): troca por seta
+    descricao = v.get("descripcion", "").replace(">", "▶").replace("<", "◀")
+    corpo = {"snippet": {"title": v["titulo"][:100].replace(">", "").replace("<", ""),
+                         "description": descricao[:4900],
                          "tags": v.get("tags", []), "categoryId": str(v.get("categoria", "24")),
                          "defaultLanguage": IDIOMA, "defaultAudioLanguage": IDIOMA},
              "status": status}

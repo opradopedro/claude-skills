@@ -1,11 +1,11 @@
 {
- "nome": "Old Tales Retold",
+ "nome": "Old Tales",
  "_nome_obs": "SUGESTAO. Troque pelo nome real do canal depois de criar no YouTube.",
 
  "prefixo": "CL",
  "idioma": "en",
 
- "canal_titulo": "",
+ "canal_titulo": "Old Tales",
  "_canal_titulo_obs": "TRAVA DE SEGURANCA: escreva aqui o nome EXATO do canal no YouTube. Enquanto estiver vazio, o programa avisa mas nao confere. Com o nome preenchido, ele se recusa a subir se o token for de outro canal.",
 
  "fuso": "America/New_York",
@@ -13,9 +13,11 @@
  "_horas_obs": "UM video por dia, ao meio-dia de Nova York (horario de almoco). Ajusta sozinho no horario de verao. Para dobrar para 2 por dia, escreva [12, 19] aqui e troque 'fila' para 4.",
 
  "token_var": "YT_REFRESH_TOKEN_CLASSICS",
- "voz": "Charon",
- "_voz_obs": "Voz calma, de narrador. Combina com epico. Troque por Algenib (grave) ou Puck (animada) se quiser.",
- "voz_tempo": "0.92",
+ "voz": "Algieba",
+ "_voz_obs": "Voz de homem, macia e quente (pedido do Pedro, 28/10). Antes era Charon com estilo sussurrado de terror.",
+ "estilo_voz": "[warm] [calm] [friendly storyteller] ",
+ "_estilo_voz_obs": "Tom da narracao. NUNCA sussurrado: este canal nao e de terror.",
+ "voz_tempo": "0.96",
 
  "categoria": "24",
  "crf": "26",

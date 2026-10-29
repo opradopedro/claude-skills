@@ -67,14 +67,13 @@
  "cenas": [
   {
    "linea": 0,
-   "comp": "puerta",
+   "comp": "elevator",
    "p": {
-    "abre": [
-     0.07,
-     0.04
-    ],
-    "luz": true,
-    "zoom": 0.08
+    "abre": 0.105,
+    "luz_fuera": 0.75,
+    "zoom": 0.08,
+    "niebla": 0.2,
+    "figura": true
    }
   },
   {
@@ -112,13 +111,12 @@
   },
   {
    "linea": 6,
-   "comp": "puerta",
+   "comp": "elevator",
    "p": {
-    "abre": [
-     0.04,
-     0
-    ],
+    "abre": 0.06,
+    "luz_fuera": 0.35,
     "zoom": 0.13,
+    "niebla": 0.2,
     "fy": 0.45
    }
   },
