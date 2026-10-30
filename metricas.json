@@ -1756,8 +1756,8 @@
    "avgWatchedPct": 23.37,
    "skipRate": 49,
    "durationSeconds": 40,
-   "coletado": "2026-10-29T15:16Z",
-   "horas": 39.3
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 67.1
   },
   "h24": {
    "playCount": 480,
@@ -1777,17 +1777,30 @@
   "publicado": "2026-10-28T15:28:02.000Z",
   "legenda": "GTA 6 tá tão blindado que cada cópia da imprensa vem com o nome do jornalista na",
   "atual": {
-   "playCount": 1462,
-   "likeCount": 45,
+   "playCount": 1484,
+   "likeCount": 48,
    "commentCount": 0,
    "shares": 5,
    "saves": 3,
-   "avgWatchTimeMs": 14629,
-   "avgWatchedPct": 40.636,
+   "avgWatchTimeMs": 14699,
+   "avgWatchedPct": 40.83,
    "skipRate": 36.8,
    "durationSeconds": 36,
-   "coletado": "2026-10-29T15:16Z",
-   "horas": 23.8
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 51.6
+  },
+  "h24": {
+   "playCount": 1484,
+   "likeCount": 48,
+   "commentCount": 0,
+   "shares": 5,
+   "saves": 3,
+   "avgWatchTimeMs": 14699,
+   "avgWatchedPct": 40.83,
+   "skipRate": 36.8,
+   "durationSeconds": 36,
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 51.6
   }
  },
  "DfDXVFojWfX": {
@@ -1800,28 +1813,84 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 7921,
-   "avgWatchedPct": 22.003,
+   "avgWatchedPct": 22.0,
    "skipRate": 44,
    "durationSeconds": 36,
-   "coletado": "2026-10-29T15:16Z",
-   "horas": 18.1
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 46.0
+  },
+  "h24": {
+   "playCount": 120,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 7921,
+   "avgWatchedPct": 22.0,
+   "skipRate": 44,
+   "durationSeconds": 36,
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 46.0
   }
  },
  "DfDrYMklbDR": {
   "publicado": "2026-10-29T00:05:03.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 625,
-   "likeCount": 16,
+   "playCount": 737,
+   "likeCount": 17,
+   "commentCount": 0,
+   "shares": 3,
+   "saves": 1,
+   "avgWatchTimeMs": 11425,
+   "avgWatchedPct": 34.62,
+   "skipRate": 46.1,
+   "durationSeconds": 33,
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 43.0
+  },
+  "h24": {
+   "playCount": 737,
+   "likeCount": 17,
+   "commentCount": 0,
+   "shares": 3,
+   "saves": 1,
+   "avgWatchTimeMs": 11425,
+   "avgWatchedPct": 34.62,
+   "skipRate": 46.1,
+   "durationSeconds": 33,
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 43.0
+  }
+ },
+ "DfFU1DLEmP_": {
+  "publicado": "2026-10-29T15:26:34.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 130,
+   "likeCount": 4,
    "commentCount": 0,
    "shares": 0,
-   "saves": 1,
-   "avgWatchTimeMs": 12077,
-   "avgWatchedPct": 36.597,
-   "skipRate": 41.9,
-   "durationSeconds": 33,
-   "coletado": "2026-10-29T15:16Z",
-   "horas": 15.2
+   "saves": 0,
+   "avgWatchTimeMs": 10800,
+   "avgWatchedPct": 30,
+   "skipRate": 42.5,
+   "durationSeconds": 36,
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 27.7
+  },
+  "h24": {
+   "playCount": 130,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 10800,
+   "avgWatchedPct": 30,
+   "skipRate": 42.5,
+   "durationSeconds": 36,
+   "coletado": "2026-10-30T19:06Z",
+   "horas": 27.7
   }
  }
 }
