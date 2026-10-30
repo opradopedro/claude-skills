@@ -1,0 +1,46 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v54_gameplay_south_park.mp4",
+ "text": "Mano, saiu gameplay novo de GTA 6, e foi no South Park! No episódio dessa semana, o Cartman e a turma assistem alguém jogando em Vice Beach. Um cara se abaixa pra pegar o cocô do cachorro, o Jason joga uma coisa nele, e quando o cara vem brigar, o Jason pega o saquinho de cocô e acerta na cabeça dele. A Rockstar aparece nos créditos, então é gameplay oficial, o primeiro desde agosto. Pensa comigo: GTA 6 vai ser o mais zoeiro da série, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "South Park": "South Park",
+  "Vice Beach": "Vice Beach"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "praia",
+  "bizarro",
+  "luta",
+  "rua",
+  "dia",
+  "gameplay",
+  "bar",
+  "mar",
+  "cidade"
+ ],
+ "seed": 54,
+ "font": "../../assets/fonts/Anton.ttf",
+ "broll": [
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_155.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_105.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_242.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_018.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_190.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_008.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_021.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_006.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_389.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_220.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_185.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_007.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_290.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_219.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_048.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_260.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_292.mp4"
+ ]
+}

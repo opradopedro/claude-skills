@@ -1,0 +1,409 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v54_gameplay_south_park.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_155.mp4",
+   "start": 0.0,
+   "end": 1.446,
+   "layout": "full",
+   "cx": 1.0,
+   "pan": 1,
+   "ss": 0.08
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_105.mp4",
+   "start": 1.446,
+   "end": 2.893,
+   "layout": "full",
+   "cx": 0.681,
+   "pan": -1,
+   "ss": 1.17
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_242.mp4",
+   "start": 2.893,
+   "end": 4.52,
+   "layout": "full",
+   "cx": 0.495,
+   "pan": 1,
+   "ss": 0.26
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+   "start": 4.52,
+   "end": 6.374,
+   "layout": "full",
+   "cx": 0.303,
+   "pan": -1,
+   "ss": 1.16
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_018.mp4",
+   "start": 6.374,
+   "end": 7.853,
+   "layout": "full",
+   "cx": 0.438,
+   "pan": 1,
+   "ss": 2.21
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+   "start": 7.853,
+   "end": 9.329,
+   "layout": "full",
+   "cx": 0.431,
+   "pan": -1,
+   "ss": 1.75
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_190.mp4",
+   "start": 9.329,
+   "end": 10.926,
+   "layout": "full",
+   "cx": 0.724,
+   "pan": 1,
+   "ss": 2.25
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_008.mp4",
+   "start": 10.926,
+   "end": 12.815,
+   "layout": "full",
+   "cx": 0.692,
+   "pan": -1,
+   "ss": 1.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_021.mp4",
+   "start": 12.815,
+   "end": 14.457,
+   "layout": "full",
+   "cx": 0.506,
+   "pan": 1,
+   "ss": 1.16
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_006.mp4",
+   "start": 14.457,
+   "end": 15.77,
+   "layout": "full",
+   "cx": 0.212,
+   "pan": -1,
+   "ss": 0.71
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_389.mp4",
+   "start": 15.77,
+   "end": 17.103,
+   "layout": "full",
+   "cx": 0.306,
+   "pan": 1,
+   "ss": 0.57
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_220.mp4",
+   "start": 17.103,
+   "end": 19.091,
+   "layout": "full",
+   "cx": 0.422,
+   "pan": -1,
+   "ss": 0.53
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_185.mp4",
+   "start": 19.091,
+   "end": 21.008,
+   "layout": "full",
+   "cx": 0.639,
+   "pan": 1,
+   "ss": 0.34
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_007.mp4",
+   "start": 21.008,
+   "end": 22.717,
+   "layout": "full",
+   "cx": 0.562,
+   "pan": -1,
+   "ss": 0.01
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_290.mp4",
+   "start": 22.717,
+   "end": 24.631,
+   "layout": "full",
+   "cx": 0.406,
+   "pan": 1,
+   "ss": 0.22
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_219.mp4",
+   "start": 24.631,
+   "end": 26.561,
+   "layout": "full",
+   "cx": 0.534,
+   "pan": -1,
+   "ss": 1.76
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_048.mp4",
+   "start": 26.561,
+   "end": 28.65,
+   "layout": "full",
+   "cx": 0.068,
+   "pan": 1,
+   "ss": 0.25
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_260.mp4",
+   "start": 28.65,
+   "end": 30.097,
+   "layout": "full",
+   "cx": 0.061,
+   "pan": -1,
+   "ss": 0.67
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_292.mp4",
+   "start": 30.097,
+   "end": 31.816,
+   "layout": "full",
+   "cx": 0.061,
+   "pan": 1,
+   "ss": 0.96
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 0.68,
+   "text": "MANO",
+   "hl": false
+  },
+  {
+   "start": 0.68,
+   "end": 2.06,
+   "text": "SAIU GAMEPLAY NOVO",
+   "hl": false
+  },
+  {
+   "start": 2.06,
+   "end": 3.44,
+   "text": "DE GTA 6",
+   "hl": true
+  },
+  {
+   "start": 3.44,
+   "end": 4.18,
+   "text": "E FOI NO",
+   "hl": false
+  },
+  {
+   "start": 4.18,
+   "end": 5.32,
+   "text": "SOUTH PARK",
+   "hl": false
+  },
+  {
+   "start": 5.32,
+   "end": 6.12,
+   "text": "NO EPISÓDIO DESSA",
+   "hl": false
+  },
+  {
+   "start": 6.12,
+   "end": 6.78,
+   "text": "SEMANA",
+   "hl": false
+  },
+  {
+   "start": 6.78,
+   "end": 7.48,
+   "text": "O CARTMAN E",
+   "hl": false
+  },
+  {
+   "start": 7.48,
+   "end": 8.46,
+   "text": "A TURMA ASSISTEM",
+   "hl": false
+  },
+  {
+   "start": 8.46,
+   "end": 9.2,
+   "text": "ALGUÉM JOGANDO EM",
+   "hl": false
+  },
+  {
+   "start": 9.2,
+   "end": 10.32,
+   "text": "VICE BEACH",
+   "hl": false
+  },
+  {
+   "start": 10.32,
+   "end": 10.92,
+   "text": "UM CARA SE",
+   "hl": false
+  },
+  {
+   "start": 10.92,
+   "end": 11.58,
+   "text": "ABAIXA PRA PEGAR",
+   "hl": false
+  },
+  {
+   "start": 11.58,
+   "end": 12.04,
+   "text": "O COCÔ DO",
+   "hl": false
+  },
+  {
+   "start": 12.04,
+   "end": 12.8,
+   "text": "CACHORRO",
+   "hl": false
+  },
+  {
+   "start": 12.8,
+   "end": 13.52,
+   "text": "O JASON JOGA",
+   "hl": false
+  },
+  {
+   "start": 13.52,
+   "end": 14.24,
+   "text": "UMA COISA NELE",
+   "hl": false
+  },
+  {
+   "start": 14.24,
+   "end": 14.88,
+   "text": "E QUANDO O",
+   "hl": false
+  },
+  {
+   "start": 14.88,
+   "end": 15.8,
+   "text": "CARA VEM BRIGAR",
+   "hl": false
+  },
+  {
+   "start": 15.8,
+   "end": 16.36,
+   "text": "O JASON PEGA",
+   "hl": false
+  },
+  {
+   "start": 16.36,
+   "end": 17.08,
+   "text": "O SAQUINHO DE",
+   "hl": false
+  },
+  {
+   "start": 17.08,
+   "end": 17.86,
+   "text": "COCÔ E ACERTA",
+   "hl": false
+  },
+  {
+   "start": 17.86,
+   "end": 19.0,
+   "text": "NA CABEÇA DELE",
+   "hl": false
+  },
+  {
+   "start": 19.0,
+   "end": 19.98,
+   "text": "A ROCKSTAR APARECE",
+   "hl": false
+  },
+  {
+   "start": 19.98,
+   "end": 20.98,
+   "text": "NOS CRÉDITOS",
+   "hl": false
+  },
+  {
+   "start": 20.98,
+   "end": 21.72,
+   "text": "ENTÃO É GAMEPLAY",
+   "hl": false
+  },
+  {
+   "start": 21.72,
+   "end": 22.7,
+   "text": "OFICIAL",
+   "hl": false
+  },
+  {
+   "start": 22.7,
+   "end": 23.54,
+   "text": "O PRIMEIRO DESDE",
+   "hl": false
+  },
+  {
+   "start": 23.54,
+   "end": 24.52,
+   "text": "AGOSTO",
+   "hl": false
+  },
+  {
+   "start": 24.52,
+   "end": 25.48,
+   "text": "PENSA COMIGO",
+   "hl": false
+  },
+  {
+   "start": 25.48,
+   "end": 26.46,
+   "text": "GTA 6 VAI SER",
+   "hl": true
+  },
+  {
+   "start": 26.46,
+   "end": 27.14,
+   "text": "O MAIS ZOEIRO",
+   "hl": false
+  },
+  {
+   "start": 27.14,
+   "end": 27.62,
+   "text": "DA SÉRIE",
+   "hl": false
+  },
+  {
+   "start": 27.62,
+   "end": 28.44,
+   "text": "SIM OU NÃO?",
+   "hl": false
+  },
+  {
+   "start": 28.44,
+   "end": 29.14,
+   "text": "MANDA PRA QUEM",
+   "hl": false
+  },
+  {
+   "start": 29.14,
+   "end": 29.96,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true
+  },
+  {
+   "start": 29.96,
+   "end": 30.7,
+   "text": "COM VOCÊ E",
+   "hl": false
+  },
+  {
+   "start": 30.7,
+   "end": 31.416,
+   "text": "SEGUE O RADAR",
+   "hl": false
+  }
+ ]
+}
