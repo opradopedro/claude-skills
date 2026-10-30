@@ -1083,14 +1083,23 @@
   {
    "data": "2026-10-30",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v53_mapa_cedo_combustivel.mp4",
    "formato": "corte",
    "tema": "Prévia da Edge: mapa de Leonida liberado cedo na história (não fica 10 h preso em Vice City), carros com combustível e saúde do motor, ônibus e trem funcionando (Edge via GTA BOOM/GTABase 30/10)",
    "capa": "Vai ter que abastecer",
    "capa_t": 13.8,
    "legenda": "GTA 6 vai liberar o mapa de Leonida cedo, e os carros vão ter combustível ⛽ nada de ficar 10 horas preso em Vice City\n\n📰 Segundo a prévia da revista Edge (visita da imprensa à Rockstar North), o mapa abre relativamente cedo na história.\n🚗 Os carros têm marcador de combustível e saúde do motor: vai ter que parar pra abastecer.\n🚌 Leonida também tem ônibus e trem funcionando pra rodar o mapa sem roubar carro.\n\nGasolina acabando no meio da fuga: melhor ou mais chato? Comenta aí 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br\n\nFonte: Edge via GTA BOOM e GTABase (30/10)\n\n#gta6 #gtavi #rockstargames #leonida #vicecity",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfIUyYgAtdc/",
+   "postado_em": "2026-10-30T16:25-03:00",
+   "ficha": {
+    "formato": "corte",
+    "tema": "prévia Edge: mapa cedo, combustível, transporte",
+    "gancho": "mentira_verdade",
+    "origem": "noticia (Edge via GTA BOOM/GTABase)"
+   },
+   "obs": "slot das 12h publicado às 16h25: a execução das 11h50 caiu por erro de API e foi retomada"
   }
  ]
 }
