@@ -1104,7 +1104,7 @@
   {
    "data": "2026-10-30",
    "hora": "18:00",
-   "status": "postado",
+   "status": "apagado",
    "arquivo": "radar_v54_gameplay_south_park.mp4",
    "formato": "corte",
    "tema": "Gameplay inédito de GTA 6 no South Park (episódio Guinea Pig on a Stick, 28/10): Jason acerta saquinho de cocô de cachorro na cabeça de um cara em Vice Beach; Rockstar nos créditos; 1º gameplay novo desde agosto (VGTimes 30/10)",
@@ -1120,7 +1120,20 @@
     "gancho": "revelacao",
     "origem": "VGTimes 30/10 (Comedy Central, South Park S29 'Guinea Pig on a Stick')"
    },
-   "obs": "publicado 18h27 para manter 2 h do v53 (slot 12h saiu 16h24)"
+   "obs": "Pedro apagou no Insta e no YouTube (30/10 18h56): usava b-roll genérico em vez da cena real do South Park. Refeito como v54b."
+  },
+  {
+   "data": "2026-10-30",
+   "hora": "18:00",
+   "status": "pendente",
+   "arquivo": "radar_v54b_south_park_cena_real.mp4",
+   "formato": "corte",
+   "tema": "Gameplay inédito de GTA 6 no South Park (episódio Guinea Pig on a Stick, 28/10): Jason acerta saquinho de cocô de cachorro na cabeça de um cara em Vice Beach; Rockstar nos créditos; 1º gameplay novo desde agosto (VGTimes 30/10)",
+   "capa": "Gameplay no South Park",
+   "capa_t": "15.2",
+   "legenda": "GTA 6 apareceu com gameplay novo, e foi dentro do South Park 💩🎮\n\n📺 No episódio \"Guinea Pig on a Stick\", o Cartman e a turma assistem alguém jogando em Vice Beach: um cara vai pegar o cocô do cachorro e o Jason acerta o saquinho na cabeça dele.\n\n✅ A Rockstar aparece nos créditos do episódio, então é gameplay oficial, o primeiro inédito desde agosto. Olha a cena aí no vídeo.\n\nGTA 6 vai ser o mais zoeiro da série? Sim ou não? Comenta 👇\n📲 Manda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br\n\nFonte: VGTimes / Comedy Central\n\n#gta6 #gtavi #southpark #rockstargames #gta",
+   "capa_embutida": true,
+   "obs": "refeito com a cena real do episódio (pedido do Pedro 30/10)"
   }
  ]
 }
