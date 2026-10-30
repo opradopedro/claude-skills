@@ -1,5 +1,8 @@
-"""Alinhamento roteiro x narracao sem ASR: ancora fins de frase nas pausas do audio,
-e dentro de cada frase distribui as palavras por silabas faladas, pulando silencios."""
+"""Alinhamento roteiro x narracao.
+
+align(): ALINHAMENTO FORCADO (pipeline/sincronia.py, wav2vec2 MMS_FA, CPU, gratis): o inicio de cada palavra vem do
+audio, com ~20 ms de erro. REGRA do Pedro (30/10): legenda nunca atrasada nem antes da voz, entao e o unico jeito
+de cronometrar legenda. align_estimado() e o metodo antigo (pausas + silabas), so para diagnostico."""
 import re, subprocess
 
 SPOKEN = {"GTA 6": "ge te a seis", "revista LOVE": "revista lov", "PS5": "pe esse cinco", "GTA": "ge te a", "6": "seis", "19": "dezenove", "Xbox": "equis box",
@@ -92,7 +95,7 @@ def dp_bounds(phrases, pw, inner, start, end, speech_len):
     return bounds
 
 
-def align(audio, text, merge):
+def align_estimado(audio, text, merge):
     sil, total = silences(audio)
     start = sil[0][1] if sil and sil[0][0] < 0.05 else 0.0
     end = sil[-1][0] if sil and sil[-1][1] >= total - 0.05 else total
@@ -135,3 +138,24 @@ def align(audio, text, merge):
             res.append((w, s, e))
         seg_start = bounds[i][1] if i < len(bounds) else end
     return res
+
+
+def falado(display, merge):
+    """Como a narracao fala o token da tela (ex.: "GTA 6," -> "ge te a seis")."""
+    inv = {v: k for k, v in merge.items()}
+    nu = re.sub(r"[^\w/. $]+$", "", display).rstrip(".")
+    sp = inv.get(nu, nu)
+    return SPOKEN.get(sp, " ".join(SPOKEN.get(t, t) for t in sp.split()))
+
+
+def align(audio, text, merge):
+    """[(palavra da tela, inicio, fim)] pelo alinhamento forcado do audio (mesmos tokens do align_estimado)."""
+    import sys, os
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import sincronia
+    merge = dict(merge, **{"GTA 6": "GTA 6", "revista LOVE": "revista LOVE"})
+    for k, v in merge.items():
+        text = text.replace(k, v.replace(" ", "§"))
+    words = [w.replace("§", " ") for w in text.split()]
+    al = sincronia.alinhar(audio, [falado(w, merge) for w in words], "pt")
+    return [(w, a, b) for w, (a, b) in zip(words, al)]

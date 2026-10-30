@@ -119,14 +119,20 @@ def wrap(draw, text, font_path, max_w, size, max_lines=2):
     return lines, f
 
 
-def caption_layer(text, font, hl):
+def caption_layer(text, font, hl, n=None):
+    """Bloco de legenda. n = quantas palavras ja foram faladas: so elas aparecem, cada uma no lugar final
+    (o bloco monta palavra por palavra sem o texto pular, estilo stories)."""
     layer = Image.new("RGBA", (W, 300), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     lines, f = wrap(d, text, font, SAFE_W, 96 if hl else 86)
     y = (300 - len(lines) * (f.size + 6)) // 2
+    k = 0
     for ln in lines:
-        tw = d.textlength(ln, font=f)
-        d.text((CX - tw / 2, y), ln, font=f, fill=PURPLE if hl else YELLOW, stroke_width=8, stroke_fill="black")
+        x = CX - d.textlength(ln, font=f) / 2
+        for w in ln.split(" "):
+            if n is None or k < n:
+                d.text((x, y), w, font=f, fill=PURPLE if hl else YELLOW, stroke_width=8, stroke_fill="black")
+            x += d.textlength(w + " ", font=f); k += 1
         y += f.size + 6
     return layer
 
@@ -215,9 +221,12 @@ def main(path):
             frame.paste(head, (0, 0), head)
         cap = next((c for c in cfg["captions"] if c["start"] <= t < c["end"]), None)
         if cap:
-            k = (cap["text"], bool(cap.get("hl")))
+            # palavra so entra quando a voz a fala (cap["w"] = inicio de cada palavra, do alinhamento forcado)
+            ws = cap.get("w") or []
+            n = sum(1 for x in ws if x <= t) if len(ws) == len(cap["text"].split()) else None
+            k = (cap["text"], bool(cap.get("hl")), n)
             if k not in cache:
-                cache[k] = caption_layer(cap["text"], font, cap.get("hl"))
+                cache[k] = caption_layer(cap["text"], font, cap.get("hl"), n)
             layer = cache[k]
             age = t - cap["start"]
             y0 = CAP_Y - 150

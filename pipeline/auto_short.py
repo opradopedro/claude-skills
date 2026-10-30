@@ -16,7 +16,7 @@ Cortes: a cada 1,3 a 2,2 s (so fotos: 2,4 a 3,6 s, com a foto deslizando de lado
 import json, os, random, re, subprocess, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from align2 import align  # noqa: E402
+from align2 import align  # noqa: E402  (alinhamento forcado, pipeline/sincronia.py)
 from enquadrar import cx_auto  # noqa: E402
 
 CENSOR = {"PELADO": "P3L@D0", "PELADA": "P3L@D@", "PELADOS": "P3L@D0S", "NUDEZ": "NUD3Z",
@@ -28,6 +28,9 @@ CENSOR = {"PELADO": "P3L@D0", "PELADA": "P3L@D@", "PELADOS": "P3L@D0S", "NUDEZ":
 def duration(p):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                                           "-of", "csv=p=0", p]).strip())
+
+
+LEAD = 0.03  # a palavra entra 1 quadro antes da voz
 
 
 def chunks(words, censor):
@@ -45,7 +48,10 @@ def chunks(words, censor):
         txt = " ".join(censor.get(t.strip("?!"), t.strip("?!")) + ("?" if t.endswith("?") else "")
                        for t in txt.split())
         hl = any(re.search(r"\d", x[0]) for x in c)
-        out.append({"start": round(c[0][1], 3), "end": round(c[-1][2], 3), "text": txt, "hl": hl})
+        # inicio de cada palavra da tela (1 quadro antes da voz): o bloco monta palavra por palavra, estilo stories,
+        # e nenhuma palavra aparece antes de ser falada (REGRA do Pedro, 30/10)
+        w = [round(max(0.0, x[1] - LEAD), 3) for x in c for _ in x[0].split()]
+        out.append({"start": w[0], "end": round(c[-1][2], 3), "text": txt, "hl": hl, "w": w})
     for a, b in zip(out, out[1:]):  # sem buraco entre blocos
         a["end"] = b["start"]
     return out
@@ -117,7 +123,8 @@ def main(path):
         old = json.load(open(os.path.join(base, spec["captions_from"]), encoding="utf-8"))["captions"]
         caps = rechunk(old, censor)
     else:
-        caps = chunks(align(audio, spec["text"], spec.get("merge", {})), censor)
+        palavras = align(audio, spec["text"], spec.get("merge", {}))
+        caps = chunks(palavras, censor)
     total = duration(audio) + 0.4
     srcs = pick_broll(spec, base, rnd)
     # cortes: 1,3 a 2,2 s com clipes; so com fotos, 2,4 a 3,6 s para dar tempo da foto deslizar
@@ -146,6 +153,10 @@ def main(path):
         scenes.append(sc)
     cfg = {"audio": spec["audio"], "out": spec["out"], "font": spec.get("font", "../assets/fonts/Anton.ttf"),
            "handle": spec.get("handle", "@radar.gta6br"), "scenes": scenes, "captions": caps}
+    if not spec.get("captions_from"):  # para o checar_sync.py conferir o MP4 final palavra por palavra
+        from align2 import falado
+        mg = dict(spec.get("merge", {}), **{"GTA 6": "GTA 6", "revista LOVE": "revista LOVE"})
+        cfg["palavras"] = [{"txt": w, "falado": falado(w, mg), "tela": round(max(0.0, a - LEAD), 3)} for w, a, _ in palavras]
     if spec.get("headline"):
         cfg["headline"] = spec["headline"]
     if so_fotos:
