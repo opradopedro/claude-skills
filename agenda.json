@@ -1146,7 +1146,7 @@
   {
    "data": "2026-10-31",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v55_boate_nine1nine_miami.mp4",
    "tema": "Boate E11EVEN de Miami vira a NINE1NINE Vice City (boate do 1º trailer) em 6/11, show do Flo Rida, ingresso ~US$45, 21+; não é evento oficial da Rockstar (GTA BOOM 30/10)",
    "capa": "A boate vai abrir de verdade",
@@ -1158,7 +1158,8 @@
     "gancho": "revelacao",
     "origem": "noticia (GTA BOOM 30/10, E11EVEN Miami)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfKcAJ2AvuU/"
   }
  ]
 }
