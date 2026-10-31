@@ -1164,12 +1164,22 @@
   {
    "data": "2026-10-31",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v56_miami_dade_39_milhoes.mp4",
    "formato": "corte",
    "tema": "Miami-Dade aprova acordo de US$ 3,9 milhões com a Rockstar: luzes do GTA 6 no aeroporto e no PortMiami, painéis nas passarelas, degradê nas caixas de semáforo, anúncios no Metromover/Metrobus/Metrorail; letreiro Welcome to Vice City (US$ 975 mil) entra na conta; xerife e comissários foram contra, rebatizar o aeroporto caiu (GTA BOOM 29/10, comunicado do condado)",
    "capa": "Miami virou Vice City",
-   "capa_t": 25.8
+   "capa_t": 25.8,
+   "link": "https://www.instagram.com/reel/DfLFD2VjsfZ/",
+   "capa_embutida": true,
+   "publicado_em": "2026-10-31T18:13:00-03:00",
+   "legenda": "GTA 6 vai transformar Miami em Vice City de verdade 🌴 o condado aprovou um acordo de US$ 3,9 milhões com a Rockstar\n\n✈️ Luzes com as cores do jogo no aeroporto de Miami e no PortMiami\n🚶 Painéis nas passarelas do estacionamento até o terminal\n🚦 O degradê do GTA 6 nas caixas de semáforo do condado\n🚇 Anúncios no Metromover, Metrobus e Metrorail\n🏟️ O letreiro \"Welcome to Vice City\" da arena do Heat entra nessa conta\n\n⚠️ O xerife e parte dos comissários foram contra, e a ideia de rebatizar o aeroporto de Vice City caiu. A Rockstar paga instalação, manutenção e retirada.\n\n📰 Fonte: comunicado do condado de Miami-Dade, via GTA BOOM (29/10)\n\nVocê queria pousar em Miami e dar de cara com isso? Manda pra quem vai jogar GTA 6 com você 👇\n\n#gta6 #gtavi #vicecity #miami #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos)",
+    "gancho": "revelacao",
+    "origem": "GTA BOOM 29/10 + comunicado de Miami-Dade"
+   }
   }
  ]
 }
