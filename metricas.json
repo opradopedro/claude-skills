@@ -1653,17 +1653,17 @@
   "publicado": "2026-10-26T21:18:16.000Z",
   "legenda": "GTA 6 já tá na mão da imprensa, e as notas têm data 🎮",
   "atual": {
-   "playCount": 1316,
+   "playCount": 1317,
    "likeCount": 60,
    "commentCount": 0,
    "shares": 10,
    "saves": 2,
-   "avgWatchTimeMs": 22264,
-   "avgWatchedPct": 60.17,
-   "skipRate": 35.9,
+   "avgWatchTimeMs": 22245,
+   "avgWatchedPct": 60.12,
+   "skipRate": 36,
    "durationSeconds": 37,
-   "coletado": "2026-10-30T20:54Z",
-   "horas": 95.6
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 119.6
   },
   "h24": {
    "playCount": 1312,
@@ -1705,8 +1705,8 @@
    "avgWatchedPct": 48.23,
    "skipRate": 31.7,
    "durationSeconds": 31,
-   "coletado": "2026-10-30T20:54Z",
-   "horas": 92.7
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 116.7
   },
   "h24": {
    "playCount": 1339,
@@ -1748,8 +1748,8 @@
    "avgWatchedPct": 33.18,
    "skipRate": 35,
    "durationSeconds": 39,
-   "coletado": "2026-10-30T20:54Z",
-   "horas": 77.7
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 101.7
   },
   "h24": {
    "playCount": 1299,
@@ -1782,17 +1782,17 @@
   "publicado": "2026-10-27T21:26:36.000Z",
   "legenda": "GTA 6 vai pedir 210 GB livres no PS5",
   "atual": {
-   "playCount": 1484,
+   "playCount": 1485,
    "likeCount": 53,
    "commentCount": 0,
    "shares": 17,
    "saves": 3,
-   "avgWatchTimeMs": 13538,
-   "avgWatchedPct": 35.63,
+   "avgWatchTimeMs": 13529,
+   "avgWatchedPct": 35.6,
    "skipRate": 38.2,
    "durationSeconds": 38,
-   "coletado": "2026-10-30T20:54Z",
-   "horas": 71.5
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 95.5
   },
   "h24": {
    "playCount": 1475,
@@ -1806,6 +1806,19 @@
    "durationSeconds": 38,
    "coletado": "2026-10-29T00:04Z",
    "horas": 26.6
+  },
+  "h72": {
+   "playCount": 1485,
+   "likeCount": 53,
+   "commentCount": 0,
+   "shares": 17,
+   "saves": 3,
+   "avgWatchTimeMs": 13529,
+   "avgWatchedPct": 35.6,
+   "skipRate": 38.2,
+   "durationSeconds": 38,
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 95.5
   }
  },
  "DfBGKv3IIsZ": {
@@ -1821,8 +1834,8 @@
    "avgWatchedPct": 23.37,
    "skipRate": 49,
    "durationSeconds": 40,
-   "coletado": "2026-10-30T20:54Z",
-   "horas": 68.9
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 92.9
   },
   "h24": {
    "playCount": 480,
@@ -1836,6 +1849,19 @@
    "durationSeconds": 40,
    "coletado": "2026-10-29T00:04Z",
    "horas": 24.0
+  },
+  "h72": {
+   "playCount": 486,
+   "likeCount": 18,
+   "commentCount": 0,
+   "shares": 3,
+   "saves": 2,
+   "avgWatchTimeMs": 9348,
+   "avgWatchedPct": 23.37,
+   "skipRate": 49,
+   "durationSeconds": 40,
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 92.9
   }
  },
  "DfCwKjElOi0": {
@@ -1848,11 +1874,11 @@
    "shares": 5,
    "saves": 3,
    "avgWatchTimeMs": 14699,
-   "avgWatchedPct": 40.830555555555556,
+   "avgWatchedPct": 40.83,
    "skipRate": 36.8,
    "durationSeconds": 36,
-   "coletado": "2026-10-31T14:54Z",
-   "horas": 71.4
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 77.4
   },
   "h24": {
    "playCount": 1484,
@@ -1866,6 +1892,19 @@
    "durationSeconds": 36,
    "coletado": "2026-10-30T19:06Z",
    "horas": 51.6
+  },
+  "h72": {
+   "playCount": 1484,
+   "likeCount": 48,
+   "commentCount": 0,
+   "shares": 5,
+   "saves": 3,
+   "avgWatchTimeMs": 14699,
+   "avgWatchedPct": 40.83,
+   "skipRate": 36.8,
+   "durationSeconds": 36,
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 77.4
   }
  },
  "DfDXVFojWfX": {
@@ -1878,11 +1917,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 7921,
-   "avgWatchedPct": 22.002777777777776,
+   "avgWatchedPct": 22.0,
    "skipRate": 44,
    "durationSeconds": 36,
-   "coletado": "2026-10-31T14:54Z",
-   "horas": 65.7
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 71.7
   },
   "h24": {
    "playCount": 120,
@@ -1908,11 +1947,11 @@
    "shares": 3,
    "saves": 1,
    "avgWatchTimeMs": 11409,
-   "avgWatchedPct": 34.57272727272727,
+   "avgWatchedPct": 34.57,
    "skipRate": 46.2,
    "durationSeconds": 33,
-   "coletado": "2026-10-31T14:54Z",
-   "horas": 62.8
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 68.8
   },
   "h24": {
    "playCount": 737,
@@ -1941,8 +1980,8 @@
    "avgWatchedPct": 30,
    "skipRate": 42.5,
    "durationSeconds": 36,
-   "coletado": "2026-10-31T14:54Z",
-   "horas": 47.5
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 53.5
   },
   "h24": {
    "playCount": 130,
@@ -1962,17 +2001,30 @@
   "publicado": "2026-10-30T19:24:10.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1430,
+   "playCount": 1439,
    "likeCount": 64,
    "commentCount": 1,
    "shares": 35,
    "saves": 3,
-   "avgWatchTimeMs": 13829,
-   "avgWatchedPct": 43.215625,
+   "avgWatchTimeMs": 13847,
+   "avgWatchedPct": 43.27,
    "skipRate": 39.1,
    "durationSeconds": 32,
-   "coletado": "2026-10-31T14:54Z",
-   "horas": 19.5
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 25.5
+  },
+  "h24": {
+   "playCount": 1439,
+   "likeCount": 64,
+   "commentCount": 1,
+   "shares": 35,
+   "saves": 3,
+   "avgWatchTimeMs": 13847,
+   "avgWatchedPct": 43.27,
+   "skipRate": 39.1,
+   "durationSeconds": 32,
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 25.5
   }
  },
  "DfIoHDmCOyX": {
@@ -1985,11 +2037,28 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 9801,
-   "avgWatchedPct": 31.616129032258065,
+   "avgWatchedPct": 31.62,
    "skipRate": 48.3,
    "durationSeconds": 31,
-   "coletado": "2026-10-31T14:54Z",
-   "horas": 16.7
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 22.7
+  }
+ },
+ "DfKcAJ2AvuU": {
+  "publicado": "2026-10-31T15:05:50.000Z",
+  "legenda": "GTA 6 vai ganhar boate de verdade em Miami 🪩 a E11EVEN vira a NINE1NINE Vice Cit",
+  "atual": {
+   "playCount": 136,
+   "likeCount": 5,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 10307,
+   "avgWatchedPct": 30.31,
+   "skipRate": 43,
+   "durationSeconds": 34,
+   "coletado": "2026-10-31T20:54Z",
+   "horas": 5.8
   }
  }
 }
