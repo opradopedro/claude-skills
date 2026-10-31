@@ -1,0 +1,43 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v55_boate_nine1nine_miami.mp4",
+ "text": "Mano, a boate do GTA 6 vai abrir de verdade em Miami! No dia seis de novembro, a Eleven, aquela balada que funciona vinte e quatro horas no centro de Miami, vira a Nine One Nine Vice City por uma noite. Lembra da faixa puxada pelo avião no primeiro trailer? É essa boate. O show é do Flo Rida, o ingresso começa na faixa dos quarenta e cinco dólares e só entra maior de vinte e um anos. Mas atenção: a festa é da própria boate, não é evento oficial da Rockstar. Pensa comigo: você pagaria pra ir numa balada do GTA 6? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Eleven": "E11EVEN",
+  "Nine One Nine": "NINE1NINE",
+  "Vice City": "Vice City",
+  "seis de novembro": "6 de novembro",
+  "vinte e quatro horas": "24 horas",
+  "quarenta e cinco dólares": "45 dólares",
+  "vinte e um anos": "21 anos",
+  "Flo Rida": "Flo Rida"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "broll": [
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_314.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_315.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_316.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_272.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_317.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_318.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_273.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_319.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_320.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_321.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_274.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_255.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_322.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_323.mp4"
+ ],
+ "seed": 55,
+ "font": "../../assets/fonts/Anton.ttf"
+}
