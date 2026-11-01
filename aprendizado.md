@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 31/10/2026 17:54 (Brasília) com 53 Reels com nota. Média geral: 59.8/100.
+Atualizado em 31/10/2026 20:54 (Brasília) com 53 Reels com nota. Média geral: 59.8/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -185,7 +185,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-19 | [DesKRnHFMj5](https://www.instagram.com/reel/DesKRnHFMj5/) | corte | noticias | pergunta | 130 | 65.1% | 25% | 4 | 0 | 0 | 0 | 45.0 (h72) |
 | 2026-10-18 | [Deo8P5CD2Ob](https://www.instagram.com/reel/Deo8P5CD2Ob/) | corte | marketing | polemica | 167 | 46.2% | 30% | 3 | 0 | 0 | 0 | 44.2 (h72) |
 | 2026-10-19 | [DeseuwKD_89](https://www.instagram.com/reel/DeseuwKD_89/) | corte | bastidores | enquete | 148 | 45.2% | 34% | 2 | 0 | 0 | 0 | 41.7 (h72) |
-| 2026-10-30 | [DfIoHDmCOyX](https://www.instagram.com/reel/DfIoHDmCOyX/) | corte | gameplay novo no South Park (cena real) | revelacao | 128 | 48.3% | 32% | 2 | 0 | 0 | 0 | 41.2 (provisória) |
+| 2026-10-30 | [DfIoHDmCOyX](https://www.instagram.com/reel/DfIoHDmCOyX/) | corte | gameplay novo no South Park (cena real) | revelacao | 128 | 48.3% | 32% | 2 | 0 | 0 | 0 | 41.2 (h24) |
 | 2026-10-25 | [De6_moQjxny](https://www.instagram.com/reel/De6_moQjxny/) | corte | noticia/review | enquete | 142 | 57.4% | 22% | 3 | 0 | 0 | 0 | 40.2 (h24) |
 | 2026-10-11 | [DeX4Vhuj49m](https://www.instagram.com/reel/DeX4Vhuj49m/) | painel | mito | mentira_verdade | 132 | 49.6% | 21% | 2 | 0 | 0 | 0 | 37.8 (provisória) |
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 36.1 (h24) |
@@ -195,4 +195,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DfKcAJ2AvuU](https://www.instagram.com/reel/DfKcAJ2AvuU/): 5.8 h no ar, 136 views, 43% pularam, 30% assistido, 5 curtidas
+- [DfKcAJ2AvuU](https://www.instagram.com/reel/DfKcAJ2AvuU/): 8.8 h no ar, 142 views, 43.7% pularam, 31% assistido, 5 curtidas
+- [DfLFD2VjsfZ](https://www.instagram.com/reel/DfLFD2VjsfZ/): 2.8 h no ar, 430 views, 42.4% pularam, 27% assistido, 16 curtidas

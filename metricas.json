@@ -1947,11 +1947,11 @@
    "shares": 3,
    "saves": 1,
    "avgWatchTimeMs": 11409,
-   "avgWatchedPct": 34.57,
+   "avgWatchedPct": 34.5727,
    "skipRate": 46.2,
    "durationSeconds": 33,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 68.8
+   "coletado": "2026-10-31T23:54Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 737,
@@ -1980,8 +1980,8 @@
    "avgWatchedPct": 30,
    "skipRate": 42.5,
    "durationSeconds": 36,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 53.5
+   "coletado": "2026-10-31T23:54Z",
+   "horas": 56.5
   },
   "h24": {
    "playCount": 130,
@@ -2001,17 +2001,17 @@
   "publicado": "2026-10-30T19:24:10.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1439,
+   "playCount": 1447,
    "likeCount": 64,
    "commentCount": 1,
    "shares": 35,
    "saves": 3,
-   "avgWatchTimeMs": 13847,
-   "avgWatchedPct": 43.27,
-   "skipRate": 39.1,
+   "avgWatchTimeMs": 13776,
+   "avgWatchedPct": 43.05,
+   "skipRate": 39.5,
    "durationSeconds": 32,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 25.5
+   "coletado": "2026-10-31T23:54Z",
+   "horas": 28.5
   },
   "h24": {
    "playCount": 1439,
@@ -2037,28 +2037,58 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 9801,
-   "avgWatchedPct": 31.62,
+   "avgWatchedPct": 31.616,
    "skipRate": 48.3,
    "durationSeconds": 31,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 22.7
+   "coletado": "2026-10-31T23:54Z",
+   "horas": 25.7
+  },
+  "h24": {
+   "playCount": 128,
+   "likeCount": 2,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 9801,
+   "avgWatchedPct": 31.616,
+   "skipRate": 48.3,
+   "durationSeconds": 31,
+   "coletado": "2026-10-31T23:54Z",
+   "horas": 25.7
   }
  },
  "DfKcAJ2AvuU": {
   "publicado": "2026-10-31T15:05:50.000Z",
   "legenda": "GTA 6 vai ganhar boate de verdade em Miami 🪩 a E11EVEN vira a NINE1NINE Vice Cit",
   "atual": {
-   "playCount": 136,
+   "playCount": 142,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 10307,
-   "avgWatchedPct": 30.31,
-   "skipRate": 43,
+   "avgWatchTimeMs": 10613,
+   "avgWatchedPct": 31.2147,
+   "skipRate": 43.7,
    "durationSeconds": 34,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 5.8
+   "coletado": "2026-10-31T23:54Z",
+   "horas": 8.8
+  }
+ },
+ "DfLFD2VjsfZ": {
+  "publicado": "2026-10-31T21:04:34.000Z",
+  "legenda": "GTA 6 vai transformar Miami em Vice City de verdade",
+  "atual": {
+   "playCount": 430,
+   "likeCount": 16,
+   "commentCount": 0,
+   "shares": 2,
+   "saves": 2,
+   "avgWatchTimeMs": 10931,
+   "avgWatchedPct": 27.3275,
+   "skipRate": 42.4,
+   "durationSeconds": 40,
+   "coletado": "2026-10-31T23:54Z",
+   "horas": 2.8
   }
  }
 }
