@@ -1184,7 +1184,7 @@
   {
    "data": "2026-10-31",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v57_sistema_de_nojo.mp4",
    "formato": "corte",
    "tema": "Rockstar confirma que a piada do cocô do South Park é real: sistema de nojo (Jason faz careta em casa suja não roteirizada, contou Aaron Garbut à Edge); NPCs com temperamento e memória; arma na mão faz multidão fugir (GTA BOOM 29/10)",
@@ -1197,7 +1197,9 @@
     "gancho": "revelacao",
     "origem": "GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfLZkcpj72S/",
+   "publicado_em": "2026-10-31T21:03:00-03:00"
   }
  ]
 }
