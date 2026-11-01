@@ -1204,7 +1204,7 @@
   {
    "data": "2026-11-01",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v58_recorde_intencao_compra.mp4",
    "formato": "corte",
    "tema": "Circana: 29% dos gamers de console/PC dos EUA pretendem comprar GTA 6, maior intenção de compra já medida; Zelnick ('todo adulto com console'); pré-venda 5+ mi (1+ mi no Xbox, Sensor Tower) (GTA BOOM 29/10)",
@@ -1217,7 +1217,9 @@
     "tema": "recorde de intenção de compra (Circana)",
     "gancho": "pergunta",
     "origem": "GTA BOOM 29/10 (Circana)"
-   }
+   },
+   "link": "https://www.instagram.com/reel/DfNAhuBkbE8/",
+   "publicado_em": "2026-11-01T12:03:00-03:00"
   }
  ]
 }
