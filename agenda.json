@@ -1224,7 +1224,7 @@
   {
    "data": "2026-11-01",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v59_diretor_jogos_vorazes.mp4",
    "formato": "corte",
    "tema": "Diretor de Jogos Vorazes (Francis Lawrence) admite que Amanhecer na Colheita estreia junto com GTA 6 em novembro: 'joga GTA, vai ver o filme, joga mais GTA' (IGN via GTA BOOM 28/10); GTA 6 teria custado mais que qualquer filme",
@@ -1237,7 +1237,9 @@
     "gancho": "revelacao",
     "origem": "GTA BOOM 28/10 (IGN)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfNpglpEb2a/",
+   "publicado_em": "2026-11-01T18:01:25-03:00"
   }
  ]
 }
