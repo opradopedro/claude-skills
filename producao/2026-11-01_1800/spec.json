@@ -1,0 +1,40 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v59_diretor_jogos_vorazes.mp4",
+ "text": "Mano, GTA 6 tá assustando até Hollywood. O diretor de Jogos Vorazes, Francis Lawrence, admitiu que o novo filme dele, Amanhecer na Colheita, estreia em novembro praticamente junto com o jogo. E olha o que ele disse pra IGN: espero que a galera ache tempo pros dois. Joga GTA, vai ver o filme e joga mais GTA. Pensa comigo: GTA 6 já custou mais que qualquer filme da história, e agora até cinema tá rezando pra não ser engolido. Você troca o GTA pelo cinema na semana do lançamento? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Jogos Vorazes": "Jogos Vorazes",
+  "Francis Lawrence": "Francis Lawrence",
+  "Amanhecer na Colheita": "Amanhecer na Colheita"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "broll": [
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_122.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_089.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_169.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_151.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_297.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_009.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_189.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4"
+ ],
+ "seed": 59,
+ "font": "../../assets/fonts/Anton.ttf"
+}

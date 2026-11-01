@@ -1791,8 +1791,8 @@
    "avgWatchedPct": 35.6,
    "skipRate": 38.2,
    "durationSeconds": 38,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 95.5
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 119.4
   },
   "h24": {
    "playCount": 1475,
@@ -1834,8 +1834,8 @@
    "avgWatchedPct": 23.37,
    "skipRate": 49,
    "durationSeconds": 40,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 92.9
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 116.9
   },
   "h24": {
    "playCount": 480,
@@ -1874,11 +1874,11 @@
    "shares": 5,
    "saves": 3,
    "avgWatchTimeMs": 14699,
-   "avgWatchedPct": 40.83,
+   "avgWatchedPct": 40.8,
    "skipRate": 36.8,
    "durationSeconds": 36,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 77.4
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 101.4
   },
   "h24": {
    "playCount": 1484,
@@ -1911,17 +1911,17 @@
   "publicado": "2026-10-28T21:09:53.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 120,
+   "playCount": 121,
    "likeCount": 4,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 7921,
-   "avgWatchedPct": 22.0,
-   "skipRate": 44,
+   "avgWatchTimeMs": 7861,
+   "avgWatchedPct": 21.8,
+   "skipRate": 44.5,
    "durationSeconds": 36,
-   "coletado": "2026-10-31T20:54Z",
-   "horas": 71.7
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 95.7
   },
   "h24": {
    "playCount": 120,
@@ -1935,23 +1935,36 @@
    "durationSeconds": 36,
    "coletado": "2026-10-30T19:06Z",
    "horas": 46.0
+  },
+  "h72": {
+   "playCount": 121,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 7861,
+   "avgWatchedPct": 21.8,
+   "skipRate": 44.5,
+   "durationSeconds": 36,
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 95.7
   }
  },
  "DfDrYMklbDR": {
   "publicado": "2026-10-29T00:05:03.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 738,
+   "playCount": 739,
    "likeCount": 17,
    "commentCount": 0,
    "shares": 3,
    "saves": 1,
-   "avgWatchTimeMs": 11409,
-   "avgWatchedPct": 34.5727,
-   "skipRate": 46.2,
+   "avgWatchTimeMs": 11399,
+   "avgWatchedPct": 34.5,
+   "skipRate": 46.1,
    "durationSeconds": 33,
-   "coletado": "2026-10-31T23:54Z",
-   "horas": 71.8
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 92.8
   },
   "h24": {
    "playCount": 737,
@@ -1965,6 +1978,19 @@
    "durationSeconds": 33,
    "coletado": "2026-10-30T19:06Z",
    "horas": 43.0
+  },
+  "h72": {
+   "playCount": 739,
+   "likeCount": 17,
+   "commentCount": 0,
+   "shares": 3,
+   "saves": 1,
+   "avgWatchTimeMs": 11399,
+   "avgWatchedPct": 34.5,
+   "skipRate": 46.1,
+   "durationSeconds": 33,
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 92.8
   }
  },
  "DfFU1DLEmP_": {
@@ -1980,8 +2006,8 @@
    "avgWatchedPct": 29.86,
    "skipRate": 42.1,
    "durationSeconds": 36,
-   "coletado": "2026-11-01T14:54Z",
-   "horas": 71.5
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 77.4
   },
   "h24": {
    "playCount": 130,
@@ -1995,23 +2021,36 @@
    "durationSeconds": 36,
    "coletado": "2026-10-30T19:06Z",
    "horas": 27.7
+  },
+  "h72": {
+   "playCount": 131,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 10751,
+   "avgWatchedPct": 29.86,
+   "skipRate": 42.1,
+   "durationSeconds": 36,
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 77.4
   }
  },
  "DfIUyYgAtdc": {
   "publicado": "2026-10-30T19:24:10.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1454,
+   "playCount": 1459,
    "likeCount": 64,
    "commentCount": 1,
    "shares": 35,
    "saves": 3,
-   "avgWatchTimeMs": 13778,
-   "avgWatchedPct": 43.06,
-   "skipRate": 39.5,
+   "avgWatchTimeMs": 13736,
+   "avgWatchedPct": 42.9,
+   "skipRate": 39.8,
    "durationSeconds": 32,
-   "coletado": "2026-11-01T14:54Z",
-   "horas": 43.5
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 49.5
   },
   "h24": {
    "playCount": 1439,
@@ -2040,8 +2079,8 @@
    "avgWatchedPct": 31.05,
    "skipRate": 48.7,
    "durationSeconds": 31,
-   "coletado": "2026-11-01T14:54Z",
-   "horas": 40.7
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 46.7
   },
   "h24": {
    "playCount": 128,
@@ -2061,51 +2100,81 @@
   "publicado": "2026-10-31T15:05:50.000Z",
   "legenda": "GTA 6 vai ganhar boate de verdade em Miami 🪩 a E11EVEN vira a NINE1NINE Vice Cit",
   "atual": {
-   "playCount": 215,
+   "playCount": 216,
    "likeCount": 7,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 11353,
-   "avgWatchedPct": 33.39,
-   "skipRate": 41.6,
+   "avgWatchTimeMs": 11296,
+   "avgWatchedPct": 33.2,
+   "skipRate": 41.9,
    "durationSeconds": 34,
-   "coletado": "2026-11-01T14:54Z",
-   "horas": 23.8
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 29.8
+  },
+  "h24": {
+   "playCount": 216,
+   "likeCount": 7,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 11296,
+   "avgWatchedPct": 33.2,
+   "skipRate": 41.9,
+   "durationSeconds": 34,
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 29.8
   }
  },
  "DfLFD2VjsfZ": {
   "publicado": "2026-10-31T21:04:34.000Z",
   "legenda": "GTA 6 vai transformar Miami em Vice City de verdade",
   "atual": {
-   "playCount": 1279,
-   "likeCount": 60,
+   "playCount": 1300,
+   "likeCount": 62,
    "commentCount": 0,
    "shares": 2,
    "saves": 5,
-   "avgWatchTimeMs": 16441,
-   "avgWatchedPct": 41.1025,
-   "skipRate": 43.1,
+   "avgWatchTimeMs": 16407,
+   "avgWatchedPct": 41.0,
+   "skipRate": 43.3,
    "durationSeconds": 40,
-   "coletado": "2026-11-01T14:54Z",
-   "horas": 17.8
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 23.8
   }
  },
  "DfLZkcpj72S": {
   "publicado": "2026-11-01T00:03:24.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1300,
+   "playCount": 1308,
    "likeCount": 33,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 14134,
-   "avgWatchedPct": 33.65238095238095,
-   "skipRate": 36.2,
+   "avgWatchTimeMs": 14092,
+   "avgWatchedPct": 33.55,
+   "skipRate": 36.5,
    "durationSeconds": 42,
-   "coletado": "2026-11-01T14:54Z",
-   "horas": 14.9
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 20.8
+  }
+ },
+ "DfNAhuBkbE8": {
+  "publicado": "2026-11-01T15:02:58.000Z",
+  "legenda": "GTA 6 bateu recorde antes mesmo de sair",
+  "atual": {
+   "playCount": 173,
+   "likeCount": 2,
+   "commentCount": 0,
+   "shares": 12,
+   "saves": 0,
+   "avgWatchTimeMs": 10658,
+   "avgWatchedPct": 33.3,
+   "skipRate": 41.7,
+   "durationSeconds": 32,
+   "coletado": "2026-11-01T20:53Z",
+   "horas": 5.8
   }
  }
 }

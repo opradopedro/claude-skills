@@ -1,0 +1,1073 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v59_diretor_jogos_vorazes.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+   "start": 0.0,
+   "end": 2.212,
+   "layout": "full",
+   "cx": 0.715,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 2.212,
+   "end": 3.633,
+   "layout": "full",
+   "cx": 0.482,
+   "pan": -1,
+   "ss": 0.06
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_122.mp4",
+   "start": 3.633,
+   "end": 5.374,
+   "layout": "full",
+   "cx": 0.457,
+   "pan": 1,
+   "ss": 1.54
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+   "start": 5.374,
+   "end": 7.455,
+   "layout": "full",
+   "cx": 0.699,
+   "pan": -1,
+   "ss": 0.02
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+   "start": 7.455,
+   "end": 10.077,
+   "layout": "full",
+   "cx": 0.307,
+   "pan": 1,
+   "ss": 0.47
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+   "start": 10.077,
+   "end": 11.518,
+   "layout": "full",
+   "cx": 0.47,
+   "pan": -1,
+   "ss": 1.32
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_089.mp4",
+   "start": 11.518,
+   "end": 13.7,
+   "layout": "full",
+   "cx": 0.914,
+   "pan": 1,
+   "ss": 0.16
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 13.7,
+   "end": 15.461,
+   "layout": "full",
+   "cx": 0.187,
+   "pan": -1,
+   "ss": 0.34
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+   "start": 15.461,
+   "end": 17.102,
+   "layout": "full",
+   "cx": 0.712,
+   "pan": 1,
+   "ss": 2.02
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+   "start": 17.102,
+   "end": 18.984,
+   "layout": "full",
+   "cx": 0.493,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_169.mp4",
+   "start": 18.984,
+   "end": 20.285,
+   "layout": "full",
+   "cx": 0.591,
+   "pan": 1,
+   "ss": 2.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_151.mp4",
+   "start": 20.285,
+   "end": 22.446,
+   "layout": "full",
+   "cx": 0.446,
+   "pan": -1,
+   "ss": 0.08
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+   "start": 22.446,
+   "end": 23.787,
+   "layout": "full",
+   "cx": 0.67,
+   "pan": 1,
+   "ss": 0.67
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+   "start": 23.787,
+   "end": 26.229,
+   "layout": "full",
+   "cx": 0.628,
+   "pan": -1,
+   "ss": 0.36
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+   "start": 26.229,
+   "end": 28.49,
+   "layout": "full",
+   "cx": 0.631,
+   "pan": 1,
+   "ss": 0.95
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+   "start": 28.49,
+   "end": 29.931,
+   "layout": "full",
+   "cx": 0.235,
+   "pan": -1,
+   "ss": 0.36
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+   "start": 29.931,
+   "end": 31.633,
+   "layout": "full",
+   "cx": 0.955,
+   "pan": 1,
+   "ss": 0.39
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_297.mp4",
+   "start": 31.633,
+   "end": 33.394,
+   "layout": "full",
+   "cx": 0.687,
+   "pan": -1,
+   "ss": 0.69
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_009.mp4",
+   "start": 33.394,
+   "end": 34.955,
+   "layout": "full",
+   "cx": 0.347,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+   "start": 34.955,
+   "end": 37.024,
+   "layout": "full",
+   "cx": 0.574,
+   "pan": -1,
+   "ss": 0.41
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.03,
+   "end": 0.53,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.03
+   ]
+  },
+  {
+   "start": 0.53,
+   "end": 2.212,
+   "text": "GTA 6 TÁ ASSUSTANDO",
+   "hl": true,
+   "w": [
+    0.53,
+    0.53,
+    1.311,
+    1.451
+   ]
+  },
+  {
+   "start": 2.212,
+   "end": 3.633,
+   "text": "ATÉ HOLLYWOOD",
+   "hl": false,
+   "w": [
+    2.212,
+    2.552
+   ]
+  },
+  {
+   "start": 3.633,
+   "end": 4.373,
+   "text": "O DIRETOR DE",
+   "hl": false,
+   "w": [
+    3.633,
+    3.713,
+    4.233
+   ]
+  },
+  {
+   "start": 4.373,
+   "end": 5.374,
+   "text": "JOGOS VORAZES",
+   "hl": false,
+   "w": [
+    4.373,
+    4.373
+   ]
+  },
+  {
+   "start": 5.374,
+   "end": 6.595,
+   "text": "FRANCIS LAWRENCE",
+   "hl": false,
+   "w": [
+    5.374,
+    5.374
+   ]
+  },
+  {
+   "start": 6.595,
+   "end": 7.455,
+   "text": "ADMITIU QUE O",
+   "hl": false,
+   "w": [
+    6.595,
+    7.255,
+    7.375
+   ]
+  },
+  {
+   "start": 7.455,
+   "end": 8.536,
+   "text": "NOVO FILME DELE",
+   "hl": false,
+   "w": [
+    7.455,
+    7.736,
+    7.996
+   ]
+  },
+  {
+   "start": 8.536,
+   "end": 10.077,
+   "text": "AMANHECER NA COLHEITA",
+   "hl": false,
+   "w": [
+    8.536,
+    8.536,
+    8.536
+   ]
+  },
+  {
+   "start": 10.077,
+   "end": 11.518,
+   "text": "ESTREIA EM NOVEMBRO",
+   "hl": false,
+   "w": [
+    10.077,
+    10.518,
+    10.658
+   ]
+  },
+  {
+   "start": 11.518,
+   "end": 12.719,
+   "text": "PRATICAMENTE JUNTO",
+   "hl": false,
+   "w": [
+    11.518,
+    12.359
+   ]
+  },
+  {
+   "start": 12.719,
+   "end": 13.7,
+   "text": "COM O JOGO",
+   "hl": false,
+   "w": [
+    12.719,
+    12.879,
+    12.939
+   ]
+  },
+  {
+   "start": 13.7,
+   "end": 14.02,
+   "text": "E OLHA O",
+   "hl": false,
+   "w": [
+    13.7,
+    13.82,
+    13.98
+   ]
+  },
+  {
+   "start": 14.02,
+   "end": 14.52,
+   "text": "QUE ELE DISSE",
+   "hl": false,
+   "w": [
+    14.02,
+    14.12,
+    14.28
+   ]
+  },
+  {
+   "start": 14.52,
+   "end": 15.461,
+   "text": "PRA IGN",
+   "hl": false,
+   "w": [
+    14.52,
+    14.661
+   ]
+  },
+  {
+   "start": 15.461,
+   "end": 16.122,
+   "text": "ESPERO QUE A",
+   "hl": false,
+   "w": [
+    15.461,
+    15.941,
+    16.062
+   ]
+  },
+  {
+   "start": 16.122,
+   "end": 17.102,
+   "text": "GALERA ACHE TEMPO",
+   "hl": false,
+   "w": [
+    16.122,
+    16.482,
+    16.802
+   ]
+  },
+  {
+   "start": 17.102,
+   "end": 17.963,
+   "text": "PROS DOIS",
+   "hl": false,
+   "w": [
+    17.102,
+    17.322
+   ]
+  },
+  {
+   "start": 17.963,
+   "end": 18.984,
+   "text": "JOGA GTA",
+   "hl": false,
+   "w": [
+    17.963,
+    18.223
+   ]
+  },
+  {
+   "start": 18.984,
+   "end": 19.384,
+   "text": "VAI VER O",
+   "hl": false,
+   "w": [
+    18.984,
+    19.164,
+    19.284
+   ]
+  },
+  {
+   "start": 19.384,
+   "end": 20.285,
+   "text": "FILME E JOGA",
+   "hl": false,
+   "w": [
+    19.384,
+    19.824,
+    19.944
+   ]
+  },
+  {
+   "start": 20.285,
+   "end": 21.365,
+   "text": "MAIS GTA",
+   "hl": false,
+   "w": [
+    20.285,
+    20.485
+   ]
+  },
+  {
+   "start": 21.365,
+   "end": 22.446,
+   "text": "PENSA COMIGO",
+   "hl": false,
+   "w": [
+    21.365,
+    21.666
+   ]
+  },
+  {
+   "start": 22.446,
+   "end": 23.787,
+   "text": "GTA 6 JÁ CUSTOU",
+   "hl": true,
+   "w": [
+    22.446,
+    22.446,
+    23.207,
+    23.367
+   ]
+  },
+  {
+   "start": 23.787,
+   "end": 24.808,
+   "text": "MAIS QUE QUALQUER",
+   "hl": false,
+   "w": [
+    23.787,
+    24.047,
+    24.207
+   ]
+  },
+  {
+   "start": 24.808,
+   "end": 26.229,
+   "text": "FILME DA HISTÓRIA",
+   "hl": false,
+   "w": [
+    24.808,
+    25.148,
+    25.248
+   ]
+  },
+  {
+   "start": 26.229,
+   "end": 27.23,
+   "text": "E AGORA ATÉ",
+   "hl": false,
+   "w": [
+    26.229,
+    26.329,
+    26.829
+   ]
+  },
+  {
+   "start": 27.23,
+   "end": 28.49,
+   "text": "CINEMA TÁ REZANDO",
+   "hl": false,
+   "w": [
+    27.23,
+    27.85,
+    28.01
+   ]
+  },
+  {
+   "start": 28.49,
+   "end": 28.931,
+   "text": "PRA NÃO SER",
+   "hl": false,
+   "w": [
+    28.49,
+    28.631,
+    28.811
+   ]
+  },
+  {
+   "start": 28.931,
+   "end": 29.931,
+   "text": "ENGOLIDO",
+   "hl": false,
+   "w": [
+    28.931
+   ]
+  },
+  {
+   "start": 29.931,
+   "end": 30.472,
+   "text": "VOCÊ TROCA O",
+   "hl": false,
+   "w": [
+    29.931,
+    30.172,
+    30.412
+   ]
+  },
+  {
+   "start": 30.472,
+   "end": 31.633,
+   "text": "GTA PELO CINEMA",
+   "hl": false,
+   "w": [
+    30.472,
+    30.932,
+    31.192
+   ]
+  },
+  {
+   "start": 31.633,
+   "end": 32.193,
+   "text": "NA SEMANA DO",
+   "hl": false,
+   "w": [
+    31.633,
+    31.773,
+    32.113
+   ]
+  },
+  {
+   "start": 32.193,
+   "end": 33.394,
+   "text": "LANÇAMENTO?",
+   "hl": false,
+   "w": [
+    32.193
+   ]
+  },
+  {
+   "start": 33.394,
+   "end": 33.954,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    33.394,
+    33.654,
+    33.794
+   ]
+  },
+  {
+   "start": 33.954,
+   "end": 34.955,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    33.954,
+    34.094,
+    34.375,
+    34.375
+   ]
+  },
+  {
+   "start": 34.955,
+   "end": 35.896,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    34.955,
+    35.075,
+    35.756
+   ]
+  },
+  {
+   "start": 35.896,
+   "end": 36.526,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    35.896,
+    36.136,
+    36.196
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.03
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 0.53
+  },
+  {
+   "txt": "tá",
+   "falado": "tá",
+   "tela": 1.311
+  },
+  {
+   "txt": "assustando",
+   "falado": "assustando",
+   "tela": 1.451
+  },
+  {
+   "txt": "até",
+   "falado": "até",
+   "tela": 2.212
+  },
+  {
+   "txt": "Hollywood.",
+   "falado": "Hollywood",
+   "tela": 2.552
+  },
+  {
+   "txt": "O",
+   "falado": "O",
+   "tela": 3.633
+  },
+  {
+   "txt": "diretor",
+   "falado": "diretor",
+   "tela": 3.713
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 4.233
+  },
+  {
+   "txt": "Jogos Vorazes,",
+   "falado": "Jogos Vorazes",
+   "tela": 4.373
+  },
+  {
+   "txt": "Francis Lawrence,",
+   "falado": "Francis Lawrence",
+   "tela": 5.374
+  },
+  {
+   "txt": "admitiu",
+   "falado": "admitiu",
+   "tela": 6.595
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 7.255
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 7.375
+  },
+  {
+   "txt": "novo",
+   "falado": "novo",
+   "tela": 7.455
+  },
+  {
+   "txt": "filme",
+   "falado": "filme",
+   "tela": 7.736
+  },
+  {
+   "txt": "dele,",
+   "falado": "dele",
+   "tela": 7.996
+  },
+  {
+   "txt": "Amanhecer na Colheita,",
+   "falado": "Amanhecer na Colheita",
+   "tela": 8.536
+  },
+  {
+   "txt": "estreia",
+   "falado": "estreia",
+   "tela": 10.077
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 10.518
+  },
+  {
+   "txt": "novembro",
+   "falado": "novembro",
+   "tela": 10.658
+  },
+  {
+   "txt": "praticamente",
+   "falado": "praticamente",
+   "tela": 11.518
+  },
+  {
+   "txt": "junto",
+   "falado": "junto",
+   "tela": 12.359
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 12.719
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 12.879
+  },
+  {
+   "txt": "jogo.",
+   "falado": "jogo",
+   "tela": 12.939
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 13.7
+  },
+  {
+   "txt": "olha",
+   "falado": "olha",
+   "tela": 13.82
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 13.98
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 14.02
+  },
+  {
+   "txt": "ele",
+   "falado": "ele",
+   "tela": 14.12
+  },
+  {
+   "txt": "disse",
+   "falado": "disse",
+   "tela": 14.28
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 14.52
+  },
+  {
+   "txt": "IGN:",
+   "falado": "IGN",
+   "tela": 14.661
+  },
+  {
+   "txt": "espero",
+   "falado": "espero",
+   "tela": 15.461
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 15.941
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 16.062
+  },
+  {
+   "txt": "galera",
+   "falado": "galera",
+   "tela": 16.122
+  },
+  {
+   "txt": "ache",
+   "falado": "ache",
+   "tela": 16.482
+  },
+  {
+   "txt": "tempo",
+   "falado": "tempo",
+   "tela": 16.802
+  },
+  {
+   "txt": "pros",
+   "falado": "pros",
+   "tela": 17.102
+  },
+  {
+   "txt": "dois.",
+   "falado": "dois",
+   "tela": 17.322
+  },
+  {
+   "txt": "Joga",
+   "falado": "Joga",
+   "tela": 17.963
+  },
+  {
+   "txt": "GTA,",
+   "falado": "ge te a",
+   "tela": 18.223
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 18.984
+  },
+  {
+   "txt": "ver",
+   "falado": "ver",
+   "tela": 19.164
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 19.284
+  },
+  {
+   "txt": "filme",
+   "falado": "filme",
+   "tela": 19.384
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 19.824
+  },
+  {
+   "txt": "joga",
+   "falado": "joga",
+   "tela": 19.944
+  },
+  {
+   "txt": "mais",
+   "falado": "mais",
+   "tela": 20.285
+  },
+  {
+   "txt": "GTA.",
+   "falado": "ge te a",
+   "tela": 20.485
+  },
+  {
+   "txt": "Pensa",
+   "falado": "Pensa",
+   "tela": 21.365
+  },
+  {
+   "txt": "comigo:",
+   "falado": "comigo",
+   "tela": 21.666
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 22.446
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 23.207
+  },
+  {
+   "txt": "custou",
+   "falado": "custou",
+   "tela": 23.367
+  },
+  {
+   "txt": "mais",
+   "falado": "mais",
+   "tela": 23.787
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 24.047
+  },
+  {
+   "txt": "qualquer",
+   "falado": "qualquer",
+   "tela": 24.207
+  },
+  {
+   "txt": "filme",
+   "falado": "filme",
+   "tela": 24.808
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 25.148
+  },
+  {
+   "txt": "história,",
+   "falado": "história",
+   "tela": 25.248
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 26.229
+  },
+  {
+   "txt": "agora",
+   "falado": "agora",
+   "tela": 26.329
+  },
+  {
+   "txt": "até",
+   "falado": "até",
+   "tela": 26.829
+  },
+  {
+   "txt": "cinema",
+   "falado": "cinema",
+   "tela": 27.23
+  },
+  {
+   "txt": "tá",
+   "falado": "tá",
+   "tela": 27.85
+  },
+  {
+   "txt": "rezando",
+   "falado": "rezando",
+   "tela": 28.01
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 28.49
+  },
+  {
+   "txt": "não",
+   "falado": "não",
+   "tela": 28.631
+  },
+  {
+   "txt": "ser",
+   "falado": "ser",
+   "tela": 28.811
+  },
+  {
+   "txt": "engolido.",
+   "falado": "engolido",
+   "tela": 28.931
+  },
+  {
+   "txt": "Você",
+   "falado": "Você",
+   "tela": 29.931
+  },
+  {
+   "txt": "troca",
+   "falado": "troca",
+   "tela": 30.172
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 30.412
+  },
+  {
+   "txt": "GTA",
+   "falado": "ge te a",
+   "tela": 30.472
+  },
+  {
+   "txt": "pelo",
+   "falado": "pelo",
+   "tela": 30.932
+  },
+  {
+   "txt": "cinema",
+   "falado": "cinema",
+   "tela": 31.192
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 31.633
+  },
+  {
+   "txt": "semana",
+   "falado": "semana",
+   "tela": 31.773
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 32.113
+  },
+  {
+   "txt": "lançamento?",
+   "falado": "lançamento",
+   "tela": 32.193
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 33.394
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 33.654
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 33.794
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 33.954
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 34.094
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 34.375
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 34.955
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 35.075
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 35.756
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 35.896
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 36.136
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 36.196
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 01/11/2026 11:54 (Brasília) com 56 Reels com nota. Média geral: 60.0/100.
+Atualizado em 01/11/2026 17:53 (Brasília) com 56 Reels com nota. Média geral: 59.9/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -26,31 +26,31 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | preco_compra | 2 | 67.4 | 63.7 |  |
 | noticia/mercado | 1 | 71.0 | 63.6 |  |
 | curiosidade/economia | 1 | 70.7 | 63.5 |  |
-| Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | 1 | 70.2 | 63.4 |  |
+| Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | 1 | 70.1 | 63.3 |  |
 | gameplay/mapa | 1 | 68.9 | 62.9 |  |
 | lista/personagens | 1 | 68.6 | 62.8 |  |
-| sistema de nojo e NPCs com memória | 1 | 68.4 | 62.8 |  |
-| bastidores | 4 | 63.4 | 62.3 |  |
-| curiosidade/dinheiro | 1 | 67.0 | 62.3 |  |
+| sistema de nojo e NPCs com memória | 1 | 68.1 | 62.7 |  |
+| curiosidade/dinheiro | 1 | 66.9 | 62.3 |  |
 | teoria | 1 | 66.6 | 62.2 |  |
+| bastidores | 4 | 63.4 | 62.2 |  |
 | noticia/polemica | 1 | 66.6 | 62.2 |  |
 | GTA 6 no PC em 6-7 meses segundo Pachter | 1 | 63.7 | 61.2 |  |
 | rumor/elenco | 1 | 63.3 | 61.1 |  |
 | pc | 1 | 62.8 | 60.9 |  |
-| trailer | 3 | 60.6 | 60.4 |  |
+| trailer | 3 | 60.6 | 60.3 |  |
 | historia | 1 | 60.9 | 60.3 |  |
 | curiosidade/marketing | 1 | 59.5 | 59.8 |  |
 | novidade oficial | 1 | 58.9 | 59.6 |  |
-| musica/trilha | 2 | 59.0 | 59.5 |  |
-| boate NINE1NINE de verdade em Miami | 1 | 58.5 | 59.5 |  |
+| musica/trilha | 2 | 58.9 | 59.4 |  |
+| boate NINE1NINE de verdade em Miami | 1 | 58.3 | 59.4 |  |
 | noticia/review | 2 | 58.7 | 59.3 |  |
 | vazamentos | 2 | 56.4 | 58.2 |  |
 | gameplay/policia | 1 | 53.9 | 57.9 |  |
 | vendas/numeros | 1 | 53.2 | 57.7 |  |
 | mapa | 1 | 51.6 | 57.2 |  |
 | marketing/mundo real | 1 | 51.4 | 57.1 |  |
-| marketing | 2 | 51.5 | 55.8 |  |
-| gameplay/bastidores | 2 | 51.1 | 55.6 |  |
+| marketing | 2 | 51.5 | 55.7 |  |
+| gameplay/bastidores | 2 | 51.1 | 55.5 |  |
 | noticias | 4 | 52.6 | 55.1 |  |
 | gameplay novo no South Park (cena real) | 1 | 40.9 | 53.6 |  |
 | mito | 1 | 37.5 | 52.5 |  |
@@ -65,10 +65,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | noticia | 5 | 65.9 | 64.2 |  |
 | pergunta | 5 | 63.2 | 62.3 |  |
 | votacao | 1 | 66.5 | 62.1 |  |
-| numero chocante | 5 | 62.9 | 62.1 |  |
+| numero chocante | 5 | 62.8 | 62.0 |  |
 | rumor + oficial | 1 | 65.0 | 61.6 |  |
 | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 1 | 63.7 | 61.2 |  |
-| revelacao | 12 | 60.3 | 60.2 |  |
+| revelacao | 12 | 60.2 | 60.2 |  |
 | vida real | 1 | 59.5 | 59.8 |  |
 | enquete | 7 | 58.3 | 58.7 |  |
 | mentira_verdade | 2 | 54.8 | 57.4 |  |
@@ -92,14 +92,14 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GamingBible 27/10 (Emberville), MP1st (Fable fev/2027), Lords of the Fallen II e Squadron 42 adiados p/ 2027 | 1 | 71.0 | 63.6 |  |
 | IBTimes UK (José García Montalvo, Universidade Pompeu Fabra) | 1 | 70.7 | 63.5 |  |
 | VGTimes 27/10 (PlayStation Game Size, banco da PSN) | 1 | 70.5 | 63.5 |  |
-| GTA BOOM 29/10 + comunicado de Miami-Dade | 1 | 70.2 | 63.4 |  |
+| GTA BOOM 29/10 + comunicado de Miami-Dade | 1 | 70.1 | 63.3 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 68.9 | 62.9 |  |
 | Game Informer via Dexerto 29/09 | 1 | 68.5 | 62.8 |  |
 | site oficial da Rockstar (via Push Square) | 1 | 68.6 | 62.8 |  |
-| GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo) | 1 | 68.4 | 62.8 |  |
+| GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo) | 1 | 68.1 | 62.7 |  |
 | gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download) | 1 | 67.7 | 62.5 |  |
 | The Game Business via Beebom 16/10 | 1 | 67.4 | 62.4 |  |
-| VGTimes 28/10 (concurso Virgin Media Ireland) | 1 | 67.0 | 62.3 |  |
+| VGTimes 28/10 (concurso Virgin Media Ireland) | 1 | 66.9 | 62.3 |  |
 | gringa | 1 | 66.6 | 62.2 |  |
 | Rockstar, trailer de lançamento 15/10 | 1 | 66.7 | 62.2 |  |
 | Kotaku 21/10 | 1 | 66.6 | 62.2 |  |
@@ -116,14 +116,14 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Dexerto (iGrandTheftAuto) 20/10 | 1 | 59.5 | 59.8 |  |
 | Push Square/GameRant 16/10 (posts de fãs) | 1 | 59.2 | 59.7 |  |
 | Rockstar Newswire 08/10 via endgametools/ghacks | 1 | 58.9 | 59.6 |  |
-| noticia (GTA BOOM 30/10, E11EVEN Miami) | 1 | 58.5 | 59.5 |  |
+| noticia (GTA BOOM 30/10, E11EVEN Miami) | 1 | 58.3 | 59.4 |  |
 | VGTimes 29/10 (visita da imprensa à Rockstar North, 90 min de gameplay) | 1 | 53.9 | 57.9 |  |
 | Insider Gaming / Sensor Tower (20/10) | 1 | 53.2 | 57.7 |  |
-| VGTimes 28/10 (listagem Apple Music do Grand Theft Auto VI Original Score) | 1 | 53.1 | 57.7 |  |
-| Eurogamer via comicshoplocator 16/10 | 1 | 52.2 | 57.4 |  |
+| VGTimes 28/10 (listagem Apple Music do Grand Theft Auto VI Original Score) | 1 | 52.7 | 57.5 |  |
+| Eurogamer via comicshoplocator 16/10 | 1 | 52.1 | 57.3 |  |
 | Rockstar (site oficial) | 1 | 51.6 | 57.2 |  |
 | GameSpot (22/10) | 1 | 51.4 | 57.1 |  |
-| TechRadar (Jason Schreier/Bloomberg) 20/10 | 2 | 51.1 | 55.6 |  |
+| TechRadar (Jason Schreier/Bloomberg) 20/10 | 2 | 51.1 | 55.5 |  |
 | Mezha/Gfinity 14/10 | 1 | 46.3 | 55.4 |  |
 | Rockstar (pre-load 12/11) via Khel Now/Shacknews 19/10 | 1 | 44.8 | 54.9 |  |
 | Notebookcheck 24/09 + GTAIntel (Miami-Dade) | 1 | 43.9 | 54.6 |  |
@@ -137,9 +137,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| 12h | 19 | 61.7 | 61.5 |  |
-| 21h | 16 | 61.4 | 61.3 |  |
-| 18h | 21 | 57.3 | 57.6 |  |
+| 12h | 19 | 61.6 | 61.5 |  |
+| 21h | 16 | 61.4 | 61.2 |  |
+| 18h | 21 | 57.3 | 57.5 |  |
 
 ## Reels
 
@@ -156,16 +156,16 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-27 | [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/) | corte | noticia/mercado | revelacao | 1300 | 35% | 33% | 43 | 0 | 0 | 6 | 71.0 (h72) |
 | 2026-10-22 | [De0NOukCfyi](https://www.instagram.com/reel/De0NOukCfyi/) | corte | curiosidade/economia | numero chocante | 1450 | 38.9% | 37% | 43 | 1 | 0 | 6 | 70.7 (h72) |
 | 2026-10-27 | [DfA0VzqASHS](https://www.instagram.com/reel/DfA0VzqASHS/) | corte | alerta/utilidade | numero chocante | 1485 | 38.2% | 36% | 53 | 0 | 3 | 17 | 70.5 (h72) |
-| 2026-10-31 | [DfLFD2VjsfZ](https://www.instagram.com/reel/DfLFD2VjsfZ/) | corte | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | revelacao | 1279 | 43.1% | 41% | 60 | 0 | 5 | 2 | 70.2 (provisória) |
+| 2026-10-31 | [DfLFD2VjsfZ](https://www.instagram.com/reel/DfLFD2VjsfZ/) | corte | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | revelacao | 1300 | 43.3% | 41% | 62 | 0 | 5 | 2 | 70.1 (provisória) |
 | 2026-10-13 | [DectbiBAgte](https://www.instagram.com/reel/DectbiBAgte/) | corte | gameplay | comparacao | 1329 | 38.3% | 33% | 52 | 0 | 0 | 0 | 69.2 (h24) |
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 827 | 39.7% | 31% | 26 | 0 | 3 | 4 | 68.9 (h72) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 68.6 (h72) |
 | 2026-10-20 | [DevDjNqkdcV](https://www.instagram.com/reel/DevDjNqkdcV/) | corte | gameplay | pergunta | 1220 | 44% | 36% | 48 | 0 | 0 | 4 | 68.5 (h72) |
-| 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1300 | 36.2% | 34% | 33 | 0 | 3 | 2 | 68.4 (provisória) |
+| 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1308 | 36.5% | 34% | 33 | 0 | 3 | 2 | 68.1 (provisória) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
 | 2026-10-19 | [DerhBaEAqHr](https://www.instagram.com/reel/DerhBaEAqHr/) | corte | noticias | enquete | 178 | 29.9% | 34% | 7 | 1 | 0 | 1 | 67.4 (h72) |
 | 2026-10-24 | [De4Y-b1iLlh](https://www.instagram.com/reel/De4Y-b1iLlh/) | corte | gameplay/bastidores | curiosidade | 186 | 37.7% | 43% | 7 | 0 | 0 | 1 | 67.1 (h72) |
-| 2026-10-28 | [DfDrYMklbDR](https://www.instagram.com/reel/DfDrYMklbDR/) | corte | curiosidade/dinheiro | numero chocante | 737 | 46.1% | 35% | 17 | 0 | 1 | 3 | 67.0 (h24) |
+| 2026-10-28 | [DfDrYMklbDR](https://www.instagram.com/reel/DfDrYMklbDR/) | corte | curiosidade/dinheiro | numero chocante | 739 | 46.1% | 34% | 17 | 0 | 1 | 3 | 66.9 (h72) |
 | 2026-10-15 | [DehKLJggYHT](https://www.instagram.com/reel/DehKLJggYHT/) | corte | trailer | noticia | 145 | 37.4% | 45% | 6 | 0 | 2 | 0 | 66.7 (h72) |
 | 2026-10-12 | [DeaTN8uj8pd](https://www.instagram.com/reel/DeaTN8uj8pd/) | corte | teoria | pergunta | 163 | 32.6% | 46% | 6 | 0 | 0 | 0 | 66.6 (h24) |
 | 2026-10-22 | [DezPc0kEQ0t](https://www.instagram.com/reel/DezPc0kEQ0t/) | corte | noticia/polemica | revelacao | 147 | 37% | 44% | 7 | 0 | 0 | 0 | 66.6 (h24) |
@@ -183,11 +183,11 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 59.5 (h72) |
 | 2026-10-17 | [DenVRLvAWnp](https://www.instagram.com/reel/DenVRLvAWnp/) | corte | marketing | curiosidade | 391 | 52.1% | 31% | 10 | 0 | 0 | 1 | 59.2 (h72) |
 | 2026-10-21 | [DexT2DJDFHW](https://www.instagram.com/reel/DexT2DJDFHW/) | corte | novidade oficial | revelacao | 141 | 46.1% | 26% | 9 | 0 | 1 | 2 | 58.9 (h72) |
-| 2026-10-31 | [DfKcAJ2AvuU](https://www.instagram.com/reel/DfKcAJ2AvuU/) | corte | boate NINE1NINE de verdade em Miami | revelacao | 215 | 41.6% | 33% | 7 | 0 | 0 | 0 | 58.5 (provisória) |
-| 2026-10-29 | [DfFU1DLEmP_](https://www.instagram.com/reel/DfFU1DLEmP_/) | corte | gameplay/policia | revelacao | 130 | 42.5% | 30% | 4 | 0 | 0 | 0 | 53.9 (h24) |
+| 2026-10-31 | [DfKcAJ2AvuU](https://www.instagram.com/reel/DfKcAJ2AvuU/) | corte | boate NINE1NINE de verdade em Miami | revelacao | 216 | 41.9% | 33% | 7 | 0 | 0 | 0 | 58.3 (h24) |
+| 2026-10-29 | [DfFU1DLEmP_](https://www.instagram.com/reel/DfFU1DLEmP_/) | corte | gameplay/policia | revelacao | 131 | 42.1% | 30% | 4 | 0 | 0 | 0 | 53.9 (h72) |
 | 2026-10-23 | [De2iVxUACb4](https://www.instagram.com/reel/De2iVxUACb4/) | corte | vendas/numeros | numero chocante | 117 | 57.5% | 22% | 6 | 0 | 0 | 0 | 53.2 (h72) |
-| 2026-10-28 | [DfDXVFojWfX](https://www.instagram.com/reel/DfDXVFojWfX/) | corte | musica/trilha | numero chocante | 120 | 44% | 22% | 4 | 0 | 0 | 0 | 53.1 (h24) |
-| 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 52.2 (h72) |
+| 2026-10-28 | [DfDXVFojWfX](https://www.instagram.com/reel/DfDXVFojWfX/) | corte | musica/trilha | numero chocante | 121 | 44.5% | 22% | 4 | 0 | 0 | 0 | 52.7 (h72) |
+| 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 52.1 (h72) |
 | 2026-10-16 | [DejyjUvD27e](https://www.instagram.com/reel/DejyjUvD27e/) | corte | mapa | lista | 126 | 64.3% | 25% | 5 | 0 | 0 | 0 | 51.6 (h72) |
 | 2026-10-23 | [De10O6vgais](https://www.instagram.com/reel/De10O6vgais/) | corte | marketing/mundo real | curiosidade + preço | 149 | 42.1% | 29% | 4 | 0 | 0 | 0 | 51.4 (h72) |
 | 2026-10-16 | [DekbyAanDQL](https://www.instagram.com/reel/DekbyAanDQL/) | corte | vazamentos | noticia | 188 | 41.6% | 37% | 3 | 0 | 0 | 0 | 46.3 (h24) |
@@ -201,3 +201,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 35.2 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 31.8 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 28.7 (h24) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DfNAhuBkbE8](https://www.instagram.com/reel/DfNAhuBkbE8/): 5.8 h no ar, 173 views, 41.7% pularam, 33% assistido, 2 curtidas
