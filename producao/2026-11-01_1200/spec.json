@@ -1,0 +1,42 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v58_recorde_intencao_compra.mp4",
+ "text": "Mano, GTA 6 bateu um recorde antes mesmo de sair. Uma pesquisa da Circana mostrou que 29% dos gamers dos Estados Unidos vão comprar o jogo. É a maior intenção de compra que eles já mediram pra qualquer jogo. Lembra que o chefe da Take-Two disse que todo adulto com console ia comprar GTA 6? Pois é, os números tão do lado dele. A pré-venda já passou de 5 milhões de cópias, e só no Xbox foi mais de 1 milhão. Pensa comigo: você compra no dia 19 ou espera baixar o preço? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Estados Unidos": "Estados Unidos",
+  "Take-Two": "Take-Two",
+  "5 milhões": "5 milhões",
+  "1 milhão": "1 milhão",
+  "dia 19": "dia 19"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "broll": [
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_150.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_122.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_297.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_009.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_089.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_189.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_169.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_151.mp4"
+ ],
+ "seed": 58,
+ "font": "../../assets/fonts/Anton.ttf"
+}

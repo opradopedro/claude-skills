@@ -1200,6 +1200,24 @@
    "capa_embutida": true,
    "link": "https://www.instagram.com/reel/DfLZkcpj72S/",
    "publicado_em": "2026-10-31T21:03:00-03:00"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "12:00",
+   "status": "pendente",
+   "arquivo": "radar_v58_recorde_intencao_compra.mp4",
+   "formato": "corte",
+   "tema": "Circana: 29% dos gamers de console/PC dos EUA pretendem comprar GTA 6, maior intenção de compra já medida; Zelnick ('todo adulto com console'); pré-venda 5+ mi (1+ mi no Xbox, Sensor Tower) (GTA BOOM 29/10)",
+   "capa": "Recorde antes de sair",
+   "capa_t": 0.6,
+   "capa_embutida": true,
+   "legenda": "GTA 6 bateu recorde antes mesmo de sair 📈 29% dos gamers dos EUA dizem que vão comprar o jogo\n\n📊 É a maior intenção de compra que a Circana já mediu pra qualquer jogo\n🎮 O chefe da Take-Two disse que todo adulto com console ia comprar GTA 6, e os números tão do lado dele\n💰 A pré-venda já passou de 5 milhões de cópias, mais de 1 milhão só no Xbox (estimativa da Sensor Tower)\n\nVocê compra no dia 19 ou espera baixar o preço? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\n📰 Fonte: Circana (Mat Piscatella), via GTA BOOM (29/10)\n\n#gta6 #gtavi #rockstargames #ps5 #xbox",
+   "ficha": {
+    "formato": "corte",
+    "tema": "recorde de intenção de compra (Circana)",
+    "gancho": "pergunta",
+    "origem": "GTA BOOM 29/10 (Circana)"
+   }
   }
  ]
 }
