@@ -1,0 +1,1196 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v61_milionario_economia.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+   "start": 0.0,
+   "end": 1.851,
+   "layout": "full",
+   "cx": 0.301,
+   "pan": 1,
+   "ss": 1.12
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+   "start": 1.851,
+   "end": 3.833,
+   "layout": "full",
+   "cx": 0.606,
+   "pan": -1,
+   "ss": 0.61
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 3.833,
+   "end": 5.374,
+   "layout": "full",
+   "cx": 0.182,
+   "pan": 1,
+   "ss": 0.5
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_009.mp4",
+   "start": 5.374,
+   "end": 6.855,
+   "layout": "full",
+   "cx": 0.342,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+   "start": 6.855,
+   "end": 8.917,
+   "layout": "full",
+   "cx": 0.495,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+   "start": 8.917,
+   "end": 11.099,
+   "layout": "full",
+   "cx": 0.443,
+   "pan": -1,
+   "ss": 0.03
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 11.099,
+   "end": 12.76,
+   "layout": "full",
+   "cx": 0.498,
+   "pan": 1,
+   "ss": 1.54
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_189.mp4",
+   "start": 12.76,
+   "end": 14.401,
+   "layout": "full",
+   "cx": 0.66,
+   "pan": -1,
+   "ss": 0.75
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+   "start": 14.401,
+   "end": 16.383,
+   "layout": "full",
+   "cx": 0.676,
+   "pan": 1,
+   "ss": 0.27
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+   "start": 16.383,
+   "end": 18.304,
+   "layout": "full",
+   "cx": 0.955,
+   "pan": -1,
+   "ss": 0.28
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+   "start": 18.304,
+   "end": 20.066,
+   "layout": "full",
+   "cx": 0.326,
+   "pan": 1,
+   "ss": 2.1
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+   "start": 20.066,
+   "end": 22.007,
+   "layout": "full",
+   "cx": 0.706,
+   "pan": -1,
+   "ss": 0.58
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+   "start": 22.007,
+   "end": 23.769,
+   "layout": "full",
+   "cx": 0.301,
+   "pan": 1,
+   "ss": 1.63
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+   "start": 23.769,
+   "end": 25.67,
+   "layout": "full",
+   "cx": 0.647,
+   "pan": -1,
+   "ss": 0.36
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_122.mp4",
+   "start": 25.67,
+   "end": 27.211,
+   "layout": "full",
+   "cx": 0.425,
+   "pan": 1,
+   "ss": 0.61
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_100.mp4",
+   "start": 27.211,
+   "end": 29.653,
+   "layout": "full",
+   "cx": 0.286,
+   "pan": -1,
+   "ss": 0.19
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_151.mp4",
+   "start": 29.653,
+   "end": 31.014,
+   "layout": "full",
+   "cx": 0.701,
+   "pan": 1,
+   "ss": 0.92
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+   "start": 31.014,
+   "end": 32.796,
+   "layout": "full",
+   "cx": 0.519,
+   "pan": -1,
+   "ss": 0.82
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+   "start": 32.796,
+   "end": 34.837,
+   "layout": "full",
+   "cx": 0.722,
+   "pan": 1,
+   "ss": 1.82
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_169.mp4",
+   "start": 34.837,
+   "end": 36.459,
+   "layout": "full",
+   "cx": 0.587,
+   "pan": -1,
+   "ss": 0.25
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+   "start": 36.459,
+   "end": 37.98,
+   "layout": "full",
+   "cx": 0.242,
+   "pan": 1,
+   "ss": 0.03
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+   "start": 37.98,
+   "end": 39.808,
+   "layout": "full",
+   "cx": 0.698,
+   "pan": -1,
+   "ss": 1.27
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.03,
+   "end": 1.231,
+   "text": "UM MILIONÁRIO FEZ",
+   "hl": false,
+   "w": [
+    0.03,
+    0.19,
+    0.951
+   ]
+  },
+  {
+   "start": 1.231,
+   "end": 1.851,
+   "text": "A CONTA E",
+   "hl": false,
+   "w": [
+    1.231,
+    1.351,
+    1.731
+   ]
+  },
+  {
+   "start": 1.851,
+   "end": 3.132,
+   "text": "DIZ QUE GTA 6",
+   "hl": true,
+   "w": [
+    1.851,
+    2.152,
+    2.352,
+    2.352
+   ]
+  },
+  {
+   "start": 3.132,
+   "end": 3.833,
+   "text": "VAI TE FAZER",
+   "hl": false,
+   "w": [
+    3.132,
+    3.313,
+    3.473
+   ]
+  },
+  {
+   "start": 3.833,
+   "end": 5.374,
+   "text": "ECONOMIZAR QUASE CINCO",
+   "hl": false,
+   "w": [
+    3.833,
+    4.494,
+    4.974
+   ]
+  },
+  {
+   "start": 5.374,
+   "end": 6.475,
+   "text": "MIL DÓLARES",
+   "hl": false,
+   "w": [
+    5.374,
+    5.614
+   ]
+  },
+  {
+   "start": 6.475,
+   "end": 6.855,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    6.475
+   ]
+  },
+  {
+   "start": 6.855,
+   "end": 7.896,
+   "text": "PENSA COMIGO",
+   "hl": false,
+   "w": [
+    6.855,
+    7.176
+   ]
+  },
+  {
+   "start": 7.896,
+   "end": 8.917,
+   "text": "O MARK TILBURY",
+   "hl": false,
+   "w": [
+    7.896,
+    7.976,
+    7.976
+   ]
+  },
+  {
+   "start": 8.917,
+   "end": 9.758,
+   "text": "AQUELE MILIONÁRIO",
+   "hl": false,
+   "w": [
+    8.917,
+    9.217
+   ]
+  },
+  {
+   "start": 9.758,
+   "end": 11.099,
+   "text": "BRITÂNICO DAS REDES",
+   "hl": false,
+   "w": [
+    9.758,
+    10.298,
+    10.498
+   ]
+  },
+  {
+   "start": 11.099,
+   "end": 11.859,
+   "text": "PEGOU O JOGO",
+   "hl": false,
+   "w": [
+    11.099,
+    11.439,
+    11.519
+   ]
+  },
+  {
+   "start": 11.859,
+   "end": 12.76,
+   "text": "NUMA LOJA E",
+   "hl": false,
+   "w": [
+    11.859,
+    12.14,
+    12.64
+   ]
+  },
+  {
+   "start": 12.76,
+   "end": 14.401,
+   "text": "SOLTOU A MATEMÁTICA",
+   "hl": false,
+   "w": [
+    12.76,
+    13.18,
+    13.24
+   ]
+  },
+  {
+   "start": 14.401,
+   "end": 15.182,
+   "text": "CEM DÓLARES NA",
+   "hl": false,
+   "w": [
+    14.401,
+    14.621,
+    15.062
+   ]
+  },
+  {
+   "start": 15.182,
+   "end": 16.383,
+   "text": "EDIÇÃO MAIS CARA",
+   "hl": false,
+   "w": [
+    15.182,
+    15.562,
+    15.822
+   ]
+  },
+  {
+   "start": 16.383,
+   "end": 17.384,
+   "text": "E UMAS DUZENTAS",
+   "hl": false,
+   "w": [
+    16.383,
+    16.483,
+    16.723
+   ]
+  },
+  {
+   "start": 17.384,
+   "end": 18.304,
+   "text": "HORAS DE JOGO",
+   "hl": false,
+   "w": [
+    17.384,
+    17.644,
+    17.784
+   ]
+  },
+  {
+   "start": 18.304,
+   "end": 20.066,
+   "text": "CONTANDO MISSÃO SECUNDÁRIA",
+   "hl": false,
+   "w": [
+    18.304,
+    18.785,
+    19.125
+   ]
+  },
+  {
+   "start": 20.066,
+   "end": 21.227,
+   "text": "DÁ CINQUENTA CENTAVOS",
+   "hl": false,
+   "w": [
+    20.066,
+    20.226,
+    20.726
+   ]
+  },
+  {
+   "start": 21.227,
+   "end": 22.007,
+   "text": "POR HORA",
+   "hl": false,
+   "w": [
+    21.227,
+    21.387
+   ]
+  },
+  {
+   "start": 22.007,
+   "end": 23.048,
+   "text": "JOGANDO QUATRO HORAS",
+   "hl": false,
+   "w": [
+    22.007,
+    22.448,
+    22.768
+   ]
+  },
+  {
+   "start": 23.048,
+   "end": 23.769,
+   "text": "POR NOITE",
+   "hl": false,
+   "w": [
+    23.048,
+    23.208
+   ]
+  },
+  {
+   "start": 23.769,
+   "end": 24.89,
+   "text": "SÃO CINQUENTA NOITES",
+   "hl": false,
+   "w": [
+    23.769,
+    23.969,
+    24.549
+   ]
+  },
+  {
+   "start": 24.89,
+   "end": 25.67,
+   "text": "EM CASA",
+   "hl": false,
+   "w": [
+    24.89,
+    24.99
+   ]
+  },
+  {
+   "start": 25.67,
+   "end": 26.371,
+   "text": "E CADA ROLÊ",
+   "hl": false,
+   "w": [
+    25.67,
+    25.77,
+    26.05
+   ]
+  },
+  {
+   "start": 26.371,
+   "end": 27.211,
+   "text": "NA RUA SAI",
+   "hl": false,
+   "w": [
+    26.371,
+    26.551,
+    26.991
+   ]
+  },
+  {
+   "start": 27.211,
+   "end": 28.432,
+   "text": "UNS CEM DÓLARES",
+   "hl": false,
+   "w": [
+    27.211,
+    27.371,
+    27.572
+   ]
+  },
+  {
+   "start": 28.432,
+   "end": 29.653,
+   "text": "CINQUENTA ROLÊS",
+   "hl": false,
+   "w": [
+    28.432,
+    28.953
+   ]
+  },
+  {
+   "start": 29.653,
+   "end": 30.694,
+   "text": "CINCO MIL",
+   "hl": false,
+   "w": [
+    29.653,
+    29.974
+   ]
+  },
+  {
+   "start": 30.694,
+   "end": 31.014,
+   "text": "SÓ QUE A",
+   "hl": false,
+   "w": [
+    30.694,
+    30.834,
+    30.934
+   ]
+  },
+  {
+   "start": 31.014,
+   "end": 32.115,
+   "text": "CONTA SÓ FECHA",
+   "hl": false,
+   "w": [
+    31.014,
+    31.455,
+    31.675
+   ]
+  },
+  {
+   "start": 32.115,
+   "end": 32.796,
+   "text": "SE VOCÊ IA",
+   "hl": false,
+   "w": [
+    32.115,
+    32.235,
+    32.596
+   ]
+  },
+  {
+   "start": 32.796,
+   "end": 33.456,
+   "text": "SAIR MESMO",
+   "hl": false,
+   "w": [
+    32.796,
+    33.096
+   ]
+  },
+  {
+   "start": 33.456,
+   "end": 34.037,
+   "text": "NÉ?",
+   "hl": false,
+   "w": [
+    33.456
+   ]
+  },
+  {
+   "start": 34.037,
+   "end": 34.837,
+   "text": "VOCÊ TROCARIA O",
+   "hl": false,
+   "w": [
+    34.037,
+    34.297,
+    34.777
+   ]
+  },
+  {
+   "start": 34.837,
+   "end": 36.459,
+   "text": "ROLÊ PELO GTA 6?",
+   "hl": true,
+   "w": [
+    34.837,
+    35.178,
+    35.398,
+    35.398
+   ]
+  },
+  {
+   "start": 36.459,
+   "end": 36.999,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    36.459,
+    36.699,
+    36.839
+   ]
+  },
+  {
+   "start": 36.999,
+   "end": 37.98,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    36.999,
+    37.139,
+    37.439,
+    37.439
+   ]
+  },
+  {
+   "start": 37.98,
+   "end": 38.72,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    37.98,
+    38.1,
+    38.58
+   ]
+  },
+  {
+   "start": 38.72,
+   "end": 39.331,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    38.72,
+    38.981,
+    39.021
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Um",
+   "falado": "Um",
+   "tela": 0.03
+  },
+  {
+   "txt": "milionário",
+   "falado": "milionário",
+   "tela": 0.19
+  },
+  {
+   "txt": "fez",
+   "falado": "fez",
+   "tela": 0.951
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 1.231
+  },
+  {
+   "txt": "conta",
+   "falado": "conta",
+   "tela": 1.351
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 1.731
+  },
+  {
+   "txt": "diz",
+   "falado": "diz",
+   "tela": 1.851
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 2.152
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 2.352
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 3.132
+  },
+  {
+   "txt": "te",
+   "falado": "te",
+   "tela": 3.313
+  },
+  {
+   "txt": "fazer",
+   "falado": "fazer",
+   "tela": 3.473
+  },
+  {
+   "txt": "economizar",
+   "falado": "economizar",
+   "tela": 3.833
+  },
+  {
+   "txt": "quase",
+   "falado": "quase",
+   "tela": 4.494
+  },
+  {
+   "txt": "cinco",
+   "falado": "cinco",
+   "tela": 4.974
+  },
+  {
+   "txt": "mil",
+   "falado": "mil",
+   "tela": 5.374
+  },
+  {
+   "txt": "dólares.",
+   "falado": "dólares",
+   "tela": 5.614
+  },
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 6.475
+  },
+  {
+   "txt": "pensa",
+   "falado": "pensa",
+   "tela": 6.855
+  },
+  {
+   "txt": "comigo.",
+   "falado": "comigo",
+   "tela": 7.176
+  },
+  {
+   "txt": "O",
+   "falado": "O",
+   "tela": 7.896
+  },
+  {
+   "txt": "Mark Tilbury,",
+   "falado": "Mark Tilbury",
+   "tela": 7.976
+  },
+  {
+   "txt": "aquele",
+   "falado": "aquele",
+   "tela": 8.917
+  },
+  {
+   "txt": "milionário",
+   "falado": "milionário",
+   "tela": 9.217
+  },
+  {
+   "txt": "britânico",
+   "falado": "britânico",
+   "tela": 9.758
+  },
+  {
+   "txt": "das",
+   "falado": "das",
+   "tela": 10.298
+  },
+  {
+   "txt": "redes,",
+   "falado": "redes",
+   "tela": 10.498
+  },
+  {
+   "txt": "pegou",
+   "falado": "pegou",
+   "tela": 11.099
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 11.439
+  },
+  {
+   "txt": "jogo",
+   "falado": "jogo",
+   "tela": 11.519
+  },
+  {
+   "txt": "numa",
+   "falado": "numa",
+   "tela": 11.859
+  },
+  {
+   "txt": "loja",
+   "falado": "loja",
+   "tela": 12.14
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 12.64
+  },
+  {
+   "txt": "soltou",
+   "falado": "soltou",
+   "tela": 12.76
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 13.18
+  },
+  {
+   "txt": "matemática:",
+   "falado": "matemática",
+   "tela": 13.24
+  },
+  {
+   "txt": "cem",
+   "falado": "cem",
+   "tela": 14.401
+  },
+  {
+   "txt": "dólares",
+   "falado": "dólares",
+   "tela": 14.621
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 15.062
+  },
+  {
+   "txt": "edição",
+   "falado": "edição",
+   "tela": 15.182
+  },
+  {
+   "txt": "mais",
+   "falado": "mais",
+   "tela": 15.562
+  },
+  {
+   "txt": "cara",
+   "falado": "cara",
+   "tela": 15.822
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 16.383
+  },
+  {
+   "txt": "umas",
+   "falado": "umas",
+   "tela": 16.483
+  },
+  {
+   "txt": "duzentas",
+   "falado": "duzentas",
+   "tela": 16.723
+  },
+  {
+   "txt": "horas",
+   "falado": "horas",
+   "tela": 17.384
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 17.644
+  },
+  {
+   "txt": "jogo,",
+   "falado": "jogo",
+   "tela": 17.784
+  },
+  {
+   "txt": "contando",
+   "falado": "contando",
+   "tela": 18.304
+  },
+  {
+   "txt": "missão",
+   "falado": "missão",
+   "tela": 18.785
+  },
+  {
+   "txt": "secundária.",
+   "falado": "secundária",
+   "tela": 19.125
+  },
+  {
+   "txt": "Dá",
+   "falado": "Dá",
+   "tela": 20.066
+  },
+  {
+   "txt": "cinquenta",
+   "falado": "cinquenta",
+   "tela": 20.226
+  },
+  {
+   "txt": "centavos",
+   "falado": "centavos",
+   "tela": 20.726
+  },
+  {
+   "txt": "por",
+   "falado": "por",
+   "tela": 21.227
+  },
+  {
+   "txt": "hora.",
+   "falado": "hora",
+   "tela": 21.387
+  },
+  {
+   "txt": "Jogando",
+   "falado": "Jogando",
+   "tela": 22.007
+  },
+  {
+   "txt": "quatro",
+   "falado": "quatro",
+   "tela": 22.448
+  },
+  {
+   "txt": "horas",
+   "falado": "horas",
+   "tela": 22.768
+  },
+  {
+   "txt": "por",
+   "falado": "por",
+   "tela": 23.048
+  },
+  {
+   "txt": "noite,",
+   "falado": "noite",
+   "tela": 23.208
+  },
+  {
+   "txt": "são",
+   "falado": "são",
+   "tela": 23.769
+  },
+  {
+   "txt": "cinquenta",
+   "falado": "cinquenta",
+   "tela": 23.969
+  },
+  {
+   "txt": "noites",
+   "falado": "noites",
+   "tela": 24.549
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 24.89
+  },
+  {
+   "txt": "casa.",
+   "falado": "casa",
+   "tela": 24.99
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 25.67
+  },
+  {
+   "txt": "cada",
+   "falado": "cada",
+   "tela": 25.77
+  },
+  {
+   "txt": "rolê",
+   "falado": "rolê",
+   "tela": 26.05
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 26.371
+  },
+  {
+   "txt": "rua",
+   "falado": "rua",
+   "tela": 26.551
+  },
+  {
+   "txt": "sai",
+   "falado": "sai",
+   "tela": 26.991
+  },
+  {
+   "txt": "uns",
+   "falado": "uns",
+   "tela": 27.211
+  },
+  {
+   "txt": "cem",
+   "falado": "cem",
+   "tela": 27.371
+  },
+  {
+   "txt": "dólares.",
+   "falado": "dólares",
+   "tela": 27.572
+  },
+  {
+   "txt": "Cinquenta",
+   "falado": "Cinquenta",
+   "tela": 28.432
+  },
+  {
+   "txt": "rolês,",
+   "falado": "rolês",
+   "tela": 28.953
+  },
+  {
+   "txt": "cinco",
+   "falado": "cinco",
+   "tela": 29.653
+  },
+  {
+   "txt": "mil.",
+   "falado": "mil",
+   "tela": 29.974
+  },
+  {
+   "txt": "Só",
+   "falado": "Só",
+   "tela": 30.694
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 30.834
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 30.934
+  },
+  {
+   "txt": "conta",
+   "falado": "conta",
+   "tela": 31.014
+  },
+  {
+   "txt": "só",
+   "falado": "só",
+   "tela": 31.455
+  },
+  {
+   "txt": "fecha",
+   "falado": "fecha",
+   "tela": 31.675
+  },
+  {
+   "txt": "se",
+   "falado": "se",
+   "tela": 32.115
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 32.235
+  },
+  {
+   "txt": "ia",
+   "falado": "ia",
+   "tela": 32.596
+  },
+  {
+   "txt": "sair",
+   "falado": "sair",
+   "tela": 32.796
+  },
+  {
+   "txt": "mesmo,",
+   "falado": "mesmo",
+   "tela": 33.096
+  },
+  {
+   "txt": "né?",
+   "falado": "né",
+   "tela": 33.456
+  },
+  {
+   "txt": "Você",
+   "falado": "Você",
+   "tela": 34.037
+  },
+  {
+   "txt": "trocaria",
+   "falado": "trocaria",
+   "tela": 34.297
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 34.777
+  },
+  {
+   "txt": "rolê",
+   "falado": "rolê",
+   "tela": 34.837
+  },
+  {
+   "txt": "pelo",
+   "falado": "pelo",
+   "tela": 35.178
+  },
+  {
+   "txt": "GTA 6?",
+   "falado": "ge te a seis",
+   "tela": 35.398
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 36.459
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 36.699
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 36.839
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 36.999
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 37.139
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 37.439
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 37.98
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 38.1
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 38.58
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 38.72
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 38.981
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 39.021
+  }
+ ]
+}

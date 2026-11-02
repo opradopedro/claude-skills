@@ -1,0 +1,38 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v61_milionario_economia.mp4",
+ "text": "Um milionário fez a conta e diz que GTA 6 vai te fazer economizar quase cinco mil dólares. Mano, pensa comigo. O Mark Tilbury, aquele milionário britânico das redes, pegou o jogo numa loja e soltou a matemática: cem dólares na edição mais cara e umas duzentas horas de jogo, contando missão secundária. Dá cinquenta centavos por hora. Jogando quatro horas por noite, são cinquenta noites em casa. E cada rolê na rua sai uns cem dólares. Cinquenta rolês, cinco mil. Só que a conta só fecha se você ia sair mesmo, né? Você trocaria o rolê pelo GTA 6? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Mark Tilbury": "Mark Tilbury"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "broll": [
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_009.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_189.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_122.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_100.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_151.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_169.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_089.mp4",
+  "/home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_297.mp4"
+ ],
+ "seed": 61,
+ "font": "../../assets/fonts/Anton.ttf"
+}
