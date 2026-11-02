@@ -2135,12 +2135,12 @@
    "commentCount": 0,
    "shares": 3,
    "saves": 5,
-   "avgWatchTimeMs": 16356,
-   "avgWatchedPct": 40.89,
-   "skipRate": 43.4,
-   "durationSeconds": null,
-   "coletado": "2026-11-02T15:36Z",
-   "horas": 42.5
+   "avgWatchTimeMs": 16346,
+   "avgWatchedPct": 40.865,
+   "skipRate": 43.5,
+   "durationSeconds": 40,
+   "coletado": "2026-11-02T20:54Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 1314,
@@ -2160,17 +2160,17 @@
   "publicado": "2026-11-01T00:03:24.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1318,
+   "playCount": 1320,
    "likeCount": 34,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 14016,
-   "avgWatchedPct": 33.37,
+   "avgWatchTimeMs": 14005,
+   "avgWatchedPct": 33.345,
    "skipRate": 37,
-   "durationSeconds": null,
-   "coletado": "2026-11-02T15:36Z",
-   "horas": 39.6
+   "durationSeconds": 42,
+   "coletado": "2026-11-02T20:54Z",
+   "horas": 44.8
   },
   "h24": {
    "playCount": 1318,
@@ -2196,11 +2196,11 @@
    "shares": 12,
    "saves": 0,
    "avgWatchTimeMs": 10441,
-   "avgWatchedPct": 32.63,
+   "avgWatchedPct": 32.628,
    "skipRate": 41.9,
-   "durationSeconds": null,
-   "coletado": "2026-11-02T15:36Z",
-   "horas": 24.6
+   "durationSeconds": 32,
+   "coletado": "2026-11-02T20:54Z",
+   "horas": 29.9
   },
   "h24": {
    "playCount": 179,
@@ -2226,28 +2226,45 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 8506,
-   "avgWatchedPct": 22.99,
+   "avgWatchedPct": 22.989,
    "skipRate": 65.5,
-   "durationSeconds": null,
-   "coletado": "2026-11-02T15:36Z",
-   "horas": 18.6
+   "durationSeconds": 37,
+   "coletado": "2026-11-02T20:54Z",
+   "horas": 23.9
   }
  },
  "DfN-d34Eow-": {
   "publicado": "2026-11-02T00:04:15.000Z",
   "legenda": "GTA 6 pode perder o Jogo do Ano",
   "atual": {
-   "playCount": 1267,
+   "playCount": 1268,
    "likeCount": 51,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 16483,
-   "avgWatchedPct": 44.55,
-   "skipRate": 35.5,
-   "durationSeconds": null,
-   "coletado": "2026-11-02T15:36Z",
-   "horas": 15.5
+   "avgWatchTimeMs": 16468,
+   "avgWatchedPct": 44.508,
+   "skipRate": 35.6,
+   "durationSeconds": 37,
+   "coletado": "2026-11-02T20:54Z",
+   "horas": 20.8
+  }
+ },
+ "DfPqb20ASNX": {
+  "publicado": "2026-11-02T15:47:50.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 91,
+   "likeCount": 3,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 15134,
+   "avgWatchedPct": 38.805,
+   "skipRate": 33.3,
+   "durationSeconds": 39,
+   "coletado": "2026-11-02T20:54Z",
+   "horas": 5.1
   }
  }
 }

@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 02/11/2026 12:36 (Brasília) com 59 Reels com nota. Média geral: 60.1/100.
+Atualizado em 02/11/2026 17:54 (Brasília) com 59 Reels com nota. Média geral: 60.1/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -154,7 +154,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
 | 2026-10-17 | [DemXZASj3oQ](https://www.instagram.com/reel/DemXZASj3oQ/) | corte | bastidores | noticia | 1463 | 31.3% | 48% | 52 | 0 | 2 | 1 | 76.0 (h72) |
-| 2026-11-01 | [DfN-d34Eow-](https://www.instagram.com/reel/DfN-d34Eow-/) | corte | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | GTA 6 pode perder o Jogo do Ano | 1267 | 35.5% | 45% | 51 | 0 | 1 | 0 | 73.7 (provisória) |
+| 2026-11-01 | [DfN-d34Eow-](https://www.instagram.com/reel/DfN-d34Eow-/) | corte | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | GTA 6 pode perder o Jogo do Ano | 1268 | 35.6% | 45% | 51 | 0 | 1 | 0 | 73.7 (provisória) |
 | 2026-10-17 | [DenAhZZCOCA](https://www.instagram.com/reel/DenAhZZCOCA/) | corte | premiacao | enquete | 1871 | 36.9% | 44% | 49 | 0 | 3 | 15 | 73.2 (h72) |
 | 2026-10-12 | [DeZjgTSD3Aw](https://www.instagram.com/reel/DeZjgTSD3Aw/) | corte | preco_compra | comparacao | 1237 | 35.7% | 42% | 44 | 0 | 2 | 1 | 72.9 (h24) |
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
@@ -211,3 +211,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 35.4 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 32.1 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 28.9 (h24) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DfPqb20ASNX](https://www.instagram.com/reel/DfPqb20ASNX/): 5.1 h no ar, 91 views, 33.3% pularam, 39% assistido, 3 curtidas
