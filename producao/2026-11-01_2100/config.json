@@ -1,0 +1,1099 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v60_jogo_do_ano.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_151.mp4",
+   "start": 0.0,
+   "end": 1.952,
+   "layout": "full",
+   "cx": 0.642,
+   "pan": 1,
+   "ss": 1.11
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_124.mp4",
+   "start": 1.952,
+   "end": 3.674,
+   "layout": "full",
+   "cx": 0.287,
+   "pan": -1,
+   "ss": 1.76
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+   "start": 3.674,
+   "end": 4.996,
+   "layout": "full",
+   "cx": 0.676,
+   "pan": 1,
+   "ss": 0.85
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_202.mp4",
+   "start": 4.996,
+   "end": 6.517,
+   "layout": "full",
+   "cx": 0.545,
+   "pan": -1,
+   "ss": 1.89
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+   "start": 6.517,
+   "end": 8.239,
+   "layout": "full",
+   "cx": 0.493,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_089.mp4",
+   "start": 8.239,
+   "end": 10.241,
+   "layout": "full",
+   "cx": 0.255,
+   "pan": -1,
+   "ss": 0.16
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+   "start": 10.241,
+   "end": 11.823,
+   "layout": "full",
+   "cx": 0.237,
+   "pan": 1,
+   "ss": 0.33
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_258.mp4",
+   "start": 11.823,
+   "end": 13.605,
+   "layout": "full",
+   "cx": 0.074,
+   "pan": -1,
+   "ss": 1.67
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 13.605,
+   "end": 14.926,
+   "layout": "full",
+   "cx": 0.228,
+   "pan": 1,
+   "ss": 0.29
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_226.mp4",
+   "start": 14.926,
+   "end": 16.548,
+   "layout": "full",
+   "cx": 0.716,
+   "pan": -1,
+   "ss": 1.51
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_169.mp4",
+   "start": 16.548,
+   "end": 18.45,
+   "layout": "full",
+   "cx": 0.594,
+   "pan": 1,
+   "ss": 1.11
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_009.mp4",
+   "start": 18.45,
+   "end": 20.533,
+   "layout": "full",
+   "cx": 0.346,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_097.mp4",
+   "start": 20.533,
+   "end": 23.276,
+   "layout": "full",
+   "cx": 0.308,
+   "pan": 1,
+   "ss": 0.34
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_388.mp4",
+   "start": 23.276,
+   "end": 24.717,
+   "layout": "full",
+   "cx": 0.95,
+   "pan": -1,
+   "ss": 0.81
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_205.mp4",
+   "start": 24.717,
+   "end": 26.539,
+   "layout": "full",
+   "cx": 0.658,
+   "pan": 1,
+   "ss": 0.5
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_297.mp4",
+   "start": 26.539,
+   "end": 28.702,
+   "layout": "full",
+   "cx": 0.677,
+   "pan": -1,
+   "ss": 1.23
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_008.mp4",
+   "start": 28.702,
+   "end": 31.184,
+   "layout": "full",
+   "cx": 0.438,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_144.mp4",
+   "start": 31.184,
+   "end": 32.626,
+   "layout": "full",
+   "cx": 0.694,
+   "pan": -1,
+   "ss": 0.49
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_189.mp4",
+   "start": 32.626,
+   "end": 34.468,
+   "layout": "full",
+   "cx": 0.66,
+   "pan": 1,
+   "ss": 0.4
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+   "start": 34.468,
+   "end": 35.95,
+   "layout": "full",
+   "cx": 0.468,
+   "pan": -1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+   "start": 35.95,
+   "end": 37.912,
+   "layout": "full",
+   "cx": 0.667,
+   "pan": 1,
+   "ss": 0.28
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.05,
+   "end": 0.531,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.05
+   ]
+  },
+  {
+   "start": 0.531,
+   "end": 1.952,
+   "text": "GTA 6 PODE PERDER",
+   "hl": true,
+   "w": [
+    0.531,
+    0.531,
+    1.251,
+    1.532
+   ]
+  },
+  {
+   "start": 1.952,
+   "end": 3.013,
+   "text": "O JOGO DO ANO",
+   "hl": false,
+   "w": [
+    1.952,
+    2.072,
+    2.072,
+    2.072
+   ]
+  },
+  {
+   "start": 3.013,
+   "end": 3.674,
+   "text": "E O CULPADO",
+   "hl": false,
+   "w": [
+    3.013,
+    3.113,
+    3.174
+   ]
+  },
+  {
+   "start": 3.674,
+   "end": 4.996,
+   "text": "É O CALENDÁRIO",
+   "hl": false,
+   "w": [
+    3.674,
+    3.754,
+    3.854
+   ]
+  },
+  {
+   "start": 4.996,
+   "end": 5.856,
+   "text": "O THE GAME AWARDS",
+   "hl": false,
+   "w": [
+    4.996,
+    5.056,
+    5.056,
+    5.056
+   ]
+  },
+  {
+   "start": 5.856,
+   "end": 6.517,
+   "text": "É DIA 10",
+   "hl": true,
+   "w": [
+    5.856,
+    5.957,
+    6.237
+   ]
+  },
+  {
+   "start": 6.517,
+   "end": 7.418,
+   "text": "DE DEZEMBRO",
+   "hl": false,
+   "w": [
+    6.517,
+    6.637
+   ]
+  },
+  {
+   "start": 7.418,
+   "end": 8.239,
+   "text": "MAS OS JURADOS",
+   "hl": false,
+   "w": [
+    7.418,
+    7.658,
+    7.759
+   ]
+  },
+  {
+   "start": 8.239,
+   "end": 9.28,
+   "text": "VOTAM AS INDICAÇÕES",
+   "hl": false,
+   "w": [
+    8.239,
+    8.539,
+    8.66
+   ]
+  },
+  {
+   "start": 9.28,
+   "end": 10.241,
+   "text": "EM NOVEMBRO",
+   "hl": false,
+   "w": [
+    9.28,
+    9.4
+   ]
+  },
+  {
+   "start": 10.241,
+   "end": 11.363,
+   "text": "QUASE TUDO ANTES",
+   "hl": false,
+   "w": [
+    10.241,
+    10.662,
+    11.062
+   ]
+  },
+  {
+   "start": 11.363,
+   "end": 11.823,
+   "text": "DE DAR PRA",
+   "hl": false,
+   "w": [
+    11.363,
+    11.503,
+    11.643
+   ]
+  },
+  {
+   "start": 11.823,
+   "end": 12.964,
+   "text": "JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    11.823,
+    12.103,
+    12.103
+   ]
+  },
+  {
+   "start": 12.964,
+   "end": 13.605,
+   "text": "QUE SÓ SAI",
+   "hl": false,
+   "w": [
+    12.964,
+    13.145,
+    13.385
+   ]
+  },
+  {
+   "start": 13.605,
+   "end": 14.926,
+   "text": "DIA 19",
+   "hl": true,
+   "w": [
+    13.605,
+    13.805
+   ]
+  },
+  {
+   "start": 14.926,
+   "end": 15.567,
+   "text": "O JOGO ENTRA",
+   "hl": false,
+   "w": [
+    14.926,
+    15.007,
+    15.327
+   ]
+  },
+  {
+   "start": 15.567,
+   "end": 16.548,
+   "text": "NA DISPUTA POR",
+   "hl": false,
+   "w": [
+    15.567,
+    15.667,
+    16.168
+   ]
+  },
+  {
+   "start": 16.548,
+   "end": 17.589,
+   "text": "UM DIA",
+   "hl": false,
+   "w": [
+    16.548,
+    16.889
+   ]
+  },
+  {
+   "start": 17.589,
+   "end": 18.45,
+   "text": "E A CONCORRÊNCIA",
+   "hl": false,
+   "w": [
+    17.589,
+    17.71,
+    17.79
+   ]
+  },
+  {
+   "start": 18.45,
+   "end": 19.451,
+   "text": "TÁ PESADA",
+   "hl": false,
+   "w": [
+    18.45,
+    18.611
+   ]
+  },
+  {
+   "start": 19.451,
+   "end": 20.533,
+   "text": "HADES 2 COM NOTA",
+   "hl": true,
+   "w": [
+    19.451,
+    19.451,
+    20.092,
+    20.272
+   ]
+  },
+  {
+   "start": 20.533,
+   "end": 21.794,
+   "text": "94",
+   "hl": true,
+   "w": [
+    20.533
+   ]
+  },
+  {
+   "start": 21.794,
+   "end": 23.276,
+   "text": "RESIDENT EVIL REQUIEM E",
+   "hl": false,
+   "w": [
+    21.794,
+    21.794,
+    21.794,
+    23.136
+   ]
+  },
+  {
+   "start": 23.276,
+   "end": 24.717,
+   "text": "CRIMSON DESERT CORRENDO",
+   "hl": false,
+   "w": [
+    23.276,
+    23.276,
+    24.257
+   ]
+  },
+  {
+   "start": 24.717,
+   "end": 25.638,
+   "text": "POR FORA",
+   "hl": false,
+   "w": [
+    24.717,
+    24.897
+   ]
+  },
+  {
+   "start": 25.638,
+   "end": 26.539,
+   "text": "PENSA COMIGO",
+   "hl": false,
+   "w": [
+    25.638,
+    25.919
+   ]
+  },
+  {
+   "start": 26.539,
+   "end": 27.701,
+   "text": "ATÉ O GTA 5",
+   "hl": true,
+   "w": [
+    26.539,
+    26.78,
+    26.84,
+    26.84
+   ]
+  },
+  {
+   "start": 27.701,
+   "end": 28.702,
+   "text": "PERDEU JOGO DO ANO",
+   "hl": false,
+   "w": [
+    27.701,
+    28.081,
+    28.081,
+    28.081
+   ]
+  },
+  {
+   "start": 28.702,
+   "end": 29.683,
+   "text": "PRO THE LAST OF US",
+   "hl": false,
+   "w": [
+    28.702,
+    28.862,
+    28.862,
+    28.862,
+    28.862
+   ]
+  },
+  {
+   "start": 29.683,
+   "end": 31.184,
+   "text": "EM PREMIAÇÕES GRANDES",
+   "hl": false,
+   "w": [
+    29.683,
+    29.783,
+    30.323
+   ]
+  },
+  {
+   "start": 31.184,
+   "end": 32.626,
+   "text": "GTA 6 MERECE LEVAR",
+   "hl": true,
+   "w": [
+    31.184,
+    31.184,
+    31.805,
+    32.246
+   ]
+  },
+  {
+   "start": 32.626,
+   "end": 33.467,
+   "text": "MESMO CHEGANDO EM",
+   "hl": false,
+   "w": [
+    32.626,
+    32.966,
+    33.347
+   ]
+  },
+  {
+   "start": 33.467,
+   "end": 34.468,
+   "text": "CIMA DA HORA?",
+   "hl": false,
+   "w": [
+    33.467,
+    33.687,
+    33.807
+   ]
+  },
+  {
+   "start": 34.468,
+   "end": 35.029,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    34.468,
+    34.728,
+    34.868
+   ]
+  },
+  {
+   "start": 35.029,
+   "end": 35.95,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    35.029,
+    35.169,
+    35.409,
+    35.409
+   ]
+  },
+  {
+   "start": 35.95,
+   "end": 36.811,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    35.95,
+    36.07,
+    36.61
+   ]
+  },
+  {
+   "start": 36.811,
+   "end": 37.421,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    36.811,
+    37.091,
+    37.131
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.05
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 0.531
+  },
+  {
+   "txt": "pode",
+   "falado": "pode",
+   "tela": 1.251
+  },
+  {
+   "txt": "perder",
+   "falado": "perder",
+   "tela": 1.532
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 1.952
+  },
+  {
+   "txt": "Jogo do Ano.",
+   "falado": "Jogo do Ano",
+   "tela": 2.072
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 3.013
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 3.113
+  },
+  {
+   "txt": "culpado",
+   "falado": "culpado",
+   "tela": 3.174
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 3.674
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 3.754
+  },
+  {
+   "txt": "calendário.",
+   "falado": "calendário",
+   "tela": 3.854
+  },
+  {
+   "txt": "O",
+   "falado": "O",
+   "tela": 4.996
+  },
+  {
+   "txt": "The Game Awards",
+   "falado": "The Game Awards",
+   "tela": 5.056
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 5.856
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 5.957
+  },
+  {
+   "txt": "10",
+   "falado": "10",
+   "tela": 6.237
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 6.517
+  },
+  {
+   "txt": "dezembro,",
+   "falado": "dezembro",
+   "tela": 6.637
+  },
+  {
+   "txt": "mas",
+   "falado": "mas",
+   "tela": 7.418
+  },
+  {
+   "txt": "os",
+   "falado": "os",
+   "tela": 7.658
+  },
+  {
+   "txt": "jurados",
+   "falado": "jurados",
+   "tela": 7.759
+  },
+  {
+   "txt": "votam",
+   "falado": "votam",
+   "tela": 8.239
+  },
+  {
+   "txt": "as",
+   "falado": "as",
+   "tela": 8.539
+  },
+  {
+   "txt": "indicações",
+   "falado": "indicações",
+   "tela": 8.66
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 9.28
+  },
+  {
+   "txt": "novembro,",
+   "falado": "novembro",
+   "tela": 9.4
+  },
+  {
+   "txt": "quase",
+   "falado": "quase",
+   "tela": 10.241
+  },
+  {
+   "txt": "tudo",
+   "falado": "tudo",
+   "tela": 10.662
+  },
+  {
+   "txt": "antes",
+   "falado": "antes",
+   "tela": 11.062
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 11.363
+  },
+  {
+   "txt": "dar",
+   "falado": "dar",
+   "tela": 11.503
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 11.643
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 11.823
+  },
+  {
+   "txt": "GTA 6,",
+   "falado": "ge te a seis",
+   "tela": 12.103
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 12.964
+  },
+  {
+   "txt": "só",
+   "falado": "só",
+   "tela": 13.145
+  },
+  {
+   "txt": "sai",
+   "falado": "sai",
+   "tela": 13.385
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 13.605
+  },
+  {
+   "txt": "19.",
+   "falado": "dezenove",
+   "tela": 13.805
+  },
+  {
+   "txt": "O",
+   "falado": "O",
+   "tela": 14.926
+  },
+  {
+   "txt": "jogo",
+   "falado": "jogo",
+   "tela": 15.007
+  },
+  {
+   "txt": "entra",
+   "falado": "entra",
+   "tela": 15.327
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 15.567
+  },
+  {
+   "txt": "disputa",
+   "falado": "disputa",
+   "tela": 15.667
+  },
+  {
+   "txt": "por",
+   "falado": "por",
+   "tela": 16.168
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 16.548
+  },
+  {
+   "txt": "dia.",
+   "falado": "dia",
+   "tela": 16.889
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 17.589
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 17.71
+  },
+  {
+   "txt": "concorrência",
+   "falado": "concorrência",
+   "tela": 17.79
+  },
+  {
+   "txt": "tá",
+   "falado": "tá",
+   "tela": 18.45
+  },
+  {
+   "txt": "pesada:",
+   "falado": "pesada",
+   "tela": 18.611
+  },
+  {
+   "txt": "Hades 2",
+   "falado": "Hades 2",
+   "tela": 19.451
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 20.092
+  },
+  {
+   "txt": "nota",
+   "falado": "nota",
+   "tela": 20.272
+  },
+  {
+   "txt": "94,",
+   "falado": "94",
+   "tela": 20.533
+  },
+  {
+   "txt": "Resident Evil Requiem",
+   "falado": "Resident Evil Requiem",
+   "tela": 21.794
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 23.136
+  },
+  {
+   "txt": "Crimson Desert",
+   "falado": "Crimson Desert",
+   "tela": 23.276
+  },
+  {
+   "txt": "correndo",
+   "falado": "correndo",
+   "tela": 24.257
+  },
+  {
+   "txt": "por",
+   "falado": "por",
+   "tela": 24.717
+  },
+  {
+   "txt": "fora.",
+   "falado": "fora",
+   "tela": 24.897
+  },
+  {
+   "txt": "Pensa",
+   "falado": "Pensa",
+   "tela": 25.638
+  },
+  {
+   "txt": "comigo:",
+   "falado": "comigo",
+   "tela": 25.919
+  },
+  {
+   "txt": "até",
+   "falado": "até",
+   "tela": 26.539
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 26.78
+  },
+  {
+   "txt": "GTA 5",
+   "falado": "ge te a cinco",
+   "tela": 26.84
+  },
+  {
+   "txt": "perdeu",
+   "falado": "perdeu",
+   "tela": 27.701
+  },
+  {
+   "txt": "Jogo do Ano",
+   "falado": "Jogo do Ano",
+   "tela": 28.081
+  },
+  {
+   "txt": "pro",
+   "falado": "pro",
+   "tela": 28.702
+  },
+  {
+   "txt": "The Last of Us",
+   "falado": "The Last of Us",
+   "tela": 28.862
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 29.683
+  },
+  {
+   "txt": "premiações",
+   "falado": "premiações",
+   "tela": 29.783
+  },
+  {
+   "txt": "grandes.",
+   "falado": "grandes",
+   "tela": 30.323
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 31.184
+  },
+  {
+   "txt": "merece",
+   "falado": "merece",
+   "tela": 31.805
+  },
+  {
+   "txt": "levar",
+   "falado": "levar",
+   "tela": 32.246
+  },
+  {
+   "txt": "mesmo",
+   "falado": "mesmo",
+   "tela": 32.626
+  },
+  {
+   "txt": "chegando",
+   "falado": "chegando",
+   "tela": 32.966
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 33.347
+  },
+  {
+   "txt": "cima",
+   "falado": "cima",
+   "tela": 33.467
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 33.687
+  },
+  {
+   "txt": "hora?",
+   "falado": "hora",
+   "tela": 33.807
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 34.468
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 34.728
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 34.868
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 35.029
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 35.169
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 35.409
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 35.95
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 36.07
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 36.61
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 36.811
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 37.091
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 37.131
+  }
+ ]
+}
