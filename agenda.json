@@ -1283,13 +1283,22 @@
   {
    "data": "2026-11-02",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v62_tenis_nike_gta6.mp4",
    "formato": "corte",
    "tema": "Vazou tênis Nike x Cactus Jack (Travis Scott) x Rockstar de GTA 6: 3 Air Force 1 Low (preto, branco, colorido, detalhes Fire Pink), 6 estrelas de procurado na lateral e sola, faixa de dinheiro no bico, padrão que pode ser o mapa de Vice City, US$ 130, 19/11; rumor não confirmado (Sole Retriever/Livestock via VGTimes 02/11)",
    "capa": "Tênis com 6 estrelas",
    "capa_t": 13.3,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfQOlcviOh7/",
+   "publicado_em": "2026-11-02T18:04:06-03:00",
+   "legenda": "GTA 6 vai ter tênis da Nike com as 6 estrelas de procurado 👟⭐ e o lançamento seria no mesmo dia do jogo (Nike x Cactus Jack x Rockstar, 3 Air Force 1, US$ 130, 19/11; rumor). Você usaria o tênis de GTA 6? Fonte: Sole Retriever via VGTimes (02/11) #gta6 #gtavi #nike #travisscott #sneakers",
+   "ficha": {
+    "formato": "corte",
+    "tema": "tênis Nike x Travis Scott de GTA 6 (vazamento)",
+    "gancho": "revelacao",
+    "origem": "VGTimes 02/11 (Sole Retriever/Livestock)"
+   }
   }
  ]
 }
