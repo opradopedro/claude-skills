@@ -1244,13 +1244,21 @@
   {
    "data": "2026-11-01",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v60_jogo_do_ano.mp4",
    "formato": "corte",
    "tema": "GTA 6 pode perder o Jogo do Ano no The Game Awards (10/12): jurados votam as indicações em novembro antes de jogar, GTA 6 entra por um dia; rivais Hades II (94), Resident Evil Requiem, Crimson Desert; GTA V perdeu GOTY pro The Last of Us no DICE/GDC (GTA BOOM 27/10)",
    "capa": "Perde o Jogo do Ano?",
    "capa_t": 23.4,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfN-d34Eow-/",
+   "legenda": "GTA 6 pode perder o Jogo do Ano 🏆 e o culpado é o calendário: os jurados do The Game Awards votam antes de dar pra jogar\n\n📅 A premiação é dia 10 de dezembro, mas as indicações são votadas em novembro. GTA 6 só sai dia 19 e entra na disputa por um dia.\n\n🎮 Concorrência pesada: Hades II (nota 94), Resident Evil Requiem e Crimson Desert correndo por fora. Até o GTA 5 perdeu Jogo do Ano pro The Last of Us em premiações grandes.\n\nGTA 6 merece levar mesmo chegando em cima da hora? Comenta aí 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br\n\nFonte: GTA BOOM\n\n#gta6 #gtavi #thegameawards #jogodoano #games",
+   "ficha": {
+    "formato": "corte",
+    "tema": "GTA 6 pode perder o GOTY no The Game Awards pelo calendário",
+    "gancho": "GTA 6 pode perder o Jogo do Ano",
+    "origem": "GTA BOOM 27/10 (Ray Ampoloquio)"
+   }
   }
  ]
 }
