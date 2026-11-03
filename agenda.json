@@ -1323,13 +1323,22 @@
   {
    "data": "2026-11-03",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v64_abrir_mao_do_pet.mp4",
    "formato": "corte",
    "tema": "Pesquisa Unwind Media (1.300+ gamers): do que abririam mão por 1 semana de acesso antecipado a GTA 6: 53% bebida, 43% cigarro, 40%+ fast food ou rede social, 20%+ um mês sem sexo, 13% dos pré-compradores com bicho entregariam o pet; só 16% largariam o celular (VGTimes 03/11)",
    "capa": "Largaria o pet?",
    "capa_t": 1.0,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfSKanQk3bx/",
+   "publicado_em": "2026-11-03T12:06:15-03:00",
+   "legenda": "GTA 6 antes de todo mundo vale o seu pet? 🐶🎮 uma pesquisa perguntou do que os fãs abririam mão por uma semana de acesso antecipado e as respostas são insanas 😳\n\nMais de 1.300 gamers responderam: 53% largariam a bebida, 43% parariam de fumar e mais de 40% ficariam sem fast food ou sem rede social. Mais de 20% topariam um mês sem sexo. E entre quem já fez a pré-venda e tem bicho, 13% entregariam o pet por uma semana 🤯\n\nO celular ninguém larga: só 16% abririam mão dele. As respostas são hipotéticas, ninguém vai abandonar bicho de verdade 😅 O jogo sai dia 19/11 no PS5 e Xbox Series.\n\nVocê abriria mão do quê? Manda pra quem vai jogar GTA 6 com você 👇\n\nFonte: pesquisa Unwind Media via VGTimes (03/11)\n\n#gta6 #gtavi #gta #rockstargames #viceCity",
+   "ficha": {
+    "formato": "corte",
+    "tema": "pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida)",
+    "gancho": "tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo",
+    "origem": "Unwind Media via VGTimes 03/11"
+   }
   }
  ]
 }
