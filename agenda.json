@@ -1303,7 +1303,7 @@
   {
    "data": "2026-11-02",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v63_internet_acaba.mp4",
    "formato": "corte",
    "tema": "Profecia viral de um brasileiro no X ('direto da deep web'): internet hackeada e desligada por 3 meses a partir de 17/11, dois dias antes de GTA 6; chegou a Telegram russo (40 mil views); autor admite que não é literal; real: pré-download dia 12 e operadoras esperam recorde (VGTimes 03/11)",
@@ -1316,7 +1316,9 @@
     "gancho": "um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6",
     "origem": "VGTimes 03/11 (post viral no X)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfQjmtGlDM_/",
+   "publicado_em": "2026-11-02T21:07:39-03:00"
   }
  ]
 }
