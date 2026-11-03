@@ -1299,6 +1299,24 @@
     "gancho": "revelacao",
     "origem": "VGTimes 02/11 (Sole Retriever/Livestock)"
    }
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "21:00",
+   "status": "pendente",
+   "arquivo": "radar_v63_internet_acaba.mp4",
+   "formato": "corte",
+   "tema": "Profecia viral de um brasileiro no X ('direto da deep web'): internet hackeada e desligada por 3 meses a partir de 17/11, dois dias antes de GTA 6; chegou a Telegram russo (40 mil views); autor admite que não é literal; real: pré-download dia 12 e operadoras esperam recorde (VGTimes 03/11)",
+   "capa": "A internet vai acabar?",
+   "capa_t": 0.8,
+   "legenda": "GTA 6 e o fim da internet? 🌐💀 um brasileiro postou \"direto da deep web\" que tudo vai ser hackeado dia 17 de novembro, dois dias antes do jogo 😳\n\nA profecia diz que as contas do banco vão zerar e a internet vai ficar fora do ar por 3 meses. Rodou o mundo e chegou até em canal russo com mais de 40 mil visualizações, mas o próprio autor disse que não é pra levar ao pé da letra e não mostrou prova nenhuma.\n\nO que é real: o pré-download do GTA 6 começa dia 12 e as operadoras já esperam recorde de tráfego. O jogo sai dia 19/11 no PS5 e Xbox Series.\n\nVocê acredita nessa profecia ou é zoeira? Manda pra quem vai jogar GTA 6 com você 👇\n\nFonte: VGTimes (03/11)\n\n#gta6 #gtavi #gta #rockstargames #viceCity",
+   "ficha": {
+    "formato": "corte",
+    "tema": "profecia viral: internet acaba 2 dias antes de GTA 6",
+    "gancho": "um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6",
+    "origem": "VGTimes 03/11 (post viral no X)"
+   },
+   "capa_embutida": true
   }
  ]
 }

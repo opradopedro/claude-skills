@@ -1,0 +1,24 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v63_internet_acaba.mp4",
+ "text": "Um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6. Mano, o post no X se chama \"direto da deep web\" e diz que no dia dezessete de novembro tudo vai ser hackeado, as contas do banco vão zerar e a internet vai ficar desligada por três meses. A teoria rodou o mundo e chegou até em canal russo, com mais de quarenta mil visualizações. Só que o próprio autor disse que não é pra levar ao pé da letra, e não mostrou prova nenhuma. O que é real: o pré-download do GTA 6 começa dia doze, e as operadoras já esperam recorde de tráfego. Você acredita nessa profecia ou é zoeira? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "deep web": "deep web"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "vice city",
+  "rua",
+  "carro",
+  "policia",
+  "dinheiro",
+  "neon",
+  "celular",
+  "explosao"
+ ],
+ "seed": 63,
+ "font": "../../assets/fonts/Anton.ttf"
+}
