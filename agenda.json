@@ -1343,7 +1343,7 @@
   {
    "data": "2026-11-03",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v65_predownload_212gb.mp4",
    "formato": "corte",
    "tema": "Rockstar confirma pré-download de GTA 6 em 10/11 (PS5 meia-noite local; Xbox meia-noite GMT = 9/11 21h no Brasil), até 212 GB livres, caixa com código nas lojas dia 12, pôster grátis da capa + mapa de Leonida no site dia 19 (VGTimes 03/11)",
@@ -1356,7 +1356,9 @@
     "gancho": "a Rockstar confirmou: GTA 6 vai pedir até 212 gigas",
     "origem": "Rockstar via VGTimes 03/11"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfS3D5sgJwX/",
+   "publicado_em": "2026-11-03T18:36:07-03:00"
   }
  ]
 }
