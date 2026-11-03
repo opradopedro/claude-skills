@@ -2252,11 +2252,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 8506,
-   "avgWatchedPct": 22.989,
+   "avgWatchedPct": 22.99,
    "skipRate": 65.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-02T23:54Z",
-   "horas": 26.9
+   "coletado": "2026-11-03T14:53Z",
+   "horas": 41.9
   },
   "h24": {
    "playCount": 99,
@@ -2282,45 +2282,75 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 16468,
-   "avgWatchedPct": 44.508,
+   "avgWatchedPct": 44.51,
    "skipRate": 35.6,
    "durationSeconds": 37,
-   "coletado": "2026-11-02T23:54Z",
-   "horas": 23.8
+   "coletado": "2026-11-03T14:53Z",
+   "horas": 38.8
+  },
+  "h24": {
+   "playCount": 1268,
+   "likeCount": 51,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 16468,
+   "avgWatchedPct": 44.51,
+   "skipRate": 35.6,
+   "durationSeconds": 37,
+   "coletado": "2026-11-03T14:53Z",
+   "horas": 38.8
   }
  },
  "DfPqb20ASNX": {
   "publicado": "2026-11-02T15:47:50.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 91,
+   "playCount": 92,
    "likeCount": 3,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 15134,
-   "avgWatchedPct": 38.805,
-   "skipRate": 33.3,
+   "avgWatchTimeMs": 14954,
+   "avgWatchedPct": 38.34,
+   "skipRate": 34.1,
    "durationSeconds": 39,
-   "coletado": "2026-11-02T23:54Z",
-   "horas": 8.1
+   "coletado": "2026-11-03T14:53Z",
+   "horas": 23.1
   }
  },
  "DfQOlcviOh7": {
   "publicado": "2026-11-02T21:03:56.000Z",
   "legenda": "GTA 6 vai ter tênis da Nike com as 6 estrelas de procurado",
   "atual": {
-   "playCount": 160,
-   "likeCount": 6,
+   "playCount": 400,
+   "likeCount": 12,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 10399,
-   "avgWatchedPct": 25.9975,
-   "skipRate": 46.4,
+   "avgWatchTimeMs": 10706,
+   "avgWatchedPct": 26.765,
+   "skipRate": 42.7,
    "durationSeconds": 40,
-   "coletado": "2026-11-02T23:54Z",
-   "horas": 2.8
+   "coletado": "2026-11-03T14:53Z",
+   "horas": 17.8
+  }
+ },
+ "DfQjmtGlDM_": {
+  "publicado": "2026-11-03T00:07:23.000Z",
+  "legenda": "GTA 6 e o fim da internet? um brasileiro postou \"direto da deep web\" que tudo va",
+  "atual": {
+   "playCount": 1446,
+   "likeCount": 34,
+   "commentCount": 0,
+   "shares": 2,
+   "saves": 3,
+   "avgWatchTimeMs": 17514,
+   "avgWatchedPct": 41.7,
+   "skipRate": 23.8,
+   "durationSeconds": 42,
+   "coletado": "2026-11-03T14:53Z",
+   "horas": 14.8
   }
  }
 }
