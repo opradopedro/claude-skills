@@ -2338,11 +2338,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 14954,
-   "avgWatchedPct": 38.34,
+   "avgWatchedPct": 38.343589743589746,
    "skipRate": 34.1,
    "durationSeconds": 39,
-   "coletado": "2026-11-03T21:22Z",
-   "horas": 29.6
+   "coletado": "2026-11-03T23:54Z",
+   "horas": 32.1
   },
   "h24": {
    "playCount": 92,
@@ -2368,11 +2368,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 10671,
-   "avgWatchedPct": 26.68,
+   "avgWatchedPct": 26.6775,
    "skipRate": 44.1,
    "durationSeconds": 40,
-   "coletado": "2026-11-03T21:22Z",
-   "horas": 24.3
+   "coletado": "2026-11-03T23:54Z",
+   "horas": 26.8
   },
   "h24": {
    "playCount": 414,
@@ -2392,34 +2392,51 @@
   "publicado": "2026-11-03T00:07:23.000Z",
   "legenda": "GTA 6 e o fim da internet? um brasileiro postou \"direto da deep web\" que tudo va",
   "atual": {
-   "playCount": 1479,
+   "playCount": 1504,
    "likeCount": 35,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 17487,
-   "avgWatchedPct": 41.64,
-   "skipRate": 24.1,
+   "avgWatchTimeMs": 17351,
+   "avgWatchedPct": 41.31190476190476,
+   "skipRate": 23.9,
    "durationSeconds": 42,
-   "coletado": "2026-11-03T21:22Z",
-   "horas": 21.3
+   "coletado": "2026-11-03T23:54Z",
+   "horas": 23.8
   }
  },
  "DfSKanQk3bx": {
   "publicado": "2026-11-03T15:06:01.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 234,
-   "likeCount": 7,
+   "playCount": 262,
+   "likeCount": 9,
    "commentCount": 1,
    "shares": 0,
-   "saves": 0,
-   "avgWatchTimeMs": 12114,
-   "avgWatchedPct": 30.285,
-   "skipRate": 31.4,
+   "saves": 1,
+   "avgWatchTimeMs": 11604,
+   "avgWatchedPct": 29.01,
+   "skipRate": 32.6,
    "durationSeconds": 40,
-   "coletado": "2026-11-03T21:22Z",
-   "horas": 6.3
+   "coletado": "2026-11-03T23:54Z",
+   "horas": 8.8
+  }
+ },
+ "DfS3D5sgJwX": {
+  "publicado": "2026-11-03T21:36:07.000Z",
+  "legenda": "GTA 6 já tem data pra baixar antes 📥 a Rockstar confirmou o pré-download dia 10 ",
+  "atual": {
+   "playCount": 439,
+   "likeCount": 13,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 2,
+   "avgWatchTimeMs": 10338,
+   "avgWatchedPct": 31.327272727272724,
+   "skipRate": 39.8,
+   "durationSeconds": 33,
+   "coletado": "2026-11-03T23:54Z",
+   "horas": 2.3
   }
  }
 }

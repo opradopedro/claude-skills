@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 03/11/2026 18:22 (Brasília) com 62 Reels com nota. Média geral: 60.2/100.
+Atualizado em 03/11/2026 20:54 (Brasília) com 62 Reels com nota. Média geral: 60.2/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -22,9 +22,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | premiacao | 1 | 73.2 | 64.5 |  |
 | alerta/utilidade | 3 | 67.2 | 64.4 |  |
 | noticia/vazamentos | 1 | 72.3 | 64.2 |  |
-| profecia viral: internet acaba 2 dias antes de GTA 6 | 1 | 72.3 | 64.2 |  |
 | bastidores/desenvolvimento | 1 | 72.0 | 64.1 |  |
 | prévia Edge: mapa cedo, combustível, transporte | 1 | 71.8 | 64.1 |  |
+| profecia viral: internet acaba 2 dias antes de GTA 6 | 1 | 71.9 | 64.1 |  |
 | preco_compra | 2 | 67.3 | 63.8 |  |
 | noticia/mercado | 1 | 71.0 | 63.8 |  |
 | curiosidade/economia | 1 | 70.7 | 63.7 |  |
@@ -70,7 +70,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | comparacao | 3 | 70.3 | 66.3 |  |
 | GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.7 |  |
 | noticia | 5 | 65.8 | 64.2 |  |
-| um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.3 | 64.2 |  |
+| um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 71.9 | 64.1 |  |
 | pergunta | 6 | 63.1 | 62.4 |  |
 | votacao | 1 | 66.5 | 62.3 |  |
 | rumor + oficial | 1 | 65.0 | 61.8 |  |
@@ -96,9 +96,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Kotaku 15/10 (FAQ do The Game Awards) | 1 | 73.2 | 64.5 |  |
 | noticia (Rob Nelson via IGN/Insider Gaming) | 1 | 72.9 | 64.4 |  |
 | VGTimes 28/10 (Jeremy Conrad/ManaByte; Tom Henderson) | 1 | 72.3 | 64.2 |  |
-| VGTimes 03/11 (post viral no X) | 1 | 72.3 | 64.2 |  |
 | GTA BOOM 22/10 (Rob Nelson, Jennifer Kolbe) | 1 | 72.0 | 64.1 |  |
 | noticia (Edge via GTA BOOM/GTABase) | 1 | 71.8 | 64.1 |  |
+| VGTimes 03/11 (post viral no X) | 1 | 71.9 | 64.1 |  |
 | GamingBible 27/10 (Emberville), MP1st (Fable fev/2027), Lords of the Fallen II e Squadron 42 adiados p/ 2027 | 1 | 71.0 | 63.8 |  |
 | IBTimes UK (José García Montalvo, Universidade Pompeu Fabra) | 1 | 70.7 | 63.7 |  |
 | VGTimes 27/10 (PlayStation Game Size, banco da PSN) | 1 | 70.5 | 63.6 |  |
@@ -151,7 +151,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| 21h | 18 | 62.7 | 62.4 |  |
+| 21h | 18 | 62.6 | 62.4 |  |
 | 12h | 21 | 61.7 | 61.5 |  |
 | 18h | 23 | 56.9 | 57.2 |  |
 
@@ -166,8 +166,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-12 | [DeZjgTSD3Aw](https://www.instagram.com/reel/DeZjgTSD3Aw/) | corte | preco_compra | comparacao | 1237 | 35.7% | 42% | 44 | 0 | 2 | 1 | 72.9 (h24) |
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
 | 2026-10-28 | [DfCwKjElOi0](https://www.instagram.com/reel/DfCwKjElOi0/) | corte | noticia/vazamentos | revelacao | 1484 | 36.8% | 41% | 48 | 0 | 3 | 5 | 72.3 (h72) |
-| 2026-11-02 | [DfQjmtGlDM_](https://www.instagram.com/reel/DfQjmtGlDM_/) | corte | profecia viral: internet acaba 2 dias antes de GTA 6 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1479 | 24.1% | 42% | 35 | 0 | 3 | 2 | 72.3 (provisória) |
 | 2026-10-25 | [De787TrEaru](https://www.instagram.com/reel/De787TrEaru/) | corte | bastidores/desenvolvimento | revelacao | 1285 | 38.8% | 43% | 39 | 1 | 3 | 1 | 72.0 (h72) |
+| 2026-11-02 | [DfQjmtGlDM_](https://www.instagram.com/reel/DfQjmtGlDM_/) | corte | profecia viral: internet acaba 2 dias antes de GTA 6 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1504 | 23.9% | 41% | 35 | 0 | 3 | 2 | 71.9 (provisória) |
 | 2026-10-30 | [DfIUyYgAtdc](https://www.instagram.com/reel/DfIUyYgAtdc/) | corte | prévia Edge: mapa cedo, combustível, transporte | mentira_verdade | 1462 | 39.8% | 43% | 65 | 1 | 3 | 35 | 71.8 (h72) |
 | 2026-10-27 | [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/) | corte | noticia/mercado | revelacao | 1300 | 35% | 33% | 43 | 0 | 0 | 6 | 71.0 (h72) |
 | 2026-10-22 | [De0NOukCfyi](https://www.instagram.com/reel/De0NOukCfyi/) | corte | curiosidade/economia | numero chocante | 1450 | 38.9% | 37% | 43 | 1 | 0 | 6 | 70.7 (h72) |
@@ -224,4 +224,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DfSKanQk3bx](https://www.instagram.com/reel/DfSKanQk3bx/): 6.3 h no ar, 234 views, 31.4% pularam, 30% assistido, 7 curtidas
+- [DfSKanQk3bx](https://www.instagram.com/reel/DfSKanQk3bx/): 8.8 h no ar, 262 views, 32.6% pularam, 29% assistido, 9 curtidas
+- [DfS3D5sgJwX](https://www.instagram.com/reel/DfS3D5sgJwX/): 2.3 h no ar, 439 views, 39.8% pularam, 31% assistido, 13 curtidas
