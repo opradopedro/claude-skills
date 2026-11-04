@@ -1384,7 +1384,7 @@
    "data": "2026-11-04",
    "hora": "12:00",
    "arquivo": "radar_v67_reservas_7_milhoes.mp4",
-   "status": "pendente",
+   "status": "postado",
    "legenda": "GTA 6 já passou de US$ 750 milhões e o jogo nem saiu 🤑 quase 800 mil reservas só na última semana 😳\n\n📊 Segundo a Sensor Tower, já são 7,7 milhões de reservas digitais\n🎮 PlayStation: uns US$ 560 milhões. Xbox: uns US$ 190 milhões\n⚠️ É estimativa, a Rockstar não divulgou número oficial\n📅 Faltam 15 dias pro lançamento, 19/11\n\nJá garantiu o seu ou vai comprar no dia? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\n#gta6 #gtavi #gta6brasil #rockstargames #ps5",
    "capa": "7,7 milhões de reservas",
    "capa_t": 3.6,
@@ -1395,7 +1395,9 @@
     "origem": "autoral",
     "fonte": "Sensor Tower via iXBT Games 03/11/2026"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfUvNfAEewa/",
+   "hora_real": "12:06"
   }
  ]
 }
