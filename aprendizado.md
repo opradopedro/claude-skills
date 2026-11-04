@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 04/11/2026 11:54 (Brasília) com 65 Reels com nota. Média geral: 60.0/100.
+Atualizado em 04/11/2026 17:54 (Brasília) com 65 Reels com nota. Média geral: 60.4/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -10,159 +10,159 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| corte | 62 | 61.3 | 61.2 |  |
-| painel | 3 | 34.7 | 44.9 | pausado |
+| corte | 62 | 61.6 | 61.6 |  |
+| painel | 3 | 34.7 | 45.0 | pausado |
 
 ## Tema
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| GTA 6 pode perder o GOTY no The Game Awards pelo calendário | 1 | 73.7 | 64.6 |  |
-| gameplay | 2 | 68.8 | 64.4 |  |
-| premiacao | 1 | 73.2 | 64.4 |  |
-| alerta/utilidade | 3 | 67.2 | 64.3 |  |
-| profecia viral: internet acaba 2 dias antes de GTA 6 | 1 | 72.6 | 64.2 |  |
-| noticia/vazamentos | 1 | 72.3 | 64.1 |  |
-| bastidores/desenvolvimento | 1 | 72.0 | 64.0 |  |
-| prévia Edge: mapa cedo, combustível, transporte | 1 | 71.8 | 64.0 |  |
-| noticia/mercado | 1 | 71.0 | 63.7 |  |
-| preco_compra | 2 | 67.2 | 63.6 |  |
-| curiosidade/economia | 1 | 70.7 | 63.6 |  |
-| Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | 1 | 70.0 | 63.4 |  |
-| pré-download oficial dia 10 e 212 GB | 1 | 69.5 | 63.2 |  |
-| gameplay/mapa | 1 | 68.9 | 63.0 |  |
-| lista/personagens | 1 | 68.3 | 62.8 |  |
-| sistema de nojo e NPCs com memória | 1 | 68.1 | 62.7 |  |
-| curiosidade/dinheiro | 1 | 66.9 | 62.3 |  |
-| pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida) | 1 | 66.7 | 62.3 |  |
-| bastidores | 4 | 63.2 | 62.2 |  |
-| teoria | 1 | 66.3 | 62.1 |  |
-| noticia/polemica | 1 | 66.3 | 62.1 |  |
-| GTA 6 no PC em 6-7 meses segundo Pachter | 1 | 63.7 | 61.3 |  |
-| rumor/elenco | 1 | 63.3 | 61.1 |  |
-| pc | 1 | 62.8 | 61.0 |  |
-| recorde de intenção de compra (Circana) | 1 | 62.5 | 60.9 |  |
-| historia | 1 | 60.5 | 60.2 |  |
-| boate NINE1NINE de verdade em Miami | 1 | 60.6 | 60.2 |  |
-| trailer | 3 | 60.2 | 60.1 |  |
-| curiosidade/marketing | 1 | 59.5 | 59.9 |  |
-| milionário faz a conta: GTA 6 economiza US$ 5 mil | 1 | 59.2 | 59.8 |  |
-| novidade oficial | 1 | 58.6 | 59.6 |  |
-| musica/trilha | 2 | 58.7 | 59.4 |  |
-| noticia/review | 2 | 58.5 | 59.3 |  |
-| tênis Nike x Travis Scott de GTA 6 (vazamento) | 1 | 57.3 | 59.1 |  |
-| vazamentos | 2 | 56.2 | 58.1 |  |
-| gameplay/policia | 1 | 53.6 | 57.9 |  |
-| vendas/numeros | 1 | 52.9 | 57.7 |  |
-| mapa | 1 | 51.3 | 57.1 |  |
-| marketing/mundo real | 1 | 51.0 | 57.0 |  |
-| marketing | 2 | 50.9 | 55.5 |  |
-| gameplay/bastidores | 2 | 50.8 | 55.4 |  |
-| combate não letal / jogar GTA 6 sem matar | 1 | 46.0 | 55.4 |  |
-| gameplay novo no South Park (cena real) | 1 | 45.5 | 55.2 |  |
-| noticias | 4 | 52.3 | 54.9 |  |
-| GTA 6 x Hollywood (Jogos Vorazes) | 1 | 42.8 | 54.3 |  |
-| mito | 1 | 37.2 | 52.4 |  |
-| console_tecnico | 1 | 31.5 | 50.5 |  |
-| marketing/bastidores | 1 | 28.4 | 49.5 |  |
+| GTA 6 pode perder o GOTY no The Game Awards pelo calendário | 1 | 73.7 | 64.8 |  |
+| premiacao | 1 | 73.2 | 64.7 |  |
+| gameplay | 2 | 68.8 | 64.6 |  |
+| alerta/utilidade | 3 | 67.2 | 64.5 |  |
+| profecia viral: internet acaba 2 dias antes de GTA 6 | 1 | 72.6 | 64.5 |  |
+| noticia/vazamentos | 1 | 72.3 | 64.4 |  |
+| bastidores/desenvolvimento | 1 | 72.0 | 64.3 |  |
+| prévia Edge: mapa cedo, combustível, transporte | 1 | 71.8 | 64.2 |  |
+| noticia/mercado | 1 | 71.0 | 63.9 |  |
+| preco_compra | 2 | 67.2 | 63.8 |  |
+| curiosidade/economia | 1 | 70.7 | 63.8 |  |
+| Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | 1 | 70.0 | 63.6 |  |
+| pré-download oficial dia 10 e 212 GB | 1 | 69.4 | 63.4 |  |
+| gameplay/mapa | 1 | 68.9 | 63.2 |  |
+| lista/personagens | 1 | 68.3 | 63.0 |  |
+| sistema de nojo e NPCs com memória | 1 | 68.1 | 63.0 |  |
+| combate não letal / jogar GTA 6 sem matar | 1 | 68.3 | 63.0 |  |
+| curiosidade/dinheiro | 1 | 66.9 | 62.6 |  |
+| pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida) | 1 | 66.9 | 62.6 |  |
+| teoria | 1 | 66.3 | 62.4 |  |
+| noticia/polemica | 1 | 66.3 | 62.4 |  |
+| bastidores | 4 | 63.2 | 62.3 |  |
+| GTA 6 no PC em 6-7 meses segundo Pachter | 1 | 63.7 | 61.5 |  |
+| rumor/elenco | 1 | 63.3 | 61.4 |  |
+| pc | 1 | 62.8 | 61.2 |  |
+| recorde de intenção de compra (Circana) | 1 | 62.5 | 61.1 |  |
+| boate NINE1NINE de verdade em Miami | 1 | 60.6 | 60.5 |  |
+| historia | 1 | 60.5 | 60.4 |  |
+| trailer | 3 | 60.2 | 60.3 |  |
+| curiosidade/marketing | 1 | 59.5 | 60.1 |  |
+| milionário faz a conta: GTA 6 economiza US$ 5 mil | 1 | 59.2 | 60.0 |  |
+| novidade oficial | 1 | 58.6 | 59.8 |  |
+| musica/trilha | 2 | 58.7 | 59.5 |  |
+| noticia/review | 2 | 58.5 | 59.5 |  |
+| tênis Nike x Travis Scott de GTA 6 (vazamento) | 1 | 57.3 | 59.4 |  |
+| vazamentos | 2 | 56.2 | 58.3 |  |
+| gameplay/policia | 1 | 53.6 | 58.1 |  |
+| vendas/numeros | 1 | 52.9 | 57.9 |  |
+| mapa | 1 | 51.3 | 57.4 |  |
+| marketing/mundo real | 1 | 51.0 | 57.3 |  |
+| marketing | 2 | 50.9 | 55.6 |  |
+| gameplay/bastidores | 2 | 50.8 | 55.6 |  |
+| gameplay novo no South Park (cena real) | 1 | 45.5 | 55.4 |  |
+| noticias | 4 | 52.3 | 55.0 | pausado |
+| GTA 6 x Hollywood (Jogos Vorazes) | 1 | 42.8 | 54.5 |  |
+| mito | 1 | 37.2 | 52.7 |  |
+| console_tecnico | 1 | 31.5 | 50.8 |  |
+| marketing/bastidores | 1 | 28.4 | 49.7 |  |
 
 ## Gancho
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| comparacao | 3 | 70.3 | 66.2 |  |
-| GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.6 |  |
-| um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.6 | 64.2 |  |
-| noticia | 5 | 65.7 | 64.1 |  |
-| a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.5 | 63.2 |  |
-| tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 1 | 66.7 | 62.3 |  |
-| pergunta | 6 | 62.9 | 62.2 |  |
-| votacao | 1 | 66.5 | 62.2 |  |
-| rumor + oficial | 1 | 65.0 | 61.7 |  |
-| numero chocante | 6 | 62.1 | 61.6 |  |
-| GTA 6 no PC pode chegar bem mais rápido do que você imagina | 1 | 63.7 | 61.3 |  |
-| vida real | 1 | 59.5 | 59.9 |  |
+| comparacao | 3 | 70.3 | 66.4 |  |
+| GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.8 |  |
+| um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.6 | 64.5 |  |
+| noticia | 5 | 65.7 | 64.2 |  |
+| a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.4 | 63.4 |  |
+| dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 68.3 | 63.0 |  |
+| tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 1 | 66.9 | 62.6 |  |
+| votacao | 1 | 66.5 | 62.4 |  |
+| pergunta | 6 | 62.9 | 62.3 |  |
+| rumor + oficial | 1 | 65.0 | 61.9 |  |
+| numero chocante | 6 | 62.1 | 61.7 |  |
+| GTA 6 no PC pode chegar bem mais rápido do que você imagina | 1 | 63.7 | 61.5 |  |
+| vida real | 1 | 59.5 | 60.1 |  |
 | revelacao | 14 | 59.1 | 59.3 |  |
-| enquete | 7 | 58.1 | 58.5 |  |
-| mentira_verdade | 2 | 54.5 | 57.3 |  |
-| curiosidade + preço | 1 | 51.0 | 57.0 |  |
-| polemica | 2 | 53.4 | 56.7 |  |
-| alerta | 3 | 54.2 | 56.5 |  |
-| dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 46.0 | 55.4 |  |
-| curiosidade | 4 | 52.8 | 55.2 |  |
-| lista | 3 | 51.7 | 55.0 | pausado |
+| enquete | 7 | 58.1 | 58.6 |  |
+| mentira_verdade | 2 | 54.5 | 57.4 |  |
+| curiosidade + preço | 1 | 51.0 | 57.3 |  |
+| polemica | 2 | 53.4 | 56.9 |  |
+| alerta | 3 | 54.2 | 56.7 |  |
+| curiosidade | 4 | 52.8 | 55.3 |  |
+| lista | 3 | 51.7 | 55.2 | pausado |
 
 ## Origem
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| RockstarINTEL 26/10 (NateTheHate) | 1 | 77.5 | 65.9 |  |
-| GamesRadar 16/10 | 1 | 76.0 | 65.4 |  |
-| GTA BOOM 27/10 (Ray Ampoloquio) | 1 | 73.7 | 64.6 |  |
-| Kotaku 15/10 (FAQ do The Game Awards) | 1 | 73.2 | 64.4 |  |
-| noticia (Rob Nelson via IGN/Insider Gaming) | 1 | 72.9 | 64.3 |  |
-| VGTimes 03/11 (post viral no X) | 1 | 72.6 | 64.2 |  |
-| VGTimes 28/10 (Jeremy Conrad/ManaByte; Tom Henderson) | 1 | 72.3 | 64.1 |  |
-| GTA BOOM 22/10 (Rob Nelson, Jennifer Kolbe) | 1 | 72.0 | 64.0 |  |
-| noticia (Edge via GTA BOOM/GTABase) | 1 | 71.8 | 64.0 |  |
-| GamingBible 27/10 (Emberville), MP1st (Fable fev/2027), Lords of the Fallen II e Squadron 42 adiados p/ 2027 | 1 | 71.0 | 63.7 |  |
-| IBTimes UK (José García Montalvo, Universidade Pompeu Fabra) | 1 | 70.7 | 63.6 |  |
-| VGTimes 27/10 (PlayStation Game Size, banco da PSN) | 1 | 70.5 | 63.5 |  |
-| GTA BOOM 29/10 + comunicado de Miami-Dade | 1 | 70.0 | 63.4 |  |
-| Rockstar via VGTimes 03/11 | 1 | 69.5 | 63.2 |  |
-| Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 68.9 | 63.0 |  |
-| Game Informer via Dexerto 29/09 | 1 | 68.5 | 62.9 |  |
-| site oficial da Rockstar (via Push Square) | 1 | 68.3 | 62.8 |  |
-| GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo) | 1 | 68.1 | 62.7 |  |
-| gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download) | 1 | 67.7 | 62.6 |  |
-| The Game Business via Beebom 16/10 | 1 | 67.0 | 62.4 |  |
-| VGTimes 28/10 (concurso Virgin Media Ireland) | 1 | 66.9 | 62.3 |  |
-| Unwind Media via VGTimes 03/11 | 1 | 66.7 | 62.3 |  |
-| Kotaku 12/10 | 1 | 66.5 | 62.2 |  |
-| Rockstar, trailer de lançamento 15/10 | 1 | 66.4 | 62.2 |  |
-| gringa | 1 | 66.3 | 62.1 |  |
-| Kotaku 21/10 | 1 | 66.3 | 62.1 |  |
-| Dexerto (Has It Leaked) + Shacknews (Rockstar) | 1 | 65.0 | 61.7 |  |
-| notícia GTA BOOM 27/10 (BBC Business Today) | 1 | 63.7 | 61.3 |  |
-| Push Square / GodisaGeek 24/10 (aviso no PS5) | 1 | 63.3 | 61.1 |  |
-| VGTimes 26/10 (live de Manni L. Perez) | 1 | 63.3 | 61.1 |  |
-| Forbes/GamesBeat 13/10 | 1 | 62.8 | 61.0 |  |
-| Jason Schreier via Gameranx 20/10 | 1 | 62.9 | 61.0 |  |
-| Kotaku 16/10 | 1 | 62.7 | 60.9 |  |
-| GTA BOOM 29/10 (Circana) | 1 | 62.5 | 60.9 |  |
-| PS Store FAQ via Beebom; The Game Haus 19/10 | 1 | 62.3 | 60.8 |  |
-| Bloomberg via Notebookcheck 18/10 | 1 | 60.5 | 60.2 |  |
-| noticia (GTA BOOM 30/10, E11EVEN Miami) | 1 | 60.6 | 60.2 |  |
-| Dexerto (iGrandTheftAuto) 20/10 | 1 | 59.5 | 59.9 |  |
-| VGTimes 01/11 (vídeo viral de Mark Tilbury) | 1 | 59.2 | 59.8 |  |
-| Rockstar Newswire 08/10 via endgametools/ghacks | 1 | 58.6 | 59.6 |  |
-| Push Square/GameRant 16/10 (posts de fãs) | 1 | 58.3 | 59.5 |  |
-| VGTimes 02/11 (Sole Retriever/Livestock) | 1 | 57.3 | 59.1 |  |
-| VGTimes 29/10 (visita da imprensa à Rockstar North, 90 min de gameplay) | 1 | 53.6 | 57.9 |  |
-| Insider Gaming / Sensor Tower (20/10) | 1 | 52.9 | 57.7 |  |
-| VGTimes 28/10 (listagem Apple Music do Grand Theft Auto VI Original Score) | 1 | 52.4 | 57.5 |  |
-| Eurogamer via comicshoplocator 16/10 | 1 | 51.4 | 57.2 |  |
-| Rockstar (site oficial) | 1 | 51.3 | 57.1 |  |
-| GameSpot (22/10) | 1 | 51.0 | 57.0 |  |
-| TechRadar (Jason Schreier/Bloomberg) 20/10 | 2 | 50.8 | 55.4 |  |
-| GTABase (Rob Nelson, Rockstar North) | 1 | 46.0 | 55.4 |  |
-| Mezha/Gfinity 14/10 | 1 | 45.9 | 55.3 |  |
-| VGTimes 30/10; cena do episódio via YouTube QH-XIqBDbwo | 1 | 45.5 | 55.2 |  |
-| Rockstar (pre-load 12/11) via Khel Now/Shacknews 19/10 | 1 | 44.5 | 54.9 |  |
-| Notebookcheck 24/09 + GTAIntel (Miami-Dade) | 1 | 43.5 | 54.5 |  |
-| GTA BOOM 28/10 (IGN) | 1 | 42.8 | 54.3 |  |
-| TalkEsport/The Scotsman 16/10 | 1 | 41.1 | 53.7 |  |
-| autoral | 6 | 51.3 | 53.5 | pausado |
-| Notebookcheck 14/10 (NateTheHate/Insider Gaming) + precedentes GTA 5/RDR2 | 1 | 39.6 | 53.2 |  |
-| GTA BOOM 25/10 + vídeo yHLNoTKOO4A (Druski) | 1 | 28.4 | 49.5 |  |
+| RockstarINTEL 26/10 (NateTheHate) | 1 | 77.5 | 66.1 |  |
+| GamesRadar 16/10 | 1 | 76.0 | 65.6 |  |
+| GTA BOOM 27/10 (Ray Ampoloquio) | 1 | 73.7 | 64.8 |  |
+| Kotaku 15/10 (FAQ do The Game Awards) | 1 | 73.2 | 64.7 |  |
+| noticia (Rob Nelson via IGN/Insider Gaming) | 1 | 72.9 | 64.6 |  |
+| VGTimes 03/11 (post viral no X) | 1 | 72.6 | 64.5 |  |
+| VGTimes 28/10 (Jeremy Conrad/ManaByte; Tom Henderson) | 1 | 72.3 | 64.4 |  |
+| GTA BOOM 22/10 (Rob Nelson, Jennifer Kolbe) | 1 | 72.0 | 64.3 |  |
+| noticia (Edge via GTA BOOM/GTABase) | 1 | 71.8 | 64.2 |  |
+| GamingBible 27/10 (Emberville), MP1st (Fable fev/2027), Lords of the Fallen II e Squadron 42 adiados p/ 2027 | 1 | 71.0 | 63.9 |  |
+| IBTimes UK (José García Montalvo, Universidade Pompeu Fabra) | 1 | 70.7 | 63.8 |  |
+| VGTimes 27/10 (PlayStation Game Size, banco da PSN) | 1 | 70.5 | 63.8 |  |
+| GTA BOOM 29/10 + comunicado de Miami-Dade | 1 | 70.0 | 63.6 |  |
+| Rockstar via VGTimes 03/11 | 1 | 69.4 | 63.4 |  |
+| Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 68.9 | 63.2 |  |
+| Game Informer via Dexerto 29/09 | 1 | 68.5 | 63.1 |  |
+| site oficial da Rockstar (via Push Square) | 1 | 68.3 | 63.0 |  |
+| GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo) | 1 | 68.1 | 63.0 |  |
+| GTABase (Rob Nelson, Rockstar North) | 1 | 68.3 | 63.0 |  |
+| gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download) | 1 | 67.7 | 62.8 |  |
+| The Game Business via Beebom 16/10 | 1 | 67.0 | 62.6 |  |
+| VGTimes 28/10 (concurso Virgin Media Ireland) | 1 | 66.9 | 62.6 |  |
+| Unwind Media via VGTimes 03/11 | 1 | 66.9 | 62.6 |  |
+| gringa | 1 | 66.3 | 62.4 |  |
+| Kotaku 12/10 | 1 | 66.5 | 62.4 |  |
+| Rockstar, trailer de lançamento 15/10 | 1 | 66.4 | 62.4 |  |
+| Kotaku 21/10 | 1 | 66.3 | 62.4 |  |
+| Dexerto (Has It Leaked) + Shacknews (Rockstar) | 1 | 65.0 | 61.9 |  |
+| notícia GTA BOOM 27/10 (BBC Business Today) | 1 | 63.7 | 61.5 |  |
+| Push Square / GodisaGeek 24/10 (aviso no PS5) | 1 | 63.3 | 61.4 |  |
+| VGTimes 26/10 (live de Manni L. Perez) | 1 | 63.3 | 61.4 |  |
+| Forbes/GamesBeat 13/10 | 1 | 62.8 | 61.2 |  |
+| Kotaku 16/10 | 1 | 62.7 | 61.2 |  |
+| Jason Schreier via Gameranx 20/10 | 1 | 62.9 | 61.2 |  |
+| GTA BOOM 29/10 (Circana) | 1 | 62.5 | 61.1 |  |
+| PS Store FAQ via Beebom; The Game Haus 19/10 | 1 | 62.3 | 61.0 |  |
+| noticia (GTA BOOM 30/10, E11EVEN Miami) | 1 | 60.6 | 60.5 |  |
+| Bloomberg via Notebookcheck 18/10 | 1 | 60.5 | 60.4 |  |
+| Dexerto (iGrandTheftAuto) 20/10 | 1 | 59.5 | 60.1 |  |
+| VGTimes 01/11 (vídeo viral de Mark Tilbury) | 1 | 59.2 | 60.0 |  |
+| Rockstar Newswire 08/10 via endgametools/ghacks | 1 | 58.6 | 59.8 |  |
+| Push Square/GameRant 16/10 (posts de fãs) | 1 | 58.3 | 59.7 |  |
+| VGTimes 02/11 (Sole Retriever/Livestock) | 1 | 57.3 | 59.4 |  |
+| VGTimes 29/10 (visita da imprensa à Rockstar North, 90 min de gameplay) | 1 | 53.6 | 58.1 |  |
+| Insider Gaming / Sensor Tower (20/10) | 1 | 52.9 | 57.9 |  |
+| VGTimes 28/10 (listagem Apple Music do Grand Theft Auto VI Original Score) | 1 | 52.4 | 57.7 |  |
+| Rockstar (site oficial) | 1 | 51.3 | 57.4 |  |
+| Eurogamer via comicshoplocator 16/10 | 1 | 51.4 | 57.4 |  |
+| GameSpot (22/10) | 1 | 51.0 | 57.3 |  |
+| Mezha/Gfinity 14/10 | 1 | 45.9 | 55.6 |  |
+| TechRadar (Jason Schreier/Bloomberg) 20/10 | 2 | 50.8 | 55.6 |  |
+| VGTimes 30/10; cena do episódio via YouTube QH-XIqBDbwo | 1 | 45.5 | 55.4 |  |
+| Rockstar (pre-load 12/11) via Khel Now/Shacknews 19/10 | 1 | 44.5 | 55.1 |  |
+| Notebookcheck 24/09 + GTAIntel (Miami-Dade) | 1 | 43.5 | 54.8 |  |
+| GTA BOOM 28/10 (IGN) | 1 | 42.8 | 54.5 |  |
+| TalkEsport/The Scotsman 16/10 | 1 | 41.1 | 54.0 |  |
+| autoral | 6 | 51.3 | 53.6 | pausado |
+| Notebookcheck 14/10 (NateTheHate/Insider Gaming) + precedentes GTA 5/RDR2 | 1 | 39.6 | 53.5 |  |
+| GTA BOOM 25/10 + vídeo yHLNoTKOO4A (Druski) | 1 | 28.4 | 49.7 |  |
 
 ## Horário
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
+| 21h | 19 | 62.8 | 62.6 |  |
 | 12h | 22 | 61.7 | 61.6 |  |
-| 21h | 19 | 61.7 | 61.5 |  |
-| 18h | 24 | 57.2 | 57.4 |  |
+| 18h | 24 | 57.2 | 57.5 |  |
 
 ## Reels
 
@@ -182,17 +182,18 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-22 | [De0NOukCfyi](https://www.instagram.com/reel/De0NOukCfyi/) | corte | curiosidade/economia | numero chocante | 1450 | 38.9% | 37% | 43 | 1 | 0 | 6 | 70.7 (h72) |
 | 2026-10-27 | [DfA0VzqASHS](https://www.instagram.com/reel/DfA0VzqASHS/) | corte | alerta/utilidade | numero chocante | 1485 | 38.2% | 36% | 53 | 0 | 3 | 17 | 70.5 (h72) |
 | 2026-10-31 | [DfLFD2VjsfZ](https://www.instagram.com/reel/DfLFD2VjsfZ/) | corte | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | revelacao | 1323 | 43.5% | 41% | 64 | 0 | 5 | 3 | 70.0 (h72) |
-| 2026-11-03 | [DfS3D5sgJwX](https://www.instagram.com/reel/DfS3D5sgJwX/) | corte | pré-download oficial dia 10 e 212 GB | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1298 | 38.7% | 32% | 42 | 0 | 4 | 4 | 69.5 (provisória) |
+| 2026-11-03 | [DfS3D5sgJwX](https://www.instagram.com/reel/DfS3D5sgJwX/) | corte | pré-download oficial dia 10 e 212 GB | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1304 | 38.8% | 32% | 43 | 0 | 4 | 4 | 69.4 (provisória) |
 | 2026-10-13 | [DectbiBAgte](https://www.instagram.com/reel/DectbiBAgte/) | corte | gameplay | comparacao | 1329 | 38.3% | 33% | 52 | 0 | 0 | 0 | 69.2 (h24) |
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 827 | 39.7% | 31% | 26 | 0 | 3 | 4 | 68.9 (h72) |
 | 2026-10-20 | [DevDjNqkdcV](https://www.instagram.com/reel/DevDjNqkdcV/) | corte | gameplay | pergunta | 1220 | 44% | 36% | 48 | 0 | 0 | 4 | 68.5 (h72) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 68.3 (h72) |
+| 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 192 | 36.6% | 47% | 5 | 0 | 1 | 0 | 68.3 (provisória) |
 | 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1322 | 37.1% | 33% | 34 | 0 | 3 | 2 | 68.1 (h72) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
 | 2026-10-19 | [DerhBaEAqHr](https://www.instagram.com/reel/DerhBaEAqHr/) | corte | noticias | enquete | 178 | 29.9% | 34% | 7 | 1 | 0 | 1 | 67.0 (h72) |
 | 2026-10-28 | [DfDrYMklbDR](https://www.instagram.com/reel/DfDrYMklbDR/) | corte | curiosidade/dinheiro | numero chocante | 739 | 46.1% | 34% | 17 | 0 | 1 | 3 | 66.9 (h72) |
+| 2026-11-03 | [DfSKanQk3bx](https://www.instagram.com/reel/DfSKanQk3bx/) | corte | pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida) | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 301 | 34.6% | 29% | 11 | 1 | 1 | 0 | 66.9 (h24) |
 | 2026-10-24 | [De4Y-b1iLlh](https://www.instagram.com/reel/De4Y-b1iLlh/) | corte | gameplay/bastidores | curiosidade | 186 | 37.7% | 43% | 7 | 0 | 0 | 1 | 66.7 (h72) |
-| 2026-11-03 | [DfSKanQk3bx](https://www.instagram.com/reel/DfSKanQk3bx/) | corte | pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida) | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 300 | 34.6% | 28% | 11 | 1 | 1 | 0 | 66.7 (provisória) |
 | 2026-10-14 | [DefSM3xFcrX](https://www.instagram.com/reel/DefSM3xFcrX/) | corte | vazamentos | votacao | 1453 | 30.6% | 49% | 25 | 7 | 0 | 0 | 66.5 (h72) |
 | 2026-10-15 | [DehKLJggYHT](https://www.instagram.com/reel/DehKLJggYHT/) | corte | trailer | noticia | 145 | 37.4% | 45% | 6 | 0 | 2 | 0 | 66.4 (h72) |
 | 2026-10-12 | [DeaTN8uj8pd](https://www.instagram.com/reel/DeaTN8uj8pd/) | corte | teoria | pergunta | 163 | 32.6% | 46% | 6 | 0 | 0 | 0 | 66.3 (h24) |
@@ -220,7 +221,6 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 51.4 (h72) |
 | 2026-10-16 | [DejyjUvD27e](https://www.instagram.com/reel/DejyjUvD27e/) | corte | mapa | lista | 126 | 64.3% | 25% | 5 | 0 | 0 | 0 | 51.3 (h72) |
 | 2026-10-23 | [De10O6vgais](https://www.instagram.com/reel/De10O6vgais/) | corte | marketing/mundo real | curiosidade + preço | 149 | 42.1% | 29% | 4 | 0 | 0 | 0 | 51.0 (h72) |
-| 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 158 | 39.7% | 47% | 2 | 0 | 0 | 0 | 46.0 (provisória) |
 | 2026-10-16 | [DekbyAanDQL](https://www.instagram.com/reel/DekbyAanDQL/) | corte | vazamentos | noticia | 188 | 41.6% | 37% | 3 | 0 | 0 | 0 | 45.9 (h24) |
 | 2026-10-30 | [DfIoHDmCOyX](https://www.instagram.com/reel/DfIoHDmCOyX/) | corte | gameplay novo no South Park (cena real) | revelacao | 132 | 49.2% | 31% | 3 | 0 | 0 | 0 | 45.5 (h72) |
 | 2026-10-19 | [DesKRnHFMj5](https://www.instagram.com/reel/DesKRnHFMj5/) | corte | noticias | pergunta | 130 | 65.1% | 25% | 4 | 0 | 0 | 0 | 44.5 (h72) |
@@ -233,3 +233,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 34.9 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 31.5 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 28.4 (h24) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DfUvNfAEewa](https://www.instagram.com/reel/DfUvNfAEewa/): 5.8 h no ar, 215 views, 42.4% pularam, 27% assistido, 5 curtidas

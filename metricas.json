@@ -2405,17 +2405,17 @@
   "publicado": "2026-11-03T00:07:23.000Z",
   "legenda": "GTA 6 e o fim da internet? um brasileiro postou \"direto da deep web\" que tudo va",
   "atual": {
-   "playCount": 1518,
+   "playCount": 1521,
    "likeCount": 37,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 17325,
-   "avgWatchedPct": 41.25,
+   "avgWatchTimeMs": 17381,
+   "avgWatchedPct": 41.38,
    "skipRate": 24,
    "durationSeconds": 42,
-   "coletado": "2026-11-04T14:54Z",
-   "horas": 38.8
+   "coletado": "2026-11-04T20:54Z",
+   "horas": 44.8
   },
   "h24": {
    "playCount": 1518,
@@ -2435,51 +2435,81 @@
   "publicado": "2026-11-03T15:06:01.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 300,
+   "playCount": 301,
    "likeCount": 11,
    "commentCount": 1,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 11308,
-   "avgWatchedPct": 28.27,
+   "avgWatchTimeMs": 11448,
+   "avgWatchedPct": 28.62,
    "skipRate": 34.6,
    "durationSeconds": 40,
-   "coletado": "2026-11-04T14:54Z",
-   "horas": 23.8
+   "coletado": "2026-11-04T20:54Z",
+   "horas": 29.8
+  },
+  "h24": {
+   "playCount": 301,
+   "likeCount": 11,
+   "commentCount": 1,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 11448,
+   "avgWatchedPct": 28.62,
+   "skipRate": 34.6,
+   "durationSeconds": 40,
+   "coletado": "2026-11-04T20:54Z",
+   "horas": 29.8
   }
  },
  "DfS3D5sgJwX": {
   "publicado": "2026-11-03T21:36:07.000Z",
   "legenda": "GTA 6 já tem data pra baixar antes 📥 a Rockstar confirmou o pré-download dia 10 ",
   "atual": {
-   "playCount": 1298,
-   "likeCount": 42,
+   "playCount": 1304,
+   "likeCount": 43,
    "commentCount": 0,
    "shares": 4,
    "saves": 4,
-   "avgWatchTimeMs": 10579,
-   "avgWatchedPct": 32.057575757575755,
-   "skipRate": 38.7,
+   "avgWatchTimeMs": 10540,
+   "avgWatchedPct": 31.94,
+   "skipRate": 38.8,
    "durationSeconds": 33,
-   "coletado": "2026-11-04T14:54Z",
-   "horas": 17.3
+   "coletado": "2026-11-04T20:54Z",
+   "horas": 23.3
   }
  },
  "DfTIKM8FcaF": {
   "publicado": "2026-11-04T00:05:16.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 158,
-   "likeCount": 2,
+   "playCount": 192,
+   "likeCount": 5,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 15059,
+   "avgWatchedPct": 47.06,
+   "skipRate": 36.6,
+   "durationSeconds": 32,
+   "coletado": "2026-11-04T20:54Z",
+   "horas": 20.8
+  }
+ },
+ "DfUvNfAEewa": {
+  "publicado": "2026-11-04T15:06:39.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 215,
+   "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 15183,
-   "avgWatchedPct": 47.446875,
-   "skipRate": 39.7,
-   "durationSeconds": 32,
-   "coletado": "2026-11-04T14:54Z",
-   "horas": 14.8
+   "avgWatchTimeMs": 10026,
+   "avgWatchedPct": 27.097,
+   "skipRate": 42.4,
+   "durationSeconds": 37,
+   "coletado": "2026-11-04T20:54Z",
+   "horas": 5.8
   }
  }
 }
