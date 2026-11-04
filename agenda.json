@@ -1402,7 +1402,7 @@
   {
    "data": "2026-11-04",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v68_perfil_criminal.mp4",
    "formato": "corte",
    "tema": "Perfil Criminal de GTA 6 (Profissional, Agressivo, Violento, Psicopata; estado Shattered quebra o perfil), segundo prévias via GTABase/PC Gamer, não confirmado pela Rockstar",
@@ -1416,7 +1416,9 @@
     "origem": "autoral",
     "fonte": "GTABase (02/10) e PC Gamer, prévias"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfVYtexIdQR/",
+   "hora_real": "18:08"
   }
  ]
 }
