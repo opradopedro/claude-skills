@@ -1363,7 +1363,7 @@
   {
    "data": "2026-11-03",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v66_sem_matar_ninguem.mp4",
    "formato": "corte",
    "tema": "GTA 6 permite estilo pacifista: tiro em braço/perna para incapacitar, tiro de aviso (supressão), NPCs fogem da arma, roubo de loja sem alarme (câmeras e fechadura), parar viatura sem matar policiais; algumas missões obrigam tiroteio (Rob Nelson, Rockstar North, via GTABase)",
@@ -1376,7 +1376,9 @@
     "gancho": "dá pra fazer um assalto em GTA 6 sem matar ninguém",
     "origem": "GTABase (Rob Nelson, Rockstar North)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfTIKM8FcaF/",
+   "publicado_em": "2026-11-03T21:05:25-03:00"
   }
  ]
 }
