@@ -1444,12 +1444,22 @@
   {
    "data": "2026-11-05",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v70_previsao_45_milhoes.mp4",
    "formato": "corte",
    "tema": "Previsão da Piper Sandler: GTA 6 pode vender 45+ mi de cópias no lançamento (modelo pelo tráfego do Reddit; GTA V vendeu 11,21 mi no 1º dia); dado real: 7,7 mi de reservas (Sensor Tower)",
    "capa": "45 milhões no lançamento?",
-   "capa_t": 25.5, "capa_embutida": true
+   "capa_t": 25.5,
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfXUGWik7W-/",
+   "hora_real": "12:12",
+   "legenda": "GTA 6 pode vender 45 milhões de cópias logo no lançamento? 🤯💰 um banco de investimento fez essa previsão e a internet rachou 😳\n\n📈 A Piper Sandler calculou o número olhando o movimento do Reddit do jogo\n🎮 Pra comparar: GTA 5 vendeu 11 milhões no primeiro dia, em 2013\n🤔 Muita gente duvida, porque a conta usa visita em fórum e não venda de verdade\n📊 O dado real até agora: quase 8 milhões de reservas (Sensor Tower)\n\nBate os 45 milhões ou é exagero? Comenta aí 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br 🚨\n\nFontes: Piper Sandler (via Wccftech/OpenCritic), Sensor Tower\n\n#gta6 #gtavi #rockstargames #gta #games",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vendas/numeros: previsão de 45 mi no lançamento (Piper Sandler) x 7,7 mi de reservas",
+    "gancho": "GTA 6 pode vender 45 milhões de cópias logo no lançamento?",
+    "origem": "Piper Sandler via Wccftech/OpenCritic; Sensor Tower"
+   }
   }
  ]
 }
