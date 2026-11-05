@@ -1,0 +1,15 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v71_galeria_lancamento.mp4",
+ "text": "Mano, a Rockstar acabou de soltar a Galeria de Lançamento de GTA 6: trinta e nove imagens novas, a duas semanas do jogo sair. Tem o Jason e a Lucia fugindo de moto de um assalto dentro de um shopping. Tem a Lucia mirando com a polícia logo atrás. Tem um pitbull com corrente de ouro, uma festa gigante no meio da mata e até o fundo do mar das Keys. E o pessoal da RockstarINTEL jura que um dos rostos novos é o rapper Kodak Black. Pode ser a última leva de fotos antes do dia dezenove. Qual dessas você quer ver primeiro no jogo? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "trinta e nove": "39",
+  "dezenove": "19"
+ },
+ "broll": [
+  "fotos/Jason_and_Lucia_17-117_b11r13mg5.jpg"
+ ],
+ "seed": 71,
+ "font": "../../assets/fonts/Anton.ttf"
+}

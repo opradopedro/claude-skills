@@ -2495,17 +2495,17 @@
   "publicado": "2026-11-04T00:05:16.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 217,
+   "playCount": 219,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 137511,
-   "avgWatchedPct": 429.72,
-   "skipRate": 35.1,
+   "avgWatchTimeMs": 136852,
+   "avgWatchedPct": 427.6625,
+   "skipRate": 34.9,
    "durationSeconds": 32,
-   "coletado": "2026-11-05T14:55Z",
-   "horas": 38.8
+   "coletado": "2026-11-05T20:53Z",
+   "horas": 44.8
   },
   "h24": {
    "playCount": 217,
@@ -2525,51 +2525,81 @@
   "publicado": "2026-11-04T15:06:39.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 431,
+   "playCount": 441,
    "likeCount": 14,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 10905,
-   "avgWatchedPct": 29.47,
+   "avgWatchTimeMs": 11174,
+   "avgWatchedPct": 30.2,
    "skipRate": 38.8,
    "durationSeconds": 37,
-   "coletado": "2026-11-05T14:55Z",
-   "horas": 23.8
+   "coletado": "2026-11-05T20:53Z",
+   "horas": 29.8
+  },
+  "h24": {
+   "playCount": 441,
+   "likeCount": 14,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 11174,
+   "avgWatchedPct": 30.2,
+   "skipRate": 38.8,
+   "durationSeconds": 37,
+   "coletado": "2026-11-05T20:53Z",
+   "horas": 29.8
   }
  },
  "DfVYtexIdQR": {
   "publicado": "2026-11-04T21:08:15.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 433,
-   "likeCount": 14,
+   "playCount": 478,
+   "likeCount": 16,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 10550,
-   "avgWatchedPct": 31.03,
-   "skipRate": 44.7,
+   "avgWatchTimeMs": 10913,
+   "avgWatchedPct": 32.09705882352941,
+   "skipRate": 44.1,
    "durationSeconds": 34,
-   "coletado": "2026-11-05T14:55Z",
-   "horas": 17.8
+   "coletado": "2026-11-05T20:53Z",
+   "horas": 23.8
   }
  },
  "DfVtA3tET7n": {
   "publicado": "2026-11-05T00:05:43.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 691,
-   "likeCount": 18,
+   "playCount": 855,
+   "likeCount": 19,
    "commentCount": 0,
    "shares": 0,
-   "saves": 2,
-   "avgWatchTimeMs": 14689,
-   "avgWatchedPct": 38.655,
-   "skipRate": 37.9,
+   "saves": 3,
+   "avgWatchTimeMs": 14685,
+   "avgWatchedPct": 38.64473684210527,
+   "skipRate": 38.3,
    "durationSeconds": 38,
-   "coletado": "2026-11-05T14:55Z",
-   "horas": 14.8
+   "coletado": "2026-11-05T20:53Z",
+   "horas": 20.8
+  }
+ },
+ "DfXUGWik7W-": {
+  "publicado": "2026-11-05T15:06:54.000Z",
+  "legenda": "GTA 6 pode vender 45 milhões de cópias logo no lançamento? 🤯💰 um banco de invest",
+  "atual": {
+   "playCount": 146,
+   "likeCount": 5,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 12651,
+   "avgWatchedPct": 34.19189189189189,
+   "skipRate": 41.2,
+   "durationSeconds": 37,
+   "coletado": "2026-11-05T20:53Z",
+   "horas": 5.8
   }
  }
 }

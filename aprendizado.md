@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 05/11/2026 11:55 (Brasília) com 68 Reels com nota. Média geral: 60.1/100.
+Atualizado em 05/11/2026 17:53 (Brasília) com 68 Reels com nota. Média geral: 60.1/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -34,18 +34,18 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | gameplay/mapa | 1 | 68.9 | 63.0 |  |
 | sistema de nojo e NPCs com memória | 1 | 68.1 | 62.7 |  |
 | lista/personagens | 1 | 67.4 | 62.5 |  |
-| regra contra spoiler do final / política de vídeos da Rockstar | 1 | 67.4 | 62.5 |  |
 | curiosidade/dinheiro | 1 | 66.9 | 62.3 |  |
+| regra contra spoiler do final / política de vídeos da Rockstar | 1 | 65.8 | 62.0 |  |
 | bastidores | 4 | 62.8 | 61.9 |  |
 | teoria | 1 | 65.2 | 61.8 |  |
 | noticia/polemica | 1 | 65.3 | 61.8 |  |
+| Perfil Criminal / sistema de moral | 1 | 65.2 | 61.8 |  |
 | pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida) | 1 | 64.8 | 61.6 |  |
-| Perfil Criminal / sistema de moral | 1 | 64.0 | 61.4 |  |
 | rumor/elenco | 1 | 63.3 | 61.1 |  |
 | pc | 1 | 62.8 | 61.0 |  |
 | GTA 6 no PC em 6-7 meses segundo Pachter | 1 | 61.4 | 60.5 |  |
 | recorde de intenção de compra (Circana) | 1 | 61.3 | 60.5 |  |
-| vendas/numeros: 7,7 mi de reservas e US$ 751 mi (Sensor Tower 03/11) | 1 | 60.0 | 60.0 |  |
+| vendas/numeros: 7,7 mi de reservas e US$ 751 mi (Sensor Tower 03/11) | 1 | 59.8 | 60.0 |  |
 | historia | 1 | 59.5 | 59.9 |  |
 | curiosidade/marketing | 1 | 59.5 | 59.9 |  |
 | boate NINE1NINE de verdade em Miami | 1 | 59.1 | 59.7 |  |
@@ -79,15 +79,15 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.6 | 64.2 |  |
 | noticia | 5 | 65.3 | 63.8 |  |
 | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.4 | 63.2 |  |
-| se você pensa em postar o final de GTA 6, para tudo | 1 | 67.4 | 62.5 |  |
 | votacao | 1 | 66.5 | 62.2 |  |
+| se você pensa em postar o final de GTA 6, para tudo | 1 | 65.8 | 62.0 |  |
+| GTA 6 vai te julgar por cada crime | 1 | 65.2 | 61.8 |  |
 | pergunta | 6 | 62.2 | 61.7 |  |
 | rumor + oficial | 1 | 65.0 | 61.7 |  |
 | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 1 | 64.8 | 61.6 |  |
-| GTA 6 vai te julgar por cada crime | 1 | 64.0 | 61.4 |  |
 | numero chocante | 6 | 61.7 | 61.3 |  |
 | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 1 | 61.4 | 60.5 |  |
-| numero_choque | 1 | 60.0 | 60.0 |  |
+| numero_choque | 1 | 59.8 | 60.0 |  |
 | vida real | 1 | 59.5 | 59.9 |  |
 | revelacao | 14 | 58.4 | 58.6 |  |
 | enquete | 7 | 57.2 | 57.8 |  |
@@ -166,9 +166,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| 21h | 20 | 63.0 | 62.8 |  |
+| 21h | 20 | 63.0 | 62.7 |  |
 | 12h | 23 | 60.9 | 60.9 |  |
-| 18h | 25 | 56.9 | 57.1 |  |
+| 18h | 25 | 56.9 | 57.2 |  |
 
 ## Reels
 
@@ -196,17 +196,17 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1322 | 37.1% | 33% | 34 | 0 | 3 | 2 | 68.1 (h72) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 67.4 (h72) |
-| 2026-11-04 | [DfVtA3tET7n](https://www.instagram.com/reel/DfVtA3tET7n/) | corte | regra contra spoiler do final / política de vídeos da Rockstar | se você pensa em postar o final de GTA 6, para tudo | 691 | 37.9% | 39% | 18 | 0 | 2 | 0 | 67.4 (provisória) |
 | 2026-10-28 | [DfDrYMklbDR](https://www.instagram.com/reel/DfDrYMklbDR/) | corte | curiosidade/dinheiro | numero chocante | 739 | 46.1% | 34% | 17 | 0 | 1 | 3 | 66.9 (h72) |
 | 2026-10-14 | [DefSM3xFcrX](https://www.instagram.com/reel/DefSM3xFcrX/) | corte | vazamentos | votacao | 1453 | 30.6% | 49% | 25 | 7 | 0 | 0 | 66.5 (h72) |
 | 2026-10-19 | [DerhBaEAqHr](https://www.instagram.com/reel/DerhBaEAqHr/) | corte | noticias | enquete | 178 | 29.9% | 34% | 7 | 1 | 0 | 1 | 65.8 (h72) |
+| 2026-11-04 | [DfVtA3tET7n](https://www.instagram.com/reel/DfVtA3tET7n/) | corte | regra contra spoiler do final / política de vídeos da Rockstar | se você pensa em postar o final de GTA 6, para tudo | 855 | 38.3% | 39% | 19 | 0 | 3 | 0 | 65.8 (provisória) |
 | 2026-10-24 | [De4Y-b1iLlh](https://www.instagram.com/reel/De4Y-b1iLlh/) | corte | gameplay/bastidores | curiosidade | 186 | 37.7% | 43% | 7 | 0 | 0 | 1 | 65.5 (h72) |
 | 2026-10-15 | [DehKLJggYHT](https://www.instagram.com/reel/DehKLJggYHT/) | corte | trailer | noticia | 145 | 37.4% | 45% | 6 | 0 | 2 | 0 | 65.4 (h72) |
 | 2026-10-22 | [DezPc0kEQ0t](https://www.instagram.com/reel/DezPc0kEQ0t/) | corte | noticia/polemica | revelacao | 147 | 37% | 44% | 7 | 0 | 0 | 0 | 65.3 (h24) |
 | 2026-10-12 | [DeaTN8uj8pd](https://www.instagram.com/reel/DeaTN8uj8pd/) | corte | teoria | pergunta | 163 | 32.6% | 46% | 6 | 0 | 0 | 0 | 65.2 (h24) |
+| 2026-11-04 | [DfVYtexIdQR](https://www.instagram.com/reel/DfVYtexIdQR/) | corte | Perfil Criminal / sistema de moral | GTA 6 vai te julgar por cada crime | 478 | 44.1% | 32% | 16 | 0 | 3 | 2 | 65.2 (provisória) |
 | 2026-10-23 | [De2xCB-lPHz](https://www.instagram.com/reel/De2xCB-lPHz/) | corte | musica/trilha | rumor + oficial | 870 | 40.3% | 26% | 23 | 0 | 3 | 0 | 65.0 (h72) |
 | 2026-11-03 | [DfSKanQk3bx](https://www.instagram.com/reel/DfSKanQk3bx/) | corte | pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida) | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 301 | 34.6% | 29% | 11 | 1 | 1 | 0 | 64.8 (h24) |
-| 2026-11-04 | [DfVYtexIdQR](https://www.instagram.com/reel/DfVYtexIdQR/) | corte | Perfil Criminal / sistema de moral | GTA 6 vai te julgar por cada crime | 433 | 44.7% | 31% | 14 | 0 | 3 | 2 | 64.0 (provisória) |
 | 2026-10-24 | [De5YjsmD6Qp](https://www.instagram.com/reel/De5YjsmD6Qp/) | corte | alerta/utilidade | alerta | 1207 | 48.6% | 27% | 25 | 0 | 1 | 6 | 63.3 (h72) |
 | 2026-10-26 | [De-iSVCgMpg](https://www.instagram.com/reel/De-iSVCgMpg/) | corte | rumor/elenco | polemica | 1344 | 31.7% | 48% | 28 | 0 | 1 | 0 | 63.3 (h72) |
 | 2026-10-15 | [Deh27W5AUHm](https://www.instagram.com/reel/Deh27W5AUHm/) | corte | pc | noticia | 1181 | 42.5% | 32% | 28 | 1 | 0 | 3 | 62.8 (h72) |
@@ -216,7 +216,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-20 | [DeuFyvkjU1q](https://www.instagram.com/reel/DeuFyvkjU1q/) | corte | noticias | enquete | 136 | 37.1% | 29% | 5 | 0 | 1 | 1 | 61.3 (h72) |
 | 2026-11-01 | [DfNAhuBkbE8](https://www.instagram.com/reel/DfNAhuBkbE8/) | corte | recorde de intenção de compra (Circana) | pergunta | 179 | 41.9% | 33% | 3 | 0 | 0 | 12 | 61.3 (h24) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 60.4 (h24) |
-| 2026-11-04 | [DfUvNfAEewa](https://www.instagram.com/reel/DfUvNfAEewa/) | corte | vendas/numeros: 7,7 mi de reservas e US$ 751 mi (Sensor Tower 03/11) | numero_choque | 431 | 38.8% | 29% | 14 | 0 | 0 | 0 | 60.0 (provisória) |
+| 2026-11-04 | [DfUvNfAEewa](https://www.instagram.com/reel/DfUvNfAEewa/) | corte | vendas/numeros: 7,7 mi de reservas e US$ 751 mi (Sensor Tower 03/11) | numero_choque | 441 | 38.8% | 30% | 14 | 0 | 0 | 0 | 59.8 (h24) |
 | 2026-10-18 | [Dep6MPzlVqQ](https://www.instagram.com/reel/Dep6MPzlVqQ/) | corte | historia | enquete | 160 | 43.8% | 29% | 10 | 0 | 0 | 0 | 59.5 (h72) |
 | 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 59.5 (h72) |
 | 2026-10-31 | [DfKcAJ2AvuU](https://www.instagram.com/reel/DfKcAJ2AvuU/) | corte | boate NINE1NINE de verdade em Miami | revelacao | 221 | 41.9% | 33% | 8 | 0 | 0 | 0 | 59.1 (h72) |
@@ -242,3 +242,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 34.1 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 30.5 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 27.5 (h24) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DfXUGWik7W-](https://www.instagram.com/reel/DfXUGWik7W-/): 5.8 h no ar, 146 views, 41.2% pularam, 34% assistido, 5 curtidas
