@@ -67,13 +67,20 @@ def capas(feitos, dry):
         return
     tk = token()
     for arq, info in pend:
-        if not por_capa(info["link"].rsplit("/", 1)[-1], capa_de(os.path.join(RAIZ, arq)), tk):
+        ok = por_capa(info["link"].rsplit("/", 1)[-1], capa_de(os.path.join(RAIZ, arq)), tk)
+        if ok == "limite":
+            print("capas no YouTube: limite atingido, o resto entra nas próximas rodadas")
+            return
+        if ok is None:
+            info["capa"] = "vídeo removido do YouTube"
+        elif not ok:
             print("capas no YouTube: canal ainda não liberado (youtube.com/verify)")
             return
-        info["capa"] = True
+        else:
+            info["capa"] = True
         with open(os.path.join(RAIZ, "youtube/publicados.json"), "w", encoding="utf-8") as f:
             json.dump(feitos, f, ensure_ascii=False, indent=1)
-        print("capa aplicada:", arq)
+        print("capa aplicada:" if ok else "vídeo removido, sem capa:", arq)
 
 
 if __name__ == "__main__":

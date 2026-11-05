@@ -15,7 +15,7 @@ def token():
 
 
 def por_capa(vid, jpg, tk=None):
-    """thumbnails.set; devolve True se a capa entrou, False se o canal ainda não pode (403)."""
+    """thumbnails.set; devolve True se a capa entrou, False se o canal ainda não pode (403), None se o vídeo sumiu (404)."""
     with open(jpg, "rb") as f:
         r = urllib.request.Request(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}",
                                    data=f.read(), method="POST",
@@ -27,6 +27,12 @@ def por_capa(vid, jpg, tk=None):
         if e.code in (400, 403):
             print("capa não aplicada:", e.code, e.read()[:300].decode("utf-8", "ignore"), file=sys.stderr)
             return False
+        if e.code == 429:
+            print("capa não aplicada: limite de capas do YouTube por agora (429)", file=sys.stderr)
+            return "limite"
+        if e.code == 404:
+            print("capa não aplicada: vídeo não existe mais", vid, file=sys.stderr)
+            return None
         raise
 
 
