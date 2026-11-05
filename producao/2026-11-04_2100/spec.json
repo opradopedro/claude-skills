@@ -1,0 +1,23 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v69_final_spoiler.mp4",
+ "text": "Mano, se você pensa em postar o final de GTA 6, para tudo. A política de direitos autorais da Rockstar proíbe vídeo mostrando o final do jogo, e também aqueles cortes juntando só as cutscenes da história. Pensa comigo: live da campanha inteira pode, e Let's Play narrado também. Mas o vídeo só com a cena do final pode ser derrubado. E vale até pros programas de TV e shows de comédia de dentro do jogo. A regra não é nova, mas com o lançamento dia dezenove ela vai pesar. E você, vai fugir de spoiler ou vai zerar no primeiro fim de semana? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "tv",
+  "redes-sociais",
+  "jason",
+  "lucia",
+  "noite",
+  "cidade",
+  "festa",
+  "carro",
+  "acao",
+  "fuga"
+ ],
+ "seed": 69,
+ "font": "../../assets/fonts/Anton.ttf"
+}

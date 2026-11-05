@@ -2444,8 +2444,8 @@
    "avgWatchedPct": 28.62,
    "skipRate": 34.6,
    "durationSeconds": 40,
-   "coletado": "2026-11-04T20:54Z",
-   "horas": 29.8
+   "coletado": "2026-11-04T23:54Z",
+   "horas": 32.8
   },
   "h24": {
    "playCount": 301,
@@ -2474,42 +2474,72 @@
    "avgWatchedPct": 31.94,
    "skipRate": 38.8,
    "durationSeconds": 33,
-   "coletado": "2026-11-04T20:54Z",
-   "horas": 23.3
+   "coletado": "2026-11-04T23:54Z",
+   "horas": 26.3
+  },
+  "h24": {
+   "playCount": 1304,
+   "likeCount": 43,
+   "commentCount": 0,
+   "shares": 4,
+   "saves": 4,
+   "avgWatchTimeMs": 10540,
+   "avgWatchedPct": 31.94,
+   "skipRate": 38.8,
+   "durationSeconds": 33,
+   "coletado": "2026-11-04T23:54Z",
+   "horas": 26.3
   }
  },
  "DfTIKM8FcaF": {
   "publicado": "2026-11-04T00:05:16.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 192,
+   "playCount": 202,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 15059,
-   "avgWatchedPct": 47.06,
-   "skipRate": 36.6,
+   "avgWatchTimeMs": 15376,
+   "avgWatchedPct": 48.05,
+   "skipRate": 35.7,
    "durationSeconds": 32,
-   "coletado": "2026-11-04T20:54Z",
-   "horas": 20.8
+   "coletado": "2026-11-04T23:54Z",
+   "horas": 23.8
   }
  },
  "DfUvNfAEewa": {
   "publicado": "2026-11-04T15:06:39.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 215,
+   "playCount": 239,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 10026,
-   "avgWatchedPct": 27.097,
-   "skipRate": 42.4,
+   "avgWatchTimeMs": 10289,
+   "avgWatchedPct": 27.81,
+   "skipRate": 40.8,
    "durationSeconds": 37,
-   "coletado": "2026-11-04T20:54Z",
-   "horas": 5.8
+   "coletado": "2026-11-04T23:54Z",
+   "horas": 8.8
+  }
+ },
+ "DfVYtexIdQR": {
+  "publicado": "2026-11-04T21:08:15.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 236,
+   "likeCount": 11,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 2,
+   "avgWatchTimeMs": 10427,
+   "avgWatchedPct": 30.67,
+   "skipRate": 39.6,
+   "durationSeconds": 34,
+   "coletado": "2026-11-04T23:54Z",
+   "horas": 2.8
   }
  }
 }

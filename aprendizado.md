@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 04/11/2026 17:54 (Brasília) com 65 Reels com nota. Média geral: 60.4/100.
+Atualizado em 04/11/2026 20:54 (Brasília) com 65 Reels com nota. Média geral: 60.4/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -31,9 +31,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | 1 | 70.0 | 63.6 |  |
 | pré-download oficial dia 10 e 212 GB | 1 | 69.4 | 63.4 |  |
 | gameplay/mapa | 1 | 68.9 | 63.2 |  |
+| combate não letal / jogar GTA 6 sem matar | 1 | 68.8 | 63.2 |  |
 | lista/personagens | 1 | 68.3 | 63.0 |  |
 | sistema de nojo e NPCs com memória | 1 | 68.1 | 63.0 |  |
-| combate não letal / jogar GTA 6 sem matar | 1 | 68.3 | 63.0 |  |
 | curiosidade/dinheiro | 1 | 66.9 | 62.6 |  |
 | pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida) | 1 | 66.9 | 62.6 |  |
 | teoria | 1 | 66.3 | 62.4 |  |
@@ -75,7 +75,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.6 | 64.5 |  |
 | noticia | 5 | 65.7 | 64.2 |  |
 | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.4 | 63.4 |  |
-| dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 68.3 | 63.0 |  |
+| dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 68.8 | 63.2 |  |
 | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 1 | 66.9 | 62.6 |  |
 | votacao | 1 | 66.5 | 62.4 |  |
 | pergunta | 6 | 62.9 | 62.3 |  |
@@ -85,11 +85,11 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | vida real | 1 | 59.5 | 60.1 |  |
 | revelacao | 14 | 59.1 | 59.3 |  |
 | enquete | 7 | 58.1 | 58.6 |  |
-| mentira_verdade | 2 | 54.5 | 57.4 |  |
+| mentira_verdade | 2 | 54.5 | 57.5 |  |
 | curiosidade + preço | 1 | 51.0 | 57.3 |  |
 | polemica | 2 | 53.4 | 56.9 |  |
 | alerta | 3 | 54.2 | 56.7 |  |
-| curiosidade | 4 | 52.8 | 55.3 |  |
+| curiosidade | 4 | 52.8 | 55.4 |  |
 | lista | 3 | 51.7 | 55.2 | pausado |
 
 ## Origem
@@ -111,10 +111,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA BOOM 29/10 + comunicado de Miami-Dade | 1 | 70.0 | 63.6 |  |
 | Rockstar via VGTimes 03/11 | 1 | 69.4 | 63.4 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 68.9 | 63.2 |  |
+| GTABase (Rob Nelson, Rockstar North) | 1 | 68.8 | 63.2 |  |
 | Game Informer via Dexerto 29/09 | 1 | 68.5 | 63.1 |  |
 | site oficial da Rockstar (via Push Square) | 1 | 68.3 | 63.0 |  |
 | GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo) | 1 | 68.1 | 63.0 |  |
-| GTABase (Rob Nelson, Rockstar North) | 1 | 68.3 | 63.0 |  |
 | gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download) | 1 | 67.7 | 62.8 |  |
 | The Game Business via Beebom 16/10 | 1 | 67.0 | 62.6 |  |
 | VGTimes 28/10 (concurso Virgin Media Ireland) | 1 | 66.9 | 62.6 |  |
@@ -160,7 +160,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| 21h | 19 | 62.8 | 62.6 |  |
+| 21h | 19 | 62.9 | 62.6 |  |
 | 12h | 22 | 61.7 | 61.6 |  |
 | 18h | 24 | 57.2 | 57.5 |  |
 
@@ -182,12 +182,12 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-22 | [De0NOukCfyi](https://www.instagram.com/reel/De0NOukCfyi/) | corte | curiosidade/economia | numero chocante | 1450 | 38.9% | 37% | 43 | 1 | 0 | 6 | 70.7 (h72) |
 | 2026-10-27 | [DfA0VzqASHS](https://www.instagram.com/reel/DfA0VzqASHS/) | corte | alerta/utilidade | numero chocante | 1485 | 38.2% | 36% | 53 | 0 | 3 | 17 | 70.5 (h72) |
 | 2026-10-31 | [DfLFD2VjsfZ](https://www.instagram.com/reel/DfLFD2VjsfZ/) | corte | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | revelacao | 1323 | 43.5% | 41% | 64 | 0 | 5 | 3 | 70.0 (h72) |
-| 2026-11-03 | [DfS3D5sgJwX](https://www.instagram.com/reel/DfS3D5sgJwX/) | corte | pré-download oficial dia 10 e 212 GB | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1304 | 38.8% | 32% | 43 | 0 | 4 | 4 | 69.4 (provisória) |
+| 2026-11-03 | [DfS3D5sgJwX](https://www.instagram.com/reel/DfS3D5sgJwX/) | corte | pré-download oficial dia 10 e 212 GB | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1304 | 38.8% | 32% | 43 | 0 | 4 | 4 | 69.4 (h24) |
 | 2026-10-13 | [DectbiBAgte](https://www.instagram.com/reel/DectbiBAgte/) | corte | gameplay | comparacao | 1329 | 38.3% | 33% | 52 | 0 | 0 | 0 | 69.2 (h24) |
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 827 | 39.7% | 31% | 26 | 0 | 3 | 4 | 68.9 (h72) |
+| 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 202 | 35.7% | 48% | 5 | 0 | 1 | 0 | 68.8 (provisória) |
 | 2026-10-20 | [DevDjNqkdcV](https://www.instagram.com/reel/DevDjNqkdcV/) | corte | gameplay | pergunta | 1220 | 44% | 36% | 48 | 0 | 0 | 4 | 68.5 (h72) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 68.3 (h72) |
-| 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 192 | 36.6% | 47% | 5 | 0 | 1 | 0 | 68.3 (provisória) |
 | 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1322 | 37.1% | 33% | 34 | 0 | 3 | 2 | 68.1 (h72) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
 | 2026-10-19 | [DerhBaEAqHr](https://www.instagram.com/reel/DerhBaEAqHr/) | corte | noticias | enquete | 178 | 29.9% | 34% | 7 | 1 | 0 | 1 | 67.0 (h72) |
@@ -236,4 +236,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DfUvNfAEewa](https://www.instagram.com/reel/DfUvNfAEewa/): 5.8 h no ar, 215 views, 42.4% pularam, 27% assistido, 5 curtidas
+- [DfUvNfAEewa](https://www.instagram.com/reel/DfUvNfAEewa/): 8.8 h no ar, 239 views, 40.8% pularam, 28% assistido, 5 curtidas
+- [DfVYtexIdQR](https://www.instagram.com/reel/DfVYtexIdQR/): 2.8 h no ar, 236 views, 39.6% pularam, 31% assistido, 11 curtidas
