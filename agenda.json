@@ -1423,7 +1423,7 @@
   {
    "data": "2026-11-04",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v69_final_spoiler.mp4",
    "formato": "corte",
    "tema": "Política de direitos autorais da Rockstar: vídeo do final e compilados de cutscenes podem ser derrubados; campanha completa e Let's Play narrado podem; vale para TV/comédia do jogo (página de suporte, atualizada jan/2025; repercussão VGTimes/Combo Infinito nov/2026)",
@@ -1437,7 +1437,9 @@
     "origem": "autoral",
     "fonte": "Rockstar Support (política de material com copyright) via VGTimes e Combo Infinito"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfVtA3tET7n/",
+   "hora_real": "21:05"
   }
  ]
 }
