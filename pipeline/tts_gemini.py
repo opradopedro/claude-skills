@@ -65,6 +65,15 @@ def gravar(src, out, voice):
     for p in part.get("mimeType", "").split(";"):
         if p.strip().startswith("rate="):
             rate = int(p.split("=")[1])
+    # ESTATICA DE TV (Pedro, 05/11: "em nenhum video de nenhuma pagina"): o Gemini as vezes cola ~0,13 s de ruido
+    # branco na gravacao, mais alto que a voz; o silenceremove nao tira (nao e silencio). estatica.py corta.
+    try:
+        import numpy as np
+        from estatica import tirar_estatica
+        x = np.frombuffer(pcm, "<i2").astype("float32") / 32768
+        pcm = (np.clip(tirar_estatica(x, rate, "voz do Radar"), -1, 1) * 32767).astype("<i2").tobytes()
+    except ImportError:
+        print("aviso: numpy ausente, estatica do Gemini nao conferida", file=sys.stderr)
     with tempfile.NamedTemporaryFile(suffix=".pcm", delete=False) as f:
         f.write(pcm)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "s16le", "-ar", str(rate), "-ac", "1", "-i", f.name,

@@ -5,6 +5,8 @@ pipeline/sincronia.py) e compara com o instante em que cada palavra entra na tel
 Passa se toda palavra entrar entre 0,12 s antes e 0,07 s depois da voz e áudio e vídeo começarem juntos.
 Sai com código 1 e "ATENÇÃO LEGENDA FORA DA VOZ" se reprovar: não publique, refaça o auto_short.py + make_short.py.
 
+Também barra ESTÁTICA DE TV (ruído branco do Gemini) em qualquer ponto do vídeo (pipeline/estatica.py, 05/11).
+
 Uso: python3 pipeline/checar_sync.py producao/AAAA-MM-DD_HHMM   (pasta com config.json e o MP4 do "out")
 """
 import json, math, os, sys
@@ -30,4 +32,15 @@ if ruins or not tr["ok"]:
     for _, r in sorted(ruins, reverse=True)[:8]:
         print("  ", r)
     sys.exit(1)
-print(f"OK legenda colada na voz ({len(pal)} palavras)")
+# ESTATICA DE TV (Pedro, 05/11: "em nenhum video de nenhuma pagina"): ruido branco do Gemini em qualquer ponto do MP4
+import subprocess  # noqa: E402
+import numpy as np  # noqa: E402
+from estatica import achar_estatica  # noqa: E402
+raw = subprocess.run(["ffmpeg", "-v", "error", "-i", video, "-vn", "-ac", "1", "-ar", "48000", "-f", "f32le", "-"],
+                     capture_output=True, check=True).stdout
+est = [(i / 48000, (j - i) / 48000) for i, j in achar_estatica(np.frombuffer(raw, np.float32), 48000) if (j - i) / 48000 >= 0.08]
+if est:
+    print("ATENÇÃO CHIADO NO VIDEO: estatica de TV em " + ", ".join(f"{t:.2f}s ({d:.2f}s)" for t, d in est)
+          + " — não publique, grave a voz de novo")
+    sys.exit(1)
+print(f"OK legenda colada na voz ({len(pal)} palavras), sem estatica")
