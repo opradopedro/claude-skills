@@ -1464,12 +1464,23 @@
   {
    "data": "2026-11-05",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v71_galeria_lancamento.mp4",
    "formato": "corte",
    "tema": "Galeria de Lançamento: Rockstar solta 39 imagens novas de GTA 6 (05/11): fuga de moto de assalto em shopping, Lucia com polícia atrás, pitbull com corrente de ouro, festa na mata, fundo do mar das Keys; RockstarINTEL diz que um rosto é o Kodak Black",
    "capa": "39 imagens novas",
-   "capa_t": 5.5, "capa_embutida": true
+   "capa_t": 5.5,
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfX9Saomzze/",
+   "hora_real": "18:06",
+   "legenda": "GTA 6 ganhou 39 imagens novas hoje 📸🔥 a Rockstar soltou a \"Galeria de Lançamento\" a 2 semanas do jogo sair 😳\n\n🏍️ Jason e Lucia fugindo de moto de um assalto dentro de um shopping\n🚔 Lucia mirando com a polícia logo atrás\n🐶 Pitbull com corrente de ouro, festa gigante no meio da mata e até o fundo do mar das Keys\n🎤 O RockstarINTEL diz que um dos rostos novos é o rapper Kodak Black\n\nPode ser a última leva de fotos antes do dia 19/11. Qual dessas você quer ver primeiro no jogo? Manda pra quem vai jogar GTA 6 com você 👊\n\nFonte: Rockstar Games / RockstarINTEL\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity",
+   "ficha": {
+    "formato": "corte",
+    "tema": "imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11)",
+    "gancho": "39 imagens novas hoje",
+    "origem": "rockstarintel.com/39-new-gta-6-screenshots-released-for-launch; videogameschronicle.com; pcgamer.com",
+    "visual": "as próprias screenshots novas (regra 6), cada uma na fala que a descreve"
+   }
   }
  ]
 }
