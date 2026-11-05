@@ -1440,6 +1440,16 @@
    "capa_embutida": true,
    "link": "https://www.instagram.com/reel/DfVtA3tET7n/",
    "hora_real": "21:05"
+  },
+  {
+   "data": "2026-11-05",
+   "hora": "12:00",
+   "status": "pendente",
+   "arquivo": "radar_v70_previsao_45_milhoes.mp4",
+   "formato": "corte",
+   "tema": "Previsão da Piper Sandler: GTA 6 pode vender 45+ mi de cópias no lançamento (modelo pelo tráfego do Reddit; GTA V vendeu 11,21 mi no 1º dia); dado real: 7,7 mi de reservas (Sensor Tower)",
+   "capa": "45 milhões no lançamento?",
+   "capa_t": 25.5, "capa_embutida": true
   }
  ]
 }
