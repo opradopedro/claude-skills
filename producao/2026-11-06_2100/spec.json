@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v75_take_two_ultima_reuniao.mp4",
+ "text": "Mano, na segunda-feira, dia nove, a dona da Rockstar faz a última reunião com investidores antes do GTA 6 sair. É a Take-Two, e vai ser só dez dias antes do lançamento. Pensa comigo: é nessa hora que eles costumam soltar número oficial. Pode vir quantas reservas o jogo já tem, se a data de dezenove de novembro segue firme e, quem sabe, alguma pista da versão de PC. Em maio eles já tinham garantido a data e prometido o maior ano da história da empresa. Você acha que vem notícia boa ou bomba? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "cidade",
+  "noite",
+  "acao",
+  "carro",
+  "dinheiro",
+  "gameplay"
+ ],
+ "seed": 75,
+ "font": "../../assets/fonts/Anton.ttf"
+}

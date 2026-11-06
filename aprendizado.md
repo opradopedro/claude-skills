@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 06/11/2026 17:53 (Brasília) com 71 Reels com nota. Média geral: 60.3/100.
+Atualizado em 06/11/2026 20:53 (Brasília) com 71 Reels com nota. Média geral: 60.3/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -19,7 +19,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | combate não letal / jogar GTA 6 sem matar | 1 | 79.0 | 66.5 |  |
 | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | 1 | 73.7 | 64.8 |  |
-| horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | 1 | 73.6 | 64.7 |  |
+| horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | 1 | 73.5 | 64.7 |  |
 | gameplay | 2 | 68.8 | 64.6 |  |
 | premiacao | 1 | 73.2 | 64.6 |  |
 | alerta/utilidade | 3 | 67.2 | 64.4 |  |
@@ -31,7 +31,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | curiosidade/economia | 1 | 70.7 | 63.8 |  |
 | preco_compra | 2 | 66.7 | 63.5 |  |
 | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | 1 | 70.0 | 63.5 |  |
-| pré-download oficial dia 10 e 212 GB | 1 | 69.4 | 63.3 |  |
+| pré-download oficial dia 10 e 212 GB | 1 | 69.3 | 63.3 |  |
 | gameplay/mapa | 1 | 68.9 | 63.2 |  |
 | sistema de nojo e NPCs com memória | 1 | 68.1 | 62.9 |  |
 | lista/personagens | 1 | 67.5 | 62.7 |  |
@@ -79,10 +79,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 79.0 | 66.5 |  |
 | comparacao | 3 | 70.3 | 66.3 |  |
 | GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.8 |  |
-| tem gente que vai jogar 16 horas antes de você | 1 | 73.6 | 64.7 |  |
+| tem gente que vai jogar 16 horas antes de você | 1 | 73.5 | 64.7 |  |
 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.6 | 64.4 |  |
 | noticia | 5 | 65.3 | 63.9 |  |
-| a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.4 | 63.3 |  |
+| a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.3 | 63.3 |  |
 | se você pensa em postar o final de GTA 6, para tudo | 1 | 67.6 | 62.7 |  |
 | votacao | 1 | 66.5 | 62.4 |  |
 | GTA 6 vai te julgar por cada crime | 1 | 65.5 | 62.0 |  |
@@ -112,7 +112,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | RockstarINTEL 26/10 (NateTheHate) | 1 | 77.5 | 66.0 |  |
 | GamesRadar 16/10 | 1 | 76.0 | 65.5 |  |
 | GTA BOOM 27/10 (Ray Ampoloquio) | 1 | 73.7 | 64.8 |  |
-| vice.com/en/article/gta-6-midnight-release-times-file-size-preload (03/11) | 1 | 73.6 | 64.7 |  |
+| vice.com/en/article/gta-6-midnight-release-times-file-size-preload (03/11) | 1 | 73.5 | 64.7 |  |
 | Kotaku 15/10 (FAQ do The Game Awards) | 1 | 73.2 | 64.6 |  |
 | noticia (Rob Nelson via IGN/Insider Gaming) | 1 | 72.9 | 64.5 |  |
 | VGTimes 03/11 (post viral no X) | 1 | 72.6 | 64.4 |  |
@@ -123,7 +123,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | IBTimes UK (José García Montalvo, Universidade Pompeu Fabra) | 1 | 70.7 | 63.8 |  |
 | VGTimes 27/10 (PlayStation Game Size, banco da PSN) | 1 | 70.5 | 63.7 |  |
 | GTA BOOM 29/10 + comunicado de Miami-Dade | 1 | 70.0 | 63.5 |  |
-| Rockstar via VGTimes 03/11 | 1 | 69.4 | 63.3 |  |
+| Rockstar via VGTimes 03/11 | 1 | 69.3 | 63.3 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 68.9 | 63.2 |  |
 | Game Informer via Dexerto 29/09 | 1 | 68.5 | 63.0 |  |
 | GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo) | 1 | 68.1 | 62.9 |  |
@@ -187,7 +187,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
 | 2026-10-17 | [DemXZASj3oQ](https://www.instagram.com/reel/DemXZASj3oQ/) | corte | bastidores | noticia | 1463 | 31.3% | 48% | 52 | 0 | 2 | 1 | 76.0 (h72) |
 | 2026-11-01 | [DfN-d34Eow-](https://www.instagram.com/reel/DfN-d34Eow-/) | corte | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | GTA 6 pode perder o Jogo do Ano | 1268 | 35.6% | 45% | 51 | 0 | 1 | 0 | 73.7 (h24) |
-| 2026-11-05 | [DfYRV6llI_F](https://www.instagram.com/reel/DfYRV6llI_F/) | corte | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | tem gente que vai jogar 16 horas antes de você | 1462 | 31.8% | 39% | 48 | 0 | 7 | 5 | 73.6 (provisória) |
+| 2026-11-05 | [DfYRV6llI_F](https://www.instagram.com/reel/DfYRV6llI_F/) | corte | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | tem gente que vai jogar 16 horas antes de você | 1473 | 32% | 39% | 48 | 0 | 7 | 5 | 73.5 (provisória) |
 | 2026-10-17 | [DenAhZZCOCA](https://www.instagram.com/reel/DenAhZZCOCA/) | corte | premiacao | enquete | 1871 | 36.9% | 44% | 49 | 0 | 3 | 15 | 73.2 (h72) |
 | 2026-10-12 | [DeZjgTSD3Aw](https://www.instagram.com/reel/DeZjgTSD3Aw/) | corte | preco_compra | comparacao | 1237 | 35.7% | 42% | 44 | 0 | 2 | 1 | 72.9 (h24) |
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
@@ -199,7 +199,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-22 | [De0NOukCfyi](https://www.instagram.com/reel/De0NOukCfyi/) | corte | curiosidade/economia | numero chocante | 1450 | 38.9% | 37% | 43 | 1 | 0 | 6 | 70.7 (h72) |
 | 2026-10-27 | [DfA0VzqASHS](https://www.instagram.com/reel/DfA0VzqASHS/) | corte | alerta/utilidade | numero chocante | 1485 | 38.2% | 36% | 53 | 0 | 3 | 17 | 70.5 (h72) |
 | 2026-10-31 | [DfLFD2VjsfZ](https://www.instagram.com/reel/DfLFD2VjsfZ/) | corte | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | revelacao | 1323 | 43.5% | 41% | 64 | 0 | 5 | 3 | 70.0 (h72) |
-| 2026-11-03 | [DfS3D5sgJwX](https://www.instagram.com/reel/DfS3D5sgJwX/) | corte | pré-download oficial dia 10 e 212 GB | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1304 | 38.8% | 32% | 43 | 0 | 4 | 4 | 69.4 (h24) |
+| 2026-11-03 | [DfS3D5sgJwX](https://www.instagram.com/reel/DfS3D5sgJwX/) | corte | pré-download oficial dia 10 e 212 GB | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1311 | 39.1% | 32% | 43 | 0 | 4 | 4 | 69.3 (h72) |
 | 2026-10-13 | [DectbiBAgte](https://www.instagram.com/reel/DectbiBAgte/) | corte | gameplay | comparacao | 1329 | 38.3% | 33% | 52 | 0 | 0 | 0 | 69.2 (h24) |
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 827 | 39.7% | 31% | 26 | 0 | 3 | 4 | 68.9 (h72) |
 | 2026-10-20 | [DevDjNqkdcV](https://www.instagram.com/reel/DevDjNqkdcV/) | corte | gameplay | pergunta | 1220 | 44% | 36% | 48 | 0 | 0 | 4 | 68.5 (h72) |
@@ -223,7 +223,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-20 | [Deuu91Skz6q](https://www.instagram.com/reel/Deuu91Skz6q/) | corte | bastidores | pergunta | 146 | 43.8% | 40% | 5 | 0 | 0 | 1 | 62.1 (h72) |
 | 2026-10-18 | [DeplZ4bk8TX](https://www.instagram.com/reel/DeplZ4bk8TX/) | corte | trailer | enquete | 151 | 31.5% | 42% | 5 | 0 | 0 | 0 | 61.8 (h72) |
 | 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 486 | 49% | 23% | 18 | 0 | 2 | 3 | 61.8 (h72) |
-| 2026-11-05 | [DfX9Saomzze](https://www.instagram.com/reel/DfX9Saomzze/) | corte | imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11) | 39 imagens novas hoje | 139 | 40.5% | 34% | 9 | 0 | 1 | 0 | 61.8 (provisória) |
+| 2026-11-05 | [DfX9Saomzze](https://www.instagram.com/reel/DfX9Saomzze/) | corte | imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11) | 39 imagens novas hoje | 139 | 40.5% | 34% | 9 | 0 | 1 | 0 | 61.8 (h24) |
 | 2026-11-01 | [DfNAhuBkbE8](https://www.instagram.com/reel/DfNAhuBkbE8/) | corte | recorde de intenção de compra (Circana) | pergunta | 179 | 41.9% | 33% | 3 | 0 | 0 | 12 | 61.5 (h24) |
 | 2026-10-20 | [DeuFyvkjU1q](https://www.instagram.com/reel/DeuFyvkjU1q/) | corte | noticias | enquete | 136 | 37.1% | 29% | 5 | 0 | 1 | 1 | 61.4 (h72) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 60.5 (h24) |
@@ -257,4 +257,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DfZ4kfAAo1K](https://www.instagram.com/reel/DfZ4kfAAo1K/): 5.8 h no ar, 290 views, 37.6% pularam, 28% assistido, 10 curtidas
+- [DfZ4kfAAo1K](https://www.instagram.com/reel/DfZ4kfAAo1K/): 8.8 h no ar, 303 views, 37.3% pularam, 28% assistido, 10 curtidas
+- [DfahWtwmbOc](https://www.instagram.com/reel/DfahWtwmbOc/): 2.9 h no ar, 146 views, 48.8% pularam, 22% assistido, 5 curtidas
