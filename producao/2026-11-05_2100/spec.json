@@ -1,0 +1,22 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v72_meia_noite_nova_zelandia.mp4",
+ "text": "Mano, tem gente que vai jogar GTA 6 dezesseis horas antes de você. A Rockstar confirmou que o jogo libera à meia-noite do horário local de cada país. Pensa comigo: meia-noite do dia dezenove na Nova Zelândia é oito da manhã do dia dezoito aqui no Brasil. Ou seja, enquanto você tá no trabalho ou na escola, tem gringo já roubando carro em Leonida. Aqui no PS5 libera à meia-noite do dia dezenove, no seu horário. Então o dia dezoito inteiro vai ser campo minado de spoiler. Você vai virar a noite esperando ou vai jogar só de manhã? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "noite",
+  "cidade",
+  "carro",
+  "acao",
+  "fuga",
+  "festa",
+  "praia"
+ ],
+ "seed": 72,
+ "font": "../../assets/fonts/Anton.ttf"
+}

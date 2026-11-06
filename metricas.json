@@ -2534,8 +2534,8 @@
    "avgWatchedPct": 30.2,
    "skipRate": 38.8,
    "durationSeconds": 37,
-   "coletado": "2026-11-05T20:53Z",
-   "horas": 29.8
+   "coletado": "2026-11-05T23:53Z",
+   "horas": 32.8
   },
   "h24": {
    "playCount": 441,
@@ -2555,34 +2555,47 @@
   "publicado": "2026-11-04T21:08:15.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 478,
+   "playCount": 479,
    "likeCount": 16,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 10913,
-   "avgWatchedPct": 32.09705882352941,
-   "skipRate": 44.1,
+   "avgWatchTimeMs": 10906,
+   "avgWatchedPct": 32.08,
+   "skipRate": 44.2,
    "durationSeconds": 34,
-   "coletado": "2026-11-05T20:53Z",
-   "horas": 23.8
+   "coletado": "2026-11-05T23:53Z",
+   "horas": 26.8
+  },
+  "h24": {
+   "playCount": 479,
+   "likeCount": 16,
+   "commentCount": 0,
+   "shares": 2,
+   "saves": 3,
+   "avgWatchTimeMs": 10906,
+   "avgWatchedPct": 32.08,
+   "skipRate": 44.2,
+   "durationSeconds": 34,
+   "coletado": "2026-11-05T23:53Z",
+   "horas": 26.8
   }
  },
  "DfVtA3tET7n": {
   "publicado": "2026-11-05T00:05:43.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 855,
-   "likeCount": 19,
+   "playCount": 961,
+   "likeCount": 25,
    "commentCount": 0,
    "shares": 0,
    "saves": 3,
-   "avgWatchTimeMs": 14685,
-   "avgWatchedPct": 38.64473684210527,
-   "skipRate": 38.3,
+   "avgWatchTimeMs": 15301,
+   "avgWatchedPct": 40.27,
+   "skipRate": 38.8,
    "durationSeconds": 38,
-   "coletado": "2026-11-05T20:53Z",
-   "horas": 20.8
+   "coletado": "2026-11-05T23:53Z",
+   "horas": 23.8
   }
  },
  "DfXUGWik7W-": {
@@ -2595,11 +2608,28 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 12651,
-   "avgWatchedPct": 34.19189189189189,
+   "avgWatchedPct": 34.19,
    "skipRate": 41.2,
    "durationSeconds": 37,
-   "coletado": "2026-11-05T20:53Z",
-   "horas": 5.8
+   "coletado": "2026-11-05T23:53Z",
+   "horas": 8.8
+  }
+ },
+ "DfX9Saomzze": {
+  "publicado": "2026-11-05T21:06:54.000Z",
+  "legenda": "GTA 6 ganhou 39 imagens novas hoje",
+  "atual": {
+   "playCount": 133,
+   "likeCount": 8,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 12964,
+   "avgWatchedPct": 35.04,
+   "skipRate": 40.2,
+   "durationSeconds": 37,
+   "coletado": "2026-11-05T23:53Z",
+   "horas": 2.8
   }
  }
 }
