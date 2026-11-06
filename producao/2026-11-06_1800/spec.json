@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v74_vintage_vice_city_pack.mp4",
+ "text": "Mano, faltam só treze dias pra você garantir o último bônus de pré-venda do GTA 6. É o Vintage Vice City Pack, e ele vem de graça em qualquer edição. Pensa comigo: você ganha um Vapid Stanier de cinquenta e cinco, uma garagem em Shore Court, roupas retrô pro Jason e pra Lucia, cabelos novos e uma pintura de arma. Só que tem prazo: a versão digital precisa ser comprada até o dia vinte de novembro, e a física só enquanto durar o estoque. Você já garantiu a sua ou vai comprar só no dia? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "carro",
+  "jason",
+  "lucia",
+  "cidade",
+  "praia",
+  "noite",
+  "acao",
+  "gameplay"
+ ],
+ "seed": 74,
+ "font": "../../assets/fonts/Anton.ttf"
+}
