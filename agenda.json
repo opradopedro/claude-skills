@@ -1506,13 +1506,23 @@
   {
    "data": "2026-11-06",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v73_ia_porte_pc.mp4",
    "formato": "corte",
    "tema": "Obbe Vermeij (ex-diretor técnico da Rockstar North): fãs poderiam usar IA para portar a versão de PS5 de GTA 6 para PC; custaria dezenas de milhares de dólares em IA e sairia pior, mas poderia fazer a Rockstar encurtar a espera do PC; opinião, sem anúncio (Rock Paper Shotgun via VGTimes 06/11)",
    "capa": "IA pode trazer pro PC?",
    "capa_t": 0.5,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfZ4kfAAo1K/",
+   "hora_real": "12:03",
+   "legenda": "GTA 6 no PC pode chegar mais cedo por causa da IA? 🤖💻 um ex-diretor da Rockstar disse que os próprios fãs poderiam passar o jogo do PS5 pro computador 😳\n\n🧠 Obbe Vermeij, ex-diretor técnico da Rockstar North, acha que dá pra usar IA pra fazer essa versão por conta própria\n💸 Ia custar dezenas de milhares de dólares só de IA e sair pior que a oficial\n⏩ Mas se aparecer, muita gente nem espera a da Rockstar, e isso pode fazer a empresa encurtar a espera do PC\n⚠️ É opinião dele: a Rockstar não anunciou data pro PC\n\nVocê esperaria a versão oficial ou arriscaria a dos fãs? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\nFonte: Obbe Vermeij via Rock Paper Shotgun e VGTimes\n\n#gta6 #gtavi #gta6pc #rockstargames #pcgamer",
+   "ficha": {
+    "formato": "corte",
+    "tema": "PC: ex-diretor da Rockstar diz que porte feito por fãs com IA pode encurtar a espera do PC",
+    "gancho": "um ex-diretor da Rockstar acha que a IA pode adiantar o GTA 6 no PC",
+    "origem": "vgtimes.com/gaming-news/173731 (Rock Paper Shotgun, Obbe Vermeij)",
+    "visual": "b-roll do banco (Extended Look + Trailer 1)"
+   }
   }
  ]
 }
