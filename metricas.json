@@ -2345,17 +2345,17 @@
   "publicado": "2026-11-02T15:47:50.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 92,
+   "playCount": 94,
    "likeCount": 3,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 14954,
-   "avgWatchedPct": 38.343589743589746,
-   "skipRate": 34.1,
+   "avgWatchTimeMs": 14729,
+   "avgWatchedPct": 37.77,
+   "skipRate": 34.5,
    "durationSeconds": 39,
-   "coletado": "2026-11-04T14:54Z",
-   "horas": 47.1
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 95.1
   },
   "h24": {
    "playCount": 92,
@@ -2369,6 +2369,19 @@
    "durationSeconds": 39,
    "coletado": "2026-11-03T21:22Z",
    "horas": 29.6
+  },
+  "h72": {
+   "playCount": 94,
+   "likeCount": 3,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 14729,
+   "avgWatchedPct": 37.77,
+   "skipRate": 34.5,
+   "durationSeconds": 39,
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 95.1
   }
  },
  "DfQOlcviOh7": {
@@ -2381,11 +2394,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 10671,
-   "avgWatchedPct": 26.6775,
+   "avgWatchedPct": 26.68,
    "skipRate": 44.1,
    "durationSeconds": 40,
-   "coletado": "2026-11-04T14:54Z",
-   "horas": 41.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 89.9
   },
   "h24": {
    "playCount": 414,
@@ -2399,6 +2412,19 @@
    "durationSeconds": 40,
    "coletado": "2026-11-03T21:22Z",
    "horas": 24.3
+  },
+  "h72": {
+   "playCount": 414,
+   "likeCount": 12,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 10671,
+   "avgWatchedPct": 26.68,
+   "skipRate": 44.1,
+   "durationSeconds": 40,
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 89.9
   }
  },
  "DfQjmtGlDM_": {
@@ -2414,8 +2440,8 @@
    "avgWatchedPct": 41.38,
    "skipRate": 24,
    "durationSeconds": 42,
-   "coletado": "2026-11-04T20:54Z",
-   "horas": 44.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 86.8
   },
   "h24": {
    "playCount": 1518,
@@ -2429,6 +2455,19 @@
    "durationSeconds": 42,
    "coletado": "2026-11-04T14:54Z",
    "horas": 38.8
+  },
+  "h72": {
+   "playCount": 1521,
+   "likeCount": 37,
+   "commentCount": 0,
+   "shares": 2,
+   "saves": 3,
+   "avgWatchTimeMs": 17381,
+   "avgWatchedPct": 41.38,
+   "skipRate": 24,
+   "durationSeconds": 42,
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 86.8
   }
  },
  "DfSKanQk3bx": {
@@ -2444,8 +2483,8 @@
    "avgWatchedPct": 28.62,
    "skipRate": 34.6,
    "durationSeconds": 40,
-   "coletado": "2026-11-05T14:55Z",
-   "horas": 47.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 301,
@@ -2465,17 +2504,17 @@
   "publicado": "2026-11-03T21:36:07.000Z",
   "legenda": "GTA 6 já tem data pra baixar antes 📥 a Rockstar confirmou o pré-download dia 10 ",
   "atual": {
-   "playCount": 1306,
+   "playCount": 1311,
    "likeCount": 43,
    "commentCount": 0,
    "shares": 4,
    "saves": 4,
-   "avgWatchTimeMs": 10523,
-   "avgWatchedPct": 31.89,
-   "skipRate": 39,
+   "avgWatchTimeMs": 10494,
+   "avgWatchedPct": 31.8,
+   "skipRate": 39.1,
    "durationSeconds": 33,
-   "coletado": "2026-11-05T14:55Z",
-   "horas": 41.3
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 65.3
   },
   "h24": {
    "playCount": 1304,
@@ -2501,11 +2540,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 136852,
-   "avgWatchedPct": 427.6625,
+   "avgWatchedPct": 427.66,
    "skipRate": 34.9,
    "durationSeconds": 32,
-   "coletado": "2026-11-05T20:53Z",
-   "horas": 44.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 62.8
   },
   "h24": {
    "playCount": 217,
@@ -2525,17 +2564,17 @@
   "publicado": "2026-11-04T15:06:39.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 441,
+   "playCount": 443,
    "likeCount": 14,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 11174,
-   "avgWatchedPct": 30.2,
-   "skipRate": 38.8,
+   "avgWatchTimeMs": 11145,
+   "avgWatchedPct": 30.12,
+   "skipRate": 38.6,
    "durationSeconds": 37,
-   "coletado": "2026-11-05T23:53Z",
-   "horas": 32.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 441,
@@ -2555,17 +2594,17 @@
   "publicado": "2026-11-04T21:08:15.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 479,
+   "playCount": 483,
    "likeCount": 16,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 10906,
-   "avgWatchedPct": 32.08,
-   "skipRate": 44.2,
+   "avgWatchTimeMs": 10916,
+   "avgWatchedPct": 32.11,
+   "skipRate": 44.4,
    "durationSeconds": 34,
-   "coletado": "2026-11-05T23:53Z",
-   "horas": 26.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 41.8
   },
   "h24": {
    "playCount": 479,
@@ -2585,51 +2624,81 @@
   "publicado": "2026-11-05T00:05:43.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 961,
+   "playCount": 971,
    "likeCount": 25,
    "commentCount": 0,
    "shares": 0,
    "saves": 3,
-   "avgWatchTimeMs": 15301,
-   "avgWatchedPct": 40.27,
-   "skipRate": 38.8,
+   "avgWatchTimeMs": 15178,
+   "avgWatchedPct": 39.94,
+   "skipRate": 39,
    "durationSeconds": 38,
-   "coletado": "2026-11-05T23:53Z",
-   "horas": 23.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 38.8
+  },
+  "h24": {
+   "playCount": 971,
+   "likeCount": 25,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 3,
+   "avgWatchTimeMs": 15178,
+   "avgWatchedPct": 39.94,
+   "skipRate": 39,
+   "durationSeconds": 38,
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 38.8
   }
  },
  "DfXUGWik7W-": {
   "publicado": "2026-11-05T15:06:54.000Z",
   "legenda": "GTA 6 pode vender 45 milhões de cópias logo no lançamento? 🤯💰 um banco de invest",
   "atual": {
-   "playCount": 146,
+   "playCount": 148,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 12651,
-   "avgWatchedPct": 34.19,
-   "skipRate": 41.2,
+   "avgWatchTimeMs": 12761,
+   "avgWatchedPct": 34.49,
+   "skipRate": 41.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-05T23:53Z",
-   "horas": 8.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 23.8
   }
  },
  "DfX9Saomzze": {
   "publicado": "2026-11-05T21:06:54.000Z",
   "legenda": "GTA 6 ganhou 39 imagens novas hoje",
   "atual": {
-   "playCount": 133,
-   "likeCount": 8,
+   "playCount": 139,
+   "likeCount": 9,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 12964,
-   "avgWatchedPct": 35.04,
-   "skipRate": 40.2,
+   "avgWatchTimeMs": 12753,
+   "avgWatchedPct": 34.47,
+   "skipRate": 40.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-05T23:53Z",
-   "horas": 2.8
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 17.8
+  }
+ },
+ "DfYRV6llI_F": {
+  "publicado": "2026-11-06T00:02:18.000Z",
+  "legenda": "GTA 6 vai sair 16 horas antes pra outro país",
+  "atual": {
+   "playCount": 1434,
+   "likeCount": 47,
+   "commentCount": 0,
+   "shares": 4,
+   "saves": 7,
+   "avgWatchTimeMs": 13302,
+   "avgWatchedPct": 39.12,
+   "skipRate": 31,
+   "durationSeconds": 34,
+   "coletado": "2026-11-06T14:55Z",
+   "horas": 14.9
   }
  }
 }

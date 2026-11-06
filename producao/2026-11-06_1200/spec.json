@@ -1,0 +1,22 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v73_ia_porte_pc.mp4",
+ "text": "Mano, um ex-diretor da Rockstar acha que a IA pode adiantar o GTA 6 no PC. O Obbe Vermeij, que foi diretor técnico da Rockstar North, disse que fãs poderiam usar IA pra passar a versão de PS5 pro computador por conta própria. Pensa comigo: ia custar dezenas de milhares de dólares só de IA e ainda sair pior que o oficial. Mas, se aparecer, muita gente nem espera a versão da Rockstar. Por isso ele acha que a empresa pode encurtar a espera do PC. Só que é opinião dele, nada confirmado. Você esperaria o oficial ou arriscaria a versão dos fãs? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "noite",
+  "cidade",
+  "carro",
+  "acao",
+  "fuga",
+  "gameplay",
+  "escritorio"
+ ],
+ "seed": 73,
+ "font": "../../assets/fonts/Anton.ttf"
+}

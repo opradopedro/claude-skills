@@ -1502,6 +1502,17 @@
     "origem": "vice.com/en/article/gta-6-midnight-release-times-file-size-preload (03/11)",
     "visual": "b-roll do banco (Extended Look + Trailer 1)"
    }
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "12:00",
+   "status": "pendente",
+   "arquivo": "radar_v73_ia_porte_pc.mp4",
+   "formato": "corte",
+   "tema": "Obbe Vermeij (ex-diretor técnico da Rockstar North): fãs poderiam usar IA para portar a versão de PS5 de GTA 6 para PC; custaria dezenas de milhares de dólares em IA e sairia pior, mas poderia fazer a Rockstar encurtar a espera do PC; opinião, sem anúncio (Rock Paper Shotgun via VGTimes 06/11)",
+   "capa": "IA pode trazer pro PC?",
+   "capa_t": 0.5,
+   "capa_embutida": true
   }
  ]
 }
