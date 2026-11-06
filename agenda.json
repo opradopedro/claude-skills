@@ -1527,13 +1527,23 @@
   {
    "data": "2026-11-06",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v74_vintage_vice_city_pack.mp4",
    "formato": "corte",
    "tema": "Vintage Vice City Pack: último bônus de pré-venda ('55 Vapid Stanier, garagem Shore Court, roupas retrô de Jason e Lucia, cabelos, pintura de arma), grátis em qualquer edição; digital até 20/11, físico enquanto durar o estoque",
    "capa": "Último bônus grátis",
    "capa_t": 8.3,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfahWtwmbOc/",
+   "hora_real": "18:00",
+   "legenda": "GTA 6 tem um bônus grátis que acaba logo 🎁⏰ faltam 13 dias pra garantir o Vintage Vice City Pack, o último bônus de pré-venda 😳\n\n🚗 Um Vapid Stanier 55 clássico + garagem em Shore Court\n👕 Roupas retrô pro Jason e pra Lucia, cabelos novos e pintura de arma\n✅ Vem em qualquer edição, até na Standard\n⚠️ Digital: só comprando até 20/11. Física: enquanto durar o estoque\n\nVocê já garantiu o seu ou vai comprar só no dia? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\nFonte: Rockstar Games (via TheSixthAxis, Dexerto)\n\n#gta6 #gtavi #gta6brasil #rockstargames #vicecity",
+   "ficha": {
+    "formato": "corte",
+    "tema": "pré-venda: Vintage Vice City Pack, último bônus, prazo 20/11",
+    "gancho": "faltam 13 dias pra garantir o último bônus de pré-venda",
+    "origem": "thesixthaxis.com 24/06; dexerto.com/wikis/gta-6/preorder-bonuses; gfinityesports.com",
+    "visual": "b-roll do banco (Extended Look + Trailer 1)"
+   }
   }
  ]
 }
