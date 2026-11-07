@@ -1368,7 +1368,8 @@
    "formato": "corte",
    "tema": "GTA 6 permite estilo pacifista: tiro em braço/perna para incapacitar, tiro de aviso (supressão), NPCs fogem da arma, roubo de loja sem alarme (câmeras e fechadura), parar viatura sem matar policiais; algumas missões obrigam tiroteio (Rob Nelson, Rockstar North, via GTABase)",
    "capa": "Sem matar ninguém",
-   "capa_t": 17.8, "capa_embutida": true,
+   "capa_t": 17.8,
+   "capa_embutida": true,
    "legenda": "GTA 6 vai deixar você fazer um assalto sem matar ninguém 😇🔫 a Rockstar confirmou um combate bem diferente dos outros GTA 😳\n\nDá pra acertar braço e perna pra derrubar o inimigo em vez de matar, dar tiro de aviso pra ele se esconder, e tem NPC que foge só de ver a arma. Dá até pra roubar uma loja sem disparar o alarme, atirando nas câmeras e arrombando a fechadura. E na fuga, dá pra parar a viatura sem matar os policiais.\n\nMas não é sempre: tem missão que vai te obrigar a trocar tiro. O jogo sai dia 19/11 no PS5 e Xbox Series.\n\nVocê vai jogar no modo santo ou vai sair atirando? Manda pra quem vai jogar GTA 6 com você 👇\n\nFonte: Rob Nelson (Rockstar North) via GTABase\n\n#gta6 #gtavi #gta #rockstargames #viceCity",
    "ficha": {
     "formato": "corte",
@@ -1376,7 +1377,6 @@
     "gancho": "dá pra fazer um assalto em GTA 6 sem matar ninguém",
     "origem": "GTABase (Rob Nelson, Rockstar North)"
    },
-   "capa_embutida": true,
    "link": "https://www.instagram.com/reel/DfTIKM8FcaF/",
    "publicado_em": "2026-11-03T21:05:25-03:00"
   },
@@ -1568,12 +1568,23 @@
   {
    "data": "2026-11-07",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v76_caixas_230gb_online.mp4",
    "formato": "corte",
    "tema": "Caixas físicas de GTA 6 chegando às lojas lá fora; verso da caixa de PS5 diz 230 GB (não 212) e traz ícone de funções online; code-in-box à venda a partir de 12/11; pôster dupla face em toda cópia física (RockstarINTEL 07/11)",
    "capa": "A caixa revelou 230 GB",
-   "capa_t": 17.8, "capa_embutida": true
+   "capa_t": 17.8,
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Dfcd6XfoRdx/",
+   "hora_real": "12:19",
+   "legenda": "GTA 6 já tá chegando nas lojas 📦😳 as caixas físicas apareceram lá fora e o verso da caixa do PS5 trouxe duas surpresas\n\n💾 Tá escrito que o jogo pede 230 GB livres, e não os 212 GB que a Rockstar tinha falado\n🌐 Tem o ícone de funções online: a galera já acha que é espaço pro novo GTA Online (nada confirmado)\n🖼️ Toda cópia física vem com um pôster dupla face\n🗓️ Lançamento segue dia 19/11 no PS5 e no Xbox Series\n\nVocê vai de mídia física ou digital? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\nFonte: RockstarINTEL (fotos da caixa e MediaMarkt)\n\n#gta6 #gtavi #gta6brasil #rockstargames #ps5",
+   "ficha": {
+    "formato": "corte",
+    "tema": "mídia física: caixas nas lojas, 230 GB no verso e ícone online",
+    "gancho": "as caixas do GTA 6 já começaram a chegar nas lojas",
+    "origem": "rockstarintel.com/gta-6-box-copies-begin-arriving-reveals-online-feature-new-screenshots-and-more (07/11)",
+    "visual": "b-roll do banco + arte da caixa (assets/box.jpg)"
+   }
   }
  ]
 }
