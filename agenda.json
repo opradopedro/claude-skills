@@ -1548,7 +1548,7 @@
   {
    "data": "2026-11-06",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v75_take_two_ultima_reuniao.mp4",
    "formato": "corte",
    "tema": "Take-Two faz a última call de resultados antes do GTA 6 na segunda 09/11 (Q2 FY27), 10 dias antes do lançamento; pode trazer reservas oficiais, confirmação do 19/11 e pista do PC; em maio garantiu a data e previu ano recorde (GTABoom, Insider Gaming)",
@@ -1561,7 +1561,9 @@
     "gancho": "pergunta",
     "origem": "GTABoom / Insider Gaming (calendário da Take-Two)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Dfa2CD_l5n8/",
+   "postado_em": "2026-11-06T21:01-03:00"
   }
  ]
 }
