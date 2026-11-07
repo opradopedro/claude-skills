@@ -1589,13 +1589,23 @@
   {
    "data": "2026-11-07",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v77_classificacao_18_mundo.mp4",
    "formato": "corte",
    "tema": "GTA 6 é 18+ em todos os grandes mercados: Brasil ClassInd 18 (violência, drogas, sexo, linguagem), PEGI 18, ESRB M, Coreia 19+, Japão CERO Z; USK 18 da Alemanha diz que o crime é mostrado sem crítica e às vezes glamourizado (GTABoom 17/10, USK)",
    "capa": "Proibido pra menor de 18",
    "capa_t": 10.0,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfdHAA5E7_7/",
+   "hora_real": "18:07",
+   "legenda": "GTA 6 é proibido pra menor de 18 em praticamente o mundo todo 🔞😳 e a Alemanha soltou o comentário mais pesado sobre o jogo\n\n🇧🇷 Brasil: 18 anos (violência, drogas, sexo e linguagem pesada)\n🇪🇺 Europa: PEGI 18 | 🇺🇸 EUA: M (17+)\n🇰🇷 Coreia do Sul: só a partir dos 19\n🇩🇪 Alemanha: disse que o jogo mostra o crime sem crítica e às vezes até glamouriza\n✅ Mesmo assim foi liberado em todos os mercados grandes, sem ser barrado\n\nVocê acha que vai ser o GTA mais pesado da série? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\nFonte: ClassInd, PEGI, ESRB, GRAC e USK (via GTABoom)\n\n#gta6 #gtavi #gta6brasil #rockstargames #classificacaoindicativa",
+   "ficha": {
+    "formato": "corte",
+    "tema": "classificação etária 18+ no mundo todo e crítica da USK",
+    "gancho": "GTA 6 é proibido pra menor de dezoito no mundo inteiro",
+    "origem": "gtaboom.com/gta-6-is-now-rated-adults-only-in-every-major-market (17/10); USK",
+    "visual": "b-roll do banco (Extended Look)"
+   }
   }
  ]
 }
