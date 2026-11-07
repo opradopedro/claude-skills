@@ -1,0 +1,20 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v77_classificacao_18_mundo.mp4",
+ "text": "Mano, GTA 6 é proibido pra menor de dezoito em praticamente o mundo inteiro. Aqui no Brasil, a classificação indicativa deu dezoito anos, por violência, drogas, sexo e linguagem pesada. Na Europa, também dezoito. Na Coreia do Sul, só a partir dos dezenove. E a Alemanha foi a mais dura: disse que o jogo mostra o crime sem crítica e que às vezes até glamouriza. Pensa comigo: mesmo assim o jogo foi liberado em todos os países grandes, sem ser barrado. Você acha que GTA 6 vai ser o mais pesado da série? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "acao",
+  "crime",
+  "policia",
+  "noite",
+  "gameplay"
+ ],
+ "seed": 77,
+ "font": "../../assets/fonts/Anton.ttf"
+}

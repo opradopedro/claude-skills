@@ -2517,7 +2517,7 @@
   "publicado": "2026-11-03T21:36:07.000Z",
   "legenda": "GTA 6 já tem data pra baixar antes 📥 a Rockstar confirmou o pré-download dia 10 ",
   "atual": {
-   "playCount": 1313,
+   "playCount": 1314,
    "likeCount": 43,
    "commentCount": 0,
    "shares": 4,
@@ -2526,8 +2526,8 @@
    "avgWatchedPct": 31.77,
    "skipRate": 39.1,
    "durationSeconds": 33,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 89.4
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 95.4
   },
   "h24": {
    "playCount": 1304,
@@ -2569,8 +2569,8 @@
    "avgWatchedPct": 427.66,
    "skipRate": 34.9,
    "durationSeconds": 32,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 86.9
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 92.9
   },
   "h24": {
    "playCount": 217,
@@ -2612,8 +2612,8 @@
    "avgWatchedPct": 30.12,
    "skipRate": 38.6,
    "durationSeconds": 37,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 71.9
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 77.9
   },
   "h24": {
    "playCount": 441,
@@ -2627,6 +2627,19 @@
    "durationSeconds": 37,
    "coletado": "2026-11-05T20:53Z",
    "horas": 29.8
+  },
+  "h72": {
+   "playCount": 443,
+   "likeCount": 14,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 11145,
+   "avgWatchedPct": 30.12,
+   "skipRate": 38.6,
+   "durationSeconds": 37,
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 77.9
   }
  },
  "DfVYtexIdQR": {
@@ -2642,8 +2655,8 @@
    "avgWatchedPct": 32.11,
    "skipRate": 44.4,
    "durationSeconds": 34,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 65.8
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 479,
@@ -2672,8 +2685,8 @@
    "avgWatchedPct": 39.99,
    "skipRate": 39.1,
    "durationSeconds": 38,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 62.9
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 68.9
   },
   "h24": {
    "playCount": 971,
@@ -2702,8 +2715,8 @@
    "avgWatchedPct": 34.49,
    "skipRate": 41.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 47.9
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 53.9
   },
   "h24": {
    "playCount": 148,
@@ -2732,8 +2745,8 @@
    "avgWatchedPct": 34.47,
    "skipRate": 40.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 41.9
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 139,
@@ -2762,8 +2775,8 @@
    "avgWatchedPct": 39.13,
    "skipRate": 31.9,
    "durationSeconds": 34,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 38.9
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 44.9
   },
   "h24": {
    "playCount": 1481,
@@ -2783,51 +2796,81 @@
   "publicado": "2026-11-06T15:03:40.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 433,
-   "likeCount": 13,
+   "playCount": 442,
+   "likeCount": 14,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 11148,
-   "avgWatchedPct": 29.34,
-   "skipRate": 37.7,
+   "avgWatchTimeMs": 11208,
+   "avgWatchedPct": 29.49,
+   "skipRate": 37.9,
    "durationSeconds": 38,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 23.9
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 29.9
+  },
+  "h24": {
+   "playCount": 442,
+   "likeCount": 14,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 11208,
+   "avgWatchedPct": 29.49,
+   "skipRate": 37.9,
+   "durationSeconds": 38,
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 29.9
   }
  },
  "DfahWtwmbOc": {
   "publicado": "2026-11-06T21:00:18.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 542,
-   "likeCount": 11,
+   "playCount": 1171,
+   "likeCount": 23,
    "commentCount": 0,
-   "shares": 0,
+   "shares": 2,
    "saves": 1,
-   "avgWatchTimeMs": 8664,
-   "avgWatchedPct": 26.25,
-   "skipRate": 37.7,
+   "avgWatchTimeMs": 8838,
+   "avgWatchedPct": 26.78,
+   "skipRate": 37.1,
    "durationSeconds": 33,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 18.0
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 24.0
   }
  },
  "Dfa2CD_l5n8": {
   "publicado": "2026-11-07T00:00:48.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1311,
+   "playCount": 1356,
    "likeCount": 60,
    "commentCount": 0,
    "shares": 1,
    "saves": 2,
-   "avgWatchTimeMs": 11794,
-   "avgWatchedPct": 34.688,
-   "skipRate": 37.6,
+   "avgWatchTimeMs": 11695,
+   "avgWatchedPct": 34.4,
+   "skipRate": 37.9,
    "durationSeconds": 34,
-   "coletado": "2026-11-07T14:58Z",
-   "horas": 15.0
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 21.0
+  }
+ },
+ "Dfcd6XfoRdx": {
+  "publicado": "2026-11-07T15:08:29.000Z",
+  "legenda": "GTA 6 já tá chegando nas lojas 📦😳 as caixas físicas apareceram lá fora e o verso",
+  "atual": {
+   "playCount": 1294,
+   "likeCount": 27,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 11968,
+   "avgWatchedPct": 34.19,
+   "skipRate": 42.2,
+   "durationSeconds": 35,
+   "coletado": "2026-11-07T20:58Z",
+   "horas": 5.8
   }
  }
 }
