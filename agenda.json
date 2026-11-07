@@ -1368,7 +1368,7 @@
    "formato": "corte",
    "tema": "GTA 6 permite estilo pacifista: tiro em braço/perna para incapacitar, tiro de aviso (supressão), NPCs fogem da arma, roubo de loja sem alarme (câmeras e fechadura), parar viatura sem matar policiais; algumas missões obrigam tiroteio (Rob Nelson, Rockstar North, via GTABase)",
    "capa": "Sem matar ninguém",
-   "capa_t": 19.8,
+   "capa_t": 17.8, "capa_embutida": true,
    "legenda": "GTA 6 vai deixar você fazer um assalto sem matar ninguém 😇🔫 a Rockstar confirmou um combate bem diferente dos outros GTA 😳\n\nDá pra acertar braço e perna pra derrubar o inimigo em vez de matar, dar tiro de aviso pra ele se esconder, e tem NPC que foge só de ver a arma. Dá até pra roubar uma loja sem disparar o alarme, atirando nas câmeras e arrombando a fechadura. E na fuga, dá pra parar a viatura sem matar os policiais.\n\nMas não é sempre: tem missão que vai te obrigar a trocar tiro. O jogo sai dia 19/11 no PS5 e Xbox Series.\n\nVocê vai jogar no modo santo ou vai sair atirando? Manda pra quem vai jogar GTA 6 com você 👇\n\nFonte: Rob Nelson (Rockstar North) via GTABase\n\n#gta6 #gtavi #gta #rockstargames #viceCity",
    "ficha": {
     "formato": "corte",
@@ -1564,6 +1564,16 @@
    "capa_embutida": true,
    "link": "https://www.instagram.com/reel/Dfa2CD_l5n8/",
    "postado_em": "2026-11-06T21:01-03:00"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "12:00",
+   "status": "pendente",
+   "arquivo": "radar_v76_caixas_230gb_online.mp4",
+   "formato": "corte",
+   "tema": "Caixas físicas de GTA 6 chegando às lojas lá fora; verso da caixa de PS5 diz 230 GB (não 212) e traz ícone de funções online; code-in-box à venda a partir de 12/11; pôster dupla face em toda cópia física (RockstarINTEL 07/11)",
+   "capa": "A caixa revelou 230 GB",
+   "capa_t": 17.8, "capa_embutida": true
   }
  ]
 }

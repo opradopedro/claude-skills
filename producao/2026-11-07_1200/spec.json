@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v76_caixas_230gb_online.mp4",
+ "text": "Mano, as caixas do GTA 6 já começaram a chegar nas lojas lá fora, faltando menos de duas semanas pro lançamento. E atrás da caixa do PS5 tem duas surpresas. Primeiro: tá escrito que o jogo pede duzentos e trinta gigas livres, e não os duzentos e doze que a Rockstar tinha falado. Segundo: tem o ícone de funções online, e a galera já acha que é espaço pro novo GTA Online. E toda cópia física ainda vem com um pôster dupla face. Pensa comigo: você vai de mídia física ou digital? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "GTA Online": "GTA Online"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "cidade",
+  "noite",
+  "carro",
+  "acao",
+  "gameplay"
+ ],
+ "seed": 76,
+ "font": "../../assets/fonts/Anton.ttf"
+}
