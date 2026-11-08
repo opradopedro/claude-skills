@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 07/11/2026 17:58 (Brasília) com 74 Reels com nota. Média geral: 60.2/100.
+Atualizado em 07/11/2026 20:59 (Brasília) com 74 Reels com nota. Média geral: 60.2/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -49,9 +49,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | recorde de intenção de compra (Circana) | 1 | 61.0 | 60.5 |  |
 | GTA 6 no PC em 6-7 meses segundo Pachter | 1 | 60.4 | 60.3 |  |
 | curiosidade/marketing | 1 | 59.5 | 60.0 |  |
-| pré-venda: Vintage Vice City Pack, último bônus, prazo 20/11 | 1 | 59.2 | 59.9 |  |
 | historia | 1 | 59.1 | 59.8 |  |
 | vendas/numeros: 7,7 mi de reservas e US$ 751 mi (Sensor Tower 03/11) | 1 | 58.9 | 59.8 |  |
+| pré-venda: Vintage Vice City Pack, último bônus, prazo 20/11 | 1 | 59.0 | 59.8 |  |
 | boate NINE1NINE de verdade em Miami | 1 | 58.7 | 59.7 |  |
 | novidade oficial | 1 | 57.4 | 59.3 |  |
 | milionário faz a conta: GTA 6 economiza US$ 5 mil | 1 | 57.6 | 59.3 |  |
@@ -86,7 +86,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | noticia | 5 | 65.1 | 63.7 |  |
 | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.3 | 63.2 |  |
 | se você pensa em postar o final de GTA 6, para tudo | 1 | 67.6 | 62.7 |  |
-| pergunta | 7 | 63.2 | 62.6 |  |
+| pergunta | 7 | 63.2 | 62.5 |  |
 | votacao | 1 | 66.5 | 62.3 |  |
 | rumor + oficial | 1 | 65.0 | 61.8 |  |
 | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 1 | 64.2 | 61.5 |  |
@@ -96,8 +96,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 39 imagens novas hoje | 1 | 61.4 | 60.6 |  |
 | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 1 | 60.4 | 60.3 |  |
 | vida real | 1 | 59.5 | 60.0 |  |
-| faltam 13 dias pra garantir o último bônus de pré-venda | 1 | 59.2 | 59.9 |  |
 | numero_choque | 1 | 58.9 | 59.8 |  |
+| faltam 13 dias pra garantir o último bônus de pré-venda | 1 | 59.0 | 59.8 |  |
 | GTA 6 pode vender 45 milhões de cópias logo no lançamento? | 1 | 56.6 | 59.0 |  |
 | revelacao | 14 | 58.1 | 58.4 |  |
 | enquete | 7 | 56.9 | 57.6 |  |
@@ -126,8 +126,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GamingBible 27/10 (Emberville), MP1st (Fable fev/2027), Lords of the Fallen II e Squadron 42 adiados p/ 2027 | 1 | 71.0 | 63.8 |  |
 | IBTimes UK (José García Montalvo, Universidade Pompeu Fabra) | 1 | 70.7 | 63.7 |  |
 | VGTimes 27/10 (PlayStation Game Size, banco da PSN) | 1 | 70.5 | 63.6 |  |
-| GTABoom / Insider Gaming (calendário da Take-Two) | 1 | 70.3 | 63.6 |  |
 | GTA BOOM 29/10 + comunicado de Miami-Dade | 1 | 70.0 | 63.5 |  |
+| GTABoom / Insider Gaming (calendário da Take-Two) | 1 | 70.2 | 63.5 |  |
 | Rockstar via VGTimes 03/11 | 1 | 69.3 | 63.2 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 68.9 | 63.1 |  |
 | Game Informer via Dexerto 29/09 | 1 | 68.5 | 63.0 |  |
@@ -153,8 +153,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA BOOM 29/10 (Circana) | 1 | 61.0 | 60.5 |  |
 | notícia GTA BOOM 27/10 (BBC Business Today) | 1 | 60.4 | 60.3 |  |
 | Dexerto (iGrandTheftAuto) 20/10 | 1 | 59.5 | 60.0 |  |
-| thesixthaxis.com 24/06; dexerto.com/wikis/gta-6/preorder-bonuses; gfinityesports.com | 1 | 59.2 | 59.9 |  |
 | Bloomberg via Notebookcheck 18/10 | 1 | 59.1 | 59.8 |  |
+| thesixthaxis.com 24/06; dexerto.com/wikis/gta-6/preorder-bonuses; gfinityesports.com | 1 | 59.0 | 59.8 |  |
 | noticia (GTA BOOM 30/10, E11EVEN Miami) | 1 | 58.7 | 59.7 |  |
 | Rockstar Newswire 08/10 via endgametools/ghacks | 1 | 57.4 | 59.3 |  |
 | VGTimes 01/11 (vídeo viral de Mark Tilbury) | 1 | 57.6 | 59.3 |  |
@@ -205,7 +205,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-27 | [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/) | corte | noticia/mercado | revelacao | 1300 | 35% | 33% | 43 | 0 | 0 | 6 | 71.0 (h72) |
 | 2026-10-22 | [De0NOukCfyi](https://www.instagram.com/reel/De0NOukCfyi/) | corte | curiosidade/economia | numero chocante | 1450 | 38.9% | 37% | 43 | 1 | 0 | 6 | 70.7 (h72) |
 | 2026-10-27 | [DfA0VzqASHS](https://www.instagram.com/reel/DfA0VzqASHS/) | corte | alerta/utilidade | numero chocante | 1485 | 38.2% | 36% | 53 | 0 | 3 | 17 | 70.5 (h72) |
-| 2026-11-06 | [Dfa2CD_l5n8](https://www.instagram.com/reel/Dfa2CD_l5n8/) | corte | noticias | pergunta | 1356 | 37.9% | 34% | 60 | 0 | 2 | 1 | 70.3 (provisória) |
+| 2026-11-06 | [Dfa2CD_l5n8](https://www.instagram.com/reel/Dfa2CD_l5n8/) | corte | noticias | pergunta | 1369 | 38.2% | 34% | 61 | 0 | 2 | 1 | 70.2 (provisória) |
 | 2026-10-31 | [DfLFD2VjsfZ](https://www.instagram.com/reel/DfLFD2VjsfZ/) | corte | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | revelacao | 1323 | 43.5% | 41% | 64 | 0 | 5 | 3 | 70.0 (h72) |
 | 2026-11-03 | [DfS3D5sgJwX](https://www.instagram.com/reel/DfS3D5sgJwX/) | corte | pré-download oficial dia 10 e 212 GB | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1311 | 39.1% | 32% | 43 | 0 | 4 | 4 | 69.3 (h72) |
 | 2026-10-13 | [DectbiBAgte](https://www.instagram.com/reel/DectbiBAgte/) | corte | gameplay | comparacao | 1329 | 38.3% | 33% | 52 | 0 | 0 | 0 | 69.2 (h24) |
@@ -224,7 +224,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-23 | [De2xCB-lPHz](https://www.instagram.com/reel/De2xCB-lPHz/) | corte | musica/trilha | rumor + oficial | 870 | 40.3% | 26% | 23 | 0 | 3 | 0 | 65.0 (h72) |
 | 2026-10-12 | [DeaTN8uj8pd](https://www.instagram.com/reel/DeaTN8uj8pd/) | corte | teoria | pergunta | 163 | 32.6% | 46% | 6 | 0 | 0 | 0 | 64.9 (h24) |
 | 2026-11-03 | [DfSKanQk3bx](https://www.instagram.com/reel/DfSKanQk3bx/) | corte | pesquisa: do que os fãs abririam mão por GTA 6 antes (pet, sexo, bebida) | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 301 | 34.6% | 29% | 11 | 1 | 1 | 0 | 64.2 (h72) |
-| 2026-11-04 | [DfVYtexIdQR](https://www.instagram.com/reel/DfVYtexIdQR/) | corte | Perfil Criminal / sistema de moral | GTA 6 vai te julgar por cada crime | 479 | 44.2% | 32% | 16 | 0 | 3 | 2 | 64.2 (h24) |
+| 2026-11-04 | [DfVYtexIdQR](https://www.instagram.com/reel/DfVYtexIdQR/) | corte | Perfil Criminal / sistema de moral | GTA 6 vai te julgar por cada crime | 483 | 44.4% | 32% | 16 | 0 | 3 | 2 | 64.2 (h72) |
 | 2026-11-06 | [DfZ4kfAAo1K](https://www.instagram.com/reel/DfZ4kfAAo1K/) | corte | PC: ex-diretor da Rockstar diz que porte feito por fãs com IA pode encurtar a espera do PC | um ex-diretor da Rockstar acha que a IA pode adiantar o GTA 6 no PC | 442 | 37.9% | 29% | 14 | 0 | 1 | 0 | 64.1 (h24) |
 | 2026-10-24 | [De5YjsmD6Qp](https://www.instagram.com/reel/De5YjsmD6Qp/) | corte | alerta/utilidade | alerta | 1207 | 48.6% | 27% | 25 | 0 | 1 | 6 | 63.3 (h72) |
 | 2026-10-26 | [De-iSVCgMpg](https://www.instagram.com/reel/De-iSVCgMpg/) | corte | rumor/elenco | polemica | 1344 | 31.7% | 48% | 28 | 0 | 1 | 0 | 63.3 (h72) |
@@ -237,8 +237,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 486 | 49% | 23% | 18 | 0 | 2 | 3 | 60.4 (h72) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 60.0 (h24) |
 | 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 59.5 (h72) |
-| 2026-11-06 | [DfahWtwmbOc](https://www.instagram.com/reel/DfahWtwmbOc/) | corte | pré-venda: Vintage Vice City Pack, último bônus, prazo 20/11 | faltam 13 dias pra garantir o último bônus de pré-venda | 1171 | 37.1% | 27% | 23 | 0 | 1 | 2 | 59.2 (provisória) |
 | 2026-10-18 | [Dep6MPzlVqQ](https://www.instagram.com/reel/Dep6MPzlVqQ/) | corte | historia | enquete | 160 | 43.8% | 29% | 10 | 0 | 0 | 0 | 59.1 (h72) |
+| 2026-11-06 | [DfahWtwmbOc](https://www.instagram.com/reel/DfahWtwmbOc/) | corte | pré-venda: Vintage Vice City Pack, último bônus, prazo 20/11 | faltam 13 dias pra garantir o último bônus de pré-venda | 1183 | 37.3% | 27% | 23 | 0 | 1 | 2 | 59.0 (h24) |
 | 2026-11-04 | [DfUvNfAEewa](https://www.instagram.com/reel/DfUvNfAEewa/) | corte | vendas/numeros: 7,7 mi de reservas e US$ 751 mi (Sensor Tower 03/11) | numero_choque | 443 | 38.6% | 30% | 14 | 0 | 0 | 0 | 58.9 (h72) |
 | 2026-10-31 | [DfKcAJ2AvuU](https://www.instagram.com/reel/DfKcAJ2AvuU/) | corte | boate NINE1NINE de verdade em Miami | revelacao | 221 | 41.9% | 33% | 8 | 0 | 0 | 0 | 58.7 (h72) |
 | 2026-11-02 | [DfPqb20ASNX](https://www.instagram.com/reel/DfPqb20ASNX/) | corte | milionário faz a conta: GTA 6 economiza US$ 5 mil | numero chocante | 94 | 34.5% | 38% | 3 | 0 | 0 | 0 | 57.6 (h72) |
@@ -267,4 +267,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [Dfcd6XfoRdx](https://www.instagram.com/reel/Dfcd6XfoRdx/): 5.8 h no ar, 1294 views, 42.2% pularam, 34% assistido, 27 curtidas
+- [Dfcd6XfoRdx](https://www.instagram.com/reel/Dfcd6XfoRdx/): 8.8 h no ar, 1324 views, 42.5% pularam, 34% assistido, 27 curtidas
+- [DfdHAA5E7_7](https://www.instagram.com/reel/DfdHAA5E7_7/): 2.9 h no ar, 1385 views, 37.4% pularam, 42% assistido, 47 curtidas

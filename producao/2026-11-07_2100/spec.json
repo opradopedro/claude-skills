@@ -1,0 +1,20 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v78_sony_compra_ps5.mp4",
+ "text": "Mano, a Sony quer comprar o seu PS5 usado antes do GTA 6 sair. A PlayStation fechou com a Back Market e tá oferecendo até quatrocentos dólares por um PS5 em ótimo estado, com dois controles. O dinheiro cai direto na conta e o aviso chega pelo app do PlayStation. Mas calma: por enquanto vale só nos Estados Unidos, até o fim de dezembro. Pensa comigo: tem gente vendendo o velho pra pegar um PS5 Pro e jogar GTA 6 no dia dezenove. Você venderia o seu? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "carro",
+  "miami",
+  "dinheiro",
+  "noite",
+  "gameplay"
+ ],
+ "seed": 78,
+ "font": "../../assets/fonts/Anton.ttf"
+}
