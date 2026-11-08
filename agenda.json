@@ -1631,13 +1631,23 @@
   {
    "data": "2026-11-08",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v79_heat_vira_vice_city.mp4",
    "formato": "corte",
    "tema": "Miami Heat joga como 'Vice City' em 18/11 contra o Milwaukee Bucks, véspera do GTA 6: uniforme novo ainda secreto e quadra exclusiva (NBA.com/heat, Gematsu 02/10, GTABoom 04/10)",
    "capa": "Heat vira Vice City",
    "capa_t": 1.7,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DffCxD-DYYY/",
+   "hora_real": "12:09",
+   "legenda": "GTA 6 vai transformar um time da NBA em Vice City 🏀🌴 o Miami Heat joga com o nome da cidade do jogo um dia antes do lançamento 😳\n\n📅 18/11, contra o Milwaukee Bucks, no Kaseya Center em Miami\n👕 Uniforme Vice City novinho, que o Heat ainda mantém em segredo\n🏟️ Quadra feita só pra essa noite\n🎮 E à meia-noite seguinte o GTA 6 já libera\n\nVocê usaria essa camisa? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\nFonte: Miami HEAT (NBA.com/heat/vicecity) e Gematsu\n\n#gta6 #gtavi #gta6brasil #vicecity #nba",
+   "ficha": {
+    "formato": "corte",
+    "tema": "Miami Heat vira Vice City em 18/11 (véspera do GTA 6)",
+    "gancho": "o Miami Heat vai virar Vice City um dia antes do GTA 6 sair",
+    "origem": "nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection; gematsu.com 02/10; gtaboom 04/10",
+    "visual": "b-roll do banco (Extended Look)"
+   }
   }
  ]
 }
