@@ -2652,11 +2652,11 @@
    "shares": 2,
    "saves": 3,
    "avgWatchTimeMs": 10916,
-   "avgWatchedPct": 32.10588235294118,
+   "avgWatchedPct": 32.11,
    "skipRate": 44.4,
    "durationSeconds": 34,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 74.9
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 95.8
   },
   "h24": {
    "playCount": 479,
@@ -2694,12 +2694,12 @@
    "commentCount": 0,
    "shares": 0,
    "saves": 3,
-   "avgWatchTimeMs": 15197,
-   "avgWatchedPct": 39.992105263157896,
+   "avgWatchTimeMs": 15196,
+   "avgWatchedPct": 39.99,
    "skipRate": 39,
    "durationSeconds": 38,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 71.9
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 92.8
   },
   "h24": {
    "playCount": 971,
@@ -2713,6 +2713,19 @@
    "durationSeconds": 38,
    "coletado": "2026-11-06T14:55Z",
    "horas": 38.8
+  },
+  "h72": {
+   "playCount": 973,
+   "likeCount": 25,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 3,
+   "avgWatchTimeMs": 15196,
+   "avgWatchedPct": 39.99,
+   "skipRate": 39,
+   "durationSeconds": 38,
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 92.8
   }
  },
  "DfXUGWik7W-": {
@@ -2725,11 +2738,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 12761,
-   "avgWatchedPct": 34.48918918918919,
+   "avgWatchedPct": 34.49,
    "skipRate": 41.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 56.9
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 77.8
   },
   "h24": {
    "playCount": 148,
@@ -2743,6 +2756,19 @@
    "durationSeconds": 37,
    "coletado": "2026-11-06T20:53Z",
    "horas": 29.8
+  },
+  "h72": {
+   "playCount": 148,
+   "likeCount": 5,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 12761,
+   "avgWatchedPct": 34.49,
+   "skipRate": 41.3,
+   "durationSeconds": 37,
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 77.8
   }
  },
  "DfX9Saomzze": {
@@ -2758,8 +2784,8 @@
    "avgWatchedPct": 34.47,
    "skipRate": 40.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-08T15:00Z",
-   "horas": 65.9
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 139,
@@ -2779,17 +2805,17 @@
   "publicado": "2026-11-06T00:02:18.000Z",
   "legenda": "GTA 6 vai sair 16 horas antes pra outro país",
   "atual": {
-   "playCount": 1484,
+   "playCount": 1485,
    "likeCount": 48,
    "commentCount": 0,
    "shares": 5,
    "saves": 7,
-   "avgWatchTimeMs": 13276,
-   "avgWatchedPct": 39.05,
+   "avgWatchTimeMs": 13268,
+   "avgWatchedPct": 39.02,
    "skipRate": 32.1,
    "durationSeconds": 34,
-   "coletado": "2026-11-08T15:00Z",
-   "horas": 63.0
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 68.9
   },
   "h24": {
    "playCount": 1481,
@@ -2818,8 +2844,8 @@
    "avgWatchedPct": 29.49,
    "skipRate": 37.9,
    "durationSeconds": 38,
-   "coletado": "2026-11-08T15:00Z",
-   "horas": 47.9
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 53.9
   },
   "h24": {
    "playCount": 442,
@@ -2848,8 +2874,8 @@
    "avgWatchedPct": 26.87,
    "skipRate": 37.4,
    "durationSeconds": 33,
-   "coletado": "2026-11-08T15:00Z",
-   "horas": 42.0
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 1183,
@@ -2878,8 +2904,8 @@
    "avgWatchedPct": 34.32,
    "skipRate": 38.1,
    "durationSeconds": 34,
-   "coletado": "2026-11-08T15:00Z",
-   "horas": 39.0
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 44.9
   },
   "h24": {
    "playCount": 1370,
@@ -2908,42 +2934,72 @@
    "avgWatchedPct": 33.95,
    "skipRate": 42.6,
    "durationSeconds": 35,
-   "coletado": "2026-11-08T15:00Z",
-   "horas": 23.9
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 29.8
+  },
+  "h24": {
+   "playCount": 1344,
+   "likeCount": 27,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 11882,
+   "avgWatchedPct": 33.95,
+   "skipRate": 42.6,
+   "durationSeconds": 35,
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 29.8
   }
  },
  "DfdHAA5E7_7": {
   "publicado": "2026-11-07T21:07:28.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1642,
-   "likeCount": 52,
+   "playCount": 1666,
+   "likeCount": 53,
    "commentCount": 0,
    "shares": 2,
    "saves": 0,
-   "avgWatchTimeMs": 14602,
-   "avgWatchedPct": 41.72,
-   "skipRate": 39.4,
+   "avgWatchTimeMs": 14598,
+   "avgWatchedPct": 41.71,
+   "skipRate": 39.3,
    "durationSeconds": 35,
-   "coletado": "2026-11-08T15:00Z",
-   "horas": 17.9
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 23.8
   }
  },
  "DfdblCrDJ6B": {
   "publicado": "2026-11-08T00:07:22.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1277,
+   "playCount": 1298,
    "likeCount": 32,
    "commentCount": 1,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 12784,
-   "avgWatchedPct": 41.24,
-   "skipRate": 29.1,
+   "avgWatchTimeMs": 12828,
+   "avgWatchedPct": 41.38,
+   "skipRate": 29,
    "durationSeconds": 31,
-   "coletado": "2026-11-08T15:00Z",
-   "horas": 14.9
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 20.8
+  }
+ },
+ "DffCxD-DYYY": {
+  "publicado": "2026-11-08T15:09:14.000Z",
+  "legenda": "GTA 6 vai transformar um time da NBA em Vice City",
+  "atual": {
+   "playCount": 128,
+   "likeCount": 3,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 6584,
+   "avgWatchedPct": 21.24,
+   "skipRate": 48.3,
+   "durationSeconds": 31,
+   "coletado": "2026-11-08T20:54Z",
+   "horas": 5.8
   }
  }
 }

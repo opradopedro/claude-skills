@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v80_take_two_pirataria.mp4",
+ "text": "Mano, o chefão da dona do GTA 6 falou de pirataria a onze dias do lançamento. Strauss Zelnick, chefe da Take-Two, disse pro Wall Street Journal que pirataria é um fato da vida. Pensa comigo: no cinema, ele calcula que de dez a vinte por cento do mercado é pirata, e na música já chegou a oitenta por cento. Nos games é bem menos, porque o jogo é gigante e depende dos servidores da empresa. Mas ele avisou: se virar problema, a Take-Two vai pra justiça. Você acha que alguém consegue piratear o GTA 6? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "escritorio",
+  "assalto",
+  "arma",
+  "policia",
+  "prisao",
+  "gangue",
+  "jason",
+  "lucia"
+ ],
+ "seed": 80,
+ "font": "../../assets/fonts/Anton.ttf"
+}
