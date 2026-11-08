@@ -1610,13 +1610,23 @@
   {
    "data": "2026-11-07",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v78_sony_compra_ps5.mp4",
    "formato": "corte",
    "tema": "Sony e Back Market oferecem até US$ 400 por PS5 usado (excelente estado, 2 controles) antes do GTA 6; aviso pelo app PlayStation, só EUA, até 31/12 (BGR 05/11, HotHardware, TweakTown)",
    "capa": "Sony quer seu PS5 usado",
    "capa_t": 8.5,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfdblCrDJ6B/",
+   "hora_real": "21:07",
+   "legenda": "GTA 6 tá fazendo a Sony comprar PS5 usado de volta 🎮💰 até 400 dólares pelo seu console antes do jogo sair 😳\n\n🤝 A PlayStation fechou com a Back Market pra recomprar PS5 em ótimo estado, com 2 controles\n💸 O dinheiro cai direto na conta e o aviso chega pelo app do PlayStation\n🇺🇸 Por enquanto só nos Estados Unidos, até 31/12\n🚀 Tem gente vendendo o PS5 comum pra pegar o PS5 Pro e jogar no dia 19/11\n\nVocê venderia o seu? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\nFonte: BGR, HotHardware e TweakTown (oferta Sony + Back Market)\n\n#gta6 #gtavi #gta6brasil #ps5 #playstation",
+   "ficha": {
+    "formato": "corte",
+    "tema": "Sony + Back Market recompram PS5 usado por até US$ 400 antes do GTA 6",
+    "gancho": "a Sony quer comprar o seu PS5 usado antes do GTA 6 sair",
+    "origem": "bgr.com/2308410/sony-offers-money-for-used-ps5-before-gta-6 (05/11); hothardware; tweaktown",
+    "visual": "b-roll do banco (Extended Look)"
+   }
   }
  ]
 }
