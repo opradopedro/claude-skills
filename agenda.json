@@ -1652,7 +1652,7 @@
   {
    "data": "2026-11-08",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v80_take_two_pirataria.mp4",
    "formato": "corte",
    "tema": "Strauss Zelnick (CEO da Take-Two) ao Wall Street Journal: pirataria é 'um fato da vida'; cinema 10-20%, música chegou a ~80%, games bem menos (jogo gigante + servidores); se virar problema, justiça e proteção técnica (VGTimes 06/11)",
@@ -1666,7 +1666,9 @@
     "origem": "WSJ 'The CEO Behind Grand Theft Auto VI' via vgtimes.com/gaming-news/173722 (06/11)",
     "visual": "b-roll do banco (Extended Look + Trailer 1)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DffrRsXlGWm/",
+   "hora_real": "18:03"
   }
  ]
 }
