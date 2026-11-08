@@ -1,0 +1,1035 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v79_heat_vira_vice_city.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_326.mp4",
+   "start": 0.0,
+   "end": 1.652,
+   "layout": "full",
+   "cx": 0.201,
+   "pan": 1,
+   "ss": 1.47
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_146.mp4",
+   "start": 1.652,
+   "end": 3.694,
+   "layout": "full",
+   "cx": 0.898,
+   "pan": -1,
+   "ss": 0.23
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_342.mp4",
+   "start": 3.694,
+   "end": 5.356,
+   "layout": "full",
+   "cx": 0.747,
+   "pan": 1,
+   "ss": 0.97
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_199.mp4",
+   "start": 5.356,
+   "end": 7.038,
+   "layout": "full",
+   "cx": 0.509,
+   "pan": -1,
+   "ss": 0.91
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_363.mp4",
+   "start": 7.038,
+   "end": 8.579,
+   "layout": "full",
+   "cx": 0.255,
+   "pan": 1,
+   "ss": 0.61
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_293.mp4",
+   "start": 8.579,
+   "end": 10.021,
+   "layout": "full",
+   "cx": 0.546,
+   "pan": -1,
+   "ss": 1.53
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_037.mp4",
+   "start": 10.021,
+   "end": 12.524,
+   "layout": "full",
+   "cx": 0.061,
+   "pan": 1,
+   "ss": 0.32
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_291.mp4",
+   "start": 12.524,
+   "end": 14.246,
+   "layout": "full",
+   "cx": 0.358,
+   "pan": -1,
+   "ss": 1.16
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_157.mp4",
+   "start": 14.246,
+   "end": 15.727,
+   "layout": "full",
+   "cx": 0.841,
+   "pan": 1,
+   "ss": 1.86
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_074.mp4",
+   "start": 15.727,
+   "end": 17.169,
+   "layout": "full",
+   "cx": 0.835,
+   "pan": -1,
+   "ss": 0.37
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_362.mp4",
+   "start": 17.169,
+   "end": 18.811,
+   "layout": "full",
+   "cx": 1.0,
+   "pan": 1,
+   "ss": 0.46
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_002.mp4",
+   "start": 18.811,
+   "end": 21.053,
+   "layout": "full",
+   "cx": 0.923,
+   "pan": -1,
+   "ss": 0.63
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_357.mp4",
+   "start": 21.053,
+   "end": 22.935,
+   "layout": "full",
+   "cx": 0.331,
+   "pan": 1,
+   "ss": 1.01
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_333.mp4",
+   "start": 22.935,
+   "end": 24.777,
+   "layout": "full",
+   "cx": 0.057,
+   "pan": -1,
+   "ss": 0.96
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_089.mp4",
+   "start": 24.777,
+   "end": 26.559,
+   "layout": "full",
+   "cx": 0.569,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_240.mp4",
+   "start": 26.559,
+   "end": 28.021,
+   "layout": "full",
+   "cx": 0.441,
+   "pan": -1,
+   "ss": 0.03
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_324.mp4",
+   "start": 28.021,
+   "end": 29.482,
+   "layout": "full",
+   "cx": 0.873,
+   "pan": 1,
+   "ss": 2.22
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_352.mp4",
+   "start": 29.482,
+   "end": 31.384,
+   "layout": "full",
+   "cx": 1.0,
+   "pan": -1,
+   "ss": 1.68
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.07,
+   "end": 0.711,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.07
+   ]
+  },
+  {
+   "start": 0.711,
+   "end": 1.652,
+   "text": "O MIAMI HEAT",
+   "hl": false,
+   "w": [
+    0.711,
+    0.811,
+    1.331
+   ]
+  },
+  {
+   "start": 1.652,
+   "end": 2.673,
+   "text": "VAI VIRAR VICE",
+   "hl": false,
+   "w": [
+    1.652,
+    1.792,
+    2.132
+   ]
+  },
+  {
+   "start": 2.673,
+   "end": 3.694,
+   "text": "CITY UM DIA",
+   "hl": false,
+   "w": [
+    2.673,
+    3.154,
+    3.354
+   ]
+  },
+  {
+   "start": 3.694,
+   "end": 4.675,
+   "text": "ANTES DO GTA 6",
+   "hl": true,
+   "w": [
+    3.694,
+    3.994,
+    4.095,
+    4.095
+   ]
+  },
+  {
+   "start": 4.675,
+   "end": 5.356,
+   "text": "SAIR",
+   "hl": false,
+   "w": [
+    4.675
+   ]
+  },
+  {
+   "start": 5.356,
+   "end": 6.257,
+   "text": "NO DIA DEZOITO",
+   "hl": false,
+   "w": [
+    5.356,
+    5.496,
+    5.716
+   ]
+  },
+  {
+   "start": 6.257,
+   "end": 7.038,
+   "text": "DE NOVEMBRO",
+   "hl": false,
+   "w": [
+    6.257,
+    6.377
+   ]
+  },
+  {
+   "start": 7.038,
+   "end": 7.578,
+   "text": "O TIME DA",
+   "hl": false,
+   "w": [
+    7.038,
+    7.138,
+    7.378
+   ]
+  },
+  {
+   "start": 7.578,
+   "end": 8.579,
+   "text": "NBA JOGA CONTRA",
+   "hl": false,
+   "w": [
+    7.578,
+    7.979,
+    8.299
+   ]
+  },
+  {
+   "start": 8.579,
+   "end": 9.5,
+   "text": "O MILWAUKEE BUCKS",
+   "hl": false,
+   "w": [
+    8.579,
+    8.62,
+    9.14
+   ]
+  },
+  {
+   "start": 9.5,
+   "end": 10.021,
+   "text": "COM O NOME",
+   "hl": false,
+   "w": [
+    9.5,
+    9.681,
+    9.761
+   ]
+  },
+  {
+   "start": 10.021,
+   "end": 11.302,
+   "text": "DE VICE CITY",
+   "hl": false,
+   "w": [
+    10.021,
+    10.281,
+    10.802
+   ]
+  },
+  {
+   "start": 11.302,
+   "end": 12.524,
+   "text": "NUMA NOITE SÓ",
+   "hl": false,
+   "w": [
+    11.302,
+    11.563,
+    11.903
+   ]
+  },
+  {
+   "start": 12.524,
+   "end": 13.385,
+   "text": "VAI TER UNIFORME",
+   "hl": false,
+   "w": [
+    12.524,
+    12.724,
+    12.884
+   ]
+  },
+  {
+   "start": 13.385,
+   "end": 13.785,
+   "text": "NOVO",
+   "hl": false,
+   "w": [
+    13.385
+   ]
+  },
+  {
+   "start": 13.785,
+   "end": 14.246,
+   "text": "QUE AINDA TÁ",
+   "hl": false,
+   "w": [
+    13.785,
+    13.905,
+    14.146
+   ]
+  },
+  {
+   "start": 14.246,
+   "end": 15.007,
+   "text": "EM SEGREDO",
+   "hl": false,
+   "w": [
+    14.246,
+    14.346
+   ]
+  },
+  {
+   "start": 15.007,
+   "end": 15.727,
+   "text": "E UMA QUADRA",
+   "hl": false,
+   "w": [
+    15.007,
+    15.087,
+    15.327
+   ]
+  },
+  {
+   "start": 15.727,
+   "end": 16.528,
+   "text": "FEITA SÓ PRA",
+   "hl": false,
+   "w": [
+    15.727,
+    16.148,
+    16.348
+   ]
+  },
+  {
+   "start": 16.528,
+   "end": 17.169,
+   "text": "ESSE JOGO",
+   "hl": false,
+   "w": [
+    16.528,
+    16.768
+   ]
+  },
+  {
+   "start": 17.169,
+   "end": 18.811,
+   "text": "INSPIRADA EM LEONIDA",
+   "hl": false,
+   "w": [
+    17.169,
+    17.77,
+    17.89
+   ]
+  },
+  {
+   "start": 18.811,
+   "end": 19.752,
+   "text": "E NA MEIA-NOITE",
+   "hl": false,
+   "w": [
+    18.811,
+    18.911,
+    19.131
+   ]
+  },
+  {
+   "start": 19.752,
+   "end": 21.053,
+   "text": "SEGUINTE O GTA 6",
+   "hl": true,
+   "w": [
+    19.752,
+    20.292,
+    20.372,
+    20.372
+   ]
+  },
+  {
+   "start": 21.053,
+   "end": 22.034,
+   "text": "JÁ LIBERA",
+   "hl": false,
+   "w": [
+    21.053,
+    21.233
+   ]
+  },
+  {
+   "start": 22.034,
+   "end": 22.935,
+   "text": "PENSA COMIGO",
+   "hl": false,
+   "w": [
+    22.034,
+    22.315
+   ]
+  },
+  {
+   "start": 22.935,
+   "end": 23.556,
+   "text": "UM TIME DE",
+   "hl": false,
+   "w": [
+    22.935,
+    23.115,
+    23.416
+   ]
+  },
+  {
+   "start": 23.556,
+   "end": 24.777,
+   "text": "VERDADE JOGANDO COM",
+   "hl": false,
+   "w": [
+    23.556,
+    24.257,
+    24.677
+   ]
+  },
+  {
+   "start": 24.777,
+   "end": 25.418,
+   "text": "A CAMISA DA",
+   "hl": false,
+   "w": [
+    24.777,
+    24.837,
+    25.278
+   ]
+  },
+  {
+   "start": 25.418,
+   "end": 26.559,
+   "text": "CIDADE DO JOGO",
+   "hl": false,
+   "w": [
+    25.418,
+    25.798,
+    25.939
+   ]
+  },
+  {
+   "start": 26.559,
+   "end": 27.34,
+   "text": "VOCÊ USARIA ESSA",
+   "hl": false,
+   "w": [
+    26.559,
+    26.84,
+    27.16
+   ]
+  },
+  {
+   "start": 27.34,
+   "end": 28.021,
+   "text": "CAMISA?",
+   "hl": false,
+   "w": [
+    27.34
+   ]
+  },
+  {
+   "start": 28.021,
+   "end": 28.601,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    28.021,
+    28.321,
+    28.441
+   ]
+  },
+  {
+   "start": 28.601,
+   "end": 29.482,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    28.601,
+    28.722,
+    28.982,
+    28.982
+   ]
+  },
+  {
+   "start": 29.482,
+   "end": 30.303,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    29.482,
+    29.603,
+    30.143
+   ]
+  },
+  {
+   "start": 30.303,
+   "end": 30.894,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    30.303,
+    30.564,
+    30.604
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.07
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 0.711
+  },
+  {
+   "txt": "Miami",
+   "falado": "Miami",
+   "tela": 0.811
+  },
+  {
+   "txt": "Heat",
+   "falado": "Heat",
+   "tela": 1.331
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 1.652
+  },
+  {
+   "txt": "virar",
+   "falado": "virar",
+   "tela": 1.792
+  },
+  {
+   "txt": "Vice",
+   "falado": "Vice",
+   "tela": 2.132
+  },
+  {
+   "txt": "City",
+   "falado": "City",
+   "tela": 2.673
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 3.154
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 3.354
+  },
+  {
+   "txt": "antes",
+   "falado": "antes",
+   "tela": 3.694
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 3.994
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 4.095
+  },
+  {
+   "txt": "sair.",
+   "falado": "sair",
+   "tela": 4.675
+  },
+  {
+   "txt": "No",
+   "falado": "No",
+   "tela": 5.356
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 5.496
+  },
+  {
+   "txt": "dezoito",
+   "falado": "dezoito",
+   "tela": 5.716
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 6.257
+  },
+  {
+   "txt": "novembro,",
+   "falado": "novembro",
+   "tela": 6.377
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 7.038
+  },
+  {
+   "txt": "time",
+   "falado": "time",
+   "tela": 7.138
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 7.378
+  },
+  {
+   "txt": "NBA",
+   "falado": "NBA",
+   "tela": 7.578
+  },
+  {
+   "txt": "joga",
+   "falado": "joga",
+   "tela": 7.979
+  },
+  {
+   "txt": "contra",
+   "falado": "contra",
+   "tela": 8.299
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 8.579
+  },
+  {
+   "txt": "Milwaukee",
+   "falado": "Milwaukee",
+   "tela": 8.62
+  },
+  {
+   "txt": "Bucks",
+   "falado": "Bucks",
+   "tela": 9.14
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 9.5
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 9.681
+  },
+  {
+   "txt": "nome",
+   "falado": "nome",
+   "tela": 9.761
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 10.021
+  },
+  {
+   "txt": "Vice",
+   "falado": "Vice",
+   "tela": 10.281
+  },
+  {
+   "txt": "City,",
+   "falado": "City",
+   "tela": 10.802
+  },
+  {
+   "txt": "numa",
+   "falado": "numa",
+   "tela": 11.302
+  },
+  {
+   "txt": "noite",
+   "falado": "noite",
+   "tela": 11.563
+  },
+  {
+   "txt": "só.",
+   "falado": "só",
+   "tela": 11.903
+  },
+  {
+   "txt": "Vai",
+   "falado": "Vai",
+   "tela": 12.524
+  },
+  {
+   "txt": "ter",
+   "falado": "ter",
+   "tela": 12.724
+  },
+  {
+   "txt": "uniforme",
+   "falado": "uniforme",
+   "tela": 12.884
+  },
+  {
+   "txt": "novo,",
+   "falado": "novo",
+   "tela": 13.385
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 13.785
+  },
+  {
+   "txt": "ainda",
+   "falado": "ainda",
+   "tela": 13.905
+  },
+  {
+   "txt": "tá",
+   "falado": "tá",
+   "tela": 14.146
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 14.246
+  },
+  {
+   "txt": "segredo,",
+   "falado": "segredo",
+   "tela": 14.346
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 15.007
+  },
+  {
+   "txt": "uma",
+   "falado": "uma",
+   "tela": 15.087
+  },
+  {
+   "txt": "quadra",
+   "falado": "quadra",
+   "tela": 15.327
+  },
+  {
+   "txt": "feita",
+   "falado": "feita",
+   "tela": 15.727
+  },
+  {
+   "txt": "só",
+   "falado": "só",
+   "tela": 16.148
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 16.348
+  },
+  {
+   "txt": "esse",
+   "falado": "esse",
+   "tela": 16.528
+  },
+  {
+   "txt": "jogo,",
+   "falado": "jogo",
+   "tela": 16.768
+  },
+  {
+   "txt": "inspirada",
+   "falado": "inspirada",
+   "tela": 17.169
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 17.77
+  },
+  {
+   "txt": "Leonida.",
+   "falado": "Leonida",
+   "tela": 17.89
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 18.811
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 18.911
+  },
+  {
+   "txt": "meia-noite",
+   "falado": "meia-noite",
+   "tela": 19.131
+  },
+  {
+   "txt": "seguinte",
+   "falado": "seguinte",
+   "tela": 19.752
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 20.292
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 20.372
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 21.053
+  },
+  {
+   "txt": "libera.",
+   "falado": "libera",
+   "tela": 21.233
+  },
+  {
+   "txt": "Pensa",
+   "falado": "Pensa",
+   "tela": 22.034
+  },
+  {
+   "txt": "comigo:",
+   "falado": "comigo",
+   "tela": 22.315
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 22.935
+  },
+  {
+   "txt": "time",
+   "falado": "time",
+   "tela": 23.115
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 23.416
+  },
+  {
+   "txt": "verdade",
+   "falado": "verdade",
+   "tela": 23.556
+  },
+  {
+   "txt": "jogando",
+   "falado": "jogando",
+   "tela": 24.257
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 24.677
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 24.777
+  },
+  {
+   "txt": "camisa",
+   "falado": "camisa",
+   "tela": 24.837
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 25.278
+  },
+  {
+   "txt": "cidade",
+   "falado": "cidade",
+   "tela": 25.418
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 25.798
+  },
+  {
+   "txt": "jogo.",
+   "falado": "jogo",
+   "tela": 25.939
+  },
+  {
+   "txt": "Você",
+   "falado": "Você",
+   "tela": 26.559
+  },
+  {
+   "txt": "usaria",
+   "falado": "usaria",
+   "tela": 26.84
+  },
+  {
+   "txt": "essa",
+   "falado": "essa",
+   "tela": 27.16
+  },
+  {
+   "txt": "camisa?",
+   "falado": "camisa",
+   "tela": 27.34
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 28.021
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 28.321
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 28.441
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 28.601
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 28.722
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 28.982
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 29.482
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 29.603
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 30.143
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 30.303
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 30.564
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 30.604
+  }
+ ]
+}

@@ -2755,11 +2755,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 12753,
-   "avgWatchedPct": 34.46756756756757,
+   "avgWatchedPct": 34.47,
    "skipRate": 40.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 50.9
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 65.9
   },
   "h24": {
    "playCount": 139,
@@ -2779,17 +2779,17 @@
   "publicado": "2026-11-06T00:02:18.000Z",
   "legenda": "GTA 6 vai sair 16 horas antes pra outro país",
   "atual": {
-   "playCount": 1482,
+   "playCount": 1484,
    "likeCount": 48,
    "commentCount": 0,
    "shares": 5,
    "saves": 7,
-   "avgWatchTimeMs": 13296,
-   "avgWatchedPct": 39.10588235294118,
-   "skipRate": 32,
+   "avgWatchTimeMs": 13276,
+   "avgWatchedPct": 39.05,
+   "skipRate": 32.1,
    "durationSeconds": 34,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 48.0
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 63.0
   },
   "h24": {
    "playCount": 1481,
@@ -2815,11 +2815,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 11208,
-   "avgWatchedPct": 29.49473684210526,
+   "avgWatchedPct": 29.49,
    "skipRate": 37.9,
    "durationSeconds": 38,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 32.9
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 442,
@@ -2839,17 +2839,17 @@
   "publicado": "2026-11-06T21:00:18.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1183,
+   "playCount": 1187,
    "likeCount": 23,
    "commentCount": 0,
    "shares": 2,
    "saves": 1,
-   "avgWatchTimeMs": 8875,
-   "avgWatchedPct": 26.89393939393939,
-   "skipRate": 37.3,
+   "avgWatchTimeMs": 8868,
+   "avgWatchedPct": 26.87,
+   "skipRate": 37.4,
    "durationSeconds": 33,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 27.0
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 42.0
   },
   "h24": {
    "playCount": 1183,
@@ -2869,51 +2869,81 @@
   "publicado": "2026-11-07T00:00:48.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1369,
+   "playCount": 1370,
    "likeCount": 61,
    "commentCount": 0,
    "shares": 1,
    "saves": 2,
-   "avgWatchTimeMs": 11673,
-   "avgWatchedPct": 34.33235294117647,
-   "skipRate": 38.2,
+   "avgWatchTimeMs": 11670,
+   "avgWatchedPct": 34.32,
+   "skipRate": 38.1,
    "durationSeconds": 34,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 24.0
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 39.0
+  },
+  "h24": {
+   "playCount": 1370,
+   "likeCount": 61,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 2,
+   "avgWatchTimeMs": 11670,
+   "avgWatchedPct": 34.32,
+   "skipRate": 38.1,
+   "durationSeconds": 34,
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 39.0
   }
  },
  "Dfcd6XfoRdx": {
   "publicado": "2026-11-07T15:08:29.000Z",
   "legenda": "GTA 6 já tá chegando nas lojas 📦😳 as caixas físicas apareceram lá fora e o verso",
   "atual": {
-   "playCount": 1324,
+   "playCount": 1344,
    "likeCount": 27,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 11907,
-   "avgWatchedPct": 34.02,
-   "skipRate": 42.5,
+   "avgWatchTimeMs": 11882,
+   "avgWatchedPct": 33.95,
+   "skipRate": 42.6,
    "durationSeconds": 35,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 8.8
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 23.9
   }
  },
  "DfdHAA5E7_7": {
   "publicado": "2026-11-07T21:07:28.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1385,
-   "likeCount": 47,
+   "playCount": 1642,
+   "likeCount": 52,
    "commentCount": 0,
+   "shares": 2,
+   "saves": 0,
+   "avgWatchTimeMs": 14602,
+   "avgWatchedPct": 41.72,
+   "skipRate": 39.4,
+   "durationSeconds": 35,
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 17.9
+  }
+ },
+ "DfdblCrDJ6B": {
+  "publicado": "2026-11-08T00:07:22.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 1277,
+   "likeCount": 32,
+   "commentCount": 1,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 14556,
-   "avgWatchedPct": 41.58857142857143,
-   "skipRate": 37.4,
-   "durationSeconds": 35,
-   "coletado": "2026-11-07T23:59Z",
-   "horas": 2.9
+   "avgWatchTimeMs": 12784,
+   "avgWatchedPct": 41.24,
+   "skipRate": 29.1,
+   "durationSeconds": 31,
+   "coletado": "2026-11-08T15:00Z",
+   "horas": 14.9
   }
  }
 }

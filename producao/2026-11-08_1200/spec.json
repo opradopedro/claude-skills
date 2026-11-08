@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v79_heat_vira_vice_city.mp4",
+ "text": "Mano, o Miami Heat vai virar Vice City um dia antes do GTA 6 sair. No dia dezoito de novembro, o time da NBA joga contra o Milwaukee Bucks com o nome de Vice City, numa noite só. Vai ter uniforme novo, que ainda tá em segredo, e uma quadra feita só pra esse jogo, inspirada em Leonida. E na meia-noite seguinte o GTA 6 já libera. Pensa comigo: um time de verdade jogando com a camisa da cidade do jogo. Você usaria essa camisa? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "noite",
+  "festa",
+  "boate",
+  "luxo",
+  "jason",
+  "lucia",
+  "carro"
+ ],
+ "seed": 79,
+ "font": "../../assets/fonts/Anton.ttf"
+}
