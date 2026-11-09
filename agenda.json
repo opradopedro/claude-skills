@@ -1694,12 +1694,23 @@
   {
    "data": "2026-11-09",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v82_piloto_desenha_ceu.mp4",
    "formato": "corte",
    "tema": "Piloto Benjamin McDaniel ('The Pilot Picasso') voa 8 h de Cessna sobre o Arkansas e desenha a arte do GTA VI com a rota no Flightradar24 (05-06/11), 200 mil acompanharam ao vivo",
    "capa": "Desenhou no céu",
-   "capa_t": 1.0
+   "capa_t": 1.0,
+   "link": "https://www.instagram.com/reel/DfhoXVXmSCd/",
+   "hora_real": "12:16",
+   "legenda": "GTA 6 foi desenhado no céu dos Estados Unidos ✈️😳 um piloto voou 8 horas sobre o Arkansas só pra rota do avião virar a arte do jogo\n\n🛩️ O Benjamin McDaniel, o \"Pilot Picasso\", fez tudo com um Cessna saindo de Bentonville\n🚁 Helicóptero, palmeiras, o logo do GTA VI, a mulher de biquíni com a pistola, o jacaré e o carro esportivo\n📡 O Flightradar24 mostrou o desenho pronto e mais de 200 mil pessoas acompanharam ao vivo\n🗓️ GTA 6 sai dia 19/11 no PS5 e no Xbox Series\n\nVocê faria uma loucura dessas pelo GTA 6? Comenta 👇 e manda pra quem vai jogar GTA 6 com você\n\nFonte: Flightradar24 (X, 06/11), via KATV e Beebom\n\n#gta6 #gtavi #gta6brasil #rockstargames #aviao",
+   "ficha": {
+    "formato": "corte",
+    "tema": "piloto desenha a arte do GTA VI no céu com a rota do avião",
+    "gancho": "um piloto desenhou o GTA 6 no céu dos Estados Unidos",
+    "origem": "Flightradar24 no X (06/11); katv.com e beebom.com",
+    "visual": "imagem real da rota no Flightradar24 em recortes que seguem a fala + b-roll aéreo do banco"
+   },
+   "capa_embutida": true
   }
  ]
 }
