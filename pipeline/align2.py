@@ -5,7 +5,7 @@ audio, com ~20 ms de erro. REGRA do Pedro (30/10): legenda nunca atrasada nem an
 de cronometrar legenda. align_estimado() e o metodo antigo (pausas + silabas), so para diagnostico."""
 import re, subprocess
 
-SPOKEN = {"GTA 6": "ge te a seis", "revista LOVE": "revista lov", "PS5": "pe esse cinco", "GTA": "ge te a", "6": "seis", "19": "dezenove", "Xbox": "equis box",
+SPOKEN = {"Travis": "tré vis", "Scott": "scót", "Cardi": "cár di", "B": "bi", "Don": "dom", "Toliver": "tó li ver", "Justice": "jás tiss", "PlayStation": "plei stei xon", "GTA 6": "ge te a seis", "revista LOVE": "revista lov", "PS5": "pe esse cinco", "GTA": "ge te a", "6": "seis", "19": "dezenove", "Xbox": "equis box",
           "TV": "te ve", "PC": "pe ce", "LOVE": "lov", "14.10": "quatorze ponto dez", "13.60": "treze ponto sessenta",
           "19/11": "dezenove de novembro", "Patriot": "pei tri ot", "Pisswasser": "pis va ser",
           "GTA 5": "ge te a cinco", "5": "cinco", "PS": "pe esse", "Plus": "plas", "IA": "i a", "Obbe": "obe", "TikTok": "tique toque", "Jack": "jéque", "Vermeij": "ver mei",
