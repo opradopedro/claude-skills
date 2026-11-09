@@ -1690,6 +1690,16 @@
    "capa_embutida": true,
    "link": "https://www.instagram.com/reel/DfgBO4elEZB/",
    "hora_real": "21:15"
+  },
+  {
+   "data": "2026-11-09",
+   "hora": "12:00",
+   "status": "pendente",
+   "arquivo": "radar_v82_piloto_desenha_ceu.mp4",
+   "formato": "corte",
+   "tema": "Piloto Benjamin McDaniel ('The Pilot Picasso') voa 8 h de Cessna sobre o Arkansas e desenha a arte do GTA VI com a rota no Flightradar24 (05-06/11), 200 mil acompanharam ao vivo",
+   "capa": "Desenhou no céu",
+   "capa_t": 1.0
   }
  ]
 }
