@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v81_policia_zoa_preso.mp4",
+ "text": "Mano, a polícia da Inglaterra zoou um cara que vai passar o lançamento do GTA 6 na cadeia. O Jack fugiu da polícia correndo no meio das casas, cortando esquina e botando pedestre em risco. Resultado: catorze meses de prisão. E a polícia postou a perseguição no TikTok editada no estilo GTA, com estrela de procurado e tudo. Na legenda: ele podia ter esperado umas semanas pelo GTA 6, agora vai passar o lançamento preso. Pensa comigo: treze anos esperando e vai perder o dia dezenove. Foi justo ou pesado demais? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "policia",
+  "perseguicao",
+  "fuga",
+  "dirigindo",
+  "carro",
+  "rua",
+  "prisao",
+  "acao"
+ ],
+ "seed": 81,
+ "font": "../../assets/fonts/Anton.ttf"
+}
