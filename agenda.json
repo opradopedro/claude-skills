@@ -1673,7 +1673,7 @@
   {
    "data": "2026-11-08",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v81_policia_zoa_preso.mp4",
    "formato": "corte",
    "tema": "Polícia de Derbyshire (Inglaterra) posta no TikTok perseguição editada no estilo GTA e zoa Jack Vickrage, preso por 14 meses, que vai perder o lançamento do GTA 6 (VGTimes 04/11)",
@@ -1687,7 +1687,9 @@
     "origem": "vgtimes.com/gaming-news/173445 (04/11); TikTok @derbyspolice",
     "visual": "b-roll do banco (Extended Look)"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfgBO4elEZB/",
+   "hora_real": "21:15"
   }
  ]
 }
