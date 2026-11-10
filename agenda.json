@@ -1735,13 +1735,22 @@
   {
    "data": "2026-11-09",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v84_take_two_prevenda.mp4",
    "formato": "corte",
    "tema": "Take-Two (resultado do trimestre jul-set, 09/11): Strauss Zelnick diz que a pré-venda do GTA 6 está 'muito acima das expectativas'; números só depois do lançamento; PC, Switch 2 e disco físico ficam com a Rockstar (Variety/Yahoo 09/11)",
    "capa": "Pré-venda explodiu",
    "capa_t": 13.4,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfilgBtP9DR/",
+   "hora_real": "21:13",
+   "legenda": "GTA 6 tá vendendo mais do que a própria Take-Two esperava 💰😳 o chefão da dona da Rockstar abriu o jogo na última reunião antes do lançamento\n\n🗣️ Strauss Zelnick: a pré-venda tá \"muito acima das nossas expectativas\"\n🔢 Número exato? Só depois do lançamento\n💻 PC e disco físico: ele jogou a bola pra Rockstar\n⏬ Pré-download libera amanhã, 10/11, e o jogo sai dia 19/11\n\nVocê já garantiu o seu ou vai comprar no dia? 👇\nManda pra quem vai jogar GTA 6 com você 🎮\n\nFonte: Variety, 09/11\n\n#gta6 #gtavi #rockstargames #taketwo #games",
+   "ficha": {
+    "formato": "corte",
+    "tema": "Take-Two: pré-venda do GTA 6 muito acima do esperado (resultado do trimestre, 09/11)",
+    "gancho": "GTA 6 tá vendendo mais do que a própria Take-Two esperava",
+    "origem": "Variety/Yahoo 09/11"
+   }
   }
  ]
 }
