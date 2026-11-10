@@ -1755,13 +1755,22 @@
   {
    "data": "2026-11-10",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v85_gta6_pronto_predownload.mp4",
    "formato": "corte",
    "tema": "Strauss Zelnick (Take-Two) confirma na call de 09/11 que a Rockstar terminou o desenvolvimento do GTA 6; pré-download do PS5 começou em 10/11 na Nova Zelândia com 209,8 GB (GTA BOOM 10/11, Notebookcheck 10/11)",
    "capa": "Acabou: tá pronto",
    "capa_t": 0.7,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfkMqqny8gW/",
+   "hora_real": "12:12",
+   "legenda": "GTA 6 tá pronto e o desenvolvimento acabou ✅😳 o chefão da Take-Two confirmou e o pré-download já começou nos primeiros PS5 🎮\n\n🗣️ Strauss Zelnick: a Rockstar terminou o jogo, agora é só entregar dia 19/11\n⏬ Pré-download aberto: começou na Nova Zelândia e vai liberando pelo mundo\n💾 No PS5 o arquivo deu 209,8 GB (Rockstar pede até 212 GB livres)\n💡 Comprou digital? Libera espaço e deixa baixando antes do dia\n\nVocê já começou o download ou vai esperar o lançamento? 👇\nManda pra quem vai jogar GTA 6 com você 🎮\n\nFonte: GTA BOOM e Notebookcheck, 10/11\n\n#gta6 #gtavi #rockstargames #ps5 #games",
+   "ficha": {
+    "formato": "corte",
+    "tema": "Take-Two confirma GTA 6 pronto (desenvolvimento acabou) + pré-download começou (209,8 GB no PS5)",
+    "gancho": "GTA 6 tá pronto e o desenvolvimento acabou",
+    "origem": "GTA BOOM / Notebookcheck 10/11"
+   }
   }
  ]
 }
