@@ -1,0 +1,20 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v85_gta6_pronto_predownload.mp4",
+ "text": "Mano, acabou: GTA 6 tá pronto. O chefão da Take-Two, Strauss Zelnick, confirmou na reunião com investidores que a Rockstar terminou o desenvolvimento do jogo. Agora o foco é só entregar no dia dezenove. E o pré-download já começou: na Nova Zelândia, os primeiros jogadores de PS5 já estão baixando, e o arquivo deu quase duzentos e dez gigas. Pensa comigo: se você comprou digital, libera espaço e já deixa baixando, porque no dia vai ser fila na internet. Você já começou o download ou vai esperar o dia? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "vice-city",
+  "personagens",
+  "carro",
+  "noite",
+  "praia",
+  "acao"
+ ],
+ "seed": 85,
+ "font": "../../assets/fonts/Anton.ttf"
+}

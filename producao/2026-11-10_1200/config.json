@@ -1,0 +1,1106 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v85_gta6_pronto_predownload.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_229.mp4",
+   "start": 0.0,
+   "end": 1.491,
+   "layout": "full",
+   "cx": 0.6658536850846615,
+   "pan": 1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_207.mp4",
+   "start": 1.491,
+   "end": 3.713,
+   "layout": "full",
+   "cx": 0.608,
+   "pan": -1,
+   "ss": 1.57
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_123.mp4",
+   "start": 3.713,
+   "end": 5.135,
+   "layout": "full",
+   "cx": 0.786,
+   "pan": 1,
+   "ss": 0.76
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_196.mp4",
+   "start": 5.135,
+   "end": 7.016,
+   "layout": "full",
+   "cx": 0.585,
+   "pan": -1,
+   "ss": 0.27
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_222.mp4",
+   "start": 7.016,
+   "end": 9.058,
+   "layout": "full",
+   "cx": 0.468,
+   "pan": 1,
+   "ss": 1.04
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_300.mp4",
+   "start": 9.058,
+   "end": 10.64,
+   "layout": "full",
+   "cx": 0.445078132775953,
+   "pan": -1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_241.mp4",
+   "start": 10.64,
+   "end": 12.081,
+   "layout": "full",
+   "cx": 0.779,
+   "pan": 1,
+   "ss": 1.81
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_048.mp4",
+   "start": 12.081,
+   "end": 14.243,
+   "layout": "full",
+   "cx": 0.969,
+   "pan": -1,
+   "ss": 0.04
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_306.mp4",
+   "start": 14.243,
+   "end": 16.125,
+   "layout": "full",
+   "cx": 0.287,
+   "pan": 1,
+   "ss": 1.11
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_212.mp4",
+   "start": 16.125,
+   "end": 17.987,
+   "layout": "full",
+   "cx": 0.702,
+   "pan": -1,
+   "ss": 0.36
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_313.mp4",
+   "start": 17.987,
+   "end": 19.568,
+   "layout": "full",
+   "cx": 0.713,
+   "pan": 1,
+   "ss": 0.76
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_009.mp4",
+   "start": 19.568,
+   "end": 21.77,
+   "layout": "full",
+   "cx": 0.495,
+   "pan": -1,
+   "ss": 1.47
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_239.mp4",
+   "start": 21.77,
+   "end": 23.412,
+   "layout": "full",
+   "cx": 0.489,
+   "pan": 1,
+   "ss": 0.87
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_385.mp4",
+   "start": 23.412,
+   "end": 24.993,
+   "layout": "full",
+   "cx": 0.441,
+   "pan": -1,
+   "ss": 0.94
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_156.mp4",
+   "start": 24.993,
+   "end": 26.875,
+   "layout": "full",
+   "cx": 0.089,
+   "pan": 1,
+   "ss": 1.13
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_176.mp4",
+   "start": 26.875,
+   "end": 28.636,
+   "layout": "full",
+   "cx": 0.596,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_224.mp4",
+   "start": 28.636,
+   "end": 30.118,
+   "layout": "full",
+   "cx": 0.697,
+   "pan": 1,
+   "ss": 1.27
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_281.mp4",
+   "start": 30.118,
+   "end": 31.899,
+   "layout": "full",
+   "cx": 0.466,
+   "pan": -1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_004.mp4",
+   "start": 31.899,
+   "end": 33.701,
+   "layout": "full",
+   "cx": 0.676,
+   "pan": 1,
+   "ss": 0.96
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_324.mp4",
+   "start": 33.701,
+   "end": 34.816,
+   "layout": "full",
+   "cx": 0.367,
+   "pan": -1,
+   "ss": 0.4
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.09,
+   "end": 0.731,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.09
+   ]
+  },
+  {
+   "start": 0.731,
+   "end": 1.491,
+   "text": "ACABOU",
+   "hl": false,
+   "w": [
+    0.731
+   ]
+  },
+  {
+   "start": 1.491,
+   "end": 3.713,
+   "text": "GTA 6 TÁ PRONTO",
+   "hl": true,
+   "w": [
+    1.491,
+    1.491,
+    2.272,
+    2.552
+   ]
+  },
+  {
+   "start": 3.713,
+   "end": 4.394,
+   "text": "O CHEFÃO DA",
+   "hl": false,
+   "w": [
+    3.713,
+    3.814,
+    4.254
+   ]
+  },
+  {
+   "start": 4.394,
+   "end": 5.135,
+   "text": "TAKE-TWO",
+   "hl": false,
+   "w": [
+    4.394
+   ]
+  },
+  {
+   "start": 5.135,
+   "end": 5.996,
+   "text": "STRAUSS ZELNICK",
+   "hl": false,
+   "w": [
+    5.135,
+    5.495
+   ]
+  },
+  {
+   "start": 5.996,
+   "end": 7.016,
+   "text": "CONFIRMOU NA REUNIÃO",
+   "hl": false,
+   "w": [
+    5.996,
+    6.516,
+    6.636
+   ]
+  },
+  {
+   "start": 7.016,
+   "end": 7.937,
+   "text": "COM INVESTIDORES QUE",
+   "hl": false,
+   "w": [
+    7.016,
+    7.157,
+    7.837
+   ]
+  },
+  {
+   "start": 7.937,
+   "end": 9.058,
+   "text": "A ROCKSTAR TERMINOU",
+   "hl": false,
+   "w": [
+    7.937,
+    7.997,
+    8.518
+   ]
+  },
+  {
+   "start": 9.058,
+   "end": 9.779,
+   "text": "O DESENVOLVIMENTO",
+   "hl": false,
+   "w": [
+    9.058,
+    9.118
+   ]
+  },
+  {
+   "start": 9.779,
+   "end": 10.64,
+   "text": "DO JOGO",
+   "hl": false,
+   "w": [
+    9.779,
+    9.899
+   ]
+  },
+  {
+   "start": 10.64,
+   "end": 11.34,
+   "text": "AGORA O FOCO",
+   "hl": false,
+   "w": [
+    10.64,
+    10.94,
+    11.02
+   ]
+  },
+  {
+   "start": 11.34,
+   "end": 12.081,
+   "text": "É SÓ ENTREGAR",
+   "hl": false,
+   "w": [
+    11.34,
+    11.501,
+    11.681
+   ]
+  },
+  {
+   "start": 12.081,
+   "end": 13.302,
+   "text": "NO DIA DEZENOVE",
+   "hl": false,
+   "w": [
+    12.081,
+    12.181,
+    12.361
+   ]
+  },
+  {
+   "start": 13.302,
+   "end": 14.243,
+   "text": "E O PRÉ-DOWNLOAD",
+   "hl": false,
+   "w": [
+    13.302,
+    13.402,
+    13.502
+   ]
+  },
+  {
+   "start": 14.243,
+   "end": 15.264,
+   "text": "JÁ COMEÇOU",
+   "hl": false,
+   "w": [
+    14.243,
+    14.423
+   ]
+  },
+  {
+   "start": 15.264,
+   "end": 16.125,
+   "text": "NA NOVA ZELÂNDIA",
+   "hl": false,
+   "w": [
+    15.264,
+    15.424,
+    15.664
+   ]
+  },
+  {
+   "start": 16.125,
+   "end": 17.086,
+   "text": "OS PRIMEIROS JOGADORES",
+   "hl": false,
+   "w": [
+    16.125,
+    16.245,
+    16.625
+   ]
+  },
+  {
+   "start": 17.086,
+   "end": 17.987,
+   "text": "DE PS5 JÁ",
+   "hl": true,
+   "w": [
+    17.086,
+    17.206,
+    17.846
+   ]
+  },
+  {
+   "start": 17.987,
+   "end": 19.007,
+   "text": "ESTÃO BAIXANDO",
+   "hl": false,
+   "w": [
+    17.987,
+    18.227
+   ]
+  },
+  {
+   "start": 19.007,
+   "end": 19.568,
+   "text": "E O ARQUIVO",
+   "hl": false,
+   "w": [
+    19.007,
+    19.088,
+    19.168
+   ]
+  },
+  {
+   "start": 19.568,
+   "end": 20.609,
+   "text": "DEU QUASE DUZENTOS",
+   "hl": false,
+   "w": [
+    19.568,
+    19.748,
+    20.088
+   ]
+  },
+  {
+   "start": 20.609,
+   "end": 21.77,
+   "text": "E DEZ GIGAS",
+   "hl": false,
+   "w": [
+    20.609,
+    20.709,
+    20.989
+   ]
+  },
+  {
+   "start": 21.77,
+   "end": 22.771,
+   "text": "PENSA COMIGO",
+   "hl": false,
+   "w": [
+    21.77,
+    22.07
+   ]
+  },
+  {
+   "start": 22.771,
+   "end": 23.412,
+   "text": "SE VOCÊ COMPROU",
+   "hl": false,
+   "w": [
+    22.771,
+    22.871,
+    23.111
+   ]
+  },
+  {
+   "start": 23.412,
+   "end": 24.092,
+   "text": "DIGITAL",
+   "hl": false,
+   "w": [
+    23.412
+   ]
+  },
+  {
+   "start": 24.092,
+   "end": 24.993,
+   "text": "LIBERA ESPAÇO E",
+   "hl": false,
+   "w": [
+    24.092,
+    24.432,
+    24.933
+   ]
+  },
+  {
+   "start": 24.993,
+   "end": 26.154,
+   "text": "JÁ DEIXA BAIXANDO",
+   "hl": false,
+   "w": [
+    24.993,
+    25.173,
+    25.433
+   ]
+  },
+  {
+   "start": 26.154,
+   "end": 26.875,
+   "text": "PORQUE NO DIA",
+   "hl": false,
+   "w": [
+    26.154,
+    26.434,
+    26.594
+   ]
+  },
+  {
+   "start": 26.875,
+   "end": 27.595,
+   "text": "VAI SER FILA",
+   "hl": false,
+   "w": [
+    26.875,
+    27.055,
+    27.295
+   ]
+  },
+  {
+   "start": 27.595,
+   "end": 28.636,
+   "text": "NA INTERNET",
+   "hl": false,
+   "w": [
+    27.595,
+    27.695
+   ]
+  },
+  {
+   "start": 28.636,
+   "end": 29.417,
+   "text": "VOCÊ JÁ COMEÇOU",
+   "hl": false,
+   "w": [
+    28.636,
+    28.917,
+    29.057
+   ]
+  },
+  {
+   "start": 29.417,
+   "end": 30.118,
+   "text": "O DOWNLOAD OU",
+   "hl": false,
+   "w": [
+    29.417,
+    29.437,
+    30.018
+   ]
+  },
+  {
+   "start": 30.118,
+   "end": 30.678,
+   "text": "VAI ESPERAR O",
+   "hl": false,
+   "w": [
+    30.118,
+    30.258,
+    30.618
+   ]
+  },
+  {
+   "start": 30.678,
+   "end": 31.319,
+   "text": "DIA?",
+   "hl": false,
+   "w": [
+    30.678
+   ]
+  },
+  {
+   "start": 31.319,
+   "end": 31.899,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    31.319,
+    31.579,
+    31.719
+   ]
+  },
+  {
+   "start": 31.899,
+   "end": 32.96,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    31.899,
+    32.039,
+    32.32,
+    32.32
+   ]
+  },
+  {
+   "start": 32.96,
+   "end": 33.701,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    32.96,
+    33.08,
+    33.581
+   ]
+  },
+  {
+   "start": 33.701,
+   "end": 34.332,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    33.701,
+    33.961,
+    34.021
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.09
+  },
+  {
+   "txt": "acabou:",
+   "falado": "acabou",
+   "tela": 0.731
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 1.491
+  },
+  {
+   "txt": "tá",
+   "falado": "tá",
+   "tela": 2.272
+  },
+  {
+   "txt": "pronto.",
+   "falado": "pronto",
+   "tela": 2.552
+  },
+  {
+   "txt": "O",
+   "falado": "O",
+   "tela": 3.713
+  },
+  {
+   "txt": "chefão",
+   "falado": "chefão",
+   "tela": 3.814
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 4.254
+  },
+  {
+   "txt": "Take-Two,",
+   "falado": "teik tu",
+   "tela": 4.394
+  },
+  {
+   "txt": "Strauss",
+   "falado": "strauss",
+   "tela": 5.135
+  },
+  {
+   "txt": "Zelnick,",
+   "falado": "zel nik",
+   "tela": 5.495
+  },
+  {
+   "txt": "confirmou",
+   "falado": "confirmou",
+   "tela": 5.996
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 6.516
+  },
+  {
+   "txt": "reunião",
+   "falado": "reunião",
+   "tela": 6.636
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 7.016
+  },
+  {
+   "txt": "investidores",
+   "falado": "investidores",
+   "tela": 7.157
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 7.837
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 7.937
+  },
+  {
+   "txt": "Rockstar",
+   "falado": "Rockstar",
+   "tela": 7.997
+  },
+  {
+   "txt": "terminou",
+   "falado": "terminou",
+   "tela": 8.518
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 9.058
+  },
+  {
+   "txt": "desenvolvimento",
+   "falado": "desenvolvimento",
+   "tela": 9.118
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 9.779
+  },
+  {
+   "txt": "jogo.",
+   "falado": "jogo",
+   "tela": 9.899
+  },
+  {
+   "txt": "Agora",
+   "falado": "Agora",
+   "tela": 10.64
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 10.94
+  },
+  {
+   "txt": "foco",
+   "falado": "foco",
+   "tela": 11.02
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 11.34
+  },
+  {
+   "txt": "só",
+   "falado": "só",
+   "tela": 11.501
+  },
+  {
+   "txt": "entregar",
+   "falado": "entregar",
+   "tela": 11.681
+  },
+  {
+   "txt": "no",
+   "falado": "no",
+   "tela": 12.081
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 12.181
+  },
+  {
+   "txt": "dezenove.",
+   "falado": "dezenove",
+   "tela": 12.361
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 13.302
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 13.402
+  },
+  {
+   "txt": "pré-download",
+   "falado": "pré-download",
+   "tela": 13.502
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 14.243
+  },
+  {
+   "txt": "começou:",
+   "falado": "começou",
+   "tela": 14.423
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 15.264
+  },
+  {
+   "txt": "Nova",
+   "falado": "Nova",
+   "tela": 15.424
+  },
+  {
+   "txt": "Zelândia,",
+   "falado": "Zelândia",
+   "tela": 15.664
+  },
+  {
+   "txt": "os",
+   "falado": "os",
+   "tela": 16.125
+  },
+  {
+   "txt": "primeiros",
+   "falado": "primeiros",
+   "tela": 16.245
+  },
+  {
+   "txt": "jogadores",
+   "falado": "jogadores",
+   "tela": 16.625
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 17.086
+  },
+  {
+   "txt": "PS5",
+   "falado": "pe esse cinco",
+   "tela": 17.206
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 17.846
+  },
+  {
+   "txt": "estão",
+   "falado": "estão",
+   "tela": 17.987
+  },
+  {
+   "txt": "baixando,",
+   "falado": "baixando",
+   "tela": 18.227
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 19.007
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 19.088
+  },
+  {
+   "txt": "arquivo",
+   "falado": "arquivo",
+   "tela": 19.168
+  },
+  {
+   "txt": "deu",
+   "falado": "deu",
+   "tela": 19.568
+  },
+  {
+   "txt": "quase",
+   "falado": "quase",
+   "tela": 19.748
+  },
+  {
+   "txt": "duzentos",
+   "falado": "duzentos",
+   "tela": 20.088
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 20.609
+  },
+  {
+   "txt": "dez",
+   "falado": "dez",
+   "tela": 20.709
+  },
+  {
+   "txt": "gigas.",
+   "falado": "gigas",
+   "tela": 20.989
+  },
+  {
+   "txt": "Pensa",
+   "falado": "Pensa",
+   "tela": 21.77
+  },
+  {
+   "txt": "comigo:",
+   "falado": "comigo",
+   "tela": 22.07
+  },
+  {
+   "txt": "se",
+   "falado": "se",
+   "tela": 22.771
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 22.871
+  },
+  {
+   "txt": "comprou",
+   "falado": "comprou",
+   "tela": 23.111
+  },
+  {
+   "txt": "digital,",
+   "falado": "digital",
+   "tela": 23.412
+  },
+  {
+   "txt": "libera",
+   "falado": "libera",
+   "tela": 24.092
+  },
+  {
+   "txt": "espaço",
+   "falado": "espaço",
+   "tela": 24.432
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 24.933
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 24.993
+  },
+  {
+   "txt": "deixa",
+   "falado": "deixa",
+   "tela": 25.173
+  },
+  {
+   "txt": "baixando,",
+   "falado": "baixando",
+   "tela": 25.433
+  },
+  {
+   "txt": "porque",
+   "falado": "porque",
+   "tela": 26.154
+  },
+  {
+   "txt": "no",
+   "falado": "no",
+   "tela": 26.434
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 26.594
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 26.875
+  },
+  {
+   "txt": "ser",
+   "falado": "ser",
+   "tela": 27.055
+  },
+  {
+   "txt": "fila",
+   "falado": "fila",
+   "tela": 27.295
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 27.595
+  },
+  {
+   "txt": "internet.",
+   "falado": "internet",
+   "tela": 27.695
+  },
+  {
+   "txt": "Você",
+   "falado": "Você",
+   "tela": 28.636
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 28.917
+  },
+  {
+   "txt": "começou",
+   "falado": "começou",
+   "tela": 29.057
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 29.417
+  },
+  {
+   "txt": "download",
+   "falado": "download",
+   "tela": 29.437
+  },
+  {
+   "txt": "ou",
+   "falado": "ou",
+   "tela": 30.018
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 30.118
+  },
+  {
+   "txt": "esperar",
+   "falado": "esperar",
+   "tela": 30.258
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 30.618
+  },
+  {
+   "txt": "dia?",
+   "falado": "dia",
+   "tela": 30.678
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 31.319
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 31.579
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 31.719
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 31.899
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 32.039
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 32.32
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 32.96
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 33.08
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 33.581
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 33.701
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 33.961
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 34.021
+  }
+ ]
+}
