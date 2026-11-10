@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 09/11/2026 18:04 (Brasília) com 80 Reels com nota. Média geral: 59.7/100.
+Atualizado em 09/11/2026 21:00 (Brasília) com 80 Reels com nota. Média geral: 59.7/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -291,4 +291,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DfhoXVXmSCd](https://www.instagram.com/reel/DfhoXVXmSCd/): 5.8 h no ar, 130 views, 60.2% pularam, 23% assistido, 5 curtidas
+- [DfhoXVXmSCd](https://www.instagram.com/reel/DfhoXVXmSCd/): 8.7 h no ar, 134 views, 60.6% pularam, 23% assistido, 5 curtidas
+- [DfiSpullC2Y](https://www.instagram.com/reel/DfiSpullC2Y/): 2.6 h no ar, 161 views, 52.4% pularam, 20% assistido, 6 curtidas

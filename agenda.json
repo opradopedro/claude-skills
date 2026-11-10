@@ -1731,6 +1731,17 @@
     "gancho": "pergunta",
     "origem": "Rockstar no X / Axios Miami 09/11"
    }
+  },
+  {
+   "data": "2026-11-09",
+   "hora": "21:00",
+   "status": "pendente",
+   "arquivo": "radar_v84_take_two_prevenda.mp4",
+   "formato": "corte",
+   "tema": "Take-Two (resultado do trimestre jul-set, 09/11): Strauss Zelnick diz que a pré-venda do GTA 6 está 'muito acima das expectativas'; números só depois do lançamento; PC, Switch 2 e disco físico ficam com a Rockstar (Variety/Yahoo 09/11)",
+   "capa": "Pré-venda explodiu",
+   "capa_t": 13.4,
+   "capa_embutida": true
   }
  ]
 }

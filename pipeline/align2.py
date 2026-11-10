@@ -9,7 +9,7 @@ SPOKEN = {"Travis": "tré vis", "Scott": "scót", "Cardi": "cár di", "B": "bi",
           "TV": "te ve", "PC": "pe ce", "LOVE": "lov", "14.10": "quatorze ponto dez", "13.60": "treze ponto sessenta",
           "19/11": "dezenove de novembro", "Patriot": "pei tri ot", "Pisswasser": "pis va ser",
           "GTA 5": "ge te a cinco", "5": "cinco", "PS": "pe esse", "Plus": "plas", "IA": "i a", "Obbe": "obe", "TikTok": "tique toque", "Jack": "jéque", "Vermeij": "ver mei",
-          "Zelnick": "zel nik", "Strauss": "strauss", "Journal": "djornal", "Street": "strit", "Wall": "uol"}
+          "Zelnick": "zel nik", "Strauss": "strauss", "Journal": "djornal", "Street": "strit", "Wall": "uol", "Take-Two": "teik tu", "TakeTwo": "teik tu"}
 
 
 def syl(word):
