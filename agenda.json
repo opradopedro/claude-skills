@@ -1775,7 +1775,7 @@
   {
    "data": "2026-11-10",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v86_gta6_recorde_ps_store.mp4",
    "formato": "corte",
    "tema": "PlayStation Blog 10/11: GTA 6 é o jogo mais reservado da história da PlayStation Store + recursos do PS5/PS5 Pro (DualSense, Tempest 3D, PSSR, sombras ray tracing)",
@@ -1788,7 +1788,9 @@
     "gancho": "GTA 6 quebrou recorde antes de sair",
     "origem": "PlayStation Blog 10/11"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Dfk13A_BR61/",
+   "hora_real": "18:15"
   }
  ]
 }
