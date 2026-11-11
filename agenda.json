@@ -1795,7 +1795,7 @@
   {
    "data": "2026-11-10",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v87_gta6_caixa_399_sem_jogo.mp4",
    "formato": "corte",
    "tema": "GTA VI: The Goodtime State - Vice City Collection, caixa de merch de US$ 399,99 (£349,99) sem o jogo, só na Rockstar Store, 1 por pessoa, 11 itens, chega 19/11 (GTA BOOM, TechRadar)",
@@ -1808,7 +1808,9 @@
     "gancho": "GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro",
     "origem": "Rockstar Store / GTA BOOM / TechRadar"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DflKGteg8an/",
+   "hora_real": "21:08"
   }
  ]
 }
