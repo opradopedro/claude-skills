@@ -1,0 +1,20 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v88_gta6_xbox_one_nuvem.mp4",
+ "text": "Mano, GTA 6 vai rodar até no Xbox One, aquele console de treze anos atrás. A Microsoft confirmou ontem: no dia dezenove, às três da manhã no horário de Brasília, o jogo chega no Xbox Cloud Gaming. Ou seja, quem tem Xbox One joga pela nuvem, sem instalar nada, com os gráficos do Series S. Mas presta atenção: você ainda precisa comprar o jogo, que custa quase oitenta dólares lá fora. E a partir de hoje dá pra comprar tempo de nuvem sem assinar o Game Pass. Pensa comigo: com internet boa, o console velho ganhou sobrevida. Você jogaria GTA 6 pela nuvem ou só no console novo? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "vice-city",
+  "personagens",
+  "carro",
+  "noite",
+  "acao",
+  "praia"
+ ],
+ "seed": 88,
+ "font": "../../assets/fonts/Anton.ttf"
+}
