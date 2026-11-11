@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v89_gta6_japao_censura.mp4",
+ "text": "Mano, o GTA 6 do Japão pode vir cortado. O jogo levou a classificação mais pesada de lá, a Z, só pra maiores de dezoito. Só que na lista de conteúdo aparece crime e violência, e some o aviso de sexo e de drogas. E tem mais: o download do Xbox japonês ficou menor que o do resto do mundo. Pensa comigo: no GTA 5, o Japão já tinha cortado cenas. A Rockstar ainda não confirmou nada, então por enquanto é só suspeita. Você acha justo vender o mesmo jogo com pedaço faltando? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "personagens",
+  "cidade",
+  "vice-city",
+  "noite",
+  "acao",
+  "carro"
+ ],
+ "seed": 89,
+ "font": "../../assets/fonts/Anton.ttf"
+}
