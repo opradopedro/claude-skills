@@ -1815,13 +1815,22 @@
   {
    "data": "2026-11-11",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v88_gta6_xbox_one_nuvem.mp4",
    "formato": "corte",
    "tema": "Xbox Wire 10/11: GTA 6 no Xbox Cloud Gaming no dia 19/11 (1h ET = 3h Brasília); Xbox One joga por streaming com gráficos do Series S; precisa comprar o jogo (US$ 79,99/99,99); tempo de nuvem sem Game Pass a partir de 11/11",
    "capa": "Até no Xbox One",
    "capa_t": 13.0,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Dfmw7K2JZgf/",
+   "hora_real": "12:07",
+   "legenda": "GTA 6 vai rodar até no Xbox One 🎮😳 a Microsoft confirmou que o jogo chega no Xbox Cloud Gaming no dia do lançamento ☁️ (19/11 3h Brasília; gráficos do Series S; precisa comprar o jogo; tempo de nuvem sem Game Pass). Fonte: Xbox Wire 10/11. #gta6 #gtavi #xbox #xboxcloudgaming #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "lancamento",
+    "gancho": "revelacao",
+    "origem": "noticia Xbox Wire 10/11 (Xbox Cloud Gaming / Xbox One)"
+   }
   }
  ]
 }
