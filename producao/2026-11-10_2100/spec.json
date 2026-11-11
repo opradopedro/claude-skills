@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v87_gta6_caixa_399_sem_jogo.mp4",
+ "text": "Mano, a Rockstar tá vendendo uma caixa de GTA 6 por quase quatrocentos dólares, e o jogo nem vem dentro. É a Vice City Collection, vendida só na loja da Rockstar, uma por pessoa. São onze itens: o jacaré Macca de bonequinho com esconderijo na base, óculos Oakley, boné New Era, bolsa, mapa oficial de Leonida, broches, adesivos e até copinho de shot. Chega dia dezenove, junto com o jogo. Pensa comigo: o jogo você ainda compra separado. Vale ou é loucura? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Vice City": "Vice City",
+  "New Era": "New Era"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "vice-city",
+  "personagens",
+  "praia",
+  "noite",
+  "carro"
+ ],
+ "seed": 87,
+ "font": "../../assets/fonts/Anton.ttf"
+}
