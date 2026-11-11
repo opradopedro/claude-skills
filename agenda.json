@@ -1835,13 +1835,22 @@
   {
    "data": "2026-11-11",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "arquivo": "radar_v89_gta6_japao_censura.mp4",
    "formato": "corte",
    "tema": "GTA 6 no Japão pode sair com cortes: CERO Z (18+) lista crime e violência mas não sexo nem drogas; download do Xbox japonês menor; GTA V já foi cortado lá; Rockstar não confirmou (GTA BOOM 11/11, PowerUp Gaming 07/11, Notebookcheck)",
    "capa": "Cortado no Japão?",
    "capa_t": 11.0,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfnbZUiqJGe/",
+   "hora_real": "18:19",
+   "legenda": "GTA 6 pode chegar cortado no Japão ✂️😳 o jogo levou a classificação mais pesada de lá e um detalhe chamou atenção\n\n🔞 CERO Z: só pra maiores de 18\n📋 Na lista de conteúdo aparecem crime e violência, mas somem sexo e drogas\n💾 O download do Xbox japonês ficou menor que o do resto do mundo\n🕹️ O GTA 5 já tinha saído com cenas cortadas no Japão\n❓ A Rockstar ainda não confirmou nada: por enquanto é suspeita\n\nJusto vender o mesmo jogo com pedaço faltando? 👇\nManda pra quem vai jogar GTA 6 com você 🎮\n\nFonte: GTA BOOM e PowerUp Gaming, nov/2026\n\n#gta6 #gtavi #rockstargames #japao #games",
+   "ficha": {
+    "formato": "corte",
+    "tema": "possível censura do GTA 6 no Japão (CERO Z sem aviso de sexo/drogas, download menor)",
+    "gancho": "GTA 6 pode chegar cortado no Japão",
+    "origem": "GTA BOOM 11/11 / PowerUp Gaming 07/11"
+   }
   }
  ]
 }
