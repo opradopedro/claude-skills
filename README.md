@@ -11,6 +11,7 @@ GTA 6, Signal Lost, Old Tales e o painel) ficam no repositório
 | `skills/canal-dark-shorts` | método para criar um canal dark de YouTube Shorts (`canal-dark-shorts.skill`) |
 | `skills/instagram-skills` | pacote de skills de Instagram (`instagram-skills.skill`) |
 | `skills/apify-ultimate-scraper` | buscar dados de redes sociais e sites com o Apify (`apify-ultimate-scraper.skill`) |
+| `skills/cartoon-3d-short` | Shorts animados de história (bonecos 2D num mundo 3D, three.js + Remotion, custo zero), skill do mromidev; ver `NOTAS-PEDRO.md` (`cartoon-3d-short.skill`) |
 | `skills/find-skills` | achar skills prontas (`find-skills.skill`) |
 | `skill-creator.skill` | criar skills novas |
 | `frontend-design-v1.zip` | design de páginas e interfaces |
