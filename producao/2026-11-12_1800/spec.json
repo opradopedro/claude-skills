@@ -1,0 +1,22 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v91_gta6_30fps_ps5pro.mp4",
+ "text": "Mano, agora é oficial: o GTA 6 vai rodar a trinta quadros por segundo nos consoles. E isso vale até pro PS5 Pro. Foi a própria Rockstar que confirmou no aviso do pré-download: no PS5 e no Xbox Series, o jogo mira trinta quadros, levando os dois consoles ao limite. O PS5 Pro ganha imagem mais nítida e sombras com ray tracing, mas os quadros continuam os mesmos. E modo de sessenta? Ninguém prometeu nada. Pensa comigo: você prefere gráfico bonito a trinta, ou jogo liso a sessenta? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "PS5 Pro": "PS5 Pro",
+  "ray tracing": "ray tracing",
+  "Xbox Series": "Xbox Series"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "carro",
+  "cidade",
+  "vice-city",
+  "noite",
+  "acao",
+  "personagens"
+ ],
+ "seed": 91,
+ "font": "../../assets/fonts/Anton.ttf"
+}

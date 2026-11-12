@@ -1871,6 +1871,18 @@
     "gancho": "GTA 6 virou carro de verdade",
     "origem": "GTA BOOM 11/11 / Selfridges"
    }
+  },
+  {
+   "data": "2026-11-12",
+   "hora": "18:00",
+   "status": "pendente",
+   "pasta": "producao/2026-11-12_1800",
+   "arquivo": "radar_v91_gta6_30fps_ps5pro.mp4",
+   "formato": "corte",
+   "tema": "Rockstar confirma no aviso do pré-download (Newswire, 10/11): GTA 6 mira 30 FPS no PS5 e Xbox Series, inclusive PS5 Pro (Pro ganha PSSR e sombras com ray tracing); nenhum modo 60 prometido (Shacknews, VGC, Insider Gaming 10/11)",
+   "capa": "Só 30 FPS até no Pro",
+   "capa_t": 2.5,
+  "capa_embutida": true
   }
  ]
 }
