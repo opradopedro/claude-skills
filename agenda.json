@@ -1855,13 +1855,22 @@
   {
    "data": "2026-11-12",
    "hora": "12:00",
-   "status": "produzir",
+   "status": "postado",
    "pasta": "producao/2026-11-11_2100",
    "arquivo": "radar_v90_gta6_cheetah_real_1_milhao.mp4",
    "formato": "corte",
    "tema": "Grotti Cheetah real do GTA 6 (West Coast Customs, base Ferrari Testarossa, degradê Vice City, selo Grotti no lugar do cavalinho) à venda por £1 milhão na vitrine da Selfridges em Londres, só pelo Personal Shopping; 6 carros feitos para a Rockstar, só esse à venda (GTA BOOM 11/11, Selfridges)",
    "capa": "Carro real por 1 milhão",
-   "obs": "Roteiro, voz Orus (VOZ OK), legenda e foto real (cheetah.jpg) prontos na pasta. Falta auto_short + montar com cheetah.jpg nas falas do carro + make_short + checar_sync. Não saiu às 21h de 11/11: o certificado de dl.fbaipublicfiles.com (modelo MMS_FA do alinhamento) venceu 11/11 23:59 UTC."
+   "link": "https://www.instagram.com/reel/DfpVzLbyGK6/",
+   "hora_real": "12:08",
+   "legenda": "GTA 6 virou carro de verdade 🏎️😳 o Grotti Cheetah do jogo tá à venda numa loja de Londres por 1 milhão de libras 💸\n\n🔧 Feito pela West Coast Customs (a oficina do Pimp My Ride)\n🐎 Base: uma Ferrari Testarossa de verdade, com o símbolo da Grotti no lugar do cavalinho\n🌴 Pintura degradê rosa e azul de Vice City\n🛍️ Fica na vitrine da Selfridges, em Londres, e só sai pelo atendimento VIP da loja\n🚗 A oficina fez 6 carros do jogo pra Rockstar, mas só esse tá à venda\n\nVocê pagaria isso num carro de GTA? 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br 🔔\n\nFonte: GTA BOOM (11/11) e site da Selfridges\n\n#gta6 #gtavi #vicecity #rockstargames #ferrari",
+   "capa_embutida": true,
+   "ficha": {
+    "formato": "corte",
+    "tema": "Grotti Cheetah real (Ferrari Testarossa da West Coast Customs) à venda por £1 milhão na Selfridges",
+    "gancho": "GTA 6 virou carro de verdade",
+    "origem": "GTA BOOM 11/11 / Selfridges"
+   }
   }
  ]
 }
