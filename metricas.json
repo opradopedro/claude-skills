@@ -3125,11 +3125,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 6569,
-   "avgWatchedPct": 21.19,
+   "avgWatchedPct": 21.19032258064516,
    "skipRate": 48.4,
    "durationSeconds": 31,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 96.0
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 101.9
   },
   "h24": {
    "playCount": 131,
@@ -3168,11 +3168,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 10910,
-   "avgWatchedPct": 30.31,
+   "avgWatchedPct": 30.305555555555557,
    "skipRate": 36.2,
    "durationSeconds": 36,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 90.1
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 96.0
   },
   "h24": {
    "playCount": 711,
@@ -3211,11 +3211,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 14742,
-   "avgWatchedPct": 38.79,
+   "avgWatchedPct": 38.794736842105266,
    "skipRate": 23.5,
    "durationSeconds": 38,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 86.9
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 92.8
   },
   "h24": {
    "playCount": 1277,
@@ -3254,11 +3254,11 @@
    "shares": 2,
    "saves": 1,
    "avgWatchTimeMs": 9369,
-   "avgWatchedPct": 21.79,
+   "avgWatchedPct": 21.788372093023256,
    "skipRate": 62.6,
    "durationSeconds": 43,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 71.9
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 77.8
   },
   "h24": {
    "playCount": 146,
@@ -3272,6 +3272,19 @@
    "durationSeconds": 43,
    "coletado": "2026-11-10T21:03Z",
    "horas": 29.8
+  },
+  "h72": {
+   "playCount": 146,
+   "likeCount": 5,
+   "commentCount": 0,
+   "shares": 2,
+   "saves": 1,
+   "avgWatchTimeMs": 9369,
+   "avgWatchedPct": 21.788372093023256,
+   "skipRate": 62.6,
+   "durationSeconds": 43,
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 77.8
   }
  },
  "DfiSpullC2Y": {
@@ -3287,8 +3300,8 @@
    "avgWatchedPct": 19.85,
    "skipRate": 50.6,
    "durationSeconds": 38,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 65.7
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 71.6
   },
   "h24": {
    "playCount": 172,
@@ -3314,11 +3327,11 @@
    "shares": 0,
    "saves": 3,
    "avgWatchTimeMs": 12807,
-   "avgWatchedPct": 36.59,
+   "avgWatchedPct": 36.59142857142857,
    "skipRate": 39.6,
    "durationSeconds": 35,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 63.0
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 68.9
   },
   "h24": {
    "playCount": 867,
@@ -3344,11 +3357,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 12078,
-   "avgWatchedPct": 35.52,
+   "avgWatchedPct": 35.523529411764706,
    "skipRate": 43,
    "durationSeconds": 34,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 47.9
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 53.9
   },
   "h24": {
    "playCount": 155,
@@ -3368,17 +3381,17 @@
   "publicado": "2026-11-10T21:11:58.000Z",
   "legenda": "GTA 6 quebrou recorde antes de sair 🏆😳 virou o jogo mais reservado da história d",
   "atual": {
-   "playCount": 1312,
+   "playCount": 1313,
    "likeCount": 32,
    "commentCount": 1,
    "shares": 5,
    "saves": 1,
-   "avgWatchTimeMs": 16743,
-   "avgWatchedPct": 49.24,
-   "skipRate": 42.3,
+   "avgWatchTimeMs": 16732,
+   "avgWatchedPct": 49.21176470588235,
+   "skipRate": 42.2,
    "durationSeconds": 34,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 41.9
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 1312,
@@ -3404,11 +3417,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 11767,
-   "avgWatchedPct": 34.61,
+   "avgWatchedPct": 34.608823529411765,
    "skipRate": 39.3,
    "durationSeconds": 34,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 39.0
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 44.9
   },
   "h24": {
    "playCount": 417,
@@ -3434,11 +3447,11 @@
    "shares": 1,
    "saves": 0,
    "avgWatchTimeMs": 9514,
-   "avgWatchedPct": 22.13,
+   "avgWatchedPct": 22.12558139534884,
    "skipRate": 39.3,
    "durationSeconds": 43,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 24.0
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 29.9
   },
   "h24": {
    "playCount": 130,
@@ -3458,17 +3471,34 @@
   "publicado": "2026-11-11T21:18:08.000Z",
   "legenda": "GTA 6 pode chegar cortado no Japão",
   "atual": {
-   "playCount": 1774,
-   "likeCount": 40,
+   "playCount": 2013,
+   "likeCount": 45,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 14249,
-   "avgWatchedPct": 40.71,
-   "skipRate": 32.4,
+   "avgWatchTimeMs": 14384,
+   "avgWatchedPct": 41.09714285714286,
+   "skipRate": 32.7,
    "durationSeconds": 35,
-   "coletado": "2026-11-12T15:08Z",
-   "horas": 17.8
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 23.8
+  }
+ },
+ "DfpVzLbyGK6": {
+  "publicado": "2026-11-12T15:08:00.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 238,
+   "likeCount": 6,
+   "commentCount": 0,
+   "shares": 2,
+   "saves": 0,
+   "avgWatchTimeMs": 13662,
+   "avgWatchedPct": 35.95263157894737,
+   "skipRate": 44.1,
+   "durationSeconds": 38,
+   "coletado": "2026-11-12T21:03Z",
+   "horas": 5.9
   }
  }
 }

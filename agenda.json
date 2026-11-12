@@ -1875,14 +1875,23 @@
   {
    "data": "2026-11-12",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-12_1800",
    "arquivo": "radar_v91_gta6_30fps_ps5pro.mp4",
    "formato": "corte",
    "tema": "Rockstar confirma no aviso do pré-download (Newswire, 10/11): GTA 6 mira 30 FPS no PS5 e Xbox Series, inclusive PS5 Pro (Pro ganha PSSR e sombras com ray tracing); nenhum modo 60 prometido (Shacknews, VGC, Insider Gaming 10/11)",
    "capa": "Só 30 FPS até no Pro",
    "capa_t": 2.5,
-  "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Dfp-egqKERU/",
+   "hora_real": "18:03",
+   "legenda": "GTA 6 vai rodar a 30 FPS até no PS5 Pro 🎮😳 a própria Rockstar confirmou no aviso do pré-download e muita gente não gostou\n\n🎯 PS5 e Xbox Series: o jogo mira 30 quadros por segundo\n💎 PS5 Pro: imagem mais nítida (PSSR) e sombras com ray tracing, mas o FPS é o mesmo\n🔥 A Rockstar diz que tá levando os consoles ao limite\n❓ Modo 60 FPS: ninguém prometeu nada até agora\n\nVocê prefere gráfico bonito a 30 ou jogo liso a 60? 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br 🔔\n\nFonte: Rockstar Newswire, via Shacknews e VGC (10/11)\n\n#gta6 #gtavi #ps5pro #rockstargames #games",
+   "ficha": {
+    "formato": "corte",
+    "tema": "GTA 6 a 30 FPS em todos os consoles, inclusive PS5 Pro (polêmica de desempenho)",
+    "gancho": "GTA 6 vai rodar a 30 FPS até no PS5 Pro",
+    "origem": "Rockstar Newswire 10/11 via Shacknews/VGC"
+   }
   }
  ]
 }
