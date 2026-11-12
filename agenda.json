@@ -1851,6 +1851,17 @@
     "gancho": "GTA 6 pode chegar cortado no Japão",
     "origem": "GTA BOOM 11/11 / PowerUp Gaming 07/11"
    }
+  },
+  {
+   "data": "2026-11-12",
+   "hora": "12:00",
+   "status": "produzir",
+   "pasta": "producao/2026-11-11_2100",
+   "arquivo": "radar_v90_gta6_cheetah_real_1_milhao.mp4",
+   "formato": "corte",
+   "tema": "Grotti Cheetah real do GTA 6 (West Coast Customs, base Ferrari Testarossa, degradê Vice City, selo Grotti no lugar do cavalinho) à venda por £1 milhão na vitrine da Selfridges em Londres, só pelo Personal Shopping; 6 carros feitos para a Rockstar, só esse à venda (GTA BOOM 11/11, Selfridges)",
+   "capa": "Carro real por 1 milhão",
+   "obs": "Roteiro, voz Orus (VOZ OK), legenda e foto real (cheetah.jpg) prontos na pasta. Falta auto_short + montar com cheetah.jpg nas falas do carro + make_short + checar_sync. Não saiu às 21h de 11/11: o certificado de dl.fbaipublicfiles.com (modelo MMS_FA do alinhamento) venceu 11/11 23:59 UTC."
   }
  ]
 }

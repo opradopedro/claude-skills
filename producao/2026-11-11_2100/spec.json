@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v90_gta6_cheetah_real_1_milhao.mp4",
+ "text": "Mano, agora dá pra comprar um carro de verdade do GTA 6, e ele custa um milhão de libras. É o Grotti Cheetah, feito pela West Coast Customs, a oficina do Pimp My Ride. A base é uma Ferrari Testarossa de verdade, com a pintura degradê rosa e azul de Vice City e o símbolo da Grotti no lugar do cavalinho. A oficina fez seis carros do jogo pra Rockstar, mas só esse tá à venda, na vitrine da Selfridges, em Londres, e só pelo atendimento VIP da loja. Pensa comigo: você pagaria isso num carro de GTA? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Vice City": "Vice City",
+  "West Coast Customs": "West Coast Customs",
+  "Pimp My Ride": "Pimp My Ride"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "carro",
+  "vice-city",
+  "cidade",
+  "noite",
+  "praia"
+ ],
+ "seed": 90,
+ "font": "../../assets/fonts/Anton.ttf"
+}

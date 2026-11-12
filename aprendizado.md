@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 11/11/2026 17:59 (Brasília) com 86 Reels com nota. Média geral: 59.8/100.
+Atualizado em 11/11/2026 21:01 (Brasília) com 86 Reels com nota. Média geral: 59.8/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -10,7 +10,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| corte | 83 | 60.8 | 60.7 |  |
+| corte | 83 | 60.7 | 60.7 |  |
 | painel | 3 | 33.3 | 43.9 | pausado |
 
 ## Tema
@@ -25,8 +25,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | alerta/utilidade | 3 | 67.2 | 64.2 |  |
 | profecia viral: internet acaba 2 dias antes de GTA 6 | 1 | 72.6 | 64.1 |  |
 | noticia/vazamentos | 1 | 72.3 | 64.0 |  |
-| recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | 1 | 72.3 | 64.0 |  |
 | bastidores/desenvolvimento | 1 | 72.0 | 63.9 |  |
+| recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | 1 | 72.2 | 63.9 |  |
 | prévia Edge: mapa cedo, combustível, transporte | 1 | 71.8 | 63.8 |  |
 | noticia/mercado | 1 | 71.0 | 63.5 |  |
 | curiosidade/economia | 1 | 70.7 | 63.4 |  |
@@ -39,7 +39,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | classificação etária 18+ no mundo todo e crítica da USK | 1 | 68.3 | 62.6 |  |
 | regra contra spoiler do final / política de vídeos da Rockstar | 1 | 67.6 | 62.4 |  |
 | lista/personagens | 1 | 66.9 | 62.2 |  |
-| curiosidade/dinheiro | 1 | 65.9 | 61.8 |  |
+| curiosidade/dinheiro | 1 | 65.8 | 61.8 |  |
 | bastidores | 4 | 62.5 | 61.6 |  |
 | noticia/polemica | 1 | 64.8 | 61.5 |  |
 | teoria | 1 | 64.6 | 61.4 |  |
@@ -50,12 +50,12 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | PC: ex-diretor da Rockstar diz que porte feito por fãs com IA pode encurtar a espera do PC | 1 | 63.3 | 61.0 |  |
 | pc | 1 | 62.8 | 60.8 |  |
 | imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11) | 1 | 61.1 | 60.2 |  |
-| recorde de intenção de compra (Circana) | 1 | 60.7 | 60.1 |  |
+| recorde de intenção de compra (Circana) | 1 | 60.6 | 60.1 |  |
 | polícia inglesa zoa motorista que vai passar o lançamento do GTA 6 preso | 1 | 60.6 | 60.1 |  |
-| caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | 1 | 60.5 | 60.0 |  |
+| caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | 1 | 60.3 | 60.0 |  |
 | curiosidade/marketing | 1 | 59.5 | 59.7 |  |
-| GTA 6 no PC em 6-7 meses segundo Pachter | 1 | 59.6 | 59.7 |  |
-| historia | 1 | 58.9 | 59.5 |  |
+| GTA 6 no PC em 6-7 meses segundo Pachter | 1 | 59.5 | 59.7 |  |
+| historia | 1 | 58.8 | 59.5 |  |
 | pré-venda: Vintage Vice City Pack, último bônus, prazo 20/11 | 1 | 58.8 | 59.5 |  |
 | boate NINE1NINE de verdade em Miami | 1 | 58.3 | 59.3 |  |
 | vendas/numeros: 7,7 mi de reservas e US$ 751 mi (Sensor Tower 03/11) | 1 | 58.1 | 59.2 |  |
@@ -63,7 +63,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | novidade oficial | 1 | 57.1 | 58.9 |  |
 | musica/trilha | 2 | 58.0 | 58.9 |  |
 | noticia/review | 2 | 57.8 | 58.8 |  |
-| trailer | 3 | 58.0 | 58.7 |  |
+| trailer | 3 | 57.9 | 58.7 |  |
 | vendas/numeros: previsão de 45 mi no lançamento (Piper Sandler) x 7,7 mi de reservas | 1 | 56.3 | 58.6 |  |
 | Take-Two confirma GTA 6 pronto (desenvolvimento acabou) + pré-download começou (209,8 GB no PS5) | 1 | 54.8 | 58.1 |  |
 | evento oficial: festival de música do GTA 6 em Miami | 1 | 54.3 | 58.0 |  |
@@ -84,7 +84,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA 6 x Hollywood (Jogos Vorazes) | 1 | 41.7 | 53.8 |  |
 | mito | 1 | 35.8 | 51.8 |  |
 | console_tecnico | 1 | 29.9 | 49.8 |  |
-| marketing/bastidores | 1 | 27.0 | 48.9 |  |
+| marketing/bastidores | 1 | 26.9 | 48.8 |  |
 
 ## Gancho
 
@@ -95,7 +95,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.4 |  |
 | tem gente que vai jogar 16 horas antes de você | 1 | 73.5 | 64.4 |  |
 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.6 | 64.1 |  |
-| GTA 6 quebrou recorde antes de sair | 1 | 72.3 | 64.0 |  |
+| GTA 6 quebrou recorde antes de sair | 1 | 72.2 | 63.9 |  |
 | noticia | 5 | 65.0 | 63.5 |  |
 | GTA 6 tá vendendo mais do que a própria Take-Two esperava | 1 | 69.7 | 63.1 |  |
 | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.3 | 63.0 |  |
@@ -108,16 +108,16 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 1 | 63.7 | 61.1 |  |
 | GTA 6 vai te julgar por cada crime | 1 | 63.3 | 61.0 |  |
 | um ex-diretor da Rockstar acha que a IA pode adiantar o GTA 6 no PC | 1 | 63.3 | 61.0 |  |
-| numero chocante | 6 | 61.2 | 60.9 |  |
+| numero chocante | 6 | 61.2 | 60.8 |  |
 | 39 imagens novas hoje | 1 | 61.1 | 60.2 |  |
 | a polícia zoou um cara que vai passar o lançamento do GTA 6 na cadeia | 1 | 60.6 | 60.1 |  |
-| GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 1 | 60.5 | 60.0 |  |
+| GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 1 | 60.3 | 60.0 |  |
 | vida real | 1 | 59.5 | 59.7 |  |
-| GTA 6 no PC pode chegar bem mais rápido do que você imagina | 1 | 59.6 | 59.7 |  |
+| GTA 6 no PC pode chegar bem mais rápido do que você imagina | 1 | 59.5 | 59.7 |  |
 | faltam 13 dias pra garantir o último bônus de pré-venda | 1 | 58.8 | 59.5 |  |
 | numero_choque | 1 | 58.1 | 59.2 |  |
 | GTA 6 pode vender 45 milhões de cópias logo no lançamento? | 1 | 56.3 | 58.6 |  |
-| revelacao | 14 | 58.0 | 58.2 |  |
+| revelacao | 14 | 57.9 | 58.2 |  |
 | GTA 6 tá pronto e o desenvolvimento acabou | 1 | 54.8 | 58.1 |  |
 | as caixas do GTA 6 já começaram a chegar nas lojas | 1 | 53.6 | 57.7 |  |
 | enquete | 7 | 56.7 | 57.4 |  |
@@ -129,7 +129,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | o chefão da dona do GTA 6 falou de pirataria | 1 | 48.0 | 55.9 |  |
 | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 1 | 47.8 | 55.8 |  |
 | lista | 3 | 50.3 | 54.1 | pausado |
-| curiosidade | 4 | 50.2 | 53.4 | pausado |
+| curiosidade | 4 | 50.1 | 53.4 | pausado |
 
 ## Origem
 
@@ -144,8 +144,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | noticia (Rob Nelson via IGN/Insider Gaming) | 1 | 72.9 | 64.2 |  |
 | VGTimes 03/11 (post viral no X) | 1 | 72.6 | 64.1 |  |
 | VGTimes 28/10 (Jeremy Conrad/ManaByte; Tom Henderson) | 1 | 72.3 | 64.0 |  |
-| PlayStation Blog 10/11 | 1 | 72.3 | 64.0 |  |
 | GTA BOOM 22/10 (Rob Nelson, Jennifer Kolbe) | 1 | 72.0 | 63.9 |  |
+| PlayStation Blog 10/11 | 1 | 72.2 | 63.9 |  |
 | noticia (Edge via GTA BOOM/GTABase) | 1 | 71.8 | 63.8 |  |
 | GamingBible 27/10 (Emberville), MP1st (Fable fev/2027), Lords of the Fallen II e Squadron 42 adiados p/ 2027 | 1 | 71.0 | 63.5 |  |
 | IBTimes UK (José García Montalvo, Universidade Pompeu Fabra) | 1 | 70.7 | 63.4 |  |
@@ -161,7 +161,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download) | 1 | 67.7 | 62.4 |  |
 | site oficial da Rockstar (via Push Square) | 1 | 66.9 | 62.2 |  |
 | Kotaku 12/10 | 1 | 66.5 | 62.0 |  |
-| VGTimes 28/10 (concurso Virgin Media Ireland) | 1 | 65.9 | 61.8 |  |
+| VGTimes 28/10 (concurso Virgin Media Ireland) | 1 | 65.8 | 61.8 |  |
 | The Game Business via Beebom 16/10 | 1 | 65.1 | 61.6 |  |
 | Rockstar, trailer de lançamento 15/10 | 1 | 64.8 | 61.5 |  |
 | Kotaku 21/10 | 1 | 64.8 | 61.5 |  |
@@ -177,12 +177,12 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Kotaku 16/10 | 1 | 61.1 | 60.2 |  |
 | rockstarintel.com/39-new-gta-6-screenshots-released-for-launch; videogameschronicle.com; pcgamer.com | 1 | 61.1 | 60.2 |  |
 | PS Store FAQ via Beebom; The Game Haus 19/10 | 1 | 60.8 | 60.1 |  |
-| GTA BOOM 29/10 (Circana) | 1 | 60.7 | 60.1 |  |
+| GTA BOOM 29/10 (Circana) | 1 | 60.6 | 60.1 |  |
 | vgtimes.com/gaming-news/173445 (04/11); TikTok @derbyspolice | 1 | 60.6 | 60.1 |  |
-| Rockstar Store / GTA BOOM / TechRadar | 1 | 60.5 | 60.0 |  |
+| Rockstar Store / GTA BOOM / TechRadar | 1 | 60.3 | 60.0 |  |
 | Dexerto (iGrandTheftAuto) 20/10 | 1 | 59.5 | 59.7 |  |
-| notícia GTA BOOM 27/10 (BBC Business Today) | 1 | 59.6 | 59.7 |  |
-| Bloomberg via Notebookcheck 18/10 | 1 | 58.9 | 59.5 |  |
+| notícia GTA BOOM 27/10 (BBC Business Today) | 1 | 59.5 | 59.7 |  |
+| Bloomberg via Notebookcheck 18/10 | 1 | 58.8 | 59.5 |  |
 | thesixthaxis.com 24/06; dexerto.com/wikis/gta-6/preorder-bonuses; gfinityesports.com | 1 | 58.8 | 59.5 |  |
 | noticia (GTA BOOM 30/10, E11EVEN Miami) | 1 | 58.3 | 59.3 |  |
 | VGTimes 01/11 (vídeo viral de Mark Tilbury) | 1 | 57.4 | 59.0 |  |
@@ -199,8 +199,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Flightradar24 no X (06/11); katv.com e beebom.com | 1 | 50.3 | 56.6 |  |
 | Rockstar (site oficial) | 1 | 50.0 | 56.5 |  |
 | GameSpot (22/10) | 1 | 49.5 | 56.4 |  |
-| Eurogamer via comicshoplocator 16/10 | 1 | 48.0 | 55.9 |  |
 | WSJ 'The CEO Behind Grand Theft Auto VI' via vgtimes.com/gaming-news/173722 (06/11) | 1 | 48.0 | 55.9 |  |
+| Eurogamer via comicshoplocator 16/10 | 1 | 47.9 | 55.8 |  |
 | nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection; gematsu.com 02/10; gtaboom 04/10 | 1 | 47.8 | 55.8 |  |
 | autoral | 9 | 54.5 | 55.5 |  |
 | VGTimes 30/10; cena do episódio via YouTube QH-XIqBDbwo | 1 | 44.1 | 54.6 |  |
@@ -211,7 +211,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA BOOM 28/10 (IGN) | 1 | 41.7 | 53.8 |  |
 | TalkEsport/The Scotsman 16/10 | 1 | 39.5 | 53.0 |  |
 | Notebookcheck 14/10 (NateTheHate/Insider Gaming) + precedentes GTA 5/RDR2 | 1 | 38.1 | 52.6 |  |
-| GTA BOOM 25/10 + vídeo yHLNoTKOO4A (Druski) | 1 | 27.0 | 48.9 |  |
+| GTA BOOM 25/10 + vídeo yHLNoTKOO4A (Druski) | 1 | 26.9 | 48.8 |  |
 
 ## Horário
 
@@ -219,7 +219,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | 21h | 26 | 63.5 | 63.2 |  |
 | 12h | 29 | 59.2 | 59.2 |  |
-| 18h | 31 | 57.3 | 57.4 |  |
+| 18h | 31 | 57.2 | 57.4 |  |
 
 ## Reels
 
@@ -235,7 +235,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
 | 2026-11-02 | [DfQjmtGlDM_](https://www.instagram.com/reel/DfQjmtGlDM_/) | corte | profecia viral: internet acaba 2 dias antes de GTA 6 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1521 | 24% | 41% | 37 | 0 | 3 | 2 | 72.6 (h72) |
 | 2026-10-28 | [DfCwKjElOi0](https://www.instagram.com/reel/DfCwKjElOi0/) | corte | noticia/vazamentos | revelacao | 1484 | 36.8% | 41% | 48 | 0 | 3 | 5 | 72.3 (h72) |
-| 2026-11-10 | [Dfk13A_BR61](https://www.instagram.com/reel/Dfk13A_BR61/) | corte | recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | GTA 6 quebrou recorde antes de sair | 1311 | 42.2% | 49% | 32 | 1 | 1 | 5 | 72.3 (provisória) |
+| 2026-11-10 | [Dfk13A_BR61](https://www.instagram.com/reel/Dfk13A_BR61/) | corte | recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | GTA 6 quebrou recorde antes de sair | 1312 | 42.3% | 49% | 32 | 1 | 1 | 5 | 72.2 (h24) |
 | 2026-10-25 | [De787TrEaru](https://www.instagram.com/reel/De787TrEaru/) | corte | bastidores/desenvolvimento | revelacao | 1285 | 38.8% | 43% | 39 | 1 | 3 | 1 | 72.0 (h72) |
 | 2026-10-30 | [DfIUyYgAtdc](https://www.instagram.com/reel/DfIUyYgAtdc/) | corte | prévia Edge: mapa cedo, combustível, transporte | mentira_verdade | 1462 | 39.8% | 43% | 65 | 1 | 3 | 35 | 71.8 (h72) |
 | 2026-10-27 | [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/) | corte | noticia/mercado | revelacao | 1300 | 35% | 33% | 43 | 0 | 0 | 6 | 71.0 (h72) |
@@ -254,7 +254,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-04 | [DfVtA3tET7n](https://www.instagram.com/reel/DfVtA3tET7n/) | corte | regra contra spoiler do final / política de vídeos da Rockstar | se você pensa em postar o final de GTA 6, para tudo | 973 | 39% | 40% | 25 | 0 | 3 | 0 | 67.6 (h72) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 66.9 (h72) |
 | 2026-10-14 | [DefSM3xFcrX](https://www.instagram.com/reel/DefSM3xFcrX/) | corte | vazamentos | votacao | 1453 | 30.6% | 49% | 25 | 7 | 0 | 0 | 66.5 (h72) |
-| 2026-10-28 | [DfDrYMklbDR](https://www.instagram.com/reel/DfDrYMklbDR/) | corte | curiosidade/dinheiro | numero chocante | 739 | 46.1% | 34% | 17 | 0 | 1 | 3 | 65.9 (h72) |
+| 2026-10-28 | [DfDrYMklbDR](https://www.instagram.com/reel/DfDrYMklbDR/) | corte | curiosidade/dinheiro | numero chocante | 739 | 46.1% | 34% | 17 | 0 | 1 | 3 | 65.8 (h72) |
 | 2026-10-19 | [DerhBaEAqHr](https://www.instagram.com/reel/DerhBaEAqHr/) | corte | noticias | enquete | 178 | 29.9% | 34% | 7 | 1 | 0 | 1 | 65.1 (h72) |
 | 2026-10-23 | [De2xCB-lPHz](https://www.instagram.com/reel/De2xCB-lPHz/) | corte | musica/trilha | rumor + oficial | 870 | 40.3% | 26% | 23 | 0 | 3 | 0 | 65.0 (h72) |
 | 2026-10-15 | [DehKLJggYHT](https://www.instagram.com/reel/DehKLJggYHT/) | corte | trailer | noticia | 145 | 37.4% | 45% | 6 | 0 | 2 | 0 | 64.8 (h72) |
@@ -272,13 +272,13 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-18 | [DeplZ4bk8TX](https://www.instagram.com/reel/DeplZ4bk8TX/) | corte | trailer | enquete | 151 | 31.5% | 42% | 5 | 0 | 0 | 0 | 61.1 (h72) |
 | 2026-11-05 | [DfX9Saomzze](https://www.instagram.com/reel/DfX9Saomzze/) | corte | imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11) | 39 imagens novas hoje | 139 | 40.5% | 34% | 9 | 0 | 1 | 0 | 61.1 (h72) |
 | 2026-10-20 | [DeuFyvkjU1q](https://www.instagram.com/reel/DeuFyvkjU1q/) | corte | noticias | enquete | 136 | 37.1% | 29% | 5 | 0 | 1 | 1 | 60.8 (h72) |
-| 2026-11-01 | [DfNAhuBkbE8](https://www.instagram.com/reel/DfNAhuBkbE8/) | corte | recorde de intenção de compra (Circana) | pergunta | 179 | 41.9% | 33% | 3 | 0 | 0 | 12 | 60.7 (h24) |
+| 2026-11-01 | [DfNAhuBkbE8](https://www.instagram.com/reel/DfNAhuBkbE8/) | corte | recorde de intenção de compra (Circana) | pergunta | 179 | 41.9% | 33% | 3 | 0 | 0 | 12 | 60.6 (h24) |
 | 2026-11-08 | [DfgBO4elEZB](https://www.instagram.com/reel/DfgBO4elEZB/) | corte | polícia inglesa zoa motorista que vai passar o lançamento do GTA 6 preso | a polícia zoou um cara que vai passar o lançamento do GTA 6 na cadeia | 1277 | 23.5% | 39% | 24 | 0 | 0 | 0 | 60.6 (h24) |
-| 2026-11-10 | [DflKGteg8an](https://www.instagram.com/reel/DflKGteg8an/) | corte | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 413 | 38.9% | 35% | 14 | 0 | 0 | 0 | 60.5 (provisória) |
+| 2026-11-10 | [DflKGteg8an](https://www.instagram.com/reel/DflKGteg8an/) | corte | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 417 | 38.7% | 35% | 14 | 0 | 0 | 0 | 60.3 (provisória) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 59.7 (h24) |
-| 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 486 | 49% | 23% | 18 | 0 | 2 | 3 | 59.6 (h72) |
 | 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 59.5 (h72) |
-| 2026-10-18 | [Dep6MPzlVqQ](https://www.instagram.com/reel/Dep6MPzlVqQ/) | corte | historia | enquete | 160 | 43.8% | 29% | 10 | 0 | 0 | 0 | 58.9 (h72) |
+| 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 486 | 49% | 23% | 18 | 0 | 2 | 3 | 59.5 (h72) |
+| 2026-10-18 | [Dep6MPzlVqQ](https://www.instagram.com/reel/Dep6MPzlVqQ/) | corte | historia | enquete | 160 | 43.8% | 29% | 10 | 0 | 0 | 0 | 58.8 (h72) |
 | 2026-11-06 | [DfahWtwmbOc](https://www.instagram.com/reel/DfahWtwmbOc/) | corte | pré-venda: Vintage Vice City Pack, último bônus, prazo 20/11 | faltam 13 dias pra garantir o último bônus de pré-venda | 1187 | 37.4% | 27% | 23 | 0 | 1 | 2 | 58.8 (h72) |
 | 2026-10-31 | [DfKcAJ2AvuU](https://www.instagram.com/reel/DfKcAJ2AvuU/) | corte | boate NINE1NINE de verdade em Miami | revelacao | 221 | 41.9% | 33% | 8 | 0 | 0 | 0 | 58.3 (h72) |
 | 2026-11-04 | [DfUvNfAEewa](https://www.instagram.com/reel/DfUvNfAEewa/) | corte | vendas/numeros: 7,7 mi de reservas e US$ 751 mi (Sensor Tower 03/11) | numero_choque | 443 | 38.6% | 30% | 14 | 0 | 0 | 0 | 58.1 (h72) |
@@ -296,8 +296,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-09 | [DfhoXVXmSCd](https://www.instagram.com/reel/DfhoXVXmSCd/) | corte | piloto desenha a arte do GTA VI no céu com a rota do avião | um piloto desenhou o GTA 6 no céu dos Estados Unidos | 146 | 62.6% | 22% | 5 | 0 | 1 | 2 | 50.3 (h24) |
 | 2026-10-16 | [DejyjUvD27e](https://www.instagram.com/reel/DejyjUvD27e/) | corte | mapa | lista | 126 | 64.3% | 25% | 5 | 0 | 0 | 0 | 50.0 (h72) |
 | 2026-10-23 | [De10O6vgais](https://www.instagram.com/reel/De10O6vgais/) | corte | marketing/mundo real | curiosidade + preço | 149 | 42.1% | 29% | 4 | 0 | 0 | 0 | 49.5 (h72) |
-| 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 48.0 (h72) |
-| 2026-11-08 | [DffrRsXlGWm](https://www.instagram.com/reel/DffrRsXlGWm/) | corte | chefe da Take-Two fala de pirataria antes do GTA 6 | o chefão da dona do GTA 6 falou de pirataria | 711 | 36.2% | 30% | 6 | 0 | 1 | 0 | 48.0 (h24) |
+| 2026-11-08 | [DffrRsXlGWm](https://www.instagram.com/reel/DffrRsXlGWm/) | corte | chefe da Take-Two fala de pirataria antes do GTA 6 | o chefão da dona do GTA 6 falou de pirataria | 711 | 36.2% | 30% | 6 | 0 | 1 | 0 | 48.0 (h72) |
+| 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 47.9 (h72) |
 | 2026-11-08 | [DffCxD-DYYY](https://www.instagram.com/reel/DffCxD-DYYY/) | corte | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 131 | 48.4% | 21% | 4 | 0 | 0 | 0 | 47.8 (h72) |
 | 2026-10-30 | [DfIoHDmCOyX](https://www.instagram.com/reel/DfIoHDmCOyX/) | corte | gameplay novo no South Park (cena real) | revelacao | 132 | 49.2% | 31% | 3 | 0 | 0 | 0 | 44.1 (h72) |
 | 2026-10-16 | [DekbyAanDQL](https://www.instagram.com/reel/DekbyAanDQL/) | corte | vazamentos | noticia | 188 | 41.6% | 37% | 3 | 0 | 0 | 0 | 43.9 (h24) |
@@ -310,8 +310,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 34.1 (h24) |
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 33.7 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.9 (h24) |
-| 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 27.0 (h24) |
+| 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 26.9 (h24) |
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [Dfmw7K2JZgf](https://www.instagram.com/reel/Dfmw7K2JZgf/): 5.9 h no ar, 128 views, 39.7% pularam, 21% assistido, 3 curtidas
+- [Dfmw7K2JZgf](https://www.instagram.com/reel/Dfmw7K2JZgf/): 8.9 h no ar, 128 views, 39.7% pularam, 21% assistido, 3 curtidas
+- [DfnbZUiqJGe](https://www.instagram.com/reel/DfnbZUiqJGe/): 2.7 h no ar, 371 views, 37.4% pularam, 34% assistido, 5 curtidas
