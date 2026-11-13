@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v93_gta6_palworld_folga.mp4",
+ "text": "Mano, a empresa que criou o Palworld vai dar cinco dias de folga pros funcionários jogarem GTA 6. A Pocketpair anunciou que quem for jogar fica de folga de dezenove a vinte e três de novembro, e ainda chamou isso de viagem de negócios urgente pra Vice City. E calma, eles garantiram que as atualizações do Palworld continuam no prazo. Pensa comigo: se o seu chefe te desse cinco dias pra jogar GTA 6, você aceitava na hora? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Vice City": "Vice City"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "personagens",
+  "cidade",
+  "vice-city",
+  "praia",
+  "acao"
+ ],
+ "seed": 93,
+ "font": "../../assets/fonts/Anton.ttf"
+}
