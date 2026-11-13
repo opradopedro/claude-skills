@@ -3168,11 +3168,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 10910,
-   "avgWatchedPct": 30.305555555555557,
+   "avgWatchedPct": 30.31,
    "skipRate": 36.2,
    "durationSeconds": 36,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 96.0
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 100.9
   },
   "h24": {
    "playCount": 711,
@@ -3211,11 +3211,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 14742,
-   "avgWatchedPct": 38.794736842105266,
+   "avgWatchedPct": 38.79,
    "skipRate": 23.5,
    "durationSeconds": 38,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 92.8
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 97.7
   },
   "h24": {
    "playCount": 1277,
@@ -3248,17 +3248,17 @@
   "publicado": "2026-11-09T15:16:22.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 146,
+   "playCount": 147,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 2,
    "saves": 1,
-   "avgWatchTimeMs": 9369,
-   "avgWatchedPct": 21.788372093023256,
-   "skipRate": 62.6,
+   "avgWatchTimeMs": 9317,
+   "avgWatchedPct": 21.67,
+   "skipRate": 62.9,
    "durationSeconds": 43,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 77.8
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 82.7
   },
   "h24": {
    "playCount": 146,
@@ -3300,8 +3300,8 @@
    "avgWatchedPct": 19.85,
    "skipRate": 50.6,
    "durationSeconds": 38,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 71.6
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 76.5
   },
   "h24": {
    "playCount": 172,
@@ -3315,6 +3315,19 @@
    "durationSeconds": 38,
    "coletado": "2026-11-11T00:08Z",
    "horas": 26.7
+  },
+  "h72": {
+   "playCount": 172,
+   "likeCount": 8,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 7543,
+   "avgWatchedPct": 19.85,
+   "skipRate": 50.6,
+   "durationSeconds": 38,
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 76.5
   }
  },
  "DfilgBtP9DR": {
@@ -3327,11 +3340,11 @@
    "shares": 0,
    "saves": 3,
    "avgWatchTimeMs": 12807,
-   "avgWatchedPct": 36.59142857142857,
+   "avgWatchedPct": 36.59,
    "skipRate": 39.6,
    "durationSeconds": 35,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 68.9
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 73.8
   },
   "h24": {
    "playCount": 867,
@@ -3345,23 +3358,36 @@
    "durationSeconds": 35,
    "coletado": "2026-11-11T14:54Z",
    "horas": 38.7
+  },
+  "h72": {
+   "playCount": 869,
+   "likeCount": 23,
+   "commentCount": 1,
+   "shares": 0,
+   "saves": 3,
+   "avgWatchTimeMs": 12807,
+   "avgWatchedPct": 36.59,
+   "skipRate": 39.6,
+   "durationSeconds": 35,
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 73.8
   }
  },
  "DfkMqqny8gW": {
   "publicado": "2026-11-10T15:12:05.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 156,
+   "playCount": 157,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 12078,
-   "avgWatchedPct": 35.523529411764706,
-   "skipRate": 43,
+   "avgWatchTimeMs": 12008,
+   "avgWatchedPct": 35.32,
+   "skipRate": 42.6,
    "durationSeconds": 34,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 53.9
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 58.8
   },
   "h24": {
    "playCount": 155,
@@ -3387,11 +3413,11 @@
    "shares": 5,
    "saves": 1,
    "avgWatchTimeMs": 16732,
-   "avgWatchedPct": 49.21176470588235,
+   "avgWatchedPct": 49.21,
    "skipRate": 42.2,
    "durationSeconds": 34,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 47.9
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 52.8
   },
   "h24": {
    "playCount": 1312,
@@ -3417,11 +3443,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 11767,
-   "avgWatchedPct": 34.608823529411765,
+   "avgWatchedPct": 34.61,
    "skipRate": 39.3,
    "durationSeconds": 34,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 44.9
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 49.8
   },
   "h24": {
    "playCount": 417,
@@ -3441,17 +3467,17 @@
   "publicado": "2026-11-11T15:07:18.000Z",
   "legenda": "GTA 6 vai rodar até no Xbox One 🎮😳 a Microsoft confirmou que o jogo chega no Xbo",
   "atual": {
-   "playCount": 130,
+   "playCount": 131,
    "likeCount": 3,
    "commentCount": 0,
    "shares": 1,
    "saves": 0,
-   "avgWatchTimeMs": 9514,
-   "avgWatchedPct": 22.12558139534884,
-   "skipRate": 39.3,
+   "avgWatchTimeMs": 9686,
+   "avgWatchedPct": 22.53,
+   "skipRate": 39,
    "durationSeconds": 43,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 29.9
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 34.8
   },
   "h24": {
    "playCount": 130,
@@ -3471,34 +3497,64 @@
   "publicado": "2026-11-11T21:18:08.000Z",
   "legenda": "GTA 6 pode chegar cortado no Japão",
   "atual": {
-   "playCount": 2013,
+   "playCount": 2019,
    "likeCount": 45,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 14384,
-   "avgWatchedPct": 41.09714285714286,
-   "skipRate": 32.7,
+   "avgWatchTimeMs": 14357,
+   "avgWatchedPct": 41.02,
+   "skipRate": 32.8,
    "durationSeconds": 35,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 23.8
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 28.7
+  },
+  "h24": {
+   "playCount": 2019,
+   "likeCount": 45,
+   "commentCount": 0,
+   "shares": 2,
+   "saves": 3,
+   "avgWatchTimeMs": 14357,
+   "avgWatchedPct": 41.02,
+   "skipRate": 32.8,
+   "durationSeconds": 35,
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 28.7
   }
  },
  "DfpVzLbyGK6": {
   "publicado": "2026-11-12T15:08:00.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 238,
-   "likeCount": 6,
+   "playCount": 269,
+   "likeCount": 7,
    "commentCount": 0,
    "shares": 2,
    "saves": 0,
-   "avgWatchTimeMs": 13662,
-   "avgWatchedPct": 35.95263157894737,
-   "skipRate": 44.1,
+   "avgWatchTimeMs": 13576,
+   "avgWatchedPct": 35.73,
+   "skipRate": 44.3,
    "durationSeconds": 38,
-   "coletado": "2026-11-12T21:03Z",
-   "horas": 5.9
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 10.8
+  }
+ },
+ "Dfp-egqKERU": {
+  "publicado": "2026-11-12T21:03:21.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 1041,
+   "likeCount": 23,
+   "commentCount": 1,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 10854,
+   "avgWatchedPct": 32.89,
+   "skipRate": 46.8,
+   "durationSeconds": 33,
+   "coletado": "2026-11-13T01:58Z",
+   "horas": 4.9
   }
  }
 }
