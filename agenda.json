@@ -1940,14 +1940,24 @@
   {
    "data": "2026-11-13",
    "hora": "18:00",
-   "status": "produzido",
+   "status": "postado",
    "pasta": "producao/2026-11-13_1800",
    "arquivo": "radar_v94_gta6_primeira_atualizacao.mp4",
    "formato": "corte",
    "tema": "Primeira atualização do GTA 6 (01.002.000, 1,07 GB) apareceu no PS5 em 13/11, sem título e sem notas da Rockstar; só metade de quem fez o pré-download recebeu (Beebom 13/11)",
    "capa": "Primeira atualização",
    "capa_t": 13.6,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfsjObMhd4q/",
+   "hora_real": "18:03",
+   "legenda": "GTA 6 nem lançou e já ganhou a primeira atualização 🎮😳 apareceu hoje no PS5 e a Rockstar não explicou nada\n\n📦 Versão 01.002.000, com 1,07 GB\n📝 Aparece \"sem título\" e sem notas do que muda\n⏳ Por enquanto só metade de quem fez o pré-download recebeu, o resto vem numa segunda leva\n\nConserto de bug ou surpresa escondida? Comenta aí 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br\n\nFonte: Beebom (13/11)\n\n#gta6 #gtavi #rockstargames #ps5 #gta",
+   "obs": "imagem real: print da tela de atualização do PS5 (Beebom, crédito Rockstar) nas falas da atualização; b-roll do banco no resto",
+   "ficha": {
+    "formato": "corte",
+    "tema": "console_tecnico",
+    "gancho": "pergunta",
+    "origem": "noticia Beebom 13/11 (update 01.002.000 no PS5)"
+   }
   }
  ]
 }
