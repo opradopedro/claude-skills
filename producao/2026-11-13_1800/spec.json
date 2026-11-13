@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v94_gta6_primeira_atualizacao.mp4",
+ "text": "Mano, GTA 6 nem lançou e já ganhou a primeira atualização. Apareceu hoje no PS5 a versão um ponto zero zero dois, com um vírgula zero sete giga, e ela aparece na tela até sem título. A Rockstar não soltou nenhuma nota explicando o que muda. E tem mais: só metade da galera que fez o pré-download recebeu por enquanto, o resto vai pegar numa segunda leva. Pensa comigo: atualização seis dias antes do lançamento é conserto de bug ou tem surpresa escondida aí? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "PS5": "PS5"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "personagens",
+  "cidade",
+  "vice-city",
+  "acao",
+  "carros"
+ ],
+ "seed": 94,
+ "font": "../../assets/fonts/Anton.ttf"
+}
