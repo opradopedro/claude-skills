@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 13/11/2026 17:55 (Brasília) com 91 Reels com nota. Média geral: 59.9/100.
+Atualizado em 13/11/2026 22:01 (Brasília) com 91 Reels com nota. Média geral: 59.9/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -52,7 +52,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | pc | 1 | 62.8 | 60.9 |  |
 | Grotti Cheetah real (Ferrari Testarossa da West Coast Customs) à venda por £1 milhão na Selfridges | 1 | 62.9 | 60.9 |  |
 | imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11) | 1 | 61.1 | 60.3 |  |
-| votação de sindicato dos funcionários da Rockstar UK na semana do lançamento | 1 | 61.0 | 60.3 |  |
+| votação de sindicato dos funcionários da Rockstar UK na semana do lançamento | 1 | 60.9 | 60.2 |  |
 | recorde de intenção de compra (Circana) | 1 | 60.6 | 60.1 |  |
 | polícia inglesa zoa motorista que vai passar o lançamento do GTA 6 preso | 1 | 60.6 | 60.1 |  |
 | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | 1 | 60.1 | 60.0 |  |
@@ -117,7 +117,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | numero chocante | 6 | 61.2 | 60.9 |  |
 | GTA 6 virou carro de verdade | 1 | 62.9 | 60.9 |  |
 | 39 imagens novas hoje | 1 | 61.1 | 60.3 |  |
-| GTA 6 sai em 1 semana e os funcionários da Rockstar tão votando por um sindicato | 1 | 61.0 | 60.3 |  |
+| GTA 6 sai em 1 semana e os funcionários da Rockstar tão votando por um sindicato | 1 | 60.9 | 60.2 |  |
 | a polícia zoou um cara que vai passar o lançamento do GTA 6 na cadeia | 1 | 60.6 | 60.1 |  |
 | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 1 | 60.1 | 60.0 |  |
 | GTA 6 vai rodar a 30 FPS até no PS5 Pro | 1 | 60.3 | 60.0 |  |
@@ -187,8 +187,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Jason Schreier via Gameranx 20/10 | 1 | 61.4 | 60.4 |  |
 | Kotaku 16/10 | 1 | 61.1 | 60.3 |  |
 | rockstarintel.com/39-new-gta-6-screenshots-released-for-launch; videogameschronicle.com; pcgamer.com | 1 | 61.1 | 60.3 |  |
-| The Register / IBTimes UK 12/11 | 1 | 61.0 | 60.3 |  |
 | PS Store FAQ via Beebom; The Game Haus 19/10 | 1 | 60.8 | 60.2 |  |
+| The Register / IBTimes UK 12/11 | 1 | 60.9 | 60.2 |  |
 | GTA BOOM 29/10 (Circana) | 1 | 60.6 | 60.1 |  |
 | vgtimes.com/gaming-news/173445 (04/11); TikTok @derbyspolice | 1 | 60.6 | 60.1 |  |
 | Rockstar Store / GTA BOOM / TechRadar | 1 | 60.1 | 60.0 |  |
@@ -249,7 +249,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
 | 2026-11-02 | [DfQjmtGlDM_](https://www.instagram.com/reel/DfQjmtGlDM_/) | corte | profecia viral: internet acaba 2 dias antes de GTA 6 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1521 | 24% | 41% | 37 | 0 | 3 | 2 | 72.6 (h72) |
 | 2026-10-28 | [DfCwKjElOi0](https://www.instagram.com/reel/DfCwKjElOi0/) | corte | noticia/vazamentos | revelacao | 1484 | 36.8% | 41% | 48 | 0 | 3 | 5 | 72.3 (h72) |
-| 2026-11-10 | [Dfk13A_BR61](https://www.instagram.com/reel/Dfk13A_BR61/) | corte | recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | GTA 6 quebrou recorde antes de sair | 1312 | 42.3% | 49% | 32 | 1 | 1 | 5 | 72.2 (h24) |
+| 2026-11-10 | [Dfk13A_BR61](https://www.instagram.com/reel/Dfk13A_BR61/) | corte | recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | GTA 6 quebrou recorde antes de sair | 1313 | 42.2% | 49% | 32 | 1 | 1 | 5 | 72.2 (h72) |
 | 2026-10-25 | [De787TrEaru](https://www.instagram.com/reel/De787TrEaru/) | corte | bastidores/desenvolvimento | revelacao | 1285 | 38.8% | 43% | 39 | 1 | 3 | 1 | 72.0 (h72) |
 | 2026-10-30 | [DfIUyYgAtdc](https://www.instagram.com/reel/DfIUyYgAtdc/) | corte | prévia Edge: mapa cedo, combustível, transporte | mentira_verdade | 1462 | 39.8% | 43% | 65 | 1 | 3 | 35 | 71.8 (h72) |
 | 2026-10-27 | [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/) | corte | noticia/mercado | revelacao | 1300 | 35% | 33% | 43 | 0 | 0 | 6 | 71.0 (h72) |
@@ -287,12 +287,12 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-20 | [Deuu91Skz6q](https://www.instagram.com/reel/Deuu91Skz6q/) | corte | bastidores | pergunta | 146 | 43.8% | 40% | 5 | 0 | 0 | 1 | 61.4 (h72) |
 | 2026-10-18 | [DeplZ4bk8TX](https://www.instagram.com/reel/DeplZ4bk8TX/) | corte | trailer | enquete | 151 | 31.5% | 42% | 5 | 0 | 0 | 0 | 61.1 (h72) |
 | 2026-11-05 | [DfX9Saomzze](https://www.instagram.com/reel/DfX9Saomzze/) | corte | imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11) | 39 imagens novas hoje | 139 | 40.5% | 34% | 9 | 0 | 1 | 0 | 61.1 (h72) |
-| 2026-11-12 | [DfqgMO5hV32](https://www.instagram.com/reel/DfqgMO5hV32/) | corte | votação de sindicato dos funcionários da Rockstar UK na semana do lançamento | GTA 6 sai em 1 semana e os funcionários da Rockstar tão votando por um sindicato | 1767 | 33.5% | 38% | 37 | 0 | 2 | 0 | 61.0 (provisória) |
+| 2026-11-12 | [DfqgMO5hV32](https://www.instagram.com/reel/DfqgMO5hV32/) | corte | votação de sindicato dos funcionários da Rockstar UK na semana do lançamento | GTA 6 sai em 1 semana e os funcionários da Rockstar tão votando por um sindicato | 1774 | 33.6% | 38% | 37 | 0 | 2 | 0 | 60.9 (provisória) |
 | 2026-10-20 | [DeuFyvkjU1q](https://www.instagram.com/reel/DeuFyvkjU1q/) | corte | noticias | enquete | 136 | 37.1% | 29% | 5 | 0 | 1 | 1 | 60.8 (h72) |
 | 2026-11-01 | [DfNAhuBkbE8](https://www.instagram.com/reel/DfNAhuBkbE8/) | corte | recorde de intenção de compra (Circana) | pergunta | 179 | 41.9% | 33% | 3 | 0 | 0 | 12 | 60.6 (h24) |
 | 2026-11-08 | [DfgBO4elEZB](https://www.instagram.com/reel/DfgBO4elEZB/) | corte | polícia inglesa zoa motorista que vai passar o lançamento do GTA 6 preso | a polícia zoou um cara que vai passar o lançamento do GTA 6 na cadeia | 1277 | 23.5% | 39% | 24 | 0 | 0 | 0 | 60.6 (h72) |
-| 2026-11-12 | [Dfp-egqKERU](https://www.instagram.com/reel/Dfp-egqKERU/) | corte | GTA 6 a 30 FPS em todos os consoles, inclusive PS5 Pro (polêmica de desempenho) | GTA 6 vai rodar a 30 FPS até no PS5 Pro | 1527 | 49% | 36% | 35 | 5 | 0 | 1 | 60.3 (provisória) |
-| 2026-11-10 | [DflKGteg8an](https://www.instagram.com/reel/DflKGteg8an/) | corte | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 417 | 39.3% | 35% | 14 | 0 | 0 | 0 | 60.1 (h24) |
+| 2026-11-12 | [Dfp-egqKERU](https://www.instagram.com/reel/Dfp-egqKERU/) | corte | GTA 6 a 30 FPS em todos os consoles, inclusive PS5 Pro (polêmica de desempenho) | GTA 6 vai rodar a 30 FPS até no PS5 Pro | 1527 | 49% | 36% | 35 | 5 | 0 | 1 | 60.3 (h24) |
+| 2026-11-10 | [DflKGteg8an](https://www.instagram.com/reel/DflKGteg8an/) | corte | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 417 | 39.3% | 35% | 14 | 0 | 0 | 0 | 60.1 (h72) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 59.7 (h24) |
 | 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 59.5 (h72) |
 | 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 486 | 49% | 23% | 18 | 0 | 2 | 3 | 59.5 (h72) |
@@ -333,4 +333,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [Dfr_lHAOylj](https://www.instagram.com/reel/Dfr_lHAOylj/): 5.1 h no ar, 136 views, 50% pularam, 28% assistido, 4 curtidas
+- [Dfr_lHAOylj](https://www.instagram.com/reel/Dfr_lHAOylj/): 9.2 h no ar, 143 views, 48.4% pularam, 30% assistido, 4 curtidas
+- [DfsjObMhd4q](https://www.instagram.com/reel/DfsjObMhd4q/): 4.0 h no ar, 1402 views, 32.1% pularam, 43% assistido, 24 curtidas

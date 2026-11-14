@@ -3300,8 +3300,8 @@
    "avgWatchedPct": 19.85,
    "skipRate": 50.6,
    "durationSeconds": 38,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 95.5
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 99.6
   },
   "h24": {
    "playCount": 172,
@@ -3340,11 +3340,11 @@
    "shares": 0,
    "saves": 3,
    "avgWatchTimeMs": 12807,
-   "avgWatchedPct": 36.59,
+   "avgWatchedPct": 36.591,
    "skipRate": 39.6,
    "durationSeconds": 35,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 92.8
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 96.9
   },
   "h24": {
    "playCount": 867,
@@ -3382,12 +3382,12 @@
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 12008,
-   "avgWatchedPct": 35.32,
-   "skipRate": 42.3,
+   "avgWatchTimeMs": 11917,
+   "avgWatchedPct": 35.05,
+   "skipRate": 43.1,
    "durationSeconds": 34,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 77.7
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 81.8
   },
   "h24": {
    "playCount": 155,
@@ -3426,11 +3426,11 @@
    "shares": 5,
    "saves": 1,
    "avgWatchTimeMs": 16732,
-   "avgWatchedPct": 49.21,
+   "avgWatchedPct": 49.212,
    "skipRate": 42.2,
    "durationSeconds": 34,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 71.7
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 75.8
   },
   "h24": {
    "playCount": 1312,
@@ -3444,6 +3444,19 @@
    "durationSeconds": 34,
    "coletado": "2026-11-12T00:01Z",
    "horas": 26.8
+  },
+  "h72": {
+   "playCount": 1313,
+   "likeCount": 32,
+   "commentCount": 1,
+   "shares": 5,
+   "saves": 1,
+   "avgWatchTimeMs": 16732,
+   "avgWatchedPct": 49.212,
+   "skipRate": 42.2,
+   "durationSeconds": 34,
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 75.8
   }
  },
  "DflKGteg8an": {
@@ -3456,11 +3469,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 11767,
-   "avgWatchedPct": 34.61,
+   "avgWatchedPct": 34.609,
    "skipRate": 39.3,
    "durationSeconds": 34,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 68.8
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 72.9
   },
   "h24": {
    "playCount": 417,
@@ -3474,6 +3487,19 @@
    "durationSeconds": 34,
    "coletado": "2026-11-12T15:08Z",
    "horas": 39.0
+  },
+  "h72": {
+   "playCount": 417,
+   "likeCount": 14,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 11767,
+   "avgWatchedPct": 34.609,
+   "skipRate": 39.3,
+   "durationSeconds": 34,
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 72.9
   }
  },
  "Dfmw7K2JZgf": {
@@ -3486,11 +3512,11 @@
    "shares": 1,
    "saves": 0,
    "avgWatchTimeMs": 9686,
-   "avgWatchedPct": 22.53,
+   "avgWatchedPct": 22.526,
    "skipRate": 39,
    "durationSeconds": 43,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 53.8
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 57.9
   },
   "h24": {
    "playCount": 130,
@@ -3510,17 +3536,17 @@
   "publicado": "2026-11-11T21:18:08.000Z",
   "legenda": "GTA 6 pode chegar cortado no Japão",
   "atual": {
-   "playCount": 2027,
+   "playCount": 2029,
    "likeCount": 45,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 14326,
-   "avgWatchedPct": 40.93,
-   "skipRate": 32.8,
+   "avgWatchTimeMs": 14311,
+   "avgWatchedPct": 40.889,
+   "skipRate": 32.9,
    "durationSeconds": 35,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 47.6
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 51.7
   },
   "h24": {
    "playCount": 2019,
@@ -3540,17 +3566,17 @@
   "publicado": "2026-11-12T15:08:00.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 319,
+   "playCount": 322,
    "likeCount": 11,
    "commentCount": 0,
    "shares": 2,
    "saves": 0,
-   "avgWatchTimeMs": 13649,
-   "avgWatchedPct": 35.92,
+   "avgWatchTimeMs": 13566,
+   "avgWatchedPct": 35.7,
    "skipRate": 42.5,
    "durationSeconds": 38,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 29.8
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 33.9
   },
   "h24": {
    "playCount": 319,
@@ -3576,45 +3602,75 @@
    "shares": 1,
    "saves": 0,
    "avgWatchTimeMs": 11772,
-   "avgWatchedPct": 35.67,
+   "avgWatchedPct": 35.673,
    "skipRate": 49,
    "durationSeconds": 33,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 23.9
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 28.0
+  },
+  "h24": {
+   "playCount": 1527,
+   "likeCount": 35,
+   "commentCount": 5,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 11772,
+   "avgWatchedPct": 35.673,
+   "skipRate": 49,
+   "durationSeconds": 33,
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 28.0
   }
  },
  "DfqgMO5hV32": {
   "publicado": "2026-11-13T01:57:44.000Z",
   "legenda": "GTA 6 sai em 1 semana e os funcionários da Rockstar tão votando por um sindicato",
   "atual": {
-   "playCount": 1767,
+   "playCount": 1774,
    "likeCount": 37,
    "commentCount": 0,
    "shares": 0,
    "saves": 2,
-   "avgWatchTimeMs": 13706,
-   "avgWatchedPct": 38.07,
-   "skipRate": 33.5,
+   "avgWatchTimeMs": 13668,
+   "avgWatchedPct": 37.967,
+   "skipRate": 33.6,
    "durationSeconds": 36,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 19.0
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 23.1
   }
  },
  "Dfr_lHAOylj": {
   "publicado": "2026-11-13T15:51:35.000Z",
   "legenda": "GTA 6 vai ganhar até folga do trabalho 🏖️😳 a empresa do Palworld liberou os func",
   "atual": {
-   "playCount": 136,
+   "playCount": 143,
    "likeCount": 4,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 8079,
-   "avgWatchedPct": 27.86,
-   "skipRate": 50,
+   "avgWatchTimeMs": 8781,
+   "avgWatchedPct": 30.279,
+   "skipRate": 48.4,
    "durationSeconds": 29,
-   "coletado": "2026-11-13T20:55Z",
-   "horas": 5.1
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 9.2
+  }
+ },
+ "DfsjObMhd4q": {
+  "publicado": "2026-11-13T21:03:08.000Z",
+  "legenda": "GTA 6 nem lançou e já ganhou a primeira atualização",
+  "atual": {
+   "playCount": 1402,
+   "likeCount": 24,
+   "commentCount": 0,
+   "shares": 7,
+   "saves": 1,
+   "avgWatchTimeMs": 13720,
+   "avgWatchedPct": 42.875,
+   "skipRate": 32.1,
+   "durationSeconds": 32,
+   "coletado": "2026-11-14T01:01Z",
+   "horas": 4.0
   }
  }
 }

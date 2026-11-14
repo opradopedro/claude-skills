@@ -1962,14 +1962,23 @@
   {
    "data": "2026-11-13",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-13_2100",
    "arquivo": "radar_v95_gta6_desenho_macca.mp4",
    "formato": "corte",
    "tema": "Primeiro teaser de 'Macca & Friends', desenho animado do jacaré Macca (mascote do Goodtime State) que passa na WEAZEL dentro do GTA 6 a partir de 19/11; teaser exclusivo do DiscussingFilm no X repostado pela Rockstar em 13/11 (GTA BOOM 13/11)",
    "capa": "Vai ter desenho animado",
    "capa_t": 0.8,
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Dfs-fCfBUbU/",
+   "hora_real": "22:05",
+   "legenda": "GTA 6 vai ter até desenho animado passando dentro do jogo 📺😳 saiu o primeiro teaser de Macca & Friends e a Rockstar repostou\n\n🐊 Série do Macca, o jacaré de óculos escuros que virou mascote de Leonida\n🦀 Tem caranguejo cobrando aluguel, peixe-boi, flamingo e até fuga da polícia\n📅 Passa na WEAZEL, a TV do jogo, e estreia junto com o lançamento, dia 19/11\n\nVocê vai parar a missão pra assistir desenho? Comenta aí 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br\n\nFonte: DiscussingFilm e Rockstar Games no X, GTA BOOM (13/11)\n\n#gta6 #gtavi #rockstargames #vicecity #gta",
+   "ficha": {
+    "formato": "corte",
+    "tema": "curiosidade/marketing",
+    "gancho": "revelacao",
+    "origem": "GTA BOOM 13/11 + teaser oficial no X"
+   }
   }
  ]
 }
