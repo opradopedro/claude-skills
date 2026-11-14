@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v97_gta6_coreia_nudez.mp4",
+ "text": "Mano, GTA 6 quase foi banido na Coreia do Sul, e o motivo é muito estranho. Não foi a violência, nem as drogas. Foi homem pelado. Segundo a ata da comissão que classifica jogo por lá, tem muita nudez masculina aparecendo no fundo e em missão. Na primeira votação deu empate: três votos pra liberar só pra maiores e três pra proibir. Os avaliadores até precisaram de mapa da Rockstar pra achar as cenas. Só na terceira reunião passou, oito a um, com classificação adulta e sem cortar nada. Ou seja, o jogo da Coreia é igual ao nosso. Você acha que foi exagero? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "Coreia do Sul": "Coreia do Sul"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "vice-city",
+  "personagens",
+  "praia",
+  "acao"
+ ],
+ "seed": 97,
+ "font": "../../assets/fonts/Anton.ttf"
+}

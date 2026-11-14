@@ -3385,9 +3385,9 @@
    "avgWatchTimeMs": 11840,
    "avgWatchedPct": 34.82,
    "skipRate": 43.5,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 95.7
+   "durationSeconds": 34,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 101.7
   },
   "h24": {
    "playCount": 155,
@@ -3428,9 +3428,9 @@
    "avgWatchTimeMs": 16716,
    "avgWatchedPct": 49.16,
    "skipRate": 42.3,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 89.7
+   "durationSeconds": 34,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 95.7
   },
   "h24": {
    "playCount": 1312,
@@ -3471,9 +3471,9 @@
    "avgWatchTimeMs": 11767,
    "avgWatchedPct": 34.61,
    "skipRate": 39.3,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 86.7
+   "durationSeconds": 34,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 92.8
   },
   "h24": {
    "playCount": 417,
@@ -3513,10 +3513,10 @@
    "saves": 0,
    "avgWatchTimeMs": 9686,
    "avgWatchedPct": 22.53,
-   "skipRate": 39.0,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 71.8
+   "skipRate": 39,
+   "durationSeconds": 43,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 77.8
   },
   "h24": {
    "playCount": 130,
@@ -3530,6 +3530,19 @@
    "durationSeconds": 43,
    "coletado": "2026-11-12T15:08Z",
    "horas": 24.0
+  },
+  "h72": {
+   "playCount": 131,
+   "likeCount": 3,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 9686,
+   "avgWatchedPct": 22.53,
+   "skipRate": 39,
+   "durationSeconds": 43,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 77.8
   }
  },
  "DfnbZUiqJGe": {
@@ -3541,12 +3554,12 @@
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 14305,
-   "avgWatchedPct": 40.87,
+   "avgWatchTimeMs": 14298,
+   "avgWatchedPct": 40.85,
    "skipRate": 32.9,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 65.6
+   "durationSeconds": 35,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 71.6
   },
   "h24": {
    "playCount": 2019,
@@ -3574,9 +3587,9 @@
    "avgWatchTimeMs": 13566,
    "avgWatchedPct": 35.7,
    "skipRate": 42.5,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 47.8
+   "durationSeconds": 38,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 53.8
   },
   "h24": {
    "playCount": 319,
@@ -3604,9 +3617,9 @@
    "avgWatchTimeMs": 11764,
    "avgWatchedPct": 35.65,
    "skipRate": 49.1,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 41.8
+   "durationSeconds": 33,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 1527,
@@ -3634,9 +3647,9 @@
    "avgWatchTimeMs": 13658,
    "avgWatchedPct": 37.94,
    "skipRate": 33.7,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 36.9
+   "durationSeconds": 36,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 43.0
   },
   "h24": {
    "playCount": 1784,
@@ -3656,51 +3669,81 @@
   "publicado": "2026-11-13T15:51:35.000Z",
   "legenda": "GTA 6 vai ganhar até folga do trabalho 🏖️😳 a empresa do Palworld liberou os func",
   "atual": {
-   "playCount": 194,
+   "playCount": 200,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 8878,
-   "avgWatchedPct": 30.61,
-   "skipRate": 43.9,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 23.0
+   "avgWatchTimeMs": 8721,
+   "avgWatchedPct": 30.07,
+   "skipRate": 45.8,
+   "durationSeconds": 29,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 29.1
+  },
+  "h24": {
+   "playCount": 200,
+   "likeCount": 5,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 8721,
+   "avgWatchedPct": 30.07,
+   "skipRate": 45.8,
+   "durationSeconds": 29,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 29.1
   }
  },
  "DfsjObMhd4q": {
   "publicado": "2026-11-13T21:03:08.000Z",
   "legenda": "GTA 6 nem lançou e já ganhou a primeira atualização",
   "atual": {
-   "playCount": 1861,
+   "playCount": 1881,
    "likeCount": 34,
    "commentCount": 0,
    "shares": 9,
    "saves": 1,
-   "avgWatchTimeMs": 13796,
-   "avgWatchedPct": 43.11,
-   "skipRate": 35.2,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 17.8
+   "avgWatchTimeMs": 13711,
+   "avgWatchedPct": 42.85,
+   "skipRate": 35.5,
+   "durationSeconds": 32,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 23.9
   }
  },
  "Dfs-fCfBUbU": {
   "publicado": "2026-11-14T01:01:07.000Z",
   "legenda": "GTA 6 vai ter até desenho animado passando dentro do jogo",
   "atual": {
-   "playCount": 1264,
-   "likeCount": 73,
-   "commentCount": 2,
-   "shares": 9,
-   "saves": 3,
-   "avgWatchTimeMs": 15156,
-   "avgWatchedPct": 45.93,
-   "skipRate": 28.3,
-   "durationSeconds": null,
-   "coletado": "2026-11-14T14:53Z",
-   "horas": 13.9
+   "playCount": 1863,
+   "likeCount": 110,
+   "commentCount": 4,
+   "shares": 20,
+   "saves": 8,
+   "avgWatchTimeMs": 15211,
+   "avgWatchedPct": 46.09,
+   "skipRate": 29.8,
+   "durationSeconds": 33,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 19.9
+  }
+ },
+ "DfuettnReuI": {
+  "publicado": "2026-11-14T15:01:55.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 145,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 13657,
+   "avgWatchedPct": 31.76,
+   "skipRate": 32,
+   "durationSeconds": 43,
+   "coletado": "2026-11-14T20:55Z",
+   "horas": 5.9
   }
  }
 }
