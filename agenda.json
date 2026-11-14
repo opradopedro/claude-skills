@@ -2005,7 +2005,7 @@
   {
    "data": "2026-11-14",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-14_1800",
    "arquivo": "radar_v97_gta6_coreia_nudez.mp4",
    "formato": "corte",
@@ -2020,7 +2020,9 @@
     "gancho": "curiosidade",
     "origem": "GTA BOOM 12/11 + ata GCRB via Inven"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfvIFnHymTK/",
+   "hora_real": "18:03"
   }
  ]
 }
