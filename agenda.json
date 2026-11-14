@@ -1983,7 +1983,7 @@
   {
    "data": "2026-11-14",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-14_1200",
    "arquivo": "radar_v96_gta6_recorde_internet.mp4",
    "formato": "corte",
@@ -1998,7 +1998,9 @@
     "gancho": "revelacao",
     "origem": "GTA BOOM 13/11 + comunicados DE-CIX/Virgin Media O2"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfuettnReuI/",
+   "hora_real": "12:02"
   }
  ]
 }
