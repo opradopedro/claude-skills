@@ -3340,11 +3340,11 @@
    "shares": 0,
    "saves": 3,
    "avgWatchTimeMs": 12807,
-   "avgWatchedPct": 36.591,
+   "avgWatchedPct": 36.59,
    "skipRate": 39.6,
-   "durationSeconds": 35,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 96.9
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 110.7
   },
   "h24": {
    "playCount": 867,
@@ -3377,17 +3377,17 @@
   "publicado": "2026-11-10T15:12:05.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 158,
+   "playCount": 159,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 11917,
-   "avgWatchedPct": 35.05,
-   "skipRate": 43.1,
-   "durationSeconds": 34,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 81.8
+   "avgWatchTimeMs": 11840,
+   "avgWatchedPct": 34.82,
+   "skipRate": 43.5,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 95.7
   },
   "h24": {
    "playCount": 155,
@@ -3420,17 +3420,17 @@
   "publicado": "2026-11-10T21:11:58.000Z",
   "legenda": "GTA 6 quebrou recorde antes de sair 🏆😳 virou o jogo mais reservado da história d",
   "atual": {
-   "playCount": 1313,
+   "playCount": 1314,
    "likeCount": 32,
    "commentCount": 1,
    "shares": 5,
    "saves": 1,
-   "avgWatchTimeMs": 16732,
-   "avgWatchedPct": 49.212,
-   "skipRate": 42.2,
-   "durationSeconds": 34,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 75.8
+   "avgWatchTimeMs": 16716,
+   "avgWatchedPct": 49.16,
+   "skipRate": 42.3,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 89.7
   },
   "h24": {
    "playCount": 1312,
@@ -3469,11 +3469,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 11767,
-   "avgWatchedPct": 34.609,
+   "avgWatchedPct": 34.61,
    "skipRate": 39.3,
-   "durationSeconds": 34,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 72.9
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 86.7
   },
   "h24": {
    "playCount": 417,
@@ -3512,11 +3512,11 @@
    "shares": 1,
    "saves": 0,
    "avgWatchTimeMs": 9686,
-   "avgWatchedPct": 22.526,
-   "skipRate": 39,
-   "durationSeconds": 43,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 57.9
+   "avgWatchedPct": 22.53,
+   "skipRate": 39.0,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 130,
@@ -3536,17 +3536,17 @@
   "publicado": "2026-11-11T21:18:08.000Z",
   "legenda": "GTA 6 pode chegar cortado no Japão",
   "atual": {
-   "playCount": 2029,
+   "playCount": 2030,
    "likeCount": 45,
    "commentCount": 0,
    "shares": 2,
    "saves": 3,
-   "avgWatchTimeMs": 14311,
-   "avgWatchedPct": 40.889,
+   "avgWatchTimeMs": 14305,
+   "avgWatchedPct": 40.87,
    "skipRate": 32.9,
-   "durationSeconds": 35,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 51.7
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 65.6
   },
   "h24": {
    "playCount": 2019,
@@ -3574,9 +3574,9 @@
    "avgWatchTimeMs": 13566,
    "avgWatchedPct": 35.7,
    "skipRate": 42.5,
-   "durationSeconds": 38,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 33.9
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 319,
@@ -3596,17 +3596,17 @@
   "publicado": "2026-11-12T21:03:21.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1527,
-   "likeCount": 35,
+   "playCount": 1529,
+   "likeCount": 34,
    "commentCount": 5,
    "shares": 1,
    "saves": 0,
-   "avgWatchTimeMs": 11772,
-   "avgWatchedPct": 35.673,
-   "skipRate": 49,
-   "durationSeconds": 33,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 28.0
+   "avgWatchTimeMs": 11764,
+   "avgWatchedPct": 35.65,
+   "skipRate": 49.1,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 41.8
   },
   "h24": {
    "playCount": 1527,
@@ -3626,51 +3626,81 @@
   "publicado": "2026-11-13T01:57:44.000Z",
   "legenda": "GTA 6 sai em 1 semana e os funcionários da Rockstar tão votando por um sindicato",
   "atual": {
-   "playCount": 1774,
+   "playCount": 1784,
    "likeCount": 37,
    "commentCount": 0,
    "shares": 0,
    "saves": 2,
-   "avgWatchTimeMs": 13668,
-   "avgWatchedPct": 37.967,
-   "skipRate": 33.6,
-   "durationSeconds": 36,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 23.1
+   "avgWatchTimeMs": 13658,
+   "avgWatchedPct": 37.94,
+   "skipRate": 33.7,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 36.9
+  },
+  "h24": {
+   "playCount": 1784,
+   "likeCount": 37,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 2,
+   "avgWatchTimeMs": 13658,
+   "avgWatchedPct": 37.94,
+   "skipRate": 33.7,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 36.9
   }
  },
  "Dfr_lHAOylj": {
   "publicado": "2026-11-13T15:51:35.000Z",
   "legenda": "GTA 6 vai ganhar até folga do trabalho 🏖️😳 a empresa do Palworld liberou os func",
   "atual": {
-   "playCount": 143,
-   "likeCount": 4,
+   "playCount": 194,
+   "likeCount": 5,
    "commentCount": 0,
    "shares": 0,
-   "saves": 0,
-   "avgWatchTimeMs": 8781,
-   "avgWatchedPct": 30.279,
-   "skipRate": 48.4,
-   "durationSeconds": 29,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 9.2
+   "saves": 1,
+   "avgWatchTimeMs": 8878,
+   "avgWatchedPct": 30.61,
+   "skipRate": 43.9,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 23.0
   }
  },
  "DfsjObMhd4q": {
   "publicado": "2026-11-13T21:03:08.000Z",
   "legenda": "GTA 6 nem lançou e já ganhou a primeira atualização",
   "atual": {
-   "playCount": 1402,
-   "likeCount": 24,
+   "playCount": 1861,
+   "likeCount": 34,
    "commentCount": 0,
-   "shares": 7,
+   "shares": 9,
    "saves": 1,
-   "avgWatchTimeMs": 13720,
-   "avgWatchedPct": 42.875,
-   "skipRate": 32.1,
-   "durationSeconds": 32,
-   "coletado": "2026-11-14T01:01Z",
-   "horas": 4.0
+   "avgWatchTimeMs": 13796,
+   "avgWatchedPct": 43.11,
+   "skipRate": 35.2,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 17.8
+  }
+ },
+ "Dfs-fCfBUbU": {
+  "publicado": "2026-11-14T01:01:07.000Z",
+  "legenda": "GTA 6 vai ter até desenho animado passando dentro do jogo",
+  "atual": {
+   "playCount": 1264,
+   "likeCount": 73,
+   "commentCount": 2,
+   "shares": 9,
+   "saves": 3,
+   "avgWatchTimeMs": 15156,
+   "avgWatchedPct": 45.93,
+   "skipRate": 28.3,
+   "durationSeconds": null,
+   "coletado": "2026-11-14T14:53Z",
+   "horas": 13.9
   }
  }
 }

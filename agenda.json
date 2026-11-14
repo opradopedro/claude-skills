@@ -1979,6 +1979,26 @@
     "gancho": "revelacao",
     "origem": "GTA BOOM 13/11 + teaser oficial no X"
    }
+  },
+  {
+   "data": "2026-11-14",
+   "hora": "12:00",
+   "status": "pendente",
+   "pasta": "producao/2026-11-14_1200",
+   "arquivo": "radar_v96_gta6_recorde_internet.mp4",
+   "formato": "corte",
+   "tema": "Pré-download de 212 GB do GTA 6 bateu recordes de tráfego de internet na Europa: DE-CIX Frankfurt 22,3 Tbit/s (+19%), Virgin Media O2 dia mais movimentado (+73% de manhã), 1&1 Alemanha 10x conexões PSN/Xbox, Ziggo +57%, YouFibre com gestão de emergência (GTA BOOM 13/11, comunicados DE-CIX e Virgin Media O2)",
+   "capa": "Quebrou a internet",
+   "capa_t": 2.6,
+   "legenda": "GTA 6 nem lançou e já quebrou recorde da internet na Europa 🌐😳 o pré-download de 212 GB derrubou marca histórica em vários países\n\n📈 DE-CIX Frankfurt, o maior ponto de troca de tráfego da Europa, bateu 22,3 terabits por segundo (recorde)\n🇬🇧 Virgin Media O2 teve o dia mais movimentado da história: +73% de dados de manhã\n🇩🇪 Na Alemanha, conexões com PlayStation e Xbox subiram 10x de madrugada\n🚨 Provedor no Reino Unido teve que ligar controle de emergência\n\nSe o pré-download já fez isso, imagina o dia 19/11. Sua internet aguenta? Comenta aí 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br\n\nFonte: DE-CIX, Virgin Media O2 e GTA BOOM (13/11)\n\n#gta6 #gtavi #rockstargames #vicecity #gta",
+   "roteiro": "Mano, GTA 6 nem lançou e já quebrou recorde da internet na Europa. O pré-download de duzentos e doze giga fez o maior ponto de tráfego da Europa, em Frankfurt, bater vinte e dois terabits por segundo, o maior da história. Na Inglaterra, a Virgin Media teve o dia mais movimentado de todos os tempos, com setenta por cento a mais de dados de manhã. Na Alemanha, a conexão com PlayStation e Xbox subiu dez vezes de madrugada, e teve provedor ligando controle de emergência. Pensa comigo: se o pré-download já fez isso, imagina dia 19. Sua internet aguenta? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+   "ficha": {
+    "formato": "corte",
+    "tema": "noticia/recorde",
+    "gancho": "revelacao",
+    "origem": "GTA BOOM 13/11 + comunicados DE-CIX/Virgin Media O2"
+   },
+   "capa_embutida": true
   }
  ]
 }
