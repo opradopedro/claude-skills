@@ -1,0 +1,1082 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v95_gta6_desenho_macca.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c00.mp4",
+   "start": 0.0,
+   "end": 1.732,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c01.mp4",
+   "start": 1.732,
+   "end": 4.055,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_140.mp4",
+   "start": 4.055,
+   "end": 5.537,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 1,
+   "ss": 0.5
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c03.mp4",
+   "start": 5.537,
+   "end": 7.139,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c04.mp4",
+   "start": 7.139,
+   "end": 9.261,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_380.mp4",
+   "start": 9.261,
+   "end": 10.843,
+   "layout": "full",
+   "cx": 0.667,
+   "pan": -1,
+   "ss": 0.45
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_281.mp4",
+   "start": 10.843,
+   "end": 12.225,
+   "layout": "full",
+   "cx": 0.617,
+   "pan": 1,
+   "ss": 2.22
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_280.mp4",
+   "start": 12.225,
+   "end": 13.627,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": -1,
+   "ss": 0.5
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c08.mp4",
+   "start": 13.627,
+   "end": 15.389,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c09.mp4",
+   "start": 15.389,
+   "end": 16.75,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c10.mp4",
+   "start": 16.75,
+   "end": 18.693,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c11.mp4",
+   "start": 18.693,
+   "end": 20.455,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c12.mp4",
+   "start": 20.455,
+   "end": 21.937,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c13.mp4",
+   "start": 21.937,
+   "end": 24.079,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "/root/radar-midia/producao/2026-11-13_2100/cenas/c14.mp4",
+   "start": 24.079,
+   "end": 26.462,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 0,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_187.mp4",
+   "start": 26.462,
+   "end": 28.064,
+   "layout": "full",
+   "cx": 0.404,
+   "pan": -1,
+   "ss": 0.14
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_377.mp4",
+   "start": 28.064,
+   "end": 29.566,
+   "layout": "full",
+   "cx": 0.795,
+   "pan": 1,
+   "ss": 2.38
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_290.mp4",
+   "start": 29.566,
+   "end": 31.008,
+   "layout": "full",
+   "cx": 0.395,
+   "pan": -1,
+   "ss": 0.33
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_330.mp4",
+   "start": 31.008,
+   "end": 32.85,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 1,
+   "ss": 0.5
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 32.85,
+   "end": 33.952,
+   "layout": "full",
+   "cx": 0.174,
+   "pan": -1,
+   "ss": 0.95
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.09,
+   "end": 0.731,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.09
+   ]
+  },
+  {
+   "start": 0.731,
+   "end": 1.732,
+   "text": "GTA 6 VAI TER",
+   "hl": true,
+   "w": [
+    0.731,
+    0.731,
+    1.472,
+    1.612
+   ]
+  },
+  {
+   "start": 1.732,
+   "end": 2.994,
+   "text": "ATÉ DESENHO ANIMADO",
+   "hl": false,
+   "w": [
+    1.732,
+    1.952,
+    2.313
+   ]
+  },
+  {
+   "start": 2.994,
+   "end": 4.055,
+   "text": "PASSANDO DENTRO DO",
+   "hl": false,
+   "w": [
+    2.994,
+    3.534,
+    3.875
+   ]
+  },
+  {
+   "start": 4.055,
+   "end": 4.916,
+   "text": "JOGO",
+   "hl": false,
+   "w": [
+    4.055
+   ]
+  },
+  {
+   "start": 4.916,
+   "end": 5.537,
+   "text": "SAIU HOJE O",
+   "hl": false,
+   "w": [
+    4.916,
+    5.196,
+    5.497
+   ]
+  },
+  {
+   "start": 5.537,
+   "end": 6.458,
+   "text": "PRIMEIRO TEASER DE",
+   "hl": false,
+   "w": [
+    5.537,
+    5.917,
+    6.298
+   ]
+  },
+  {
+   "start": 6.458,
+   "end": 7.139,
+   "text": "MACCA E SEUS",
+   "hl": false,
+   "w": [
+    6.458,
+    6.838,
+    6.918
+   ]
+  },
+  {
+   "start": 7.139,
+   "end": 7.82,
+   "text": "AMIGOS",
+   "hl": false,
+   "w": [
+    7.139
+   ]
+  },
+  {
+   "start": 7.82,
+   "end": 8.36,
+   "text": "A SÉRIE DO",
+   "hl": false,
+   "w": [
+    7.82,
+    7.96,
+    8.26
+   ]
+  },
+  {
+   "start": 8.36,
+   "end": 9.261,
+   "text": "JACARÉ DE ÓCULOS",
+   "hl": false,
+   "w": [
+    8.36,
+    8.801,
+    8.941
+   ]
+  },
+  {
+   "start": 9.261,
+   "end": 10.102,
+   "text": "ESCUROS QUE VIROU",
+   "hl": false,
+   "w": [
+    9.261,
+    9.722,
+    9.862
+   ]
+  },
+  {
+   "start": 10.102,
+   "end": 10.843,
+   "text": "O MASCOTE DE",
+   "hl": false,
+   "w": [
+    10.102,
+    10.162,
+    10.743
+   ]
+  },
+  {
+   "start": 10.843,
+   "end": 11.604,
+   "text": "LEONIDA",
+   "hl": false,
+   "w": [
+    10.843
+   ]
+  },
+  {
+   "start": 11.604,
+   "end": 12.225,
+   "text": "E A PRÓPRIA",
+   "hl": false,
+   "w": [
+    11.604,
+    11.704,
+    11.824
+   ]
+  },
+  {
+   "start": 12.225,
+   "end": 13.627,
+   "text": "ROCKSTAR REPOSTOU",
+   "hl": false,
+   "w": [
+    12.225,
+    12.746
+   ]
+  },
+  {
+   "start": 13.627,
+   "end": 14.668,
+   "text": "TEM CARANGUEJO COBRANDO",
+   "hl": false,
+   "w": [
+    13.627,
+    13.787,
+    14.307
+   ]
+  },
+  {
+   "start": 14.668,
+   "end": 15.389,
+   "text": "ALUGUEL",
+   "hl": false,
+   "w": [
+    14.668
+   ]
+  },
+  {
+   "start": 15.389,
+   "end": 16.75,
+   "text": "PEIXE-BOI GIGANTE",
+   "hl": false,
+   "w": [
+    15.389,
+    15.99
+   ]
+  },
+  {
+   "start": 16.75,
+   "end": 17.932,
+   "text": "FLAMINGO DE ÓCULOS",
+   "hl": false,
+   "w": [
+    16.75,
+    17.271,
+    17.451
+   ]
+  },
+  {
+   "start": 17.932,
+   "end": 18.693,
+   "text": "E ATÉ FUGA",
+   "hl": false,
+   "w": [
+    17.932,
+    18.032,
+    18.372
+   ]
+  },
+  {
+   "start": 18.693,
+   "end": 19.674,
+   "text": "DA POLÍCIA",
+   "hl": false,
+   "w": [
+    18.693,
+    18.833
+   ]
+  },
+  {
+   "start": 19.674,
+   "end": 20.455,
+   "text": "O DETALHE",
+   "hl": false,
+   "w": [
+    19.674,
+    19.734
+   ]
+  },
+  {
+   "start": 20.455,
+   "end": 21.176,
+   "text": "O DESENHO PASSA",
+   "hl": false,
+   "w": [
+    20.455,
+    20.515,
+    20.896
+   ]
+  },
+  {
+   "start": 21.176,
+   "end": 21.937,
+   "text": "NA WEAZEL",
+   "hl": false,
+   "w": [
+    21.176,
+    21.336
+   ]
+  },
+  {
+   "start": 21.937,
+   "end": 22.538,
+   "text": "A TV DO",
+   "hl": false,
+   "w": [
+    21.937,
+    22.037,
+    22.397
+   ]
+  },
+  {
+   "start": 22.538,
+   "end": 23.098,
+   "text": "JOGO",
+   "hl": false,
+   "w": [
+    22.538
+   ]
+  },
+  {
+   "start": 23.098,
+   "end": 24.079,
+   "text": "E ESTREIA JUNTO",
+   "hl": false,
+   "w": [
+    23.098,
+    23.198,
+    23.739
+   ]
+  },
+  {
+   "start": 24.079,
+   "end": 25.161,
+   "text": "COM O LANÇAMENTO",
+   "hl": false,
+   "w": [
+    24.079,
+    24.24,
+    24.3
+   ]
+  },
+  {
+   "start": 25.161,
+   "end": 26.462,
+   "text": "DIA DEZENOVE",
+   "hl": false,
+   "w": [
+    25.161,
+    25.441
+   ]
+  },
+  {
+   "start": 26.462,
+   "end": 27.363,
+   "text": "PENSA COMIGO",
+   "hl": false,
+   "w": [
+    26.462,
+    26.723
+   ]
+  },
+  {
+   "start": 27.363,
+   "end": 28.064,
+   "text": "VOCÊ VAI PARAR",
+   "hl": false,
+   "w": [
+    27.363,
+    27.584,
+    27.744
+   ]
+  },
+  {
+   "start": 28.064,
+   "end": 28.645,
+   "text": "A MISSÃO PRA",
+   "hl": false,
+   "w": [
+    28.064,
+    28.124,
+    28.505
+   ]
+  },
+  {
+   "start": 28.645,
+   "end": 29.566,
+   "text": "ASSISTIR DESENHO NA",
+   "hl": false,
+   "w": [
+    28.645,
+    29.045,
+    29.426
+   ]
+  },
+  {
+   "start": 29.566,
+   "end": 30.447,
+   "text": "TV?",
+   "hl": false,
+   "w": [
+    29.566
+   ]
+  },
+  {
+   "start": 30.447,
+   "end": 31.008,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    30.447,
+    30.728,
+    30.868
+   ]
+  },
+  {
+   "start": 31.008,
+   "end": 32.029,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    31.008,
+    31.148,
+    31.408,
+    31.408
+   ]
+  },
+  {
+   "start": 32.029,
+   "end": 32.85,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    32.029,
+    32.149,
+    32.73
+   ]
+  },
+  {
+   "start": 32.85,
+   "end": 33.481,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    32.85,
+    33.11,
+    33.171
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.09
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 0.731
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 1.472
+  },
+  {
+   "txt": "ter",
+   "falado": "ter",
+   "tela": 1.612
+  },
+  {
+   "txt": "até",
+   "falado": "até",
+   "tela": 1.732
+  },
+  {
+   "txt": "desenho",
+   "falado": "desenho",
+   "tela": 1.952
+  },
+  {
+   "txt": "animado",
+   "falado": "animado",
+   "tela": 2.313
+  },
+  {
+   "txt": "passando",
+   "falado": "passando",
+   "tela": 2.994
+  },
+  {
+   "txt": "dentro",
+   "falado": "dentro",
+   "tela": 3.534
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 3.875
+  },
+  {
+   "txt": "jogo.",
+   "falado": "jogo",
+   "tela": 4.055
+  },
+  {
+   "txt": "Saiu",
+   "falado": "Saiu",
+   "tela": 4.916
+  },
+  {
+   "txt": "hoje",
+   "falado": "hoje",
+   "tela": 5.196
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 5.497
+  },
+  {
+   "txt": "primeiro",
+   "falado": "primeiro",
+   "tela": 5.537
+  },
+  {
+   "txt": "teaser",
+   "falado": "teaser",
+   "tela": 5.917
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 6.298
+  },
+  {
+   "txt": "Macca",
+   "falado": "Macca",
+   "tela": 6.458
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 6.838
+  },
+  {
+   "txt": "Seus",
+   "falado": "Seus",
+   "tela": 6.918
+  },
+  {
+   "txt": "Amigos,",
+   "falado": "Amigos",
+   "tela": 7.139
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 7.82
+  },
+  {
+   "txt": "série",
+   "falado": "série",
+   "tela": 7.96
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 8.26
+  },
+  {
+   "txt": "jacaré",
+   "falado": "jacaré",
+   "tela": 8.36
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 8.801
+  },
+  {
+   "txt": "óculos",
+   "falado": "óculos",
+   "tela": 8.941
+  },
+  {
+   "txt": "escuros",
+   "falado": "escuros",
+   "tela": 9.261
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 9.722
+  },
+  {
+   "txt": "virou",
+   "falado": "virou",
+   "tela": 9.862
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 10.102
+  },
+  {
+   "txt": "mascote",
+   "falado": "mascote",
+   "tela": 10.162
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 10.743
+  },
+  {
+   "txt": "Leonida,",
+   "falado": "Leonida",
+   "tela": 10.843
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 11.604
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 11.704
+  },
+  {
+   "txt": "própria",
+   "falado": "própria",
+   "tela": 11.824
+  },
+  {
+   "txt": "Rockstar",
+   "falado": "Rockstar",
+   "tela": 12.225
+  },
+  {
+   "txt": "repostou.",
+   "falado": "repostou",
+   "tela": 12.746
+  },
+  {
+   "txt": "Tem",
+   "falado": "Tem",
+   "tela": 13.627
+  },
+  {
+   "txt": "caranguejo",
+   "falado": "caranguejo",
+   "tela": 13.787
+  },
+  {
+   "txt": "cobrando",
+   "falado": "cobrando",
+   "tela": 14.307
+  },
+  {
+   "txt": "aluguel,",
+   "falado": "aluguel",
+   "tela": 14.668
+  },
+  {
+   "txt": "peixe-boi",
+   "falado": "peixe-boi",
+   "tela": 15.389
+  },
+  {
+   "txt": "gigante,",
+   "falado": "gigante",
+   "tela": 15.99
+  },
+  {
+   "txt": "flamingo",
+   "falado": "flamingo",
+   "tela": 16.75
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 17.271
+  },
+  {
+   "txt": "óculos",
+   "falado": "óculos",
+   "tela": 17.451
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 17.932
+  },
+  {
+   "txt": "até",
+   "falado": "até",
+   "tela": 18.032
+  },
+  {
+   "txt": "fuga",
+   "falado": "fuga",
+   "tela": 18.372
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 18.693
+  },
+  {
+   "txt": "polícia.",
+   "falado": "polícia",
+   "tela": 18.833
+  },
+  {
+   "txt": "O",
+   "falado": "O",
+   "tela": 19.674
+  },
+  {
+   "txt": "detalhe:",
+   "falado": "detalhe",
+   "tela": 19.734
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 20.455
+  },
+  {
+   "txt": "desenho",
+   "falado": "desenho",
+   "tela": 20.515
+  },
+  {
+   "txt": "passa",
+   "falado": "passa",
+   "tela": 20.896
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 21.176
+  },
+  {
+   "txt": "Weazel,",
+   "falado": "Weazel",
+   "tela": 21.336
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 21.937
+  },
+  {
+   "txt": "TV",
+   "falado": "te ve",
+   "tela": 22.037
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 22.397
+  },
+  {
+   "txt": "jogo,",
+   "falado": "jogo",
+   "tela": 22.538
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 23.098
+  },
+  {
+   "txt": "estreia",
+   "falado": "estreia",
+   "tela": 23.198
+  },
+  {
+   "txt": "junto",
+   "falado": "junto",
+   "tela": 23.739
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 24.079
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 24.24
+  },
+  {
+   "txt": "lançamento,",
+   "falado": "lançamento",
+   "tela": 24.3
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 25.161
+  },
+  {
+   "txt": "dezenove.",
+   "falado": "dezenove",
+   "tela": 25.441
+  },
+  {
+   "txt": "Pensa",
+   "falado": "Pensa",
+   "tela": 26.462
+  },
+  {
+   "txt": "comigo:",
+   "falado": "comigo",
+   "tela": 26.723
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 27.363
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 27.584
+  },
+  {
+   "txt": "parar",
+   "falado": "parar",
+   "tela": 27.744
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 28.064
+  },
+  {
+   "txt": "missão",
+   "falado": "missão",
+   "tela": 28.124
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 28.505
+  },
+  {
+   "txt": "assistir",
+   "falado": "assistir",
+   "tela": 28.645
+  },
+  {
+   "txt": "desenho",
+   "falado": "desenho",
+   "tela": 29.045
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 29.426
+  },
+  {
+   "txt": "TV?",
+   "falado": "te ve",
+   "tela": 29.566
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 30.447
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 30.728
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 30.868
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 31.008
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 31.148
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 31.408
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 32.029
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 32.149
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 32.73
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 32.85
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 33.11
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 33.171
+  }
+ ]
+}

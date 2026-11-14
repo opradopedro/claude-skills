@@ -1958,6 +1958,18 @@
     "gancho": "pergunta",
     "origem": "noticia Beebom 13/11 (update 01.002.000 no PS5)"
    }
+  },
+  {
+   "data": "2026-11-13",
+   "hora": "21:00",
+   "status": "pendente",
+   "pasta": "producao/2026-11-13_2100",
+   "arquivo": "radar_v95_gta6_desenho_macca.mp4",
+   "formato": "corte",
+   "tema": "Primeiro teaser de 'Macca & Friends', desenho animado do jacaré Macca (mascote do Goodtime State) que passa na WEAZEL dentro do GTA 6 a partir de 19/11; teaser exclusivo do DiscussingFilm no X repostado pela Rockstar em 13/11 (GTA BOOM 13/11)",
+   "capa": "Vai ter desenho animado",
+   "capa_t": 0.8,
+   "capa_embutida": true
   }
  ]
 }

@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v95_gta6_desenho_macca.mp4",
+ "text": "Mano, GTA 6 vai ter até desenho animado passando dentro do jogo. Saiu hoje o primeiro teaser de Macca e Seus Amigos, a série do jacaré de óculos escuros que virou o mascote de Leonida, e a própria Rockstar repostou. Tem caranguejo cobrando aluguel, peixe-boi gigante, flamingo de óculos e até fuga da polícia. O detalhe: o desenho passa na Weazel, a TV do jogo, e estreia junto com o lançamento, dia dezenove. Pensa comigo: você vai parar a missão pra assistir desenho na TV? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "PS5": "PS5"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "personagens",
+  "cidade",
+  "vice-city",
+  "acao",
+  "carros"
+ ],
+ "seed": 95,
+ "font": "../../assets/fonts/Anton.ttf"
+}
