@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 15/11/2026 17:54 (Brasília) com 97 Reels com nota. Média geral: 59.8/100.
+Atualizado em 15/11/2026 20:51 (Brasília) com 97 Reels com nota. Média geral: 59.8/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -32,8 +32,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | noticia/mercado | 1 | 71.0 | 63.5 |  |
 | curiosidade/economia | 1 | 70.7 | 63.4 |  |
 | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | 1 | 70.0 | 63.2 |  |
-| preco_compra | 2 | 66.3 | 63.1 |  |
 | Take-Two: pré-venda do GTA 6 muito acima do esperado (resultado do trimestre, 09/11) | 1 | 69.6 | 63.1 |  |
+| preco_compra | 2 | 66.3 | 63.0 |  |
 | pré-download oficial dia 10 e 212 GB | 1 | 69.3 | 63.0 |  |
 | gameplay/mapa | 1 | 68.9 | 62.8 |  |
 | sistema de nojo e NPCs com memória | 1 | 68.1 | 62.6 |  |
@@ -55,8 +55,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | recorde de intenção de compra (Circana) | 1 | 60.7 | 60.1 |  |
 | polícia inglesa zoa motorista que vai passar o lançamento do GTA 6 preso | 1 | 60.6 | 60.1 |  |
 | votação de sindicato dos funcionários da Rockstar UK na semana do lançamento | 1 | 60.8 | 60.1 |  |
-| GTA 6 a 30 FPS em todos os consoles, inclusive PS5 Pro (polêmica de desempenho) | 1 | 60.3 | 60.0 |  |
 | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | 1 | 60.1 | 59.9 |  |
+| GTA 6 a 30 FPS em todos os consoles, inclusive PS5 Pro (polêmica de desempenho) | 1 | 59.8 | 59.8 |  |
 | GTA 6 no PC em 6-7 meses segundo Pachter | 1 | 59.6 | 59.7 |  |
 | historia | 1 | 58.9 | 59.5 |  |
 | pré-venda: Vintage Vice City Pack, último bônus, prazo 20/11 | 1 | 58.8 | 59.5 |  |
@@ -117,13 +117,13 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | tem gente que largaria o próprio pet por uma semana de GTA 6 antes de todo mundo | 1 | 63.7 | 61.1 |  |
 | GTA 6 vai te julgar por cada crime | 1 | 63.3 | 61.0 |  |
 | um ex-diretor da Rockstar acha que a IA pode adiantar o GTA 6 no PC | 1 | 63.3 | 61.0 |  |
-| numero chocante | 6 | 61.2 | 60.9 |  |
+| numero chocante | 6 | 61.2 | 60.8 |  |
 | GTA 6 virou carro de verdade | 1 | 62.9 | 60.8 |  |
 | 39 imagens novas hoje | 1 | 61.1 | 60.2 |  |
 | a polícia zoou um cara que vai passar o lançamento do GTA 6 na cadeia | 1 | 60.6 | 60.1 |  |
 | GTA 6 sai em 1 semana e os funcionários da Rockstar tão votando por um sindicato | 1 | 60.8 | 60.1 |  |
-| GTA 6 vai rodar a 30 FPS até no PS5 Pro | 1 | 60.3 | 60.0 |  |
 | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 1 | 60.1 | 59.9 |  |
+| GTA 6 vai rodar a 30 FPS até no PS5 Pro | 1 | 59.8 | 59.8 |  |
 | vida real | 1 | 59.5 | 59.7 |  |
 | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 1 | 59.6 | 59.7 |  |
 | faltam 13 dias pra garantir o último bônus de pré-venda | 1 | 58.8 | 59.5 |  |
@@ -196,8 +196,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA BOOM 29/10 (Circana) | 1 | 60.7 | 60.1 |  |
 | vgtimes.com/gaming-news/173445 (04/11); TikTok @derbyspolice | 1 | 60.6 | 60.1 |  |
 | The Register / IBTimes UK 12/11 | 1 | 60.8 | 60.1 |  |
-| Rockstar Newswire 10/11 via Shacknews/VGC | 1 | 60.3 | 60.0 |  |
 | Rockstar Store / GTA BOOM / TechRadar | 1 | 60.1 | 59.9 |  |
+| Rockstar Newswire 10/11 via Shacknews/VGC | 1 | 59.8 | 59.8 |  |
 | Dexerto (iGrandTheftAuto) 20/10 | 1 | 59.5 | 59.7 |  |
 | notícia GTA BOOM 27/10 (BBC Business Today) | 1 | 59.6 | 59.7 |  |
 | Bloomberg via Notebookcheck 18/10 | 1 | 58.9 | 59.5 |  |
@@ -302,8 +302,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-12 | [DfqgMO5hV32](https://www.instagram.com/reel/DfqgMO5hV32/) | corte | votação de sindicato dos funcionários da Rockstar UK na semana do lançamento | GTA 6 sai em 1 semana e os funcionários da Rockstar tão votando por um sindicato | 1784 | 33.7% | 38% | 37 | 0 | 2 | 0 | 60.8 (h24) |
 | 2026-11-01 | [DfNAhuBkbE8](https://www.instagram.com/reel/DfNAhuBkbE8/) | corte | recorde de intenção de compra (Circana) | pergunta | 179 | 41.9% | 33% | 3 | 0 | 0 | 12 | 60.7 (h24) |
 | 2026-11-08 | [DfgBO4elEZB](https://www.instagram.com/reel/DfgBO4elEZB/) | corte | polícia inglesa zoa motorista que vai passar o lançamento do GTA 6 preso | a polícia zoou um cara que vai passar o lançamento do GTA 6 na cadeia | 1277 | 23.5% | 39% | 24 | 0 | 0 | 0 | 60.6 (h72) |
-| 2026-11-12 | [Dfp-egqKERU](https://www.instagram.com/reel/Dfp-egqKERU/) | corte | GTA 6 a 30 FPS em todos os consoles, inclusive PS5 Pro (polêmica de desempenho) | GTA 6 vai rodar a 30 FPS até no PS5 Pro | 1527 | 49% | 36% | 35 | 5 | 0 | 1 | 60.3 (h24) |
 | 2026-11-10 | [DflKGteg8an](https://www.instagram.com/reel/DflKGteg8an/) | corte | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 417 | 39.3% | 35% | 14 | 0 | 0 | 0 | 60.1 (h72) |
+| 2026-11-12 | [Dfp-egqKERU](https://www.instagram.com/reel/Dfp-egqKERU/) | corte | GTA 6 a 30 FPS em todos os consoles, inclusive PS5 Pro (polêmica de desempenho) | GTA 6 vai rodar a 30 FPS até no PS5 Pro | 1530 | 49.1% | 36% | 34 | 5 | 0 | 1 | 59.8 (h72) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 59.7 (h24) |
 | 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 486 | 49% | 23% | 18 | 0 | 2 | 3 | 59.6 (h72) |
 | 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 59.5 (h72) |
@@ -339,7 +339,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-01 | [DfNpglpEb2a](https://www.instagram.com/reel/DfNpglpEb2a/) | corte | GTA 6 x Hollywood (Jogos Vorazes) | revelacao | 99 | 65.5% | 23% | 3 | 0 | 0 | 0 | 41.7 (h24) |
 | 2026-10-19 | [DeseuwKD_89](https://www.instagram.com/reel/DeseuwKD_89/) | corte | bastidores | enquete | 148 | 45.2% | 34% | 2 | 0 | 0 | 0 | 39.5 (h72) |
 | 2026-10-25 | [De6_moQjxny](https://www.instagram.com/reel/De6_moQjxny/) | corte | noticia/review | enquete | 142 | 57.4% | 22% | 3 | 0 | 0 | 0 | 38.1 (h24) |
-| 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 221 | 43.9% | 28% | 2 | 0 | 0 | 0 | 36.1 (provisória) |
+| 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 221 | 43.9% | 28% | 2 | 0 | 0 | 0 | 36.1 (h24) |
 | 2026-10-11 | [DeX4Vhuj49m](https://www.instagram.com/reel/DeX4Vhuj49m/) | painel | mito | mentira_verdade | 132 | 49.6% | 21% | 2 | 0 | 0 | 0 | 35.8 (provisória) |
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 34.1 (h24) |
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 33.7 (h72) |
@@ -348,4 +348,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DfxDUhrv7ik](https://www.instagram.com/reel/DfxDUhrv7ik/): 5.9 h no ar, 294 views, 37.2% pularam, 23% assistido, 0 curtidas
+- [DfxDUhrv7ik](https://www.instagram.com/reel/DfxDUhrv7ik/): 8.9 h no ar, 309 views, 38.9% pularam, 22% assistido, 0 curtidas
+- [Dfxs3dco_Ik](https://www.instagram.com/reel/Dfxs3dco_Ik/): 2.8 h no ar, 156 views, 59% pularam, 23% assistido, 2 curtidas

@@ -1,0 +1,18 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v101_gta6_festas_audicao_album.mp4",
+ "text": "Mano, dá pra ouvir o álbum do GTA 6 inteiro um dia antes do jogo sair. A Rockstar e a Atlantic Records vão fazer festas de audição em mais de duzentas e trinta lojas de discos nos Estados Unidos, no dia dezoito. São as trinta e quatro faixas do álbum oficial, com Travis Scott, Cardi B e Metro Boomin. A maioria das festas é de graça, e em várias lojas quem fizer a pré-venda ainda leva brinde de Leonida. Tem loja de Miami participando também. Você ia numa dessas ou prefere ouvir direto no rádio do carro? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "festa",
+  "noite",
+  "neon",
+  "carro"
+ ],
+ "seed": 101,
+ "font": "../../assets/fonts/Anton.ttf"
+}
