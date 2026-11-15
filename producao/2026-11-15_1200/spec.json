@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v99_gta6_newzoo_51mi.mp4",
+ "text": "Mano, GTA 6 pode vender cinquenta e um milhões de cópias só na primeira semana. Essa é a previsão da Newzoo, uma das maiores empresas de análise de games do mundo. Em dinheiro, dá uns quatro bilhões e meio de dólares em sete dias. Pensa comigo: o GTA 5 fez um bilhão em três dias lá em 2013 e já foi recorde. Agora a previsão mais baixa já é mais de três vezes isso. E segundo a Newzoo, a pré-venda do GTA 6 é a mais forte já registrada na história. Você acha que bate os cinquenta e um milhões ou é exagero? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6",
+  "GTA 5": "GTA 5"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "luxo",
+  "festa",
+  "aereo",
+  "dia"
+ ],
+ "seed": 99,
+ "font": "../../assets/fonts/Anton.ttf"
+}

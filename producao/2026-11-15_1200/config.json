@@ -1,0 +1,1196 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v99_gta6_newzoo_51mi.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_280.mp4",
+   "start": 0.0,
+   "end": 2.173,
+   "layout": "full",
+   "cx": 0.166,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_143.mp4",
+   "start": 2.173,
+   "end": 4.195,
+   "layout": "full",
+   "cx": 0.622,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 4.195,
+   "end": 5.757,
+   "layout": "full",
+   "cx": 0.722,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_150.mp4",
+   "start": 5.757,
+   "end": 7.439,
+   "layout": "full",
+   "cx": 0.717,
+   "pan": -1,
+   "ss": 2.14
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_353.mp4",
+   "start": 7.439,
+   "end": 9.281,
+   "layout": "full",
+   "cx": 0.633,
+   "pan": 1,
+   "ss": 0.22
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_301.mp4",
+   "start": 9.281,
+   "end": 11.343,
+   "layout": "full",
+   "cx": 0.381,
+   "pan": -1,
+   "ss": 0.21
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_297.mp4",
+   "start": 11.343,
+   "end": 12.965,
+   "layout": "full",
+   "cx": 0.611,
+   "pan": 1,
+   "ss": 0.13
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_293.mp4",
+   "start": 12.965,
+   "end": 14.847,
+   "layout": "full",
+   "cx": 0.047,
+   "pan": -1,
+   "ss": 0.01
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_274.mp4",
+   "start": 14.847,
+   "end": 16.91,
+   "layout": "full",
+   "cx": 1.0,
+   "pan": 1,
+   "ss": 0.09
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_256.mp4",
+   "start": 16.91,
+   "end": 18.351,
+   "layout": "full",
+   "cx": 0.267,
+   "pan": -1,
+   "ss": 0.78
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 18.351,
+   "end": 20.634,
+   "layout": "full",
+   "cx": 0.196,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_149.mp4",
+   "start": 20.634,
+   "end": 22.656,
+   "layout": "full",
+   "cx": 0.639,
+   "pan": -1,
+   "ss": 0.73
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_086.mp4",
+   "start": 22.656,
+   "end": 24.439,
+   "layout": "full",
+   "cx": 0.251,
+   "pan": 1,
+   "ss": 1.08
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_153.mp4",
+   "start": 24.439,
+   "end": 26.441,
+   "layout": "full",
+   "cx": 0.578,
+   "pan": -1,
+   "ss": 0.54
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_215.mp4",
+   "start": 26.441,
+   "end": 28.423,
+   "layout": "full",
+   "cx": 0.37,
+   "pan": 1,
+   "ss": 0.11
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_330.mp4",
+   "start": 28.423,
+   "end": 29.985,
+   "layout": "full",
+   "cx": 0.509,
+   "pan": -1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_170.mp4",
+   "start": 29.985,
+   "end": 31.967,
+   "layout": "full",
+   "cx": 0.476,
+   "pan": 1,
+   "ss": 0.3
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_284.mp4",
+   "start": 31.967,
+   "end": 33.729,
+   "layout": "full",
+   "cx": 0.553,
+   "pan": -1,
+   "ss": 1.38
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_089.mp4",
+   "start": 33.729,
+   "end": 35.772,
+   "layout": "full",
+   "cx": 0.911,
+   "pan": 1,
+   "ss": 0.33
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_010.mp4",
+   "start": 35.772,
+   "end": 36.856,
+   "layout": "full",
+   "cx": 0.927,
+   "pan": -1,
+   "ss": 0.16
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.07,
+   "end": 0.691,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.07
+   ]
+  },
+  {
+   "start": 0.691,
+   "end": 2.173,
+   "text": "GTA 6 PODE VENDER",
+   "hl": true,
+   "w": [
+    0.691,
+    0.691,
+    1.532,
+    1.772
+   ]
+  },
+  {
+   "start": 2.173,
+   "end": 3.034,
+   "text": "CINQUENTA E UM",
+   "hl": false,
+   "w": [
+    2.173,
+    2.793,
+    2.893
+   ]
+  },
+  {
+   "start": 3.034,
+   "end": 4.195,
+   "text": "MILHÕES DE CÓPIAS",
+   "hl": false,
+   "w": [
+    3.034,
+    3.574,
+    3.734
+   ]
+  },
+  {
+   "start": 4.195,
+   "end": 4.896,
+   "text": "SÓ NA PRIMEIRA",
+   "hl": false,
+   "w": [
+    4.195,
+    4.395,
+    4.495
+   ]
+  },
+  {
+   "start": 4.896,
+   "end": 5.757,
+   "text": "SEMANA",
+   "hl": false,
+   "w": [
+    4.896
+   ]
+  },
+  {
+   "start": 5.757,
+   "end": 6.057,
+   "text": "ESSA É A",
+   "hl": false,
+   "w": [
+    5.757,
+    5.957,
+    5.997
+   ]
+  },
+  {
+   "start": 6.057,
+   "end": 7.439,
+   "text": "PREVISÃO DA NEWZOO",
+   "hl": false,
+   "w": [
+    6.057,
+    6.558,
+    6.698
+   ]
+  },
+  {
+   "start": 7.439,
+   "end": 8.26,
+   "text": "UMA DAS MAIORES",
+   "hl": false,
+   "w": [
+    7.439,
+    7.599,
+    7.759
+   ]
+  },
+  {
+   "start": 8.26,
+   "end": 9.281,
+   "text": "EMPRESAS DE ANÁLISE",
+   "hl": false,
+   "w": [
+    8.26,
+    8.7,
+    8.82
+   ]
+  },
+  {
+   "start": 9.281,
+   "end": 9.842,
+   "text": "DE GAMES DO",
+   "hl": false,
+   "w": [
+    9.281,
+    9.401,
+    9.721
+   ]
+  },
+  {
+   "start": 9.842,
+   "end": 10.502,
+   "text": "MUNDO",
+   "hl": false,
+   "w": [
+    9.842
+   ]
+  },
+  {
+   "start": 10.502,
+   "end": 11.343,
+   "text": "EM DINHEIRO",
+   "hl": false,
+   "w": [
+    10.502,
+    10.642
+   ]
+  },
+  {
+   "start": 11.343,
+   "end": 12.124,
+   "text": "DÁ UNS QUATRO",
+   "hl": false,
+   "w": [
+    11.343,
+    11.503,
+    11.704
+   ]
+  },
+  {
+   "start": 12.124,
+   "end": 12.965,
+   "text": "BILHÕES E MEIO",
+   "hl": false,
+   "w": [
+    12.124,
+    12.605,
+    12.705
+   ]
+  },
+  {
+   "start": 12.965,
+   "end": 13.706,
+   "text": "DE DÓLARES EM",
+   "hl": false,
+   "w": [
+    12.965,
+    13.085,
+    13.506
+   ]
+  },
+  {
+   "start": 13.706,
+   "end": 14.847,
+   "text": "SETE DIAS",
+   "hl": false,
+   "w": [
+    13.706,
+    14.066
+   ]
+  },
+  {
+   "start": 14.847,
+   "end": 15.808,
+   "text": "PENSA COMIGO",
+   "hl": false,
+   "w": [
+    14.847,
+    15.108
+   ]
+  },
+  {
+   "start": 15.808,
+   "end": 16.91,
+   "text": "O GTA 5 FEZ",
+   "hl": true,
+   "w": [
+    15.808,
+    15.869,
+    15.869,
+    16.629
+   ]
+  },
+  {
+   "start": 16.91,
+   "end": 17.55,
+   "text": "UM BILHÃO EM",
+   "hl": false,
+   "w": [
+    16.91,
+    17.03,
+    17.43
+   ]
+  },
+  {
+   "start": 17.55,
+   "end": 18.351,
+   "text": "TRÊS DIAS LÁ",
+   "hl": false,
+   "w": [
+    17.55,
+    17.851,
+    18.231
+   ]
+  },
+  {
+   "start": 18.351,
+   "end": 19.493,
+   "text": "EM 2013 E",
+   "hl": true,
+   "w": [
+    18.351,
+    18.432,
+    19.413
+   ]
+  },
+  {
+   "start": 19.493,
+   "end": 20.634,
+   "text": "JÁ FOI RECORDE",
+   "hl": false,
+   "w": [
+    19.493,
+    19.653,
+    19.853
+   ]
+  },
+  {
+   "start": 20.634,
+   "end": 21.635,
+   "text": "AGORA A PREVISÃO",
+   "hl": false,
+   "w": [
+    20.634,
+    21.115,
+    21.195
+   ]
+  },
+  {
+   "start": 21.635,
+   "end": 22.656,
+   "text": "MAIS BAIXA JÁ",
+   "hl": false,
+   "w": [
+    21.635,
+    21.896,
+    22.516
+   ]
+  },
+  {
+   "start": 22.656,
+   "end": 23.137,
+   "text": "É MAIS DE",
+   "hl": false,
+   "w": [
+    22.656,
+    22.757,
+    22.977
+   ]
+  },
+  {
+   "start": 23.137,
+   "end": 24.439,
+   "text": "TRÊS VEZES ISSO",
+   "hl": false,
+   "w": [
+    23.137,
+    23.437,
+    23.838
+   ]
+  },
+  {
+   "start": 24.439,
+   "end": 25.019,
+   "text": "E SEGUNDO A",
+   "hl": false,
+   "w": [
+    24.439,
+    24.559,
+    24.959
+   ]
+  },
+  {
+   "start": 25.019,
+   "end": 25.72,
+   "text": "NEWZOO",
+   "hl": false,
+   "w": [
+    25.019
+   ]
+  },
+  {
+   "start": 25.72,
+   "end": 26.441,
+   "text": "A PRÉ-VENDA DO",
+   "hl": false,
+   "w": [
+    25.72,
+    25.82,
+    26.341
+   ]
+  },
+  {
+   "start": 26.441,
+   "end": 27.442,
+   "text": "GTA 6 É A",
+   "hl": true,
+   "w": [
+    26.441,
+    26.441,
+    27.242,
+    27.322
+   ]
+  },
+  {
+   "start": 27.442,
+   "end": 28.423,
+   "text": "MAIS FORTE JÁ",
+   "hl": false,
+   "w": [
+    27.442,
+    27.782,
+    28.223
+   ]
+  },
+  {
+   "start": 28.423,
+   "end": 29.985,
+   "text": "REGISTRADA NA HISTÓRIA",
+   "hl": false,
+   "w": [
+    28.423,
+    29.024,
+    29.104
+   ]
+  },
+  {
+   "start": 29.985,
+   "end": 30.566,
+   "text": "VOCÊ ACHA QUE",
+   "hl": false,
+   "w": [
+    29.985,
+    30.245,
+    30.446
+   ]
+  },
+  {
+   "start": 30.566,
+   "end": 31.246,
+   "text": "BATE OS CINQUENTA",
+   "hl": false,
+   "w": [
+    30.566,
+    30.826,
+    30.886
+   ]
+  },
+  {
+   "start": 31.246,
+   "end": 31.967,
+   "text": "E UM MILHÕES",
+   "hl": false,
+   "w": [
+    31.246,
+    31.347,
+    31.427
+   ]
+  },
+  {
+   "start": 31.967,
+   "end": 33.149,
+   "text": "OU É EXAGERO?",
+   "hl": false,
+   "w": [
+    31.967,
+    32.107,
+    32.188
+   ]
+  },
+  {
+   "start": 33.149,
+   "end": 33.729,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    33.149,
+    33.429,
+    33.569
+   ]
+  },
+  {
+   "start": 33.729,
+   "end": 34.811,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    33.729,
+    33.89,
+    34.17,
+    34.17
+   ]
+  },
+  {
+   "start": 34.811,
+   "end": 35.772,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    34.811,
+    34.951,
+    35.652
+   ]
+  },
+  {
+   "start": 35.772,
+   "end": 36.382,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    35.772,
+    36.032,
+    36.092
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.07
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 0.691
+  },
+  {
+   "txt": "pode",
+   "falado": "pode",
+   "tela": 1.532
+  },
+  {
+   "txt": "vender",
+   "falado": "vender",
+   "tela": 1.772
+  },
+  {
+   "txt": "cinquenta",
+   "falado": "cinquenta",
+   "tela": 2.173
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 2.793
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 2.893
+  },
+  {
+   "txt": "milhões",
+   "falado": "milhões",
+   "tela": 3.034
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 3.574
+  },
+  {
+   "txt": "cópias",
+   "falado": "cópias",
+   "tela": 3.734
+  },
+  {
+   "txt": "só",
+   "falado": "só",
+   "tela": 4.195
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 4.395
+  },
+  {
+   "txt": "primeira",
+   "falado": "primeira",
+   "tela": 4.495
+  },
+  {
+   "txt": "semana.",
+   "falado": "semana",
+   "tela": 4.896
+  },
+  {
+   "txt": "Essa",
+   "falado": "Essa",
+   "tela": 5.757
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 5.957
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 5.997
+  },
+  {
+   "txt": "previsão",
+   "falado": "previsão",
+   "tela": 6.057
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 6.558
+  },
+  {
+   "txt": "Newzoo,",
+   "falado": "Newzoo",
+   "tela": 6.698
+  },
+  {
+   "txt": "uma",
+   "falado": "uma",
+   "tela": 7.439
+  },
+  {
+   "txt": "das",
+   "falado": "das",
+   "tela": 7.599
+  },
+  {
+   "txt": "maiores",
+   "falado": "maiores",
+   "tela": 7.759
+  },
+  {
+   "txt": "empresas",
+   "falado": "empresas",
+   "tela": 8.26
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 8.7
+  },
+  {
+   "txt": "análise",
+   "falado": "análise",
+   "tela": 8.82
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 9.281
+  },
+  {
+   "txt": "games",
+   "falado": "games",
+   "tela": 9.401
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 9.721
+  },
+  {
+   "txt": "mundo.",
+   "falado": "mundo",
+   "tela": 9.842
+  },
+  {
+   "txt": "Em",
+   "falado": "Em",
+   "tela": 10.502
+  },
+  {
+   "txt": "dinheiro,",
+   "falado": "dinheiro",
+   "tela": 10.642
+  },
+  {
+   "txt": "dá",
+   "falado": "dá",
+   "tela": 11.343
+  },
+  {
+   "txt": "uns",
+   "falado": "uns",
+   "tela": 11.503
+  },
+  {
+   "txt": "quatro",
+   "falado": "quatro",
+   "tela": 11.704
+  },
+  {
+   "txt": "bilhões",
+   "falado": "bilhões",
+   "tela": 12.124
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 12.605
+  },
+  {
+   "txt": "meio",
+   "falado": "meio",
+   "tela": 12.705
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 12.965
+  },
+  {
+   "txt": "dólares",
+   "falado": "dólares",
+   "tela": 13.085
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 13.506
+  },
+  {
+   "txt": "sete",
+   "falado": "sete",
+   "tela": 13.706
+  },
+  {
+   "txt": "dias.",
+   "falado": "dias",
+   "tela": 14.066
+  },
+  {
+   "txt": "Pensa",
+   "falado": "Pensa",
+   "tela": 14.847
+  },
+  {
+   "txt": "comigo:",
+   "falado": "comigo",
+   "tela": 15.108
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 15.808
+  },
+  {
+   "txt": "GTA 5",
+   "falado": "ge te a cinco",
+   "tela": 15.869
+  },
+  {
+   "txt": "fez",
+   "falado": "fez",
+   "tela": 16.629
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 16.91
+  },
+  {
+   "txt": "bilhão",
+   "falado": "bilhão",
+   "tela": 17.03
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 17.43
+  },
+  {
+   "txt": "três",
+   "falado": "três",
+   "tela": 17.55
+  },
+  {
+   "txt": "dias",
+   "falado": "dias",
+   "tela": 17.851
+  },
+  {
+   "txt": "lá",
+   "falado": "lá",
+   "tela": 18.231
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 18.351
+  },
+  {
+   "txt": "2013",
+   "falado": "2013",
+   "tela": 18.432
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 19.413
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 19.493
+  },
+  {
+   "txt": "foi",
+   "falado": "foi",
+   "tela": 19.653
+  },
+  {
+   "txt": "recorde.",
+   "falado": "recorde",
+   "tela": 19.853
+  },
+  {
+   "txt": "Agora",
+   "falado": "Agora",
+   "tela": 20.634
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 21.115
+  },
+  {
+   "txt": "previsão",
+   "falado": "previsão",
+   "tela": 21.195
+  },
+  {
+   "txt": "mais",
+   "falado": "mais",
+   "tela": 21.635
+  },
+  {
+   "txt": "baixa",
+   "falado": "baixa",
+   "tela": 21.896
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 22.516
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 22.656
+  },
+  {
+   "txt": "mais",
+   "falado": "mais",
+   "tela": 22.757
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 22.977
+  },
+  {
+   "txt": "três",
+   "falado": "três",
+   "tela": 23.137
+  },
+  {
+   "txt": "vezes",
+   "falado": "vezes",
+   "tela": 23.437
+  },
+  {
+   "txt": "isso.",
+   "falado": "isso",
+   "tela": 23.838
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 24.439
+  },
+  {
+   "txt": "segundo",
+   "falado": "segundo",
+   "tela": 24.559
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 24.959
+  },
+  {
+   "txt": "Newzoo,",
+   "falado": "Newzoo",
+   "tela": 25.019
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 25.72
+  },
+  {
+   "txt": "pré-venda",
+   "falado": "pré-venda",
+   "tela": 25.82
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 26.341
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 26.441
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 27.242
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 27.322
+  },
+  {
+   "txt": "mais",
+   "falado": "mais",
+   "tela": 27.442
+  },
+  {
+   "txt": "forte",
+   "falado": "forte",
+   "tela": 27.782
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 28.223
+  },
+  {
+   "txt": "registrada",
+   "falado": "registrada",
+   "tela": 28.423
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 29.024
+  },
+  {
+   "txt": "história.",
+   "falado": "história",
+   "tela": 29.104
+  },
+  {
+   "txt": "Você",
+   "falado": "Você",
+   "tela": 29.985
+  },
+  {
+   "txt": "acha",
+   "falado": "acha",
+   "tela": 30.245
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 30.446
+  },
+  {
+   "txt": "bate",
+   "falado": "bate",
+   "tela": 30.566
+  },
+  {
+   "txt": "os",
+   "falado": "os",
+   "tela": 30.826
+  },
+  {
+   "txt": "cinquenta",
+   "falado": "cinquenta",
+   "tela": 30.886
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 31.246
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 31.347
+  },
+  {
+   "txt": "milhões",
+   "falado": "milhões",
+   "tela": 31.427
+  },
+  {
+   "txt": "ou",
+   "falado": "ou",
+   "tela": 31.967
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 32.107
+  },
+  {
+   "txt": "exagero?",
+   "falado": "exagero",
+   "tela": 32.188
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 33.149
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 33.429
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 33.569
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 33.729
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 33.89
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 34.17
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 34.811
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 34.951
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 35.652
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 35.772
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 36.032
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 36.092
+  }
+ ]
+}
