@@ -2070,7 +2070,7 @@
   {
    "data": "2026-11-15",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-15_1800",
    "arquivo": "radar_v100_gta6_live_24h_youtube.mp4",
    "formato": "corte",
@@ -2085,7 +2085,9 @@
     "gancho": "revelacao",
     "origem": "YouTube Blog + GTA BOOM 12/11"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Dfxs3dco_Ik/",
+   "hora_real": "18:04"
   }
  ]
 }
