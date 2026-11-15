@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 15/11/2026 11:52 (Brasília) com 97 Reels com nota. Média geral: 59.8/100.
+Atualizado em 15/11/2026 17:54 (Brasília) com 97 Reels com nota. Média geral: 59.8/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -10,7 +10,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| corte | 94 | 60.7 | 60.6 |  |
+| corte | 94 | 60.6 | 60.6 |  |
 | painel | 3 | 33.3 | 43.9 | pausado |
 
 ## Tema
@@ -85,7 +85,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | noticias | 5 | 54.7 | 56.1 |  |
 | chefe da Take-Two fala de pirataria antes do GTA 6 | 1 | 48.0 | 55.9 |  |
 | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | 1 | 47.8 | 55.8 |  |
-| noticia/polemica | 2 | 50.8 | 55.3 |  |
+| noticia/polemica | 2 | 50.5 | 55.1 |  |
 | console_tecnico | 2 | 49.3 | 54.6 |  |
 | gameplay novo no South Park (cena real) | 1 | 44.1 | 54.6 |  |
 | gameplay/bastidores | 2 | 49.2 | 54.5 |  |
@@ -141,7 +141,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | o chefão da dona do GTA 6 falou de pirataria | 1 | 48.0 | 55.9 |  |
 | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 1 | 47.8 | 55.8 |  |
 | lista | 3 | 50.3 | 54.1 | pausado |
-| curiosidade | 5 | 47.5 | 51.0 | pausado |
+| curiosidade | 5 | 47.4 | 50.9 | pausado |
 
 ## Origem
 
@@ -233,7 +233,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA BOOM 28/10 (IGN) | 1 | 41.7 | 53.8 |  |
 | TalkEsport/The Scotsman 16/10 | 1 | 39.5 | 53.0 |  |
 | Notebookcheck 14/10 (NateTheHate/Insider Gaming) + precedentes GTA 5/RDR2 | 1 | 38.1 | 52.6 |  |
-| GTA BOOM 12/11 + ata GCRB via Inven | 1 | 36.8 | 52.1 |  |
+| GTA BOOM 12/11 + ata GCRB via Inven | 1 | 36.1 | 51.9 |  |
 | GTA BOOM 25/10 + vídeo yHLNoTKOO4A (Druski) | 1 | 27.0 | 48.9 |  |
 
 ## Horário
@@ -242,7 +242,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | 21h | 29 | 63.6 | 63.4 |  |
 | 12h | 33 | 59.1 | 59.1 |  |
-| 18h | 35 | 57.3 | 57.5 |  |
+| 18h | 35 | 57.3 | 57.4 |  |
 
 ## Reels
 
@@ -293,7 +293,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-26 | [De-iSVCgMpg](https://www.instagram.com/reel/De-iSVCgMpg/) | corte | rumor/elenco | polemica | 1344 | 31.7% | 48% | 28 | 0 | 1 | 0 | 63.3 (h72) |
 | 2026-11-04 | [DfVYtexIdQR](https://www.instagram.com/reel/DfVYtexIdQR/) | corte | Perfil Criminal / sistema de moral | GTA 6 vai te julgar por cada crime | 483 | 44.4% | 32% | 16 | 0 | 3 | 2 | 63.3 (h72) |
 | 2026-11-06 | [DfZ4kfAAo1K](https://www.instagram.com/reel/DfZ4kfAAo1K/) | corte | PC: ex-diretor da Rockstar diz que porte feito por fãs com IA pode encurtar a espera do PC | um ex-diretor da Rockstar acha que a IA pode adiantar o GTA 6 no PC | 442 | 37.9% | 29% | 14 | 0 | 1 | 0 | 63.3 (h72) |
-| 2026-11-12 | [DfpVzLbyGK6](https://www.instagram.com/reel/DfpVzLbyGK6/) | corte | Grotti Cheetah real (Ferrari Testarossa da West Coast Customs) à venda por £1 milhão na Selfridges | GTA 6 virou carro de verdade | 319 | 42.5% | 36% | 11 | 0 | 0 | 2 | 62.9 (h24) |
+| 2026-11-12 | [DfpVzLbyGK6](https://www.instagram.com/reel/DfpVzLbyGK6/) | corte | Grotti Cheetah real (Ferrari Testarossa da West Coast Customs) à venda por £1 milhão na Selfridges | GTA 6 virou carro de verdade | 322 | 42.5% | 36% | 11 | 0 | 0 | 2 | 62.9 (h72) |
 | 2026-10-15 | [Deh27W5AUHm](https://www.instagram.com/reel/Deh27W5AUHm/) | corte | pc | noticia | 1181 | 42.5% | 32% | 28 | 1 | 0 | 3 | 62.8 (h72) |
 | 2026-10-20 | [Deuu91Skz6q](https://www.instagram.com/reel/Deuu91Skz6q/) | corte | bastidores | pergunta | 146 | 43.8% | 40% | 5 | 0 | 0 | 1 | 61.4 (h72) |
 | 2026-10-18 | [DeplZ4bk8TX](https://www.instagram.com/reel/DeplZ4bk8TX/) | corte | trailer | enquete | 151 | 31.5% | 42% | 5 | 0 | 0 | 0 | 61.1 (h72) |
@@ -320,7 +320,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-10 | [DfkMqqny8gW](https://www.instagram.com/reel/DfkMqqny8gW/) | corte | Take-Two confirma GTA 6 pronto (desenvolvimento acabou) + pré-download começou (209,8 GB no PS5) | GTA 6 tá pronto e o desenvolvimento acabou | 157 | 42.6% | 35% | 5 | 0 | 0 | 0 | 54.7 (h72) |
 | 2026-11-09 | [DfiSpullC2Y](https://www.instagram.com/reel/DfiSpullC2Y/) | corte | evento oficial: festival de música do GTA 6 em Miami | pergunta | 172 | 50.6% | 20% | 8 | 0 | 1 | 0 | 54.3 (h72) |
 | 2026-10-17 | [DenVRLvAWnp](https://www.instagram.com/reel/DenVRLvAWnp/) | corte | marketing | curiosidade | 391 | 52.1% | 31% | 10 | 0 | 0 | 1 | 54.2 (h72) |
-| 2026-11-14 | [DfuettnReuI](https://www.instagram.com/reel/DfuettnReuI/) | corte | noticia/recorde | revelacao | 146 | 32.5% | 32% | 4 | 0 | 0 | 0 | 53.8 (provisória) |
+| 2026-11-14 | [DfuettnReuI](https://www.instagram.com/reel/DfuettnReuI/) | corte | noticia/recorde | revelacao | 147 | 32.3% | 32% | 4 | 0 | 0 | 0 | 53.8 (h24) |
 | 2026-11-07 | [Dfcd6XfoRdx](https://www.instagram.com/reel/Dfcd6XfoRdx/) | corte | mídia física: caixas nas lojas, 230 GB no verso e ícone online | as caixas do GTA 6 já começaram a chegar nas lojas | 1347 | 42.7% | 34% | 27 | 0 | 0 | 0 | 53.6 (h72) |
 | 2026-11-02 | [DfQOlcviOh7](https://www.instagram.com/reel/DfQOlcviOh7/) | corte | tênis Nike x Travis Scott de GTA 6 (vazamento) | revelacao | 414 | 44.1% | 27% | 12 | 0 | 0 | 0 | 53.0 (h72) |
 | 2026-10-29 | [DfFU1DLEmP_](https://www.instagram.com/reel/DfFU1DLEmP_/) | corte | gameplay/policia | revelacao | 131 | 42.1% | 30% | 4 | 0 | 0 | 0 | 52.2 (h72) |
@@ -339,9 +339,13 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-01 | [DfNpglpEb2a](https://www.instagram.com/reel/DfNpglpEb2a/) | corte | GTA 6 x Hollywood (Jogos Vorazes) | revelacao | 99 | 65.5% | 23% | 3 | 0 | 0 | 0 | 41.7 (h24) |
 | 2026-10-19 | [DeseuwKD_89](https://www.instagram.com/reel/DeseuwKD_89/) | corte | bastidores | enquete | 148 | 45.2% | 34% | 2 | 0 | 0 | 0 | 39.5 (h72) |
 | 2026-10-25 | [De6_moQjxny](https://www.instagram.com/reel/De6_moQjxny/) | corte | noticia/review | enquete | 142 | 57.4% | 22% | 3 | 0 | 0 | 0 | 38.1 (h24) |
-| 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 213 | 42.6% | 28% | 2 | 0 | 0 | 0 | 36.8 (provisória) |
+| 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 221 | 43.9% | 28% | 2 | 0 | 0 | 0 | 36.1 (provisória) |
 | 2026-10-11 | [DeX4Vhuj49m](https://www.instagram.com/reel/DeX4Vhuj49m/) | painel | mito | mentira_verdade | 132 | 49.6% | 21% | 2 | 0 | 0 | 0 | 35.8 (provisória) |
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 34.1 (h24) |
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 33.7 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.9 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 27.0 (h24) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DfxDUhrv7ik](https://www.instagram.com/reel/DfxDUhrv7ik/): 5.9 h no ar, 294 views, 37.2% pularam, 23% assistido, 0 curtidas
