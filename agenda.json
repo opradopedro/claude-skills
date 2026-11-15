@@ -2092,7 +2092,7 @@
   {
    "data": "2026-11-15",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-15_2100",
    "arquivo": "radar_v101_gta6_festas_audicao_album.mp4",
    "formato": "corte",
@@ -2100,7 +2100,16 @@
    "capa": "Álbum um dia antes",
    "capa_t": 9.0,
    "roteiro": "Mano, dá pra ouvir o álbum do GTA 6 inteiro um dia antes do jogo sair. A Rockstar e a Atlantic Records vão fazer festas de audição em mais de duzentas e trinta lojas de discos nos Estados Unidos, no dia dezoito. São as trinta e quatro faixas do álbum oficial, com Travis Scott, Cardi B e Metro Boomin. A maioria das festas é de graça, e em várias lojas quem fizer a pré-venda ainda leva brinde de Leonida. Tem loja de Miami participando também. Você ia numa dessas ou prefere ouvir direto no rádio do carro? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DfyA5lpBOl_/",
+   "hora_real": "20:59",
+   "legenda": "GTA 6 vai deixar você ouvir o álbum inteiro um dia antes do jogo sair 🎧😳 festas de audição em mais de 230 lojas de discos\n\n💿 34 faixas do álbum oficial, com Travis Scott, Cardi B e Metro Boomin\n📅 Dia 18/11, véspera do lançamento, em lojas dos Estados Unidos\n🎟️ A maioria é de graça, e quem faz a pré-venda em várias lojas leva brinde de Leonida\n🌴 Tem loja de Miami participando também\n\nVocê ia numa dessas ou prefere ouvir direto no rádio do carro? Manda pra quem vai jogar GTA 6 com você 👇\n\nFonte: GTA BOOM / gtavi-thealbum.com\n\n#gta6 #gtavi #rockstargames #travisscott #vicecity",
+   "ficha": {
+    "formato": "corte",
+    "tema": "evento/lancamento",
+    "gancho": "revelacao",
+    "origem": "GTA BOOM 12/11 + gtavi-thealbum.com"
+   }
   }
  ]
 }
