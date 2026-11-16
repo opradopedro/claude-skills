@@ -16,7 +16,9 @@ def refresh_token():
 
 
 def token():
-    d = urllib.parse.urlencode({"client_id": os.environ["YT_CLIENT_ID"], "client_secret": os.environ["YT_CLIENT_SECRET"],
+    cid = os.environ.get("YT_CLIENT_ID_GTA") or os.environ["YT_CLIENT_ID"]
+    sec = os.environ.get("YT_CLIENT_SECRET_GTA") or os.environ["YT_CLIENT_SECRET"]
+    d = urllib.parse.urlencode({"client_id": cid, "client_secret": sec,
                                 "refresh_token": refresh_token(), "grant_type": "refresh_token"}).encode()
     return json.load(urllib.request.urlopen("https://oauth2.googleapis.com/token", d))["access_token"]
 

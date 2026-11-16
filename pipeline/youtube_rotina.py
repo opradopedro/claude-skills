@@ -13,6 +13,8 @@ from youtube_publicar import canal_certo, capa_de, por_capa, publicar, token
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INICIO_NOVOS = "2026-10-22"
+# 16/11: o GitHub Actions do canais-dark guarda o controle em canais-dark/gta6/youtube-publicados.json (RADAR_PUBLICADOS)
+PUBLICADOS = os.environ.get("RADAR_PUBLICADOS") or os.path.join(RAIZ, "youtube/publicados.json")
 RODAPE = "\n\nSe inscreve pra acompanhar tudo de GTA 6 até o lançamento 🔔"
 POR_RODADA = 3  # 16/11: subiu de 2 para 3 para zerar o atraso de 12/11 a 16/11
 TAGS = ["gta 6", "gta vi", "gta 6 brasil", "gta 6 noticias", "grand theft auto 6"]
@@ -55,7 +57,7 @@ def titulo_de(legenda):
 def main(dry):
     agora = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-3))).strftime("%Y-%m-%d %H:%M")
     posts = {p.get("arquivo"): p for p in ler("agenda.json")["posts"] if p.get("arquivo")}
-    feitos = ler("youtube/publicados.json")
+    feitos = json.load(open(PUBLICADOS, encoding="utf-8"))
     fila = []
     for p in posts.values():
         if p["status"] == "postado" and p["data"] >= INICIO_NOVOS and p["arquivo"] not in feitos and p.get("legenda"):
@@ -86,7 +88,7 @@ def main(dry):
             d.write(leg + RODAPE)
         link = publicar(mp4, tit, open(d.name, encoding="utf-8").read(), TAGS)
         feitos[arq] = {"link": link, "titulo": tit, "quando": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")}
-        with open(os.path.join(RAIZ, "youtube/publicados.json"), "w", encoding="utf-8") as f:
+        with open(PUBLICADOS, "w", encoding="utf-8") as f:
             json.dump(feitos, f, ensure_ascii=False, indent=1)
         print("postado:", arq, link)
     if len(fila) > feitos_agora:
@@ -113,7 +115,7 @@ def capas(feitos, dry):
             return
         else:
             info["capa"] = True
-        with open(os.path.join(RAIZ, "youtube/publicados.json"), "w", encoding="utf-8") as f:
+        with open(PUBLICADOS, "w", encoding="utf-8") as f:
             json.dump(feitos, f, ensure_ascii=False, indent=1)
         print("capa aplicada:" if ok else "vídeo removido, sem capa:", arq)
 
