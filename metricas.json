@@ -3601,8 +3601,8 @@
    "avgWatchedPct": 35.7,
    "skipRate": 42.5,
    "durationSeconds": 38,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 80.7
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 95.8
   },
   "h24": {
    "playCount": 319,
@@ -3644,8 +3644,8 @@
    "avgWatchedPct": 35.63,
    "skipRate": 49.1,
    "durationSeconds": 33,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 74.8
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 89.9
   },
   "h24": {
    "playCount": 1527,
@@ -3687,8 +3687,8 @@
    "avgWatchedPct": 37.94,
    "skipRate": 33.7,
    "durationSeconds": 36,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 69.9
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 84.9
   },
   "h24": {
    "playCount": 1784,
@@ -3702,6 +3702,19 @@
    "durationSeconds": null,
    "coletado": "2026-11-14T14:53Z",
    "horas": 36.9
+  },
+  "h72": {
+   "playCount": 1784,
+   "likeCount": 36,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 2,
+   "avgWatchTimeMs": 13658,
+   "avgWatchedPct": 37.94,
+   "skipRate": 33.7,
+   "durationSeconds": 36,
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 84.9
   }
  },
  "Dfr_lHAOylj": {
@@ -3717,8 +3730,8 @@
    "avgWatchedPct": 30.07,
    "skipRate": 45.8,
    "durationSeconds": 29,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 56.0
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 71.0
   },
   "h24": {
    "playCount": 200,
@@ -3747,8 +3760,8 @@
    "avgWatchedPct": 42.77,
    "skipRate": 35.6,
    "durationSeconds": 32,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 50.8
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 65.9
   },
   "h24": {
    "playCount": 1883,
@@ -3777,8 +3790,8 @@
    "avgWatchedPct": 46.0,
    "skipRate": 29.9,
    "durationSeconds": 33,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 46.8
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 61.9
   },
   "h24": {
    "playCount": 1873,
@@ -3807,8 +3820,8 @@
    "avgWatchedPct": 31.29,
    "skipRate": 33.1,
    "durationSeconds": 43,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 32.8
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 147,
@@ -3837,8 +3850,8 @@
    "avgWatchedPct": 28.19,
    "skipRate": 43.9,
    "durationSeconds": 39,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 26.8
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 41.8
   },
   "h24": {
    "playCount": 221,
@@ -3867,42 +3880,72 @@
    "avgWatchedPct": 29.94,
    "skipRate": 47.9,
    "durationSeconds": 42,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 23.8
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 38.9
+  },
+  "h24": {
+   "playCount": 143,
+   "likeCount": 7,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 12575,
+   "avgWatchedPct": 29.94,
+   "skipRate": 47.9,
+   "durationSeconds": 42,
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 38.9
   }
  },
  "DfxDUhrv7ik": {
   "publicado": "2026-11-15T15:00:33.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 309,
+   "playCount": 382,
    "likeCount": 0,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 8062,
-   "avgWatchedPct": 22.39,
-   "skipRate": 38.9,
+   "avgWatchTimeMs": 8302,
+   "avgWatchedPct": 23.06,
+   "skipRate": 39.6,
    "durationSeconds": 36,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 8.9
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 23.9
   }
  },
  "Dfxs3dco_Ik": {
   "publicado": "2026-11-15T21:03:58.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 156,
+   "playCount": 164,
    "likeCount": 2,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 9004,
-   "avgWatchedPct": 23.09,
-   "skipRate": 59,
+   "avgWatchTimeMs": 8930,
+   "avgWatchedPct": 22.9,
+   "skipRate": 59.2,
    "durationSeconds": 39,
-   "coletado": "2026-11-15T23:51Z",
-   "horas": 2.8
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 17.8
+  }
+ },
+ "DfyA5lpBOl_": {
+  "publicado": "2026-11-15T23:58:29.000Z",
+  "legenda": "GTA 6 vai deixar você ouvir o álbum inteiro um dia antes do jogo sair",
+  "atual": {
+   "playCount": 1448,
+   "likeCount": 31,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 3,
+   "avgWatchTimeMs": 10808,
+   "avgWatchedPct": 30.88,
+   "skipRate": 31.8,
+   "durationSeconds": 35,
+   "coletado": "2026-11-16T14:54Z",
+   "horas": 14.9
   }
  }
 }

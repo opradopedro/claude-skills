@@ -1,0 +1,18 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v102_gta6_crime_progressao.mp4",
+ "text": "Mano, em GTA 6 você não vai conseguir roubar um banco logo no começo. E isso é de propósito. Segundo o Rob Nelson, da Rockstar, Jason e Lucia são um casal jovem na pior, e não faz sentido eles saírem causando o caos. Então no começo é só crime pequeno: carro barato, fechadura simples. Os golpes grandes só liberam bem mais pra frente. E dá pra planejar tudo: desligar câmera, roubar a gravação, achar a porta dos fundos e o código do cofre, e sair sem dar um tiro. Mas se der errado, vem polícia e helicóptero na cola. Você vai no sigilo ou vai entrar atirando? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "assalto",
+  "policia",
+  "carro",
+  "jason",
+  "lucia"
+ ],
+ "seed": 102,
+ "font": "../../assets/fonts/Anton.ttf"
+}
