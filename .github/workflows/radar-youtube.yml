@@ -1,0 +1,70 @@
+# Radar GTA VI: reposta no YouTube Shorts os Reels do Instagram (e a fila dos antigos).
+# Lê o branch radar-gta6-midia (agenda.json, youtube/plano.json, mp4) e grava youtube/publicados.json nele.
+# Secrets no repo claude-skills: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN_GTA (token do canal Radar GTA VI).
+name: Radar GTA - Shorts no YouTube
+
+on:
+  schedule:
+    - cron: "20 15 * * *"   # 12h20 BRT
+    - cron: "20 18 * * *"   # 15h20 BRT
+    - cron: "20 21 * * *"   # 18h20 BRT
+    - cron: "20 0 * * *"    # 21h20 BRT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-youtube
+  cancel-in-progress: false
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: radar-gta6-midia
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/*.mp4
+            !producao/**/*.mp4
+            !aprovados
+            !demo_short
+            !refeitos
+
+      - name: Postar no YouTube
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_GTA: ${{ secrets.YT_REFRESH_TOKEN_GTA }}
+        run: python3 pipeline/youtube_rotina.py
+
+      - name: Salvar publicados.json
+        if: always()
+        run: |
+          git diff --quiet -- youtube/publicados.json && { echo "nada novo"; exit 0; }
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          cp youtube/publicados.json /tmp/publicados.json
+          git add youtube/publicados.json
+          git commit -m "Radar YouTube: Shorts postados ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for i in 1 2 3 4; do
+            git pull --rebase origin radar-gta6-midia && git push origin HEAD:radar-gta6-midia && exit 0
+            # conflito: junta o que já estava lá com o que foi postado agora
+            git rebase --abort 2>/dev/null; git fetch --depth 1 origin radar-gta6-midia
+            git reset -q --soft FETCH_HEAD; git restore --staged . 2>/dev/null
+            python3 - <<'PY'
+          import json, subprocess
+          remoto = json.loads(subprocess.run(["git", "show", "FETCH_HEAD:youtube/publicados.json"], capture_output=True, text=True).stdout)
+          remoto.update(json.load(open("/tmp/publicados.json")))
+          json.dump(remoto, open("youtube/publicados.json", "w"), ensure_ascii=False, indent=1)
+          PY
+            git add youtube/publicados.json && git commit -qm "Radar YouTube: Shorts postados (merge)"
+            sleep $((i * 10))
+          done
+          exit 1
