@@ -1,6 +1,6 @@
 """Publica um mp4 vertical como YouTube Short (API oficial, upload resumível, só biblioteca padrão).
 
-Lê YT_CLIENT_ID, YT_CLIENT_SECRET e YT_REFRESH_TOKEN do ambiente (nunca do repositório).
+Lê YT_CLIENT_ID, YT_CLIENT_SECRET e YT_REFRESH_TOKEN_GTA (ou YT_REFRESH_TOKEN, nome antigo do ambiente GTA VI) do ambiente (nunca do repositório).
 Uso: python3 pipeline/youtube_publicar.py video.mp4 "Título #Shorts" descricao.txt [tag1,tag2]
 Imprime o link do Short. Se existir capas/<video>.jpg, tenta pôr como thumbnail (só funciona com o canal
 verificado em youtube.com/verify; sem isso o YouTube devolve 403 e o Short fica com a capa automática).
@@ -8,10 +8,26 @@ verificado em youtube.com/verify; sem isso o YouTube devolve 403 e o Short fica 
 import json, os, sys, urllib.error, urllib.parse, urllib.request
 
 
+def refresh_token():
+    rt = os.environ.get("YT_REFRESH_TOKEN_GTA") or os.environ.get("YT_REFRESH_TOKEN")
+    if not rt:
+        sys.exit("FALTA TOKEN: adicione YT_REFRESH_TOKEN_GTA (token do canal Radar GTA VI) ao ambiente desta sessão")
+    return rt
+
+
 def token():
     d = urllib.parse.urlencode({"client_id": os.environ["YT_CLIENT_ID"], "client_secret": os.environ["YT_CLIENT_SECRET"],
-                                "refresh_token": os.environ["YT_REFRESH_TOKEN"], "grant_type": "refresh_token"}).encode()
+                                "refresh_token": refresh_token(), "grant_type": "refresh_token"}).encode()
     return json.load(urllib.request.urlopen("https://oauth2.googleapis.com/token", d))["access_token"]
+
+
+def canal_certo(tk):
+    """Trava: só sobe se o token for do canal do Radar (evita mandar GTA para Hora Muerta/So You Built It)."""
+    r = urllib.request.Request("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true",
+                               headers={"Authorization": "Bearer " + tk})
+    nomes = [i["snippet"]["title"] for i in json.load(urllib.request.urlopen(r)).get("items", [])]
+    ok = any("gta" in n.lower() or "radar" in n.lower() for n in nomes)
+    return ok, nomes
 
 
 def por_capa(vid, jpg, tk=None):

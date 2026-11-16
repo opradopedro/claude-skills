@@ -9,7 +9,7 @@ Uso: python3 pipeline/youtube_rotina.py [--dry]
 """
 import datetime, json, os, subprocess, sys, tempfile
 sys.path.insert(0, os.path.dirname(__file__))
-from youtube_publicar import capa_de, por_capa, publicar, token
+from youtube_publicar import canal_certo, capa_de, por_capa, publicar, token
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INICIO_NOVOS = "2026-10-22"
@@ -66,6 +66,10 @@ def main(dry):
             fila.append((i["arquivo"], i["titulo"], leg))
     if not fila:
         print("nada para postar agora")
+    if not dry:
+        ok, nomes = canal_certo(token())
+        if not ok:
+            sys.exit(f"TOKEN DE OUTRO CANAL ({nomes}): não subi nada. Use o token do Radar GTA VI em YT_REFRESH_TOKEN_GTA")
     feitos_agora = 0
     for arq, tit, leg in fila:
         if feitos_agora >= POR_RODADA:
