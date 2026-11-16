@@ -4,7 +4,7 @@
 2. Fila de antigos: itens de youtube/plano.json com data e hora já vencidas (Brasília) e ainda não postados.
 3. Capas: Shorts já publicados sem "capa": true recebem capas/<video>.jpg (thumbnails.set). Enquanto o canal
    não estiver verificado o YouTube recusa; a rotina tenta 1 vez por rodada e para no primeiro 403.
-No máximo POR_RODADA (3) envios por rodada; o Reel de 21/10 21h foi para a fila (Pedro pediu só 2 Shorts no primeiro dia). Grava os links em youtube/publicados.json (o commit e o push ficam com quem chama).
+No máximo POR_RODADA (1) envio por rodada; o Reel de 21/10 21h foi para a fila (Pedro pediu só 2 Shorts no primeiro dia). Grava os links em youtube/publicados.json (o commit e o push ficam com quem chama).
 Uso: python3 pipeline/youtube_rotina.py [--dry]
 """
 import datetime, json, os, subprocess, sys, tempfile
@@ -16,7 +16,7 @@ INICIO_NOVOS = "2026-10-22"
 # 16/11: o GitHub Actions do canais-dark guarda o controle em canais-dark/gta6/youtube-publicados.json (RADAR_PUBLICADOS)
 PUBLICADOS = os.environ.get("RADAR_PUBLICADOS") or os.path.join(RAIZ, "youtube/publicados.json")
 RODAPE = "\n\nSe inscreve pra acompanhar tudo de GTA 6 até o lançamento 🔔"
-POR_RODADA = 3  # 16/11: subiu de 2 para 3 para zerar o atraso de 12/11 a 16/11
+POR_RODADA = 1  # 16/11 (Pedro): 1 Short por horário, nada de despejar os atrasados de uma vez
 TAGS = ["gta 6", "gta vi", "gta 6 brasil", "gta 6 noticias", "grand theft auto 6"]
 
 

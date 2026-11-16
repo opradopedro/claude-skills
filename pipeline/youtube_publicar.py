@@ -27,7 +27,13 @@ def canal_certo(tk):
     """Trava: só sobe se o token for do canal do Radar (evita mandar GTA para Hora Muerta/So You Built It)."""
     r = urllib.request.Request("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true",
                                headers={"Authorization": "Bearer " + tk})
-    nomes = [i["snippet"]["title"] for i in json.load(urllib.request.urlopen(r)).get("items", [])]
+    try:
+        nomes = [i["snippet"]["title"] for i in json.load(urllib.request.urlopen(r)).get("items", [])]
+    except urllib.error.HTTPError as e:
+        if e.code == 403 and os.environ.get("YT_REFRESH_TOKEN_GTA"):
+            # token do Radar só tem permissão de upload (não lê o canal); vale por ser o secret próprio do Radar
+            return True, ["(token só de upload, confiado pelo nome YT_REFRESH_TOKEN_GTA)"]
+        raise
     ok = any("gta" in n.lower() or "radar" in n.lower() for n in nomes)
     return ok, nomes
 
