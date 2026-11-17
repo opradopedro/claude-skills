@@ -2178,14 +2178,24 @@
   {
    "data": "2026-11-17",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-17_1200",
    "arquivo": "radar_v105_gta6_devolver_apagar_preload.mp4",
    "formato": "corte",
    "tema": "Devolver Digital dá jogo grátis (Volvy's Adventure: Reslimed, US$ 4,99, Steam, lança 19/11) pra quem gravar vídeo apagando o pré-download de 212 GB de GTA 6 com #MakeRoomForVolvy; Volvy é mascote fake criado em 2023; já teve gente que apagou (GTA BOOM 17/11)",
    "capa": "Apaga e ganha outro jogo",
    "capa_t": 23.5,
-   "roteiro": "Mano, tem empresa te dando jogo de graça pra você apagar GTA 6 do console. É a Devolver, uma publicadora indie famosa por zoar a Rockstar. Ela quer que você grave um vídeo apagando o pré-download de duzentos e doze gigas, com a hashtag Make Room for Volvy. O prêmio é o Volvy's Adventure, um joguinho de cinco dólares de um mascote que nem existe, que lança no mesmo dia dezenove, só no PC. E já tem gente que apagou de verdade. Você apagaria GTA 6 por um jogo grátis ou nem pensar? Manda pra quem vai jogar GTA 6 com você e segue o Radar."
+   "roteiro": "Mano, tem empresa te dando jogo de graça pra você apagar GTA 6 do console. É a Devolver, uma publicadora indie famosa por zoar a Rockstar. Ela quer que você grave um vídeo apagando o pré-download de duzentos e doze gigas, com a hashtag Make Room for Volvy. O prêmio é o Volvy's Adventure, um joguinho de cinco dólares de um mascote que nem existe, que lança no mesmo dia dezenove, só no PC. E já tem gente que apagou de verdade. Você apagaria GTA 6 por um jogo grátis ou nem pensar? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Df2OCAbhu4T/",
+   "hora_real": "12:09",
+   "legenda": "GTA 6 ou um jogo de graça? 🗑️😳 uma empresa tá dando jogo pra quem APAGAR o pré-download de GTA 6 do console\n\n🎮 É a Devolver, publicadora indie que vive zoando a Rockstar\n🎥 Pra participar, você grava um vídeo apagando os 212 GB com a hashtag #MakeRoomForVolvy\n🎁 O prêmio é Volvy's Adventure: Reslimed, um joguinho de US$ 4,99 de um mascote que nem existe\n📅 Ele lança no mesmo dia 19/11, só no PC\n😂 E já tem gente que apagou de verdade\n\nFonte: GTA BOOM (17/11) / Devolver Digital\n\nVocê apagaria GTA 6 por um jogo grátis ou nem pensar? Manda pra quem vai jogar GTA 6 com você 👇\n\n#gta6 #gtavi #grandtheftauto #rockstargames #gamer",
+   "ficha": {
+    "formato": "corte",
+    "tema": "marketing/polemica",
+    "gancho": "pergunta",
+    "origem": "GTA BOOM 17/11 (Devolver Digital)"
+   }
   }
  ]
 }
