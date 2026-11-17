@@ -1,0 +1,1468 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v104_gta6_kfc_velorio_falso.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_235.mp4",
+   "start": 0.0,
+   "end": 2.191,
+   "layout": "full",
+   "cx": 0.484,
+   "pan": 1,
+   "ss": 0.5
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_313.mp4",
+   "start": 2.191,
+   "end": 4.113,
+   "layout": "full",
+   "cx": 0.521,
+   "pan": -1,
+   "ss": 1.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_163.mp4",
+   "start": 4.113,
+   "end": 5.654,
+   "layout": "full",
+   "cx": 0.796,
+   "pan": 1,
+   "ss": 0.13
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_209.mp4",
+   "start": 5.654,
+   "end": 7.035,
+   "layout": "full",
+   "cx": 0.937,
+   "pan": -1,
+   "ss": 0.05
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_120.mp4",
+   "start": 7.035,
+   "end": 8.355,
+   "layout": "full",
+   "cx": 0.34,
+   "pan": 1,
+   "ss": 0.63
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_002.mp4",
+   "start": 8.355,
+   "end": 10.097,
+   "layout": "full",
+   "cx": 0.629,
+   "pan": -1,
+   "ss": 1.77
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_142.mp4",
+   "start": 10.097,
+   "end": 12.438,
+   "layout": "full",
+   "cx": 0.427,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_261.mp4",
+   "start": 12.438,
+   "end": 13.799,
+   "layout": "full",
+   "cx": 0.539,
+   "pan": -1,
+   "ss": 2.46
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_255.mp4",
+   "start": 13.799,
+   "end": 15.38,
+   "layout": "full",
+   "cx": 0.383,
+   "pan": 1,
+   "ss": 0.29
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_260.mp4",
+   "start": 15.38,
+   "end": 17.061,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": -1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_160.mp4",
+   "start": 17.061,
+   "end": 18.502,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_215.mp4",
+   "start": 18.502,
+   "end": 20.303,
+   "layout": "full",
+   "cx": 0.0,
+   "pan": -1,
+   "ss": 1.34
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/QdBZY2fkU-0_001.mp4",
+   "start": 20.303,
+   "end": 22.365,
+   "layout": "full",
+   "cx": 0.237,
+   "pan": 1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_140.mp4",
+   "start": 22.365,
+   "end": 23.745,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": -1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "start": 23.745,
+   "end": 26.327,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_170.mp4",
+   "start": 26.327,
+   "end": 27.848,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": -1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_320.mp4",
+   "start": 27.848,
+   "end": 29.389,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": 1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_063.mp4",
+   "start": 29.389,
+   "end": 31.43,
+   "layout": "full",
+   "cx": 0.443,
+   "pan": -1,
+   "ss": 0.47
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_152.mp4",
+   "start": 31.43,
+   "end": 33.932,
+   "layout": "full",
+   "cx": 0.354,
+   "pan": 1,
+   "ss": 1.36
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_044.mp4",
+   "start": 33.932,
+   "end": 35.253,
+   "layout": "full",
+   "cx": 0.344,
+   "pan": -1,
+   "ss": 1.6
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_137.mp4",
+   "start": 35.253,
+   "end": 36.974,
+   "layout": "full",
+   "cx": 0.605,
+   "pan": 1,
+   "ss": 1.07
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_100.mp4",
+   "start": 36.974,
+   "end": 38.555,
+   "layout": "full",
+   "cx": 0.307,
+   "pan": -1,
+   "ss": 0.44
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_293.mp4",
+   "start": 38.555,
+   "end": 40.877,
+   "layout": "full",
+   "cx": 0.491,
+   "pan": 1,
+   "ss": 0.18
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_206.mp4",
+   "start": 40.877,
+   "end": 42.778,
+   "layout": "full",
+   "cx": 0.524,
+   "pan": -1,
+   "ss": 1.76
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_074.mp4",
+   "start": 42.778,
+   "end": 44.359,
+   "layout": "full",
+   "cx": 0.819,
+   "pan": 1,
+   "ss": 0.26
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_009.mp4",
+   "start": 44.359,
+   "end": 46.52,
+   "layout": "full",
+   "cx": 0.732,
+   "pan": -1,
+   "ss": 0.14
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_149.mp4",
+   "start": 46.52,
+   "end": 47.704,
+   "layout": "full",
+   "cx": 0.669,
+   "pan": 1,
+   "ss": 1.61
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.07,
+   "end": 0.791,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.07
+   ]
+  },
+  {
+   "start": 0.791,
+   "end": 2.191,
+   "text": "O KFC VAI",
+   "hl": false,
+   "w": [
+    0.791,
+    0.971,
+    1.991
+   ]
+  },
+  {
+   "start": 2.191,
+   "end": 3.172,
+   "text": "FAZER UM VELÓRIO",
+   "hl": false,
+   "w": [
+    2.191,
+    2.472,
+    2.572
+   ]
+  },
+  {
+   "start": 3.172,
+   "end": 4.113,
+   "text": "FALSO NO DIA",
+   "hl": false,
+   "w": [
+    3.172,
+    3.732,
+    3.893
+   ]
+  },
+  {
+   "start": 4.113,
+   "end": 5.654,
+   "text": "QUE GTA 6 LANÇA",
+   "hl": true,
+   "w": [
+    4.113,
+    4.253,
+    4.253,
+    5.033
+   ]
+  },
+  {
+   "start": 5.654,
+   "end": 6.294,
+   "text": "SÓ PRA VOCÊ",
+   "hl": false,
+   "w": [
+    5.654,
+    5.854,
+    6.014
+   ]
+  },
+  {
+   "start": 6.294,
+   "end": 7.035,
+   "text": "TER DESCULPA PRA",
+   "hl": false,
+   "w": [
+    6.294,
+    6.434,
+    6.874
+   ]
+  },
+  {
+   "start": 7.035,
+   "end": 8.355,
+   "text": "FALTAR NO TRABALHO",
+   "hl": false,
+   "w": [
+    7.035,
+    7.355,
+    7.455
+   ]
+  },
+  {
+   "start": 8.355,
+   "end": 9.076,
+   "text": "É O KFC",
+   "hl": false,
+   "w": [
+    8.355,
+    8.455,
+    8.556
+   ]
+  },
+  {
+   "start": 9.076,
+   "end": 10.097,
+   "text": "DA AUSTRÁLIA",
+   "hl": false,
+   "w": [
+    9.076,
+    9.176
+   ]
+  },
+  {
+   "start": 10.097,
+   "end": 10.937,
+   "text": "A FALECIDA SE",
+   "hl": false,
+   "w": [
+    10.097,
+    10.197,
+    10.797
+   ]
+  },
+  {
+   "start": 10.937,
+   "end": 12.438,
+   "text": "CHAMA ANN ALIBI",
+   "hl": false,
+   "w": [
+    10.937,
+    11.377,
+    11.698
+   ]
+  },
+  {
+   "start": 12.438,
+   "end": 13.239,
+   "text": "QUE EM INGLÊS",
+   "hl": false,
+   "w": [
+    12.438,
+    12.558,
+    12.638
+   ]
+  },
+  {
+   "start": 13.239,
+   "end": 13.799,
+   "text": "SOA IGUAL A",
+   "hl": false,
+   "w": [
+    13.239,
+    13.459,
+    13.719
+   ]
+  },
+  {
+   "start": 13.799,
+   "end": 14.72,
+   "text": "UM ÁLIBI",
+   "hl": false,
+   "w": [
+    13.799,
+    13.959
+   ]
+  },
+  {
+   "start": 14.72,
+   "end": 15.38,
+   "text": "VAI TER CARRO",
+   "hl": false,
+   "w": [
+    14.72,
+    14.9,
+    15.08
+   ]
+  },
+  {
+   "start": 15.38,
+   "end": 16.1,
+   "text": "FUNERÁRIO",
+   "hl": false,
+   "w": [
+    15.38
+   ]
+  },
+  {
+   "start": 16.1,
+   "end": 17.061,
+   "text": "CAIXÃO",
+   "hl": false,
+   "w": [
+    16.1
+   ]
+  },
+  {
+   "start": 17.061,
+   "end": 18.502,
+   "text": "LIVRO DE CONDOLÊNCIAS",
+   "hl": false,
+   "w": [
+    17.061,
+    17.421,
+    17.561
+   ]
+  },
+  {
+   "start": 18.502,
+   "end": 19.603,
+   "text": "E ATÉ DISCURSO",
+   "hl": false,
+   "w": [
+    18.502,
+    18.622,
+    18.882
+   ]
+  },
+  {
+   "start": 19.603,
+   "end": 20.303,
+   "text": "DE UM CONVIDADO",
+   "hl": false,
+   "w": [
+    19.603,
+    19.683,
+    19.763
+   ]
+  },
+  {
+   "start": 20.303,
+   "end": 21.324,
+   "text": "SURPRESA",
+   "hl": false,
+   "w": [
+    20.303
+   ]
+  },
+  {
+   "start": 21.324,
+   "end": 22.365,
+   "text": "É DIA 19",
+   "hl": true,
+   "w": [
+    21.324,
+    21.444,
+    21.684
+   ]
+  },
+  {
+   "start": 22.365,
+   "end": 23.105,
+   "text": "DE NOVEMBRO",
+   "hl": false,
+   "w": [
+    22.365,
+    22.485
+   ]
+  },
+  {
+   "start": 23.105,
+   "end": 23.745,
+   "text": "ÀS 11 DA",
+   "hl": true,
+   "w": [
+    23.105,
+    23.385,
+    23.645
+   ]
+  },
+  {
+   "start": 23.745,
+   "end": 24.206,
+   "text": "MANHÃ",
+   "hl": false,
+   "w": [
+    23.745
+   ]
+  },
+  {
+   "start": 24.206,
+   "end": 24.806,
+   "text": "EM HORÁRIO DE",
+   "hl": false,
+   "w": [
+    24.206,
+    24.306,
+    24.686
+   ]
+  },
+  {
+   "start": 24.806,
+   "end": 26.327,
+   "text": "TRABALHO DE PROPÓSITO",
+   "hl": false,
+   "w": [
+    24.806,
+    25.246,
+    25.366
+   ]
+  },
+  {
+   "start": 26.327,
+   "end": 27.048,
+   "text": "E QUEM FOR",
+   "hl": false,
+   "w": [
+    26.327,
+    26.447,
+    26.687
+   ]
+  },
+  {
+   "start": 27.048,
+   "end": 27.848,
+   "text": "GANHA UM BALDE",
+   "hl": false,
+   "w": [
+    27.048,
+    27.308,
+    27.468
+   ]
+  },
+  {
+   "start": 27.848,
+   "end": 28.488,
+   "text": "DE FRANGO DE",
+   "hl": false,
+   "w": [
+    27.848,
+    28.028,
+    28.388
+   ]
+  },
+  {
+   "start": 28.488,
+   "end": 29.389,
+   "text": "GRAÇA",
+   "hl": false,
+   "w": [
+    28.488
+   ]
+  },
+  {
+   "start": 29.389,
+   "end": 30.53,
+   "text": "O ANIVERSÁRIO DELA",
+   "hl": false,
+   "w": [
+    29.389,
+    29.449,
+    30.15
+   ]
+  },
+  {
+   "start": 30.53,
+   "end": 31.43,
+   "text": "É 28 DE",
+   "hl": true,
+   "w": [
+    30.53,
+    30.67,
+    31.31
+   ]
+  },
+  {
+   "start": 31.43,
+   "end": 33.932,
+   "text": "NOVEMBRO DE 1997",
+   "hl": true,
+   "w": [
+    31.43,
+    31.891,
+    32.071
+   ]
+  },
+  {
+   "start": 33.932,
+   "end": 34.472,
+   "text": "O DIA QUE",
+   "hl": false,
+   "w": [
+    33.932,
+    34.052,
+    34.312
+   ]
+  },
+  {
+   "start": 34.472,
+   "end": 35.253,
+   "text": "SAIU O PRIMEIRO",
+   "hl": false,
+   "w": [
+    34.472,
+    34.793,
+    34.833
+   ]
+  },
+  {
+   "start": 35.253,
+   "end": 36.173,
+   "text": "GTA",
+   "hl": false,
+   "w": [
+    35.253
+   ]
+  },
+  {
+   "start": 36.173,
+   "end": 36.974,
+   "text": "MAS O GOVERNO",
+   "hl": false,
+   "w": [
+    36.173,
+    36.414,
+    36.474
+   ]
+  },
+  {
+   "start": 36.974,
+   "end": 37.594,
+   "text": "DE LÁ JÁ",
+   "hl": false,
+   "w": [
+    36.974,
+    37.134,
+    37.374
+   ]
+  },
+  {
+   "start": 37.594,
+   "end": 38.555,
+   "text": "AVISOU QUE ISSO",
+   "hl": false,
+   "w": [
+    37.594,
+    38.075,
+    38.255
+   ]
+  },
+  {
+   "start": 38.555,
+   "end": 39.356,
+   "text": "NÃO VALE COMO",
+   "hl": false,
+   "w": [
+    38.555,
+    38.815,
+    39.115
+   ]
+  },
+  {
+   "start": 39.356,
+   "end": 40.877,
+   "text": "FALTA JUSTIFICADA",
+   "hl": false,
+   "w": [
+    39.356,
+    39.676
+   ]
+  },
+  {
+   "start": 40.877,
+   "end": 41.737,
+   "text": "VOCÊ USARIA O",
+   "hl": false,
+   "w": [
+    40.877,
+    41.197,
+    41.677
+   ]
+  },
+  {
+   "start": 41.737,
+   "end": 42.778,
+   "text": "VELÓRIO FALSO OU",
+   "hl": false,
+   "w": [
+    41.737,
+    42.117,
+    42.638
+   ]
+  },
+  {
+   "start": 42.778,
+   "end": 43.378,
+   "text": "IA FALTAR NA",
+   "hl": false,
+   "w": [
+    42.778,
+    42.958,
+    43.278
+   ]
+  },
+  {
+   "start": 43.378,
+   "end": 44.359,
+   "text": "CARA DURA?",
+   "hl": false,
+   "w": [
+    43.378,
+    43.598
+   ]
+  },
+  {
+   "start": 44.359,
+   "end": 44.939,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    44.359,
+    44.639,
+    44.779
+   ]
+  },
+  {
+   "start": 44.939,
+   "end": 45.479,
+   "text": "VAI SUMIR NO",
+   "hl": false,
+   "w": [
+    44.939,
+    45.119,
+    45.359
+   ]
+  },
+  {
+   "start": 45.479,
+   "end": 46.52,
+   "text": "DIA 19 E",
+   "hl": true,
+   "w": [
+    45.479,
+    45.66,
+    46.34
+   ]
+  },
+  {
+   "start": 46.52,
+   "end": 47.211,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    46.52,
+    46.8,
+    46.86
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.07
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 0.791
+  },
+  {
+   "txt": "KFC",
+   "falado": "cá efe cê",
+   "tela": 0.971
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 1.991
+  },
+  {
+   "txt": "fazer",
+   "falado": "fazer",
+   "tela": 2.191
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 2.472
+  },
+  {
+   "txt": "velório",
+   "falado": "velório",
+   "tela": 2.572
+  },
+  {
+   "txt": "falso",
+   "falado": "falso",
+   "tela": 3.172
+  },
+  {
+   "txt": "no",
+   "falado": "no",
+   "tela": 3.732
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 3.893
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 4.113
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 4.253
+  },
+  {
+   "txt": "lança,",
+   "falado": "lança",
+   "tela": 5.033
+  },
+  {
+   "txt": "só",
+   "falado": "só",
+   "tela": 5.654
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 5.854
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 6.014
+  },
+  {
+   "txt": "ter",
+   "falado": "ter",
+   "tela": 6.294
+  },
+  {
+   "txt": "desculpa",
+   "falado": "desculpa",
+   "tela": 6.434
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 6.874
+  },
+  {
+   "txt": "faltar",
+   "falado": "faltar",
+   "tela": 7.035
+  },
+  {
+   "txt": "no",
+   "falado": "no",
+   "tela": 7.355
+  },
+  {
+   "txt": "trabalho.",
+   "falado": "trabalho",
+   "tela": 7.455
+  },
+  {
+   "txt": "É",
+   "falado": "É",
+   "tela": 8.355
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 8.455
+  },
+  {
+   "txt": "KFC",
+   "falado": "cá efe cê",
+   "tela": 8.556
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 9.076
+  },
+  {
+   "txt": "Austrália.",
+   "falado": "Austrália",
+   "tela": 9.176
+  },
+  {
+   "txt": "A",
+   "falado": "A",
+   "tela": 10.097
+  },
+  {
+   "txt": "falecida",
+   "falado": "falecida",
+   "tela": 10.197
+  },
+  {
+   "txt": "se",
+   "falado": "se",
+   "tela": 10.797
+  },
+  {
+   "txt": "chama",
+   "falado": "chama",
+   "tela": 10.937
+  },
+  {
+   "txt": "Ann",
+   "falado": "én",
+   "tela": 11.377
+  },
+  {
+   "txt": "Alibi,",
+   "falado": "é li bai",
+   "tela": 11.698
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 12.438
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 12.558
+  },
+  {
+   "txt": "inglês",
+   "falado": "inglês",
+   "tela": 12.638
+  },
+  {
+   "txt": "soa",
+   "falado": "soa",
+   "tela": 13.239
+  },
+  {
+   "txt": "igual",
+   "falado": "igual",
+   "tela": 13.459
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 13.719
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 13.799
+  },
+  {
+   "txt": "álibi.",
+   "falado": "álibi",
+   "tela": 13.959
+  },
+  {
+   "txt": "Vai",
+   "falado": "Vai",
+   "tela": 14.72
+  },
+  {
+   "txt": "ter",
+   "falado": "ter",
+   "tela": 14.9
+  },
+  {
+   "txt": "carro",
+   "falado": "carro",
+   "tela": 15.08
+  },
+  {
+   "txt": "funerário,",
+   "falado": "funerário",
+   "tela": 15.38
+  },
+  {
+   "txt": "caixão,",
+   "falado": "caixão",
+   "tela": 16.1
+  },
+  {
+   "txt": "livro",
+   "falado": "livro",
+   "tela": 17.061
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 17.421
+  },
+  {
+   "txt": "condolências",
+   "falado": "condolências",
+   "tela": 17.561
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 18.502
+  },
+  {
+   "txt": "até",
+   "falado": "até",
+   "tela": 18.622
+  },
+  {
+   "txt": "discurso",
+   "falado": "discurso",
+   "tela": 18.882
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 19.603
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 19.683
+  },
+  {
+   "txt": "convidado",
+   "falado": "convidado",
+   "tela": 19.763
+  },
+  {
+   "txt": "surpresa.",
+   "falado": "surpresa",
+   "tela": 20.303
+  },
+  {
+   "txt": "É",
+   "falado": "É",
+   "tela": 21.324
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 21.444
+  },
+  {
+   "txt": "19",
+   "falado": "dezenove",
+   "tela": 21.684
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 22.365
+  },
+  {
+   "txt": "novembro,",
+   "falado": "novembro",
+   "tela": 22.485
+  },
+  {
+   "txt": "às",
+   "falado": "às",
+   "tela": 23.105
+  },
+  {
+   "txt": "11",
+   "falado": "11",
+   "tela": 23.385
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 23.645
+  },
+  {
+   "txt": "manhã,",
+   "falado": "manhã",
+   "tela": 23.745
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 24.206
+  },
+  {
+   "txt": "horário",
+   "falado": "horário",
+   "tela": 24.306
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 24.686
+  },
+  {
+   "txt": "trabalho",
+   "falado": "trabalho",
+   "tela": 24.806
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 25.246
+  },
+  {
+   "txt": "propósito.",
+   "falado": "propósito",
+   "tela": 25.366
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 26.327
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 26.447
+  },
+  {
+   "txt": "for",
+   "falado": "for",
+   "tela": 26.687
+  },
+  {
+   "txt": "ganha",
+   "falado": "ganha",
+   "tela": 27.048
+  },
+  {
+   "txt": "um",
+   "falado": "um",
+   "tela": 27.308
+  },
+  {
+   "txt": "balde",
+   "falado": "balde",
+   "tela": 27.468
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 27.848
+  },
+  {
+   "txt": "frango",
+   "falado": "frango",
+   "tela": 28.028
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 28.388
+  },
+  {
+   "txt": "graça.",
+   "falado": "graça",
+   "tela": 28.488
+  },
+  {
+   "txt": "O",
+   "falado": "O",
+   "tela": 29.389
+  },
+  {
+   "txt": "aniversário",
+   "falado": "aniversário",
+   "tela": 29.449
+  },
+  {
+   "txt": "dela",
+   "falado": "dela",
+   "tela": 30.15
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 30.53
+  },
+  {
+   "txt": "28",
+   "falado": "28",
+   "tela": 30.67
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 31.31
+  },
+  {
+   "txt": "novembro",
+   "falado": "novembro",
+   "tela": 31.43
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 31.891
+  },
+  {
+   "txt": "1997,",
+   "falado": "1997",
+   "tela": 32.071
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 33.932
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 34.052
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 34.312
+  },
+  {
+   "txt": "saiu",
+   "falado": "saiu",
+   "tela": 34.472
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 34.793
+  },
+  {
+   "txt": "primeiro",
+   "falado": "primeiro",
+   "tela": 34.833
+  },
+  {
+   "txt": "GTA.",
+   "falado": "ge te a",
+   "tela": 35.253
+  },
+  {
+   "txt": "Mas",
+   "falado": "Mas",
+   "tela": 36.173
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 36.414
+  },
+  {
+   "txt": "governo",
+   "falado": "governo",
+   "tela": 36.474
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 36.974
+  },
+  {
+   "txt": "lá",
+   "falado": "lá",
+   "tela": 37.134
+  },
+  {
+   "txt": "já",
+   "falado": "já",
+   "tela": 37.374
+  },
+  {
+   "txt": "avisou",
+   "falado": "avisou",
+   "tela": 37.594
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 38.075
+  },
+  {
+   "txt": "isso",
+   "falado": "isso",
+   "tela": 38.255
+  },
+  {
+   "txt": "não",
+   "falado": "não",
+   "tela": 38.555
+  },
+  {
+   "txt": "vale",
+   "falado": "vale",
+   "tela": 38.815
+  },
+  {
+   "txt": "como",
+   "falado": "como",
+   "tela": 39.115
+  },
+  {
+   "txt": "falta",
+   "falado": "falta",
+   "tela": 39.356
+  },
+  {
+   "txt": "justificada.",
+   "falado": "justificada",
+   "tela": 39.676
+  },
+  {
+   "txt": "Você",
+   "falado": "Você",
+   "tela": 40.877
+  },
+  {
+   "txt": "usaria",
+   "falado": "usaria",
+   "tela": 41.197
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 41.677
+  },
+  {
+   "txt": "velório",
+   "falado": "velório",
+   "tela": 41.737
+  },
+  {
+   "txt": "falso",
+   "falado": "falso",
+   "tela": 42.117
+  },
+  {
+   "txt": "ou",
+   "falado": "ou",
+   "tela": 42.638
+  },
+  {
+   "txt": "ia",
+   "falado": "ia",
+   "tela": 42.778
+  },
+  {
+   "txt": "faltar",
+   "falado": "faltar",
+   "tela": 42.958
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 43.278
+  },
+  {
+   "txt": "cara",
+   "falado": "cara",
+   "tela": 43.378
+  },
+  {
+   "txt": "dura?",
+   "falado": "dura",
+   "tela": 43.598
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 44.359
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 44.639
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 44.779
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 44.939
+  },
+  {
+   "txt": "sumir",
+   "falado": "sumir",
+   "tela": 45.119
+  },
+  {
+   "txt": "no",
+   "falado": "no",
+   "tela": 45.359
+  },
+  {
+   "txt": "dia",
+   "falado": "dia",
+   "tela": 45.479
+  },
+  {
+   "txt": "19",
+   "falado": "dezenove",
+   "tela": 45.66
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 46.34
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 46.52
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 46.8
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 46.86
+  }
+ ]
+}
