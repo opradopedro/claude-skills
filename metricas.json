@@ -3727,11 +3727,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 8721,
-   "avgWatchedPct": 30.07,
+   "avgWatchedPct": 30.1,
    "skipRate": 45.8,
    "durationSeconds": 29,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 80.0
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 95.1
   },
   "h24": {
    "playCount": 200,
@@ -3773,8 +3773,8 @@
    "avgWatchedPct": 42.8,
    "skipRate": 35.6,
    "durationSeconds": 32,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 74.9
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 89.9
   },
   "h24": {
    "playCount": 1883,
@@ -3816,8 +3816,8 @@
    "avgWatchedPct": 46.0,
    "skipRate": 29.9,
    "durationSeconds": 33,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 70.9
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 85.9
   },
   "h24": {
    "playCount": 1873,
@@ -3831,6 +3831,19 @@
    "durationSeconds": 33,
    "coletado": "2026-11-15T14:52Z",
    "horas": 37.9
+  },
+  "h72": {
+   "playCount": 1873,
+   "likeCount": 110,
+   "commentCount": 3,
+   "shares": 22,
+   "saves": 8,
+   "avgWatchTimeMs": 15181,
+   "avgWatchedPct": 46.0,
+   "skipRate": 29.9,
+   "durationSeconds": 33,
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 85.9
   }
  },
  "DfuettnReuI": {
@@ -3843,11 +3856,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 13453,
-   "avgWatchedPct": 31.29,
+   "avgWatchedPct": 31.3,
    "skipRate": 33.1,
    "durationSeconds": 43,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 56.9
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 71.9
   },
   "h24": {
    "playCount": 147,
@@ -3873,11 +3886,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 10994,
-   "avgWatchedPct": 28.19,
+   "avgWatchedPct": 28.2,
    "skipRate": 43.9,
    "durationSeconds": 39,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 50.8
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 65.9
   },
   "h24": {
    "playCount": 221,
@@ -3903,11 +3916,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 12575,
-   "avgWatchedPct": 29.94,
+   "avgWatchedPct": 29.9,
    "skipRate": 47.9,
    "durationSeconds": 42,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 47.9
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 62.9
   },
   "h24": {
    "playCount": 143,
@@ -3936,8 +3949,8 @@
    "avgWatchedPct": 23.4,
    "skipRate": 39.8,
    "durationSeconds": 36,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 32.9
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 385,
@@ -3963,11 +3976,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 8889,
-   "avgWatchedPct": 22.79,
+   "avgWatchedPct": 22.8,
    "skipRate": 59.5,
    "durationSeconds": 39,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 26.8
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 41.9
   },
   "h24": {
    "playCount": 165,
@@ -3987,51 +4000,81 @@
   "publicado": "2026-11-15T23:58:29.000Z",
   "legenda": "GTA 6 vai deixar você ouvir o álbum inteiro um dia antes do jogo sair",
   "atual": {
-   "playCount": 1532,
+   "playCount": 1533,
    "likeCount": 31,
    "commentCount": 0,
    "shares": 0,
    "saves": 3,
-   "avgWatchTimeMs": 10700,
-   "avgWatchedPct": 30.57,
+   "avgWatchTimeMs": 10693,
+   "avgWatchedPct": 30.6,
    "skipRate": 32.3,
    "durationSeconds": 35,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 23.9
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 39.0
+  },
+  "h24": {
+   "playCount": 1533,
+   "likeCount": 31,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 3,
+   "avgWatchTimeMs": 10693,
+   "avgWatchedPct": 30.6,
+   "skipRate": 32.3,
+   "durationSeconds": 35,
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 39.0
   }
  },
  "DfzpDyBN7vH": {
   "publicado": "2026-11-16T15:08:45.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 157,
+   "playCount": 159,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 1,
    "saves": 0,
-   "avgWatchTimeMs": 18707,
-   "avgWatchedPct": 47.97,
-   "skipRate": 38.3,
+   "avgWatchTimeMs": 18463,
+   "avgWatchedPct": 47.3,
+   "skipRate": 38.5,
    "durationSeconds": 39,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 8.8
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 23.8
   }
  },
  "Df0Rr7hOOLT": {
   "publicado": "2026-11-16T21:03:56.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 132,
-   "likeCount": 2,
+   "playCount": 133,
+   "likeCount": 3,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 9704,
-   "avgWatchedPct": 23.67,
-   "skipRate": 44.5,
+   "avgWatchTimeMs": 9653,
+   "avgWatchedPct": 23.5,
+   "skipRate": 44.2,
    "durationSeconds": 41,
-   "coletado": "2026-11-16T23:54Z",
-   "horas": 2.8
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 17.9
+  }
+ },
+ "Df0mVg9tZCt": {
+  "publicado": "2026-11-17T00:04:09.000Z",
+  "legenda": "O KFC vai fazer um velório falso no dia que GTA 6 lança ⚰️😳 tudo pra você ter de",
+  "atual": {
+   "playCount": 1788,
+   "likeCount": 42,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 17533,
+   "avgWatchedPct": 37.3,
+   "skipRate": 26,
+   "durationSeconds": 47,
+   "coletado": "2026-11-17T14:57Z",
+   "horas": 14.9
   }
  }
 }
