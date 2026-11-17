@@ -3764,17 +3764,17 @@
   "publicado": "2026-11-13T21:03:08.000Z",
   "legenda": "GTA 6 nem lançou e já ganhou a primeira atualização",
   "atual": {
-   "playCount": 1885,
+   "playCount": 1886,
    "likeCount": 34,
    "commentCount": 0,
    "shares": 9,
    "saves": 1,
-   "avgWatchTimeMs": 13695,
-   "avgWatchedPct": 42.8,
-   "skipRate": 35.6,
+   "avgWatchTimeMs": 13690,
+   "avgWatchedPct": 42.78,
+   "skipRate": 35.5,
    "durationSeconds": 32,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 89.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 95.9
   },
   "h24": {
    "playCount": 1883,
@@ -3816,8 +3816,8 @@
    "avgWatchedPct": 46.0,
    "skipRate": 29.9,
    "durationSeconds": 33,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 85.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 91.9
   },
   "h24": {
    "playCount": 1873,
@@ -3856,11 +3856,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 13453,
-   "avgWatchedPct": 31.3,
+   "avgWatchedPct": 31.29,
    "skipRate": 33.1,
    "durationSeconds": 43,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 71.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 77.9
   },
   "h24": {
    "playCount": 147,
@@ -3874,6 +3874,19 @@
    "durationSeconds": 43,
    "coletado": "2026-11-15T20:54Z",
    "horas": 29.9
+  },
+  "h72": {
+   "playCount": 147,
+   "likeCount": 4,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 13453,
+   "avgWatchedPct": 31.29,
+   "skipRate": 33.1,
+   "durationSeconds": 43,
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 77.9
   }
  },
  "DfvIFnHymTK": {
@@ -3886,11 +3899,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 10994,
-   "avgWatchedPct": 28.2,
+   "avgWatchedPct": 28.19,
    "skipRate": 43.9,
    "durationSeconds": 39,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 65.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 221,
@@ -3910,17 +3923,17 @@
   "publicado": "2026-11-15T00:01:01.000Z",
   "legenda": "GTA 6 vai te obrigar a cuidar do namoro do Jason com a Lucia",
   "atual": {
-   "playCount": 143,
+   "playCount": 144,
    "likeCount": 7,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 12575,
-   "avgWatchedPct": 29.9,
-   "skipRate": 47.9,
+   "avgWatchTimeMs": 12477,
+   "avgWatchedPct": 29.71,
+   "skipRate": 48.3,
    "durationSeconds": 42,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 62.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 68.9
   },
   "h24": {
    "playCount": 143,
@@ -3949,8 +3962,8 @@
    "avgWatchedPct": 23.4,
    "skipRate": 39.8,
    "durationSeconds": 36,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 47.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 53.9
   },
   "h24": {
    "playCount": 385,
@@ -3976,11 +3989,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 8889,
-   "avgWatchedPct": 22.8,
+   "avgWatchedPct": 22.79,
    "skipRate": 59.5,
    "durationSeconds": 39,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 41.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 165,
@@ -4000,17 +4013,17 @@
   "publicado": "2026-11-15T23:58:29.000Z",
   "legenda": "GTA 6 vai deixar você ouvir o álbum inteiro um dia antes do jogo sair",
   "atual": {
-   "playCount": 1533,
+   "playCount": 1534,
    "likeCount": 31,
    "commentCount": 0,
    "shares": 0,
    "saves": 3,
-   "avgWatchTimeMs": 10693,
-   "avgWatchedPct": 30.6,
-   "skipRate": 32.3,
+   "avgWatchTimeMs": 10686,
+   "avgWatchedPct": 30.53,
+   "skipRate": 32.4,
    "durationSeconds": 35,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 39.0
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 44.9
   },
   "h24": {
    "playCount": 1533,
@@ -4030,51 +4043,81 @@
   "publicado": "2026-11-16T15:08:45.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 159,
+   "playCount": 160,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 1,
    "saves": 0,
-   "avgWatchTimeMs": 18463,
-   "avgWatchedPct": 47.3,
-   "skipRate": 38.5,
+   "avgWatchTimeMs": 18325,
+   "avgWatchedPct": 46.99,
+   "skipRate": 39.0,
    "durationSeconds": 39,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 23.8
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 29.8
+  },
+  "h24": {
+   "playCount": 160,
+   "likeCount": 5,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 18325,
+   "avgWatchedPct": 46.99,
+   "skipRate": 39.0,
+   "durationSeconds": 39,
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 29.8
   }
  },
  "Df0Rr7hOOLT": {
   "publicado": "2026-11-16T21:03:56.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 133,
+   "playCount": 134,
    "likeCount": 3,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 9653,
-   "avgWatchedPct": 23.5,
-   "skipRate": 44.2,
+   "avgWatchTimeMs": 9587,
+   "avgWatchedPct": 23.38,
+   "skipRate": 44.6,
    "durationSeconds": 41,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 17.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 23.8
   }
  },
  "Df0mVg9tZCt": {
   "publicado": "2026-11-17T00:04:09.000Z",
   "legenda": "O KFC vai fazer um velório falso no dia que GTA 6 lança ⚰️😳 tudo pra você ter de",
   "atual": {
-   "playCount": 1788,
-   "likeCount": 42,
+   "playCount": 1800,
+   "likeCount": 43,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 17533,
-   "avgWatchedPct": 37.3,
-   "skipRate": 26,
+   "avgWatchTimeMs": 17497,
+   "avgWatchedPct": 37.23,
+   "skipRate": 26.1,
    "durationSeconds": 47,
-   "coletado": "2026-11-17T14:57Z",
-   "horas": 14.9
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 20.8
+  }
+ },
+ "Df2OCAbhu4T": {
+  "publicado": "2026-11-17T15:09:57.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 137,
+   "likeCount": 2,
+   "commentCount": 1,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 12188,
+   "avgWatchedPct": 33.86,
+   "skipRate": 36.1,
+   "durationSeconds": 36,
+   "coletado": "2026-11-17T20:54Z",
+   "horas": 5.7
   }
  }
 }

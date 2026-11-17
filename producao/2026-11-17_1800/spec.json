@@ -1,0 +1,21 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v106_gta6_pesquisador_rockstar.mp4",
+ "text": "Mano, um ex-pesquisador da Rockstar contou como GTA 6 foi feito, e parece filme de crime. O Gregory Johnson trabalhou na série desde o San Andreas. Pra GTA 6, ele sobrevoou de helicóptero as ilhas de Miami até Key West, fotografando tudo. Ele também fez ronda com a polícia em bairro de gangue, com vigia assobiando no telhado e moto de mascarado seguindo a viatura. E ainda entrevistou um contrabandista da época do Escobar. Essas histórias viraram o golpe de Cayo Perico do GTA Online. Esse nível de pesquisa vai aparecer no jogo? Sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "praia",
+  "aerea",
+  "carro",
+  "policia",
+  "jason",
+  "lucia",
+  "neon"
+ ],
+ "seed": 106,
+ "font": "../../assets/fonts/Anton.ttf"
+}
