@@ -2238,6 +2238,19 @@
     "gancho": "Arthur Morgan vai jogar GTA 6",
     "origem": "GTA BOOM 17/11"
    }
+  },
+  {
+   "data": "2026-11-18",
+   "hora": "12:00",
+   "status": "pendente",
+   "pasta": "producao/2026-11-18_1200",
+   "arquivo": "radar_v108_gta6_metacritic_99.mp4",
+   "formato": "corte",
+   "tema": "GTA 6 estreia com 99 no Metacritic (100+ análises, nenhuma negativa), empata com Zelda Ocarina of Time como maior nota da história; IGN 10, Game Informer 10; elogio ao casal Jason e Lucia; ressalva 30 fps travado até no PS5 Pro; supera GTA 4 (98) e GTA 5 (97) (GTA BOOM 18/11)",
+   "capa": "Maior nota da história",
+   "capa_t": 26.0,
+   "roteiro": "Mano, GTA 6 acabou de tirar 99 no Metacritic. É a maior nota da história dos games, empatada só com Zelda Ocarina of Time, de 1998. Foram mais de 100 análises e nenhuma negativa. A IGN deu 10 e disse que é o jogo mais impressionante que já jogou. A Game Informer também deu 10. E o que todo mundo elogia é o casal Jason e Lucia, que parece um casal de verdade. A única reclamação: roda travado em 30 fps, até no PS5 Pro. E ainda passou o GTA 4, que tinha 98, e o GTA 5, com 97. Pra você, GTA 6 merece esse 99? Sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+   "capa_embutida": true
   }
  ]
 }

@@ -3850,17 +3850,17 @@
   "publicado": "2026-11-14T15:01:55.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 147,
+   "playCount": 149,
    "likeCount": 4,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 13453,
-   "avgWatchedPct": 31.29,
-   "skipRate": 33.1,
+   "avgWatchTimeMs": 13280,
+   "avgWatchedPct": 30.88,
+   "skipRate": 33.3,
    "durationSeconds": 43,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 80.9
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 96.0
   },
   "h24": {
    "playCount": 147,
@@ -3893,17 +3893,17 @@
   "publicado": "2026-11-14T21:03:36.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 221,
+   "playCount": 223,
    "likeCount": 2,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 10994,
-   "avgWatchedPct": 28.19,
-   "skipRate": 43.9,
+   "avgWatchTimeMs": 10909,
+   "avgWatchedPct": 27.97,
+   "skipRate": 44,
    "durationSeconds": 39,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 74.8
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 90.0
   },
   "h24": {
    "playCount": 221,
@@ -3936,17 +3936,17 @@
   "publicado": "2026-11-15T00:01:01.000Z",
   "legenda": "GTA 6 vai te obrigar a cuidar do namoro do Jason com a Lucia",
   "atual": {
-   "playCount": 144,
+   "playCount": 145,
    "likeCount": 7,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 12477,
-   "avgWatchedPct": 29.71,
-   "skipRate": 48.3,
+   "avgWatchTimeMs": 12385,
+   "avgWatchedPct": 29.49,
+   "skipRate": 48.8,
    "durationSeconds": 42,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 71.9
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 87.0
   },
   "h24": {
    "playCount": 143,
@@ -3960,23 +3960,36 @@
    "durationSeconds": 42,
    "coletado": "2026-11-16T14:54Z",
    "horas": 38.9
+  },
+  "h72": {
+   "playCount": 145,
+   "likeCount": 7,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 12385,
+   "avgWatchedPct": 29.49,
+   "skipRate": 48.8,
+   "durationSeconds": 42,
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 87.0
   }
  },
  "DfxDUhrv7ik": {
   "publicado": "2026-11-15T15:00:33.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 385,
+   "playCount": 388,
    "likeCount": 0,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 8425,
+   "avgWatchTimeMs": 8423,
    "avgWatchedPct": 23.4,
-   "skipRate": 39.8,
+   "skipRate": 39.9,
    "durationSeconds": 36,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 56.9
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 72.0
   },
   "h24": {
    "playCount": 385,
@@ -3990,23 +4003,36 @@
    "durationSeconds": 36,
    "coletado": "2026-11-16T20:53Z",
    "horas": 29.9
+  },
+  "h72": {
+   "playCount": 388,
+   "likeCount": 0,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 8423,
+   "avgWatchedPct": 23.4,
+   "skipRate": 39.9,
+   "durationSeconds": 36,
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 72.0
   }
  },
  "Dfxs3dco_Ik": {
   "publicado": "2026-11-15T21:03:58.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 165,
+   "playCount": 166,
    "likeCount": 2,
    "commentCount": 0,
    "shares": 0,
    "saves": 1,
-   "avgWatchTimeMs": 8889,
-   "avgWatchedPct": 22.79,
-   "skipRate": 59.5,
+   "avgWatchTimeMs": 9070,
+   "avgWatchedPct": 23.26,
+   "skipRate": 59.1,
    "durationSeconds": 39,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 50.8
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 66.0
   },
   "h24": {
    "playCount": 165,
@@ -4026,17 +4052,17 @@
   "publicado": "2026-11-15T23:58:29.000Z",
   "legenda": "GTA 6 vai deixar você ouvir o álbum inteiro um dia antes do jogo sair",
   "atual": {
-   "playCount": 1534,
+   "playCount": 1537,
    "likeCount": 31,
    "commentCount": 0,
    "shares": 0,
    "saves": 3,
-   "avgWatchTimeMs": 10686,
-   "avgWatchedPct": 30.53,
+   "avgWatchTimeMs": 10721,
+   "avgWatchedPct": 30.63,
    "skipRate": 32.4,
    "durationSeconds": 35,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 47.9
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 63.1
   },
   "h24": {
    "playCount": 1533,
@@ -4056,17 +4082,17 @@
   "publicado": "2026-11-16T15:08:45.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 160,
+   "playCount": 162,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 1,
    "saves": 0,
-   "avgWatchTimeMs": 18325,
-   "avgWatchedPct": 46.99,
-   "skipRate": 39,
+   "avgWatchTimeMs": 18520,
+   "avgWatchedPct": 47.49,
+   "skipRate": 38.7,
    "durationSeconds": 39,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 32.8
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 160,
@@ -4095,8 +4121,8 @@
    "avgWatchedPct": 23.38,
    "skipRate": 44.6,
    "durationSeconds": 41,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 26.8
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 42.0
   },
   "h24": {
    "playCount": 134,
@@ -4125,42 +4151,72 @@
    "avgWatchedPct": 37.23,
    "skipRate": 26.1,
    "durationSeconds": 47,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 23.8
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 39.0
+  },
+  "h24": {
+   "playCount": 1800,
+   "likeCount": 43,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 17497,
+   "avgWatchedPct": 37.23,
+   "skipRate": 26.1,
+   "durationSeconds": 47,
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 39.0
   }
  },
  "Df2OCAbhu4T": {
   "publicado": "2026-11-17T15:09:57.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 138,
+   "playCount": 146,
    "likeCount": 2,
    "commentCount": 1,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 12188,
-   "avgWatchedPct": 33.86,
-   "skipRate": 35.8,
+   "avgWatchTimeMs": 11673,
+   "avgWatchedPct": 32.43,
+   "skipRate": 37.8,
    "durationSeconds": 36,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 8.7
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 23.9
   }
  },
  "Df22YgluMTY": {
   "publicado": "2026-11-17T21:02:29.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 245,
-   "likeCount": 6,
+   "playCount": 1335,
+   "likeCount": 39,
    "commentCount": 0,
    "shares": 2,
    "saves": 0,
-   "avgWatchTimeMs": 13294,
-   "avgWatchedPct": 35.93,
-   "skipRate": 41.8,
+   "avgWatchTimeMs": 15493,
+   "avgWatchedPct": 41.87,
+   "skipRate": 34.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-17T23:54Z",
-   "horas": 2.9
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 18.0
+  }
+ },
+ "Df3LR72Aqvw": {
+  "publicado": "2026-11-18T00:05:18.000Z",
+  "legenda": "GTA 6 vai ter o Arthur Morgan jogando 🤠😳 o Roger Clark, voz e rosto do Arthur no",
+  "atual": {
+   "playCount": 118,
+   "likeCount": 0,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 6188,
+   "avgWatchedPct": 15.47,
+   "skipRate": 64.2,
+   "durationSeconds": 40,
+   "coletado": "2026-11-18T15:01Z",
+   "horas": 14.9
   }
  }
 }
