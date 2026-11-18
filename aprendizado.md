@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 18/11/2026 12:01 (Brasília) com 106 Reels com nota. Média geral: 59.1/100.
+Atualizado em 18/11/2026 17:54 (Brasília) com 106 Reels com nota. Média geral: 59.1/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -18,7 +18,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | combate não letal / jogar GTA 6 sem matar | 1 | 78.0 | 65.4 |  |
-| bastidores/desenvolvimento | 2 | 70.3 | 64.7 |  |
+| bastidores/desenvolvimento | 2 | 70.2 | 64.6 |  |
 | gameplay | 2 | 68.8 | 64.0 |  |
 | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | 1 | 73.7 | 64.0 |  |
 | alerta/utilidade | 3 | 67.2 | 63.9 |  |
@@ -112,8 +112,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | noticia | 5 | 65.1 | 63.4 |  |
 | GTA 6 tá vendendo mais do que a própria Take-Two esperava | 1 | 69.6 | 62.6 |  |
 | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.3 | 62.5 |  |
-| ex-pesquisador revela pesquisa nível espionagem | 1 | 68.7 | 62.3 |  |
 | GTA 6 é proibido pra menor de dezoito no mundo inteiro | 1 | 68.3 | 62.2 |  |
+| ex-pesquisador revela pesquisa nível espionagem | 1 | 68.4 | 62.2 |  |
 | se você pensa em postar o final de GTA 6, para tudo | 1 | 67.6 | 61.9 |  |
 | votacao | 1 | 66.5 | 61.6 |  |
 | GTA 6 pode chegar cortado no Japão | 1 | 65.9 | 61.4 |  |
@@ -178,9 +178,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Rockstar via VGTimes 03/11 | 1 | 69.3 | 62.5 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 68.9 | 62.4 |  |
 | noticia Beebom 13/11 (update 01.002.000 no PS5) | 1 | 68.7 | 62.3 |  |
-| IGN via GTA BOOM 17/11 | 1 | 68.7 | 62.3 |  |
 | Game Informer via Dexerto 29/09 | 1 | 68.5 | 62.2 |  |
 | gtaboom.com/gta-6-is-now-rated-adults-only-in-every-major-market (17/10); USK | 1 | 68.3 | 62.2 |  |
+| IGN via GTA BOOM 17/11 | 1 | 68.4 | 62.2 |  |
 | GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo) | 1 | 68.1 | 62.1 |  |
 | gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download) | 1 | 67.7 | 62.0 |  |
 | site oficial da Rockstar (via Push Square) | 1 | 67.0 | 61.7 |  |
@@ -290,8 +290,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-13 | [DectbiBAgte](https://www.instagram.com/reel/DectbiBAgte/) | corte | gameplay | comparacao | 1329 | 38.3% | 33% | 52 | 0 | 0 | 0 | 69.2 (h24) |
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 827 | 39.7% | 31% | 26 | 0 | 3 | 4 | 68.9 (h72) |
 | 2026-11-13 | [DfsjObMhd4q](https://www.instagram.com/reel/DfsjObMhd4q/) | corte | console_tecnico | pergunta | 1885 | 35.6% | 43% | 34 | 0 | 1 | 9 | 68.7 (h72) |
-| 2026-11-17 | [Df22YgluMTY](https://www.instagram.com/reel/Df22YgluMTY/) | corte | bastidores/desenvolvimento | ex-pesquisador revela pesquisa nível espionagem | 1335 | 34.5% | 42% | 39 | 0 | 0 | 2 | 68.7 (provisória) |
 | 2026-10-20 | [DevDjNqkdcV](https://www.instagram.com/reel/DevDjNqkdcV/) | corte | gameplay | pergunta | 1220 | 44% | 36% | 48 | 0 | 0 | 4 | 68.5 (h72) |
+| 2026-11-17 | [Df22YgluMTY](https://www.instagram.com/reel/Df22YgluMTY/) | corte | bastidores/desenvolvimento | ex-pesquisador revela pesquisa nível espionagem | 1342 | 34.8% | 42% | 39 | 0 | 0 | 2 | 68.4 (provisória) |
 | 2026-11-07 | [DfdHAA5E7_7](https://www.instagram.com/reel/DfdHAA5E7_7/) | corte | classificação etária 18+ no mundo todo e crítica da USK | GTA 6 é proibido pra menor de dezoito no mundo inteiro | 1684 | 39.4% | 42% | 54 | 0 | 0 | 2 | 68.3 (h72) |
 | 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1322 | 37.1% | 33% | 34 | 0 | 3 | 2 | 68.1 (h72) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
@@ -346,7 +346,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-14 | [DfuettnReuI](https://www.instagram.com/reel/DfuettnReuI/) | corte | noticia/recorde | revelacao | 147 | 33.1% | 31% | 4 | 0 | 0 | 0 | 53.5 (h72) |
 | 2026-11-02 | [DfQOlcviOh7](https://www.instagram.com/reel/DfQOlcviOh7/) | corte | tênis Nike x Travis Scott de GTA 6 (vazamento) | revelacao | 414 | 44.1% | 27% | 12 | 0 | 0 | 0 | 53.3 (h72) |
 | 2026-10-29 | [DfFU1DLEmP_](https://www.instagram.com/reel/DfFU1DLEmP_/) | corte | gameplay/policia | revelacao | 131 | 42.1% | 30% | 4 | 0 | 0 | 0 | 52.3 (h72) |
-| 2026-11-17 | [Df2OCAbhu4T](https://www.instagram.com/reel/Df2OCAbhu4T/) | corte | marketing/polemica | pergunta | 146 | 37.8% | 32% | 2 | 1 | 0 | 0 | 52.3 (provisória) |
+| 2026-11-17 | [Df2OCAbhu4T](https://www.instagram.com/reel/Df2OCAbhu4T/) | corte | marketing/polemica | pergunta | 146 | 37.8% | 32% | 2 | 1 | 0 | 0 | 52.3 (h24) |
 | 2026-10-23 | [De2iVxUACb4](https://www.instagram.com/reel/De2iVxUACb4/) | corte | vendas/numeros | numero chocante | 117 | 57.5% | 22% | 6 | 0 | 0 | 0 | 51.8 (h72) |
 | 2026-10-28 | [DfDXVFojWfX](https://www.instagram.com/reel/DfDXVFojWfX/) | corte | musica/trilha | numero chocante | 121 | 44.5% | 22% | 4 | 0 | 0 | 0 | 51.2 (h72) |
 | 2026-11-09 | [DfhoXVXmSCd](https://www.instagram.com/reel/DfhoXVXmSCd/) | corte | piloto desenha a arte do GTA VI no céu com a rota do avião | um piloto desenhou o GTA 6 no céu dos Estados Unidos | 146 | 62.6% | 22% | 5 | 0 | 1 | 2 | 50.4 (h72) |
@@ -372,3 +372,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 30.0 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 27.1 (h24) |
 | 2026-11-17 | [Df3LR72Aqvw](https://www.instagram.com/reel/Df3LR72Aqvw/) | corte | criadores/streamers | Arthur Morgan vai jogar GTA 6 | 118 | 64.2% | 15% | 0 | 0 | 0 | 0 | 17.9 (provisória) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [Df4yyzdODQR](https://www.instagram.com/reel/Df4yyzdODQR/): 5.7 h no ar, 968 views, 23.2% pularam, 40% assistido, 67 curtidas

@@ -2259,6 +2259,19 @@
     "gancho": "GTA 6 acabou de tirar 99 no Metacritic",
     "origem": "GTA BOOM 18/11 (Metacritic)"
    }
+  },
+  {
+   "data": "2026-11-18",
+   "hora": "18:00",
+   "status": "produzido",
+   "pasta": "producao/2026-11-18_1800",
+   "arquivo": "radar_v109_gta6_sem_replay_missao.mp4",
+   "formato": "corte",
+   "tema": "GTA 6 não tem replay de missões da história nem medalhas; 15 saves manuais só fora de missão, autosave de 1 espaço, trapaça bloqueia salvar (GTA BOOM 18/11)",
+   "capa": "Missão não volta mais",
+   "capa_t": 2.2,
+   "roteiro": "Mano, GTA 6 não deixa você jogar de novo uma missão da história. Terminou, acabou, não volta mais. Um site gringo testou o jogo e confirmou: não tem menu pra repetir missão e nem medalha de ouro. Pra salvar, são 15 espaços manuais, só pelo menu de pausa e só fora de missão. O salvamento automático tem um espaço só, que vai apagando o anterior. E se usar código de trapaça, o jogo não deixa mais salvar até você reiniciar. O motivo seria a história com escolhas, que muda as missões depois. Isso é bom ou ruim? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+   "capa_embutida": true
   }
  ]
 }

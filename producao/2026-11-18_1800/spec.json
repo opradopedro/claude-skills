@@ -1,0 +1,20 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v109_gta6_sem_replay_missao.mp4",
+ "text": "Mano, GTA 6 não deixa você jogar de novo uma missão da história. Terminou, acabou, não volta mais. Um site gringo testou o jogo e confirmou: não tem menu pra repetir missão e nem medalha de ouro. Pra salvar, são 15 espaços manuais, só pelo menu de pausa e só fora de missão. O salvamento automático tem um espaço só, que vai apagando o anterior. E se usar código de trapaça, o jogo não deixa mais salvar até você reiniciar. O motivo seria a história com escolhas, que muda as missões depois. Isso é bom ou ruim? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "carro",
+  "cidade",
+  "neon",
+  "praia",
+  "aerea"
+ ],
+ "seed": 109,
+ "font": "../../assets/fonts/Anton.ttf"
+}
