@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 17/11/2026 17:54 (Brasília) com 103 Reels com nota. Média geral: 59.5/100.
+Atualizado em 17/11/2026 20:54 (Brasília) com 103 Reels com nota. Média geral: 59.5/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -349,14 +349,14 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-15 | [Dfxs3dco_Ik](https://www.instagram.com/reel/Dfxs3dco_Ik/) | corte | evento/lancamento | revelacao | 165 | 59.5% | 23% | 2 | 0 | 1 | 0 | 44.7 (h24) |
 | 2026-10-30 | [DfIoHDmCOyX](https://www.instagram.com/reel/DfIoHDmCOyX/) | corte | gameplay novo no South Park (cena real) | revelacao | 132 | 49.2% | 31% | 3 | 0 | 0 | 0 | 44.2 (h72) |
 | 2026-10-16 | [DekbyAanDQL](https://www.instagram.com/reel/DekbyAanDQL/) | corte | vazamentos | noticia | 188 | 41.6% | 37% | 3 | 0 | 0 | 0 | 44.1 (h24) |
-| 2026-11-16 | [Df0Rr7hOOLT](https://www.instagram.com/reel/Df0Rr7hOOLT/) | corte | evento/crossover | revelacao | 134 | 44.6% | 23% | 3 | 0 | 0 | 0 | 43.7 (provisória) |
+| 2026-11-16 | [Df0Rr7hOOLT](https://www.instagram.com/reel/Df0Rr7hOOLT/) | corte | evento/crossover | revelacao | 134 | 44.6% | 23% | 3 | 0 | 0 | 0 | 43.7 (h24) |
 | 2026-10-19 | [DesKRnHFMj5](https://www.instagram.com/reel/DesKRnHFMj5/) | corte | noticias | pergunta | 130 | 65.1% | 25% | 4 | 0 | 0 | 0 | 43.2 (h72) |
 | 2026-10-18 | [Deo8P5CD2Ob](https://www.instagram.com/reel/Deo8P5CD2Ob/) | corte | marketing | polemica | 167 | 46.2% | 30% | 3 | 0 | 0 | 0 | 41.9 (h72) |
 | 2026-11-01 | [DfNpglpEb2a](https://www.instagram.com/reel/DfNpglpEb2a/) | corte | GTA 6 x Hollywood (Jogos Vorazes) | revelacao | 99 | 65.5% | 23% | 3 | 0 | 0 | 0 | 41.8 (h24) |
 | 2026-10-19 | [DeseuwKD_89](https://www.instagram.com/reel/DeseuwKD_89/) | corte | bastidores | enquete | 148 | 45.2% | 34% | 2 | 0 | 0 | 0 | 39.6 (h72) |
 | 2026-10-25 | [De6_moQjxny](https://www.instagram.com/reel/De6_moQjxny/) | corte | noticia/review | enquete | 142 | 57.4% | 22% | 3 | 0 | 0 | 0 | 38.2 (h24) |
 | 2026-11-15 | [DfxDUhrv7ik](https://www.instagram.com/reel/DfxDUhrv7ik/) | corte | vendas/numeros | comparacao | 385 | 39.8% | 23% | 0 | 0 | 1 | 0 | 37.7 (h24) |
-| 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 221 | 43.9% | 28% | 2 | 0 | 0 | 0 | 36.3 (h24) |
+| 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 221 | 43.9% | 28% | 2 | 0 | 0 | 0 | 36.3 (h72) |
 | 2026-10-11 | [DeX4Vhuj49m](https://www.instagram.com/reel/DeX4Vhuj49m/) | painel | mito | mentira_verdade | 132 | 49.6% | 21% | 2 | 0 | 0 | 0 | 35.9 (provisória) |
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 34.2 (h24) |
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 33.8 (h72) |
@@ -365,4 +365,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [Df2OCAbhu4T](https://www.instagram.com/reel/Df2OCAbhu4T/): 5.7 h no ar, 137 views, 36.1% pularam, 34% assistido, 2 curtidas
+- [Df2OCAbhu4T](https://www.instagram.com/reel/Df2OCAbhu4T/): 8.7 h no ar, 138 views, 35.8% pularam, 34% assistido, 2 curtidas
+- [Df22YgluMTY](https://www.instagram.com/reel/Df22YgluMTY/): 2.9 h no ar, 245 views, 41.8% pularam, 36% assistido, 6 curtidas
