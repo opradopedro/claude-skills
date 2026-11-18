@@ -2263,7 +2263,7 @@
   {
    "data": "2026-11-18",
    "hora": "18:00",
-   "status": "produzido",
+   "status": "postado",
    "pasta": "producao/2026-11-18_1800",
    "arquivo": "radar_v109_gta6_sem_replay_missao.mp4",
    "formato": "corte",
@@ -2271,7 +2271,17 @@
    "capa": "Missão não volta mais",
    "capa_t": 2.2,
    "roteiro": "Mano, GTA 6 não deixa você jogar de novo uma missão da história. Terminou, acabou, não volta mais. Um site gringo testou o jogo e confirmou: não tem menu pra repetir missão e nem medalha de ouro. Pra salvar, são 15 espaços manuais, só pelo menu de pausa e só fora de missão. O salvamento automático tem um espaço só, que vai apagando o anterior. E se usar código de trapaça, o jogo não deixa mais salvar até você reiniciar. O motivo seria a história com escolhas, que muda as missões depois. Isso é bom ou ruim? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Df5bA1CCBAe/",
+   "hora_real": "18:03",
+   "publicado": "2026-11-18T21:03Z",
+   "legenda": "GTA 6 não deixa você rejogar missão da história 🎮😳 terminou, acabou: não tem menu de replay nem medalha de ouro 🥇\n\n💾 15 espaços de save manual, só pelo menu de pausa e só fora de missão\n🔁 Salvamento automático com um espaço só, que vai sobrescrevendo\n🚫 Usou código de trapaça? O jogo não salva mais até reiniciar\n📖 O motivo seria a história com escolhas, que muda as missões depois\n\nIsso é bom ou ruim pra você? Comenta aí 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br\n\nFonte: GTA BOOM (teste do jogo, 18/11)\n\n#gta6 #gtavi #rockstargames #gta #games",
+   "ficha": {
+    "formato": "corte",
+    "tema": "mecanica/polemica: sem replay de missao",
+    "gancho": "GTA 6 não deixa você jogar de novo uma missão",
+    "origem": "GTA BOOM 18/11"
+   }
   }
  ]
 }
