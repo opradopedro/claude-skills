@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 18/11/2026 17:54 (Brasília) com 106 Reels com nota. Média geral: 59.1/100.
+Atualizado em 18/11/2026 20:53 (Brasília) com 106 Reels com nota. Média geral: 59.1/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -84,8 +84,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | piloto desenha a arte do GTA VI no céu com a rota do avião | 1 | 50.4 | 56.2 |  |
 | mapa | 1 | 50.1 | 56.1 |  |
 | noticias | 5 | 54.8 | 56.0 |  |
+| evento/lancamento | 2 | 52.9 | 56.0 |  |
 | marketing/mundo real | 1 | 49.6 | 55.9 |  |
-| evento/lancamento | 2 | 52.8 | 55.9 |  |
 | chefe da Take-Two fala de pirataria antes do GTA 6 | 1 | 48.5 | 55.6 |  |
 | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | 1 | 47.9 | 55.4 |  |
 | noticia/polemica | 2 | 50.6 | 54.8 |  |
@@ -239,7 +239,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Eurogamer via comicshoplocator 16/10 | 1 | 48.2 | 55.5 |  |
 | autoral | 9 | 54.6 | 55.4 |  |
 | nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection; gematsu.com 02/10; gtaboom 04/10 | 1 | 47.9 | 55.4 |  |
-| YouTube Blog + GTA BOOM 12/11 | 1 | 44.7 | 54.3 |  |
+| YouTube Blog + GTA BOOM 12/11 | 1 | 44.9 | 54.4 |  |
 | TechRadar (Jason Schreier/Bloomberg) 20/10 | 2 | 49.4 | 54.2 |  |
 | Mezha/Gfinity 14/10 | 1 | 44.1 | 54.1 |  |
 | VGTimes 30/10; cena do episódio via YouTube QH-XIqBDbwo | 1 | 44.2 | 54.1 |  |
@@ -291,7 +291,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 827 | 39.7% | 31% | 26 | 0 | 3 | 4 | 68.9 (h72) |
 | 2026-11-13 | [DfsjObMhd4q](https://www.instagram.com/reel/DfsjObMhd4q/) | corte | console_tecnico | pergunta | 1885 | 35.6% | 43% | 34 | 0 | 1 | 9 | 68.7 (h72) |
 | 2026-10-20 | [DevDjNqkdcV](https://www.instagram.com/reel/DevDjNqkdcV/) | corte | gameplay | pergunta | 1220 | 44% | 36% | 48 | 0 | 0 | 4 | 68.5 (h72) |
-| 2026-11-17 | [Df22YgluMTY](https://www.instagram.com/reel/Df22YgluMTY/) | corte | bastidores/desenvolvimento | ex-pesquisador revela pesquisa nível espionagem | 1342 | 34.8% | 42% | 39 | 0 | 0 | 2 | 68.4 (provisória) |
+| 2026-11-17 | [Df22YgluMTY](https://www.instagram.com/reel/Df22YgluMTY/) | corte | bastidores/desenvolvimento | ex-pesquisador revela pesquisa nível espionagem | 1343 | 34.8% | 42% | 39 | 0 | 0 | 2 | 68.4 (h24) |
 | 2026-11-07 | [DfdHAA5E7_7](https://www.instagram.com/reel/DfdHAA5E7_7/) | corte | classificação etária 18+ no mundo todo e crítica da USK | GTA 6 é proibido pra menor de dezoito no mundo inteiro | 1684 | 39.4% | 42% | 54 | 0 | 0 | 2 | 68.3 (h72) |
 | 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1322 | 37.1% | 33% | 34 | 0 | 3 | 2 | 68.1 (h72) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
@@ -355,7 +355,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-08 | [DffrRsXlGWm](https://www.instagram.com/reel/DffrRsXlGWm/) | corte | chefe da Take-Two fala de pirataria antes do GTA 6 | o chefão da dona do GTA 6 falou de pirataria | 711 | 36.2% | 30% | 6 | 0 | 1 | 0 | 48.5 (h72) |
 | 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 48.2 (h72) |
 | 2026-11-08 | [DffCxD-DYYY](https://www.instagram.com/reel/DffCxD-DYYY/) | corte | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 131 | 48.4% | 21% | 4 | 0 | 0 | 0 | 47.9 (h72) |
-| 2026-11-15 | [Dfxs3dco_Ik](https://www.instagram.com/reel/Dfxs3dco_Ik/) | corte | evento/lancamento | revelacao | 165 | 59.5% | 23% | 2 | 0 | 1 | 0 | 44.7 (h24) |
+| 2026-11-15 | [Dfxs3dco_Ik](https://www.instagram.com/reel/Dfxs3dco_Ik/) | corte | evento/lancamento | revelacao | 166 | 59.1% | 23% | 2 | 0 | 1 | 0 | 44.9 (h72) |
 | 2026-10-30 | [DfIoHDmCOyX](https://www.instagram.com/reel/DfIoHDmCOyX/) | corte | gameplay novo no South Park (cena real) | revelacao | 132 | 49.2% | 31% | 3 | 0 | 0 | 0 | 44.2 (h72) |
 | 2026-10-16 | [DekbyAanDQL](https://www.instagram.com/reel/DekbyAanDQL/) | corte | vazamentos | noticia | 188 | 41.6% | 37% | 3 | 0 | 0 | 0 | 44.1 (h24) |
 | 2026-11-16 | [Df0Rr7hOOLT](https://www.instagram.com/reel/Df0Rr7hOOLT/) | corte | evento/crossover | revelacao | 134 | 44.6% | 23% | 3 | 0 | 0 | 0 | 43.7 (h24) |
@@ -375,4 +375,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [Df4yyzdODQR](https://www.instagram.com/reel/Df4yyzdODQR/): 5.7 h no ar, 968 views, 23.2% pularam, 40% assistido, 67 curtidas
+- [Df4yyzdODQR](https://www.instagram.com/reel/Df4yyzdODQR/): 8.7 h no ar, 1456 views, 30.5% pularam, 39% assistido, 94 curtidas
+- [Df5bA1CCBAe](https://www.instagram.com/reel/Df5bA1CCBAe/): 2.9 h no ar, 1359 views, 28.7% pularam, 53% assistido, 44 curtidas

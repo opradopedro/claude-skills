@@ -2282,6 +2282,19 @@
     "gancho": "GTA 6 não deixa você jogar de novo uma missão",
     "origem": "GTA BOOM 18/11"
    }
+  },
+  {
+   "data": "2026-11-18",
+   "hora": "21:00",
+   "status": "pendente",
+   "pasta": "producao/2026-11-18_2100",
+   "arquivo": "radar_v110_gta6_trapaca_so_zerando.mp4",
+   "formato": "corte",
+   "tema": "GTA 6 tem 61 cheats, mas o menu só aparece depois de zerar as 91 missões da história; trapaça ativa bloqueia salvar e troféus; no GTA 5 dava na primeira hora (GTA BOOM 18/11)",
+   "capa": "Trapaça só zerando",
+   "capa_t": 25.8,
+   "roteiro": "Mano, em GTA 6 você não vai poder usar código de trapaça logo de cara. Só depois de zerar a história inteira. Um site gringo testou o jogo: são 61 códigos, de arma, carro, clima e filtro de tela, mas o menu só aparece depois das 91 missões do Jason e da Lucia. Dá pra ir cumprindo os desafios que liberam cada código no caminho, só que eles ficam travados até o final. E se ligar a trapaça, o jogo para de salvar e bloqueia troféu. No GTA 5 dava pra usar logo na primeira hora. Você curtiu ou achou sacanagem? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+   "capa_embutida": true
   }
  ]
 }
