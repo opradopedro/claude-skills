@@ -10,7 +10,7 @@ SPOKEN = {"Metacritic": "mé ta crí tic", "Zelda": "zél da", "Ocarina": "ó ca
           "19/11": "dezenove de novembro", "Patriot": "pei tri ot", "Pisswasser": "pis va ser",
           "GTA 5": "ge te a cinco", "5": "cinco", "PS": "pe esse", "Plus": "plas", "IA": "i a", "Obbe": "obe", "TikTok": "tique toque", "Jack": "jéque", "Vermeij": "ver mei",
           "Zelnick": "zel nik", "Strauss": "strauss", "Journal": "djornal", "Street": "strit", "Wall": "uol", "Take-Two": "teik tu", "TakeTwo": "teik tu",
-          "NBA": "ene be a", "2K27": "dois ca vinte e sete", "2K": "dois ca", "Burger": "bãr guer", "Shot": "xót", "Macca": "maca", "Sahara": "saara"}
+          "NBA": "ene be a", "2K27": "dois ca vinte e sete", "2K": "dois ca", "Burger": "bãr guer", "Shot": "xót", "Macca": "maca", "Sahara": "saara", "Valorant": "vá lo rant", "Kick": "quíque", "spoiler": "spói ler"}
 
 
 def syl(word):

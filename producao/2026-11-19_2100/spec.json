@@ -1,0 +1,20 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v113_gta6_recorde_live.mp4",
+ "text": "Mano, GTA 6 quebrou o maior recorde de live da história dos games. No lançamento, mais de 6 milhões de pessoas assistiram ao mesmo tempo gente jogando ao vivo. O recorde anterior era do Valorant, com 1 milhão e 700 mil, em 2020. GTA 6 fez quase 4 vezes mais. Só no YouTube foram 2 milhões e 600 mil. Na Twitch, 2 milhões e meio. E na Kick, 1 milhão e 300 mil. E o número ainda tava subindo quando o jogo liberou nos Estados Unidos. E você, assistiu live ou foi jogar sem spoiler? Manda pra quem tá jogando GTA 6 e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "neon",
+  "carro",
+  "acao",
+  "praia",
+  "jason",
+  "lucia"
+ ],
+ "seed": 113,
+ "font": "../../assets/fonts/Anton.ttf"
+}
