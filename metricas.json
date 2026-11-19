@@ -4071,11 +4071,11 @@
    "shares": 0,
    "saves": 3,
    "avgWatchTimeMs": 10721,
-   "avgWatchedPct": 30.63,
+   "avgWatchedPct": 30.63142857142857,
    "skipRate": 32.4,
    "durationSeconds": 35,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 92.9
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 95.9
   },
   "h24": {
    "playCount": 1533,
@@ -4114,11 +4114,11 @@
    "shares": 1,
    "saves": 0,
    "avgWatchTimeMs": 18520,
-   "avgWatchedPct": 47.49,
+   "avgWatchedPct": 47.48717948717949,
    "skipRate": 38.7,
    "durationSeconds": 39,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 77.7
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 80.7
   },
   "h24": {
    "playCount": 160,
@@ -4157,11 +4157,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 9516,
-   "avgWatchedPct": 23.21,
+   "avgWatchedPct": 23.209756097560977,
    "skipRate": 45.1,
    "durationSeconds": 41,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 71.8
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 74.8
   },
   "h24": {
    "playCount": 134,
@@ -4175,6 +4175,19 @@
    "durationSeconds": 41,
    "coletado": "2026-11-17T23:54Z",
    "horas": 26.8
+  },
+  "h72": {
+   "playCount": 135,
+   "likeCount": 3,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 9516,
+   "avgWatchedPct": 23.209756097560977,
+   "skipRate": 45.1,
+   "durationSeconds": 41,
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 74.8
   }
  },
  "Df0mVg9tZCt": {
@@ -4187,11 +4200,11 @@
    "shares": 0,
    "saves": 1,
    "avgWatchTimeMs": 17497,
-   "avgWatchedPct": 37.23,
+   "avgWatchedPct": 37.227659574468085,
    "skipRate": 26.1,
    "durationSeconds": 47,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 68.8
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 1800,
@@ -4217,11 +4230,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 11673,
-   "avgWatchedPct": 32.43,
+   "avgWatchedPct": 32.425,
    "skipRate": 37.8,
    "durationSeconds": 36,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 53.7
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 56.7
   },
   "h24": {
    "playCount": 146,
@@ -4247,11 +4260,11 @@
    "shares": 2,
    "saves": 0,
    "avgWatchTimeMs": 15387,
-   "avgWatchedPct": 41.59,
+   "avgWatchedPct": 41.586486486486486,
    "skipRate": 34.8,
    "durationSeconds": 37,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 47.8
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 50.8
   },
   "h24": {
    "playCount": 1343,
@@ -4280,8 +4293,8 @@
    "avgWatchedPct": 15.47,
    "skipRate": 64.2,
    "durationSeconds": 40,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 44.8
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 118,
@@ -4307,11 +4320,11 @@
    "shares": 16,
    "saves": 4,
    "avgWatchTimeMs": 17956,
-   "avgWatchedPct": 38.2,
+   "avgWatchedPct": 38.20425531914894,
    "skipRate": 31.2,
    "durationSeconds": 47,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 29.7
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 32.7
   },
   "h24": {
    "playCount": 1476,
@@ -4331,51 +4344,81 @@
   "publicado": "2026-11-18T21:01:06.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 2438,
+   "playCount": 2450,
    "likeCount": 65,
    "commentCount": 0,
    "shares": 12,
    "saves": 3,
-   "avgWatchTimeMs": 17554,
-   "avgWatchedPct": 50.15,
-   "skipRate": 32.2,
+   "avgWatchTimeMs": 17569,
+   "avgWatchedPct": 50.197142857142865,
+   "skipRate": 32.3,
    "durationSeconds": 35,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 23.8
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 26.9
+  },
+  "h24": {
+   "playCount": 2450,
+   "likeCount": 65,
+   "commentCount": 0,
+   "shares": 12,
+   "saves": 3,
+   "avgWatchTimeMs": 17569,
+   "avgWatchedPct": 50.197142857142865,
+   "skipRate": 32.3,
+   "durationSeconds": 35,
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 26.9
   }
  },
  "Df5v6ZZK41B": {
   "publicado": "2026-11-19T00:04:39.000Z",
   "legenda": "GTA 6 só libera os códigos de trapaça depois que você ZERAR a história",
   "atual": {
-   "playCount": 1374,
+   "playCount": 1377,
    "likeCount": 32,
    "commentCount": 1,
    "shares": 4,
    "saves": 1,
-   "avgWatchTimeMs": 17520,
-   "avgWatchedPct": 44.92,
-   "skipRate": 30.8,
+   "avgWatchTimeMs": 17557,
+   "avgWatchedPct": 45.01794871794872,
+   "skipRate": 30.9,
    "durationSeconds": 39,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 20.8
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 23.8
   }
  },
  "Df7W5eqzSR5": {
   "publicado": "2026-11-19T15:03:34.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 528,
-   "likeCount": 12,
+   "playCount": 664,
+   "likeCount": 22,
    "commentCount": 0,
    "shares": 1,
    "saves": 1,
-   "avgWatchTimeMs": 16008,
-   "avgWatchedPct": 47.08,
-   "skipRate": 35.5,
+   "avgWatchTimeMs": 15428,
+   "avgWatchedPct": 45.37647058823529,
+   "skipRate": 35.1,
    "durationSeconds": 34,
-   "coletado": "2026-11-19T20:51Z",
-   "horas": 5.8
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 8.8
+  }
+ },
+ "Df7_gJ4BX79": {
+  "publicado": "2026-11-19T20:58:24.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 1328,
+   "likeCount": 46,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 17735,
+   "avgWatchedPct": 50.671428571428564,
+   "skipRate": 22.4,
+   "durationSeconds": 35,
+   "coletado": "2026-11-19T23:52Z",
+   "horas": 2.9
   }
  }
 }
