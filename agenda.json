@@ -2286,7 +2286,7 @@
   {
    "data": "2026-11-18",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-18_2100",
    "arquivo": "radar_v110_gta6_trapaca_so_zerando.mp4",
    "formato": "corte",
@@ -2294,7 +2294,17 @@
    "capa": "Trapaça só zerando",
    "capa_t": 25.8,
    "roteiro": "Mano, em GTA 6 você não vai poder usar código de trapaça logo de cara. Só depois de zerar a história inteira. Um site gringo testou o jogo: são 61 códigos, de arma, carro, clima e filtro de tela, mas o menu só aparece depois das 91 missões do Jason e da Lucia. Dá pra ir cumprindo os desafios que liberam cada código no caminho, só que eles ficam travados até o final. E se ligar a trapaça, o jogo para de salvar e bloqueia troféu. No GTA 5 dava pra usar logo na primeira hora. Você curtiu ou achou sacanagem? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Df5v6ZZK41B/",
+   "hora_real": "21h08",
+   "publicado": "2026-11-19T00:08Z",
+   "legenda": "GTA 6 só libera os códigos de trapaça depois que você ZERAR a história 🎮😳 nada de tanque e arma infinita logo de cara\n\n🔒 São 61 cheats: arma, carro, clima e filtro de tela\n📖 O menu só aparece depois das 91 missões do Jason e da Lucia\n🎯 Dá pra ir cumprindo os desafios de cada código no caminho, mas eles ficam travados até o final\n🚫 Ligou a trapaça? O jogo para de salvar e bloqueia troféu\n🕹️ No GTA 5 dava pra usar logo na primeira hora\n\nVocê curtiu ou achou sacanagem? Comenta aí 👇\nManda pra quem vai jogar GTA 6 com você e segue o @radar.gta6br\n\nFonte: GTA BOOM (teste do jogo, 18/11)\n\n#gta6 #gtavi #rockstargames #gta #games",
+   "ficha": {
+    "formato": "corte",
+    "tema": "mecanica/polemica: cheats so depois de zerar",
+    "gancho": "em GTA 6 você não vai poder usar código de trapaça logo de cara",
+    "origem": "GTA BOOM 18/11"
+   }
   }
  ]
 }
