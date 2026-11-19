@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v112_gta6_atores_jason_lucia.mp4",
+ "text": "Mano, os atores do Jason e da Lucia finalmente apareceram. No dia do lançamento de GTA 6, o Dylan Rourke e a Manni Perez confirmaram que são eles por trás do casal. Os dois trocaram a foto de perfil pelos personagens e postaram a mesma mensagem, assinada Jay e Lu, com um coração no meio. E fecharam com: vejo vocês em Leonida. A Rockstar segurou os dois num contrato de silêncio por anos. E a Manni já tinha feito ponta no GTA Online e até no GTA 5. E aí, eles combinam com o casal ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "casal",
+  "cidade",
+  "neon",
+  "carro"
+ ],
+ "seed": 112,
+ "font": "../../assets/fonts/Anton.ttf"
+}

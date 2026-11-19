@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 19/11/2026 11:54 (Brasília) com 109 Reels com nota. Média geral: 59.4/100.
+Atualizado em 19/11/2026 17:51 (Brasília) com 109 Reels com nota. Média geral: 59.4/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -18,18 +18,18 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | combate não letal / jogar GTA 6 sem matar | 1 | 77.8 | 65.5 |  |
-| mecanica/polemica: sem replay de missao | 1 | 76.4 | 65.1 |  |
+| mecanica/polemica: sem replay de missao | 1 | 76.3 | 65.0 |  |
 | bastidores/desenvolvimento | 2 | 70.2 | 64.8 |  |
 | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | 1 | 73.7 | 64.2 |  |
-| notas/reviews: 99 no Metacritic | 1 | 73.7 | 64.2 |  |
 | gameplay | 2 | 68.8 | 64.1 |  |
 | alerta/utilidade | 3 | 67.2 | 64.1 |  |
 | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | 1 | 73.5 | 64.1 |  |
+| notas/reviews: 99 no Metacritic | 1 | 73.6 | 64.1 |  |
 | premiacao | 1 | 73.2 | 64.0 |  |
 | profecia viral: internet acaba 2 dias antes de GTA 6 | 1 | 72.6 | 63.8 |  |
 | noticia/vazamentos | 1 | 72.3 | 63.7 |  |
 | recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | 1 | 72.2 | 63.7 |  |
-| mecanica/polemica: cheats so depois de zerar | 1 | 72.3 | 63.7 |  |
+| mecanica/polemica: cheats so depois de zerar | 1 | 72.2 | 63.7 |  |
 | curiosidade/marketing | 2 | 67.8 | 63.6 |  |
 | prévia Edge: mapa cedo, combustível, transporte | 1 | 71.8 | 63.5 |  |
 | noticia/mercado | 1 | 71.0 | 63.3 |  |
@@ -46,7 +46,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | possível censura do GTA 6 no Japão (CERO Z sem aviso de sexo/drogas, download menor) | 1 | 65.9 | 61.6 |  |
 | curiosidade/dinheiro | 1 | 65.8 | 61.5 |  |
 | bastidores | 4 | 62.5 | 61.4 |  |
-| gameplay/mecanica | 1 | 65.0 | 61.3 |  |
+| gameplay/mecanica | 1 | 65.3 | 61.4 |  |
 | Sony + Back Market recompram PS5 usado por até US$ 400 antes do GTA 6 | 1 | 64.7 | 61.2 |  |
 | teoria | 1 | 64.6 | 61.1 |  |
 | marca/humor | 1 | 64.3 | 61.0 |  |
@@ -108,13 +108,13 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 77.8 | 65.5 |  |
-| GTA 6 não deixa você jogar de novo uma missão | 1 | 76.4 | 65.1 |  |
+| GTA 6 não deixa você jogar de novo uma missão | 1 | 76.3 | 65.0 |  |
 | GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.2 |  |
-| GTA 6 acabou de tirar 99 no Metacritic | 1 | 73.7 | 64.2 |  |
 | tem gente que vai jogar 16 horas antes de você | 1 | 73.5 | 64.1 |  |
+| GTA 6 acabou de tirar 99 no Metacritic | 1 | 73.6 | 64.1 |  |
 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.6 | 63.8 |  |
 | GTA 6 quebrou recorde antes de sair | 1 | 72.2 | 63.7 |  |
-| em GTA 6 você não vai poder usar código de trapaça logo de cara | 1 | 72.3 | 63.7 |  |
+| em GTA 6 você não vai poder usar código de trapaça logo de cara | 1 | 72.2 | 63.7 |  |
 | noticia | 5 | 65.0 | 63.4 |  |
 | GTA 6 tá vendendo mais do que a própria Take-Two esperava | 1 | 69.6 | 62.8 |  |
 | a Rockstar confirmou: GTA 6 vai pedir até 212 gigas | 1 | 69.3 | 62.7 |  |
@@ -162,14 +162,14 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| GTA BOOM 18/11 | 2 | 74.3 | 66.9 |  |
+| GTA BOOM 18/11 | 2 | 74.2 | 66.8 |  |
 | GTABase (Rob Nelson, Rockstar North) | 1 | 77.8 | 65.5 |  |
 | RockstarINTEL 26/10 (NateTheHate) | 1 | 77.5 | 65.4 |  |
 | GamesRadar 16/10 | 1 | 76.0 | 64.9 |  |
 | GTA BOOM 13/11 + teaser oficial no X | 1 | 76.0 | 64.9 |  |
 | GTA BOOM 27/10 (Ray Ampoloquio) | 1 | 73.7 | 64.2 |  |
-| GTA BOOM 18/11 (Metacritic) | 1 | 73.7 | 64.2 |  |
 | vice.com/en/article/gta-6-midnight-release-times-file-size-preload (03/11) | 1 | 73.5 | 64.1 |  |
+| GTA BOOM 18/11 (Metacritic) | 1 | 73.6 | 64.1 |  |
 | Kotaku 15/10 (FAQ do The Game Awards) | 1 | 73.2 | 64.0 |  |
 | noticia (Rob Nelson via IGN/Insider Gaming) | 1 | 72.9 | 63.9 |  |
 | VGTimes 03/11 (post viral no X) | 1 | 72.6 | 63.8 |  |
@@ -195,9 +195,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Kotaku 12/10 | 1 | 66.5 | 61.8 |  |
 | GTA BOOM 11/11 / PowerUp Gaming 07/11 | 1 | 65.9 | 61.6 |  |
 | VGTimes 28/10 (concurso Virgin Media Ireland) | 1 | 65.8 | 61.5 |  |
+| GTA BOOM 15/11 (The Guardian hands-on) | 1 | 65.3 | 61.4 |  |
 | The Game Business via Beebom 16/10 | 1 | 65.1 | 61.3 |  |
 | Dexerto (Has It Leaked) + Shacknews (Rockstar) | 1 | 65.0 | 61.3 |  |
-| GTA BOOM 15/11 (The Guardian hands-on) | 1 | 65.0 | 61.3 |  |
 | Rockstar, trailer de lançamento 15/10 | 1 | 64.8 | 61.2 |  |
 | Kotaku 21/10 | 1 | 64.8 | 61.2 |  |
 | bgr.com/2308410/sony-offers-money-for-used-ps5-before-gta-6 (05/11); hothardware; tweaktown | 1 | 64.7 | 61.2 |  |
@@ -276,19 +276,19 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 77.8 (h72) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
-| 2026-11-18 | [Df5bA1CCBAe](https://www.instagram.com/reel/Df5bA1CCBAe/) | corte | mecanica/polemica: sem replay de missao | GTA 6 não deixa você jogar de novo uma missão | 2412 | 32% | 50% | 62 | 0 | 3 | 12 | 76.4 (provisória) |
+| 2026-11-18 | [Df5bA1CCBAe](https://www.instagram.com/reel/Df5bA1CCBAe/) | corte | mecanica/polemica: sem replay de missao | GTA 6 não deixa você jogar de novo uma missão | 2438 | 32.2% | 50% | 65 | 0 | 3 | 12 | 76.3 (provisória) |
 | 2026-10-17 | [DemXZASj3oQ](https://www.instagram.com/reel/DemXZASj3oQ/) | corte | bastidores | noticia | 1463 | 31.3% | 48% | 52 | 0 | 2 | 1 | 76.0 (h72) |
 | 2026-11-13 | [Dfs-fCfBUbU](https://www.instagram.com/reel/Dfs-fCfBUbU/) | corte | curiosidade/marketing | revelacao | 1873 | 29.9% | 46% | 110 | 3 | 8 | 22 | 76.0 (h72) |
 | 2026-11-01 | [DfN-d34Eow-](https://www.instagram.com/reel/DfN-d34Eow-/) | corte | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | GTA 6 pode perder o Jogo do Ano | 1268 | 35.6% | 45% | 51 | 0 | 1 | 0 | 73.7 (h24) |
-| 2026-11-18 | [Df4yyzdODQR](https://www.instagram.com/reel/Df4yyzdODQR/) | corte | notas/reviews: 99 no Metacritic | GTA 6 acabou de tirar 99 no Metacritic | 1473 | 31% | 38% | 94 | 2 | 4 | 16 | 73.7 (provisória) |
+| 2026-11-18 | [Df4yyzdODQR](https://www.instagram.com/reel/Df4yyzdODQR/) | corte | notas/reviews: 99 no Metacritic | GTA 6 acabou de tirar 99 no Metacritic | 1476 | 31.2% | 38% | 94 | 2 | 4 | 16 | 73.6 (h24) |
 | 2026-11-05 | [DfYRV6llI_F](https://www.instagram.com/reel/DfYRV6llI_F/) | corte | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | tem gente que vai jogar 16 horas antes de você | 1485 | 32.1% | 39% | 48 | 0 | 7 | 5 | 73.5 (h72) |
 | 2026-10-17 | [DenAhZZCOCA](https://www.instagram.com/reel/DenAhZZCOCA/) | corte | premiacao | enquete | 1871 | 36.9% | 44% | 49 | 0 | 3 | 15 | 73.2 (h72) |
 | 2026-10-12 | [DeZjgTSD3Aw](https://www.instagram.com/reel/DeZjgTSD3Aw/) | corte | preco_compra | comparacao | 1237 | 35.7% | 42% | 44 | 0 | 2 | 1 | 72.9 (h24) |
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
 | 2026-11-02 | [DfQjmtGlDM_](https://www.instagram.com/reel/DfQjmtGlDM_/) | corte | profecia viral: internet acaba 2 dias antes de GTA 6 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1521 | 24% | 41% | 37 | 0 | 3 | 2 | 72.6 (h72) |
 | 2026-10-28 | [DfCwKjElOi0](https://www.instagram.com/reel/DfCwKjElOi0/) | corte | noticia/vazamentos | revelacao | 1484 | 36.8% | 41% | 48 | 0 | 3 | 5 | 72.3 (h72) |
-| 2026-11-18 | [Df5v6ZZK41B](https://www.instagram.com/reel/Df5v6ZZK41B/) | corte | mecanica/polemica: cheats so depois de zerar | em GTA 6 você não vai poder usar código de trapaça logo de cara | 1372 | 30.7% | 45% | 32 | 1 | 1 | 4 | 72.3 (provisória) |
 | 2026-11-10 | [Dfk13A_BR61](https://www.instagram.com/reel/Dfk13A_BR61/) | corte | recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | GTA 6 quebrou recorde antes de sair | 1313 | 42.2% | 49% | 32 | 1 | 1 | 5 | 72.2 (h72) |
+| 2026-11-18 | [Df5v6ZZK41B](https://www.instagram.com/reel/Df5v6ZZK41B/) | corte | mecanica/polemica: cheats so depois de zerar | em GTA 6 você não vai poder usar código de trapaça logo de cara | 1374 | 30.8% | 45% | 32 | 1 | 1 | 4 | 72.2 (provisória) |
 | 2026-10-25 | [De787TrEaru](https://www.instagram.com/reel/De787TrEaru/) | corte | bastidores/desenvolvimento | revelacao | 1285 | 38.8% | 43% | 39 | 1 | 3 | 1 | 72.0 (h72) |
 | 2026-10-30 | [DfIUyYgAtdc](https://www.instagram.com/reel/DfIUyYgAtdc/) | corte | prévia Edge: mapa cedo, combustível, transporte | mentira_verdade | 1462 | 39.8% | 43% | 65 | 1 | 3 | 35 | 71.8 (h72) |
 | 2026-10-27 | [DfAJwl_AlTW](https://www.instagram.com/reel/DfAJwl_AlTW/) | corte | noticia/mercado | revelacao | 1300 | 35% | 33% | 43 | 0 | 0 | 6 | 71.0 (h72) |
@@ -311,9 +311,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-14 | [DefSM3xFcrX](https://www.instagram.com/reel/DefSM3xFcrX/) | corte | vazamentos | votacao | 1453 | 30.6% | 49% | 25 | 7 | 0 | 0 | 66.5 (h72) |
 | 2026-11-11 | [DfnbZUiqJGe](https://www.instagram.com/reel/DfnbZUiqJGe/) | corte | possível censura do GTA 6 no Japão (CERO Z sem aviso de sexo/drogas, download menor) | GTA 6 pode chegar cortado no Japão | 2030 | 32.9% | 41% | 45 | 0 | 3 | 2 | 65.9 (h72) |
 | 2026-10-28 | [DfDrYMklbDR](https://www.instagram.com/reel/DfDrYMklbDR/) | corte | curiosidade/dinheiro | numero chocante | 739 | 46.1% | 34% | 17 | 0 | 1 | 3 | 65.8 (h72) |
+| 2026-11-16 | [DfzpDyBN7vH](https://www.instagram.com/reel/DfzpDyBN7vH/) | corte | gameplay/mecanica | revelacao | 162 | 38.7% | 47% | 5 | 0 | 0 | 1 | 65.3 (h72) |
 | 2026-10-19 | [DerhBaEAqHr](https://www.instagram.com/reel/DerhBaEAqHr/) | corte | noticias | enquete | 178 | 29.9% | 34% | 7 | 1 | 0 | 1 | 65.1 (h72) |
 | 2026-10-23 | [De2xCB-lPHz](https://www.instagram.com/reel/De2xCB-lPHz/) | corte | musica/trilha | rumor + oficial | 870 | 40.3% | 26% | 23 | 0 | 3 | 0 | 65.0 (h72) |
-| 2026-11-16 | [DfzpDyBN7vH](https://www.instagram.com/reel/DfzpDyBN7vH/) | corte | gameplay/mecanica | revelacao | 160 | 39.0% | 47% | 5 | 0 | 0 | 1 | 65.0 (h24) |
 | 2026-10-15 | [DehKLJggYHT](https://www.instagram.com/reel/DehKLJggYHT/) | corte | trailer | noticia | 145 | 37.4% | 45% | 6 | 0 | 2 | 0 | 64.8 (h72) |
 | 2026-10-22 | [DezPc0kEQ0t](https://www.instagram.com/reel/DezPc0kEQ0t/) | corte | noticia/polemica | revelacao | 147 | 37% | 44% | 7 | 0 | 0 | 0 | 64.8 (h24) |
 | 2026-10-24 | [De4Y-b1iLlh](https://www.instagram.com/reel/De4Y-b1iLlh/) | corte | gameplay/bastidores | curiosidade | 186 | 37.7% | 43% | 7 | 0 | 0 | 1 | 64.8 (h72) |
@@ -383,3 +383,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.9 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 27.0 (h24) |
 | 2026-11-17 | [Df3LR72Aqvw](https://www.instagram.com/reel/Df3LR72Aqvw/) | corte | criadores/streamers | Arthur Morgan vai jogar GTA 6 | 118 | 64.2% | 15% | 0 | 0 | 0 | 0 | 17.8 (h24) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [Df7W5eqzSR5](https://www.instagram.com/reel/Df7W5eqzSR5/): 5.8 h no ar, 528 views, 35.5% pularam, 47% assistido, 12 curtidas
