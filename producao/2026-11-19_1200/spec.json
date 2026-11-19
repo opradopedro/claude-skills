@@ -1,0 +1,20 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v111_gta6_congresso_violencia.mp4",
+ "text": "Mano, GTA 6 virou briga no Congresso dos Estados Unidos bem no dia do lançamento. Um deputado do Tennessee disse que o jogo ensina a roubar carro na mira da arma e atirar em policial, e que pai que deixa o filho jogar tem que educar melhor. Do outro lado, um deputado da Flórida falou que é só um jogo e que vai comprar um PS5 pra jogar. E pensa comigo: esse mesmo jogo sai no mundo inteiro, e nenhum outro país tem a violência com arma que os Estados Unidos têm. E aí, GTA 6 é só um jogo, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "policia",
+  "carro",
+  "acao",
+  "jason",
+  "lucia",
+  "cidade",
+  "neon"
+ ],
+ "seed": 111,
+ "font": "../../assets/fonts/Anton.ttf"
+}
