@@ -1,0 +1,1102 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v115_gta6_censura_japao.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "src": "japao.jpg",
+   "start": 0.0,
+   "end": 3.273,
+   "layout": "full"
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_294.mp4",
+   "start": 3.273,
+   "end": 5.494,
+   "layout": "full",
+   "cx": 0.562,
+   "pan": -1,
+   "ss": 0.9
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_128.mp4",
+   "start": 5.494,
+   "end": 7.296,
+   "layout": "full",
+   "cx": 0.537,
+   "pan": 1,
+   "ss": 0.43
+  },
+  {
+   "src": "japao.jpg",
+   "start": 7.296,
+   "end": 10.298,
+   "layout": "full"
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_300.mp4",
+   "start": 10.298,
+   "end": 12.94,
+   "layout": "full",
+   "cx": 0.5,
+   "pan": -1,
+   "ss": 0.5
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_047.mp4",
+   "start": 12.94,
+   "end": 14.321,
+   "layout": "full",
+   "cx": 1.0,
+   "pan": 1,
+   "ss": 2.4
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_218.mp4",
+   "start": 14.321,
+   "end": 15.882,
+   "layout": "full",
+   "cx": 0.267,
+   "pan": -1,
+   "ss": 0.55
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_197.mp4",
+   "start": 15.882,
+   "end": 18.044,
+   "layout": "full",
+   "cx": 0.58,
+   "pan": 1,
+   "ss": 0.21
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_010.mp4",
+   "start": 18.044,
+   "end": 20.486,
+   "layout": "full",
+   "cx": 0.82,
+   "pan": -1,
+   "ss": 0.03
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_175.mp4",
+   "start": 20.486,
+   "end": 22.207,
+   "layout": "full",
+   "cx": 0.409,
+   "pan": 1,
+   "ss": 1.39
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_220.mp4",
+   "start": 22.207,
+   "end": 24.269,
+   "layout": "full",
+   "cx": 0.415,
+   "pan": -1,
+   "ss": 0.54
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_185.mp4",
+   "start": 24.269,
+   "end": 26.31,
+   "layout": "full",
+   "cx": 0.0,
+   "pan": 1,
+   "ss": 0.07
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_009.mp4",
+   "start": 26.31,
+   "end": 28.792,
+   "layout": "full",
+   "cx": 0.493,
+   "pan": -1,
+   "ss": 1.02
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_380.mp4",
+   "start": 28.792,
+   "end": 30.193,
+   "layout": "full",
+   "cx": 0.658,
+   "pan": 1,
+   "ss": 0.42
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_141.mp4",
+   "start": 30.193,
+   "end": 32.395,
+   "layout": "full",
+   "cx": 0.43,
+   "pan": -1,
+   "ss": 0.0
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_119.mp4",
+   "start": 32.395,
+   "end": 34.236,
+   "layout": "full",
+   "cx": 0.681,
+   "pan": 1,
+   "ss": 0.02
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_133.mp4",
+   "start": 34.236,
+   "end": 36.258,
+   "layout": "full",
+   "cx": 0.202,
+   "pan": -1,
+   "ss": 0.2
+  },
+  {
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_058.mp4",
+   "start": 36.258,
+   "end": 37.408,
+   "layout": "full",
+   "cx": 0.686,
+   "pan": 1,
+   "ss": 0.26
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.05,
+   "end": 0.671,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.05
+   ]
+  },
+  {
+   "start": 0.671,
+   "end": 3.273,
+   "text": "GTA 6 SAIU CENSURADO",
+   "hl": true,
+   "w": [
+    0.671,
+    0.671,
+    1.851,
+    2.392
+   ]
+  },
+  {
+   "start": 3.273,
+   "end": 4.513,
+   "text": "NO JAPÃO",
+   "hl": false,
+   "w": [
+    3.273,
+    3.433
+   ]
+  },
+  {
+   "start": 4.513,
+   "end": 5.494,
+   "text": "E A CENSURA",
+   "hl": false,
+   "w": [
+    4.513,
+    4.614,
+    4.754
+   ]
+  },
+  {
+   "start": 5.494,
+   "end": 6.755,
+   "text": "É BIZARRA",
+   "hl": false,
+   "w": [
+    5.494,
+    5.694
+   ]
+  },
+  {
+   "start": 6.755,
+   "end": 7.296,
+   "text": "NA CENA DO",
+   "hl": false,
+   "w": [
+    6.755,
+    6.935,
+    7.175
+   ]
+  },
+  {
+   "start": 7.296,
+   "end": 7.916,
+   "text": "CHUVEIRO",
+   "hl": false,
+   "w": [
+    7.296
+   ]
+  },
+  {
+   "start": 7.916,
+   "end": 8.697,
+   "text": "O JASON TOMA",
+   "hl": false,
+   "w": [
+    7.916,
+    8.036,
+    8.416
+   ]
+  },
+  {
+   "start": 8.697,
+   "end": 10.298,
+   "text": "BANHO DE CUECA",
+   "hl": false,
+   "w": [
+    8.697,
+    8.997,
+    9.197
+   ]
+  },
+  {
+   "start": 10.298,
+   "end": 10.918,
+   "text": "LÁ NÃO TEM",
+   "hl": false,
+   "w": [
+    10.298,
+    10.478,
+    10.698
+   ]
+  },
+  {
+   "start": 10.918,
+   "end": 11.519,
+   "text": "O CONTROLE DE",
+   "hl": false,
+   "w": [
+    10.918,
+    10.978,
+    11.439
+   ]
+  },
+  {
+   "start": 11.519,
+   "end": 12.94,
+   "text": "INTENSIDADE DO SANGUE",
+   "hl": false,
+   "w": [
+    11.519,
+    12.139,
+    12.299
+   ]
+  },
+  {
+   "start": 12.94,
+   "end": 13.3,
+   "text": "O SANGUE É",
+   "hl": false,
+   "w": [
+    12.94,
+    13.02,
+    13.26
+   ]
+  },
+  {
+   "start": 13.3,
+   "end": 14.321,
+   "text": "MAIS FRACO E",
+   "hl": false,
+   "w": [
+    13.3,
+    13.52,
+    14.241
+   ]
+  },
+  {
+   "start": 14.321,
+   "end": 14.841,
+   "text": "O EFEITO DE",
+   "hl": false,
+   "w": [
+    14.321,
+    14.401,
+    14.721
+   ]
+  },
+  {
+   "start": 14.841,
+   "end": 15.882,
+   "text": "CABEÇA EXPLODINDO",
+   "hl": false,
+   "w": [
+    14.841,
+    15.242
+   ]
+  },
+  {
+   "start": 15.882,
+   "end": 16.783,
+   "text": "SUMIU",
+   "hl": false,
+   "w": [
+    15.882
+   ]
+  },
+  {
+   "start": 16.783,
+   "end": 18.044,
+   "text": "MAS ARRANCAR CABEÇA",
+   "hl": false,
+   "w": [
+    16.783,
+    17.023,
+    17.483
+   ]
+  },
+  {
+   "start": 18.044,
+   "end": 19.285,
+   "text": "AINDA PODE",
+   "hl": false,
+   "w": [
+    18.044,
+    18.464
+   ]
+  },
+  {
+   "start": 19.285,
+   "end": 20.486,
+   "text": "A VERSÃO JAPONESA",
+   "hl": false,
+   "w": [
+    19.285,
+    19.365,
+    19.665
+   ]
+  },
+  {
+   "start": 20.486,
+   "end": 21.046,
+   "text": "AINDA É 1",
+   "hl": true,
+   "w": [
+    20.486,
+    20.786,
+    20.886
+   ]
+  },
+  {
+   "start": 21.046,
+   "end": 22.207,
+   "text": "GIGA MENOR E",
+   "hl": false,
+   "w": [
+    21.046,
+    21.366,
+    22.047
+   ]
+  },
+  {
+   "start": 22.207,
+   "end": 23.068,
+   "text": "SÓ TEM LEGENDA",
+   "hl": false,
+   "w": [
+    22.207,
+    22.427,
+    22.627
+   ]
+  },
+  {
+   "start": 23.068,
+   "end": 24.269,
+   "text": "EM JAPONÊS",
+   "hl": false,
+   "w": [
+    23.068,
+    23.168
+   ]
+  },
+  {
+   "start": 24.269,
+   "end": 24.769,
+   "text": "NÃO FOI O",
+   "hl": false,
+   "w": [
+    24.269,
+    24.509,
+    24.729
+   ]
+  },
+  {
+   "start": 24.769,
+   "end": 25.529,
+   "text": "GOVERNO",
+   "hl": false,
+   "w": [
+    24.769
+   ]
+  },
+  {
+   "start": 25.529,
+   "end": 26.31,
+   "text": "FOI A PRÓPRIA",
+   "hl": false,
+   "w": [
+    25.529,
+    25.73,
+    25.91
+   ]
+  },
+  {
+   "start": 26.31,
+   "end": 27.051,
+   "text": "ROCKSTAR",
+   "hl": false,
+   "w": [
+    26.31
+   ]
+  },
+  {
+   "start": 27.051,
+   "end": 27.571,
+   "text": "PRA PASSAR NA",
+   "hl": false,
+   "w": [
+    27.051,
+    27.191,
+    27.471
+   ]
+  },
+  {
+   "start": 27.571,
+   "end": 28.792,
+   "text": "CLASSIFICAÇÃO DE 18",
+   "hl": true,
+   "w": [
+    27.571,
+    28.212,
+    28.332
+   ]
+  },
+  {
+   "start": 28.792,
+   "end": 29.633,
+   "text": "ANOS DE LÁ",
+   "hl": false,
+   "w": [
+    28.792,
+    29.012,
+    29.132
+   ]
+  },
+  {
+   "start": 29.633,
+   "end": 30.193,
+   "text": "IGUAL FEZ NO",
+   "hl": false,
+   "w": [
+    29.633,
+    29.933,
+    30.113
+   ]
+  },
+  {
+   "start": 30.193,
+   "end": 31.414,
+   "text": "GTA 5",
+   "hl": true,
+   "w": [
+    30.193,
+    30.613
+   ]
+  },
+  {
+   "start": 31.414,
+   "end": 32.395,
+   "text": "FAZ SENTIDO CORTAR",
+   "hl": false,
+   "w": [
+    31.414,
+    31.614,
+    32.014
+   ]
+  },
+  {
+   "start": 32.395,
+   "end": 32.675,
+   "text": "ISSO",
+   "hl": false,
+   "w": [
+    32.395
+   ]
+  },
+  {
+   "start": 32.675,
+   "end": 33.636,
+   "text": "SIM OU NÃO?",
+   "hl": false,
+   "w": [
+    32.675,
+    32.895,
+    32.975
+   ]
+  },
+  {
+   "start": 33.636,
+   "end": 34.236,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    33.636,
+    33.936,
+    34.076
+   ]
+  },
+  {
+   "start": 34.236,
+   "end": 35.397,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    34.236,
+    34.396,
+    34.696,
+    34.696
+   ]
+  },
+  {
+   "start": 35.397,
+   "end": 36.258,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    35.397,
+    35.517,
+    36.078
+   ]
+  },
+  {
+   "start": 36.258,
+   "end": 36.928,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    36.258,
+    36.518,
+    36.578
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.05
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 0.671
+  },
+  {
+   "txt": "saiu",
+   "falado": "saiu",
+   "tela": 1.851
+  },
+  {
+   "txt": "censurado",
+   "falado": "censurado",
+   "tela": 2.392
+  },
+  {
+   "txt": "no",
+   "falado": "no",
+   "tela": 3.273
+  },
+  {
+   "txt": "Japão.",
+   "falado": "Japão",
+   "tela": 3.433
+  },
+  {
+   "txt": "E",
+   "falado": "E",
+   "tela": 4.513
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 4.614
+  },
+  {
+   "txt": "censura",
+   "falado": "censura",
+   "tela": 4.754
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 5.494
+  },
+  {
+   "txt": "bizarra.",
+   "falado": "bizarra",
+   "tela": 5.694
+  },
+  {
+   "txt": "Na",
+   "falado": "Na",
+   "tela": 6.755
+  },
+  {
+   "txt": "cena",
+   "falado": "cena",
+   "tela": 6.935
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 7.175
+  },
+  {
+   "txt": "chuveiro,",
+   "falado": "chuveiro",
+   "tela": 7.296
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 7.916
+  },
+  {
+   "txt": "Jason",
+   "falado": "Jason",
+   "tela": 8.036
+  },
+  {
+   "txt": "toma",
+   "falado": "toma",
+   "tela": 8.416
+  },
+  {
+   "txt": "banho",
+   "falado": "banho",
+   "tela": 8.697
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 8.997
+  },
+  {
+   "txt": "cueca.",
+   "falado": "cueca",
+   "tela": 9.197
+  },
+  {
+   "txt": "Lá",
+   "falado": "Lá",
+   "tela": 10.298
+  },
+  {
+   "txt": "não",
+   "falado": "não",
+   "tela": 10.478
+  },
+  {
+   "txt": "tem",
+   "falado": "tem",
+   "tela": 10.698
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 10.918
+  },
+  {
+   "txt": "controle",
+   "falado": "controle",
+   "tela": 10.978
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 11.439
+  },
+  {
+   "txt": "intensidade",
+   "falado": "intensidade",
+   "tela": 11.519
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 12.139
+  },
+  {
+   "txt": "sangue,",
+   "falado": "sangue",
+   "tela": 12.299
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 12.94
+  },
+  {
+   "txt": "sangue",
+   "falado": "sangue",
+   "tela": 13.02
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 13.26
+  },
+  {
+   "txt": "mais",
+   "falado": "mais",
+   "tela": 13.3
+  },
+  {
+   "txt": "fraco",
+   "falado": "fraco",
+   "tela": 13.52
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 14.241
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 14.321
+  },
+  {
+   "txt": "efeito",
+   "falado": "efeito",
+   "tela": 14.401
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 14.721
+  },
+  {
+   "txt": "cabeça",
+   "falado": "cabeça",
+   "tela": 14.841
+  },
+  {
+   "txt": "explodindo",
+   "falado": "explodindo",
+   "tela": 15.242
+  },
+  {
+   "txt": "sumiu.",
+   "falado": "sumiu",
+   "tela": 15.882
+  },
+  {
+   "txt": "Mas",
+   "falado": "Mas",
+   "tela": 16.783
+  },
+  {
+   "txt": "arrancar",
+   "falado": "arrancar",
+   "tela": 17.023
+  },
+  {
+   "txt": "cabeça",
+   "falado": "cabeça",
+   "tela": 17.483
+  },
+  {
+   "txt": "ainda",
+   "falado": "ainda",
+   "tela": 18.044
+  },
+  {
+   "txt": "pode.",
+   "falado": "pode",
+   "tela": 18.464
+  },
+  {
+   "txt": "A",
+   "falado": "A",
+   "tela": 19.285
+  },
+  {
+   "txt": "versão",
+   "falado": "versão",
+   "tela": 19.365
+  },
+  {
+   "txt": "japonesa",
+   "falado": "japonesa",
+   "tela": 19.665
+  },
+  {
+   "txt": "ainda",
+   "falado": "ainda",
+   "tela": 20.486
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 20.786
+  },
+  {
+   "txt": "1",
+   "falado": "1",
+   "tela": 20.886
+  },
+  {
+   "txt": "giga",
+   "falado": "giga",
+   "tela": 21.046
+  },
+  {
+   "txt": "menor",
+   "falado": "menor",
+   "tela": 21.366
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 22.047
+  },
+  {
+   "txt": "só",
+   "falado": "só",
+   "tela": 22.207
+  },
+  {
+   "txt": "tem",
+   "falado": "tem",
+   "tela": 22.427
+  },
+  {
+   "txt": "legenda",
+   "falado": "legenda",
+   "tela": 22.627
+  },
+  {
+   "txt": "em",
+   "falado": "em",
+   "tela": 23.068
+  },
+  {
+   "txt": "japonês.",
+   "falado": "japonês",
+   "tela": 23.168
+  },
+  {
+   "txt": "Não",
+   "falado": "Não",
+   "tela": 24.269
+  },
+  {
+   "txt": "foi",
+   "falado": "foi",
+   "tela": 24.509
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 24.729
+  },
+  {
+   "txt": "governo:",
+   "falado": "governo",
+   "tela": 24.769
+  },
+  {
+   "txt": "foi",
+   "falado": "foi",
+   "tela": 25.529
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 25.73
+  },
+  {
+   "txt": "própria",
+   "falado": "própria",
+   "tela": 25.91
+  },
+  {
+   "txt": "Rockstar,",
+   "falado": "Rockstar",
+   "tela": 26.31
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 27.051
+  },
+  {
+   "txt": "passar",
+   "falado": "passar",
+   "tela": 27.191
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 27.471
+  },
+  {
+   "txt": "classificação",
+   "falado": "classificação",
+   "tela": 27.571
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 28.212
+  },
+  {
+   "txt": "18",
+   "falado": "18",
+   "tela": 28.332
+  },
+  {
+   "txt": "anos",
+   "falado": "anos",
+   "tela": 28.792
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 29.012
+  },
+  {
+   "txt": "lá,",
+   "falado": "lá",
+   "tela": 29.132
+  },
+  {
+   "txt": "igual",
+   "falado": "igual",
+   "tela": 29.633
+  },
+  {
+   "txt": "fez",
+   "falado": "fez",
+   "tela": 29.933
+  },
+  {
+   "txt": "no",
+   "falado": "no",
+   "tela": 30.113
+  },
+  {
+   "txt": "GTA",
+   "falado": "ge te a",
+   "tela": 30.193
+  },
+  {
+   "txt": "5.",
+   "falado": "cinco",
+   "tela": 30.613
+  },
+  {
+   "txt": "Faz",
+   "falado": "Faz",
+   "tela": 31.414
+  },
+  {
+   "txt": "sentido",
+   "falado": "sentido",
+   "tela": 31.614
+  },
+  {
+   "txt": "cortar",
+   "falado": "cortar",
+   "tela": 32.014
+  },
+  {
+   "txt": "isso,",
+   "falado": "isso",
+   "tela": 32.395
+  },
+  {
+   "txt": "sim",
+   "falado": "sim",
+   "tela": 32.675
+  },
+  {
+   "txt": "ou",
+   "falado": "ou",
+   "tela": 32.895
+  },
+  {
+   "txt": "não?",
+   "falado": "não",
+   "tela": 32.975
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 33.636
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 33.936
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 34.076
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 34.236
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 34.396
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 34.696
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 35.397
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 35.517
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 36.078
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 36.258
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 36.518
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 36.578
+  }
+ ]
+}

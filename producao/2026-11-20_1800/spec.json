@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v115_gta6_censura_japao.mp4",
+ "text": "Mano, GTA 6 saiu censurado no Japão. E a censura é bizarra. Na cena do chuveiro, o Jason toma banho de cueca. Lá não tem o controle de intensidade do sangue, o sangue é mais fraco e o efeito de cabeça explodindo sumiu. Mas arrancar cabeça ainda pode. A versão japonesa ainda é 1 giga menor e só tem legenda em japonês. Não foi o governo: foi a própria Rockstar, pra passar na classificação de 18 anos de lá, igual fez no GTA 5. Faz sentido cortar isso, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "rosto",
+  "cidade",
+  "neon",
+  "carro",
+  "acao"
+ ],
+ "seed": 115,
+ "font": "../../assets/fonts/Anton.ttf"
+}
