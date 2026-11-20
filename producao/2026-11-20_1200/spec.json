@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v114_gta6_niko_bellic_volta.mp4",
+ "text": "Mano, olha isso: o Niko Bellic, do GTA 4, tá em GTA 6. Alerta de spoiler leve. O nome dele tá nos créditos oficiais da Rockstar como o matador de aluguel, com a voz original do Michael Hollick. Ele aparece numa missão mais pro fim da história, mais velho, grisalho e cobrando dívida de novo. E não é só ele. O Jimmy, filho do Michael do GTA 5, volta como influencer de cripto. E a Valentina, do GTA Online, contrata o Jason e a Lucia como seguranças. Mas é só uma ponta, não dá pra jogar com o Niko. Você queria o Niko de volta, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "jason",
+  "lucia",
+  "rosto",
+  "cidade",
+  "neon",
+  "carro"
+ ],
+ "seed": 114,
+ "font": "../../assets/fonts/Anton.ttf"
+}
