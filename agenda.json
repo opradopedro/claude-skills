@@ -2375,14 +2375,24 @@
   {
    "data": "2026-11-20",
    "hora": "12:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-20_1200",
    "arquivo": "radar_v114_gta6_niko_bellic_volta.mp4",
    "formato": "corte",
    "tema": "Personagens antigos voltam em GTA 6 pelos créditos oficiais: Niko Bellic (GTA 4) como 'The Hitman', voz original de Michael Hollick, ponta no fim da história, mais velho e grisalho cobrando dívida; Jimmy De Santa (GTA 5) como influencer de cripto; Valentina (GTA Online) contrata Jason e Lucia como seguranças (GTA BOOM 19/11)",
    "capa": "Niko Bellic voltou",
    "capa_t": 1.0,
-   "roteiro": "Mano, olha isso: o Niko Bellic, do GTA 4, tá em GTA 6. Alerta de spoiler leve. O nome dele tá nos créditos oficiais da Rockstar como o matador de aluguel, com a voz original do Michael Hollick. Ele aparece numa missão mais pro fim da história, mais velho, grisalho e cobrando dívida de novo. E não é só ele. O Jimmy, filho do Michael do GTA 5, volta como influencer de cripto. E a Valentina, do GTA Online, contrata o Jason e a Lucia como seguranças. Mas é só uma ponta, não dá pra jogar com o Niko. Você queria o Niko de volta, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar."
+   "roteiro": "Mano, olha isso: o Niko Bellic, do GTA 4, tá em GTA 6. Alerta de spoiler leve. O nome dele tá nos créditos oficiais da Rockstar como o matador de aluguel, com a voz original do Michael Hollick. Ele aparece numa missão mais pro fim da história, mais velho, grisalho e cobrando dívida de novo. E não é só ele. O Jimmy, filho do Michael do GTA 5, volta como influencer de cripto. E a Valentina, do GTA Online, contrata o Jason e a Lucia como seguranças. Mas é só uma ponta, não dá pra jogar com o Niko. Você queria o Niko de volta, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Df97WheJKct/",
+   "publicado": "2026-11-20T12:01-03:00",
+   "legenda": "GTA 6 trouxe o Niko Bellic de volta 😳🔫 o cara do GTA 4 tá nos créditos oficiais, com a voz original do Michael Hollick 🎙️ ... #gta6 #gtavi #nikobellic #gta4 #rockstargames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "personagens/historia",
+    "gancho": "retorno de personagem",
+    "origem": "GTA BOOM 19/11 (créditos oficiais da Rockstar)"
+   }
   }
  ]
 }
