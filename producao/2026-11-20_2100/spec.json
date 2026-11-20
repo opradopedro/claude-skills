@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v116_gta6_379_bilhoes.mp4",
+ "text": "Mano, GTA 6 fez quase 4 bilhões de dólares em um dia só. A Take-Two confirmou: foram 3 bilhões e 790 milhões em vendas no primeiro dia. É o maior lançamento da história do entretenimento, contando filme, música, tudo. E antes de lançar, ele já tinha vendido 32 milhões e meio de cópias. Pra comparar, o GTA 5 levou 3 dias pra bater 1 bilhão. Tem site que calcula menos, uns 2 bilhões e 360 milhões, mas só conta as lojas digitais. E aí, você já comprou o seu? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "neon",
+  "carro",
+  "jason",
+  "rosto",
+  "acao"
+ ],
+ "seed": 116,
+ "font": "../../assets/fonts/Anton.ttf"
+}
