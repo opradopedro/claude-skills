@@ -2463,14 +2463,24 @@
   {
    "data": "2026-11-21",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-21_1800",
    "arquivo": "radar_v118_gta6_truque_nova_zelandia.mp4",
    "formato": "corte",
    "tema": "Ampere Analysis estima que mais de 2 mi jogaram GTA 6 antes da hora com o truque da Nova Zelândia (região do Xbox); EUA Xbox ~1,5 mi, Reino Unido ~600 mil, Brasil ~200 mil, PS5 EUA ~100 mil; contas PSN suspensas (GTA BOOM 20/11, GamesBeat)",
    "capa": "2 milhões furaram a fila",
    "capa_t": 0.5,
-   "roteiro": "Mano, mais de 2 milhões de pessoas jogaram GTA 6 antes da hora com o truque da Nova Zelândia. A estimativa é da Ampere Analysis. Lá a meia-noite chega primeiro, então era só mudar a região do Xbox pra Nova Zelândia e reiniciar. E o Brasil tá na lista: uns 200 mil brasileiros fizeram isso. Nos Estados Unidos foi 1 milhão e meio, só no Xbox. No PS5 quase ninguém arriscou, porque precisa criar outra conta, e teve conta suspensa. Você usou o truque, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar."
+   "roteiro": "Mano, mais de 2 milhões de pessoas jogaram GTA 6 antes da hora com o truque da Nova Zelândia. A estimativa é da Ampere Analysis. Lá a meia-noite chega primeiro, então era só mudar a região do Xbox pra Nova Zelândia e reiniciar. E o Brasil tá na lista: uns 200 mil brasileiros fizeram isso. Nos Estados Unidos foi 1 milhão e meio, só no Xbox. No PS5 quase ninguém arriscou, porque precisa criar outra conta, e teve conta suspensa. Você usou o truque, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DgBJUBvhGAY/",
+   "publicado": "2026-11-21T18:00-03:00",
+   "legenda": "GTA 6: mais de 2 milhões jogaram antes da hora com o truque da Nova Zelândia 🇳🇿😳 e uns 200 mil eram brasileiros 🇧🇷\n\n🕛 Lá a meia-noite chega primeiro: era só mudar a região do Xbox pra Nova Zelândia e reiniciar\n🇺🇸 EUA: cerca de 1,5 milhão, só no Xbox\n🇬🇧 Reino Unido: uns 600 mil\n🇧🇷 Brasil: uns 200 mil\n🎮 No PS5 quase ninguém arriscou: precisa criar outra conta, e teve conta suspensa\n\nVocê usou o truque? Comenta SIM ou NÃO e manda pra quem vai jogar GTA 6 com você 👇\n\nFonte: estimativa da Ampere Analysis (GamesBeat), via GTA BOOM (20/11)\n\n#gta6 #gtavi #xbox #rockstargames #gamesbr",
+   "ficha": {
+    "formato": "corte",
+    "tema": "curiosidade/numeros",
+    "gancho": "numero gigante + Brasil na lista",
+    "origem": "GTA BOOM 20/11 (Ampere Analysis via GamesBeat)"
+   }
   }
  ]
 }
