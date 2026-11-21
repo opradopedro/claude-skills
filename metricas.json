@@ -4280,17 +4280,17 @@
   "publicado": "2026-11-17T21:02:29.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1347,
+   "playCount": 1348,
    "likeCount": 39,
    "commentCount": 0,
    "shares": 2,
    "saves": 0,
-   "avgWatchTimeMs": 15374,
-   "avgWatchedPct": 41.55,
+   "avgWatchTimeMs": 15365,
+   "avgWatchedPct": 41.53,
    "skipRate": 34.9,
    "durationSeconds": 37,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 89.8
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 95.8
   },
   "h24": {
    "playCount": 1343,
@@ -4332,8 +4332,8 @@
    "avgWatchedPct": 15.47,
    "skipRate": 64.2,
    "durationSeconds": 40,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 86.8
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 92.8
   },
   "h24": {
    "playCount": 118,
@@ -4375,8 +4375,8 @@
    "avgWatchedPct": 38.18,
    "skipRate": 31.2,
    "durationSeconds": 47,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 71.7
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 77.7
   },
   "h24": {
    "playCount": 1476,
@@ -4390,23 +4390,36 @@
    "durationSeconds": 47,
    "coletado": "2026-11-19T20:51Z",
    "horas": 29.7
+  },
+  "h72": {
+   "playCount": 1477,
+   "likeCount": 94,
+   "commentCount": 2,
+   "shares": 16,
+   "saves": 4,
+   "avgWatchTimeMs": 17943,
+   "avgWatchedPct": 38.18,
+   "skipRate": 31.2,
+   "durationSeconds": 47,
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 77.7
   }
  },
  "Df5bA1CCBAe": {
   "publicado": "2026-11-18T21:01:06.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 2461,
+   "playCount": 2464,
    "likeCount": 65,
    "commentCount": 0,
    "shares": 12,
    "saves": 3,
-   "avgWatchTimeMs": 17560,
-   "avgWatchedPct": 50.17,
-   "skipRate": 32.3,
+   "avgWatchTimeMs": 17563,
+   "avgWatchedPct": 50.18,
+   "skipRate": 32.2,
    "durationSeconds": 35,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 65.8
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 2450,
@@ -4435,8 +4448,8 @@
    "avgWatchedPct": 45.02,
    "skipRate": 30.9,
    "durationSeconds": 39,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 62.8
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 68.8
   },
   "h24": {
    "playCount": 1377,
@@ -4465,8 +4478,8 @@
    "avgWatchedPct": 46.85,
    "skipRate": 34.7,
    "durationSeconds": 34,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 47.8
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 53.8
   },
   "h24": {
    "playCount": 1338,
@@ -4486,17 +4499,17 @@
   "publicado": "2026-11-19T20:58:24.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1655,
+   "playCount": 1671,
    "likeCount": 59,
    "commentCount": 0,
    "shares": 1,
    "saves": 2,
-   "avgWatchTimeMs": 18143,
-   "avgWatchedPct": 51.84,
-   "skipRate": 24.7,
+   "avgWatchTimeMs": 18117,
+   "avgWatchedPct": 51.76,
+   "skipRate": 24.8,
    "durationSeconds": 35,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 41.9
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 1628,
@@ -4525,8 +4538,8 @@
    "avgWatchedPct": 31.08,
    "skipRate": 32.1,
    "durationSeconds": 37,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 38.9
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 44.9
   },
   "h24": {
    "playCount": 310,
@@ -4546,51 +4559,81 @@
   "publicado": "2026-11-20T15:01:18.000Z",
   "legenda": "GTA 6 trouxe o Niko Bellic de volta",
   "atual": {
-   "playCount": 2110,
-   "likeCount": 152,
+   "playCount": 2130,
+   "likeCount": 154,
    "commentCount": 6,
    "shares": 13,
    "saves": 9,
-   "avgWatchTimeMs": 16236,
-   "avgWatchedPct": 45.1,
+   "avgWatchTimeMs": 16273,
+   "avgWatchedPct": 45.2,
    "skipRate": 38.3,
    "durationSeconds": 36,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 23.8
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 29.8
+  },
+  "h24": {
+   "playCount": 2130,
+   "likeCount": 154,
+   "commentCount": 6,
+   "shares": 13,
+   "saves": 9,
+   "avgWatchTimeMs": 16273,
+   "avgWatchedPct": 45.2,
+   "skipRate": 38.3,
+   "durationSeconds": 36,
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 29.8
   }
  },
  "Df-kuGrBda_": {
   "publicado": "2026-11-20T21:02:06.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 2781,
-   "likeCount": 45,
+   "playCount": 2999,
+   "likeCount": 49,
    "commentCount": 1,
    "shares": 4,
-   "saves": 2,
-   "avgWatchTimeMs": 21459,
-   "avgWatchedPct": 57.997,
-   "skipRate": 28.4,
+   "saves": 3,
+   "avgWatchTimeMs": 21195,
+   "avgWatchedPct": 57.28,
+   "skipRate": 28.6,
    "durationSeconds": 37,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 17.8
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 23.8
   }
  },
  "Df-5ECrzcJ0": {
   "publicado": "2026-11-21T00:00:17.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1654,
-   "likeCount": 36,
+   "playCount": 1699,
+   "likeCount": 37,
    "commentCount": 0,
    "shares": 7,
    "saves": 0,
-   "avgWatchTimeMs": 13142,
-   "avgWatchedPct": 33.6974,
-   "skipRate": 35.3,
+   "avgWatchTimeMs": 13098,
+   "avgWatchedPct": 33.58,
+   "skipRate": 35.6,
    "durationSeconds": 39,
-   "coletado": "2026-11-21T14:51Z",
-   "horas": 14.9
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 20.9
+  }
+ },
+ "DgAgKmetW2K": {
+  "publicado": "2026-11-21T15:00:49.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 1964,
+   "likeCount": 58,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 2,
+   "avgWatchTimeMs": 19576,
+   "avgWatchedPct": 50.19,
+   "skipRate": 26.2,
+   "durationSeconds": 39,
+   "coletado": "2026-11-21T20:51Z",
+   "horas": 5.8
   }
  }
 }
