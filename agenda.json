@@ -2441,7 +2441,7 @@
   {
    "data": "2026-11-21",
    "hora": "12:00",
-   "status": "produzir",
+   "status": "postado",
    "pasta": "producao/2026-11-21_1200",
    "arquivo": "radar_v117_gta6_coringa_florida.mp4",
    "formato": "corte",
@@ -2450,7 +2450,15 @@
    "capa_t": 0.8,
    "roteiro": "Mano, o Coringa da Flórida entrou mesmo no GTA 6. O Lawrence Sullivan, aquele cara do rosto todo tatuado que virou meme em 2017, tá nos créditos oficiais do jogo. Lembra que o primeiro trailer tinha um personagem igualzinho a ele? Na época ele pediu até 10 milhões de dólares pra Rockstar. Depois largou o processo e se ofereceu pra dublar o personagem. Agora o nome dele aparece em População Local, a parte de quem empresta o rosto pros figurantes. Ele jura que é a voz oficial, mas isso ninguém confirmou. E aí, ele ganhou ou perdeu essa briga? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
    "legenda": "GTA 6 colocou o Coringa da Flórida nos créditos 🃏😳 o cara que pediu 10 milhões de dólares pra Rockstar entrou mesmo no jogo\n\n🧔 Lawrence Sullivan virou meme em 2017 pela foto da ficha policial, com o rosto todo tatuado\n🎬 Em 2023, o primeiro trailer mostrou um personagem igualzinho a ele\n💸 Ele pediu até US$ 10 milhões, largou o processo e se ofereceu pra dublar o personagem\n📜 Agora o nome dele aparece nos créditos em \"The Local Population\", a parte de quem empresta o rosto pros figurantes\n🎙️ Ele diz que é a voz oficial, mas nada confirma isso\n\nEle ganhou ou perdeu essa briga? Comenta 1 pra ganhou, 2 pra perdeu e manda pra quem vai jogar GTA 6 com você 👇\n\nFonte: créditos oficiais de GTA 6, via GTA BOOM (20/11)\n\n#gta6 #gtavi #floridajoker #rockstargames #gamesbr",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DgAgKmetW2K/",
+   "publicado": "2026-11-21T12:01-03:00",
+   "ficha": {
+    "formato": "corte",
+    "tema": "personagens/polemica",
+    "gancho": "meme famoso entrou no jogo",
+    "origem": "GTA BOOM 20/11 (créditos oficiais)"
+   }
   }
  ]
 }
