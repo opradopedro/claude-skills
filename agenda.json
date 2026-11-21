@@ -2419,7 +2419,7 @@
   {
    "data": "2026-11-20",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-20_2100",
    "arquivo": "radar_v116_gta6_379_bilhoes.mp4",
    "formato": "corte",
@@ -2427,7 +2427,16 @@
    "capa": "US$ 3,79 BI em 1 dia",
    "capa_t": 0.5,
    "roteiro": "Mano, GTA 6 fez quase 4 bilhões de dólares em um dia só. A Take-Two confirmou: foram 3 bilhões e 790 milhões em vendas no primeiro dia. É o maior lançamento da história do entretenimento, contando filme, música, tudo. E antes de lançar, ele já tinha vendido 32 milhões e meio de cópias. Pra comparar, o GTA 5 levou 3 dias pra bater 1 bilhão. Tem site que calcula menos, uns 2 bilhões e 360 milhões, mas só conta as lojas digitais. E aí, você já comprou o seu? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/Df-5ECrzcJ0/",
+   "publicado": "2026-11-20T21:01-03:00",
+   "legenda": "GTA 6 fez quase 4 BILHÕES de dólares em um dia só 💰😳 a Take-Two confirmou: é o maior lançamento da história do entretenimento 🏆 ... #gta6 #gtavi #rockstargames #taketwo #gamesbr",
+   "ficha": {
+    "formato": "corte",
+    "tema": "vendas/numeros",
+    "gancho": "numero gigante",
+    "origem": "GTA BOOM 20/11 (release da Take-Two)"
+   }
   }
  ]
 }
