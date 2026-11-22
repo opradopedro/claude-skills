@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v120_gta6_asilo_franca.mp4",
+ "text": "Mano, num asilo da França os idosos largaram o Scrabble pra jogar GTA 6. Foi numa casa de repouso perto de Paris, um dia depois do lançamento. A dona Jacqueline, de 82 anos, nunca tinha pegado num controle. Às duas e meia da tarde ela já pilotava barco em Leonida e pescava pacote de droga do mar. A dona Lucienne, de 86, achou que era um filme, e agora quer GTA de presente de Natal. Teve vovó achando violento demais, mas defendendo a Lucia. Você colocaria sua avó pra jogar GTA 6, sim ou não? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "praia",
+  "barco",
+  "cidade",
+  "neon",
+  "rosto",
+  "acao"
+ ],
+ "seed": 120,
+ "font": "../../assets/fonts/Anton.ttf"
+}
