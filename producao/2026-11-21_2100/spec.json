@@ -1,0 +1,19 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v119_gta6_8_horas_circana.mp4",
+ "text": "Mano, olha isso: quem abriu GTA 6 no dia do lançamento jogou mais de 8 horas seguidas. O dado é da Circana. Nos Estados Unidos, 61% de quem ligou o PS5 naquele dia abriu GTA 6. No Xbox, no mundo todo, foram 56%. E a média foi de 513 minutos no PS5 e 494 no Xbox. Pra comparar, o Fortnite, o segundo mais jogado do dia, ficou com só 10%. E tem mais: muita gente que tinha largado o videogame voltou só pra jogar GTA 6. Você jogou mais ou menos de 8 horas no primeiro dia? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+ "merge": {
+  "GTA 6": "GTA 6"
+ },
+ "index": "/home/claude/fabrica-de-paginas/radar-gta6/broll/index.json",
+ "tags": [
+  "cidade",
+  "neon",
+  "carro",
+  "praia",
+  "rosto",
+  "acao"
+ ],
+ "seed": 119,
+ "font": "../../assets/fonts/Anton.ttf"
+}

@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 21/11/2026 17:51 (Brasília) com 115 Reels com nota. Média geral: 59.8/100.
+Atualizado em 21/11/2026 20:52 (Brasília) com 115 Reels com nota. Média geral: 59.8/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -18,7 +18,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | combate não letal / jogar GTA 6 sem matar | 1 | 77.7 | 65.8 |  |
-| mecanica/polemica: sem replay de missao | 1 | 76.2 | 65.3 |  |
+| mecanica/polemica: sem replay de missao | 1 | 76.3 | 65.3 |  |
 | bastidores/desenvolvimento | 2 | 70.1 | 65.0 |  |
 | polemica | 1 | 74.6 | 64.7 |  |
 | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | 1 | 73.7 | 64.4 |  |
@@ -111,7 +111,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 77.7 | 65.8 |  |
-| GTA 6 não deixa você jogar de novo uma missão | 1 | 76.2 | 65.3 |  |
+| GTA 6 não deixa você jogar de novo uma missão | 1 | 76.3 | 65.3 |  |
 | GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.4 |  |
 | tem gente que vai jogar 16 horas antes de você | 1 | 73.5 | 64.4 |  |
 | GTA 6 acabou de tirar 99 no Metacritic | 1 | 73.6 | 64.4 |  |
@@ -290,7 +290,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1628 | 24.7% | 52% | 57 | 0 | 1 | 1 | 78.3 (h24) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 77.7 (h72) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
-| 2026-11-18 | [Df5bA1CCBAe](https://www.instagram.com/reel/Df5bA1CCBAe/) | corte | mecanica/polemica: sem replay de missao | GTA 6 não deixa você jogar de novo uma missão | 2450 | 32.3% | 50% | 65 | 0 | 3 | 12 | 76.2 (h24) |
+| 2026-11-18 | [Df5bA1CCBAe](https://www.instagram.com/reel/Df5bA1CCBAe/) | corte | mecanica/polemica: sem replay de missao | GTA 6 não deixa você jogar de novo uma missão | 2465 | 32.2% | 50% | 65 | 0 | 3 | 12 | 76.3 (h72) |
 | 2026-10-17 | [DemXZASj3oQ](https://www.instagram.com/reel/DemXZASj3oQ/) | corte | bastidores | noticia | 1463 | 31.3% | 48% | 52 | 0 | 2 | 1 | 76.0 (h72) |
 | 2026-11-13 | [Dfs-fCfBUbU](https://www.instagram.com/reel/Dfs-fCfBUbU/) | corte | curiosidade/marketing | revelacao | 1873 | 29.9% | 46% | 110 | 3 | 8 | 22 | 76.0 (h72) |
 | 2026-11-19 | [Df7W5eqzSR5](https://www.instagram.com/reel/Df7W5eqzSR5/) | corte | polemica | pergunta | 1338 | 34.7% | 47% | 45 | 1 | 3 | 1 | 74.6 (h24) |
@@ -323,10 +323,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1322 | 37.1% | 33% | 34 | 0 | 3 | 2 | 68.1 (h72) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
 | 2026-11-04 | [DfVtA3tET7n](https://www.instagram.com/reel/DfVtA3tET7n/) | corte | regra contra spoiler do final / política de vídeos da Rockstar | se você pensa em postar o final de GTA 6, para tudo | 973 | 39% | 40% | 25 | 0 | 3 | 0 | 67.6 (h72) |
-| 2026-11-20 | [Df-kuGrBda_](https://www.instagram.com/reel/Df-kuGrBda_/) | corte | polemica/censura | censura bizarra | 2999 | 28.6% | 57% | 49 | 1 | 3 | 4 | 67.3 (provisória) |
+| 2026-11-20 | [Df-kuGrBda_](https://www.instagram.com/reel/Df-kuGrBda_/) | corte | polemica/censura | censura bizarra | 3031 | 28.6% | 57% | 50 | 1 | 3 | 4 | 67.3 (h24) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 66.8 (h72) |
 | 2026-10-14 | [DefSM3xFcrX](https://www.instagram.com/reel/DefSM3xFcrX/) | corte | vazamentos | votacao | 1453 | 30.6% | 49% | 25 | 7 | 0 | 0 | 66.5 (h72) |
-| 2026-11-20 | [Df-5ECrzcJ0](https://www.instagram.com/reel/Df-5ECrzcJ0/) | corte | vendas/numeros | numero gigante | 1699 | 35.6% | 34% | 37 | 0 | 0 | 7 | 66.5 (provisória) |
+| 2026-11-20 | [Df-5ECrzcJ0](https://www.instagram.com/reel/Df-5ECrzcJ0/) | corte | vendas/numeros | numero gigante | 1704 | 35.6% | 34% | 37 | 0 | 0 | 7 | 66.5 (provisória) |
 | 2026-11-11 | [DfnbZUiqJGe](https://www.instagram.com/reel/DfnbZUiqJGe/) | corte | possível censura do GTA 6 no Japão (CERO Z sem aviso de sexo/drogas, download menor) | GTA 6 pode chegar cortado no Japão | 2030 | 32.9% | 41% | 45 | 0 | 3 | 2 | 65.9 (h72) |
 | 2026-10-28 | [DfDrYMklbDR](https://www.instagram.com/reel/DfDrYMklbDR/) | corte | curiosidade/dinheiro | numero chocante | 739 | 46.1% | 34% | 17 | 0 | 1 | 3 | 65.3 (h72) |
 | 2026-11-16 | [DfzpDyBN7vH](https://www.instagram.com/reel/DfzpDyBN7vH/) | corte | gameplay/mecanica | revelacao | 162 | 38.7% | 47% | 5 | 0 | 0 | 1 | 65.2 (h72) |
@@ -405,4 +405,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DgAgKmetW2K](https://www.instagram.com/reel/DgAgKmetW2K/): 5.8 h no ar, 1964 views, 26.2% pularam, 50% assistido, 58 curtidas
+- [DgAgKmetW2K](https://www.instagram.com/reel/DgAgKmetW2K/): 8.9 h no ar, 1971 views, 26.2% pularam, 50% assistido, 59 curtidas
+- [DgBJUBvhGAY](https://www.instagram.com/reel/DgBJUBvhGAY/): 2.9 h no ar, 1569 views, 40.1% pularam, 32% assistido, 20 curtidas

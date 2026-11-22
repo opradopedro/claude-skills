@@ -4332,8 +4332,8 @@
    "avgWatchedPct": 15.47,
    "skipRate": 64.2,
    "durationSeconds": 40,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 92.8
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 95.8
   },
   "h24": {
    "playCount": 118,
@@ -4366,17 +4366,17 @@
   "publicado": "2026-11-18T15:10:10.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1477,
+   "playCount": 1478,
    "likeCount": 94,
    "commentCount": 2,
    "shares": 16,
    "saves": 4,
-   "avgWatchTimeMs": 17943,
-   "avgWatchedPct": 38.18,
-   "skipRate": 31.2,
+   "avgWatchTimeMs": 17931,
+   "avgWatchedPct": 38.15,
+   "skipRate": 31.3,
    "durationSeconds": 47,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 77.7
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 80.7
   },
   "h24": {
    "playCount": 1476,
@@ -4409,17 +4409,17 @@
   "publicado": "2026-11-18T21:01:06.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 2464,
+   "playCount": 2465,
    "likeCount": 65,
    "commentCount": 0,
    "shares": 12,
    "saves": 3,
-   "avgWatchTimeMs": 17563,
-   "avgWatchedPct": 50.18,
+   "avgWatchTimeMs": 17566,
+   "avgWatchedPct": 50.19,
    "skipRate": 32.2,
    "durationSeconds": 35,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 71.8
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 74.8
   },
   "h24": {
    "playCount": 2450,
@@ -4433,23 +4433,36 @@
    "durationSeconds": 35,
    "coletado": "2026-11-19T23:52Z",
    "horas": 26.9
+  },
+  "h72": {
+   "playCount": 2465,
+   "likeCount": 65,
+   "commentCount": 0,
+   "shares": 12,
+   "saves": 3,
+   "avgWatchTimeMs": 17566,
+   "avgWatchedPct": 50.19,
+   "skipRate": 32.2,
+   "durationSeconds": 35,
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 74.8
   }
  },
  "Df5v6ZZK41B": {
   "publicado": "2026-11-19T00:04:39.000Z",
   "legenda": "GTA 6 só libera os códigos de trapaça depois que você ZERAR a história",
   "atual": {
-   "playCount": 1377,
+   "playCount": 1379,
    "likeCount": 32,
    "commentCount": 1,
    "shares": 4,
    "saves": 1,
-   "avgWatchTimeMs": 17557,
-   "avgWatchedPct": 45.02,
+   "avgWatchTimeMs": 17536,
+   "avgWatchedPct": 44.96,
    "skipRate": 30.9,
    "durationSeconds": 39,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 68.8
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 1377,
@@ -4478,8 +4491,8 @@
    "avgWatchedPct": 46.85,
    "skipRate": 34.7,
    "durationSeconds": 34,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 53.8
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 56.8
   },
   "h24": {
    "playCount": 1338,
@@ -4499,17 +4512,17 @@
   "publicado": "2026-11-19T20:58:24.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1671,
+   "playCount": 1676,
    "likeCount": 59,
    "commentCount": 0,
    "shares": 1,
    "saves": 2,
-   "avgWatchTimeMs": 18117,
-   "avgWatchedPct": 51.76,
+   "avgWatchTimeMs": 18127,
+   "avgWatchedPct": 51.79,
    "skipRate": 24.8,
    "durationSeconds": 35,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 47.9
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 50.9
   },
   "h24": {
    "playCount": 1628,
@@ -4538,8 +4551,8 @@
    "avgWatchedPct": 31.08,
    "skipRate": 32.1,
    "durationSeconds": 37,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 44.9
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 310,
@@ -4559,17 +4572,17 @@
   "publicado": "2026-11-20T15:01:18.000Z",
   "legenda": "GTA 6 trouxe o Niko Bellic de volta",
   "atual": {
-   "playCount": 2130,
+   "playCount": 2132,
    "likeCount": 154,
    "commentCount": 6,
    "shares": 13,
    "saves": 9,
-   "avgWatchTimeMs": 16273,
-   "avgWatchedPct": 45.2,
+   "avgWatchTimeMs": 16257,
+   "avgWatchedPct": 45.16,
    "skipRate": 38.3,
    "durationSeconds": 36,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 29.8
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 32.8
   },
   "h24": {
    "playCount": 2130,
@@ -4589,51 +4602,81 @@
   "publicado": "2026-11-20T21:02:06.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 2999,
-   "likeCount": 49,
+   "playCount": 3031,
+   "likeCount": 50,
    "commentCount": 1,
    "shares": 4,
    "saves": 3,
-   "avgWatchTimeMs": 21195,
-   "avgWatchedPct": 57.28,
+   "avgWatchTimeMs": 21091,
+   "avgWatchedPct": 57.0,
    "skipRate": 28.6,
    "durationSeconds": 37,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 23.8
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 26.8
+  },
+  "h24": {
+   "playCount": 3031,
+   "likeCount": 50,
+   "commentCount": 1,
+   "shares": 4,
+   "saves": 3,
+   "avgWatchTimeMs": 21091,
+   "avgWatchedPct": 57.0,
+   "skipRate": 28.6,
+   "durationSeconds": 37,
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 26.8
   }
  },
  "Df-5ECrzcJ0": {
   "publicado": "2026-11-21T00:00:17.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1699,
+   "playCount": 1704,
    "likeCount": 37,
    "commentCount": 0,
    "shares": 7,
    "saves": 0,
-   "avgWatchTimeMs": 13098,
-   "avgWatchedPct": 33.58,
+   "avgWatchTimeMs": 13078,
+   "avgWatchedPct": 33.53,
    "skipRate": 35.6,
    "durationSeconds": 39,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 20.9
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 23.9
   }
  },
  "DgAgKmetW2K": {
   "publicado": "2026-11-21T15:00:49.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1964,
-   "likeCount": 58,
+   "playCount": 1971,
+   "likeCount": 59,
    "commentCount": 0,
    "shares": 0,
    "saves": 2,
-   "avgWatchTimeMs": 19576,
-   "avgWatchedPct": 50.19,
+   "avgWatchTimeMs": 19578,
+   "avgWatchedPct": 50.2,
    "skipRate": 26.2,
    "durationSeconds": 39,
-   "coletado": "2026-11-21T20:51Z",
-   "horas": 5.8
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 8.9
+  }
+ },
+ "DgBJUBvhGAY": {
+  "publicado": "2026-11-21T21:00:28.000Z",
+  "legenda": "GTA 6: mais de 2 milhões jogaram antes da hora com o truque da Nova Zelândia",
+  "atual": {
+   "playCount": 1569,
+   "likeCount": 20,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 11241,
+   "avgWatchedPct": 32.117,
+   "skipRate": 40.1,
+   "durationSeconds": 35,
+   "coletado": "2026-11-21T23:52Z",
+   "horas": 2.9
   }
  }
 }
