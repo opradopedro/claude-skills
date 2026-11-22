@@ -2485,7 +2485,7 @@
   {
    "data": "2026-11-21",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-21_2100",
    "arquivo": "radar_v119_gta6_8_horas_circana.mp4",
    "formato": "corte",
@@ -2493,7 +2493,16 @@
    "capa": "8 horas sem largar",
    "capa_t": 7.3,
    "roteiro": "Mano, olha isso: quem abriu GTA 6 no dia do lançamento jogou mais de 8 horas seguidas. O dado é da Circana. Nos Estados Unidos, 61% de quem ligou o PS5 naquele dia abriu GTA 6. No Xbox, no mundo todo, foram 56%. E a média foi de 513 minutos no PS5 e 494 no Xbox. Pra comparar, o Fortnite, o segundo mais jogado do dia, ficou com só 10%. E tem mais: muita gente que tinha largado o videogame voltou só pra jogar GTA 6. Você jogou mais ou menos de 8 horas no primeiro dia? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DgBeNkupg-G/",
+   "publicado": "2026-11-21T21:06-03:00",
+   "legenda": "GTA 6 prendeu a galera por mais de 8 HORAS no dia do lançamento 🎮😳 e o Fortnite ficou comendo poeira 🏃\n\n📊 61% de quem ligou o PS5 nos EUA em 19/11 abriu GTA 6\n🌎 No Xbox, no mundo todo: 56%\n⏱️ Média de 513 minutos no PS5 e 494 no Xbox\n🥈 Fortnite, o 2º mais jogado do dia, ficou com só 10%\n🔁 Muita gente que tinha largado o videogame voltou só pra jogar GTA 6\n\nVocê jogou mais ou menos de 8 horas no primeiro dia? Comenta MAIS ou MENOS e manda pra quem vai jogar GTA 6 com você 👇\n\nFonte: Circana (Mat Piscatella), via GTA BOOM (21/11)\n\n#gta6 #gtavi #ps5 #rockstargames #gamesbr",
+   "ficha": {
+    "formato": "corte",
+    "tema": "curiosidade/numeros",
+    "gancho": "numero gigante (8 horas) + comparação com Fortnite",
+    "origem": "GTA BOOM 21/11 (Circana/Mat Piscatella)"
+   }
   }
  ]
 }
