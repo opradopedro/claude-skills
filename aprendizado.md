@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 22/11/2026 11:57 (Brasília) com 118 Reels com nota. Média geral: 59.9/100.
+Atualizado em 22/11/2026 17:56 (Brasília) com 118 Reels com nota. Média geral: 59.9/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -27,7 +27,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | 1 | 73.5 | 64.4 |  |
 | premiacao | 1 | 73.2 | 64.3 |  |
 | alerta/utilidade | 3 | 67.2 | 64.3 |  |
-| personagens/polemica | 1 | 73.1 | 64.3 |  |
+| personagens/polemica | 1 | 73.0 | 64.3 |  |
 | personagens/historia | 1 | 72.9 | 64.2 |  |
 | profecia viral: internet acaba 2 dias antes de GTA 6 | 1 | 72.6 | 64.1 |  |
 | noticia/vazamentos | 1 | 72.3 | 64.0 |  |
@@ -118,7 +118,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.5 |  |
 | GTA 6 acabou de tirar 99 no Metacritic | 1 | 73.6 | 64.5 |  |
 | tem gente que vai jogar 16 horas antes de você | 1 | 73.5 | 64.4 |  |
-| meme famoso entrou no jogo | 1 | 73.1 | 64.3 |  |
+| meme famoso entrou no jogo | 1 | 73.0 | 64.3 |  |
 | retorno de personagem | 1 | 72.9 | 64.2 |  |
 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1 | 72.6 | 64.1 |  |
 | GTA 6 quebrou recorde antes de sair | 1 | 72.2 | 64.0 |  |
@@ -186,7 +186,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA BOOM 18/11 (Metacritic) | 1 | 73.6 | 64.5 |  |
 | vice.com/en/article/gta-6-midnight-release-times-file-size-preload (03/11) | 1 | 73.5 | 64.4 |  |
 | Kotaku 15/10 (FAQ do The Game Awards) | 1 | 73.2 | 64.3 |  |
-| GTA BOOM 20/11 (créditos oficiais) | 1 | 73.1 | 64.3 |  |
+| GTA BOOM 20/11 (créditos oficiais) | 1 | 73.0 | 64.3 |  |
 | noticia (Rob Nelson via IGN/Insider Gaming) | 1 | 72.9 | 64.2 |  |
 | GTA BOOM 19/11 (créditos oficiais da Rockstar) | 1 | 72.9 | 64.2 |  |
 | VGTimes 03/11 (post viral no X) | 1 | 72.6 | 64.1 |  |
@@ -298,16 +298,16 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1628 | 24.7% | 52% | 57 | 0 | 1 | 1 | 78.3 (h24) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 77.5 (h72) |
-| 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1876 | 31.3% | 51% | 90 | 1 | 2 | 2 | 76.7 (provisória) |
+| 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1881 | 31.3% | 51% | 90 | 1 | 2 | 2 | 76.7 (provisória) |
 | 2026-11-18 | [Df5bA1CCBAe](https://www.instagram.com/reel/Df5bA1CCBAe/) | corte | mecanica/polemica: sem replay de missao | GTA 6 não deixa você jogar de novo uma missão | 2465 | 32.2% | 50% | 65 | 0 | 3 | 12 | 76.3 (h72) |
 | 2026-10-17 | [DemXZASj3oQ](https://www.instagram.com/reel/DemXZASj3oQ/) | corte | bastidores | noticia | 1463 | 31.3% | 48% | 52 | 0 | 2 | 1 | 76.0 (h72) |
 | 2026-11-13 | [Dfs-fCfBUbU](https://www.instagram.com/reel/Dfs-fCfBUbU/) | corte | curiosidade/marketing | revelacao | 1873 | 29.9% | 46% | 110 | 3 | 8 | 22 | 76.0 (h72) |
-| 2026-11-19 | [Df7W5eqzSR5](https://www.instagram.com/reel/Df7W5eqzSR5/) | corte | polemica | pergunta | 1338 | 34.7% | 47% | 45 | 1 | 3 | 1 | 74.6 (h24) |
+| 2026-11-19 | [Df7W5eqzSR5](https://www.instagram.com/reel/Df7W5eqzSR5/) | corte | polemica | pergunta | 1338 | 34.7% | 47% | 45 | 1 | 3 | 1 | 74.6 (h72) |
 | 2026-11-01 | [DfN-d34Eow-](https://www.instagram.com/reel/DfN-d34Eow-/) | corte | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | GTA 6 pode perder o Jogo do Ano | 1268 | 35.6% | 45% | 51 | 0 | 1 | 0 | 73.7 (h24) |
 | 2026-11-18 | [Df4yyzdODQR](https://www.instagram.com/reel/Df4yyzdODQR/) | corte | notas/reviews: 99 no Metacritic | GTA 6 acabou de tirar 99 no Metacritic | 1477 | 31.2% | 38% | 94 | 2 | 4 | 16 | 73.6 (h72) |
 | 2026-11-05 | [DfYRV6llI_F](https://www.instagram.com/reel/DfYRV6llI_F/) | corte | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | tem gente que vai jogar 16 horas antes de você | 1485 | 32.1% | 39% | 48 | 0 | 7 | 5 | 73.5 (h72) |
 | 2026-10-17 | [DenAhZZCOCA](https://www.instagram.com/reel/DenAhZZCOCA/) | corte | premiacao | enquete | 1871 | 36.9% | 44% | 49 | 0 | 3 | 15 | 73.2 (h72) |
-| 2026-11-21 | [DgAgKmetW2K](https://www.instagram.com/reel/DgAgKmetW2K/) | corte | personagens/polemica | meme famoso entrou no jogo | 1973 | 26.2% | 50% | 59 | 0 | 2 | 0 | 73.1 (provisória) |
+| 2026-11-21 | [DgAgKmetW2K](https://www.instagram.com/reel/DgAgKmetW2K/) | corte | personagens/polemica | meme famoso entrou no jogo | 1977 | 26.2% | 50% | 59 | 0 | 2 | 0 | 73.0 (h24) |
 | 2026-10-12 | [DeZjgTSD3Aw](https://www.instagram.com/reel/DeZjgTSD3Aw/) | corte | preco_compra | comparacao | 1237 | 35.7% | 42% | 44 | 0 | 2 | 1 | 72.9 (h24) |
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
 | 2026-11-20 | [Df97WheJKct](https://www.instagram.com/reel/Df97WheJKct/) | corte | personagens/historia | retorno de personagem | 2130 | 38.3% | 45% | 154 | 6 | 9 | 13 | 72.9 (h24) |
@@ -390,7 +390,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-23 | [De2iVxUACb4](https://www.instagram.com/reel/De2iVxUACb4/) | corte | vendas/numeros | numero chocante | 117 | 57.5% | 22% | 6 | 0 | 0 | 0 | 51.5 (h72) |
 | 2026-10-28 | [DfDXVFojWfX](https://www.instagram.com/reel/DfDXVFojWfX/) | corte | musica/trilha | numero chocante | 121 | 44.5% | 22% | 4 | 0 | 0 | 0 | 51.0 (h72) |
 | 2026-11-09 | [DfhoXVXmSCd](https://www.instagram.com/reel/DfhoXVXmSCd/) | corte | piloto desenha a arte do GTA VI no céu com a rota do avião | um piloto desenhou o GTA 6 no céu dos Estados Unidos | 146 | 62.6% | 22% | 5 | 0 | 1 | 2 | 50.1 (h72) |
-| 2026-11-21 | [DgBJUBvhGAY](https://www.instagram.com/reel/DgBJUBvhGAY/) | corte | curiosidade/numeros | numero gigante + Brasil na lista | 1586 | 40.1% | 32% | 20 | 0 | 0 | 1 | 49.9 (provisória) |
+| 2026-11-21 | [DgBJUBvhGAY](https://www.instagram.com/reel/DgBJUBvhGAY/) | corte | curiosidade/numeros | numero gigante + Brasil na lista | 1587 | 40% | 32% | 20 | 0 | 0 | 1 | 49.9 (provisória) |
 | 2026-10-16 | [DejyjUvD27e](https://www.instagram.com/reel/DejyjUvD27e/) | corte | mapa | lista | 126 | 64.3% | 25% | 5 | 0 | 0 | 0 | 49.8 (h72) |
 | 2026-10-23 | [De10O6vgais](https://www.instagram.com/reel/De10O6vgais/) | corte | marketing/mundo real | curiosidade + preço | 149 | 42.1% | 29% | 4 | 0 | 0 | 0 | 49.3 (h72) |
 | 2026-11-08 | [DffCxD-DYYY](https://www.instagram.com/reel/DffCxD-DYYY/) | corte | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 131 | 48.4% | 21% | 4 | 0 | 0 | 0 | 47.7 (h72) |
@@ -413,3 +413,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.7 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 26.8 (h24) |
 | 2026-11-17 | [Df3LR72Aqvw](https://www.instagram.com/reel/Df3LR72Aqvw/) | corte | criadores/streamers | Arthur Morgan vai jogar GTA 6 | 118 | 64.2% | 15% | 0 | 0 | 0 | 0 | 17.7 (h72) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DgDFn3Buuca](https://www.instagram.com/reel/DgDFn3Buuca/): 5.8 h no ar, 412 views, 48.9% pularam, 24% assistido, 11 curtidas
