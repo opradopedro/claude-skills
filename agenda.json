@@ -2569,6 +2569,19 @@
     "gancho": "bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento",
     "origem": "GTA BOOM 22/11"
    }
+  },
+  {
+   "data": "2026-11-23",
+   "hora": "12:00",
+   "status": "pendente",
+   "pasta": "producao/2026-11-23_1200",
+   "arquivo": "radar_v123_gta6_xbox_quick_resume_fps.mp4",
+   "formato": "corte",
+   "tema": "Truque do Quick Resume no Xbox Series X/S com TV 120 Hz destrava os 30 fps de GTA 6 (45 a ~90 fps em cena leve), mas a simulação é presa ao frame rate: Jason anda em dobro, tipo filme mudo; volta a 30 ao fechar o jogo; testado pela Fuzion Xbox Testing (GTA BOOM 23/11)",
+   "capa": "60 fps no Xbox?",
+   "capa_t": 11.5,
+   "roteiro": "Mano, descobriram um jeito de rodar GTA 6 acima de 30 fps no Xbox, mas tem uma pegadinha. O truque usa o Quick Resume: você abre o jogo com a TV em 60 hertz, volta pra 120, abre outro jogo e retoma o GTA. A trava de 30 cai, e o jogo vai de uns 45 até 90 quadros. Só que a física do jogo é presa no fps. Quanto mais quadro, mais rápido tudo anda. O Jason sai correndo em dobro, igual filme mudo antigo. E quando você fecha o jogo, volta pros 30. Você testaria esse truque ou prefere jogar normal? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+   "capa_embutida": true
   }
  ]
 }
