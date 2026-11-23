@@ -2595,7 +2595,7 @@
   {
    "data": "2026-11-23",
    "hora": "18:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-23_1800",
    "arquivo": "radar_v124_gta6_premie_grecia_natal.mp4",
    "formato": "corte",
@@ -2603,7 +2603,15 @@
    "capa": "Premiê indicou de presente",
    "capa_t": 18.6,
    "roteiro": "Mano, o primeiro-ministro da Grécia usou GTA 6 pra vender pensão de vovô no TikTok. No vídeo de 20 de novembro, Kyriakos Mitsotakis anunciou um auxílio de quatrocentos euros pra mais de dois milhões de aposentados, com a logo e a música do jogo. Aí ele perguntou quem ia pedir GTA 6 de Natal pro vovô e pra vovó. O detalhe: o jogo é PEGI dezoito, só pra adultos, e o governo dele quer barrar rede social pra menor de quinze anos. A oposição caiu matando no mesmo dia, e até o ex-primeiro-ministro Alexis Tsipras pediu pros avós não comprarem. Foi piada inocente ou mancada? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DgGTOYQpUyZ/",
+   "legenda": "GTA 6 virou presente de Natal… indicado por um PRIMEIRO-MINISTRO 🎄😳 e o jogo é só pra maiores de 18 🔞 (Mitsotakis, auxílio de 400 euros, PEGI 18, PASOK e Tsipras criticaram) #gta6 #gtavi #grandtheftauto #rockstargames #notíciasgames",
+   "ficha": {
+    "formato": "corte",
+    "tema": "Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11)",
+    "gancho": "GTA 6 virou presente de Natal indicado por um primeiro-ministro",
+    "origem": "GTA BOOM 23/11"
+   }
   }
  ]
 }
