@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 22/11/2026 17:56 (Brasília) com 118 Reels com nota. Média geral: 59.9/100.
+Atualizado em 22/11/2026 20:51 (Brasília) com 118 Reels com nota. Média geral: 59.9/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -30,10 +30,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | personagens/polemica | 1 | 73.0 | 64.3 |  |
 | personagens/historia | 1 | 72.9 | 64.2 |  |
 | profecia viral: internet acaba 2 dias antes de GTA 6 | 1 | 72.6 | 64.1 |  |
+| bastidores | 5 | 65.7 | 64.0 |  |
 | noticia/vazamentos | 1 | 72.3 | 64.0 |  |
 | recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | 1 | 72.2 | 64.0 |  |
 | mecanica/polemica: cheats so depois de zerar | 1 | 72.1 | 64.0 |  |
-| bastidores | 5 | 65.5 | 63.9 |  |
 | prévia Edge: mapa cedo, combustível, transporte | 1 | 71.8 | 63.9 |  |
 | curiosidade/marketing | 2 | 67.8 | 63.8 |  |
 | noticia/mercado | 1 | 71.0 | 63.6 |  |
@@ -51,7 +51,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | possível censura do GTA 6 no Japão (CERO Z sem aviso de sexo/drogas, download menor) | 1 | 65.9 | 61.9 |  |
 | curiosidade/dinheiro | 1 | 64.9 | 61.6 |  |
 | gameplay/mecanica | 1 | 65.1 | 61.6 |  |
-| curiosidade/numeros | 2 | 63.3 | 61.6 |  |
+| curiosidade/numeros | 2 | 63.2 | 61.6 |  |
 | Sony + Back Market recompram PS5 usado por até US$ 400 antes do GTA 6 | 1 | 64.7 | 61.5 |  |
 | teoria | 1 | 64.4 | 61.4 |  |
 | marca/humor | 1 | 64.3 | 61.4 |  |
@@ -113,7 +113,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 77.5 | 65.8 |  |
-| numero gigante (8 horas) + comparação com Fortnite | 1 | 76.7 | 65.5 |  |
+| numero gigante (8 horas) + comparação com Fortnite | 1 | 76.6 | 65.5 |  |
 | GTA 6 não deixa você jogar de novo uma missão | 1 | 76.3 | 65.4 |  |
 | GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.5 |  |
 | GTA 6 acabou de tirar 99 no Metacritic | 1 | 73.6 | 64.5 |  |
@@ -175,10 +175,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | GTA BOOM 18/11 | 2 | 74.2 | 67.1 |  |
-| GTA BOOM 19/11 (post conjunto dos atores no Instagram) | 1 | 78.3 | 66.0 |  |
+| GTA BOOM 19/11 (post conjunto dos atores no Instagram) | 1 | 79.1 | 66.3 |  |
 | RockstarINTEL 26/10 (NateTheHate) | 1 | 77.5 | 65.8 |  |
 | GTABase (Rob Nelson, Rockstar North) | 1 | 77.5 | 65.8 |  |
-| GTA BOOM 21/11 (Circana/Mat Piscatella) | 1 | 76.7 | 65.5 |  |
+| GTA BOOM 21/11 (Circana/Mat Piscatella) | 1 | 76.6 | 65.5 |  |
 | GamesRadar 16/10 | 1 | 76.0 | 65.3 |  |
 | GTA BOOM 13/11 + teaser oficial no X | 1 | 76.0 | 65.3 |  |
 | TMZ via GTA BOOM 18/11 | 1 | 74.6 | 64.8 |  |
@@ -295,10 +295,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Data | Reel | Formato | Tema | Gancho | Views | Pularam | Assistido | Curt. | Coment. | Salv. | Comp. | Nota |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1628 | 24.7% | 52% | 57 | 0 | 1 | 1 | 78.3 (h24) |
+| 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1699 | 25.1% | 52% | 60 | 0 | 2 | 1 | 79.1 (h72) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 77.5 (h72) |
-| 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1881 | 31.3% | 51% | 90 | 1 | 2 | 2 | 76.7 (provisória) |
+| 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1883 | 31.4% | 51% | 90 | 1 | 2 | 2 | 76.6 (provisória) |
 | 2026-11-18 | [Df5bA1CCBAe](https://www.instagram.com/reel/Df5bA1CCBAe/) | corte | mecanica/polemica: sem replay de missao | GTA 6 não deixa você jogar de novo uma missão | 2465 | 32.2% | 50% | 65 | 0 | 3 | 12 | 76.3 (h72) |
 | 2026-10-17 | [DemXZASj3oQ](https://www.instagram.com/reel/DemXZASj3oQ/) | corte | bastidores | noticia | 1463 | 31.3% | 48% | 52 | 0 | 2 | 1 | 76.0 (h72) |
 | 2026-11-13 | [Dfs-fCfBUbU](https://www.instagram.com/reel/Dfs-fCfBUbU/) | corte | curiosidade/marketing | revelacao | 1873 | 29.9% | 46% | 110 | 3 | 8 | 22 | 76.0 (h72) |
@@ -390,7 +390,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-23 | [De2iVxUACb4](https://www.instagram.com/reel/De2iVxUACb4/) | corte | vendas/numeros | numero chocante | 117 | 57.5% | 22% | 6 | 0 | 0 | 0 | 51.5 (h72) |
 | 2026-10-28 | [DfDXVFojWfX](https://www.instagram.com/reel/DfDXVFojWfX/) | corte | musica/trilha | numero chocante | 121 | 44.5% | 22% | 4 | 0 | 0 | 0 | 51.0 (h72) |
 | 2026-11-09 | [DfhoXVXmSCd](https://www.instagram.com/reel/DfhoXVXmSCd/) | corte | piloto desenha a arte do GTA VI no céu com a rota do avião | um piloto desenhou o GTA 6 no céu dos Estados Unidos | 146 | 62.6% | 22% | 5 | 0 | 1 | 2 | 50.1 (h72) |
-| 2026-11-21 | [DgBJUBvhGAY](https://www.instagram.com/reel/DgBJUBvhGAY/) | corte | curiosidade/numeros | numero gigante + Brasil na lista | 1587 | 40% | 32% | 20 | 0 | 0 | 1 | 49.9 (provisória) |
+| 2026-11-21 | [DgBJUBvhGAY](https://www.instagram.com/reel/DgBJUBvhGAY/) | corte | curiosidade/numeros | numero gigante + Brasil na lista | 1588 | 40.1% | 32% | 20 | 0 | 0 | 1 | 49.9 (h24) |
 | 2026-10-16 | [DejyjUvD27e](https://www.instagram.com/reel/DejyjUvD27e/) | corte | mapa | lista | 126 | 64.3% | 25% | 5 | 0 | 0 | 0 | 49.8 (h72) |
 | 2026-10-23 | [De10O6vgais](https://www.instagram.com/reel/De10O6vgais/) | corte | marketing/mundo real | curiosidade + preço | 149 | 42.1% | 29% | 4 | 0 | 0 | 0 | 49.3 (h72) |
 | 2026-11-08 | [DffCxD-DYYY](https://www.instagram.com/reel/DffCxD-DYYY/) | corte | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 131 | 48.4% | 21% | 4 | 0 | 0 | 0 | 47.7 (h72) |
@@ -416,4 +416,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DgDFn3Buuca](https://www.instagram.com/reel/DgDFn3Buuca/): 5.8 h no ar, 412 views, 48.9% pularam, 24% assistido, 11 curtidas
+- [DgDFn3Buuca](https://www.instagram.com/reel/DgDFn3Buuca/): 8.7 h no ar, 422 views, 49.2% pularam, 24% assistido, 11 curtidas
+- [DgDuqjGBvUd](https://www.instagram.com/reel/DgDuqjGBvUd/): 2.8 h no ar, 1793 views, 42.0% pularam, 42% assistido, 40 curtidas
