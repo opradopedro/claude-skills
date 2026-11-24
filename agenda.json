@@ -2658,7 +2658,7 @@
     {
       "data": "2026-11-24",
       "hora": "18:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-24_1800",
       "arquivo": "radar_v127_gta6_npc_imortal_sniper.mp4",
       "formato": "corte",
@@ -2672,7 +2672,9 @@
         "tema": "NPC imortal do sniper (easter egg de terror)",
         "gancho": "GTA 6 tem um NPC que não morre e caça você pela mira do sniper",
         "origem": "GTA BOOM 24/11 (gtaboom.com/gta-6-has-an-unkillable-npc-who-hunts-you-through-a-sniper-scope-here-is-how-to-find-him-c4de); prints do artigo"
-      }
+      },
+      "link": "https://www.instagram.com/reel/DgI3lu4sRpK/",
+      "capa_embutida": true
     }
   ]
 }
