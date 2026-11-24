@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 23/11/2026 17:51 (Brasília) com 121 Reels com nota. Média geral: 60.0/100.
+Atualizado em 23/11/2026 20:52 (Brasília) com 121 Reels com nota. Média geral: 60.0/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -46,7 +46,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | classificação etária 18+ no mundo todo e crítica da USK | 1 | 68.3 | 62.7 |  |
 | gameplay/mapa | 1 | 67.5 | 62.5 |  |
 | regra contra spoiler do final / política de vídeos da Rockstar | 1 | 67.6 | 62.5 |  |
-| polemica/censura | 1 | 67.3 | 62.4 |  |
+| polemica/censura | 1 | 67.2 | 62.4 |  |
 | lista/personagens | 1 | 66.6 | 62.2 |  |
 | possível censura do GTA 6 no Japão (CERO Z sem aviso de sexo/drogas, download menor) | 1 | 65.9 | 61.9 |  |
 | gameplay/mecanica | 1 | 65.0 | 61.6 |  |
@@ -114,7 +114,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 1 | 77.8 | 65.9 |  |
+| bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 1 | 77.9 | 65.9 |  |
 | dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 77.4 | 65.8 |  |
 | numero gigante (8 horas) + comparação com Fortnite | 1 | 76.6 | 65.5 |  |
 | GTA 6 não deixa você jogar de novo uma missão | 1 | 76.3 | 65.4 |  |
@@ -132,7 +132,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA 6 é proibido pra menor de dezoito no mundo inteiro | 1 | 68.3 | 62.7 |  |
 | ex-pesquisador revela pesquisa nível espionagem | 1 | 68.2 | 62.7 |  |
 | se você pensa em postar o final de GTA 6, para tudo | 1 | 67.6 | 62.5 |  |
-| censura bizarra | 1 | 67.3 | 62.4 |  |
+| censura bizarra | 1 | 67.2 | 62.4 |  |
 | pergunta | 11 | 62.7 | 62.3 |  |
 | votacao | 1 | 66.5 | 62.1 |  |
 | numero gigante | 1 | 66.4 | 62.1 |  |
@@ -187,7 +187,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GamesRadar 16/10 | 1 | 76.0 | 65.3 |  |
 | GTA BOOM 13/11 + teaser oficial no X | 1 | 76.0 | 65.3 |  |
 | TMZ via GTA BOOM 18/11 | 1 | 74.6 | 64.8 |  |
-| GTA BOOM 22/11 | 2 | 69.4 | 64.7 |  |
+| GTA BOOM 22/11 | 2 | 69.5 | 64.7 |  |
 | GTA BOOM 27/10 (Ray Ampoloquio) | 1 | 73.7 | 64.5 |  |
 | vice.com/en/article/gta-6-midnight-release-times-file-size-preload (03/11) | 1 | 73.5 | 64.5 |  |
 | GTA BOOM 18/11 (Metacritic) | 1 | 73.6 | 64.5 |  |
@@ -214,7 +214,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | IGN via GTA BOOM 17/11 | 1 | 68.2 | 62.7 |  |
 | gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download) | 1 | 67.7 | 62.5 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 67.5 | 62.5 |  |
-| GTA BOOM 20/11 (Game*Spark) | 1 | 67.3 | 62.4 |  |
+| GTA BOOM 20/11 (Game*Spark) | 1 | 67.2 | 62.4 |  |
 | site oficial da Rockstar (via Push Square) | 1 | 66.6 | 62.2 |  |
 | Kotaku 12/10 | 1 | 66.5 | 62.1 |  |
 | GTA BOOM 20/11 (release da Take-Two) | 1 | 66.4 | 62.1 |  |
@@ -303,7 +303,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Data | Reel | Formato | Tema | Gancho | Views | Pularam | Assistido | Curt. | Coment. | Salv. | Comp. | Nota |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1699 | 25.1% | 52% | 60 | 0 | 2 | 1 | 79.1 (h72) |
-| 2026-11-22 | [DgEDP_EByh3](https://www.instagram.com/reel/DgEDP_EByh3/) | corte | noticia/polemica | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 3429 | 24.9% | 51% | 94 | 4 | 9 | 1 | 77.8 (provisória) |
+| 2026-11-22 | [DgEDP_EByh3](https://www.instagram.com/reel/DgEDP_EByh3/) | corte | noticia/polemica | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 3455 | 24.8% | 51% | 95 | 4 | 9 | 1 | 77.9 (provisória) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 77.4 (h72) |
 | 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1884 | 31.4% | 50% | 90 | 1 | 2 | 2 | 76.6 (h24) |
@@ -341,7 +341,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
 | 2026-11-04 | [DfVtA3tET7n](https://www.instagram.com/reel/DfVtA3tET7n/) | corte | regra contra spoiler do final / política de vídeos da Rockstar | se você pensa em postar o final de GTA 6, para tudo | 973 | 39% | 40% | 25 | 0 | 3 | 0 | 67.6 (h72) |
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 827 | 39.7% | 31% | 26 | 0 | 3 | 4 | 67.5 (h72) |
-| 2026-11-20 | [Df-kuGrBda_](https://www.instagram.com/reel/Df-kuGrBda_/) | corte | polemica/censura | censura bizarra | 3031 | 28.6% | 57% | 50 | 1 | 3 | 4 | 67.3 (h24) |
+| 2026-11-20 | [Df-kuGrBda_](https://www.instagram.com/reel/Df-kuGrBda_/) | corte | polemica/censura | censura bizarra | 3036 | 28.7% | 57% | 50 | 1 | 3 | 4 | 67.2 (h72) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 66.6 (h72) |
 | 2026-10-14 | [DefSM3xFcrX](https://www.instagram.com/reel/DefSM3xFcrX/) | corte | vazamentos | votacao | 1453 | 30.6% | 49% | 25 | 7 | 0 | 0 | 66.5 (h72) |
 | 2026-11-20 | [Df-5ECrzcJ0](https://www.instagram.com/reel/Df-5ECrzcJ0/) | corte | vendas/numeros | numero gigante | 1706 | 35.6% | 34% | 37 | 0 | 0 | 7 | 66.4 (h24) |
@@ -364,7 +364,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-06 | [DfZ4kfAAo1K](https://www.instagram.com/reel/DfZ4kfAAo1K/) | corte | PC: ex-diretor da Rockstar diz que porte feito por fãs com IA pode encurtar a espera do PC | um ex-diretor da Rockstar acha que a IA pode adiantar o GTA 6 no PC | 442 | 37.9% | 29% | 14 | 0 | 1 | 0 | 62.5 (h72) |
 | 2026-11-12 | [DfpVzLbyGK6](https://www.instagram.com/reel/DfpVzLbyGK6/) | corte | Grotti Cheetah real (Ferrari Testarossa da West Coast Customs) à venda por £1 milhão na Selfridges | GTA 6 virou carro de verdade | 322 | 42.5% | 36% | 11 | 0 | 0 | 2 | 62.4 (h72) |
 | 2026-10-20 | [Deuu91Skz6q](https://www.instagram.com/reel/Deuu91Skz6q/) | corte | bastidores | pergunta | 146 | 43.8% | 40% | 5 | 0 | 0 | 1 | 61.2 (h72) |
-| 2026-11-22 | [DgDuqjGBvUd](https://www.instagram.com/reel/DgDuqjGBvUd/) | corte | curiosidade/streamer | IShowSpeed zerou GTA 6 em 52 h sem dormir e perdeu o save de 98% | 1810 | 42.2% | 42% | 40 | 0 | 3 | 0 | 61.0 (provisória) |
+| 2026-11-22 | [DgDuqjGBvUd](https://www.instagram.com/reel/DgDuqjGBvUd/) | corte | curiosidade/streamer | IShowSpeed zerou GTA 6 em 52 h sem dormir e perdeu o save de 98% | 1810 | 42.2% | 42% | 40 | 0 | 3 | 0 | 61.0 (h24) |
 | 2026-11-05 | [DfX9Saomzze](https://www.instagram.com/reel/DfX9Saomzze/) | corte | imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11) | 39 imagens novas hoje | 139 | 40.5% | 34% | 9 | 0 | 1 | 0 | 60.9 (h72) |
 | 2026-10-18 | [DeplZ4bk8TX](https://www.instagram.com/reel/DeplZ4bk8TX/) | corte | trailer | enquete | 151 | 31.5% | 42% | 5 | 0 | 0 | 0 | 60.8 (h72) |
 | 2026-11-15 | [DfyA5lpBOl_](https://www.instagram.com/reel/DfyA5lpBOl_/) | corte | evento/lancamento | revelacao | 1537 | 32.4% | 31% | 31 | 0 | 3 | 0 | 60.8 (h72) |
@@ -426,4 +426,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DgFqdACOwms](https://www.instagram.com/reel/DgFqdACOwms/): 5.7 h no ar, 1074 views, 33.3% pularam, 35% assistido, 32 curtidas
+- [DgFqdACOwms](https://www.instagram.com/reel/DgFqdACOwms/): 8.7 h no ar, 1178 views, 34.3% pularam, 36% assistido, 34 curtidas
+- [DgGTOYQpUyZ](https://www.instagram.com/reel/DgGTOYQpUyZ/): 2.8 h no ar, 157 views, 41.7% pularam, 30% assistido, 1 curtidas
