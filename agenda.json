@@ -2616,7 +2616,7 @@
   {
    "data": "2026-11-23",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-23_2100",
    "arquivo": "radar_v125_gta6_album_deluxe_anitta.mp4",
    "formato": "corte",
@@ -2631,7 +2631,8 @@
     "gancho": "A Anitta tá na trilha oficial do GTA 6",
     "origem": "GTA BOOM 23/11"
    },
-   "capa_embutida": true
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DgGnxzLMxwd/"
   }
  ]
 }
