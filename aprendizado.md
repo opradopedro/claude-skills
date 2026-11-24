@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 24/11/2026 11:52 (Brasília) com 124 Reels com nota. Média geral: 59.7/100.
+Atualizado em 24/11/2026 17:51 (Brasília) com 124 Reels com nota. Média geral: 59.7/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -43,7 +43,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | pré-download oficial dia 10 e 212 GB | 1 | 69.3 | 62.9 |  |
 | Take-Two: pré-venda do GTA 6 muito acima do esperado (resultado do trimestre, 09/11) | 1 | 68.6 | 62.7 |  |
 | classificação etária 18+ no mundo todo e crítica da USK | 1 | 68.3 | 62.6 |  |
-| tecnico/console | 1 | 68.4 | 62.6 |  |
+| tecnico/console | 1 | 68.3 | 62.6 |  |
 | sistema de nojo e NPCs com memória | 1 | 68.1 | 62.5 |  |
 | regra contra spoiler do final / política de vídeos da Rockstar | 1 | 67.6 | 62.4 |  |
 | gameplay/mapa | 1 | 67.5 | 62.3 |  |
@@ -98,7 +98,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | marketing/mundo real | 1 | 49.2 | 56.2 |  |
 | evento/lancamento | 2 | 52.6 | 56.2 |  |
 | noticias | 5 | 54.5 | 56.0 |  |
-| Rockstar lançou de surpresa em 23/11 a Deluxe Edition de Grand Theft Auto VI: The Album (Atlantic Records), com 23 faixas novas; Anitta tem a faixa 'Touch & Go'; também Travis Scott (abre com 'Burn This Shit Down'), Offset, Latto, Kodak Black, 21 Savage; com o álbum normal de 20/11 (34 faixas) são 57; só streaming, não destrava nada no jogo; trilha original do Justice em 11/12 (GTA BOOM 23/11) | 1 | 48.4 | 56.0 |  |
+| Rockstar lançou de surpresa em 23/11 a Deluxe Edition de Grand Theft Auto VI: The Album (Atlantic Records), com 23 faixas novas; Anitta tem a faixa 'Touch & Go'; também Travis Scott (abre com 'Burn This Shit Down'), Offset, Latto, Kodak Black, 21 Savage; com o álbum normal de 20/11 (34 faixas) são 57; só streaming, não destrava nada no jogo; trilha original do Justice em 11/12 (GTA BOOM 23/11) | 1 | 48.3 | 55.9 |  |
 | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | 1 | 47.6 | 55.7 |  |
 | chefe da Take-Two fala de pirataria antes do GTA 6 | 1 | 46.8 | 55.4 |  |
 | vendas/numeros | 4 | 52.2 | 54.7 |  |
@@ -109,7 +109,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA 6 x Hollywood (Jogos Vorazes) | 1 | 41.6 | 53.7 |  |
 | marketing | 2 | 47.5 | 53.6 |  |
 | mito | 1 | 35.6 | 51.7 |  |
-| Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | 1 | 35.0 | 51.5 |  |
+| Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | 1 | 34.5 | 51.3 |  |
 | marketing/bastidores | 1 | 26.7 | 48.7 |  |
 | criadores/streamers | 1 | 17.6 | 45.7 |  |
 
@@ -134,7 +134,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA 6 tá vendendo mais do que a própria Take-Two esperava | 1 | 68.6 | 62.7 |  |
 | GTA 6 é proibido pra menor de dezoito no mundo inteiro | 1 | 68.3 | 62.6 |  |
 | ex-pesquisador revela pesquisa nível espionagem | 1 | 68.2 | 62.6 |  |
-| truque do Quick Resume destrava o FPS de GTA 6 no Xbox, mas o Jason anda em dobro | 1 | 68.4 | 62.6 |  |
+| truque do Quick Resume destrava o FPS de GTA 6 no Xbox, mas o Jason anda em dobro | 1 | 68.3 | 62.6 |  |
 | se você pensa em postar o final de GTA 6, para tudo | 1 | 67.6 | 62.4 |  |
 | pergunta | 11 | 62.7 | 62.2 |  |
 | censura bizarra | 1 | 67.2 | 62.2 |  |
@@ -173,11 +173,11 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | curiosidade + preço | 1 | 49.2 | 56.2 |  |
 | polemica | 2 | 52.4 | 56.1 |  |
 | alerta | 3 | 53.6 | 56.0 |  |
-| A Anitta tá na trilha oficial do GTA 6 | 1 | 48.4 | 56.0 |  |
+| A Anitta tá na trilha oficial do GTA 6 | 1 | 48.3 | 55.9 |  |
 | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 1 | 47.6 | 55.7 |  |
 | o chefão da dona do GTA 6 falou de pirataria | 1 | 46.8 | 55.4 |  |
 | lista | 3 | 50.1 | 53.9 | pausado |
-| GTA 6 virou presente de Natal indicado por um primeiro-ministro | 1 | 35.0 | 51.5 |  |
+| GTA 6 virou presente de Natal indicado por um primeiro-ministro | 1 | 34.5 | 51.3 |  |
 | curiosidade | 5 | 46.9 | 50.6 | pausado |
 | Arthur Morgan vai jogar GTA 6 | 1 | 17.6 | 45.7 |  |
 
@@ -217,7 +217,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | noticia Beebom 13/11 (update 01.002.000 no PS5) | 1 | 68.7 | 62.7 |  |
 | gtaboom.com/gta-6-is-now-rated-adults-only-in-every-major-market (17/10); USK | 1 | 68.3 | 62.6 |  |
 | IGN via GTA BOOM 17/11 | 1 | 68.2 | 62.6 |  |
-| GTA BOOM 23/11 (Fuzion Xbox Testing) | 1 | 68.4 | 62.6 |  |
+| GTA BOOM 23/11 (Fuzion Xbox Testing) | 1 | 68.3 | 62.6 |  |
 | GTA BOOM 29/10 (Edge); abertura com a cena real do South Park (YouTube QH-XIqBDbwo) | 1 | 68.1 | 62.5 |  |
 | gtaintel (GamesRadar, comunicado da Rockstar sobre pré-download) | 1 | 67.7 | 62.4 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 67.5 | 62.3 |  |
@@ -294,7 +294,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Notebookcheck 14/10 (NateTheHate/Insider Gaming) + precedentes GTA 5/RDR2 | 1 | 37.8 | 52.4 |  |
 | noticia GTA BOOM 13/11 (Newzoo) | 1 | 36.7 | 52.1 |  |
 | GTA BOOM 12/11 + ata GCRB via Inven | 1 | 35.8 | 51.8 |  |
-| GTA BOOM 23/11 | 2 | 41.7 | 50.7 |  |
+| GTA BOOM 23/11 | 2 | 41.4 | 50.6 |  |
 | GTA BOOM 25/10 + vídeo yHLNoTKOO4A (Druski) | 1 | 26.7 | 48.7 |  |
 | GTA BOOM 17/11 | 1 | 17.6 | 45.7 |  |
 
@@ -323,7 +323,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-18 | [Df4yyzdODQR](https://www.instagram.com/reel/Df4yyzdODQR/) | corte | notas/reviews: 99 no Metacritic | GTA 6 acabou de tirar 99 no Metacritic | 1477 | 31.2% | 38% | 94 | 2 | 4 | 16 | 73.6 (h72) |
 | 2026-11-05 | [DfYRV6llI_F](https://www.instagram.com/reel/DfYRV6llI_F/) | corte | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | tem gente que vai jogar 16 horas antes de você | 1485 | 32.1% | 39% | 48 | 0 | 7 | 5 | 73.5 (h72) |
 | 2026-10-17 | [DenAhZZCOCA](https://www.instagram.com/reel/DenAhZZCOCA/) | corte | premiacao | enquete | 1871 | 36.9% | 44% | 49 | 0 | 3 | 15 | 73.2 (h72) |
-| 2026-11-21 | [DgAgKmetW2K](https://www.instagram.com/reel/DgAgKmetW2K/) | corte | personagens/polemica | meme famoso entrou no jogo | 1977 | 26.2% | 50% | 59 | 0 | 2 | 0 | 73.0 (h24) |
+| 2026-11-21 | [DgAgKmetW2K](https://www.instagram.com/reel/DgAgKmetW2K/) | corte | personagens/polemica | meme famoso entrou no jogo | 1977 | 26.2% | 50% | 59 | 0 | 2 | 0 | 73.0 (h72) |
 | 2026-10-12 | [DeZjgTSD3Aw](https://www.instagram.com/reel/DeZjgTSD3Aw/) | corte | preco_compra | comparacao | 1237 | 35.7% | 42% | 44 | 0 | 2 | 1 | 72.9 (h24) |
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 72.9 (h72) |
 | 2026-11-20 | [Df97WheJKct](https://www.instagram.com/reel/Df97WheJKct/) | corte | personagens/historia | retorno de personagem | 2147 | 38.5% | 45% | 156 | 6 | 9 | 13 | 72.8 (h72) |
@@ -343,8 +343,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-13 | [DfsjObMhd4q](https://www.instagram.com/reel/DfsjObMhd4q/) | corte | console_tecnico | pergunta | 1885 | 35.6% | 43% | 34 | 0 | 1 | 9 | 68.7 (h72) |
 | 2026-11-09 | [DfilgBtP9DR](https://www.instagram.com/reel/DfilgBtP9DR/) | corte | Take-Two: pré-venda do GTA 6 muito acima do esperado (resultado do trimestre, 09/11) | GTA 6 tá vendendo mais do que a própria Take-Two esperava | 869 | 39.6% | 37% | 23 | 1 | 3 | 0 | 68.6 (h72) |
 | 2026-10-20 | [DevDjNqkdcV](https://www.instagram.com/reel/DevDjNqkdcV/) | corte | gameplay | pergunta | 1220 | 44% | 36% | 48 | 0 | 0 | 4 | 68.5 (h72) |
-| 2026-11-23 | [DgFqdACOwms](https://www.instagram.com/reel/DgFqdACOwms/) | corte | tecnico/console | truque do Quick Resume destrava o FPS de GTA 6 no Xbox, mas o Jason anda em dobro | 1311 | 34.3% | 36% | 38 | 1 | 1 | 1 | 68.4 (provisória) |
 | 2026-11-07 | [DfdHAA5E7_7](https://www.instagram.com/reel/DfdHAA5E7_7/) | corte | classificação etária 18+ no mundo todo e crítica da USK | GTA 6 é proibido pra menor de dezoito no mundo inteiro | 1684 | 39.4% | 42% | 54 | 0 | 0 | 2 | 68.3 (h72) |
+| 2026-11-23 | [DgFqdACOwms](https://www.instagram.com/reel/DgFqdACOwms/) | corte | tecnico/console | truque do Quick Resume destrava o FPS de GTA 6 no Xbox, mas o Jason anda em dobro | 1313 | 34.3% | 36% | 38 | 1 | 1 | 1 | 68.3 (h24) |
 | 2026-11-17 | [Df22YgluMTY](https://www.instagram.com/reel/Df22YgluMTY/) | corte | bastidores/desenvolvimento | ex-pesquisador revela pesquisa nível espionagem | 1347 | 34.9% | 42% | 39 | 0 | 0 | 2 | 68.2 (h72) |
 | 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1322 | 37.1% | 33% | 34 | 0 | 3 | 2 | 68.1 (h72) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
@@ -412,7 +412,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-21 | [DgBJUBvhGAY](https://www.instagram.com/reel/DgBJUBvhGAY/) | corte | curiosidade/numeros | numero gigante + Brasil na lista | 1588 | 40.1% | 32% | 20 | 0 | 0 | 1 | 49.9 (h24) |
 | 2026-10-16 | [DejyjUvD27e](https://www.instagram.com/reel/DejyjUvD27e/) | corte | mapa | lista | 126 | 64.3% | 25% | 5 | 0 | 0 | 0 | 49.8 (h72) |
 | 2026-10-23 | [De10O6vgais](https://www.instagram.com/reel/De10O6vgais/) | corte | marketing/mundo real | curiosidade + preço | 149 | 42.1% | 29% | 4 | 0 | 0 | 0 | 49.2 (h72) |
-| 2026-11-23 | [DgGnxzLMxwd](https://www.instagram.com/reel/DgGnxzLMxwd/) | corte | Rockstar lançou de surpresa em 23/11 a Deluxe Edition de Grand Theft Auto VI: The Album (Atlantic Records), com 23 faixas novas; Anitta tem a faixa 'Touch & Go'; também Travis Scott (abre com 'Burn This Shit Down'), Offset, Latto, Kodak Black, 21 Savage; com o álbum normal de 20/11 (34 faixas) são 57; só streaming, não destrava nada no jogo; trilha original do Justice em 11/12 (GTA BOOM 23/11) | A Anitta tá na trilha oficial do GTA 6 | 275 | 50.4% | 25% | 5 | 0 | 0 | 1 | 48.4 (provisória) |
+| 2026-11-23 | [DgGnxzLMxwd](https://www.instagram.com/reel/DgGnxzLMxwd/) | corte | Rockstar lançou de surpresa em 23/11 a Deluxe Edition de Grand Theft Auto VI: The Album (Atlantic Records), com 23 faixas novas; Anitta tem a faixa 'Touch & Go'; também Travis Scott (abre com 'Burn This Shit Down'), Offset, Latto, Kodak Black, 21 Savage; com o álbum normal de 20/11 (34 faixas) são 57; só streaming, não destrava nada no jogo; trilha original do Justice em 11/12 (GTA BOOM 23/11) | A Anitta tá na trilha oficial do GTA 6 | 278 | 50.2% | 26% | 5 | 0 | 0 | 1 | 48.3 (provisória) |
 | 2026-11-08 | [DffCxD-DYYY](https://www.instagram.com/reel/DffCxD-DYYY/) | corte | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 131 | 48.4% | 21% | 4 | 0 | 0 | 0 | 47.6 (h72) |
 | 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 47.4 (h72) |
 | 2026-11-08 | [DffrRsXlGWm](https://www.instagram.com/reel/DffrRsXlGWm/) | corte | chefe da Take-Two fala de pirataria antes do GTA 6 | o chefão da dona do GTA 6 falou de pirataria | 711 | 36.2% | 30% | 6 | 0 | 1 | 0 | 46.8 (h72) |
@@ -428,9 +428,13 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-15 | [DfxDUhrv7ik](https://www.instagram.com/reel/DfxDUhrv7ik/) | corte | vendas/numeros | comparacao | 388 | 39.9% | 23% | 0 | 0 | 1 | 0 | 36.7 (h72) |
 | 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 221 | 43.9% | 28% | 2 | 0 | 0 | 0 | 35.8 (h72) |
 | 2026-10-11 | [DeX4Vhuj49m](https://www.instagram.com/reel/DeX4Vhuj49m/) | painel | mito | mentira_verdade | 132 | 49.6% | 21% | 2 | 0 | 0 | 0 | 35.6 (provisória) |
-| 2026-11-23 | [DgGTOYQpUyZ](https://www.instagram.com/reel/DgGTOYQpUyZ/) | corte | Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | GTA 6 virou presente de Natal indicado por um primeiro-ministro | 233 | 39.1% | 32% | 1 | 0 | 0 | 0 | 35.0 (provisória) |
+| 2026-11-23 | [DgGTOYQpUyZ](https://www.instagram.com/reel/DgGTOYQpUyZ/) | corte | Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | GTA 6 virou presente de Natal indicado por um primeiro-ministro | 244 | 40.3% | 32% | 1 | 0 | 0 | 0 | 34.5 (provisória) |
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 33.8 (h24) |
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 33.5 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.7 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 26.7 (h24) |
 | 2026-11-17 | [Df3LR72Aqvw](https://www.instagram.com/reel/Df3LR72Aqvw/) | corte | criadores/streamers | Arthur Morgan vai jogar GTA 6 | 118 | 64.2% | 15% | 0 | 0 | 0 | 0 | 17.6 (h72) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DgIPESuhaBF](https://www.instagram.com/reel/DgIPESuhaBF/): 5.8 h no ar, 1660 views, 31.2% pularam, 48% assistido, 28 curtidas
