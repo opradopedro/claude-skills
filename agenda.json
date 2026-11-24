@@ -2637,7 +2637,7 @@
   {
    "data": "2026-11-24",
    "hora": "12:00",
-   "status": "pronto",
+   "status": "postado",
    "pasta": "producao/2026-11-24_1200",
    "arquivo": "radar_v126_gta6_hacker_kurtaj_livre.mp4",
    "formato": "corte",
@@ -2651,7 +2651,9 @@
     "tema": "Arion Kurtaj (21, Lapsus$), autor do vazamento de GTA 6 em 2022 (~90 vídeos do jogo inacabado, prejuízo de ~US$ 5 mi à Rockstar), foi condenado a 7 anos em 23/11 no Woolwich Crown Court (Londres) e saiu no mesmo dia em liberdade condicional: juiz descontou 2 anos de internação em hospital psiquiátrico de segurança e o tempo preso; ordem de 5 anos restringe internet e proíbe Discord e Telegram; o jogo tirou 99 no Metacritic (GTA BOOM 24/11, BBC, The Record)",
     "gancho": "O hacker que vazou GTA 6 pegou sete anos e saiu livre no mesmo dia",
     "origem": "GTA BOOM 24/11"
-   }
+   },
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DgIPESuhaBF/"
   }
  ]
 }
