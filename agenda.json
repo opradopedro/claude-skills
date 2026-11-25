@@ -2721,7 +2721,7 @@
     {
       "data": "2026-11-25",
       "hora": "18:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-25_1800",
       "arquivo": "radar_v130_gta6_port_pc_derrubado.mp4",
       "formato": "corte",
@@ -2729,7 +2729,15 @@
       "capa": "Port de PC derrubado",
       "capa_t": 1.5,
       "roteiro": "Mano, a Take-Two derrubou mais de três mil projetos do GitHub de uma vez só, por causa de GTA 6. Tudo começou com o Leonida, um projeto que tentava rodar no PC a versão de Xbox que vazou. Em poucas horas, a galera já tinha feito o jogo abrir no Windows, mas só até o menu de configurações. Aí veio o pedido de remoção: a Take-Two disse que era obra derivada e que o aviso de que não tinha arquivo do jogo era enganoso de propósito. E a Rockstar ainda nem anunciou versão de PC. Você esperaria a versão oficial ou jogaria no console mesmo? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/DgLcin2SXCF/",
+      "legenda": "GTA 6 rodando no PC? A Take-Two derrubou mais de 3 MIL projetos no GitHub de uma vez 😳💻 manda pra quem vai jogar com você 🚫\n\n🛠️ O Leonida tentava rodar no Windows a versão de Xbox que vazou.\n⚡ Em poucas horas a galera fez o jogo abrir no PC, mas só até o menu de configurações.\n⚖️ A Take-Two mandou o pedido de remoção: 3.007 repositórios bloqueados. Disse que era obra derivada e que o aviso de \"sem arquivos do jogo\" era enganoso de propósito.\n🖥️ E a Rockstar ainda não anunciou versão oficial de PC.\n\nVocê esperaria a versão de PC ou joga no console mesmo? 👇\n\n#gta6 #gtavi #gta6pc #rockstargames #gta",
+      "ficha": {
+        "formato": "corte",
+        "tema": "Take-Two (DMCA de 24/11 publicado pelo GitHub) derrubou o Leonida, projeto de recompilação para rodar no Windows a build de Xbox de GTA 6 que vazou (Cyberleek, build 1.0.2.1; .exe saiu 23/11): repositório ItsNotRexed e 2.900+ forks, 3.007 repositórios bloqueados; modders fizeram o jogo abrir no PC até os menus de configuração em poucas horas; Take-Two chamou de obra derivada e disse que o aviso de 'sem arquivos do jogo' era 'intencionalmente enganoso'; Rockstar não anunciou versão de PC (heise 25/11, GamesRadar)",
+        "gancho": "A Take-Two derrubou mais de três mil projetos do GitHub de uma vez só, por causa de GTA 6",
+        "origem": "heise 25/11 (DMCA Take-Two 24/11 no GitHub), GamesRadar"
+      }
     }
   ]
 }
