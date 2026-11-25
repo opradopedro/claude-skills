@@ -1,0 +1,1069 @@
+{
+ "audio": "voz.mp3",
+ "out": "radar_v129_gta6_modelo_da_capa.mp4",
+ "font": "../../assets/fonts/Anton.ttf",
+ "handle": "@radar.gta6br",
+ "scenes": [
+  {
+   "start": 0,
+   "end": 2.4,
+   "layout": "full",
+   "pan": 1,
+   "src": "c_rosto.jpg"
+  },
+  {
+   "start": 2.4,
+   "end": 3.7,
+   "layout": "full",
+   "pan": -1,
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_254.mp4",
+   "ss": 0.3,
+   "cx": 0.5
+  },
+  {
+   "start": 3.7,
+   "end": 8.8,
+   "layout": "full",
+   "pan": 1,
+   "src": "c_capa_destaque.jpg"
+  },
+  {
+   "start": 8.8,
+   "end": 11.0,
+   "layout": "full",
+   "pan": -1,
+   "src": "c_capa_canto.jpg"
+  },
+  {
+   "start": 11.0,
+   "end": 13.0,
+   "layout": "full",
+   "pan": 1,
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_160.mp4",
+   "ss": 0.3,
+   "cx": 0.5
+  },
+  {
+   "start": 13.0,
+   "end": 14.7,
+   "layout": "full",
+   "pan": -1,
+   "src": "c_rosto.jpg"
+  },
+  {
+   "start": 14.7,
+   "end": 18.3,
+   "layout": "full",
+   "pan": 1,
+   "src": "c_capa_canto.jpg"
+  },
+  {
+   "start": 18.3,
+   "end": 20.0,
+   "layout": "full",
+   "pan": -1,
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_224.mp4",
+   "ss": 0.3,
+   "cx": 0.5
+  },
+  {
+   "start": 20.0,
+   "end": 21.8,
+   "layout": "full",
+   "pan": 1,
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_170.mp4",
+   "ss": 0.3,
+   "cx": 0.5
+  },
+  {
+   "start": 21.8,
+   "end": 24.3,
+   "layout": "full",
+   "pan": -1,
+   "src": "c_camisa.jpg"
+  },
+  {
+   "start": 24.3,
+   "end": 26.8,
+   "layout": "full",
+   "pan": 1,
+   "src": "c_capa_canto.jpg"
+  },
+  {
+   "start": 26.8,
+   "end": 29.1,
+   "layout": "full",
+   "pan": -1,
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_300.mp4",
+   "ss": 0.3,
+   "cx": 0.5
+  },
+  {
+   "start": 29.1,
+   "end": 31.0,
+   "layout": "full",
+   "pan": 1,
+   "src": "c_capa_destaque.jpg"
+  },
+  {
+   "start": 31.0,
+   "end": 32.8,
+   "layout": "full",
+   "pan": -1,
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_320.mp4",
+   "ss": 0.3,
+   "cx": 0.5
+  },
+  {
+   "start": 32.8,
+   "end": 34.864,
+   "layout": "full",
+   "pan": 1,
+   "src": "../../../../home/claude/fabrica-de-paginas/radar-gta6/broll/clips/tJbzMqJGH4k_140.mp4",
+   "ss": 0.3,
+   "cx": 0.5
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.05,
+   "end": 0.691,
+   "text": "MANO",
+   "hl": false,
+   "w": [
+    0.05
+   ]
+  },
+  {
+   "start": 0.691,
+   "end": 1.271,
+   "text": "A MINA DA",
+   "hl": false,
+   "w": [
+    0.691,
+    0.811,
+    1.091
+   ]
+  },
+  {
+   "start": 1.271,
+   "end": 2.432,
+   "text": "CAPA DE GTA 6",
+   "hl": true,
+   "w": [
+    1.271,
+    1.551,
+    1.671,
+    1.671
+   ]
+  },
+  {
+   "start": 2.432,
+   "end": 3.673,
+   "text": "É DE VERDADE",
+   "hl": false,
+   "w": [
+    2.432,
+    2.492,
+    2.612
+   ]
+  },
+  {
+   "start": 3.673,
+   "end": 4.333,
+   "text": "SABE AQUELA DE",
+   "hl": false,
+   "w": [
+    3.673,
+    3.893,
+    4.213
+   ]
+  },
+  {
+   "start": 4.333,
+   "end": 5.594,
+   "text": "CAMISA VERDE NÚMERO",
+   "hl": false,
+   "w": [
+    4.333,
+    4.774,
+    5.214
+   ]
+  },
+  {
+   "start": 5.594,
+   "end": 5.994,
+   "text": "6",
+   "hl": true,
+   "w": [
+    5.594
+   ]
+  },
+  {
+   "start": 5.994,
+   "end": 6.615,
+   "text": "COM A LATINHA",
+   "hl": false,
+   "w": [
+    5.994,
+    6.155,
+    6.215
+   ]
+  },
+  {
+   "start": 6.615,
+   "end": 7.075,
+   "text": "NA MÃO",
+   "hl": false,
+   "w": [
+    6.615,
+    6.775
+   ]
+  },
+  {
+   "start": 7.075,
+   "end": 7.936,
+   "text": "NO CANTO ESQUERDO",
+   "hl": false,
+   "w": [
+    7.075,
+    7.235,
+    7.496
+   ]
+  },
+  {
+   "start": 7.936,
+   "end": 8.837,
+   "text": "DA CAPA?",
+   "hl": false,
+   "w": [
+    7.936,
+    8.096
+   ]
+  },
+  {
+   "start": 8.837,
+   "end": 9.797,
+   "text": "A MODELO SABII",
+   "hl": false,
+   "w": [
+    8.837,
+    8.917,
+    9.477
+   ]
+  },
+  {
+   "start": 9.797,
+   "end": 10.998,
+   "text": "GARCIA CONTOU QUE",
+   "hl": false,
+   "w": [
+    9.797,
+    10.518,
+    10.858
+   ]
+  },
+  {
+   "start": 10.998,
+   "end": 11.999,
+   "text": "POSOU PRA ROCKSTAR",
+   "hl": false,
+   "w": [
+    10.998,
+    11.318,
+    11.479
+   ]
+  },
+  {
+   "start": 11.999,
+   "end": 12.659,
+   "text": "POR DUAS A",
+   "hl": false,
+   "w": [
+    11.999,
+    12.239,
+    12.559
+   ]
+  },
+  {
+   "start": 12.659,
+   "end": 13.7,
+   "text": "TRÊS HORAS SEGURANDO",
+   "hl": false,
+   "w": [
+    12.659,
+    12.96,
+    13.26
+   ]
+  },
+  {
+   "start": 13.7,
+   "end": 14.661,
+   "text": "ESSA POSE",
+   "hl": false,
+   "w": [
+    13.7,
+    13.92
+   ]
+  },
+  {
+   "start": 14.661,
+   "end": 15.542,
+   "text": "DEPOIS PEDIRAM PRA",
+   "hl": false,
+   "w": [
+    14.661,
+    15.061,
+    15.401
+   ]
+  },
+  {
+   "start": 15.542,
+   "end": 16.302,
+   "text": "FAZER TUDO DE",
+   "hl": false,
+   "w": [
+    15.542,
+    15.882,
+    16.162
+   ]
+  },
+  {
+   "start": 16.302,
+   "end": 16.822,
+   "text": "NOVO COM A",
+   "hl": false,
+   "w": [
+    16.302,
+    16.602,
+    16.742
+   ]
+  },
+  {
+   "start": 16.822,
+   "end": 17.603,
+   "text": "LATA NA OUTRA",
+   "hl": false,
+   "w": [
+    16.822,
+    17.103,
+    17.303
+   ]
+  },
+  {
+   "start": 17.603,
+   "end": 18.264,
+   "text": "MÃO",
+   "hl": false,
+   "w": [
+    17.603
+   ]
+  },
+  {
+   "start": 18.264,
+   "end": 19.284,
+   "text": "NO ENSAIO ELA",
+   "hl": false,
+   "w": [
+    18.264,
+    18.384,
+    19.064
+   ]
+  },
+  {
+   "start": 19.284,
+   "end": 20.045,
+   "text": "TAVA DE BIQUÍNI",
+   "hl": false,
+   "w": [
+    19.284,
+    19.484,
+    19.585
+   ]
+  },
+  {
+   "start": 20.045,
+   "end": 21.146,
+   "text": "PRETO E CAMISETA",
+   "hl": false,
+   "w": [
+    20.045,
+    20.465,
+    20.545
+   ]
+  },
+  {
+   "start": 21.146,
+   "end": 21.846,
+   "text": "BRANCA",
+   "hl": false,
+   "w": [
+    21.146
+   ]
+  },
+  {
+   "start": 21.846,
+   "end": 23.167,
+   "text": "OS ILUSTRADORES TROCARAM",
+   "hl": false,
+   "w": [
+    21.846,
+    21.966,
+    22.647
+   ]
+  },
+  {
+   "start": 23.167,
+   "end": 24.308,
+   "text": "PELA CAMISA VERDE",
+   "hl": false,
+   "w": [
+    23.167,
+    23.367,
+    23.768
+   ]
+  },
+  {
+   "start": 24.308,
+   "end": 25.489,
+   "text": "COLOCARAM AS JOIAS",
+   "hl": false,
+   "w": [
+    24.308,
+    24.828,
+    24.989
+   ]
+  },
+  {
+   "start": 25.489,
+   "end": 26.77,
+   "text": "E AS TATUAGENS",
+   "hl": false,
+   "w": [
+    25.489,
+    25.589,
+    25.709
+   ]
+  },
+  {
+   "start": 26.77,
+   "end": 27.43,
+   "text": "O NOME DELA",
+   "hl": false,
+   "w": [
+    26.77,
+    26.85,
+    27.09
+   ]
+  },
+  {
+   "start": 27.43,
+   "end": 28.271,
+   "text": "TÁ NOS CRÉDITOS",
+   "hl": false,
+   "w": [
+    27.43,
+    27.55,
+    27.771
+   ]
+  },
+  {
+   "start": 28.271,
+   "end": 29.072,
+   "text": "DO JOGO",
+   "hl": false,
+   "w": [
+    28.271,
+    28.411
+   ]
+  },
+  {
+   "start": 29.072,
+   "end": 30.032,
+   "text": "VOCÊ REPAROU NELA",
+   "hl": false,
+   "w": [
+    29.072,
+    29.332,
+    29.752
+   ]
+  },
+  {
+   "start": 30.032,
+   "end": 30.973,
+   "text": "NA CAPA?",
+   "hl": false,
+   "w": [
+    30.032,
+    30.172
+   ]
+  },
+  {
+   "start": 30.973,
+   "end": 31.573,
+   "text": "MANDA PRA QUEM",
+   "hl": false,
+   "w": [
+    30.973,
+    31.273,
+    31.413
+   ]
+  },
+  {
+   "start": 31.573,
+   "end": 32.794,
+   "text": "VAI JOGAR GTA 6",
+   "hl": true,
+   "w": [
+    31.573,
+    31.714,
+    32.034,
+    32.034
+   ]
+  },
+  {
+   "start": 32.794,
+   "end": 33.695,
+   "text": "COM VOCÊ E",
+   "hl": false,
+   "w": [
+    32.794,
+    32.934,
+    33.535
+   ]
+  },
+  {
+   "start": 33.695,
+   "end": 34.365,
+   "text": "SEGUE O RADAR",
+   "hl": false,
+   "w": [
+    33.695,
+    33.995,
+    34.035
+   ]
+  }
+ ],
+ "palavras": [
+  {
+   "txt": "Mano,",
+   "falado": "Mano",
+   "tela": 0.05
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 0.691
+  },
+  {
+   "txt": "mina",
+   "falado": "mina",
+   "tela": 0.811
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 1.091
+  },
+  {
+   "txt": "capa",
+   "falado": "capa",
+   "tela": 1.271
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 1.551
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 1.671
+  },
+  {
+   "txt": "é",
+   "falado": "é",
+   "tela": 2.432
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 2.492
+  },
+  {
+   "txt": "verdade.",
+   "falado": "verdade",
+   "tela": 2.612
+  },
+  {
+   "txt": "Sabe",
+   "falado": "Sabe",
+   "tela": 3.673
+  },
+  {
+   "txt": "aquela",
+   "falado": "aquela",
+   "tela": 3.893
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 4.213
+  },
+  {
+   "txt": "camisa",
+   "falado": "camisa",
+   "tela": 4.333
+  },
+  {
+   "txt": "verde",
+   "falado": "verde",
+   "tela": 4.774
+  },
+  {
+   "txt": "número",
+   "falado": "número",
+   "tela": 5.214
+  },
+  {
+   "txt": "6,",
+   "falado": "seis",
+   "tela": 5.594
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 5.994
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 6.155
+  },
+  {
+   "txt": "latinha",
+   "falado": "latinha",
+   "tela": 6.215
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 6.615
+  },
+  {
+   "txt": "mão,",
+   "falado": "mão",
+   "tela": 6.775
+  },
+  {
+   "txt": "no",
+   "falado": "no",
+   "tela": 7.075
+  },
+  {
+   "txt": "canto",
+   "falado": "canto",
+   "tela": 7.235
+  },
+  {
+   "txt": "esquerdo",
+   "falado": "esquerdo",
+   "tela": 7.496
+  },
+  {
+   "txt": "da",
+   "falado": "da",
+   "tela": 7.936
+  },
+  {
+   "txt": "capa?",
+   "falado": "capa",
+   "tela": 8.096
+  },
+  {
+   "txt": "A",
+   "falado": "A",
+   "tela": 8.837
+  },
+  {
+   "txt": "modelo",
+   "falado": "modelo",
+   "tela": 8.917
+  },
+  {
+   "txt": "Sabii",
+   "falado": "sá bi",
+   "tela": 9.477
+  },
+  {
+   "txt": "Garcia",
+   "falado": "gar cí a",
+   "tela": 9.797
+  },
+  {
+   "txt": "contou",
+   "falado": "contou",
+   "tela": 10.518
+  },
+  {
+   "txt": "que",
+   "falado": "que",
+   "tela": 10.858
+  },
+  {
+   "txt": "posou",
+   "falado": "posou",
+   "tela": 10.998
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 11.318
+  },
+  {
+   "txt": "Rockstar",
+   "falado": "róc star",
+   "tela": 11.479
+  },
+  {
+   "txt": "por",
+   "falado": "por",
+   "tela": 11.999
+  },
+  {
+   "txt": "duas",
+   "falado": "duas",
+   "tela": 12.239
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 12.559
+  },
+  {
+   "txt": "três",
+   "falado": "três",
+   "tela": 12.659
+  },
+  {
+   "txt": "horas",
+   "falado": "horas",
+   "tela": 12.96
+  },
+  {
+   "txt": "segurando",
+   "falado": "segurando",
+   "tela": 13.26
+  },
+  {
+   "txt": "essa",
+   "falado": "essa",
+   "tela": 13.7
+  },
+  {
+   "txt": "pose.",
+   "falado": "pose",
+   "tela": 13.92
+  },
+  {
+   "txt": "Depois",
+   "falado": "Depois",
+   "tela": 14.661
+  },
+  {
+   "txt": "pediram",
+   "falado": "pediram",
+   "tela": 15.061
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 15.401
+  },
+  {
+   "txt": "fazer",
+   "falado": "fazer",
+   "tela": 15.542
+  },
+  {
+   "txt": "tudo",
+   "falado": "tudo",
+   "tela": 15.882
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 16.162
+  },
+  {
+   "txt": "novo",
+   "falado": "novo",
+   "tela": 16.302
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 16.602
+  },
+  {
+   "txt": "a",
+   "falado": "a",
+   "tela": 16.742
+  },
+  {
+   "txt": "lata",
+   "falado": "lata",
+   "tela": 16.822
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 17.103
+  },
+  {
+   "txt": "outra",
+   "falado": "outra",
+   "tela": 17.303
+  },
+  {
+   "txt": "mão.",
+   "falado": "mão",
+   "tela": 17.603
+  },
+  {
+   "txt": "No",
+   "falado": "No",
+   "tela": 18.264
+  },
+  {
+   "txt": "ensaio",
+   "falado": "ensaio",
+   "tela": 18.384
+  },
+  {
+   "txt": "ela",
+   "falado": "ela",
+   "tela": 19.064
+  },
+  {
+   "txt": "tava",
+   "falado": "tava",
+   "tela": 19.284
+  },
+  {
+   "txt": "de",
+   "falado": "de",
+   "tela": 19.484
+  },
+  {
+   "txt": "biquíni",
+   "falado": "biquíni",
+   "tela": 19.585
+  },
+  {
+   "txt": "preto",
+   "falado": "preto",
+   "tela": 20.045
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 20.465
+  },
+  {
+   "txt": "camiseta",
+   "falado": "camiseta",
+   "tela": 20.545
+  },
+  {
+   "txt": "branca.",
+   "falado": "branca",
+   "tela": 21.146
+  },
+  {
+   "txt": "Os",
+   "falado": "Os",
+   "tela": 21.846
+  },
+  {
+   "txt": "ilustradores",
+   "falado": "ilustradores",
+   "tela": 21.966
+  },
+  {
+   "txt": "trocaram",
+   "falado": "trocaram",
+   "tela": 22.647
+  },
+  {
+   "txt": "pela",
+   "falado": "pela",
+   "tela": 23.167
+  },
+  {
+   "txt": "camisa",
+   "falado": "camisa",
+   "tela": 23.367
+  },
+  {
+   "txt": "verde,",
+   "falado": "verde",
+   "tela": 23.768
+  },
+  {
+   "txt": "colocaram",
+   "falado": "colocaram",
+   "tela": 24.308
+  },
+  {
+   "txt": "as",
+   "falado": "as",
+   "tela": 24.828
+  },
+  {
+   "txt": "joias",
+   "falado": "joias",
+   "tela": 24.989
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 25.489
+  },
+  {
+   "txt": "as",
+   "falado": "as",
+   "tela": 25.589
+  },
+  {
+   "txt": "tatuagens.",
+   "falado": "tatuagens",
+   "tela": 25.709
+  },
+  {
+   "txt": "O",
+   "falado": "O",
+   "tela": 26.77
+  },
+  {
+   "txt": "nome",
+   "falado": "nome",
+   "tela": 26.85
+  },
+  {
+   "txt": "dela",
+   "falado": "dela",
+   "tela": 27.09
+  },
+  {
+   "txt": "tá",
+   "falado": "tá",
+   "tela": 27.43
+  },
+  {
+   "txt": "nos",
+   "falado": "nos",
+   "tela": 27.55
+  },
+  {
+   "txt": "créditos",
+   "falado": "créditos",
+   "tela": 27.771
+  },
+  {
+   "txt": "do",
+   "falado": "do",
+   "tela": 28.271
+  },
+  {
+   "txt": "jogo.",
+   "falado": "jogo",
+   "tela": 28.411
+  },
+  {
+   "txt": "Você",
+   "falado": "Você",
+   "tela": 29.072
+  },
+  {
+   "txt": "reparou",
+   "falado": "reparou",
+   "tela": 29.332
+  },
+  {
+   "txt": "nela",
+   "falado": "nela",
+   "tela": 29.752
+  },
+  {
+   "txt": "na",
+   "falado": "na",
+   "tela": 30.032
+  },
+  {
+   "txt": "capa?",
+   "falado": "capa",
+   "tela": 30.172
+  },
+  {
+   "txt": "Manda",
+   "falado": "Manda",
+   "tela": 30.973
+  },
+  {
+   "txt": "pra",
+   "falado": "pra",
+   "tela": 31.273
+  },
+  {
+   "txt": "quem",
+   "falado": "quem",
+   "tela": 31.413
+  },
+  {
+   "txt": "vai",
+   "falado": "vai",
+   "tela": 31.573
+  },
+  {
+   "txt": "jogar",
+   "falado": "jogar",
+   "tela": 31.714
+  },
+  {
+   "txt": "GTA 6",
+   "falado": "ge te a seis",
+   "tela": 32.034
+  },
+  {
+   "txt": "com",
+   "falado": "com",
+   "tela": 32.794
+  },
+  {
+   "txt": "você",
+   "falado": "você",
+   "tela": 32.934
+  },
+  {
+   "txt": "e",
+   "falado": "e",
+   "tela": 33.535
+  },
+  {
+   "txt": "segue",
+   "falado": "segue",
+   "tela": 33.695
+  },
+  {
+   "txt": "o",
+   "falado": "o",
+   "tela": 33.995
+  },
+  {
+   "txt": "Radar.",
+   "falado": "Radar",
+   "tela": 34.035
+  }
+ ]
+}
