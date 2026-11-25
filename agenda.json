@@ -2742,14 +2742,23 @@
     {
       "data": "2026-11-25",
       "hora": "21:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-25_2100",
       "arquivo": "radar_v131_gta6_podcast_final_act.mp4",
       "formato": "corte",
       "tema": "Podcast in-game 'Final Act' de GTA 6 (apresentadora Reagan Carter) trata os crimes de GTA 5 como caso sem solução; entrevista Wade Hebert, condenado em 2014 a 50 anos pelas mortes de Floyd e Debra (crime do Trevor), que defende Michael ('pai de família') e Franklin e se recusa a dizer o nome do Trevor; episódios com Dave Norton e Solomon Richards; bate com o final Deathwish (os três vivos) (GTA BOOM 24/11)",
       "capa": "O que houve com o trio",
       "capa_t": 3.5,
-      "roteiro": "Mano, GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor. E foi num podcast dentro do jogo. Ele se chama Final Act e trata o GTA 5 como um crime sem solução. A apresentadora entrevista o Wade, aquele amigo lerdo do Trevor. Ele tá preso, condenado a cinquenta anos pelas mortes do Floyd e da Débora. Só que quem matou foi o Trevor. E mesmo assim o Wade defende o trio, chama o Michael de pai de família e se recusa a falar o nome do melhor amigo. O podcast ainda bate com o final em que os três sobrevivem. Você acha que o Trevor volta numa DLC? Manda pra quem vai jogar GTA 6 com você e segue o Radar."
+      "roteiro": "Mano, GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor. E foi num podcast dentro do jogo. Ele se chama Final Act e trata o GTA 5 como um crime sem solução. A apresentadora entrevista o Wade, aquele amigo lerdo do Trevor. Ele tá preso, condenado a cinquenta anos pelas mortes do Floyd e da Débora. Só que quem matou foi o Trevor. E mesmo assim o Wade defende o trio, chama o Michael de pai de família e se recusa a falar o nome do melhor amigo. O podcast ainda bate com o final em que os três sobrevivem. Você acha que o Trevor volta numa DLC? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+      "link": "https://www.instagram.com/reel/DgLw_9dxiBB/",
+      "capa_embutida": true,
+      "legenda": "GTA 6 contou o que aconteceu com Michael, Franklin e Trevor 😳🎙️ e quem pagou a conta foi o Wade 💀 manda pra quem vai jogar com você\n\n🎧 O podcast \"Final Act\", dentro do jogo, trata os crimes do GTA 5 como um caso sem solução.\n⛓️ O Wade foi condenado a 50 anos pelas mortes do Floyd e da Debra… que foram obra do Trevor.\n🗣️ Mesmo assim ele defende o trio, chama o Michael de \"homem de família\" e se recusa a dizer o nome do melhor amigo.\n🌅 Tudo bate com o final em que os três sobrevivem.\n\nVocê acha que o Trevor volta numa DLC? Comenta aí 👇\n\nFonte: GTA BOOM\n\n#gta6 #gtavi #gta5 #trevor #rockstargames",
+      "ficha": {
+        "formato": "corte",
+        "tema": "podcast Final Act: destino de Michael, Franklin e Trevor",
+        "gancho": "GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor",
+        "origem": "GTA BOOM 24/11 (the-final-act-podcast-in-gta-6...)"
+      }
     }
   ]
 }
