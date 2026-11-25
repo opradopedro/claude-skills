@@ -2700,7 +2700,7 @@
     {
       "data": "2026-11-25",
       "hora": "12:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-25_1200",
       "arquivo": "radar_v129_gta6_modelo_da_capa.mp4",
       "formato": "corte",
@@ -2715,7 +2715,8 @@
         "gancho": "a mina da capa de GTA 6 é de verdade",
         "origem": "GTA BOOM 24/11 (gtaboom.com/sabii-garcia-gta-6-cover-girl-reference-shoot-835d); arte oficial da capa"
       },
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/DgKzPrmq6e1/"
     }
   ]
 }
