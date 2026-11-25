@@ -4719,8 +4719,8 @@
    "avgWatchedPct": 33.51,
    "skipRate": 35.6,
    "durationSeconds": 39,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 92.9
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 95.9
   },
   "h24": {
    "playCount": 1706,
@@ -4762,8 +4762,8 @@
    "avgWatchedPct": 50.11,
    "skipRate": 26.2,
    "durationSeconds": 39,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 77.8
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 80.8
   },
   "h24": {
    "playCount": 1977,
@@ -4805,8 +4805,8 @@
    "avgWatchedPct": 32.12,
    "skipRate": 40.1,
    "durationSeconds": 35,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 71.9
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 74.9
   },
   "h24": {
    "playCount": 1588,
@@ -4820,6 +4820,19 @@
    "durationSeconds": 35,
    "coletado": "2026-11-22T23:51Z",
    "horas": 26.9
+  },
+  "h72": {
+   "playCount": 1590,
+   "likeCount": 20,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 11241,
+   "avgWatchedPct": 32.12,
+   "skipRate": 40.1,
+   "durationSeconds": 35,
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 74.9
   }
  },
  "DgBeNkupg-G": {
@@ -4835,8 +4848,8 @@
    "avgWatchedPct": 50.49,
    "skipRate": 31.4,
    "durationSeconds": 41,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 68.8
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 1884,
@@ -4865,8 +4878,8 @@
    "avgWatchedPct": 25.06,
    "skipRate": 48.2,
    "durationSeconds": 37,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 53.7
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 56.7
   },
   "h24": {
    "playCount": 484,
@@ -4895,8 +4908,8 @@
    "avgWatchedPct": 42.01,
    "skipRate": 42.2,
    "durationSeconds": 41,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 47.8
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 50.8
   },
   "h24": {
    "playCount": 1810,
@@ -4916,17 +4929,17 @@
   "publicado": "2026-11-23T00:05:02.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 3491,
+   "playCount": 3492,
    "likeCount": 96,
    "commentCount": 4,
    "shares": 1,
    "saves": 9,
-   "avgWatchTimeMs": 21334,
-   "avgWatchedPct": 50.8,
-   "skipRate": 24.9,
+   "avgWatchTimeMs": 21321,
+   "avgWatchedPct": 50.76,
+   "skipRate": 25,
    "durationSeconds": 42,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 44.8
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 3481,
@@ -4946,17 +4959,17 @@
   "publicado": "2026-11-23T15:07:11.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1313,
+   "playCount": 1317,
    "likeCount": 38,
    "commentCount": 1,
    "shares": 1,
    "saves": 1,
-   "avgWatchTimeMs": 13411,
-   "avgWatchedPct": 36.25,
+   "avgWatchTimeMs": 13447,
+   "avgWatchedPct": 36.34,
    "skipRate": 34.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 29.7
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 32.7
   },
   "h24": {
    "playCount": 1313,
@@ -4985,42 +4998,72 @@
    "avgWatchedPct": 32.18,
    "skipRate": 40.3,
    "durationSeconds": 40,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 23.8
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 26.8
+  },
+  "h24": {
+   "playCount": 244,
+   "likeCount": 1,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 12870,
+   "avgWatchedPct": 32.18,
+   "skipRate": 40.3,
+   "durationSeconds": 40,
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 26.8
   }
  },
  "DgGnxzLMxwd": {
   "publicado": "2026-11-24T00:02:44.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 278,
+   "playCount": 279,
    "likeCount": 5,
    "commentCount": 0,
    "shares": 1,
    "saves": 0,
-   "avgWatchTimeMs": 9457,
-   "avgWatchedPct": 25.56,
-   "skipRate": 50.2,
+   "avgWatchTimeMs": 9558,
+   "avgWatchedPct": 25.83,
+   "skipRate": 50,
    "durationSeconds": 37,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 20.8
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 23.8
   }
  },
  "DgIPESuhaBF": {
   "publicado": "2026-11-24T15:05:55.000Z",
   "legenda": "GTA 6: o hacker que vazou o jogo pegou 7 anos de cadeia… e saiu livre no MESMO d",
   "atual": {
-   "playCount": 1660,
+   "playCount": 1664,
    "likeCount": 28,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 20428,
-   "avgWatchedPct": 47.51,
-   "skipRate": 31.2,
+   "avgWatchTimeMs": 20406,
+   "avgWatchedPct": 47.46,
+   "skipRate": 31.3,
    "durationSeconds": 43,
-   "coletado": "2026-11-24T20:51Z",
-   "horas": 5.8
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 8.8
+  }
+ },
+ "DgI3lu4sRpK": {
+  "publicado": "2026-11-24T20:59:19.000Z",
+  "legenda": "GTA 6 tem um NPC que NÃO MORRE e te caça pela mira do sniper",
+  "atual": {
+   "playCount": 182,
+   "likeCount": 2,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 31061,
+   "avgWatchedPct": 83.95,
+   "skipRate": 44.9,
+   "durationSeconds": 37,
+   "coletado": "2026-11-24T23:51Z",
+   "horas": 2.9
   }
  }
 }

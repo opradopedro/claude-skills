@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 24/11/2026 17:51 (Brasília) com 124 Reels com nota. Média geral: 59.7/100.
+Atualizado em 24/11/2026 20:51 (Brasília) com 124 Reels com nota. Média geral: 59.7/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -169,7 +169,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | enquete | 7 | 56.4 | 57.2 |  |
 | mentira_verdade | 2 | 53.7 | 56.7 |  |
 | um piloto desenhou o GTA 6 no céu dos Estados Unidos | 1 | 50.0 | 56.5 |  |
-| numero gigante + Brasil na lista | 1 | 49.9 | 56.5 |  |
+| numero gigante + Brasil na lista | 1 | 49.8 | 56.4 |  |
 | curiosidade + preço | 1 | 49.2 | 56.2 |  |
 | polemica | 2 | 52.4 | 56.1 |  |
 | alerta | 3 | 53.6 | 56.0 |  |
@@ -275,8 +275,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Insider Gaming / Sensor Tower (20/10) | 1 | 51.5 | 57.0 |  |
 | VGTimes 28/10 (listagem Apple Music do Grand Theft Auto VI Original Score) | 1 | 50.9 | 56.8 |  |
 | Flightradar24 no X (06/11); katv.com e beebom.com | 1 | 50.0 | 56.5 |  |
-| GTA BOOM 20/11 (Ampere Analysis via GamesBeat) | 1 | 49.9 | 56.5 |  |
 | Rockstar (site oficial) | 1 | 49.8 | 56.4 |  |
+| GTA BOOM 20/11 (Ampere Analysis via GamesBeat) | 1 | 49.8 | 56.4 |  |
 | GameSpot (22/10) | 1 | 49.2 | 56.2 |  |
 | nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection; gematsu.com 02/10; gtaboom 04/10 | 1 | 47.6 | 55.7 |  |
 | Eurogamer via comicshoplocator 16/10 | 1 | 47.4 | 55.6 |  |
@@ -409,10 +409,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-23 | [De2iVxUACb4](https://www.instagram.com/reel/De2iVxUACb4/) | corte | vendas/numeros | numero chocante | 117 | 57.5% | 22% | 6 | 0 | 0 | 0 | 51.5 (h72) |
 | 2026-10-28 | [DfDXVFojWfX](https://www.instagram.com/reel/DfDXVFojWfX/) | corte | musica/trilha | numero chocante | 121 | 44.5% | 22% | 4 | 0 | 0 | 0 | 50.9 (h72) |
 | 2026-11-09 | [DfhoXVXmSCd](https://www.instagram.com/reel/DfhoXVXmSCd/) | corte | piloto desenha a arte do GTA VI no céu com a rota do avião | um piloto desenhou o GTA 6 no céu dos Estados Unidos | 146 | 62.6% | 22% | 5 | 0 | 1 | 2 | 50.0 (h72) |
-| 2026-11-21 | [DgBJUBvhGAY](https://www.instagram.com/reel/DgBJUBvhGAY/) | corte | curiosidade/numeros | numero gigante + Brasil na lista | 1588 | 40.1% | 32% | 20 | 0 | 0 | 1 | 49.9 (h24) |
 | 2026-10-16 | [DejyjUvD27e](https://www.instagram.com/reel/DejyjUvD27e/) | corte | mapa | lista | 126 | 64.3% | 25% | 5 | 0 | 0 | 0 | 49.8 (h72) |
+| 2026-11-21 | [DgBJUBvhGAY](https://www.instagram.com/reel/DgBJUBvhGAY/) | corte | curiosidade/numeros | numero gigante + Brasil na lista | 1590 | 40.1% | 32% | 20 | 0 | 0 | 1 | 49.8 (h72) |
 | 2026-10-23 | [De10O6vgais](https://www.instagram.com/reel/De10O6vgais/) | corte | marketing/mundo real | curiosidade + preço | 149 | 42.1% | 29% | 4 | 0 | 0 | 0 | 49.2 (h72) |
-| 2026-11-23 | [DgGnxzLMxwd](https://www.instagram.com/reel/DgGnxzLMxwd/) | corte | Rockstar lançou de surpresa em 23/11 a Deluxe Edition de Grand Theft Auto VI: The Album (Atlantic Records), com 23 faixas novas; Anitta tem a faixa 'Touch & Go'; também Travis Scott (abre com 'Burn This Shit Down'), Offset, Latto, Kodak Black, 21 Savage; com o álbum normal de 20/11 (34 faixas) são 57; só streaming, não destrava nada no jogo; trilha original do Justice em 11/12 (GTA BOOM 23/11) | A Anitta tá na trilha oficial do GTA 6 | 278 | 50.2% | 26% | 5 | 0 | 0 | 1 | 48.3 (provisória) |
+| 2026-11-23 | [DgGnxzLMxwd](https://www.instagram.com/reel/DgGnxzLMxwd/) | corte | Rockstar lançou de surpresa em 23/11 a Deluxe Edition de Grand Theft Auto VI: The Album (Atlantic Records), com 23 faixas novas; Anitta tem a faixa 'Touch & Go'; também Travis Scott (abre com 'Burn This Shit Down'), Offset, Latto, Kodak Black, 21 Savage; com o álbum normal de 20/11 (34 faixas) são 57; só streaming, não destrava nada no jogo; trilha original do Justice em 11/12 (GTA BOOM 23/11) | A Anitta tá na trilha oficial do GTA 6 | 279 | 50% | 26% | 5 | 0 | 0 | 1 | 48.3 (provisória) |
 | 2026-11-08 | [DffCxD-DYYY](https://www.instagram.com/reel/DffCxD-DYYY/) | corte | Miami Heat vira Vice City em 18/11 (véspera do GTA 6) | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 131 | 48.4% | 21% | 4 | 0 | 0 | 0 | 47.6 (h72) |
 | 2026-10-16 | [DekwckRj0_9](https://www.instagram.com/reel/DekwckRj0_9/) | corte | trailer | curiosidade | 330 | 49.6% | 42% | 7 | 0 | 0 | 0 | 47.4 (h72) |
 | 2026-11-08 | [DffrRsXlGWm](https://www.instagram.com/reel/DffrRsXlGWm/) | corte | chefe da Take-Two fala de pirataria antes do GTA 6 | o chefão da dona do GTA 6 falou de pirataria | 711 | 36.2% | 30% | 6 | 0 | 1 | 0 | 46.8 (h72) |
@@ -428,7 +428,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-15 | [DfxDUhrv7ik](https://www.instagram.com/reel/DfxDUhrv7ik/) | corte | vendas/numeros | comparacao | 388 | 39.9% | 23% | 0 | 0 | 1 | 0 | 36.7 (h72) |
 | 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 221 | 43.9% | 28% | 2 | 0 | 0 | 0 | 35.8 (h72) |
 | 2026-10-11 | [DeX4Vhuj49m](https://www.instagram.com/reel/DeX4Vhuj49m/) | painel | mito | mentira_verdade | 132 | 49.6% | 21% | 2 | 0 | 0 | 0 | 35.6 (provisória) |
-| 2026-11-23 | [DgGTOYQpUyZ](https://www.instagram.com/reel/DgGTOYQpUyZ/) | corte | Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | GTA 6 virou presente de Natal indicado por um primeiro-ministro | 244 | 40.3% | 32% | 1 | 0 | 0 | 0 | 34.5 (provisória) |
+| 2026-11-23 | [DgGTOYQpUyZ](https://www.instagram.com/reel/DgGTOYQpUyZ/) | corte | Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | GTA 6 virou presente de Natal indicado por um primeiro-ministro | 244 | 40.3% | 32% | 1 | 0 | 0 | 0 | 34.5 (h24) |
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 33.8 (h24) |
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 33.5 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.7 (h24) |
@@ -437,4 +437,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DgIPESuhaBF](https://www.instagram.com/reel/DgIPESuhaBF/): 5.8 h no ar, 1660 views, 31.2% pularam, 48% assistido, 28 curtidas
+- [DgIPESuhaBF](https://www.instagram.com/reel/DgIPESuhaBF/): 8.8 h no ar, 1664 views, 31.3% pularam, 47% assistido, 28 curtidas
+- [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/): 2.9 h no ar, 182 views, 44.9% pularam, 84% assistido, 2 curtidas
