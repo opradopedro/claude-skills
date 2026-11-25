@@ -4848,8 +4848,8 @@
    "avgWatchedPct": 50.49,
    "skipRate": 31.4,
    "durationSeconds": 41,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 92.8
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 95.8
   },
   "h24": {
    "playCount": 1884,
@@ -4891,8 +4891,8 @@
    "avgWatchedPct": 25.06,
    "skipRate": 48.2,
    "durationSeconds": 37,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 77.8
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 80.7
   },
   "h24": {
    "playCount": 484,
@@ -4934,8 +4934,8 @@
    "avgWatchedPct": 42.01,
    "skipRate": 42.2,
    "durationSeconds": 41,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 71.8
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 74.8
   },
   "h24": {
    "playCount": 1810,
@@ -4949,23 +4949,36 @@
    "durationSeconds": 41,
    "coletado": "2026-11-23T23:52Z",
    "horas": 26.8
+  },
+  "h72": {
+   "playCount": 1810,
+   "likeCount": 40,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 3,
+   "avgWatchTimeMs": 17226,
+   "avgWatchedPct": 42.01,
+   "skipRate": 42.2,
+   "durationSeconds": 41,
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 74.8
   }
  },
  "DgEDP_EByh3": {
   "publicado": "2026-11-23T00:05:02.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 3505,
+   "playCount": 3506,
    "likeCount": 96,
    "commentCount": 4,
    "shares": 1,
    "saves": 9,
-   "avgWatchTimeMs": 21305,
-   "avgWatchedPct": 50.73,
-   "skipRate": 25,
+   "avgWatchTimeMs": 21299,
+   "avgWatchedPct": 50.71,
+   "skipRate": 25.1,
    "durationSeconds": 42,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 68.8
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 3481,
@@ -4994,8 +5007,8 @@
    "avgWatchedPct": 36.34,
    "skipRate": 34.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 53.8
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 56.7
   },
   "h24": {
    "playCount": 1313,
@@ -5024,8 +5037,8 @@
    "avgWatchedPct": 32.05,
    "skipRate": 40.6,
    "durationSeconds": 40,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 47.8
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 50.8
   },
   "h24": {
    "playCount": 244,
@@ -5054,8 +5067,8 @@
    "avgWatchedPct": 25.83,
    "skipRate": 50,
    "durationSeconds": 37,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 44.8
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 279,
@@ -5084,8 +5097,8 @@
    "avgWatchedPct": 47.43,
    "skipRate": 31.2,
    "durationSeconds": 43,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 29.8
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 32.8
   },
   "h24": {
    "playCount": 1669,
@@ -5105,17 +5118,30 @@
   "publicado": "2026-11-24T20:59:19.000Z",
   "legenda": "GTA 6 tem um NPC que NÃO MORRE e te caça pela mira do sniper",
   "atual": {
-   "playCount": 1811,
+   "playCount": 1812,
    "likeCount": 75,
    "commentCount": 0,
    "shares": 9,
    "saves": 11,
-   "avgWatchTimeMs": 21580,
-   "avgWatchedPct": 58.32,
+   "avgWatchTimeMs": 21566,
+   "avgWatchedPct": 58.29,
    "skipRate": 34.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 23.9
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 26.9
+  },
+  "h24": {
+   "playCount": 1812,
+   "likeCount": 75,
+   "commentCount": 0,
+   "shares": 9,
+   "saves": 11,
+   "avgWatchTimeMs": 21566,
+   "avgWatchedPct": 58.29,
+   "skipRate": 34.3,
+   "durationSeconds": 37,
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 26.9
   }
  },
  "DgJMhdxtde0": {
@@ -5131,25 +5157,42 @@
    "avgWatchedPct": 41.1,
    "skipRate": 30.7,
    "durationSeconds": 49,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 20.9
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 23.8
   }
  },
  "DgKzPrmq6e1": {
   "publicado": "2026-11-25T15:00:21.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 481,
-   "likeCount": 18,
+   "playCount": 838,
+   "likeCount": 30,
    "commentCount": 0,
    "shares": 1,
-   "saves": 5,
-   "avgWatchTimeMs": 18297,
-   "avgWatchedPct": 53.81,
-   "skipRate": 24.1,
+   "saves": 7,
+   "avgWatchTimeMs": 17608,
+   "avgWatchedPct": 51.79,
+   "skipRate": 25.7,
    "durationSeconds": 34,
-   "coletado": "2026-11-25T20:53Z",
-   "horas": 5.9
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 8.9
+  }
+ },
+ "DgLcin2SXCF": {
+  "publicado": "2026-11-25T21:00:43.000Z",
+  "legenda": "GTA 6 rodando no PC? A Take-Two derrubou mais de 3 MIL projetos no GitHub de uma",
+  "atual": {
+   "playCount": 1252,
+   "likeCount": 12,
+   "commentCount": 1,
+   "shares": 1,
+   "saves": 1,
+   "avgWatchTimeMs": 14762,
+   "avgWatchedPct": 41.0,
+   "skipRate": 32.8,
+   "durationSeconds": 36,
+   "coletado": "2026-11-25T23:51Z",
+   "horas": 2.9
   }
  }
 }

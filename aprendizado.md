@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 25/11/2026 17:53 (Brasília) com 127 Reels com nota. Média geral: 60.0/100.
+Atualizado em 25/11/2026 20:51 (Brasília) com 127 Reels com nota. Média geral: 60.0/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -320,7 +320,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1699 | 25.1% | 52% | 60 | 0 | 2 | 1 | 79.1 (h72) |
 | 2026-11-22 | [DgEDP_EByh3](https://www.instagram.com/reel/DgEDP_EByh3/) | corte | noticia/polemica | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 3481 | 24.9% | 51% | 96 | 4 | 9 | 1 | 77.9 (h24) |
-| 2026-11-24 | [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/) | corte | NPC imortal do sniper (easter egg de terror) | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1811 | 34.3% | 58% | 75 | 0 | 11 | 9 | 77.6 (provisória) |
+| 2026-11-24 | [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/) | corte | NPC imortal do sniper (easter egg de terror) | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1812 | 34.3% | 58% | 75 | 0 | 11 | 9 | 77.6 (h24) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 77.4 (h72) |
 | 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1884 | 31.4% | 50% | 90 | 1 | 2 | 2 | 76.6 (h72) |
@@ -383,7 +383,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-06 | [DfZ4kfAAo1K](https://www.instagram.com/reel/DfZ4kfAAo1K/) | corte | PC: ex-diretor da Rockstar diz que porte feito por fãs com IA pode encurtar a espera do PC | um ex-diretor da Rockstar acha que a IA pode adiantar o GTA 6 no PC | 442 | 37.9% | 29% | 14 | 0 | 1 | 0 | 62.5 (h72) |
 | 2026-11-12 | [DfpVzLbyGK6](https://www.instagram.com/reel/DfpVzLbyGK6/) | corte | Grotti Cheetah real (Ferrari Testarossa da West Coast Customs) à venda por £1 milhão na Selfridges | GTA 6 virou carro de verdade | 322 | 42.5% | 36% | 11 | 0 | 0 | 2 | 62.4 (h72) |
 | 2026-10-20 | [Deuu91Skz6q](https://www.instagram.com/reel/Deuu91Skz6q/) | corte | bastidores | pergunta | 146 | 43.8% | 40% | 5 | 0 | 0 | 1 | 61.1 (h72) |
-| 2026-11-22 | [DgDuqjGBvUd](https://www.instagram.com/reel/DgDuqjGBvUd/) | corte | curiosidade/streamer | IShowSpeed zerou GTA 6 em 52 h sem dormir e perdeu o save de 98% | 1810 | 42.2% | 42% | 40 | 0 | 3 | 0 | 61.0 (h24) |
+| 2026-11-22 | [DgDuqjGBvUd](https://www.instagram.com/reel/DgDuqjGBvUd/) | corte | curiosidade/streamer | IShowSpeed zerou GTA 6 em 52 h sem dormir e perdeu o save de 98% | 1810 | 42.2% | 42% | 40 | 0 | 3 | 0 | 61.0 (h72) |
 | 2026-11-05 | [DfX9Saomzze](https://www.instagram.com/reel/DfX9Saomzze/) | corte | imagens oficiais novas: Galeria de Lançamento (39 screenshots, 05/11) | 39 imagens novas hoje | 139 | 40.5% | 34% | 9 | 0 | 1 | 0 | 60.9 (h72) |
 | 2026-10-18 | [DeplZ4bk8TX](https://www.instagram.com/reel/DeplZ4bk8TX/) | corte | trailer | enquete | 151 | 31.5% | 42% | 5 | 0 | 0 | 0 | 60.8 (h72) |
 | 2026-11-15 | [DfyA5lpBOl_](https://www.instagram.com/reel/DfyA5lpBOl_/) | corte | evento/lancamento | revelacao | 1537 | 32.4% | 31% | 31 | 0 | 3 | 0 | 60.8 (h72) |
@@ -448,4 +448,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DgKzPrmq6e1](https://www.instagram.com/reel/DgKzPrmq6e1/): 5.9 h no ar, 481 views, 24.1% pularam, 54% assistido, 18 curtidas
+- [DgKzPrmq6e1](https://www.instagram.com/reel/DgKzPrmq6e1/): 8.9 h no ar, 838 views, 25.7% pularam, 52% assistido, 30 curtidas
+- [DgLcin2SXCF](https://www.instagram.com/reel/DgLcin2SXCF/): 2.9 h no ar, 1252 views, 32.8% pularam, 41% assistido, 12 curtidas
