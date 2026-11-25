@@ -2679,7 +2679,7 @@
     {
       "data": "2026-11-24",
       "hora": "21:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-24_2100",
       "arquivo": "radar_v128_gta6_cyberpunk2_cancelado.mp4",
       "formato": "corte",
@@ -2694,7 +2694,8 @@
         "gancho": "O diretor de Cyberpunk 2 viu GTA 6 e disse que o jogo dele foi cancelado",
         "origem": "GTA BOOM 23/11"
       },
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/DgJMhdxtde0/"
     }
   ]
 }
