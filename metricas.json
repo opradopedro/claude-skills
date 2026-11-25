@@ -4805,8 +4805,8 @@
    "avgWatchedPct": 32.12,
    "skipRate": 40.1,
    "durationSeconds": 35,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 89.9
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 95.9
   },
   "h24": {
    "playCount": 1588,
@@ -4848,8 +4848,8 @@
    "avgWatchedPct": 50.49,
    "skipRate": 31.4,
    "durationSeconds": 41,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 86.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 92.8
   },
   "h24": {
    "playCount": 1884,
@@ -4891,8 +4891,8 @@
    "avgWatchedPct": 25.06,
    "skipRate": 48.2,
    "durationSeconds": 37,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 71.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 77.8
   },
   "h24": {
    "playCount": 484,
@@ -4906,6 +4906,19 @@
    "durationSeconds": 37,
    "coletado": "2026-11-23T20:51Z",
    "horas": 29.7
+  },
+  "h72": {
+   "playCount": 485,
+   "likeCount": 13,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 9271,
+   "avgWatchedPct": 25.06,
+   "skipRate": 48.2,
+   "durationSeconds": 37,
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 77.8
   }
  },
  "DgDuqjGBvUd": {
@@ -4921,8 +4934,8 @@
    "avgWatchedPct": 42.01,
    "skipRate": 42.2,
    "durationSeconds": 41,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 65.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 1810,
@@ -4942,17 +4955,17 @@
   "publicado": "2026-11-23T00:05:02.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 3501,
+   "playCount": 3505,
    "likeCount": 96,
    "commentCount": 4,
    "shares": 1,
    "saves": 9,
-   "avgWatchTimeMs": 21307,
+   "avgWatchTimeMs": 21305,
    "avgWatchedPct": 50.73,
    "skipRate": 25,
    "durationSeconds": 42,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 62.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 68.8
   },
   "h24": {
    "playCount": 3481,
@@ -4981,8 +4994,8 @@
    "avgWatchedPct": 36.34,
    "skipRate": 34.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 47.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 53.8
   },
   "h24": {
    "playCount": 1313,
@@ -5011,8 +5024,8 @@
    "avgWatchedPct": 32.05,
    "skipRate": 40.6,
    "durationSeconds": 40,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 41.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 244,
@@ -5041,8 +5054,8 @@
    "avgWatchedPct": 25.83,
    "skipRate": 50,
    "durationSeconds": 37,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 38.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 44.8
   },
   "h24": {
    "playCount": 279,
@@ -5062,51 +5075,81 @@
   "publicado": "2026-11-24T15:05:55.000Z",
   "legenda": "GTA 6: o hacker que vazou o jogo pegou 7 anos de cadeia… e saiu livre no MESMO d",
   "atual": {
-   "playCount": 1668,
+   "playCount": 1669,
    "likeCount": 28,
    "commentCount": 0,
    "shares": 0,
    "saves": 0,
-   "avgWatchTimeMs": 20401,
-   "avgWatchedPct": 47.44,
-   "skipRate": 31.3,
+   "avgWatchTimeMs": 20395,
+   "avgWatchedPct": 47.43,
+   "skipRate": 31.2,
    "durationSeconds": 43,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 23.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 29.8
+  },
+  "h24": {
+   "playCount": 1669,
+   "likeCount": 28,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 20395,
+   "avgWatchedPct": 47.43,
+   "skipRate": 31.2,
+   "durationSeconds": 43,
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 29.8
   }
  },
  "DgI3lu4sRpK": {
   "publicado": "2026-11-24T20:59:19.000Z",
   "legenda": "GTA 6 tem um NPC que NÃO MORRE e te caça pela mira do sniper",
   "atual": {
-   "playCount": 1799,
+   "playCount": 1811,
    "likeCount": 75,
    "commentCount": 0,
    "shares": 9,
    "saves": 11,
-   "avgWatchTimeMs": 21641,
-   "avgWatchedPct": 58.49,
-   "skipRate": 34.2,
+   "avgWatchTimeMs": 21580,
+   "avgWatchedPct": 58.32,
+   "skipRate": 34.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 17.9
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 23.9
   }
  },
  "DgJMhdxtde0": {
   "publicado": "2026-11-25T00:02:19.000Z",
   "legenda": "O diretor de Cyberpunk 2 viu GTA 6 e disse que o jogo dele foi CANCELADO",
   "atual": {
-   "playCount": 1730,
+   "playCount": 1742,
    "likeCount": 59,
    "commentCount": 0,
    "shares": 4,
    "saves": 5,
-   "avgWatchTimeMs": 20188,
-   "avgWatchedPct": 41.2,
-   "skipRate": 30.5,
+   "avgWatchTimeMs": 20138,
+   "avgWatchedPct": 41.1,
+   "skipRate": 30.7,
    "durationSeconds": 49,
-   "coletado": "2026-11-25T14:52Z",
-   "horas": 14.8
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 20.9
+  }
+ },
+ "DgKzPrmq6e1": {
+  "publicado": "2026-11-25T15:00:21.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 481,
+   "likeCount": 18,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 5,
+   "avgWatchTimeMs": 18297,
+   "avgWatchedPct": 53.81,
+   "skipRate": 24.1,
+   "durationSeconds": 34,
+   "coletado": "2026-11-25T20:53Z",
+   "horas": 5.9
   }
  }
 }

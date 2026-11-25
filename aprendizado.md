@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 25/11/2026 11:52 (Brasília) com 127 Reels com nota. Média geral: 60.0/100.
+Atualizado em 25/11/2026 17:53 (Brasília) com 127 Reels com nota. Média geral: 60.0/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -17,12 +17,12 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| NPC imortal do sniper (easter egg de terror) | 1 | 77.7 | 65.9 |  |
 | combate não letal / jogar GTA 6 sem matar | 1 | 77.4 | 65.8 |  |
+| NPC imortal do sniper (easter egg de terror) | 1 | 77.6 | 65.8 |  |
 | mecanica/polemica: sem replay de missao | 1 | 76.3 | 65.4 |  |
 | bastidores/desenvolvimento | 2 | 70.1 | 65.0 |  |
 | polemica | 1 | 74.6 | 64.8 |  |
-| Igor Sarzynski, diretor criativo de Cyberpunk 2 (Project Orion, CD Projekt Red), postou no Bluesky que GTA 6 deu 'depressão de dev de mundo aberto', chamou o jogo de 'provavelmente a maior conquista artística da história' (escala, densidade, coerência, cuidado) e brincou 'Cyberpunk 2 está cancelado, vou varrer folhas no quintal'; depois disse que o time faz algo com sabor próprio; o jogo segue em produção (GTA BOOM 23/11) | 1 | 74.6 | 64.8 |  |
+| Igor Sarzynski, diretor criativo de Cyberpunk 2 (Project Orion, CD Projekt Red), postou no Bluesky que GTA 6 deu 'depressão de dev de mundo aberto', chamou o jogo de 'provavelmente a maior conquista artística da história' (escala, densidade, coerência, cuidado) e brincou 'Cyberpunk 2 está cancelado, vou varrer folhas no quintal'; depois disse que o time faz algo com sabor próprio; o jogo segue em produção (GTA BOOM 23/11) | 1 | 74.5 | 64.8 |  |
 | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | 1 | 73.7 | 64.5 |  |
 | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | 1 | 73.5 | 64.5 |  |
 | notas/reviews: 99 no Metacritic | 1 | 73.6 | 64.5 |  |
@@ -88,8 +88,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | vendas/numeros: previsão de 45 mi no lançamento (Piper Sandler) x 7,7 mi de reservas | 1 | 56.0 | 58.6 |  |
 | trailer | 3 | 57.6 | 58.5 |  |
 | Take-Two confirma GTA 6 pronto (desenvolvimento acabou) + pré-download começou (209,8 GB no PS5) | 1 | 54.4 | 58.1 |  |
-| curiosidade/comunidade | 1 | 54.3 | 58.1 |  |
 | evento oficial: festival de música do GTA 6 em Miami | 1 | 54.0 | 58.0 |  |
+| curiosidade/comunidade | 1 | 54.1 | 58.0 |  |
 | mídia física: caixas nas lojas, 230 GB no verso e ícone online | 1 | 53.6 | 57.8 |  |
 | noticia/recorde | 1 | 53.2 | 57.7 |  |
 | vazamentos | 2 | 55.0 | 57.5 |  |
@@ -121,11 +121,11 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 1 | 77.9 | 65.9 |  |
-| GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1 | 77.7 | 65.9 |  |
 | dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 77.4 | 65.8 |  |
+| GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1 | 77.6 | 65.8 |  |
 | numero gigante (8 horas) + comparação com Fortnite | 1 | 76.6 | 65.5 |  |
 | GTA 6 não deixa você jogar de novo uma missão | 1 | 76.3 | 65.4 |  |
-| O diretor de Cyberpunk 2 viu GTA 6 e disse que o jogo dele foi cancelado | 1 | 74.6 | 64.8 |  |
+| O diretor de Cyberpunk 2 viu GTA 6 e disse que o jogo dele foi cancelado | 1 | 74.5 | 64.8 |  |
 | GTA 6 pode perder o Jogo do Ano | 1 | 73.7 | 64.5 |  |
 | tem gente que vai jogar 16 horas antes de você | 1 | 73.5 | 64.5 |  |
 | GTA 6 acabou de tirar 99 no Metacritic | 1 | 73.6 | 64.5 |  |
@@ -169,8 +169,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | revelacao | 24 | 58.5 | 58.6 |  |
 | GTA 6 pode vender 45 milhões de cópias logo no lançamento? | 1 | 56.0 | 58.6 |  |
 | GTA 6 tá pronto e o desenvolvimento acabou | 1 | 54.4 | 58.1 |  |
-| idosos de asilo francês largaram o Scrabble pra jogar GTA 6 | 1 | 54.3 | 58.1 |  |
 | recorde | 1 | 54.1 | 58.0 |  |
+| idosos de asilo francês largaram o Scrabble pra jogar GTA 6 | 1 | 54.1 | 58.0 |  |
 | as caixas do GTA 6 já começaram a chegar nas lojas | 1 | 53.6 | 57.8 |  |
 | enquete | 7 | 56.4 | 57.2 |  |
 | mentira_verdade | 2 | 53.7 | 56.8 |  |
@@ -193,9 +193,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | GTA BOOM 18/11 | 2 | 74.2 | 67.1 |  |
 | GTA BOOM 19/11 (post conjunto dos atores no Instagram) | 1 | 79.1 | 66.3 |  |
-| GTA BOOM 24/11 (gtaboom.com/gta-6-has-an-unkillable-npc-who-hunts-you-through-a-sniper-scope-here-is-how-to-find-him-c4de); prints do artigo | 1 | 77.7 | 65.9 |  |
 | RockstarINTEL 26/10 (NateTheHate) | 1 | 77.5 | 65.8 |  |
 | GTABase (Rob Nelson, Rockstar North) | 1 | 77.4 | 65.8 |  |
+| GTA BOOM 24/11 (gtaboom.com/gta-6-has-an-unkillable-npc-who-hunts-you-through-a-sniper-scope-here-is-how-to-find-him-c4de); prints do artigo | 1 | 77.6 | 65.8 |  |
 | GTA BOOM 21/11 (Circana/Mat Piscatella) | 1 | 76.6 | 65.5 |  |
 | GamesRadar 16/10 | 1 | 76.0 | 65.3 |  |
 | GTA BOOM 13/11 + teaser oficial no X | 1 | 76.0 | 65.3 |  |
@@ -271,9 +271,9 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA BOOM 13/11 (prévia The Guardian) | 1 | 56.8 | 58.9 |  |
 | Piper Sandler via Wccftech/OpenCritic; Sensor Tower | 1 | 56.0 | 58.6 |  |
 | GTA BOOM / Notebookcheck 10/11 | 1 | 54.4 | 58.1 |  |
-| GTA BOOM 21/11 (ICI Paris Île-de-France) | 1 | 54.3 | 58.1 |  |
 | Rockstar no X / Axios Miami 09/11 | 1 | 54.0 | 58.0 |  |
 | GTA BOOM 18/11 (StreamsCharts) | 1 | 54.1 | 58.0 |  |
+| GTA BOOM 21/11 (ICI Paris Île-de-France) | 1 | 54.1 | 58.0 |  |
 | Push Square/GameRant 16/10 (posts de fãs) | 1 | 53.5 | 57.8 |  |
 | rockstarintel.com/gta-6-box-copies-begin-arriving-reveals-online-feature-new-screenshots-and-more (07/11) | 1 | 53.6 | 57.8 |  |
 | GTA BOOM 13/11 + comunicados DE-CIX/Virgin Media O2 | 1 | 53.2 | 57.7 |  |
@@ -289,7 +289,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Eurogamer via comicshoplocator 16/10 | 1 | 47.4 | 55.8 |  |
 | nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection; gematsu.com 02/10; gtaboom 04/10 | 1 | 47.6 | 55.8 |  |
 | WSJ 'The CEO Behind Grand Theft Auto VI' via vgtimes.com/gaming-news/173722 (06/11) | 1 | 46.7 | 55.5 |  |
-| GTA BOOM 23/11 | 3 | 52.5 | 55.5 |  |
+| GTA BOOM 23/11 | 3 | 52.4 | 55.4 |  |
 | autoral | 9 | 54.2 | 55.3 |  |
 | YouTube Blog + GTA BOOM 12/11 | 1 | 44.4 | 54.8 |  |
 | VGTimes 30/10; cena do episódio via YouTube QH-XIqBDbwo | 1 | 43.9 | 54.6 |  |
@@ -320,7 +320,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1699 | 25.1% | 52% | 60 | 0 | 2 | 1 | 79.1 (h72) |
 | 2026-11-22 | [DgEDP_EByh3](https://www.instagram.com/reel/DgEDP_EByh3/) | corte | noticia/polemica | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 3481 | 24.9% | 51% | 96 | 4 | 9 | 1 | 77.9 (h24) |
-| 2026-11-24 | [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/) | corte | NPC imortal do sniper (easter egg de terror) | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1799 | 34.2% | 58% | 75 | 0 | 11 | 9 | 77.7 (provisória) |
+| 2026-11-24 | [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/) | corte | NPC imortal do sniper (easter egg de terror) | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1811 | 34.3% | 58% | 75 | 0 | 11 | 9 | 77.6 (provisória) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 77.5 (h72) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 77.4 (h72) |
 | 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1884 | 31.4% | 50% | 90 | 1 | 2 | 2 | 76.6 (h72) |
@@ -328,7 +328,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-17 | [DemXZASj3oQ](https://www.instagram.com/reel/DemXZASj3oQ/) | corte | bastidores | noticia | 1463 | 31.3% | 48% | 52 | 0 | 2 | 1 | 76.0 (h72) |
 | 2026-11-13 | [Dfs-fCfBUbU](https://www.instagram.com/reel/Dfs-fCfBUbU/) | corte | curiosidade/marketing | revelacao | 1873 | 29.9% | 46% | 110 | 3 | 8 | 22 | 76.0 (h72) |
 | 2026-11-19 | [Df7W5eqzSR5](https://www.instagram.com/reel/Df7W5eqzSR5/) | corte | polemica | pergunta | 1338 | 34.7% | 47% | 45 | 1 | 3 | 1 | 74.6 (h72) |
-| 2026-11-24 | [DgJMhdxtde0](https://www.instagram.com/reel/DgJMhdxtde0/) | corte | Igor Sarzynski, diretor criativo de Cyberpunk 2 (Project Orion, CD Projekt Red), postou no Bluesky que GTA 6 deu 'depressão de dev de mundo aberto', chamou o jogo de 'provavelmente a maior conquista artística da história' (escala, densidade, coerência, cuidado) e brincou 'Cyberpunk 2 está cancelado, vou varrer folhas no quintal'; depois disse que o time faz algo com sabor próprio; o jogo segue em produção (GTA BOOM 23/11) | O diretor de Cyberpunk 2 viu GTA 6 e disse que o jogo dele foi cancelado | 1730 | 30.5% | 41% | 59 | 0 | 5 | 4 | 74.6 (provisória) |
+| 2026-11-24 | [DgJMhdxtde0](https://www.instagram.com/reel/DgJMhdxtde0/) | corte | Igor Sarzynski, diretor criativo de Cyberpunk 2 (Project Orion, CD Projekt Red), postou no Bluesky que GTA 6 deu 'depressão de dev de mundo aberto', chamou o jogo de 'provavelmente a maior conquista artística da história' (escala, densidade, coerência, cuidado) e brincou 'Cyberpunk 2 está cancelado, vou varrer folhas no quintal'; depois disse que o time faz algo com sabor próprio; o jogo segue em produção (GTA BOOM 23/11) | O diretor de Cyberpunk 2 viu GTA 6 e disse que o jogo dele foi cancelado | 1742 | 30.7% | 41% | 59 | 0 | 5 | 4 | 74.5 (provisória) |
 | 2026-11-01 | [DfN-d34Eow-](https://www.instagram.com/reel/DfN-d34Eow-/) | corte | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | GTA 6 pode perder o Jogo do Ano | 1268 | 35.6% | 45% | 51 | 0 | 1 | 0 | 73.7 (h24) |
 | 2026-11-18 | [Df4yyzdODQR](https://www.instagram.com/reel/Df4yyzdODQR/) | corte | notas/reviews: 99 no Metacritic | GTA 6 acabou de tirar 99 no Metacritic | 1477 | 31.2% | 38% | 94 | 2 | 4 | 16 | 73.6 (h72) |
 | 2026-11-05 | [DfYRV6llI_F](https://www.instagram.com/reel/DfYRV6llI_F/) | corte | horário de lançamento: meia-noite local, Nova Zelândia 16 h antes do Brasil | tem gente que vai jogar 16 horas antes de você | 1485 | 32.1% | 39% | 48 | 0 | 7 | 5 | 73.5 (h72) |
@@ -399,7 +399,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-27 | [DfBGKv3IIsZ](https://www.instagram.com/reel/DfBGKv3IIsZ/) | corte | GTA 6 no PC em 6-7 meses segundo Pachter | GTA 6 no PC pode chegar bem mais rápido do que você imagina | 486 | 49% | 23% | 18 | 0 | 2 | 3 | 58.7 (h72) |
 | 2026-10-18 | [Dep6MPzlVqQ](https://www.instagram.com/reel/Dep6MPzlVqQ/) | corte | historia | enquete | 160 | 43.8% | 29% | 10 | 0 | 0 | 0 | 58.6 (h72) |
 | 2026-11-13 | [Dfr_lHAOylj](https://www.instagram.com/reel/Dfr_lHAOylj/) | corte | bastidores/curiosidade | revelacao | 200 | 45.8% | 30% | 5 | 0 | 1 | 0 | 58.5 (h72) |
-| 2026-11-24 | [DgIPESuhaBF](https://www.instagram.com/reel/DgIPESuhaBF/) | corte | Arion Kurtaj (21, Lapsus$), autor do vazamento de GTA 6 em 2022 (~90 vídeos do jogo inacabado, prejuízo de ~US$ 5 mi à Rockstar), foi condenado a 7 anos em 23/11 no Woolwich Crown Court (Londres) e saiu no mesmo dia em liberdade condicional: juiz descontou 2 anos de internação em hospital psiquiátrico de segurança e o tempo preso; ordem de 5 anos restringe internet e proíbe Discord e Telegram; o jogo tirou 99 no Metacritic (GTA BOOM 24/11, BBC, The Record) | O hacker que vazou GTA 6 pegou sete anos e saiu livre no mesmo dia | 1668 | 31.3% | 47% | 28 | 0 | 0 | 0 | 58.5 (provisória) |
+| 2026-11-24 | [DgIPESuhaBF](https://www.instagram.com/reel/DgIPESuhaBF/) | corte | Arion Kurtaj (21, Lapsus$), autor do vazamento de GTA 6 em 2022 (~90 vídeos do jogo inacabado, prejuízo de ~US$ 5 mi à Rockstar), foi condenado a 7 anos em 23/11 no Woolwich Crown Court (Londres) e saiu no mesmo dia em liberdade condicional: juiz descontou 2 anos de internação em hospital psiquiátrico de segurança e o tempo preso; ordem de 5 anos restringe internet e proíbe Discord e Telegram; o jogo tirou 99 no Metacritic (GTA BOOM 24/11, BBC, The Record) | O hacker que vazou GTA 6 pegou sete anos e saiu livre no mesmo dia | 1669 | 31.2% | 47% | 28 | 0 | 0 | 0 | 58.5 (h24) |
 | 2026-11-11 | [Dfmw7K2JZgf](https://www.instagram.com/reel/Dfmw7K2JZgf/) | corte | lancamento | revelacao | 131 | 39% | 23% | 3 | 0 | 0 | 1 | 58.3 (h72) |
 | 2026-10-31 | [DfKcAJ2AvuU](https://www.instagram.com/reel/DfKcAJ2AvuU/) | corte | boate NINE1NINE de verdade em Miami | revelacao | 221 | 41.9% | 33% | 8 | 0 | 0 | 0 | 57.9 (h72) |
 | 2026-11-02 | [DfPqb20ASNX](https://www.instagram.com/reel/DfPqb20ASNX/) | corte | milionário faz a conta: GTA 6 economiza US$ 5 mil | numero chocante | 94 | 34.5% | 38% | 3 | 0 | 0 | 0 | 57.3 (h72) |
@@ -408,8 +408,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-14 | [DfvcYQBOrqx](https://www.instagram.com/reel/DfvcYQBOrqx/) | corte | gameplay/sistemas | revelacao | 145 | 48.8% | 29% | 7 | 0 | 1 | 0 | 56.8 (h72) |
 | 2026-11-05 | [DfXUGWik7W-](https://www.instagram.com/reel/DfXUGWik7W-/) | corte | vendas/numeros: previsão de 45 mi no lançamento (Piper Sandler) x 7,7 mi de reservas | GTA 6 pode vender 45 milhões de cópias logo no lançamento? | 148 | 41.3% | 34% | 5 | 0 | 0 | 0 | 56.0 (h72) |
 | 2026-11-10 | [DfkMqqny8gW](https://www.instagram.com/reel/DfkMqqny8gW/) | corte | Take-Two confirma GTA 6 pronto (desenvolvimento acabou) + pré-download começou (209,8 GB no PS5) | GTA 6 tá pronto e o desenvolvimento acabou | 157 | 42.6% | 35% | 5 | 0 | 0 | 0 | 54.4 (h72) |
-| 2026-11-22 | [DgDFn3Buuca](https://www.instagram.com/reel/DgDFn3Buuca/) | corte | curiosidade/comunidade | idosos de asilo francês largaram o Scrabble pra jogar GTA 6 | 484 | 48% | 25% | 13 | 0 | 1 | 0 | 54.3 (h24) |
 | 2026-11-19 | [Df8UCeohVPh](https://www.instagram.com/reel/Df8UCeohVPh/) | corte | vendas/numeros | recorde | 310 | 32.1% | 31% | 5 | 0 | 1 | 0 | 54.1 (h72) |
+| 2026-11-22 | [DgDFn3Buuca](https://www.instagram.com/reel/DgDFn3Buuca/) | corte | curiosidade/comunidade | idosos de asilo francês largaram o Scrabble pra jogar GTA 6 | 485 | 48.2% | 25% | 13 | 0 | 1 | 0 | 54.1 (h72) |
 | 2026-11-09 | [DfiSpullC2Y](https://www.instagram.com/reel/DfiSpullC2Y/) | corte | evento oficial: festival de música do GTA 6 em Miami | pergunta | 172 | 50.6% | 20% | 8 | 0 | 1 | 0 | 54.0 (h72) |
 | 2026-11-07 | [Dfcd6XfoRdx](https://www.instagram.com/reel/Dfcd6XfoRdx/) | corte | mídia física: caixas nas lojas, 230 GB no verso e ícone online | as caixas do GTA 6 já começaram a chegar nas lojas | 1347 | 42.7% | 34% | 27 | 0 | 0 | 0 | 53.6 (h72) |
 | 2026-10-17 | [DenVRLvAWnp](https://www.instagram.com/reel/DenVRLvAWnp/) | corte | marketing | curiosidade | 391 | 52.1% | 31% | 10 | 0 | 0 | 1 | 53.5 (h72) |
@@ -445,3 +445,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.7 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 26.7 (h24) |
 | 2026-11-17 | [Df3LR72Aqvw](https://www.instagram.com/reel/Df3LR72Aqvw/) | corte | criadores/streamers | Arthur Morgan vai jogar GTA 6 | 118 | 64.2% | 15% | 0 | 0 | 0 | 0 | 17.6 (h72) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DgKzPrmq6e1](https://www.instagram.com/reel/DgKzPrmq6e1/): 5.9 h no ar, 481 views, 24.1% pularam, 54% assistido, 18 curtidas

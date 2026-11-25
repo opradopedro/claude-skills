@@ -2717,6 +2717,19 @@
       },
       "capa_embutida": true,
       "link": "https://www.instagram.com/reel/DgKzPrmq6e1/"
+    },
+    {
+      "data": "2026-11-25",
+      "hora": "18:00",
+      "status": "pendente",
+      "pasta": "producao/2026-11-25_1800",
+      "arquivo": "radar_v130_gta6_port_pc_derrubado.mp4",
+      "formato": "corte",
+      "tema": "Take-Two (DMCA de 24/11 publicado pelo GitHub) derrubou o Leonida, projeto de recompilação para rodar no Windows a build de Xbox de GTA 6 que vazou (Cyberleek, build 1.0.2.1; .exe saiu 23/11): repositório ItsNotRexed e 2.900+ forks, 3.007 repositórios bloqueados; modders fizeram o jogo abrir no PC até os menus de configuração em poucas horas; Take-Two chamou de obra derivada e disse que o aviso de 'sem arquivos do jogo' era 'intencionalmente enganoso'; Rockstar não anunciou versão de PC (heise 25/11, GamesRadar)",
+      "capa": "Port de PC derrubado",
+      "capa_t": 1.5,
+      "roteiro": "Mano, a Take-Two derrubou mais de três mil projetos do GitHub de uma vez só, por causa de GTA 6. Tudo começou com o Leonida, um projeto que tentava rodar no PC a versão de Xbox que vazou. Em poucas horas, a galera já tinha feito o jogo abrir no Windows, mas só até o menu de configurações. Aí veio o pedido de remoção: a Take-Two disse que era obra derivada e que o aviso de que não tinha arquivo do jogo era enganoso de propósito. E a Rockstar ainda nem anunciou versão de PC. Você esperaria a versão oficial ou jogaria no console mesmo? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+      "capa_embutida": true
     }
   ]
 }
