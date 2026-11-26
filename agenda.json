@@ -2763,7 +2763,7 @@
     {
       "data": "2026-11-26",
       "hora": "12:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-26_1200",
       "arquivo": "radar_v132_gta6_o_que_a_rockstar_cortou.mp4",
       "formato": "corte",
@@ -2771,7 +2771,15 @@
       "capa": "O que a Rockstar cortou",
       "capa_t": 0.8,
       "roteiro": "Mano, a Rockstar cortou o tênis de GTA 6 porque não gostou de como ficou. E não parou por aí. O Jason e a Lucia iam poder engatinhar pelo chão, decorar a própria casa e até criar itens. Tudo cortado. Ir ao cinema e ao teatro também caiu, porque não era interativo o bastante. E tinha uma geladeira que o casal precisava encher sozinho, tirada por ser realista demais. Só o minigolfe sobreviveu. Quem contou foi o Rob Nelson, da Rockstar North, à revista PC Games. Qual você queria de volta, o cinema ou decorar a casa? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/DgNYWwIN7DD/",
+      "legenda": "GTA 6 ia ter TÊNIS, cinema e até casa pra decorar… e a Rockstar cortou tudo ✂️😳 manda pra quem vai jogar com você 🎾",
+      "ficha": {
+        "formato": "corte",
+        "tema": "recursos cortados de GTA 6",
+        "gancho": "revelacao",
+        "origem": "GTA BOOM 25/11 (PC Games, Rob Nelson/Scott Mitchell)"
+      }
     }
   ]
 }
