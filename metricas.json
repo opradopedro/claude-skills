@@ -4934,8 +4934,8 @@
    "avgWatchedPct": 42.0,
    "skipRate": 42.1,
    "durationSeconds": 41,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 89.8
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 95.8
   },
   "h24": {
    "playCount": 1810,
@@ -4968,17 +4968,17 @@
   "publicado": "2026-11-23T00:05:02.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 3516,
+   "playCount": 3518,
    "likeCount": 96,
    "commentCount": 4,
    "shares": 1,
    "saves": 9,
-   "avgWatchTimeMs": 21289,
-   "avgWatchedPct": 50.69,
-   "skipRate": 25,
+   "avgWatchTimeMs": 21277,
+   "avgWatchedPct": 50.66,
+   "skipRate": 25.1,
    "durationSeconds": 42,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 86.8
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 92.8
   },
   "h24": {
    "playCount": 3481,
@@ -5020,8 +5020,8 @@
    "avgWatchedPct": 36.39,
    "skipRate": 34.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 71.8
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 77.8
   },
   "h24": {
    "playCount": 1313,
@@ -5035,6 +5035,19 @@
    "durationSeconds": 37,
    "coletado": "2026-11-24T20:51Z",
    "horas": 29.7
+  },
+  "h72": {
+   "playCount": 1318,
+   "likeCount": 38,
+   "commentCount": 1,
+   "shares": 1,
+   "saves": 1,
+   "avgWatchTimeMs": 13464,
+   "avgWatchedPct": 36.39,
+   "skipRate": 34.3,
+   "durationSeconds": 37,
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 77.8
   }
  },
  "DgGTOYQpUyZ": {
@@ -5050,8 +5063,8 @@
    "avgWatchedPct": 32.03,
    "skipRate": 40.4,
    "durationSeconds": 40,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 65.8
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 244,
@@ -5080,8 +5093,8 @@
    "avgWatchedPct": 25.76,
    "skipRate": 49.8,
    "durationSeconds": 37,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 62.8
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 68.8
   },
   "h24": {
    "playCount": 279,
@@ -5110,8 +5123,8 @@
    "avgWatchedPct": 47.41,
    "skipRate": 31.2,
    "durationSeconds": 43,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 47.8
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 53.8
   },
   "h24": {
    "playCount": 1669,
@@ -5140,8 +5153,8 @@
    "avgWatchedPct": 58.12,
    "skipRate": 34.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 41.9
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 1812,
@@ -5161,17 +5174,17 @@
   "publicado": "2026-11-25T00:02:19.000Z",
   "legenda": "O diretor de Cyberpunk 2 viu GTA 6 e disse que o jogo dele foi CANCELADO",
   "atual": {
-   "playCount": 1745,
+   "playCount": 1746,
    "likeCount": 59,
    "commentCount": 0,
    "shares": 4,
    "saves": 5,
-   "avgWatchTimeMs": 20144,
-   "avgWatchedPct": 41.11,
+   "avgWatchTimeMs": 20132,
+   "avgWatchedPct": 41.09,
    "skipRate": 30.7,
    "durationSeconds": 49,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 38.8
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 44.8
   },
   "h24": {
    "playCount": 1745,
@@ -5191,51 +5204,81 @@
   "publicado": "2026-11-25T15:00:21.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1324,
+   "playCount": 1329,
    "likeCount": 45,
    "commentCount": 0,
    "shares": 1,
    "saves": 9,
-   "avgWatchTimeMs": 17974,
-   "avgWatchedPct": 52.86,
-   "skipRate": 25.9,
+   "avgWatchTimeMs": 17982,
+   "avgWatchedPct": 52.89,
+   "skipRate": 25.8,
    "durationSeconds": 34,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 23.9
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 29.9
+  },
+  "h24": {
+   "playCount": 1329,
+   "likeCount": 45,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 9,
+   "avgWatchTimeMs": 17982,
+   "avgWatchedPct": 52.89,
+   "skipRate": 25.8,
+   "durationSeconds": 34,
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 29.9
   }
  },
  "DgLcin2SXCF": {
   "publicado": "2026-11-25T21:00:43.000Z",
   "legenda": "GTA 6 rodando no PC? A Take-Two derrubou mais de 3 MIL projetos no GitHub de uma",
   "atual": {
-   "playCount": 1377,
+   "playCount": 1378,
    "likeCount": 17,
    "commentCount": 2,
    "shares": 1,
    "saves": 1,
-   "avgWatchTimeMs": 14813,
-   "avgWatchedPct": 41.15,
+   "avgWatchTimeMs": 14803,
+   "avgWatchedPct": 41.12,
    "skipRate": 32.3,
    "durationSeconds": 36,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 17.9
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 23.9
   }
  },
  "DgLw_9dxiBB": {
   "publicado": "2026-11-25T23:59:29.000Z",
   "legenda": "GTA 6 contou o que aconteceu com Michael, Franklin e Trevor",
   "atual": {
-   "playCount": 2793,
-   "likeCount": 98,
+   "playCount": 2929,
+   "likeCount": 107,
    "commentCount": 0,
-   "shares": 3,
-   "saves": 16,
-   "avgWatchTimeMs": 22310,
-   "avgWatchedPct": 54.41,
+   "shares": 4,
+   "saves": 18,
+   "avgWatchTimeMs": 22182,
+   "avgWatchedPct": 54.1,
    "skipRate": 33.1,
    "durationSeconds": 41,
-   "coletado": "2026-11-26T14:52Z",
-   "horas": 14.9
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 20.9
+  }
+ },
+ "DgNYWwIN7DD": {
+  "publicado": "2026-11-26T15:03:09.000Z",
+  "legenda": "GTA 6 ia ter TÊNIS, cinema e até casa pra decorar… e a Rockstar cortou tudo ✂️😳",
+  "atual": {
+   "playCount": 1646,
+   "likeCount": 48,
+   "commentCount": 3,
+   "shares": 8,
+   "saves": 3,
+   "avgWatchTimeMs": 17406,
+   "avgWatchedPct": 48.35,
+   "skipRate": 30.1,
+   "durationSeconds": 36,
+   "coletado": "2026-11-26T20:52Z",
+   "horas": 5.8
   }
  }
 }

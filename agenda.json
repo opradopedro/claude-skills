@@ -2780,6 +2780,19 @@
         "gancho": "revelacao",
         "origem": "GTA BOOM 25/11 (PC Games, Rob Nelson/Scott Mitchell)"
       }
+    },
+    {
+      "data": "2026-11-26",
+      "hora": "18:00",
+      "status": "pendente",
+      "pasta": "producao/2026-11-26_1800",
+      "arquivo": "radar_v133_gta6_jogar_de_graca_playmyps5.mp4",
+      "formato": "corte",
+      "tema": "Site PlayMyPS5 transmite um PS5 de verdade rodando GTA 6 e passa o controle numa fila pública: 5 minutos grátis por vez, sem conta nem e-mail (só apelido), todo mundo assistindo e no chat; 20 s para pegar o controle, 30 s parado perde a vez; lag atrapalha; host arrisca bloqueio da conta PSN (GTA BOOM 25/11)",
+      "capa": "Jogar de graça?",
+      "capa_t": 3.2,
+      "roteiro": "Mano, tem um site que deixa você jogar GTA 6 de graça. Sem comprar o jogo e sem ter videogame. Ele se chama PlayMyPS5 e transmite um PS5 de verdade rodando GTA 6 pra internet inteira. Você entra numa fila, põe só um apelido, e quando chega a sua vez pega o controle. Mas tem uma pegadinha: são só cinco minutos, com todo mundo assistindo ao vivo. E se ficar parado trinta segundos, perde a vez. Com o lag da internet, dirigir e atirar vira caos. Você encararia essa fila? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+      "capa_embutida": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 26/11/2026 11:52 (Brasília) com 130 Reels com nota. Média geral: 59.5/100.
+Atualizado em 26/11/2026 17:52 (Brasília) com 130 Reels com nota. Média geral: 59.5/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -17,10 +17,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| modelo real da capa (bastidores da arte) | 1 | 78.3 | 65.8 |  |
+| modelo real da capa (bastidores da arte) | 1 | 78.4 | 65.8 |  |
 | NPC imortal do sniper (easter egg de terror) | 1 | 77.6 | 65.6 |  |
-| podcast Final Act: destino de Michael, Franklin e Trevor | 1 | 77.0 | 65.4 |  |
 | combate não letal / jogar GTA 6 sem matar | 1 | 76.7 | 65.3 |  |
+| podcast Final Act: destino de Michael, Franklin e Trevor | 1 | 76.9 | 65.3 |  |
 | mecanica/polemica: sem replay de missao | 1 | 76.3 | 65.1 |  |
 | Igor Sarzynski, diretor criativo de Cyberpunk 2 (Project Orion, CD Projekt Red), postou no Bluesky que GTA 6 deu 'depressão de dev de mundo aberto', chamou o jogo de 'provavelmente a maior conquista artística da história' (escala, densidade, coerência, cuidado) e brincou 'Cyberpunk 2 está cancelado, vou varrer folhas no quintal'; depois disse que o time faz algo com sabor próprio; o jogo segue em produção (GTA BOOM 23/11) | 1 | 74.5 | 64.5 |  |
 | bastidores/desenvolvimento | 2 | 69.2 | 64.4 |  |
@@ -123,11 +123,11 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
-| a mina da capa de GTA 6 é de verdade | 1 | 78.3 | 65.8 |  |
+| a mina da capa de GTA 6 é de verdade | 1 | 78.4 | 65.8 |  |
 | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1 | 77.6 | 65.6 |  |
 | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 1 | 77.5 | 65.5 |  |
-| GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor | 1 | 77.0 | 65.4 |  |
 | dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 76.7 | 65.3 |  |
+| GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor | 1 | 76.9 | 65.3 |  |
 | numero gigante (8 horas) + comparação com Fortnite | 1 | 76.6 | 65.2 |  |
 | GTA 6 não deixa você jogar de novo uma missão | 1 | 76.3 | 65.1 |  |
 | O diretor de Cyberpunk 2 viu GTA 6 e disse que o jogo dele foi cancelado | 1 | 74.5 | 64.5 |  |
@@ -199,10 +199,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | GTA BOOM 18/11 | 2 | 73.9 | 66.7 |  |
 | GTA BOOM 19/11 (post conjunto dos atores no Instagram) | 1 | 79.1 | 66.1 |  |
-| GTA BOOM 24/11 (gtaboom.com/sabii-garcia-gta-6-cover-girl-reference-shoot-835d); arte oficial da capa | 1 | 78.3 | 65.8 |  |
+| GTA BOOM 24/11 (gtaboom.com/sabii-garcia-gta-6-cover-girl-reference-shoot-835d); arte oficial da capa | 1 | 78.4 | 65.8 |  |
 | GTA BOOM 24/11 (gtaboom.com/gta-6-has-an-unkillable-npc-who-hunts-you-through-a-sniper-scope-here-is-how-to-find-him-c4de); prints do artigo | 1 | 77.6 | 65.6 |  |
-| GTA BOOM 24/11 (the-final-act-podcast-in-gta-6...) | 1 | 77.0 | 65.4 |  |
 | GTABase (Rob Nelson, Rockstar North) | 1 | 76.7 | 65.3 |  |
+| GTA BOOM 24/11 (the-final-act-podcast-in-gta-6...) | 1 | 76.9 | 65.3 |  |
 | RockstarINTEL 26/10 (NateTheHate) | 1 | 76.6 | 65.2 |  |
 | GTA BOOM 21/11 (Circana/Mat Piscatella) | 1 | 76.6 | 65.2 |  |
 | GamesRadar 16/10 | 1 | 76.0 | 65.0 |  |
@@ -328,10 +328,10 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Data | Reel | Formato | Tema | Gancho | Views | Pularam | Assistido | Curt. | Coment. | Salv. | Comp. | Nota |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1699 | 25.1% | 52% | 60 | 0 | 2 | 1 | 79.1 (h72) |
-| 2026-11-25 | [DgKzPrmq6e1](https://www.instagram.com/reel/DgKzPrmq6e1/) | corte | modelo real da capa (bastidores da arte) | a mina da capa de GTA 6 é de verdade | 1324 | 25.9% | 53% | 45 | 0 | 9 | 1 | 78.3 (provisória) |
+| 2026-11-25 | [DgKzPrmq6e1](https://www.instagram.com/reel/DgKzPrmq6e1/) | corte | modelo real da capa (bastidores da arte) | a mina da capa de GTA 6 é de verdade | 1329 | 25.8% | 53% | 45 | 0 | 9 | 1 | 78.4 (h24) |
 | 2026-11-24 | [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/) | corte | NPC imortal do sniper (easter egg de terror) | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1812 | 34.3% | 58% | 75 | 0 | 11 | 9 | 77.6 (h24) |
 | 2026-11-22 | [DgEDP_EByh3](https://www.instagram.com/reel/DgEDP_EByh3/) | corte | noticia/polemica | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 3516 | 25% | 51% | 96 | 4 | 9 | 1 | 77.5 (h72) |
-| 2026-11-25 | [DgLw_9dxiBB](https://www.instagram.com/reel/DgLw_9dxiBB/) | corte | podcast Final Act: destino de Michael, Franklin e Trevor | GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor | 2793 | 33.1% | 54% | 98 | 0 | 16 | 3 | 77.0 (provisória) |
+| 2026-11-25 | [DgLw_9dxiBB](https://www.instagram.com/reel/DgLw_9dxiBB/) | corte | podcast Final Act: destino de Michael, Franklin e Trevor | GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor | 2929 | 33.1% | 54% | 107 | 0 | 18 | 4 | 76.9 (provisória) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 76.7 (h72) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 76.6 (h72) |
 | 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1884 | 31.4% | 50% | 90 | 1 | 2 | 2 | 76.6 (h72) |
@@ -365,7 +365,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-07 | [DfdHAA5E7_7](https://www.instagram.com/reel/DfdHAA5E7_7/) | corte | classificação etária 18+ no mundo todo e crítica da USK | GTA 6 é proibido pra menor de dezoito no mundo inteiro | 1684 | 39.4% | 42% | 54 | 0 | 0 | 2 | 68.3 (h72) |
 | 2026-10-21 | [DexoWsUjXNi](https://www.instagram.com/reel/DexoWsUjXNi/) | corte | alerta/utilidade | alerta | 1552 | 41.4% | 29% | 49 | 2 | 3 | 13 | 67.7 (h72) |
 | 2026-11-17 | [Df22YgluMTY](https://www.instagram.com/reel/Df22YgluMTY/) | corte | bastidores/desenvolvimento | ex-pesquisador revela pesquisa nível espionagem | 1347 | 34.9% | 42% | 39 | 0 | 0 | 2 | 67.5 (h72) |
-| 2026-11-23 | [DgFqdACOwms](https://www.instagram.com/reel/DgFqdACOwms/) | corte | tecnico/console | truque do Quick Resume destrava o FPS de GTA 6 no Xbox, mas o Jason anda em dobro | 1313 | 34.3% | 36% | 38 | 1 | 1 | 1 | 67.4 (h24) |
+| 2026-11-23 | [DgFqdACOwms](https://www.instagram.com/reel/DgFqdACOwms/) | corte | tecnico/console | truque do Quick Resume destrava o FPS de GTA 6 no Xbox, mas o Jason anda em dobro | 1318 | 34.3% | 36% | 38 | 1 | 1 | 1 | 67.4 (h72) |
 | 2026-10-31 | [DfLZkcpj72S](https://www.instagram.com/reel/DfLZkcpj72S/) | corte | sistema de nojo e NPCs com memória | revelacao | 1322 | 37.1% | 33% | 34 | 0 | 3 | 2 | 67.3 (h72) |
 | 2026-11-20 | [Df-kuGrBda_](https://www.instagram.com/reel/Df-kuGrBda_/) | corte | polemica/censura | censura bizarra | 3036 | 28.7% | 57% | 50 | 1 | 3 | 4 | 67.2 (h72) |
 | 2026-10-20 | [DevDjNqkdcV](https://www.instagram.com/reel/DevDjNqkdcV/) | corte | gameplay | pergunta | 1220 | 44% | 36% | 48 | 0 | 0 | 4 | 67.0 (h72) |
@@ -405,7 +405,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-08 | [DfgBO4elEZB](https://www.instagram.com/reel/DfgBO4elEZB/) | corte | polícia inglesa zoa motorista que vai passar o lançamento do GTA 6 preso | a polícia zoou um cara que vai passar o lançamento do GTA 6 na cadeia | 1277 | 23.5% | 39% | 24 | 0 | 0 | 0 | 59.4 (h72) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 58.8 (h24) |
 | 2026-11-24 | [DgIPESuhaBF](https://www.instagram.com/reel/DgIPESuhaBF/) | corte | Arion Kurtaj (21, Lapsus$), autor do vazamento de GTA 6 em 2022 (~90 vídeos do jogo inacabado, prejuízo de ~US$ 5 mi à Rockstar), foi condenado a 7 anos em 23/11 no Woolwich Crown Court (Londres) e saiu no mesmo dia em liberdade condicional: juiz descontou 2 anos de internação em hospital psiquiátrico de segurança e o tempo preso; ordem de 5 anos restringe internet e proíbe Discord e Telegram; o jogo tirou 99 no Metacritic (GTA BOOM 24/11, BBC, The Record) | O hacker que vazou GTA 6 pegou sete anos e saiu livre no mesmo dia | 1669 | 31.2% | 47% | 28 | 0 | 0 | 0 | 58.5 (h24) |
-| 2026-11-25 | [DgLcin2SXCF](https://www.instagram.com/reel/DgLcin2SXCF/) | corte | Take-Two (DMCA de 24/11 publicado pelo GitHub) derrubou o Leonida, projeto de recompilação para rodar no Windows a build de Xbox de GTA 6 que vazou (Cyberleek, build 1.0.2.1; .exe saiu 23/11): repositório ItsNotRexed e 2.900+ forks, 3.007 repositórios bloqueados; modders fizeram o jogo abrir no PC até os menus de configuração em poucas horas; Take-Two chamou de obra derivada e disse que o aviso de 'sem arquivos do jogo' era 'intencionalmente enganoso'; Rockstar não anunciou versão de PC (heise 25/11, GamesRadar) | A Take-Two derrubou mais de três mil projetos do GitHub de uma vez só, por causa de GTA 6 | 1377 | 32.3% | 41% | 17 | 2 | 1 | 1 | 58.2 (provisória) |
+| 2026-11-25 | [DgLcin2SXCF](https://www.instagram.com/reel/DgLcin2SXCF/) | corte | Take-Two (DMCA de 24/11 publicado pelo GitHub) derrubou o Leonida, projeto de recompilação para rodar no Windows a build de Xbox de GTA 6 que vazou (Cyberleek, build 1.0.2.1; .exe saiu 23/11): repositório ItsNotRexed e 2.900+ forks, 3.007 repositórios bloqueados; modders fizeram o jogo abrir no PC até os menus de configuração em poucas horas; Take-Two chamou de obra derivada e disse que o aviso de 'sem arquivos do jogo' era 'intencionalmente enganoso'; Rockstar não anunciou versão de PC (heise 25/11, GamesRadar) | A Take-Two derrubou mais de três mil projetos do GitHub de uma vez só, por causa de GTA 6 | 1378 | 32.3% | 41% | 17 | 2 | 1 | 1 | 58.2 (provisória) |
 | 2026-10-18 | [Dep6MPzlVqQ](https://www.instagram.com/reel/Dep6MPzlVqQ/) | corte | historia | enquete | 160 | 43.8% | 29% | 10 | 0 | 0 | 0 | 58.0 (h72) |
 | 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 58.0 (h72) |
 | 2026-11-10 | [DflKGteg8an](https://www.instagram.com/reel/DflKGteg8an/) | corte | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 417 | 39.3% | 35% | 14 | 0 | 0 | 0 | 58.0 (h72) |
@@ -457,3 +457,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.2 (h24) |
 | 2026-10-25 | [De7oXfrik3d](https://www.instagram.com/reel/De7oXfrik3d/) | corte | marketing/bastidores | revelacao | 134 | 54.3% | 15% | 1 | 0 | 0 | 0 | 26.3 (h24) |
 | 2026-11-17 | [Df3LR72Aqvw](https://www.instagram.com/reel/Df3LR72Aqvw/) | corte | criadores/streamers | Arthur Morgan vai jogar GTA 6 | 118 | 64.2% | 15% | 0 | 0 | 0 | 0 | 17.2 (h72) |
+
+## Recentes (menos de 12 h, ainda sem nota)
+
+- [DgNYWwIN7DD](https://www.instagram.com/reel/DgNYWwIN7DD/): 5.8 h no ar, 1646 views, 30.1% pularam, 48% assistido, 48 curtidas
