@@ -2784,7 +2784,7 @@
     {
       "data": "2026-11-26",
       "hora": "18:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-26_1800",
       "arquivo": "radar_v133_gta6_jogar_de_graca_playmyps5.mp4",
       "formato": "corte",
@@ -2792,7 +2792,15 @@
       "capa": "Jogar de graça?",
       "capa_t": 3.2,
       "roteiro": "Mano, tem um site que deixa você jogar GTA 6 de graça. Sem comprar o jogo e sem ter videogame. Ele se chama PlayMyPS5 e transmite um PS5 de verdade rodando GTA 6 pra internet inteira. Você entra numa fila, põe só um apelido, e quando chega a sua vez pega o controle. Mas tem uma pegadinha: são só cinco minutos, com todo mundo assistindo ao vivo. E se ficar parado trinta segundos, perde a vez. Com o lag da internet, dirigir e atirar vira caos. Você encararia essa fila? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/DgOBJs-ivSM/",
+      "legenda": "Dá pra jogar GTA 6 DE GRAÇA, sem comprar o jogo nem ter videogame 😳🎮 mas tem uma pegadinha… manda pra quem vai jogar com você\n\n🕹️ O site PlayMyPS5 transmite um PS5 de verdade rodando GTA 6 e passa o controle numa fila.\n👤 Não precisa de conta nem e-mail, só um apelido.\n⏱️ A pegadinha: são só 5 minutos por vez, com todo mundo assistindo ao vivo e comentando no chat.\n💤 Ficou 30 segundos parado? Perdeu a vez. E com o lag da internet, dirigir e atirar vira caos.\n\nVocê encararia essa fila? 👇\nFonte: GTA BOOM\n\n#gta6 #gtavi #grandtheftauto #ps5 #rockstargames",
+      "ficha": {
+        "formato": "corte",
+        "tema": "jogar GTA 6 de graça (PlayMyPS5)",
+        "gancho": "pegadinha",
+        "origem": "GTA BOOM 25/11"
+      }
     }
   ]
 }
