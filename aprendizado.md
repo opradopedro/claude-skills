@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 26/11/2026 17:52 (Brasília) com 130 Reels com nota. Média geral: 59.5/100.
+Atualizado em 26/11/2026 20:51 (Brasília) com 130 Reels com nota. Média geral: 59.5/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -115,7 +115,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA 6 x Hollywood (Jogos Vorazes) | 1 | 41.2 | 53.4 |  |
 | marketing | 2 | 46.5 | 53.0 |  |
 | mito | 1 | 35.1 | 51.4 |  |
-| Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | 1 | 33.7 | 50.9 |  |
+| Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | 1 | 33.6 | 50.9 |  |
 | marketing/bastidores | 1 | 26.3 | 48.5 |  |
 | criadores/streamers | 1 | 17.2 | 45.4 |  |
 
@@ -189,7 +189,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | o Miami Heat vai virar Vice City um dia antes do GTA 6 sair | 1 | 47.2 | 55.4 |  |
 | o chefão da dona do GTA 6 falou de pirataria | 1 | 44.3 | 54.5 |  |
 | lista | 3 | 49.6 | 53.6 | pausado |
-| GTA 6 virou presente de Natal indicado por um primeiro-ministro | 1 | 33.7 | 50.9 |  |
+| GTA 6 virou presente de Natal indicado por um primeiro-ministro | 1 | 33.6 | 50.9 |  |
 | curiosidade | 5 | 46.1 | 49.9 | pausado |
 | Arthur Morgan vai jogar GTA 6 | 1 | 17.2 | 45.4 |  |
 
@@ -297,7 +297,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GameSpot (22/10) | 1 | 48.7 | 55.9 |  |
 | nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection; gematsu.com 02/10; gtaboom 04/10 | 1 | 47.2 | 55.4 |  |
 | Eurogamer via comicshoplocator 16/10 | 1 | 46.2 | 55.1 |  |
-| GTA BOOM 23/11 | 3 | 51.9 | 54.9 |  |
+| GTA BOOM 23/11 | 3 | 51.8 | 54.9 |  |
 | WSJ 'The CEO Behind Grand Theft Auto VI' via vgtimes.com/gaming-news/173722 (06/11) | 1 | 44.3 | 54.5 |  |
 | YouTube Blog + GTA BOOM 12/11 | 1 | 43.9 | 54.3 |  |
 | autoral | 9 | 53.0 | 54.2 |  |
@@ -331,7 +331,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-25 | [DgKzPrmq6e1](https://www.instagram.com/reel/DgKzPrmq6e1/) | corte | modelo real da capa (bastidores da arte) | a mina da capa de GTA 6 é de verdade | 1329 | 25.8% | 53% | 45 | 0 | 9 | 1 | 78.4 (h24) |
 | 2026-11-24 | [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/) | corte | NPC imortal do sniper (easter egg de terror) | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1812 | 34.3% | 58% | 75 | 0 | 11 | 9 | 77.6 (h24) |
 | 2026-11-22 | [DgEDP_EByh3](https://www.instagram.com/reel/DgEDP_EByh3/) | corte | noticia/polemica | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 3516 | 25% | 51% | 96 | 4 | 9 | 1 | 77.5 (h72) |
-| 2026-11-25 | [DgLw_9dxiBB](https://www.instagram.com/reel/DgLw_9dxiBB/) | corte | podcast Final Act: destino de Michael, Franklin e Trevor | GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor | 2929 | 33.1% | 54% | 107 | 0 | 18 | 4 | 76.9 (provisória) |
+| 2026-11-25 | [DgLw_9dxiBB](https://www.instagram.com/reel/DgLw_9dxiBB/) | corte | podcast Final Act: destino de Michael, Franklin e Trevor | GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor | 2965 | 33.2% | 54% | 109 | 0 | 18 | 4 | 76.9 (provisória) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 76.7 (h72) |
 | 2026-10-26 | [De-OrZegc5E](https://www.instagram.com/reel/De-OrZegc5E/) | corte | noticia/review | noticia | 1316 | 35.9% | 60% | 60 | 0 | 2 | 10 | 76.6 (h72) |
 | 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1884 | 31.4% | 50% | 90 | 1 | 2 | 2 | 76.6 (h72) |
@@ -405,7 +405,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-08 | [DfgBO4elEZB](https://www.instagram.com/reel/DfgBO4elEZB/) | corte | polícia inglesa zoa motorista que vai passar o lançamento do GTA 6 preso | a polícia zoou um cara que vai passar o lançamento do GTA 6 na cadeia | 1277 | 23.5% | 39% | 24 | 0 | 0 | 0 | 59.4 (h72) |
 | 2026-10-12 | [DeadIlEmV0_](https://www.instagram.com/reel/DeadIlEmV0_/) | corte | preco_compra | revelacao | 171 | 40.9% | 43% | 6 | 0 | 0 | 0 | 58.8 (h24) |
 | 2026-11-24 | [DgIPESuhaBF](https://www.instagram.com/reel/DgIPESuhaBF/) | corte | Arion Kurtaj (21, Lapsus$), autor do vazamento de GTA 6 em 2022 (~90 vídeos do jogo inacabado, prejuízo de ~US$ 5 mi à Rockstar), foi condenado a 7 anos em 23/11 no Woolwich Crown Court (Londres) e saiu no mesmo dia em liberdade condicional: juiz descontou 2 anos de internação em hospital psiquiátrico de segurança e o tempo preso; ordem de 5 anos restringe internet e proíbe Discord e Telegram; o jogo tirou 99 no Metacritic (GTA BOOM 24/11, BBC, The Record) | O hacker que vazou GTA 6 pegou sete anos e saiu livre no mesmo dia | 1669 | 31.2% | 47% | 28 | 0 | 0 | 0 | 58.5 (h24) |
-| 2026-11-25 | [DgLcin2SXCF](https://www.instagram.com/reel/DgLcin2SXCF/) | corte | Take-Two (DMCA de 24/11 publicado pelo GitHub) derrubou o Leonida, projeto de recompilação para rodar no Windows a build de Xbox de GTA 6 que vazou (Cyberleek, build 1.0.2.1; .exe saiu 23/11): repositório ItsNotRexed e 2.900+ forks, 3.007 repositórios bloqueados; modders fizeram o jogo abrir no PC até os menus de configuração em poucas horas; Take-Two chamou de obra derivada e disse que o aviso de 'sem arquivos do jogo' era 'intencionalmente enganoso'; Rockstar não anunciou versão de PC (heise 25/11, GamesRadar) | A Take-Two derrubou mais de três mil projetos do GitHub de uma vez só, por causa de GTA 6 | 1378 | 32.3% | 41% | 17 | 2 | 1 | 1 | 58.2 (provisória) |
+| 2026-11-25 | [DgLcin2SXCF](https://www.instagram.com/reel/DgLcin2SXCF/) | corte | Take-Two (DMCA de 24/11 publicado pelo GitHub) derrubou o Leonida, projeto de recompilação para rodar no Windows a build de Xbox de GTA 6 que vazou (Cyberleek, build 1.0.2.1; .exe saiu 23/11): repositório ItsNotRexed e 2.900+ forks, 3.007 repositórios bloqueados; modders fizeram o jogo abrir no PC até os menus de configuração em poucas horas; Take-Two chamou de obra derivada e disse que o aviso de 'sem arquivos do jogo' era 'intencionalmente enganoso'; Rockstar não anunciou versão de PC (heise 25/11, GamesRadar) | A Take-Two derrubou mais de três mil projetos do GitHub de uma vez só, por causa de GTA 6 | 1378 | 32.3% | 41% | 17 | 2 | 1 | 1 | 58.2 (h24) |
 | 2026-10-18 | [Dep6MPzlVqQ](https://www.instagram.com/reel/Dep6MPzlVqQ/) | corte | historia | enquete | 160 | 43.8% | 29% | 10 | 0 | 0 | 0 | 58.0 (h72) |
 | 2026-10-24 | [De5CXvGlF4f](https://www.instagram.com/reel/De5CXvGlF4f/) | corte | curiosidade/marketing | vida real | 1237 | 41.5% | 31% | 32 | 0 | 1 | 0 | 58.0 (h72) |
 | 2026-11-10 | [DflKGteg8an](https://www.instagram.com/reel/DflKGteg8an/) | corte | caixa Vice City Collection de US$ 399 sem o jogo (polêmica de preço) | GTA 6 tem uma caixa de quase 400 dólares e o jogo nem vem dentro | 417 | 39.3% | 35% | 14 | 0 | 0 | 0 | 58.0 (h72) |
@@ -451,7 +451,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-15 | [DfxDUhrv7ik](https://www.instagram.com/reel/DfxDUhrv7ik/) | corte | vendas/numeros | comparacao | 388 | 39.9% | 23% | 0 | 0 | 1 | 0 | 35.4 (h72) |
 | 2026-10-11 | [DeX4Vhuj49m](https://www.instagram.com/reel/DeX4Vhuj49m/) | painel | mito | mentira_verdade | 132 | 49.6% | 21% | 2 | 0 | 0 | 0 | 35.1 (provisória) |
 | 2026-11-14 | [DfvIFnHymTK](https://www.instagram.com/reel/DfvIFnHymTK/) | corte | noticia/polemica | curiosidade | 221 | 43.9% | 28% | 2 | 0 | 0 | 0 | 35.0 (h72) |
-| 2026-11-23 | [DgGTOYQpUyZ](https://www.instagram.com/reel/DgGTOYQpUyZ/) | corte | Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | GTA 6 virou presente de Natal indicado por um primeiro-ministro | 244 | 40.3% | 32% | 1 | 0 | 0 | 0 | 33.7 (h24) |
+| 2026-11-23 | [DgGTOYQpUyZ](https://www.instagram.com/reel/DgGTOYQpUyZ/) | corte | Premiê da Grécia, Kyriakos Mitsotakis, sugeriu no TikTok (20/11) pedir GTA 6 de Natal aos avós ao divulgar auxílio de 400 euros para 2 mi de aposentados, com logo e música do jogo; GTA 6 é PEGI 18 e o governo quer limitar rede social para menores de 15; PASOK criticou no mesmo dia e o ex-premiê Alexis Tsipras pediu aos avós que não comprem (GTA BOOM 23/11) | GTA 6 virou presente de Natal indicado por um primeiro-ministro | 246 | 40.4% | 32% | 1 | 0 | 0 | 0 | 33.6 (h72) |
 | 2026-10-11 | [DeWv5ONFR3W](https://www.instagram.com/reel/DeWv5ONFR3W/) | painel | noticias | lista | 136 | 55.3% | 23% | 2 | 0 | 0 | 0 | 33.4 (h24) |
 | 2026-10-24 | [De5Ng6lgFmD](https://www.instagram.com/reel/De5Ng6lgFmD/) | corte | gameplay/bastidores | curiosidade | 120 | 46.2% | 29% | 1 | 0 | 0 | 0 | 33.1 (h72) |
 | 2026-10-11 | [DeXjx6Djoxl](https://www.instagram.com/reel/DeXjx6Djoxl/) | painel | console_tecnico | alerta | 150 | 54.3% | 28% | 1 | 0 | 0 | 0 | 29.2 (h24) |
@@ -460,4 +460,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DgNYWwIN7DD](https://www.instagram.com/reel/DgNYWwIN7DD/): 5.8 h no ar, 1646 views, 30.1% pularam, 48% assistido, 48 curtidas
+- [DgNYWwIN7DD](https://www.instagram.com/reel/DgNYWwIN7DD/): 8.8 h no ar, 1661 views, 30% pularam, 48% assistido, 48 curtidas
+- [DgOBJs-ivSM](https://www.instagram.com/reel/DgOBJs-ivSM/): 2.9 h no ar, 884 views, 31% pularam, 34% assistido, 17 curtidas
