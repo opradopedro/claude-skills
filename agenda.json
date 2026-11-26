@@ -1595,7 +1595,6 @@
       "tema": "GTA 6 é 18+ em todos os grandes mercados: Brasil ClassInd 18 (violência, drogas, sexo, linguagem), PEGI 18, ESRB M, Coreia 19+, Japão CERO Z; USK 18 da Alemanha diz que o crime é mostrado sem crítica e às vezes glamourizado (GTABoom 17/10, USK)",
       "capa": "Proibido pra menor de 18",
       "capa_t": 10.0,
-    "capa_embutida": true,
       "capa_embutida": true,
       "link": "https://www.instagram.com/reel/DfdHAA5E7_7/",
       "hora_real": "18:07",
@@ -2806,15 +2805,23 @@
     {
       "data": "2026-11-26",
       "hora": "21:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-26_2100",
       "arquivo": "radar_v134_gta6_fa_hotel_semana_esposa.mp4",
       "formato": "corte",
       "tema": "Fã casado de GTA 6 alugou um quarto de hotel pela semana de lançamento inteira para jogar sozinho sem ninguém atrapalhar; a esposa acha que ele enlouqueceu ou está traindo (post no Reddit r/GTA6unmoderated de 15/11, relatado pelo IBTimes UK 19/11; sem comprovação)",
       "capa": "Hotel pra jogar sozinho",
       "capa_t": 10.0,
-    "capa_embutida": true,
-      "roteiro": "Mano, um fã de GTA 6 alugou um quarto de hotel por uma semana inteira só pra jogar sozinho. Ele contou no Reddit que é casado e queria jogar a semana de lançamento sem ninguém atrapalhar. Sem esposa chamando, sem visita, sem nada. Só ele, o videogame e Vice City. O problema é que a esposa não engoliu. Ela acha que ele ficou maluco ou que está traindo. E pensa comigo: sumir sete dias pra um hotel não ajuda muito na defesa. Você faria isso pra jogar GTA 6 em paz? Manda pra quem vai jogar GTA 6 com você e segue o Radar."
+      "capa_embutida": true,
+      "roteiro": "Mano, um fã de GTA 6 alugou um quarto de hotel por uma semana inteira só pra jogar sozinho. Ele contou no Reddit que é casado e queria jogar a semana de lançamento sem ninguém atrapalhar. Sem esposa chamando, sem visita, sem nada. Só ele, o videogame e Vice City. O problema é que a esposa não engoliu. Ela acha que ele ficou maluco ou que está traindo. E pensa comigo: sumir sete dias pra um hotel não ajuda muito na defesa. Você faria isso pra jogar GTA 6 em paz? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+      "link": "https://www.instagram.com/reel/DgOVfvQNwN8/",
+      "legenda": "GTA 6 fez um cara alugar um HOTEL por uma semana inteira só pra jogar sozinho 😳🏨 e a esposa acha que é traição 💀 manda pra quem vai jogar com você\n\n🎮 Ele contou no Reddit que é casado e queria jogar a semana de lançamento sem ninguém atrapalhar.\n🚪 Sem esposa chamando, sem visita, sem nada: só ele, o videogame e Vice City.\n💔 A esposa não engoliu: acha que ele ficou maluco ou que está traindo.\n⚠️ A história não tem comprovação, é o relato dele no Reddit.\n\nVocê faria isso pra jogar GTA 6 em paz? 👇\nFonte: Reddit r/GTA6unmoderated via IBTimes UK\n\n#gta6 #gtavi #grandtheftauto #rockstargames #gamer",
+      "ficha": {
+        "formato": "corte",
+        "tema": "fã aluga hotel 1 semana p/ jogar GTA 6 sozinho (esposa acha traição)",
+        "gancho": "polêmica",
+        "origem": "Reddit via IBTimes UK 19/11"
+      }
     }
   ]
 }
