@@ -11,7 +11,8 @@
  *
  * Alvo de uma marca (onde ela fica):
  *   { x, y, w, h }          retângulo (em px da imagem ou CSS, ver acima)
- *   { seletor: "#id" }      um elemento dentro do container (funciona mesmo com rotate)
+ *   { seletor: "#id" }      um elemento (primeiro dentro do container, depois na página; funciona com rotate)
+ *   dx / dy em qualquer alvo deslocam a posição em px CSS
  *   [x, y]                  um ponto (só para setas e notas)
  *
  * Marcas:
@@ -137,12 +138,19 @@
   function caixa(alvo, ctx) {
     if (!alvo) return null;
     if (Array.isArray(alvo)) return { x: alvo[0] * ctx.s, y: alvo[1] * ctx.s, w: 0, h: 0, ponto: true };
+    var b;
     if (alvo.seletor) {
-      var el = ctx.container.querySelector(alvo.seletor);
+      // procura primeiro dentro do elemento; se não achar, na página toda
+      var el = ctx.container.querySelector(alvo.seletor) || document.querySelector(alvo.seletor);
       if (!el) { console.warn("Rabiscos: não achei", alvo.seletor); return null; }
-      return posicaoRelativa(el, ctx.container);
+      b = posicaoRelativa(el, ctx.container);
+    } else {
+      b = { x: alvo.x * ctx.s, y: alvo.y * ctx.s, w: (alvo.w || 0) * ctx.s, h: (alvo.h || 0) * ctx.s };
     }
-    return { x: alvo.x * ctx.s, y: alvo.y * ctx.s, w: (alvo.w || 0) * ctx.s, h: (alvo.h || 0) * ctx.s };
+    // dx/dy deslocam o alvo em px CSS (ex.: começar a seta um pouco abaixo de uma célula)
+    if (alvo.dx) b.x += alvo.dx;
+    if (alvo.dy) b.y += alvo.dy;
+    return b;
   }
 
   // Ponto de ancoragem de um alvo para setas: o ponto da borda mais próximo do outro lado.

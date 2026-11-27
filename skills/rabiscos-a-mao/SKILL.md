@@ -26,7 +26,7 @@ A skill é só dos rabiscos. O layout do post (fundo, títulos, folhas, cores do
    <link rel="stylesheet" href="assets/rabiscos.css">
    <script src="assets/rabiscos.js"></script>
    ```
-2. Ponha as marcas no elemento que vai receber a tinta, com `data-rabiscos` (JSON), e chame `Rabiscos.desenharTodos()` no fim da página. O elemento vira `position: relative` se precisar.
+2. Ponha as marcas no elemento que vai receber a tinta. Para rabiscos soltos na página (número da página, desenho na margem, marca-texto no título), use uma camada do tamanho da página: `<div style="position:absolute;inset:0;pointer-events:none" data-rabiscos='[...]'></div>`. Coloque as marcas com `data-rabiscos` (JSON), e chame `Rabiscos.desenharTodos()` no fim da página. O elemento vira `position: relative` se precisar.
    ```html
    <div class="folha" data-rabiscos='[
      {"tipo":"circulo","alvo":{"x":1600,"y":277,"w":110,"h":62},"cor":"vermelho","folga":22,"espessura":4},
@@ -40,7 +40,8 @@ A skill é só dos rabiscos. O layout do post (fundo, títulos, folhas, cores do
 ### Onde a marca fica (alvo)
 
 - `{"x","y","w","h"}`: retângulo. Se o elemento tem uma `<img>`, é em **pixels da imagem original**, e a escala é automática. Sem imagem, é em px CSS do elemento.
-- `{"seletor":"#id"}`: um elemento dentro do container. Funciona mesmo com a folha girada (`rotate`), porque usa a posição antes da rotação.
+- `{"seletor":"#id"}`: um elemento. Procura primeiro dentro do container e depois na página toda (assim uma camada solta por cima da página consegue marcar uma palavra do título). Dentro de uma folha girada (`rotate`), usa a posição antes da rotação.
+- Qualquer alvo aceita `dx` e `dy` (px CSS) para deslocar: `{"seletor":"#linha10","dy":70}` começa a seta 70 px abaixo da linha.
 - `[x, y]`: um ponto, para notas e pontas de seta. Pode ser negativo ou passar da borda, para escrever no papel em volta da folha.
 
 Espessura (`espessura`) e tamanho de letra (`tamanho`) são sempre em px CSS, o que se vê na tela, independente da escala da imagem.
