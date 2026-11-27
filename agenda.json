@@ -2868,7 +2868,7 @@
   {
    "data": "2026-11-27",
    "hora": "21:00",
-   "status": "pendente",
+   "status": "postado",
    "pasta": "producao/2026-11-27_2100",
    "arquivo": "radar_v137_gta6_derrubando_console_velho.mp4",
    "formato": "corte",
@@ -2882,7 +2882,9 @@
     "tema": "GTA 6 derrubando console velho (superaquecimento)",
     "gancho": "alerta/utilidade",
     "origem": "GTA BOOM 27/11 (técnico Modyfikator89 no X)"
-   }
+   },
+   "capa_embutida": true,
+   "link": "https://www.instagram.com/reel/DgQ6gowA28w/"
   }
  ]
 }
