@@ -5063,8 +5063,8 @@
    "avgWatchedPct": 32.03,
    "skipRate": 40.4,
    "durationSeconds": 40,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 89.8
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 95.8
   },
   "h24": {
    "playCount": 244,
@@ -5106,8 +5106,8 @@
    "avgWatchedPct": 25.76,
    "skipRate": 49.8,
    "durationSeconds": 37,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 86.8
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 92.8
   },
   "h24": {
    "playCount": 279,
@@ -5149,8 +5149,8 @@
    "avgWatchedPct": 47.41,
    "skipRate": 31.2,
    "durationSeconds": 43,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 71.8
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 77.8
   },
   "h24": {
    "playCount": 1669,
@@ -5164,6 +5164,19 @@
    "durationSeconds": 43,
    "coletado": "2026-11-25T20:53Z",
    "horas": 29.8
+  },
+  "h72": {
+   "playCount": 1670,
+   "likeCount": 28,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 0,
+   "avgWatchTimeMs": 20385,
+   "avgWatchedPct": 47.41,
+   "skipRate": 31.2,
+   "durationSeconds": 43,
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 77.8
   }
  },
  "DgI3lu4sRpK": {
@@ -5179,8 +5192,8 @@
    "avgWatchedPct": 58.11,
    "skipRate": 34.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 65.9
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 71.9
   },
   "h24": {
    "playCount": 1812,
@@ -5209,8 +5222,8 @@
    "avgWatchedPct": 41.09,
    "skipRate": 30.7,
    "durationSeconds": 49,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 62.8
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 68.8
   },
   "h24": {
    "playCount": 1745,
@@ -5239,8 +5252,8 @@
    "avgWatchedPct": 52.89,
    "skipRate": 25.8,
    "durationSeconds": 34,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 47.9
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 53.9
   },
   "h24": {
    "playCount": 1329,
@@ -5269,8 +5282,8 @@
    "avgWatchedPct": 41.09,
    "skipRate": 32.2,
    "durationSeconds": 36,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 41.9
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 1378,
@@ -5290,17 +5303,17 @@
   "publicado": "2026-11-25T23:59:29.000Z",
   "legenda": "GTA 6 contou o que aconteceu com Michael, Franklin e Trevor",
   "atual": {
-   "playCount": 2974,
+   "playCount": 2975,
    "likeCount": 109,
    "commentCount": 0,
    "shares": 4,
    "saves": 18,
-   "avgWatchTimeMs": 22197,
-   "avgWatchedPct": 54.14,
+   "avgWatchTimeMs": 22190,
+   "avgWatchedPct": 54.12,
    "skipRate": 33.3,
    "durationSeconds": 41,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 38.9
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 44.9
   },
   "h24": {
    "playCount": 2974,
@@ -5325,46 +5338,76 @@
    "commentCount": 3,
    "shares": 8,
    "saves": 3,
-   "avgWatchTimeMs": 17442,
-   "avgWatchedPct": 48.45,
+   "avgWatchTimeMs": 17437,
+   "avgWatchedPct": 48.44,
    "skipRate": 29.9,
    "durationSeconds": 36,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 23.8
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 29.8
+  },
+  "h24": {
+   "playCount": 1681,
+   "likeCount": 48,
+   "commentCount": 3,
+   "shares": 8,
+   "saves": 3,
+   "avgWatchTimeMs": 17437,
+   "avgWatchedPct": 48.44,
+   "skipRate": 29.9,
+   "durationSeconds": 36,
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 29.8
   }
  },
  "DgOBJs-ivSM": {
   "publicado": "2026-11-26T21:00:00.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1295,
-   "likeCount": 36,
+   "playCount": 1308,
+   "likeCount": 37,
    "commentCount": 1,
    "shares": 11,
    "saves": 11,
-   "avgWatchTimeMs": 12009,
-   "avgWatchedPct": 35.32,
-   "skipRate": 31,
+   "avgWatchTimeMs": 11983,
+   "avgWatchedPct": 35.24,
+   "skipRate": 30.9,
    "durationSeconds": 34,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 17.9
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 23.9
   }
  },
  "DgOVfvQNwN8": {
   "publicado": "2026-11-26T23:56:57.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 669,
+   "playCount": 687,
    "likeCount": 22,
    "commentCount": 0,
    "shares": 0,
    "saves": 2,
-   "avgWatchTimeMs": 12038,
-   "avgWatchedPct": 37.61875,
+   "avgWatchTimeMs": 12041,
+   "avgWatchedPct": 37.63,
    "skipRate": 38.7,
    "durationSeconds": 32,
-   "coletado": "2026-11-27T14:51Z",
-   "horas": 14.9
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 20.9
+  }
+ },
+ "DgP83-JyVPK": {
+  "publicado": "2026-11-27T15:00:25.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 638,
+   "likeCount": 33,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 2,
+   "avgWatchTimeMs": 13985,
+   "avgWatchedPct": 39.96,
+   "skipRate": 38.6,
+   "durationSeconds": 35,
+   "coletado": "2026-11-27T20:52Z",
+   "horas": 5.9
   }
  }
 }
