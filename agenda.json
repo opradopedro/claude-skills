@@ -2847,7 +2847,7 @@
     {
       "data": "2026-11-27",
       "hora": "18:00",
-      "status": "pendente",
+      "status": "postado",
       "pasta": "producao/2026-11-27_1800",
       "arquivo": "radar_v136_gta6_xbox_ex_ligou_policia.mp4",
       "formato": "corte",
@@ -2855,7 +2855,15 @@
       "capa": "Ligou pra polícia",
       "capa_t": 28.5,
       "roteiro": "Mano, GTA 6 acabou com uma ligação pra polícia. Uma mulher nos Estados Unidos dividia a conta do Xbox com o ex fazia seis anos. A conta sempre foi dela. Aí ele comprou GTA 6 nessa conta, e ela trocou a senha e tirou os cartões dele. Resultado: o jogo ficou preso no login dela. E o cara ligou pra polícia dizendo que era fraude no cartão. A polícia olhou tudo, não achou fraude nenhuma e ainda perguntou do jogo. Ela contou tudo no TikTok e passou de um milhão de views. Quem tá certo, ela ou ele? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
-      "capa_embutida": true
+      "capa_embutida": true,
+      "link": "https://www.instagram.com/reel/DgQl8dit7AR/",
+      "legenda": "GTA 6 terminou numa ligação pra POLÍCIA 🚨😳 ela trocou a senha do Xbox e o ex disse que era fraude 💀 manda pra quem vai jogar com você\n\n🎮 Ela dividia a conta do Xbox com o ex fazia 6 anos, mas a conta sempre foi dela.\n💳 Ele comprou GTA 6 nessa conta. Ela trocou a senha e tirou os cartões dele.\n🔒 O jogo ficou preso no login dela.\n📞 Ele ligou pra polícia alegando fraude no cartão. A polícia não achou fraude nenhuma.\n📱 Ela contou tudo no TikTok e passou de 1 milhão de views (é só a versão dela).\n\nQuem tá certo, ela ou ele? 👇\n\nFonte: GTA BOOM\n\n#gta6 #gtavi #rockstargames #xbox #games",
+      "ficha": {
+        "formato": "corte",
+        "tema": "briga de casal: ex ligou pra polícia por GTA 6 na conta Xbox",
+        "gancho": "polemica",
+        "origem": "GTA BOOM 25/11 (TikTok de Ciara Benson)"
+      }
     }
   ]
 }
