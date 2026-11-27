@@ -1,0 +1,32 @@
+/* Rabiscos à mão: fonte manuscrita e camada de tinta.
+   Copie a pasta assets/ inteira para perto do seu HTML e inclua:
+   <link rel="stylesheet" href="assets/rabiscos.css">
+   <script src="assets/rabiscos.js"></script> */
+
+@font-face {
+  font-family: "Caveat";
+  src: url("caveat-600-latin.woff2") format("woff2");
+  font-weight: 600;
+  font-display: block;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("caveat-600-latin-ext.woff2") format("woff2");
+  font-weight: 600;
+  font-display: block;
+  unicode-range: U+0100-024F, U+1E00-1EFF;
+}
+
+/* A camada de tinta fica por cima do conteúdo, sem atrapalhar cliques. */
+svg.rabiscos {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 10;
+}
+svg.rabiscos .nota {
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+}
