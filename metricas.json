@@ -5017,11 +5017,11 @@
    "shares": 1,
    "saves": 1,
    "avgWatchTimeMs": 13464,
-   "avgWatchedPct": 36.389,
+   "avgWatchedPct": 36.39,
    "skipRate": 34.3,
    "durationSeconds": 37,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 80.7
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 95.7
   },
   "h24": {
    "playCount": 1313,
@@ -5060,11 +5060,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 12810,
-   "avgWatchedPct": 32.025,
+   "avgWatchedPct": 32.03,
    "skipRate": 40.4,
    "durationSeconds": 40,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 74.8
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 89.8
   },
   "h24": {
    "playCount": 244,
@@ -5103,11 +5103,11 @@
    "shares": 1,
    "saves": 0,
    "avgWatchTimeMs": 9533,
-   "avgWatchedPct": 25.765,
+   "avgWatchedPct": 25.76,
    "skipRate": 49.8,
    "durationSeconds": 37,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 71.8
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 86.8
   },
   "h24": {
    "playCount": 279,
@@ -5121,6 +5121,19 @@
    "durationSeconds": 37,
    "coletado": "2026-11-25T14:52Z",
    "horas": 38.8
+  },
+  "h72": {
+   "playCount": 280,
+   "likeCount": 5,
+   "commentCount": 0,
+   "shares": 1,
+   "saves": 0,
+   "avgWatchTimeMs": 9533,
+   "avgWatchedPct": 25.76,
+   "skipRate": 49.8,
+   "durationSeconds": 37,
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 86.8
   }
  },
  "DgIPESuhaBF": {
@@ -5133,11 +5146,11 @@
    "shares": 0,
    "saves": 0,
    "avgWatchTimeMs": 20385,
-   "avgWatchedPct": 47.407,
+   "avgWatchedPct": 47.41,
    "skipRate": 31.2,
    "durationSeconds": 43,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 56.8
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 71.8
   },
   "h24": {
    "playCount": 1669,
@@ -5157,17 +5170,17 @@
   "publicado": "2026-11-24T20:59:19.000Z",
   "legenda": "GTA 6 tem um NPC que NÃO MORRE e te caça pela mira do sniper",
   "atual": {
-   "playCount": 1818,
+   "playCount": 1823,
    "likeCount": 75,
    "commentCount": 0,
    "shares": 9,
    "saves": 11,
-   "avgWatchTimeMs": 21504,
-   "avgWatchedPct": 58.119,
+   "avgWatchTimeMs": 21500,
+   "avgWatchedPct": 58.11,
    "skipRate": 34.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 50.9
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 65.9
   },
   "h24": {
    "playCount": 1812,
@@ -5193,11 +5206,11 @@
    "shares": 4,
    "saves": 5,
    "avgWatchTimeMs": 20132,
-   "avgWatchedPct": 41.086,
+   "avgWatchedPct": 41.09,
    "skipRate": 30.7,
    "durationSeconds": 49,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 47.8
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 62.8
   },
   "h24": {
    "playCount": 1745,
@@ -5223,11 +5236,11 @@
    "shares": 1,
    "saves": 9,
    "avgWatchTimeMs": 17983,
-   "avgWatchedPct": 52.891,
+   "avgWatchedPct": 52.89,
    "skipRate": 25.8,
    "durationSeconds": 34,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 32.9
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 47.9
   },
   "h24": {
    "playCount": 1329,
@@ -5247,17 +5260,17 @@
   "publicado": "2026-11-25T21:00:43.000Z",
   "legenda": "GTA 6 rodando no PC? A Take-Two derrubou mais de 3 MIL projetos no GitHub de uma",
   "atual": {
-   "playCount": 1378,
+   "playCount": 1380,
    "likeCount": 17,
    "commentCount": 2,
    "shares": 1,
    "saves": 1,
-   "avgWatchTimeMs": 14803,
-   "avgWatchedPct": 41.119,
-   "skipRate": 32.3,
+   "avgWatchTimeMs": 14794,
+   "avgWatchedPct": 41.09,
+   "skipRate": 32.2,
    "durationSeconds": 36,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 26.9
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 41.9
   },
   "h24": {
    "playCount": 1378,
@@ -5277,51 +5290,81 @@
   "publicado": "2026-11-25T23:59:29.000Z",
   "legenda": "GTA 6 contou o que aconteceu com Michael, Franklin e Trevor",
   "atual": {
-   "playCount": 2965,
+   "playCount": 2974,
    "likeCount": 109,
    "commentCount": 0,
    "shares": 4,
    "saves": 18,
-   "avgWatchTimeMs": 22205,
-   "avgWatchedPct": 54.159,
-   "skipRate": 33.2,
+   "avgWatchTimeMs": 22197,
+   "avgWatchedPct": 54.14,
+   "skipRate": 33.3,
    "durationSeconds": 41,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 23.9
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 38.9
+  },
+  "h24": {
+   "playCount": 2974,
+   "likeCount": 109,
+   "commentCount": 0,
+   "shares": 4,
+   "saves": 18,
+   "avgWatchTimeMs": 22197,
+   "avgWatchedPct": 54.14,
+   "skipRate": 33.3,
+   "durationSeconds": 41,
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 38.9
   }
  },
  "DgNYWwIN7DD": {
   "publicado": "2026-11-26T15:03:09.000Z",
   "legenda": "GTA 6 ia ter TÊNIS, cinema e até casa pra decorar… e a Rockstar cortou tudo ✂️😳",
   "atual": {
-   "playCount": 1661,
+   "playCount": 1681,
    "likeCount": 48,
    "commentCount": 3,
    "shares": 8,
    "saves": 3,
-   "avgWatchTimeMs": 17394,
-   "avgWatchedPct": 48.317,
-   "skipRate": 30,
+   "avgWatchTimeMs": 17442,
+   "avgWatchedPct": 48.45,
+   "skipRate": 29.9,
    "durationSeconds": 36,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 8.8
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 23.8
   }
  },
  "DgOBJs-ivSM": {
   "publicado": "2026-11-26T21:00:00.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 884,
-   "likeCount": 17,
-   "commentCount": 0,
-   "shares": 9,
-   "saves": 7,
-   "avgWatchTimeMs": 11624,
-   "avgWatchedPct": 34.188,
+   "playCount": 1295,
+   "likeCount": 36,
+   "commentCount": 1,
+   "shares": 11,
+   "saves": 11,
+   "avgWatchTimeMs": 12009,
+   "avgWatchedPct": 35.32,
    "skipRate": 31,
    "durationSeconds": 34,
-   "coletado": "2026-11-26T23:51Z",
-   "horas": 2.9
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 17.9
+  }
+ },
+ "DgOVfvQNwN8": {
+  "publicado": "2026-11-26T23:56:57.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 669,
+   "likeCount": 22,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 2,
+   "avgWatchTimeMs": 12038,
+   "avgWatchedPct": 37.61875,
+   "skipRate": 38.7,
+   "durationSeconds": 32,
+   "coletado": "2026-11-27T14:51Z",
+   "horas": 14.9
   }
  }
 }

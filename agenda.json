@@ -2822,6 +2822,26 @@
         "gancho": "polêmica",
         "origem": "Reddit via IBTimes UK 19/11"
       }
+    },
+    {
+      "data": "2026-11-27",
+      "hora": "12:00",
+      "status": "pendente",
+      "pasta": "producao/2026-11-27_1200",
+      "arquivo": "radar_v135_gta6_verstappen_40_horas.mp4",
+      "formato": "corte",
+      "tema": "Max Verstappen disse numa live na Twitch (Verstappen Sim Racing) que jogou ~40 horas de GTA 6 no fim de semana do GP de Las Vegas, de manhã e de noite no hotel (não pode andar na rua), já passou de 80% da história, pula quase todas as cenas por achar chatas, dormiu no voo de volta; venceu da pole à frente de Norris e Piastri (GTA BOOM 27/11)",
+      "capa": "40 horas e venceu",
+      "capa_t": 13.5,
+      "roteiro": "Mano, o Max Verstappen jogou quarenta horas de GTA 6 no fim de semana do Grande Prêmio de Las Vegas. E mesmo assim ganhou a corrida. Ele contou numa live que jogava de manhã e de noite no hotel, porque não dá pra ele andar na rua sem virar tumulto. Quando abriu a live, já tinha passado de oitenta por cento da história. Mas tem um detalhe que vai irritar muita gente. Ele pula quase todas as cenas do jogo, porque acha chato demais. E depois largou na pole e venceu a McLaren. Você pula as cenas ou assiste tudo? Manda pra quem vai jogar GTA 6 com você e segue o Radar.",
+      "legenda": "O Verstappen jogou 40 HORAS de GTA 6 no fim de semana do GP de Las Vegas… e ainda ganhou a corrida 😳🏎️ manda pra quem vai jogar com você\n\n🎮 Ele contou numa live que jogava de manhã e de noite no hotel, porque não consegue andar na rua sem virar tumulto.\n📖 Já passou de 80% da história do jogo.\n🙈 O detalhe polêmico: ele pula quase todas as cenas porque acha chato.\n🏆 E depois largou na pole e venceu a McLaren.\n\nVocê pula as cenas ou assiste tudo? 👇\n\n#gta6 #gtavi #verstappen #f1 #radargta6",
+      "ficha": {
+        "formato": "corte",
+        "tema": "famoso jogando GTA 6",
+        "gancho": "curiosidade",
+        "origem": "GTA BOOM 27/11 (live do Verstappen na Twitch)"
+      },
+      "capa_embutida": true
     }
   ]
 }
