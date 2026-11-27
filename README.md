@@ -13,5 +13,6 @@ GTA 6, Signal Lost, Old Tales e o painel) ficam no repositório
 | `skills/apify-ultimate-scraper` | buscar dados de redes sociais e sites com o Apify (`apify-ultimate-scraper.skill`) |
 | `skills/cartoon-3d-short` | Shorts animados de história (bonecos 2D num mundo 3D, three.js + Remotion, custo zero), skill do mromidev; ver `NOTAS-PEDRO.md` (`cartoon-3d-short.skill`) |
 | `skills/find-skills` | achar skills prontas (`find-skills.skill`) |
+| `skills/rabiscos-a-mao` | rabiscos de caneta feitos à mão (círculos, setas, sublinhados, notas em letra manuscrita) por cima de prints e posts (`rabiscos-a-mao.skill`) |
 | `skill-creator.skill` | criar skills novas |
 | `frontend-design-v1.zip` | design de páginas e interfaces |

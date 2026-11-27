@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/rabiscos.css">
+<script src="../assets/rabiscos.js"></script>
+<style>
+  body { margin: 0; width: 1080px; height: 1350px; background: #E6E8E1; font-family: Arial, sans-serif; color: #1E201C; }
+  h1 { font-size: 46px; margin: 70px 72px 8px; }
+  p.leg { margin: 0 72px 40px; font-size: 22px; color: #555; }
+  .folha { position: relative; margin: 0 72px; background: #fff; padding: 28px 34px; width: 936px; box-sizing: border-box;
+           box-shadow: 0 1px 1px rgba(30,32,28,.2), 0 18px 40px -22px rgba(30,32,28,.45); transform: rotate(-1deg); padding-bottom: 110px; }
+  table { border-collapse: collapse; font-size: 22px; width: 100%; }
+  td, th { border-bottom: 1px solid #ddd; padding: 12px 10px; text-align: left; }
+  th { font-size: 17px; color: #777; font-weight: 600; }
+  td.n { text-align: right; }
+  .linha2 { margin-top: 170px; display: flex; gap: 40px; padding: 0 72px; }
+  .box { position: relative; background: #fff; width: 280px; height: 150px; font-size: 24px; padding: 24px; box-sizing: border-box; }
+</style>
+</head>
+<body>
+  <h1>Catálogo de rabiscos</h1>
+  <p class="leg">Cada marca abaixo foi feita com rabiscos.js. As cores são as de caneta: azul para comentário, vermelho para erro.</p>
+
+  <div class="folha" data-rabiscos='[
+    {"tipo":"circulo","alvo":{"seletor":"#mtr2"},"cor":"vermelho","folga":8},
+    {"tipo":"circulo","alvo":{"seletor":"#mtr4"},"cor":"vermelho","folga":8,"semente":3},
+    {"tipo":"nota","texto":"MTR repetido!","em":{"seletor":"#mtr4"},"dx":-20,"dy":140,"cor":"vermelho","tamanho":48},
+    {"tipo":"sublinhado","alvo":{"seletor":"#est"},"cor":"azul"},
+    {"tipo":"nota","texto":"peso real?","em":{"seletor":"#est"},"dx":-250,"dy":26,"cor":"azul","tamanho":38,"rotacao":-4},
+    {"tipo":"riscado","alvo":{"seletor":"#errado"},"cor":"vermelho"},
+    {"tipo":"nota","texto":"1.340","em":{"seletor":"#errado"},"dx":-92,"dy":30,"cor":"vermelho","tamanho":40,"rotacao":0},
+    {"tipo":"marcatexto","alvo":{"seletor":"#total"}},
+    {"tipo":"visto","alvo":{"seletor":"#ok1"},"cor":"verde","espessura":4},
+    {"tipo":"xis","alvo":{"seletor":"#x1"},"cor":"vermelho","espessura":4}
+  ]'>
+    <table>
+      <tr><th>Data</th><th>MTR</th><th>Resíduo</th><th class="n">Peso (kg)</th><th>Conferido</th></tr>
+      <tr><td>02/09</td><td>2609318274</td><td>Metal ferroso</td><td class="n">412,5</td><td><span id="ok1" style="display:inline-block;width:30px;height:30px"></span></td></tr>
+      <tr><td>09/09</td><td><span id="mtr2">2609551390</span></td><td>Rejeito</td><td class="n"><span id="errado">1.430</span></td><td></td></tr>
+      <tr><td>11/09</td><td>2609600127</td><td>Orgânico</td><td class="n">578,2 <span id="est" style="color:#888">estimado</span></td><td></td></tr>
+      <tr><td>16/09</td><td><span id="mtr4">2609551390</span></td><td>Rejeito</td><td class="n">1.340</td><td><span id="x1" style="display:inline-block;width:26px;height:26px"></span></td></tr>
+      <tr><td></td><td></td><td><b id="total">Total do trimestre</b></td><td class="n"><b>3.770,7</b></td><td></td></tr>
+    </table>
+  </div>
+
+  <div class="linha2">
+    <div class="box" data-rabiscos='[{"tipo":"circulo","alvo":{"x":60,"y":40,"w":160,"h":40},"cor":"azul","passadas":2}]'>
+      <div style="text-align:center;margin-top:20px">passadas: 2</div>
+    </div>
+    <div class="box" data-rabiscos='[
+      {"tipo":"nota","texto":"seta curva","em":[20,40],"tamanho":38,"rotacao":-4},
+      {"tipo":"seta","de":[60,60],"para":[230,120],"curva":0.8}]'></div>
+    <div class="box" data-rabiscos='[
+      {"tipo":"nota","texto":"nota em\nduas linhas","em":[30,55],"tamanho":44,"rotacao":-6,"cor":"preto"}]'></div>
+  </div>
+  <script>Rabiscos.desenharTodos();</script>
+</body>
+</html>
