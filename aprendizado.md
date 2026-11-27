@@ -1,6 +1,6 @@
 # O que está funcionando no @radar.gta6br
 
-Atualizado em 27/11/2026 17:52 (Brasília) com 133 Reels com nota. Média geral: 59.7/100.
+Atualizado em 27/11/2026 20:51 (Brasília) com 133 Reels com nota. Média geral: 59.8/100.
 Gerado por `pipeline/aprendizado.py relatorio`; não editar à mão.
 
 Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% alcance.
@@ -18,7 +18,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | Opção | Posts | Média | Ajustada | |
 |---|---|---|---|---|
 | modelo real da capa (bastidores da arte) | 1 | 78.2 | 65.9 |  |
-| NPC imortal do sniper (easter egg de terror) | 1 | 77.6 | 65.7 |  |
+| NPC imortal do sniper (easter egg de terror) | 1 | 77.5 | 65.7 |  |
 | podcast Final Act: destino de Michael, Franklin e Trevor | 1 | 76.9 | 65.5 |  |
 | combate não letal / jogar GTA 6 sem matar | 1 | 76.7 | 65.4 |  |
 | recursos cortados de GTA 6 | 1 | 76.6 | 65.4 |  |
@@ -41,8 +41,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | bastidores | 5 | 65.2 | 63.6 |  |
 | mecanica/polemica: cheats so depois de zerar | 1 | 71.4 | 63.6 |  |
 | recorde de pré-venda na PlayStation Store + recursos do PS5 Pro | 1 | 71.1 | 63.5 |  |
+| curiosidade/marketing | 2 | 67.0 | 63.4 |  |
 | curiosidade/economia | 1 | 70.5 | 63.3 |  |
-| curiosidade/marketing | 2 | 67.0 | 63.3 |  |
 | noticia/mercado | 1 | 69.8 | 63.1 |  |
 | Miami-Dade aprova acordo de US$ 3,9 mi com a Rockstar (luzes no aeroporto, metrô, semáforos) | 1 | 68.9 | 62.8 |  |
 | classificação etária 18+ no mundo todo e crítica da USK | 1 | 68.3 | 62.6 |  |
@@ -54,7 +54,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | lista/personagens | 1 | 66.1 | 61.9 |  |
 | possível censura do GTA 6 no Japão (CERO Z sem aviso de sexo/drogas, download menor) | 1 | 65.9 | 61.8 |  |
 | Take-Two: pré-venda do GTA 6 muito acima do esperado (resultado do trimestre, 09/11) | 1 | 65.5 | 61.7 |  |
-| fã aluga hotel 1 semana p/ jogar GTA 6 sozinho (esposa acha traição) | 1 | 65.5 | 61.7 |  |
+| fã aluga hotel 1 semana p/ jogar GTA 6 sozinho (esposa acha traição) | 1 | 65.7 | 61.7 |  |
 | curiosidade/numeros | 2 | 63.2 | 61.5 |  |
 | gameplay/mapa | 1 | 64.5 | 61.3 |  |
 | gameplay/mecanica | 1 | 64.4 | 61.3 |  |
@@ -128,7 +128,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|
 | a mina da capa de GTA 6 é de verdade | 1 | 78.2 | 65.9 |  |
 | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 1 | 77.5 | 65.7 |  |
-| GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1 | 77.6 | 65.7 |  |
+| GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1 | 77.5 | 65.7 |  |
 | GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor | 1 | 76.9 | 65.5 |  |
 | dá pra fazer um assalto em GTA 6 sem matar ninguém | 1 | 76.7 | 65.4 |  |
 | numero gigante (8 horas) + comparação com Fortnite | 1 | 76.6 | 65.4 |  |
@@ -153,7 +153,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | numero gigante | 1 | 66.4 | 62.0 |  |
 | GTA 6 pode chegar cortado no Japão | 1 | 65.9 | 61.8 |  |
 | GTA 6 tá vendendo mais do que a própria Take-Two esperava | 1 | 65.5 | 61.7 |  |
-| polêmica | 1 | 65.5 | 61.7 |  |
+| polêmica | 1 | 65.7 | 61.7 |  |
 | pergunta | 11 | 62.0 | 61.6 |  |
 | absurdo | 1 | 64.3 | 61.3 |  |
 | se você pensa em postar o final de GTA 6, para tudo | 1 | 64.1 | 61.2 |  |
@@ -205,7 +205,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | GTA BOOM 18/11 | 2 | 73.8 | 66.8 |  |
 | GTA BOOM 19/11 (post conjunto dos atores no Instagram) | 1 | 79.1 | 66.2 |  |
 | GTA BOOM 24/11 (gtaboom.com/sabii-garcia-gta-6-cover-girl-reference-shoot-835d); arte oficial da capa | 1 | 78.2 | 65.9 |  |
-| GTA BOOM 24/11 (gtaboom.com/gta-6-has-an-unkillable-npc-who-hunts-you-through-a-sniper-scope-here-is-how-to-find-him-c4de); prints do artigo | 1 | 77.6 | 65.7 |  |
+| GTA BOOM 24/11 (gtaboom.com/gta-6-has-an-unkillable-npc-who-hunts-you-through-a-sniper-scope-here-is-how-to-find-him-c4de); prints do artigo | 1 | 77.5 | 65.7 |  |
 | GTA BOOM 24/11 (the-final-act-podcast-in-gta-6...) | 1 | 76.9 | 65.5 |  |
 | GTABase (Rob Nelson, Rockstar North) | 1 | 76.7 | 65.4 |  |
 | GTA BOOM 21/11 (Circana/Mat Piscatella) | 1 | 76.6 | 65.4 |  |
@@ -247,7 +247,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | site oficial da Rockstar (via Push Square) | 1 | 66.1 | 61.9 |  |
 | GTA BOOM 11/11 / PowerUp Gaming 07/11 | 1 | 65.9 | 61.8 |  |
 | Variety/Yahoo 09/11 | 1 | 65.5 | 61.7 |  |
-| Reddit via IBTimes UK 19/11 | 1 | 65.5 | 61.7 |  |
+| Reddit via IBTimes UK 19/11 | 1 | 65.7 | 61.7 |  |
 | Bloomberg (Jason Schreier na Rockstar North) via Player.One/ComicBook 26/10 | 1 | 64.5 | 61.3 |  |
 | GTA BOOM 15/11 (The Guardian hands-on) | 1 | 64.4 | 61.3 |  |
 | Mediaweek via GTA BOOM 16/11 | 1 | 64.3 | 61.3 |  |
@@ -337,8 +337,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 2026-11-19 | [Df7_gJ4BX79](https://www.instagram.com/reel/Df7_gJ4BX79/) | corte | bastidores | revelacao | 1699 | 25.1% | 52% | 60 | 0 | 2 | 1 | 79.1 (h72) |
 | 2026-11-25 | [DgKzPrmq6e1](https://www.instagram.com/reel/DgKzPrmq6e1/) | corte | modelo real da capa (bastidores da arte) | a mina da capa de GTA 6 é de verdade | 1329 | 25.8% | 53% | 45 | 0 | 9 | 1 | 78.2 (h24) |
-| 2026-11-24 | [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/) | corte | NPC imortal do sniper (easter egg de terror) | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1812 | 34.3% | 58% | 75 | 0 | 11 | 9 | 77.6 (h24) |
 | 2026-11-22 | [DgEDP_EByh3](https://www.instagram.com/reel/DgEDP_EByh3/) | corte | noticia/polemica | bônus de pré-venda virou DLC paga de US$ 4,99 um dia depois do lançamento | 3516 | 25% | 51% | 96 | 4 | 9 | 1 | 77.5 (h72) |
+| 2026-11-24 | [DgI3lu4sRpK](https://www.instagram.com/reel/DgI3lu4sRpK/) | corte | NPC imortal do sniper (easter egg de terror) | GTA 6 tem um NPC que não morre e caça você pela mira do sniper | 1823 | 34.5% | 58% | 75 | 0 | 11 | 9 | 77.5 (h72) |
 | 2026-11-25 | [DgLw_9dxiBB](https://www.instagram.com/reel/DgLw_9dxiBB/) | corte | podcast Final Act: destino de Michael, Franklin e Trevor | GTA 6 finalmente contou o que aconteceu com Michael, Franklin e Trevor | 2974 | 33.3% | 54% | 109 | 0 | 18 | 4 | 76.9 (h24) |
 | 2026-11-03 | [DfTIKM8FcaF](https://www.instagram.com/reel/DfTIKM8FcaF/) | corte | combate não letal / jogar GTA 6 sem matar | dá pra fazer um assalto em GTA 6 sem matar ninguém | 219 | 34.9% | 428% | 5 | 0 | 1 | 0 | 76.7 (h72) |
 | 2026-11-21 | [DgBeNkupg-G](https://www.instagram.com/reel/DgBeNkupg-G/) | corte | curiosidade/numeros | numero gigante (8 horas) + comparação com Fortnite | 1884 | 31.4% | 50% | 90 | 1 | 2 | 2 | 76.6 (h72) |
@@ -357,7 +357,7 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-02 | [DfQjmtGlDM_](https://www.instagram.com/reel/DfQjmtGlDM_/) | corte | profecia viral: internet acaba 2 dias antes de GTA 6 | um brasileiro jurou que a internet vai acabar dois dias antes do GTA 6 | 1521 | 24% | 41% | 37 | 0 | 3 | 2 | 72.6 (h72) |
 | 2026-10-28 | [DfCwKjElOi0](https://www.instagram.com/reel/DfCwKjElOi0/) | corte | noticia/vazamentos | revelacao | 1484 | 36.8% | 41% | 48 | 0 | 3 | 5 | 72.3 (h72) |
 | 2026-11-01 | [DfN-d34Eow-](https://www.instagram.com/reel/DfN-d34Eow-/) | corte | GTA 6 pode perder o GOTY no The Game Awards pelo calendário | GTA 6 pode perder o Jogo do Ano | 1268 | 35.6% | 45% | 51 | 0 | 1 | 0 | 72.2 (h24) |
-| 2026-11-26 | [DgOBJs-ivSM](https://www.instagram.com/reel/DgOBJs-ivSM/) | corte | jogar GTA 6 de graça (PlayMyPS5) | pegadinha | 1308 | 30.9% | 35% | 37 | 1 | 11 | 11 | 71.8 (provisória) |
+| 2026-11-26 | [DgOBJs-ivSM](https://www.instagram.com/reel/DgOBJs-ivSM/) | corte | jogar GTA 6 de graça (PlayMyPS5) | pegadinha | 1310 | 31% | 35% | 37 | 1 | 11 | 11 | 71.8 (h24) |
 | 2026-10-21 | [DewqpXtD8qE](https://www.instagram.com/reel/DewqpXtD8qE/) | corte | bastidores | pergunta | 1311 | 33.5% | 38% | 64 | 0 | 7 | 10 | 71.7 (h72) |
 | 2026-10-30 | [DfIUyYgAtdc](https://www.instagram.com/reel/DfIUyYgAtdc/) | corte | prévia Edge: mapa cedo, combustível, transporte | mentira_verdade | 1462 | 39.8% | 43% | 65 | 1 | 3 | 35 | 71.7 (h72) |
 | 2026-11-18 | [Df5v6ZZK41B](https://www.instagram.com/reel/Df5v6ZZK41B/) | corte | mecanica/polemica: cheats so depois de zerar | em GTA 6 você não vai poder usar código de trapaça logo de cara | 1379 | 30.9% | 45% | 32 | 1 | 1 | 4 | 71.4 (h72) |
@@ -383,8 +383,8 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 | 2026-11-20 | [Df-5ECrzcJ0](https://www.instagram.com/reel/Df-5ECrzcJ0/) | corte | vendas/numeros | numero gigante | 1708 | 35.6% | 34% | 37 | 0 | 0 | 7 | 66.4 (h72) |
 | 2026-10-22 | [Dez4k1_jEoY](https://www.instagram.com/reel/Dez4k1_jEoY/) | corte | lista/personagens | lista | 138 | 28.8% | 41% | 6 | 0 | 1 | 1 | 66.1 (h72) |
 | 2026-11-11 | [DfnbZUiqJGe](https://www.instagram.com/reel/DfnbZUiqJGe/) | corte | possível censura do GTA 6 no Japão (CERO Z sem aviso de sexo/drogas, download menor) | GTA 6 pode chegar cortado no Japão | 2030 | 32.9% | 41% | 45 | 0 | 3 | 2 | 65.9 (h72) |
+| 2026-11-26 | [DgOVfvQNwN8](https://www.instagram.com/reel/DgOVfvQNwN8/) | corte | fã aluga hotel 1 semana p/ jogar GTA 6 sozinho (esposa acha traição) | polêmica | 698 | 38.3% | 38% | 22 | 0 | 2 | 0 | 65.7 (provisória) |
 | 2026-11-09 | [DfilgBtP9DR](https://www.instagram.com/reel/DfilgBtP9DR/) | corte | Take-Two: pré-venda do GTA 6 muito acima do esperado (resultado do trimestre, 09/11) | GTA 6 tá vendendo mais do que a própria Take-Two esperava | 869 | 39.6% | 37% | 23 | 1 | 3 | 0 | 65.5 (h72) |
-| 2026-11-26 | [DgOVfvQNwN8](https://www.instagram.com/reel/DgOVfvQNwN8/) | corte | fã aluga hotel 1 semana p/ jogar GTA 6 sozinho (esposa acha traição) | polêmica | 687 | 38.7% | 38% | 22 | 0 | 2 | 0 | 65.5 (provisória) |
 | 2026-10-26 | [De9kza7D09n](https://www.instagram.com/reel/De9kza7D09n/) | corte | gameplay/mapa | comparacao | 827 | 39.7% | 31% | 26 | 0 | 3 | 4 | 64.5 (h72) |
 | 2026-11-16 | [DfzpDyBN7vH](https://www.instagram.com/reel/DfzpDyBN7vH/) | corte | gameplay/mecanica | revelacao | 162 | 38.7% | 47% | 5 | 0 | 0 | 1 | 64.4 (h72) |
 | 2026-11-16 | [Df0mVg9tZCt](https://www.instagram.com/reel/Df0mVg9tZCt/) | corte | marca/humor | absurdo | 1800 | 26.1% | 37% | 43 | 0 | 1 | 0 | 64.3 (h72) |
@@ -471,4 +471,5 @@ Nota = 35% quem não pulou + 25% % assistido + 30% interação por view + 10% al
 
 ## Recentes (menos de 12 h, ainda sem nota)
 
-- [DgP83-JyVPK](https://www.instagram.com/reel/DgP83-JyVPK/): 5.9 h no ar, 638 views, 38.6% pularam, 40% assistido, 33 curtidas
+- [DgP83-JyVPK](https://www.instagram.com/reel/DgP83-JyVPK/): 8.9 h no ar, 912 views, 37.9% pularam, 50% assistido, 54 curtidas
+- [DgQl8dit7AR](https://www.instagram.com/reel/DgQl8dit7AR/): 2.9 h no ar, 1283 views, 26.4% pularam, 50% assistido, 34 curtidas
