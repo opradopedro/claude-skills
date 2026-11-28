@@ -5149,8 +5149,8 @@
    "avgWatchedPct": 47.41,
    "skipRate": 31.2,
    "durationSeconds": 43,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 80.8
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 95.8
   },
   "h24": {
    "playCount": 1669,
@@ -5183,17 +5183,17 @@
   "publicado": "2026-11-24T20:59:19.000Z",
   "legenda": "GTA 6 tem um NPC que NÃO MORRE e te caça pela mira do sniper",
   "atual": {
-   "playCount": 1823,
+   "playCount": 1825,
    "likeCount": 75,
    "commentCount": 0,
    "shares": 9,
    "saves": 11,
-   "avgWatchTimeMs": 21500,
-   "avgWatchedPct": 58.11,
+   "avgWatchTimeMs": 21473,
+   "avgWatchedPct": 58.04,
    "skipRate": 34.5,
    "durationSeconds": 37,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 74.9
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 89.9
   },
   "h24": {
    "playCount": 1812,
@@ -5235,8 +5235,8 @@
    "avgWatchedPct": 41.09,
    "skipRate": 30.7,
    "durationSeconds": 49,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 71.8
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 86.8
   },
   "h24": {
    "playCount": 1745,
@@ -5250,6 +5250,19 @@
    "durationSeconds": 49,
    "coletado": "2026-11-26T14:52Z",
    "horas": 38.8
+  },
+  "h72": {
+   "playCount": 1746,
+   "likeCount": 59,
+   "commentCount": 0,
+   "shares": 4,
+   "saves": 5,
+   "avgWatchTimeMs": 20132,
+   "avgWatchedPct": 41.09,
+   "skipRate": 30.7,
+   "durationSeconds": 49,
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 86.8
   }
  },
  "DgKzPrmq6e1": {
@@ -5265,8 +5278,8 @@
    "avgWatchedPct": 52.89,
    "skipRate": 25.8,
    "durationSeconds": 34,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 56.9
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 71.9
   },
   "h24": {
    "playCount": 1329,
@@ -5295,8 +5308,8 @@
    "avgWatchedPct": 41.09,
    "skipRate": 32.2,
    "durationSeconds": 36,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 50.9
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 65.9
   },
   "h24": {
    "playCount": 1378,
@@ -5316,17 +5329,17 @@
   "publicado": "2026-11-25T23:59:29.000Z",
   "legenda": "GTA 6 contou o que aconteceu com Michael, Franklin e Trevor",
   "atual": {
-   "playCount": 2975,
-   "likeCount": 109,
+   "playCount": 2978,
+   "likeCount": 110,
    "commentCount": 0,
    "shares": 4,
    "saves": 18,
-   "avgWatchTimeMs": 22190,
-   "avgWatchedPct": 54.12,
+   "avgWatchTimeMs": 22181,
+   "avgWatchedPct": 54.1,
    "skipRate": 33.3,
    "durationSeconds": 41,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 47.9
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 62.9
   },
   "h24": {
    "playCount": 2974,
@@ -5355,8 +5368,8 @@
    "avgWatchedPct": 48.44,
    "skipRate": 29.9,
    "durationSeconds": 36,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 32.8
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 47.8
   },
   "h24": {
    "playCount": 1681,
@@ -5385,8 +5398,8 @@
    "avgWatchedPct": 35.31,
    "skipRate": 31,
    "durationSeconds": 34,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 26.9
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 41.9
   },
   "h24": {
    "playCount": 1310,
@@ -5411,46 +5424,76 @@
    "commentCount": 0,
    "shares": 0,
    "saves": 2,
-   "avgWatchTimeMs": 12015,
-   "avgWatchedPct": 37.55,
-   "skipRate": 38.3,
+   "avgWatchTimeMs": 12024,
+   "avgWatchedPct": 37.57,
+   "skipRate": 38.5,
    "durationSeconds": 32,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 23.9
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 38.9
+  },
+  "h24": {
+   "playCount": 698,
+   "likeCount": 22,
+   "commentCount": 0,
+   "shares": 0,
+   "saves": 2,
+   "avgWatchTimeMs": 12024,
+   "avgWatchedPct": 37.57,
+   "skipRate": 38.5,
+   "durationSeconds": 32,
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 38.9
   }
  },
  "DgP83-JyVPK": {
   "publicado": "2026-11-27T15:00:25.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 912,
-   "likeCount": 54,
+   "playCount": 1324,
+   "likeCount": 72,
    "commentCount": 0,
    "shares": 1,
    "saves": 4,
-   "avgWatchTimeMs": 17506,
-   "avgWatchedPct": 50.02,
-   "skipRate": 37.9,
+   "avgWatchTimeMs": 17685,
+   "avgWatchedPct": 50.53,
+   "skipRate": 39,
    "durationSeconds": 35,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 8.9
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 23.9
   }
  },
  "DgQl8dit7AR": {
   "publicado": "2026-11-27T20:59:09.000Z",
   "legenda": "",
   "atual": {
-   "playCount": 1283,
-   "likeCount": 34,
-   "commentCount": 0,
+   "playCount": 1702,
+   "likeCount": 51,
+   "commentCount": 1,
    "shares": 0,
-   "saves": 2,
-   "avgWatchTimeMs": 18008,
-   "avgWatchedPct": 50.02,
-   "skipRate": 26.4,
+   "saves": 3,
+   "avgWatchTimeMs": 18591,
+   "avgWatchedPct": 51.64,
+   "skipRate": 30.3,
    "durationSeconds": 36,
-   "coletado": "2026-11-27T23:51Z",
-   "horas": 2.9
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 17.9
+  }
+ },
+ "DgQ6gowA28w": {
+  "publicado": "2026-11-27T23:58:50.000Z",
+  "legenda": "",
+  "atual": {
+   "playCount": 1781,
+   "likeCount": 23,
+   "commentCount": 1,
+   "shares": 0,
+   "saves": 1,
+   "avgWatchTimeMs": 13545,
+   "avgWatchedPct": 35.64,
+   "skipRate": 35.5,
+   "durationSeconds": 38,
+   "coletado": "2026-11-28T14:52Z",
+   "horas": 14.9
   }
  }
 }
